@@ -1,19 +1,24 @@
+/*
+	yozora.css: Yozora Style Sheet of tDiary $Revision: 1.2 $
+	Copyright (C) nana http://mikan.sakura.ne.jp/~mpc/
+ */
 
 body {
-    text-align : center;
-    font-family :osaka, Arial,"MS UI Gothic";
-    font-size: small;
+	text-align : center;
+	font-family :osaka, Arial,"MS UI Gothic";
+	font-size: small;
 	background-image: url(yozora.gif);
-    background-attachment:fixed;
+	background-attachment:fixed;
 	color: #999;
-    background-color: #000;
-    scrollbar-face-color: #000;
-    scrollbar-highlight-color: #000;
-    scrollbar-3dlight-color: #000;
-    scrollbar-darkshadow-color: #000;
-    scrollbar-shadow-color: #000;
-    scrollbar-arrow-color: #BDD6C6;
-    scrollbar-track-color: #000;
+	background-color: #000;
+	/* scrollbar property is only for IE. */
+	scrollbar-face-color: #000;
+	scrollbar-highlight-color: #000;
+	scrollbar-3dlight-color: #000;
+	scrollbar-darkshadow-color: #000;
+	scrollbar-shadow-color: #000;
+	scrollbar-arrow-color: #BDD6C6;
+	scrollbar-track-color: #000;
 }
 
 a:link {
@@ -22,7 +27,7 @@ a:link {
 }
 a:visited {
         text-decoration: none;
-        color: orange;
+        color: #ffa500;
 }
 a:hover,a:active {
 	text-decoration: underline;
@@ -36,7 +41,6 @@ p.adminmenu {
 
 p.message {
 	text-align: center;
-	
 	background-color: red;
 	color: white;
 	padding: 8px;
@@ -45,32 +49,29 @@ p.message {
 span.adminmenu {
 	background-color: transparent;
 	padding: 3px;
-    
 }
 
 h1 {
 	text-align: left;
-	
 }
 
 p.calendar {
-    color: #fff;
+	color: #fff;
 	font-size: small;
-    font-weight: bold;
+	font-weight: bold;
 	background-color: transparent;
 	text-align: center;
 	padding: 2px;
-    border-style: solid;
+	border-style: solid;
 	border-color: #ADCD03;
 	border-width: 1px;
-    border-style: none;
-    
+	border-style: none;
 }
 
 div.day {
-    background-color: #000;
-    color:#fff
-    font-size: small;
+	background-color: #000;
+	color:#fff;
+	font-size: small;
 	margin: 3em auto 3em auto;
 	text-align: right;
 	clear: both;
@@ -86,8 +87,7 @@ h2 {
 	margin-bottom: 0em;
 	margin-left: auto;
 	margin-right: 0px;
-	
-    font-weight: bold;
+	font-weight: bold;
 }
 
 span.date {
@@ -98,7 +98,6 @@ span.date {
 	margin-left: auto;
 	margin-right: 0px;
 	padding-bottom: 0em;
-	
 }
 
 span.title {
@@ -106,7 +105,6 @@ span.title {
 }
 
 div.body {
-    
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -141,7 +139,6 @@ h3.subtitle {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-    
 	clear: both;
 }
 span.anchor {
@@ -150,15 +147,13 @@ span.anchor {
 	margin-left: 12px;
 	margin-right: 12px;
 	font-weight: bold;
-	
 	float: left;
 }
 
 pre {
 	border-style: none;
-	
-Å@Å@background-color: #867585;
-    color: #fff; 
+	background-color: #867585;
+	color: #fff; 
 	border-color: #fcc;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -178,15 +173,12 @@ div.comment {
 
 p.commenttitle {
 	text-align: right;
-	
 	position: relative;
-	
 	color: #800040;
 	display: inline;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-style: none;
-	
 }
 
 span.commentator {
@@ -198,7 +190,6 @@ span.commentator {
 }
 
 p.comment {
-	
 	text-align: left;
 	color: #800040;
 	padding: 0px 0px 0px 0px;
@@ -219,7 +210,7 @@ p.referertitle {
 	border-style: solid;
 	border-color: #ADCD03;
 	border-width: 1px 1px 1px 1px;
-    padding: 4px;
+	padding: 4px;
 }
 
 p.referer {
@@ -230,7 +221,6 @@ p.referer {
 	top: 10px;
 	left: -20px;
 	clear: both;
-	
 	background-color: #000;
 	padding: 2px;
 	border-style: solid;
@@ -239,7 +229,7 @@ p.referer {
 }
 
 div.refererlist {
-    color:#fff;
+	color:#fff;
 	font-size: small;
 	text-align: right;
 	padding-bottom: 1px;
@@ -273,47 +263,40 @@ p.footer {
 }
 
 div.form {
-    
-    color:#fff;
-    fontcolor: #00007F
+	 color:#fff;
+/*    fontcolor: #00007F;*/
 	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-style: double;
-    width: 70%;
+	border-style: double;
+	width: 70%;
 }
 form {
-    color:#fff;
-    fontcolor: #00007F
+	color:#fff;
+/*    fontcolor: #00007F*/
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-color: #ADCD03;
+	border-color: #ADCD03;
 	border-style: none;
 }
 
 
 input.field {
-    color:#000;
-    
+	color:#000;
 	background-color: #fff;
-	
 	border-color: #ADCD03;
 	border-style: solid;
-	
 }
 
 input, select, option {
-	
 	color:#000;
 	border-color: #ADCD03;
 	border-style: solid;
-	
 	clear: both;
 }
 
 textarea {
-    
 	background-color: #fff;
 	color: #000;
 	border-color: #ADCD03;
@@ -338,6 +321,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-Å@Å@font-family:"Comic Sans MS","ÇlÇr UI ÉSÉVÉbÉN";
-    color: #400080;
+	font-family:"Comic Sans MS","ÇlÇr UI ÉSÉVÉbÉN";
+	color: #400080;
 }

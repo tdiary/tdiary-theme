@@ -1,0 +1,17 @@
+Title: Ocha
+Author: Nana
+Access: <http://mikan.sakura.ne.jp/~mpc/>
+License: GPL
+Comment: なんとなくお茶色なテーマ
+
+	Copyright (c) 2002 Nana <http://mikan.sakura.ne.jp/~mpc/>
+	validated by W3C.
+
+ChangeLog
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	* add image at left-top position in update form.
+	* remove some comment-out lines(/* hoge */).
+
+2002-05-11 Nana
+        * h2 line-height: 40px;

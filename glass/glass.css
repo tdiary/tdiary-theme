@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -12,6 +12,8 @@ Comment: かき氷なテーマ(おぃ
 
 /*
         Change-log
+2002-05-10 Nana
+        * div.day margin-left,right:1em -> auto
 2002-05-05 Nana
         * h2 font-size:0.9em -> 1em
 */
@@ -45,7 +47,6 @@ body {
 	background-color: #ffffff;
 	color: #000080;
         font-size: 1em;
-        margin-left: 0;
 }
 
 p.message {
@@ -92,8 +93,8 @@ div.day {
 	background-image: url(glass_back_day.png);
 	background-repeat: no-repeat;
 	background-position: 0% 100%;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 5em;
 	border-style: none;
 	border-color: #b0aaa0;

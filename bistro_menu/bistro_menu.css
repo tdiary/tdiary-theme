@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.14 $
+Revision: $Revision: 1.15 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -10,6 +10,8 @@ Comment: レストランのメニューのようなテーマ
 	validated by W3C.
 */
 /* ChangeLog
+2002-05-10 Nana
+        * div.day margin-left,right -> auto
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* font-size: smaller -> 0.9em.
 
@@ -97,8 +99,8 @@ div.day {
 	background-image: url(bistro_menu_back_day.gif);
 	background-repeat: no-repeat;
 	background-position: 0% 100%;
-	margin-left: 3em;
-	margin-right: 1em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 5em;
 	border-style: ridge;
 	border-color: #b0aaa0;

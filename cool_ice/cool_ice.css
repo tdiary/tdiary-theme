@@ -1,10 +1,10 @@
 /*
 Title: クールアイス
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
-Comment: 夏向きのシンプルで涼しげなテーマ
+Comment: 夏向きのシンプルで涼しげなテーマ(ちと修正)
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
@@ -161,10 +161,13 @@ div.comment {
 	background-color: transparent;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
-	margin-left: 15%;
-	margin-right: 15%;
 	padding: 4px;
 	font-size: small;
+	margin-left: 3em;
+}
+div.day div.comment {
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 div.form div.comment {
@@ -236,9 +239,12 @@ div.refererlist {
 	background-color: transparent;
 	margin-top: 0px;
 	margin-bottom: 0.5em;
+	margin-left: 3em;
+	font-size: small;
+}
+div.day div.refererlist {
 	margin-left: 15%;
 	margin-right: 15%;
-	font-size: small;
 }
 
 ul.referer {
@@ -276,8 +282,6 @@ form div.body {
 	border-style: solid;
 	border-color: #89dbff;
 	border-width: 1px;
-	color: #008;
-	background-color: #cfd;
 	padding: 0px 4px 4px 4px;
 }
 

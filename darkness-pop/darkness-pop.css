@@ -1,19 +1,14 @@
 /*
-  darkness-pop.css: Darkness-pop Style Sheet of tDiary
-  validated by W3C.
-  Copyright (C) Nana <http://moo.boo.jp>
-  Title:Darkness-pop
-  Original theme is sodapop by kadu <http://www.bb.wakwak.com/~akk/kadu/>
-  Comment: dropdown_calendar推奨です。
-  Author: Nana
-  License: GPL
+Title: Darkness-pop
+Revision: $Revision: 1.10 $
+Author: Nana
+Access: <clores@estyle.ne.jp>
+License: GPL
+Comment: support major plugin.
 
-Changelog
-2002-10-18 NT <nt@24i.net>
-        * remove some "color:".
-
-2002-09-14 NT <nt@24i.net>
-        * convert for 1.5 series.
+	Copyright 2003 (C) by Nana <clores@estyle.ne.jp>
+	validated by W3C.
+	Original theme is sodapop by kadu <http://www.bb.wakwak.com/~akk/kadu/>
 */
 
 /*
@@ -24,23 +19,21 @@ body {
 	color: #e6e6fa;
 	margin-left: 4em;
 	margin-right: 4em;
-	margin-top: 0px;
 }
-h1 {
-	font-size: 0.8em;
-}
+
 /*
   ページトップにある操作ボタンの並ぶ行の設定
   */
 div.adminmenu {
 	text-align: right;
-	font-size: small;
+	font-size: 90%;
 }
 
 /*
   ページトップにある操作ボタン自体の設定
   */
 span.adminmenu {
+	padding: 3px;
 }
 
 /*
@@ -48,6 +41,7 @@ span.adminmenu {
   */
 h1 {
 	text-align: left;
+	font-size: 160%;
 }
 
 /*
@@ -61,10 +55,10 @@ div.calendar {
 	width: 350px;
 	height: 40px;
 	color:#555;
-	text-align: center;
-	font-size: 0.8em;
+	text-align: left;
+	font-size: 90%;
 	padding-top: 5px;
-	padding-left: 4px;
+	padding-left: 1.5em;
 }
 /*
   1日の日記全体を囲む枠の設定
@@ -79,7 +73,7 @@ div.day {
   */
 h2 {
 	background-color: #AFC0DF;
-	font-size: 1em;
+	font-size: 110%;
 	margin: 0px;
 	padding: 0.2em;
 	padding-left: 5px;
@@ -93,6 +87,7 @@ h2 span.date {
 	margin-right: 2em;
 	font-size: 15px;
 	text-align: right;
+	font-size: 120%;
 }
 
 /*
@@ -115,7 +110,7 @@ div.body {
   */
 h3 {
 	color: #DDA0DD;
-	font-size: medium;
+	font-size: 110%;
 	margin: 0em;
 	font-weight: bold;
 	border-bottom: 1px solid #555;
@@ -150,18 +145,15 @@ div.comment div.caption {
 	border-style: solid;
 	border-color: #555;
 	border-width: 0px 0px 1px 0px;
+	font-size: 90%;
 }
-
-/*
-  ツッコミした人の名前の設定
-  */
 
 /*
   リンク元リスト(短い方)の設定
   */
 div.referer {
 	text-align: right;
-	font-size: small;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 24px;
@@ -172,7 +164,7 @@ div.referer {
   リンク元リスト(全体一覧)の設定
   */
 div.refererlist {
-	font-size: small;
+	font-size: 90%;
 	background-color: transparent;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -188,6 +180,7 @@ div.refererlist div.caption {
 	border-style: solid;
 	border-color: #555;
 	border-width: 0px 0px 1px 0px;
+	font-size: 90%;
 }
 
 /*
@@ -195,6 +188,7 @@ div.refererlist div.caption {
   */
 div.refererlist ul {
 	margin-top: 0em;
+	line-height: 120%;
 }
 
 /*
@@ -218,7 +212,6 @@ hr.sep {
   */
 div.footer {
 	text-align: right;
-	margin-top: 0px;
 }
 
 /*
@@ -479,4 +472,107 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	border:1px solid #999;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 90%;
+}
+
+div.footnote {
+	font-size: 90%;
+	border-top: solid 1px #999;
+	margin: 0px 3em;
+}
+
+p.footnote {
+	margin: 0.2em;
+	padding: 0em;
+}
+
+/*
+サイドバー関連
+*/
+/*
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	border-style: solid;
+	border-color: #999;
+	border-width: 0px 2px 2px 0px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+	margin: 2px 4px 2px 4px;
+}
+*/
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-right: 1.5em;
+        margin-top: 0px;
+	text-align: right;
+	font-size:90%;
+        line-height: 24px;
+        font-style: italic;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: left;
 }

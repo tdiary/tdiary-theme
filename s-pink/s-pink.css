@@ -1,0 +1,275 @@
+/*
+	div.css: Division Style Sheet of tDiary $Revision: 1.1 $
+ */
+a:link {
+	text-decoration: none;
+	color: #FF4242;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF4242;
+}
+
+a:active {
+    color: #000;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: pink;
+}
+
+body {
+	background-color: #FFF2EC;
+    
+	color: #000;
+	margin-right: 15%;
+	margin-left: 15%;
+    /*font-family :osaka,"MS UI ¥´¥·¥Ã¥¯","Lucida Sans Unicode",Arial;*/
+    /*font-size: small;*/
+}
+
+strong {
+    font-weight: bold;
+	font-size: larger;
+}
+
+p.adminmenu {
+    /*font-family :osaka,"Lucida Sans Unicode",Arial;*/
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	color: #000;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+    
+}
+
+p.calendar {
+    /*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
+	color: #000;
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+}
+div.day {
+	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
+	border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #000;
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 30px;
+	margin: 0em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	font-size: medium;
+	
+}
+
+span.date {
+	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
+	font-size: small;
+	margin-left: 0.5em;
+    margin-top: 3em;
+}
+span.date a {
+	color: #FF4242;
+}
+span.title {
+}
+
+div.body {
+	color: #000;
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+	margin-left: auto;
+	margin-right: 6px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-hight: 1.5;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4;
+}
+
+h3.subtitle {
+	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+pre {
+	background-color: pink;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 20px;
+  	margin: 0em;
+	margin-right: auto;
+	margin-left: 6px;
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+p.commenttitle {
+	text-align: right;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	width: 80%;
+	
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
+	font-size: small;
+	text-align: right;
+	height: 32px;
+}
+p.footline {
+	float:left;
+}
+
+div.form {
+	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
+	color: #000;
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	
+	margin-bottom: 0.5em;
+}
+
+input.field {
+	color: black;
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	color: black;
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	/*font-family:"Comic Sans MS","£Í£Ó UI ¥´¥·¥Ã¥¯";*/
+    color: red;
+}

@@ -1,0 +1,257 @@
+/*
+	fine.css: Division Style Sheet of tDiary $Revision: 1.1 $
+ */
+a:link {
+	text-decoration: none;
+	color: #26a;
+}
+a:visited {
+	text-decoration: none;
+	color: #d82;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: mediumblue;
+}
+
+body {
+	background-color: black;
+	color: white;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+strong {
+        font-weight: bold;
+	font-size: larger;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+}
+div.day {
+	background-image: url(fine.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	border-style: none;
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 80px;
+	margin: 0em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	font-size: small;
+    /* Internet Explorer 5 (Mac) can't float a box which isn't assigned its widt
+h.  
+    float: right;
+    */
+}
+
+span.date {
+	font-size: small;
+	margin-left: 0.5em;
+}
+span.date a {
+	color: #a62;
+}
+span.title {
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+	margin-left: auto;
+	margin-right: 6px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-hight: 1.5;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+div.body p a{
+	background-image: url(fine_blueunderline2.png);
+	background-position: left bottom;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 140%;
+}
+
+h3.subtitle {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+pre {
+     	background-image: url(fine_pre.png);
+	background-color: black;
+	color: #fff;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	background-image: url(fine_comment.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 60px;
+  	margin: 0em;
+	margin-right: auto;
+	margin-left: 6px;
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+p.commenttitle {
+	text-align: right;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	width: 66%;
+	margin-top: 0.5em;
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	height: 32px;
+}
+p.footline {
+	float:left;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	width: 66%;
+	margin-bottom: 0.5em;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

@@ -1,14 +1,18 @@
 Title: 看板
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 Comment: 日付が看板に描かれているように見えます
 License: GPL
 
-Copyright by (C) Nana http://moo.boo.jp
+Copyright 2001 (C) by Nana<clorets@estyle.ne.jp>
 validated by W3C
 
 ChangeLog
-2002-11-02 Nana <moo@xu.boo.jp>
+2003-03-13 Nana <clorets@estyle.ne.jp>
+	* div.referer,div.refererlist font-size:13px->90%
+	* support calendar3,p.source,form.search
+
+2002-11-02 Nana <clorets@estyle.ne.jp>
 	* remove body,div.body font-size:13px 
 	* remove p.calendar font-size,font-family
 	* set blockquote,recent_list,calendar2,footnote

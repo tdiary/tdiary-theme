@@ -1,6 +1,6 @@
 /*
 Title: 小宇宙
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -9,9 +9,6 @@ Comment: コスモを燃やすべし
 Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
  */
-
-/* sidebar用css */
-@import "sidebar.css";
 
 a:link {
 	text-decoration: none;
@@ -265,26 +262,108 @@ em {
 	font-style: normal;
 }
 
-/* sidebarの色指定 */
+span.keyword {
+	color: #f00;
+}
+
+/* 画像plugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+/* sidebar */
+
+div.leftsidebar {
+	width: 18%;
+	float: left;
+	margin: 0em 8px 0em 0em;
+	padding: 0em;
+}
+
+div.leftsidebar p{
+	margin: 0em;
+}
+
+div.rightsidebar {
+	width: 18%;
+	float: right;
+	padding: 0em ! important;
+}
+
+div.rightsidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #001;
+	border: solid 1px #008;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0em;
+}
+
+div.list p {
+	background-color: #006;
+	margin: 0em;
+	text-align: center;
+}
+
+form.search {
+	text-align: center;
+}
 
 div.calendar {
+	font-size: small;
+	text-align: left;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
 	background-color: #001;
 	border: solid 1px #008;
 }
 
 div.calendar p.year {
 	background-color: #006;
+	margin: 0em;
+	text-align: center;
 }
 
-div.list {
-	background-color: #001;
-	border: solid 1px #008;
+div.calendar a:hover {
+	display: block;
+	border-style: solid;
+	border-width:  1px;
+	border-color:  #fff #888 #888 #fff;
 }
 
-div.list p {
-	background-color: #006;
+div.calendar a {
+	margin: 0em;
+	text-align: center;
+	display: block;
+	border: none 1px #888;
 }
 
-span.keyword {
-	color: #f00;
+div.list ul {
+	padding-left: 1.2em;
+	margin: 0em;
+	list-style: circle;
 }

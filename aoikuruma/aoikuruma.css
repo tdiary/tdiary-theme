@@ -1,6 +1,6 @@
 /*
 Title: Aoikuruma
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -18,7 +18,6 @@ body {
 	background-color: #fff;
 	background-image: url(aoikuruma_bg.png);
 	color: #808000;
-	font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;
 	margin: 0px 10%;
 }
 

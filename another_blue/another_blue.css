@@ -1,6 +1,6 @@
 /*
 Title: another_blue
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: kazuaki
 License: GPL
 Comment: 
@@ -25,7 +25,6 @@ validated by W3C.
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: white;
 	color: black;
 }
@@ -149,7 +148,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	font-weight: bold;
 	margin: 0em;
 	border-style: solid;
@@ -469,7 +468,7 @@ div.footnote {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -487,7 +486,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -518,7 +517,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #69f;
         border-width: 0px 0px 1px 0px;
@@ -526,7 +525,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

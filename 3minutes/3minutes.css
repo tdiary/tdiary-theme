@@ -1,6 +1,6 @@
 /*
 Title: 3minutes
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -16,7 +16,6 @@ validated by W3C.
 body {
 	background-color: #ECF5FF;
 	color: #555555;
-	font-family: Arial,Verdana,Helvetica,'MS UI Gothic',sans-serif;
 }
 
 /*
@@ -517,7 +516,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

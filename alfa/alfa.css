@@ -1,6 +1,6 @@
 /*
 Title: alfa
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: abbey
 Access: inlet@cello.no-ip.org
 License: GPL
@@ -46,7 +46,7 @@ body {
 
 strong {
         font-weight: bold;
-	font-size: 1.5em;
+	font-size: 150%;
 	background-color: transparent;
 	color: #fee;
 }
@@ -149,7 +149,7 @@ h3 {
 	padding: 0em;
 	padding-top: 0.5em;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 100%;
 	margin-bottom: 0em;
 	margin-top: 0em;
 }
@@ -419,7 +419,7 @@ span.counter-0,span.counter-1,span.counter-2,span.counter-3,span.counter-4,span.
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -437,7 +437,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -465,12 +465,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

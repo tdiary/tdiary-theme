@@ -8,6 +8,11 @@ Modified by TADA Tadashi
 validated by W3C.
 
 ChanaegLog
+2003-03-27 Nana <clorets@estyle.ne.jp>
+	* support major plugin.
+	* font-size adjustment.
+	* remove some duplicate lines.
+
 2002-10-05 NT <nt@24i.net>
         * change some properties in update form.
 

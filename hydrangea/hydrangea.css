@@ -1,0 +1,336 @@
+/*
+Title: Hydrangea
+Revision: $Revision: 1.1 $
+Author: oyuu
+Access: <http://landscape.tdiary.net/>
+License: GPL
+Comment: »çÍÛ²Ö¤Îµ¨Àá¤Ë¸þ¤±¤Æ
+        
+        Hydrangea Style Sheet of tDiary 
+	Copyright (c) 2002 oyuu
+        Modified by Nana <mpc@mikan.sakura.ne.jp>
+	validated by W3C.
+*/
+
+a:link{ 
+        text-decoration: underline;
+	color: #7B68EE 
+}
+a:visited{ 
+        text-decoration: underline;
+	color: #7B68EE 
+}
+a:active  { color: #B0C4DE }
+a:hover   { color: #B0C4DE }
+
+body {
+	background-color: #ffffff;
+	color: #6A5ACD;
+	margin: 0px
+}
+
+p.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+span.adminmenu {}
+
+h1 {
+	border-bottom: #8A7CD8 1px solid;
+	margin: 0%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Tempus Sans ITC", sans-serif;
+}
+
+p.calendar {
+	font-size: 90%;
+	margin: 3% 5% 1% 5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left;
+}
+
+.headline {
+	border-bottom:#8A7CD8 0px solid;
+	border-left: #8A7CD8 0px solid;
+	border-right: #8A7CD8 0px solid;
+	border-top: #8A7CD8 0px solid;
+	font-size: 90%;
+	margin: 1% 1% 1% 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: right
+}
+
+div.intro{
+	margin-left: 40%;
+	margin-right: 5%;
+}
+
+div.day {
+	margin: 2% 20% 2% 20%;
+	padding: 1% 1% 1% 1%;
+}
+
+h2 {
+	font-size: 100%;
+	background-color: #DDDDFF;
+	margin-top: 3%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+span.date {
+	font-style: normal;
+	margin-left: 0.5%
+}
+
+span.title {
+	font-size: 100%
+}
+
+div.body {
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 1px solid;
+	border-right: #8A7CD8 1px solid;
+	border-top: #8A7CD8 1px solid;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 1% 1% 1% 1%;
+}
+
+h3.subtitle {
+	font-size: 90%;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 0.1%
+}
+
+div.day p {
+	line-height: 1.5;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+p {
+	font-size: 90%;
+}
+
+div.comment {
+	font-size: 90%;
+}
+
+p.commenttitle {
+	padding-left: 0.2%;
+	border-top: #8A7CD8 1px solid;
+	border-right: #8A7CD8 0px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 0px solid;
+}
+
+span.commentator {
+	border-top: #8A7CD8 1px solid;
+	border-right: #8A7CD8 0px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 0px solid;
+	color: #6A5ACD;
+	padding: 1% 1% 1% 1%;
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+p.referer {
+	font-size: 90%;
+	border-top: #8A7CD8 1px solid;
+	border-right: #8A7CD8 0px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 0px solid;
+	padding-top: 0.2%;
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+	text-align: right
+}
+
+div.refererlist {
+	border-top: #8A7CD8 1px solid;
+	border-right: #8A7CD8 0px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 0px solid;
+	font-size: 90%;
+	padding-top: 0.2%; 
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+}
+
+p.referertitle {
+	border-top: #8A7CD8 0px solid;
+	border-right: #8A7CD8 0px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 0px solid;
+}
+
+UL.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-top: #8A7CD8 1px solid;
+	border-right: #8A7CD8 1px solid;
+	border-bottom: #8A7CD8 1px solid;
+	border-left: #8A7CD8 1px solid;
+}
+
+hr.sep { 
+        
+}
+
+.sfooter {}
+
+p.footer {
+	font-family: "Tempus Sans ITC", sans-serif;
+	font-size: 85%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	text-align: right
+}
+
+div.form {
+	padding-top: 0.5%;
+	padding-right: 1%;
+	padding-bottom: 0.5%;
+	padding-left: 1%;
+}
+
+input.field {
+	background-color: #ffffff;
+	border-right: 1px solid #8A7CD8;
+	border-left: 1px solid #8A7CD8;
+	border-top: 1px solid #8A7CD8;
+	border-bottom: 1px solid #8A7CD8;
+        text-indent: 0em ! important;
+        color: #000;
+}
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	background-color: #ffffff;
+	border-right: 1px solid #8A7CD8;
+	border-left: 1px solid #8A7CD8;
+	border-top: 1px solid #8A7CD8;
+	border-bottom: 1px solid #8A7CD8;
+        text-indent: 0em ! important;
+        width: 90%;
+        color: #000;
+}
+
+p.message {
+	background-color: #ffffff;
+	color: #6A5ACD;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-align: center;
+}
+
+pre {
+	background-color: #ffffff;
+	border-top: #8A7CD8 2px solid;
+	border-right: #8A7CD8 2px solid;
+	border-bottom: #8A7CD8 2px solid;
+	border-left: #8A7CD8 2px solid;
+	color: #6A5ACD;
+	margin-right: 2%;
+	margin-left: 1%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+blockquote {
+	background-color: #ffffff;
+	border-top: #8A7CD8 2px solid;
+	border-right: none;
+	border-bottom: #8A7CD8 2px solid;
+	border-left: none;
+	margin: 1% 2%;
+	padding-top: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 0.5%;
+}
+
+div.section blockquote p {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+em {
+	background-color: #ffffff;
+	color: #000046;
+	font-style: normal;
+	font-weight: normal
+}
+
+strong {
+	background-color: #DDDDFF;
+	color: #000046
+}
+
+.hide {
+	background-color: #ffffff
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 0.9em;
+        line-height: 100%;
+        border-width: 1px;
+        border-color: #8a7cd8;
+        border-style: solid;
+        background-color: transparent;
+        padding: 1px;
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}

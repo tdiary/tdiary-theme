@@ -1,6 +1,6 @@
 /*
 Title: savanna
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: abbey
 Access: inlet@sd6.so-net.ne.jp
 License: GPL
@@ -384,6 +384,19 @@ div.calendar {
 	border-left: double #ddd 10px;
 	border-top: solid #ddd 1px;
 	margin: 0 10%;
+}
+
+/* amazon plugin */
+img.left {
+	border-width: 0px;
+	float: left;
+	margin: 0.5em;
+}
+
+img.right {
+	border-width: 0px;
+	float: right;
+	margin: 0.5em;
 }
 
 /* search */

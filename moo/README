@@ -1,0 +1,24 @@
+Title: Moo
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: ตํสม
+
+Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+validated by W3C
+
+Changelog
+2002-10-19 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-23 Nana
+	* pre font-color#000-->#fff
+	* p   margin-left 1em
+	* div day margin-left,right 15%-->10%
+	* p adminmenu boder-style none-->solid,background-color #000
+	* form margin delete

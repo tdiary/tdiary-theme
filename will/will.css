@@ -1,10 +1,13 @@
 /*
-wiLL.css: tDiary.Net構築日誌用テーマ(改)
+will.css: tDiary.Net構築日誌用テーマ(改)
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
 */
 /* ChangeLog
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* no underline for links.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */
@@ -18,11 +21,13 @@ body {
 a:link {
 	color: #f80;
 	background-color: white;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #d60;
 	background-color: white;
+	text-decoration: none;
 }
 
 h1 {

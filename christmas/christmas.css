@@ -1,6 +1,6 @@
 /*
 Title: christmas
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: shimery
 Access: shim@s5.xrea.com
 License: GPL
@@ -407,7 +407,7 @@ div.commentshort {
         margin-left: 0.5em;
 }
 
-div.commentator {
+span.commentator {
 	border-bottom: 1px solid #fcc;
 }
 

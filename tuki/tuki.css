@@ -1,17 +1,23 @@
 /*
-Title: 月
-Revision: $Revision: 1.5 $
+Title: tuki
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
-Comment: (タイトルが見えなかったのを修正)
+Comment: support calendar2
 
-Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 validated by W3C
 */
 /* ChengeLog
+2002-04-28 Nana
+        * support calendar2,blockquote
+        * color#999-> #555
+        * add body font-size:1em
+        * pre color #999 -> #555 
+
 2002-04-03 TADA Tadashi <sho@spc.gr.jp>
-	* #fff -> #999 on title.
+	* #fff -> #555 on title.
 	* add specifications.
 
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
@@ -43,6 +49,7 @@ body {
 	background-image: url(tuki.gif);
         background-repeat: repeat-y;
         color: #555;
+        font-size: 1em;
 }
 
 p.message {
@@ -71,7 +78,6 @@ span.adminmenu {
 }
 
 h1 {
-	
 	padding: 4px;
 	text-align: center;
 }
@@ -83,7 +89,6 @@ p.calendar {
 	padding: 2px;
 	font-weight: bold;
         margin-left: 80px;
-        font-size:15px;
 }
 
 div.day {
@@ -99,11 +104,11 @@ h2 {
 }
 
 span.date {
-	font-size: medium;
+	font-size: 1em;
 }
 
 span.title {
-	color: #999;
+	color: #555;
 	margin-right: 1em;
 }
 
@@ -124,7 +129,7 @@ p {
 
 h3.subtitle {
 	border-style: solid;
-	color: #999;
+	color: #555;
 	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	margin: 0em;
@@ -132,8 +137,8 @@ h3.subtitle {
 }
 
 pre {
-	background-color: #ffc0cb;
-	color: #999;
+	background-color: #E6E6FA;
+	color: #555;
 	margin-left: 3em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
@@ -239,3 +244,35 @@ dd {
 	margin-bottom: 0.5em;
 }
 
+blockquote {
+        border-width: 2px 0px 2px 0px;
+        border-color: #FFB6C1;
+        border-style: dotted;
+        background-color: #FFFAFA;
+        color: #DB7093;
+}
+
+/* calendar2 */
+table.calendar {
+	       font-size: 0.9em;
+	       line-height: 100%;
+	       border-width: 2px;
+               border-color: #FFB6C1;
+               border-style: dotted;
+               background-color: #FFFAFA;
+               color: #555;
+               padding: 2px;
+               margin-left: 5em;
+}
+
+table.calendar td {
+	       margin: 0px;
+	       text-align: right;
+	       padding: 0px;
+	       margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+			   text-align: center;
+}

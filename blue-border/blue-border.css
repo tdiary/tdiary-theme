@@ -2,17 +2,11 @@
 	blue-border.css: Blue-border Style Sheet of tDiary
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
-	Title:Blue-border
-	Revision: $Revision: 1.5 $
+	Title: Blue-border
+	Revision: $Revision: 1.6 $
 	Author: Nana
-	Comment:support calendar2
+	Comment: スカッっと青空なテーマ
 
-Change-Log
-2002-09-13 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-4-15 Nana
-        * div.form margin-left:10%--> 0
  */
 
 div.rank {
@@ -503,4 +497,11 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+検索フォーム
+*/
+form.search {
+	 text-align:right;
 }

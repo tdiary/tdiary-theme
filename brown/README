@@ -11,3 +11,7 @@ ChangeLog
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 
+2002-12-23 oyuu <oyuu@mocha.freemail.ne.jp>
+	* modified div.body: font-size
+
+

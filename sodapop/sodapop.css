@@ -1,6 +1,6 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
 Comment: support calendar2
@@ -11,6 +11,8 @@ Comment: support calendar2
    お好きな背景イメージを用意してください。
 */
 /* ChengeLog
+2002-06-03 Nana
+        * add div.day line-heigt 135%
 2002-05-05 Nana
         *support calendar2.
 2002-04-05 TADA Tadashi
@@ -71,6 +73,7 @@ p.calendar {
 div.day {
   border: 1px solid #999;
   margin-bottom: 2em;
+  line-height: 135%;
 }
 
 /*
@@ -286,4 +289,3 @@ table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
 	text-align: center;
 }
-

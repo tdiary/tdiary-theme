@@ -3,9 +3,12 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
 	Title:Blue-border
-	Revision: $Revision: 1.2 $
+	Revision: $Revision: 1.3 $
 	Author: Nana
 	Comment:
+
+        Change-Log 2002-4-15 Nana
+        div.form margin-left:10%--> 0
  */
 
 div.rank {
@@ -211,7 +214,7 @@ p.footer {
 }
 
 div.form {
-        margin-left: 10%;
+        margin-left: 0;
         background-color: transparent;
 	padding-bottom: 0.5em;
 	padding-left: 1em;

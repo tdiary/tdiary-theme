@@ -1,6 +1,6 @@
 /*
 Title: Magic
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -74,10 +74,7 @@ div.calendar {
 }
 
 div.day {
-/*	border-style: ridge;
-	border-color: #5e5 #7f7 #7f7 #5e5;
-	border-width: 6px;
-*/	padding-bottom: 0.5em;
+	padding-bottom: 0.5em;
 	margin-bottom: 0.5em;
 	background-image: url(magic_g.png);
 }
@@ -101,8 +98,6 @@ h2 span.date {
 }
 
 h2 span.title {
-/*	text-align: justify; */
-/*	text-justify: distribute-all-lines; */
 }
 
 div.body {
@@ -117,9 +112,6 @@ p.body {
 	margin-bottom: 0em;
 	line-height: 1.2;
 	background-color: #fff;
-/*	border-style: solid; */
-/*	border-color: #fff darkgray darkgray darkgray; */
-/*	border-width: 1px; */
 	background-image: url(magic_g.png);
 	padding-left: 1em;
 	padding-top:0em;

@@ -1,6 +1,6 @@
 /*
 Title: ナチュラルグレイ
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -12,7 +12,7 @@ Comment: 淡いグレーを織りまぜた白系統のテーマ
 */
 
 /*
-	Natural_gray.css: Default Style Sheet of tDiary $Revision: 1.4 $
+	Natural_gray.css: Default Style Sheet of tDiary $Revision: 1.5 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
  */
 
@@ -34,7 +34,7 @@ a { text-decoration:none; }
 /*
 ページトップにある操作ボタンの並ぶ行の設定
 */
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -71,7 +71,7 @@ h1 {
 /*
 カレンダーの設定
 */
-p.calendar {
+div.calendar {
 	text-align: right;
 	font-size: 80%;
 	padding: 2px;
@@ -111,14 +111,14 @@ h2 {
 /*
 日付の設定
 */
-span.date {
+h2 span.date {
 	margin-left: 0.5em;
 }
 
 /*
 タイトルの設定
 */
-span.title {
+h2 span.title {
 }
 
 /*
@@ -134,7 +134,7 @@ div.body {
 /*
 サブタイトルの設定
 */
-h3.subtitle {
+h3 {
 	font-size: 1em;
 	margin-top: 1em;
 	font-weight: bold;
@@ -146,7 +146,7 @@ h3.subtitle {
 /*
 日記の本文(段落)の設定
 */
-p {
+div.section p {
 	margin: 0.5em 0em 0.5em 1em;
 	line-height: 1.3;
 }
@@ -166,21 +166,17 @@ div.comment {
 /*
 ツッコミ欄タイトル行の設定
 */
-p.commenttitle {
+div.comment div.caption {
 }
 
 /*
 ツッコミした人の名前の設定
 */
-span.commentator {
-	padding: 3px;
-	color: #cc6600;
-}
 
 /*
 リンク元リスト(短い方)の設定
 */
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: 90%;
 	padding: 2px;
@@ -204,13 +200,13 @@ div.refererlist {
 /*
 リンク元リストタイトルの設定
 */
-p.referertitle {
+div.refererlist div.caption {
 }
 
 /*
 リンク元リスト一覧の設定
 */
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -233,7 +229,7 @@ hr.sep {
 /*
 フッタの設定
 */
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 	margin-top: 0px;
@@ -290,7 +286,7 @@ pre {
 /*
 引用の設定
 */
-blockquote {
+div.body blockquote {
 	border-color:#ccc;
 	border-width: 3px;
 	border-style: double;
@@ -303,16 +299,16 @@ blockquote {
 /*
 項目リストの設定
 */
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -357,4 +353,133 @@ p.source{
 	margin-right: 1.5em;
 	text-align: right;
 	font-size:90%;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+	padding: 3px;
+	color: #cc6600;
+}}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

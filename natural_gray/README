@@ -1,0 +1,13 @@
+Title: ナチュラルグレイ
+Author: s.sawada
+Access: moonwave@ba2.so-net.ne.jp
+License: GPL
+Comment: 淡いグレーを織りまぜた白系統のテーマ
+
+	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
+ChangeLog
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-05-28 TADA Tadashi <http://sho.tdiary.net/>
+	* background image to index clored. (for Mozilla/W32)

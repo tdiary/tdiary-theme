@@ -1,0 +1,290 @@
+/*
+Title: 小宇宙
+Revision: $Revision: 1.1 $
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: コスモを燃やすべし
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+ */
+
+/* sidebar用css */
+@import "sidebar.css";
+
+a:link {
+	text-decoration: none;
+	color: #44e;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #aaf;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #e44;
+}
+
+body {
+	background-color: #002;
+	background-image: url(cosmos_back.png);
+	color: #eee;
+}
+
+p.adminmenu {
+	text-align: left;
+	font-size: 0.9em;
+	background-color: #004;
+	margin: 0em ! important;
+}
+
+span.adminmenu {
+	font-weight: bold;
+}
+
+p.adminmenu a{
+	padding: 1px;
+	margin: 1px;
+       	border-style: none;
+	border-color: #004;
+	border-width: 1px;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+}
+
+div.day {
+	text-align: left;
+	padding: 0em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 2em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	padding: 0em;
+	text-align: left;
+	font-size: medium;
+}
+
+span.date a {
+	color: #00f;
+}
+
+div.body {
+	text-align: left;
+	padding: 0em;
+}
+
+h3.subtitle {
+	padding: 0em;
+	line-height: 26px;
+	margin: 0em;
+	font-weight: bold;
+	font-size: medium;
+	border-style: ridge;
+	border-color: #00f;
+	border-width: 0px 0px 4px 0px;
+}
+
+div.section {
+	background-image: url(cosmos_dayback.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding-top: 1px;
+	margin: 1em 0em 2em 0em;
+}
+
+div.section p {
+	line-height: 1.3em;
+	padding: 0em 1em 0em 1em;
+}
+
+div.day span.panchor {
+	background-image: url(cosmos_panchorback.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 20px 20px 0px 0px;
+	color: #008;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(cosmos_canchorback.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 12px 0px 0px;
+	color: #002;
+	background-color: transparent;
+	font-size: 1px;
+}
+div.day span.canchor:hover {
+	background-image: url(cosmos_canchorback.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 12px 0px 0px;
+}
+
+pre {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px 1px;
+}
+
+div.comment {
+	background-image: url(cosmos_dayback.png);
+	background-repeat: no-repeat;
+	font-size: small;
+	text-align: left;
+	padding-bottom: 4px;
+	margin: 1em 0em 0em 0em;
+}
+
+div.comment p {
+	margin: 0.2em 0em 0em 1em;
+}
+
+p.commenttitle {
+	text-align: left;
+	margin-left: 0em ! important;
+	padding-left: 1em;
+	border-style: ridge;
+	border-color: #008;
+	border-width: 0px 0px 4px 0px;
+}
+
+span.commentator {
+	font-weight: bold;
+	margin-left: -1em;
+}
+
+p.referertitle {
+	padding-left: 1em;
+	border-style: ridge;
+	border-color: #00a;
+	border-width: 0px 0px 4px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.refererlist {
+	background-image: url(cosmos_dayback.png);
+	background-repeat: no-repeat;
+	font-size: small;
+	text-align: left;
+	padding: 0em;
+	padding-bottom: 1px;
+	margin-top: 1em;
+}
+
+ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+input, select {
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+	padding: 0px;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* sidebarの色指定 */
+
+div.calendar {
+	background-color: #001;
+	border: solid 1px #008;
+}
+
+div.calendar p.year {
+	background-color: #006;
+}
+
+div.list {
+	background-color: #001;
+	border: solid 1px #008;
+}
+
+div.list p {
+	background-color: #006;
+}
+
+span.keyword {
+	color: #f00;
+}

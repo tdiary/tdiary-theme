@@ -1,0 +1,110 @@
+/*
+	sidebar.css:  Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
+ */
+
+p.search {
+	margin-left: auto;
+	text-align: right;
+}
+
+/* ²èÁüplugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+div.leftsidebar {
+	width: 18%;
+	float: left;
+	margin: 0em 8px 0em 0em;
+	padding: 0em;
+}
+
+div.leftsidebar p{
+	margin: 0em;
+}
+
+div.rightsidebar {
+	width: 18%;
+	float: right;
+	padding: 0em ! important;
+}
+
+div.rightsidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #eee;
+	border: solid 1px #888;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0em;
+}
+
+div.list p {
+	background-color: #888;
+	margin: 0em;
+	text-align: center;
+}
+
+form.search {
+	text-align: center;
+}
+
+div.calendar {
+	background-color: #eee;
+	font-size: small;
+	text-align: left;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	border: solid 1px #888;
+}
+
+div.calendar p.year {
+	background-color: #888;
+	margin: 0em;
+	text-align: center;
+}
+
+div.calendar a:hover {
+	display: block;
+	border-style: solid;
+	border-width:  1px;
+	border-color:  #fff #888 #888 #fff;
+}
+
+div.calendar a {
+	margin: 0em;
+	text-align: center;
+	display: block;
+	border: none 1px #888;
+}
+
+div.list ul {
+	padding-left: 1.2em;
+	margin: 0em;
+	list-style: circle;
+}

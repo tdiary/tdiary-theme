@@ -1,9 +1,9 @@
 /*
 	cards.css: Cards Style Sheet of tDiary
 	Title: Cards
-	Rivision: $Revision: 1.6 $ 
+	Rivision: $Revision: 1.7 $ 
 	Author: NT
-	Access: nt@24i.net
+	Access: nt@be.to
 	License: GPL
 	Comment: メッセージカードを並べたようなテーマ 
 
@@ -149,7 +149,6 @@ section の設定
 */
 div.section {
 	background: #fbfbff;
-        background-image: url(cards_back3.png);
 	margin-left: -1em;
 	margin-right: 0.5em;
 	margin-top: -1.5em;
@@ -202,7 +201,6 @@ h3 a:hover, h3 a:focus {
 div.comment {
 	font-size: small;
 	background-color: #fbfbff;
-        background-image: url(cards_back4.png);
 	padding: 10px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -263,7 +261,6 @@ div.referer {
 div.refererlist {
 	font-size: small;
 	background-color: #fbfbff;
-        background-image: url(cards_back4.png);
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -320,7 +317,6 @@ div.footer {
 */
 div.form {
 	background-color: #fbfbff;
-        background-image: url(cards_back4.png);
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;

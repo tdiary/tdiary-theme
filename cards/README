@@ -1,6 +1,6 @@
 Title: Cards
 Author: NT
-Access: nt@24i.net
+Access: nt@be.to
 License: GPL
 Comment: メッセージカードを並べたようなテーマ 
 
@@ -8,5 +8,8 @@ validated by W3C.
 calendar2, calendar3 プラグインに対応
 
 Changelog
-2002-10-18 NT <nt@24i.net>
+2003-02-17 NT <nt@be.to>
+        * remove some "background-image:".
+
+2002-10-18 NT <nt@be.to>
         * remove some "color:".

@@ -10,6 +10,10 @@ Modified by Nana <mpc@mikan.sakura.ne.jp>
 validated by W3C
 
 --Change Log---
+2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
+	* insert indent.
+	* remove some duplicate lines.
+
 2002-10-21 NT <nt@24i.net>
 	* adjust the position of textarea.
 

@@ -1,0 +1,264 @@
+/*
+	magic.css: Style Sheet of tDiary $Revisions$
+ */
+
+body {
+	background-color: white;
+	color: #008;
+	background-image: url(magic.png);
+}
+
+a:link {
+       text-decoration: none;
+       color: #f30;
+}
+a:visited {
+       text-decoration: none;
+       color: #838;
+}
+a:hover,a:active {
+	text-decoration: underline;
+	color: #c40;
+	font-size: 150%;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: black;
+	color: white;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: #ddd;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+	background-image: url(magic_g.png);
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: #dfd;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 2px;
+	margin-bottom: 0.5em;
+	text-align: right;
+	background-image: url(magic_g.png);
+}
+
+div.day {
+/*	border-style: ridge;
+	border-color: #5e5 #7f7 #7f7 #5e5;
+	border-width: 6px;
+*/	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	background-image: url(magic_g.png);
+}
+
+div.anntena {
+	width: 160px;
+}
+div.main {
+ 	float: right;
+	width: 560px;
+}
+h2 {
+	text-align: right;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+span.date {
+	font-size: large;
+	margin-left: 0.5em;
+}
+
+span.title {
+	text-align: justify;
+	text-justify: distribute-all-lines;
+}
+
+div.body {
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	background-color: #fff;
+/*	border-style: solid; */
+/*	border-color: #fff darkgray darkgray darkgray; */
+/*	border-width: 1px; */
+	background-image: url(magic_g.png);
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	font-size: 1em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+pre {
+	background-color: black;
+	color: #ff8000;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	font-weight: bold;
+	color: #606;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-right: 12px;
+	margin-left: 4em;
+}
+
+p.commenttitle {
+	margin-left: 4em;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: #fd9;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+	background-image: url(magic_g.png);
+}
+p.referer a {
+	position: relative;
+	top: -0.7em;
+	left: 0.7em;
+	color:black;
+	border-style: solid;
+	border-color: lime;
+	border-width: 1px;
+}
+p.referer a:hover {
+	position: relative;
+	top: -0.7em;
+	left: 0.7em;
+	color: blue;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+}
+
+div.refererlist {
+	font-size: small;
+	background-color: #eee;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
+	background-image: url(magic_g.png);
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	background-color: #ddd;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	background-image: url(magic_g.png);
+}
+
+input.field {
+	background-color: white;
+	color: black;
+	background-image: url(magic_g.png);
+}
+
+input {
+	background-image: url(magic_g.png);
+}
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	color: black;
+	background-image: url(magic_g.png);
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

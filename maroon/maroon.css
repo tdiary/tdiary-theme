@@ -1,10 +1,20 @@
 /*
-	maroon.css: Maroon Style Sheet of tDiary $Revision: 1.1 $
+Title: マルーン
+Revision: $Revision: 1.2 $
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: 秋の枯れ葉のテーマ
+
 	created by Shinchan <http://nga.jp/>
 	modified by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
 
+/* CangLog
+2002-04-03 nga<stakei@nga.jp>
+	* created
+*/
 a:link, a:visited {
 	background-color: transparent;
 	color: #A0522D;

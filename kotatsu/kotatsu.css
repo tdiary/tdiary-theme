@@ -1,0 +1,419 @@
+/*
+Title: こたつ
+Revision: $Revision: 1.1 $
+Author: ただただし
+Access: sho@spc.gr.jp
+License: GPL
+Comment: こたつの中で本を読む感じ(←読むな)
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+Validated by W3C.
+*/
+/* ChangeLog
+2002-04-04 TADA Tadashi <sho@spc.gr.jp>
+	* created.
+*/
+
+body {
+	background-color: #f50;
+	color: #000;
+	font-family: osaka,'MS PGothic',sans-serif;
+	font-weight: bold;
+}
+
+a {
+	color: #000;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+p.adminmenu {
+	text-align: right;
+	margin-top: 0px;
+	font-size: x-small;
+}
+p.adminmenu input, select {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	color: #000;
+	background-color: #f80;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: left;
+}
+
+div.day h2 {
+	text-align: left;
+	font-size: medium;
+}
+
+div.body {
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 120%;
+}
+
+div.body h3 {
+	color: #f50;
+	background-color: #000;
+	font-size: medium;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	padding: 4px;
+}
+div.body h3 a {
+	color: #f50;
+	background-color: transparent;
+}
+
+div.day span.panchor {
+	text-decoration: none;
+}
+
+div.day span.canchor {
+	text-decoration: none;
+}
+
+div.body p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+div.body pre {
+	border-style: solid;
+	border-width: 1px 1px 1px 3px;
+	border-color: #000;
+	overflow: auto;
+	padding: 8px;
+	margin-left: 2em;
+	font-weight: normal;
+}
+
+div.body blockquote {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #000;
+	border-width: 4px 0px 4px 0px;
+	padding: 4px;
+	margin-left: 3em;
+	margin-right: 3em;
+	font-weight: normal;
+}
+
+div.body blockquote p {
+	margin-left: 0em;
+}
+
+div.body li {
+	margin-left: 2em;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	border-style: solid;
+	border-color: #000;
+	border-width: 0px 0px 1px 0px;
+	margin-top: 0.7em;
+}
+
+div.body dd {
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+}
+
+div.comment {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: small;
+	margin-left: 2em;
+}
+
+div.day div.comment {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.form div.comment {
+	margin-right: 1em;
+}
+
+div.comment p {
+	margin-top: 0em;
+	margin-bottom: 0.2em;
+	font-weight: normal;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+div.comment p.commenttitle {
+	margin: 0em;
+	padding: 2px;
+	color: #f50;
+	background-color: #000;
+	font-weight: bold;
+}
+div.comment p.commenttitle a {
+	color: #f50;
+	background-color: #000;
+}
+
+div.comment span.commentator {
+	margin-bottom: 0em;
+	font-weight: bold;
+}
+
+div.form {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+div.day div.form {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.day div.form {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	font-size: small;
+}
+
+div.form form {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	width: 100%;
+}
+
+div.form p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	padding-left: 4px;
+}
+
+textarea {
+	font-weight: bold;
+	color: #000;
+	background-color: #f80;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.form textarea {
+	margin-left: 2em;
+}
+
+div.day div.form textarea {
+	width: 20em;
+}
+
+input {
+	font-weight: bold;
+	color: #000;
+	background-color: #f80;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.form input {
+	margin-left: 2em;
+}
+
+p.referer {
+	text-align: right;
+	font-size: x-small;
+	margin-top: 0px;
+	font-weight: normal;
+	margin-right: 10%;
+}
+
+div.refererlist {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	font-size: small;
+}
+div.refererlist p {
+	color: #f50;
+	background-color: #000;
+}
+
+div.day div.refererlist {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+ul.referer {
+	margin-left: 2em;
+	font-weight: normal;
+}
+ul.referer a {
+	text-decoration: none;
+}
+
+div.form div.refererlist {
+	margin-right: 1em;
+}
+
+div.refererlist p, div.refererlist ul {
+	margin-top: 0px;
+	margin-bottom: 0em;
+	padding: 4px 4px 4px 4px;
+}
+
+hr {
+	color: #000;
+	height: 1px;
+	background-color: transparent;
+	margin-top: 0.5em;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	color: #f50;
+	background-color: #000;
+	padding: 2px;
+	text-align: right;
+	font-size: x-small;
+}
+p.footer a {
+	color: #f50;
+	background-color: #000;
+}
+
+form div.body {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	color: #000;
+	background-color: transparent;
+	padding: 0px 4px 4px 4px;
+}
+
+/*
+ for plugins
+ */
+
+/* calendar */
+p.calendar {
+	text-align: right;
+	font-size: x-small;
+	font-weight: normal;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 100%;
+	border-width: 0px;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+div.body span.footnote a {
+	text-decoration: none;
+}
+
+div.footnote {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px 0px 0px 0px;
+	margin-top: 1.5em;
+	margin-left: 3em;
+	font-size: small;
+}
+div.footnote a {
+	text-decoration: none;
+}
+
+/* amazon plugin */
+img.left {
+	border-width: 1px;
+	border-color: #000;
+	float: left;
+}
+
+img.right {
+	border-width: 1px;
+	border-color: #000;
+	float: right;
+}
+
+div.section {
+	clear: both;
+}
+
+/*
+ for Asumi Diary layout
+ */
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	color: #f50;
+	background-color: #000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	font-size: x-small;
+	padding: 2px 2px 100% 2px;
+}
+div.sidebar a {
+	color: #f50;
+	background-color: #000;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: left;
+	margin: 2px 4px 2px 4px;
+}

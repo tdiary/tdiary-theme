@@ -1,33 +1,42 @@
 /*
-	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.1 $
-	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
- */
+        validated by W3C
+
+        Changelog 2002.3.16 by Nana
+        change body font-size:small>>>1em
+                    color:black>>>#000
+               a:hover,a:active color: blue>>>#0000ff
+               p.calendar font-size:14px>>>medium
+        W3C css-validator check
+*/
 /*
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-    text-align : center;
-    font-family :osaka, Arial,"MS UI Gothic";
-    font-size: small;
-	background-color: black;
+        text-align : center;
+        font-size: 1em;
+	background-color: #000;
 	color: #fff;
     
 }
 
 a:link {
         text-decoration: none;
-	    color: #555;
+        color: #555;
         font-weight:bold;
 }
+
 a:visited {
         text-decoration: none;
         font-weight:bold;
         color: #FF0000;
 }
+
 a:hover,a:active {
-	    text-decoration: underline overline;
-        color: blue;
+        text-decoration: underline overline;
+        color: #0000ff;
 }
 /*
 ページトップにある操作ボタンの並ぶ行の設定
@@ -40,8 +49,8 @@ p.adminmenu {
 p.message {
 	text-align: center;
 	font-size: small;
-	background-color: black;
-	color: white;
+	background-color: #000;
+	color: #fff;
 	padding: 8px;
 }
 /*
@@ -50,7 +59,7 @@ p.message {
 span.adminmenu {
 	background-color: transparent;
 	padding: 3px;
-    font-size: small;
+        font-size: small;
 }
 /*
 日記タイトルの設定
@@ -63,30 +72,27 @@ h1 {
 カレンダーの設定
 */
 p.calendar {
-    
-	font-size: 14px;
-    font-weight: bold;
-	
-	text-align: center;
+	font-size: medium;
+        font-weight: bold;
+       	text-align: center;
 	padding: 5px;
-    border-style: none;
-	border-color: black;
+        border-style: none;
+	border-color: #000;
 	border-width: 0px 0px 3px 0px;
-    width:80%
+        width:80%
 }
 /*
 1日の日記全体を囲む枠の設定
 */
 div.day {
-    
-    background-color: #fff;
-    color: #999;
+        background-color: #fff;
+        color: #999;
 	margin: 3em auto 3em auto;
 	text-align: left;
 	clear: both;
 	width: 80%;
 	border-style: solid;
-	border-color: black;
+	border-color: #000;
 	border-width: 5px;
 	padding: 0px 8px 0px 8px;
 }
@@ -100,7 +106,7 @@ h2 {
 	margin-left: auto;
 	margin-right: 0px;
 	font-size: small;
-    font-weight: bold;
+        font-weight: bold;
 }
 /*
 日付の設定
@@ -108,9 +114,7 @@ h2 {
 span.date {
 	font-weight: bold;
 	font-size: small;
-	text-align: center;
-	
-	
+	text-align: center;	
 }
 /*
 タイトルの設定
@@ -122,19 +126,19 @@ span.title {
 タイトルを除いた1日の日記本文全体の設定
 */
 div.body {
-    
-    font-size: small;
+        font-size: small;
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	text-align: left;
-	color: #black07F;
+	color: #000;
 }
 
 /*
 日記の本文(段落)の設定
 */
-p {font-size: small;
+P {
+        Font-size: small;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
@@ -144,7 +148,7 @@ p.sentence {
 	margin-right: 12px;
 	line-height: 1.2;
 	border-style: none;
-	border-color: black;
+	border-color: #000;
 	border-width: 1px 0px 0px 0px;
 }
 /*
@@ -156,7 +160,7 @@ h3.subtitle {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-    font-size: small;
+        font-size: small;
 	clear: both;
 }
 span.anchor {
@@ -172,8 +176,8 @@ span.anchor {
 pre {
 	border-style: none;
 	font-size: small;
-　　background-color: black;
-    color: #fff; 
+        background-color: #000;
+        color: #fff; 
 	border-color: #fcc;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -189,7 +193,7 @@ div.comment {
 	padding-bottom: 1px;
 	margin: auto 5px;
 	border-style: dotted;
-	border-color: black;
+	border-color: #000;
 	border-width: 3px 0px 0px 0px;
 }
 /*
@@ -199,13 +203,12 @@ p.commenttitle {
 	text-align: right;
 	position: relative;
 	font-size: small;
-	color: black;
+	color: #000;
 	display: inline;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-style: none;
-	
-}
+}	
 /*
 ツッコミした人の名前の設定
 */
@@ -213,20 +216,20 @@ span.commentator {
 	padding-top: 0px;
 	margin-top: 0px;
 	display: block;
-	color: black;
+	color: #000;
 	clear: both;
 }
 
 p.comment {
 	font-size: small;
 	text-align: left;
-	color: black;
+	color: #000;
 	padding: 0px 0px 0px 0px;
 	margin-left: 26px;
 	margin-right: 12px;
 	margin-top: 0px;
 	margin-bottom: 2px;
-	line-height: 1.0;
+	line-height: 1.3;
 }
 /*
 リンク元リストタイトルの設定
@@ -236,24 +239,21 @@ p.referertitle {
 	text-align: left;
 	background-color: black;
 	border-style: solid;
-	border-color: black;
+	border-color: #000;
 	border-width: 1px;
-    padding: 2px;
+        padding: 2px;
 }
 /*
 リンク元リスト(短い方)の設定
 */
 p.referer {
-    background-color: black;
-	
-	text-align: center;
+        background-color: #000;
+       	text-align: center;
 	color: #999;
-	
-	font-size: small;
+       	font-size: small;
 	padding: 2px;
 	border-style: none;
-	
-	border-width: 3px;
+  	border-width: 3px;
 }
 /*
 リンク元リスト(全体一覧)の設定
@@ -265,7 +265,7 @@ div.refererlist {
 	padding-bottom: 1px;
 	margin-top: 1em;
 	border-style: dotted;
-	border-color: black;
+	border-color: #000;
 	border-width: 3px 0px 0px 0px;
 }
 /*
@@ -281,7 +281,7 @@ ul.referer {
 hr {
 	border-style: dotted;
 	border-width: 1px;
-	border-color: black;
+	border-color: #000;
 }
 /*
 日々の日記のセパレータに使われる罫線の設定
@@ -303,38 +303,33 @@ p.footer {
 フォーム全体を囲む枠の設定
 */
 div.form {
-    
-	background-color: #fff;
+    	background-color: #fff;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-width: 5px;
-    width: 80%;
-    border-color: black;
+        border-width: 5px;
+        width: 80%;
+        border-color: #000;
 	border-style: solid;
 }
 form {
-    
-    color: black;
+        color: #000;
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    
 }
 
 
 input.field {
-    
-	color: black000;
-	border-color: black;
-	border-style: solid;
-	
+    	color: #000;
+	border-color: #000;
+	border-style: solid;	
 }
 
 input, select, option {
 	
-	color: black;
-	border-color: black;
+	color: #000;
+	border-color: #000;
 	border-style: solid;
 	
 	clear: both;
@@ -342,8 +337,8 @@ input, select, option {
 
 textarea {
     
-	color: black;
-	border-color: black;
+	color: #000;
+	border-color: #000;
 	border-style: solid;
 	width: 90%;
 }

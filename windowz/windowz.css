@@ -1,0 +1,438 @@
+/*
+	windowz.css: Windowz Style Sheet of tDiary $Revision: 1.1 $
+*/
+
+/*
+link の設定
+*/
+a:link, a:visited {
+        color: #339;
+  	text-decoration: none;
+        border-style: none;
+        border-width: 1px;
+}
+
+a:active {
+        text-decoration: none;
+        border-width:2px;
+}
+
+a:hover, a:focus {
+        color: #fff;
+        background-color: #39c;
+        border-style: none;
+        border-width: 1px;
+}
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #0073aa;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: #ddd;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	color: white;
+	background-color: #0073aa;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 2px;
+	margin-left: -0.1em;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: #0073aa;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+/*
+日付の設定
+*/
+span.date {
+	font-size: large;
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: #333;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	margin: 0.5em;
+	font-weight: bold;
+}
+
+/*
+section の設定
+*/
+div.section {
+	background: #fbfbff;
+        background-image: url(windowz_bar.png);
+        background-position: right top;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+	margin-left: -1em;
+	margin-right: 0.5em;
+	margin-top: -1.5em;
+	margin-bottom: 1.7em;
+	padding: 1em;
+	padding-top: 2.5em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/* 
+[試験的]角を丸める設定
+border-radius is not a CSS property, but a proposal for CSS3.
+Mozilla has implemented it in an experimental fashion, which is used
+here to show the expected effect in the future.
+
+div.body, div.section {
+	border-radius: 2em 1em;
+	-moz-border-radius: 1em;
+}
+div.day {
+	border-radius: 1em 0.5em;
+	-moz-border-radius: 0.5em;
+}
+*/
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 150%;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: small;
+	background-color: #fbfbff;
+	padding: 10px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: #eee;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: small;
+	background-color: #eee;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: #fbfbff;
+	padding: 0em 1em 0.5em 1em;
+	margin: 0.5em 1.6em 0.5em 1.7em;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: black;
+	color: #0f3;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+縦書き用の設定
+div.section {
+	direction: ltr;
+	writing-mode: tb-rl;
+	overflow: auto;
+	margin: 0em;
+	clear: both;
+}
+*/
+
+/*
+自分の日記向け
+*/
+p.calendar-drop {
+        text-align: left;
+}
+
+p.jobun {
+        color: black;
+        padding: 2px;
+}
+
+div.serch {
+        text-align: right;
+}
+
+td.calendar-current-month {
+        text-align: center;
+}
+
+/*
+calendar2.rb用
+*/
+
+/*
+全体の外枠の色を変えるときはborder-color:を変更する
+ */
+table.calendar {
+	text-align: center;
+	color: #000000;
+	background-color: #dddddd;
+	border-style: solid;
+	border-color: #818ccc;
+	border-width: 1px;
+	margin-bottom: 1em;
+}
+
+td.calendar-current-month {
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: 1em;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: 1em;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: 1em;
+	text-align: right;
+}
+

@@ -3,7 +3,7 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
         Title: Green-border
-	Revision: $Revision: 1.8 $
+	Revision: $Revision: 1.9 $
 	Author: Nana
 	Comment: カエルくんなテーマ
 */
@@ -332,27 +332,27 @@ input, select {
 
 /* calendar2 */
 table.calendar {
-	       font-size: 0.9em;
-	       line-height: 100%;
-	       border-width: 2px;
-               border-color: #7FFF00;
-               border-style: solid;
-               margin-left :25%;
-               background-color: #F5F5DC;
-               color: #000;
-               padding: 1px;
+	font-size: 0.9em;
+	line-height: 100%;
+	border-width: 2px;
+        border-color: #7FFF00;
+        border-style: solid;
+        margin-left :25%;
+        background-color: #F5F5DC;
+        color: #000;
+        padding: 1px;
 }
 
 table.calendar td {
-	       margin: 0px;
-	       text-align: right;
-	       padding: 0px;
-	       margin: 0px;
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
 }
 
 table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
-			   text-align: center;
+	text-align: center;
 }
 
 /*

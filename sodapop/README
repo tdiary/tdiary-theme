@@ -10,6 +10,9 @@ License: GPL
    お好きな背景イメージを用意してください。
 
 ChengeLog
+2003-02-16 Nana <clorets@estyle.ne.jp>
+	* remove body background-image
+	
 2002-11-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* equalize indent size.
 	* fix "h2 span.date -> h2 span.date a". Sorry, I missed conversion.

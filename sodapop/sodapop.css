@@ -1,6 +1,6 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
 Comment: blockquote,footnote,recent_list pluginÂÐ±þ
@@ -28,7 +28,7 @@ License: GPL
 */
 body {
 	background-color: white;
-	background-image: url(sodapop_bg.jpg);
+       /*background-image: url(sodapop_bg.jpg);*/
 	background-repeat: no-repeat;
 	background-position: right top;
 	color: black;

@@ -1,0 +1,249 @@
+/*
+	Lightning.css: Candy Style Sheet of tDiary $Revision: 1.1 $
+	
+ */
+
+a:link, a:visited {
+	color: #FCC404;
+	text-decoration: none;
+	font-weight: bold;
+    border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: none;
+	color: greenyellow;
+}
+
+a:hover, a:focus {
+    color: crimson;
+	background-color: greenyellow;
+    border-style: none;
+	border-width: 1px;
+}
+
+
+
+body {
+    background-image: url(lightning_bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: #000;
+	color: #fff;
+	margin-left: 0px;
+	margin-right: 0px;
+    font-size: 13px;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	padding: 8px;
+	margin: 0px;
+}
+
+p.adminmenu {
+	text-align: left;
+	
+}
+
+span.adminmenu {
+	margin: 4px;
+}
+
+h1 {
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.calendar {
+	
+	margin-top: 0px;
+    background-color: transparent;
+	margin-left: 0px;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+div.day {
+	border-width: 1px;
+	padding-bottom: 0.5em;
+	margin-bottom: 3em;
+}
+
+h2 {
+    text-align: right;
+	background-image: url(lightning_hi.png);
+	background-repeat: no-repeat;
+	
+	width: 249px;
+	height: 72px;
+	padding-bottom: 1em;
+    font-size: 13px;
+    
+}
+
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+¡¡¡¡font-family:"Comic Sans MS","£Í£Ó UI ¥´¥·¥Ã¥¯";
+}
+
+span.date {
+	font-size: 15px;
+}
+span.date a:link,a:visited{
+color: #78D2F8
+}
+
+span.title {
+	color: #fff;
+	margin-right: 1em;
+}
+
+div.body {
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+}
+
+p {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	margin: 0em;
+	font-weight: bold;
+}
+
+pre {
+	background-image: url(lightning_pre.png);
+	color: #fff;
+	margin-left: 2em;
+	margin-right: 3em;
+	padding: 8px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+div.comment {
+	background-color: transparent;
+	color: #fff;
+	font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+	margin-right: 1em;
+}
+
+p.commenttitle {
+	border-style: solid;
+	border-color: #9BF9FF;
+	border-width: 0px 0px 1px 0px;
+    font-size: 13px;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: #9BF9FF;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.referertitle {
+}
+
+p.referer {
+	background-color: transparent;
+	text-align: right;
+	font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 4em;
+	margin-right: 1em;
+}
+
+div.refererlist {
+	background-color: transparent;
+	font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+	margin-right: 1em;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: #8B4513;
+	border-width: 1px;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	
+	padding: 0.5em 1em 0.5em 1em;
+	margin-left: 3em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+    
+}
+
+input.field {
+	
+	width: 9em;
+    
+}
+
+textarea {
+
+	margin-left: 1em;
+	width: 90%;
+   
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+

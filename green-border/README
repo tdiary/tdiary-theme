@@ -1,11 +1,12 @@
 Title: Green-border
 Author: Nana
-Comment: support calendar2
+Comment: 
+License: GPL
 
 Green-Border.Css: Green-Border style sheet of tdiary
 Copyright by (C) Nana <http://moo.boo.jp>
 validated by W3C.
-calendar2 プラグイン対応
+
 
 Change-Log
 2003-01-06 TADA Tadashi <sho@spc.gr.jp>

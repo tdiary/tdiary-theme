@@ -1,9 +1,10 @@
 Title: Lightning
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc
-Comment: 13pxに固定していた所を全て1emに変更、カレンダー2プラグイン対応
+Comment: 
+License: GPL
 
-Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+Copyright by (C) Nana <moo@xu.boo.jp>
 validated by W3C
 
 ChangeLog

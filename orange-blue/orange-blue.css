@@ -8,6 +8,9 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
 /* ChangeLog
+2002-05-16 Nana 
+        * fixed pre sytle
+        * support footnote,blockquote,calendar2
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 	* div.comment align left.
@@ -147,10 +150,11 @@ span.anchor {
 	float: left;
 }
 
-pre {
-	border-style: none;
-	background-color: #00007F;
-	color: #005AC9; 
+pre {   
+        border-style: inset;
+        border-width: 2px;
+	background-color: transparent;
+	color: #00007f; 
 	border-color: #fcc;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -307,4 +311,72 @@ dt {
 dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: 0.9em;
+	line-height: 100%;
+	border-width: 2px;
+        border-color: #00007F;
+        border-style: solid;
+        margin-left :25%;
+        background-color: transparent;
+        color: #00007f;
+        padding: 1px;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+        p.recentitem {
+        font-size: 0.9em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+        font-size: 0.9em;
+        margin-top: 0px;
+        margin-bottom: 1em;
+        margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+        vertical-align: super;
+        font-size: xx-small;
+}
+div.footnote {
+        border-style:solid;
+        border-color: #aaa;
+        border-width: 1px 0px 0px 0px;
+        margin-left: 10em;
+        font-size:0.9em;
+}
+div.footnote p.footnote {
+        text-align: right;
+        padding: 0em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
+}
+
+div.body blockquote {
+         color: #0000FF;
+         background-color: #fff;
+         border-color:#00007f;
+         border-style:solid;
+         border-width: 1.5px 0px 1.5px 0px;
+         padding: 4px;
+         font-size: 90%; 
+         margin: 0em 3em 0em 3em;
 }

@@ -121,20 +121,23 @@ div.section{
 	margin-bottom:1em;
 }
 div.section p,div.comment p{
-	font-size:95%;
+	/*font-size:95%;*/
+	line-height: 135%;
 }
 div.comment{
 	background-color:#fee;
 	padding:4px 0 4px 1em;
 	color:#444;
 	margin-top:0.5em;
+	font-size:95%;
 }
 div.comment p{
 	margin:2px;
+	line-height: 135%;
 }
 p.referer,div.referer{
 	margin-top:0.5em;
-	font-size: smaller;
+	font-size: 95%;
 }
 pre{
 	margin-left:1em;

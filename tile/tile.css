@@ -1,0 +1,308 @@
+/*
+Title: tile
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: http://tnat.net/diary/
+License: GPL
+*/
+
+body{
+	color: #000;
+	background-color: #fff;
+	background-image: url(tile_back.gif);
+	margin: 30px 30px 30px 250px;
+	background-repeat: repeat-y;
+}
+
+hr.sep{
+	display:none;
+}
+
+/* ----- sidebar ----- */
+
+div.sidebar {
+	position: absolute;
+	top : 30px;
+	left: 40px;
+	color: #003300;
+	background-color: transparent;
+	line-height: 1.3em;
+}
+
+/* ----- link ----- */
+
+a:link,a:visited {
+	color: #005500;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #009900;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* ----- h1-h3 ----- */
+
+h1{
+	color: #003300;
+	background-color: transparent;
+	font-size : 1.7em;
+	line-height: 1.0em;
+}
+
+h2{
+	font-size : 1.3em;
+	margin  : 0px;
+	padding : 0px 5px 3px 0px;
+	text-align: right;
+	border-style : solid;
+	border-color : #cc9900;
+	border-width : 0px 3px 1px 0px;
+}
+
+
+h3{
+	font-size : 1.3em;
+	margin:  0px 0px 10px 0px;
+}
+
+/* ----- navi ----- */
+
+span.adminmenu{
+	display: block;
+	float:right;
+	text-align:center;
+}
+
+div.adminmenu {
+	text-align: right;
+}
+
+div.adminmenu a {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding:2px 5px 2px 5px;
+	text-decoration:none;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width:1px;
+}
+
+div.adminmenu a:hover{
+	background-color:#ccffcc;
+	text-decoration:none;
+}
+
+
+/* ----- day ----- */
+
+div.day{
+	margin: 50px 0px 50px 0px;
+}
+
+div.section {
+	line-height: 1.7em;
+	margin: 30px 15px 30px 15px;
+}
+
+div.section p{
+	margin : 0px;
+}
+
+/* ----- comment ----- */
+
+div.comment {
+	color : #3f3f3f;
+	background-color:#eeffee;
+	font-size  : 0.9em;
+	line-height: 1.5em;
+	margin: 0px 15px 0px 15px;
+	padding : 3px;
+	border-style: solid;
+	border-color: #aaa #eee #eee #aaa;
+	border-width: 1px;
+}
+
+div.comment p{
+	margin : 0px 0px 1px 0px;
+}
+
+span.commentator {
+	font-weight:bold;
+}
+
+/* ----- referer ----- */
+
+div.referer {
+	text-align: right;
+	line-height: 0.9em;
+	margin: 10px 15px 0px 15px;
+}
+
+/* ----- pre & blockquote ----- */
+
+pre {
+	font-size  : 0.9em;
+	line-height: 1.7em;
+	padding: 10px;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px 0px 1px 0px;
+}
+
+blockquote {
+	font-size  : 0.95em;
+	line-height: 1.7em;
+	font-style :italic;
+	padding: 10px;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px 0px 1px 0px;
+}
+
+/* ----- img ----- */
+
+img {
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+img.right{
+	float:right;
+	margin: 5px 5px 5px 5px;
+}
+
+/* ----- form ----- */
+input {
+	color: #003300;
+	background-color:#eeffee;
+	border-style:solid;
+	border-color: #aaa;
+	border-width:1px;
+}
+
+textarea {
+	overflow: scroll;
+	width :100%;
+	height: 20em;
+	color: #003300;
+	background-color:#eeffee;
+	border-style:solid;
+	border-color: #aaa;
+	border-width:1px;
+}
+
+div.form {
+	line-height: 1.2em;
+	margin: 0px 15px 0px 15px;
+}
+
+/* ----- recentitem ----- */
+
+div.recentsubtitles {
+	margin: 0px;
+	line-height: 1.2em;
+}
+
+p.recentitem{
+	margin: 10px 0px 0px 0px;
+}
+
+/* ----- footnote ----- */
+
+div.footnote{
+	font-size  : 0.9em;
+	margin : 0px 0px 0px 20px;
+}
+
+span.footnote {
+	font-size: 0.9em;
+	vertical-align: super;
+}
+
+/* ----- calendar ----- */
+
+p.calendar {
+	margin:0px;
+	line-height: 1.2em;
+}
+
+/* ----- calendar2 ----- */
+table.calendar {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 0.8em;
+	line-height: 0.8em;
+}
+
+td.calendar-current-month {
+	text-align: center;
+	line-height: 1.4em;
+}
+
+td.calendar-next-month {
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+}
+
+td.calendar-weekday {
+	color: #000;
+	background-color: #ddd;
+}
+
+td.calendar-day {
+	text-align: right;
+}
+
+/* ----- footer ----- */
+div.footer {
+	text-align: right;
+}
+
+/* ----- bq ----- */
+p.source {
+   margin-top: 0.3em;
+   text-align: right;
+   font-size: 90%;
+}
+
+/* ----- Menu ----- */
+
+ul.menu li {
+	display: block;
+	list-style:none;
+	margin-left: -40px;
+	width : 80px;
+}
+
+ul.menu a {
+	display: block;
+	width : 80px;
+	margin:  0px;
+	padding: 0px 0px 0px 5px;
+	text-decoration:none;
+	border-style:solid;
+	border-color: #e7efde #84aa7b #84aa7b #e7efde;
+	border-width:1px;
+}
+
+ul.menu a:hover{
+	margin:  0px;
+	background-color:#ccffcc;
+	text-decoration:none;
+}

@@ -1,6 +1,6 @@
 /*
 Title: Lightning
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc
 Comment:13pxに固定していた所を全て1emに変更、カレンダー２プラグイン対応
@@ -102,7 +102,7 @@ div.day {
 }
 
 h2 {
-   text-align: right;
+	text-align: right;
 	background-image: url(lightning_hi.png);
 	background-repeat: no-repeat;	
 	width: 249px;
@@ -256,27 +256,27 @@ div.body dd {
 
 /* calendar2 */
 table.calendar {
-	       font-size: 0.9em;
-	       line-height: 100%;
-	       border-width: 1px;
-               border-color: #78D2F8;
-               border-style: solid;
-               background-color: transparent;
-               color: #fff;
-               padding: 2px;
-               margin-left: 1em;
+	font-size: 0.9em;
+	line-height: 100%;
+	border-width: 1px;
+        border-color: #78D2F8;
+        border-style: solid;
+        background-color: transparent;
+        color: #fff;
+        padding: 2px;
+        margin-left: 1em;
 }
 
 table.calendar td {
-	       margin: 0px;
-	       text-align: right;
-	       padding: 0px;
-	       margin: 0px;
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
 }
 
 table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
-			   text-align: center;
+	text-align: center;
 }
 
 

@@ -1,6 +1,6 @@
 Title: Mintblue
 Author: epi
-Access: <http://episode2.tdiary.net/>
+Access: <http://330mg.bufferin.jp/diary/>
 License: GPL
 Comment: なんとなく青っぽい感じ。
 
@@ -10,6 +10,9 @@ Modified by Nana 2002-04-29
 validated by W3C
 
 ---Change Log---
+2003-01-20 TADA Tadashi <sho@spc.gr.jp?
+	* adjust font-size to tDiary standard.
+
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
         * insert indent.
 

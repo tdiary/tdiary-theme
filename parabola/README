@@ -1,5 +1,5 @@
 Title: パラボラアンテナ
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,9 @@ validated by W3C.
 amazon プラグイン対応
 
 ChangeLog
+
+2005-03-07 TADA Tadashi <sho@spc.gr.jp>
+	* remove font-family.
 
 2004-11-09 TADA Tadashi <sho@spc.gr.jp>
 	* add h5 element.

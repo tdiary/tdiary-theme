@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Old-pavement
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: TSUTAYA Nobuo (NOB)
 Access: nob@ivyvalley.net <http://nob.ivyvalley.net/>
 License: GPL
@@ -526,7 +526,7 @@ th, tr, td {
 }
 
 
-/* recent_list */
+/* recent_list at main */
 div.main p.recentitem {
 	font-size: 90%;
 	margin-top: 0px;
@@ -537,6 +537,23 @@ div.main div.recentsubtitles {
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
+
+}
+
+/* recent_list at sidebar*/
+div.sidebar p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0.5em;
+	padding-right: 1em;
+}
+
+div.sidebar div.recentsubtitles {
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	padding-right:0.5em;
 
 }
 
@@ -720,6 +737,13 @@ div.recentsubtitles input , div.recentsubtitles select {
 
 a img {
 	border:none;
+}
+
+span.hidden-marker {
+	cursor:help;
+	border-width:0 0 1px 0;
+	border-style:dotted;
+	border-color:#f05000;
 }
 
 #to-top{

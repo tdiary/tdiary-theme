@@ -1,5 +1,7 @@
 /*
-	narrow.css: Default Style Sheet of tDiary $Revision: 1.1 $
+	narrow.css: Narrow Style Sheet of tDiary $Revision: 1.2 $
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C
  */
 a:link {
 	text-decoration: none;
@@ -15,7 +17,7 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: mediumblue;
+	color: #0000cd;
 }
 
 body {

@@ -1,8 +1,16 @@
 /*
-	triple_gray.css: Tripule Glay Sheet of tDiary $Revision: 1.1 $
+Title: トリプルグレー
+Revision: $Revision: 1.2 $
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: グレーのストライプ、いたってシンプルなテーマ
 	Copyright 2002 (C) nga <http://nga.jp/>
- */
-
+*/
+/* CangLog
+2002-04-03 nga<stakei@nga.jp>
+	* created
+*/
 
 body {
 	background-color: #F5F5F5;

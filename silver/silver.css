@@ -1,8 +1,9 @@
 /*
-	silver.css: Style Sheet of tDiary $Revision: 1.1 $
+	silver.css: Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
-
+	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
+		 and zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
 */
 
 /*
@@ -16,7 +17,7 @@ body {
 	margin: 0;
 }
 
-A:link{color: darkblue;}
+A:link{color: #00008b;}
 A:hover{color:red;}
 A:visited{color: #999999;}
 
@@ -132,11 +133,15 @@ h3.subtitle {
 /*
 日記の本文(段落)の設定
 */
-p {
+div.day p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.4;
 	text-indent: 1em;
+}
+
+p {
+	margin-left: 35px;
 }
 
 /*
@@ -173,6 +178,7 @@ span.commentator {
 */
 div.comment p{
 	text-indent: 0;
+	margin-left: 0em ! important;
 }
 
 /*

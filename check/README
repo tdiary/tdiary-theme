@@ -1,12 +1,20 @@
 Title: Check
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 
-Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
+	validated by W3C.
 
 ChangeLog
-2002-11-03 Nana <moo@xu.boo.jp>
+2003-02-28 Nana <clorets@estyle.ne.jp>
+	* font-size:samll,0.9em->90%
+	* remove form.update textarea margin-left: 3em;
+	* remove body text-align:center
+	* set recent-list,footnote,calendar3
+	* h2 font-size 120% h3 font-size 100%
+	
+2002-11-03 Nana <clorets@estyle.ne.jp>
 	* remove body,div.body,h1,h3, font-size:small
 	* remove p.body
 	* div.calendar text-align:center -> left

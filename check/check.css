@@ -1,14 +1,15 @@
 /*
 Title: Check
-Revision: $Revision: 1.12 $
+Revision: $Revision: 1.13 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
-        Copyright (C) Nana <moo@xu.boo.jp>
+        Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
+	validated by W3C.
 */
 
 body {
-	text-align : center;
+	/*text-align : center;*/
 	font-family :osaka, Arial,"MS UI Gothic",sans-serif;
 	background-image: url(check.jpg);
 	background-color: #FFFFFF;
@@ -34,12 +35,12 @@ a:hover,a:active {
 
 div.adminmenu {
 	text-align: right;
-	font-size: small;
+	font-size: 90%;
 }
 
 p.message {
 	text-align: center;
-	font-size: small;
+	font-size: 90%;
 	background-color: red;
 	background-color:transparent;
 	color: white;
@@ -48,7 +49,7 @@ p.message {
 
 span.adminmenu {
 	padding: 3px;
-	font-size: small;
+	font-size: 90%;
 }
 
 h1 {
@@ -56,7 +57,7 @@ h1 {
 }
 
 div.calendar {
-	font-size: small;
+	font-size: 90%;
 	font-weight: bold;
 	background-color: #E2D8F0;
 	color: #800040;
@@ -85,14 +86,14 @@ h2 {
 	margin-bottom: 0em;
 	margin-left: auto;
 	margin-right: 0px;
-	font-size: small;
+	font-size: 120%;
 	font-weight: bold;
 }
 
 h2 span.date {
 	font-weight: bold;
 	position: relative;
-	font-size: small;
+	font-size: 120%;
 	text-align: right;	
 	margin-bottom: 0em;
 	margin-left: auto;
@@ -101,7 +102,7 @@ h2 span.date {
 }
 
 h2 span.title {
-	font-size: small;
+	font-size: 90%;
 }
 
 div.body {
@@ -134,7 +135,7 @@ h3 {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-	font-size: small;
+	font-size: 100%;
 	clear: both;
 }
 
@@ -144,14 +145,13 @@ span.anchor {
 	margin-left: 12px;
 	margin-right: 12px;
 	font-weight: bold;
-	font-size: small;
+	font-size: 90%;
 	float: left;
 }
 
 pre {
 	border-style: dashed;
 	border-width: 2px;
-	font-size: small;
 	background-color: #F5F5F5;
 	border-color: #fcc;
 	margin-left: 1em;
@@ -160,7 +160,7 @@ pre {
 }
 
 div.comment {
-	font-size: small;
+	font-size: 90%;
 	clear: both;
 	text-align: left;
 	padding-bottom: 1px;
@@ -171,9 +171,9 @@ div.comment {
 }
 
 div.comment div.caption {
-	text-align: right;
-	position: relative;
-	font-size: small;
+	text-align: left;
+	/*position: relative;*/
+	font-size: 90%;
 	background-color: #FFF;
 	color: #800040;
 	display: inline;
@@ -184,7 +184,7 @@ div.comment div.caption {
 
 
 p.comment {
-	font-size: small;
+	font-size: 90%;
 	text-align: left;
 	background-color: #FFF;
 	color: #800040;
@@ -216,7 +216,7 @@ div.referer {
 	background-color: #FFF;
 	color: #999;
 	position: relative;	
-	font-size: small;	
+	font-size: 90%;	
 	padding: 2px;
 	border-style: none;
 	border-color: #E9D1CD;
@@ -224,7 +224,7 @@ div.referer {
 }
 
 div.refererlist {
-	font-size: small;
+	font-size: 90%;
 	text-align: right;
 	padding-bottom: 1px;
 	margin-top: 1em;
@@ -250,7 +250,7 @@ hr.sep {
 
 
 div.footer {
-	font-size: small;
+	font-size: 90%;
 	text-align: right;
 	margin-top: 0px;
 	clear: both;
@@ -316,7 +316,8 @@ table.calendar {
 	border-style: dashed;
 	border-color: #fff;
 	border-width: 4px;
-	margin-left :25%;
+	margin-left :auto;
+	margin-right :auto;
 	background-color: #E2D8F0;
 	padding: 2px;
 }
@@ -347,7 +348,7 @@ div.body blockquote {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -365,7 +366,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -389,16 +390,16 @@ div.commentbody p {
 フォームの設定
 */
 div.form form {
-        margin: 0em 0em 0em 2em;
+        /*margin: 0em 0em 0em 2em;*/
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {
@@ -421,7 +422,7 @@ form.comment textarea {
         display: block;
         background-color: #FFF;
         color: #800040;
-        margin-left: 3em;
+        /*margin-left: 3em;*/
         width: 30em;
         height: 5em;
 }
@@ -475,7 +476,7 @@ form.update div.textarea {
 
 form.update textarea {
         display: block;
-        margin-left: 3em;
+        /*margin-left: 3em;*/
         margin-bottom: 1em;
         width: 35em;
         height: 15em;
@@ -490,4 +491,84 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	border-style: dashed;
+	border-color: #eee;
+	border-width: 1px 0px 0px 0px;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-right: 1.5em;
+        margin-top: 0px;
+	text-align: right;
+	font-size:90%;
+        line-height: 24px;
+        font-style: italic;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+	border-style: solid;
+	border-color: #1E90FF;
+	border-width: 1px;
 }

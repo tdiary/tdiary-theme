@@ -1,6 +1,6 @@
 /*
 Title: 看板
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 日付が看板に描かれているように見えます
@@ -8,16 +8,6 @@ Comment: 日付が看板に描かれているように見えます
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
-/* ChangeLog
-2002-10-08 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-*/
 
 a:link {
 	text-decoration: none;
@@ -29,7 +19,7 @@ a:visited {
 }
 
 a:hover, a:focus,a:active {
-	background-color: Moccasin;
+	background-color: #FFE4B5;
 }
 
 body {
@@ -38,12 +28,11 @@ body {
 	color: #000;
 	margin-right: 0.2em;
 	margin-left: 0.2em;
-	font-size: 13px;
 }
 
 div.adminmenu {
 	text-align: left;
-	font-size: 13px;
+	font-size: small;
 }
 
 p.message {
@@ -65,7 +54,6 @@ span.adminmenu {
 
 h1 {
 	text-align: left;
-	margin-left:12%;
 }
 
 div.calendar {
@@ -75,9 +63,8 @@ div.calendar {
 	margin-left: 12%;
 	margin-top: 2ex;
 	font-weight: bold;
-	font-size: 16px;
-	font-family :Georgia;
 }
+
 div.day {
 	background-image: url(kanban_1.png);
 	background-position: left top;
@@ -89,8 +76,6 @@ div.day {
 	padding-top: 10px;
 	margin-right: 10%;
 	margin-left: 10%;
-	font-size: 13px;
-	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 
 h2 {
@@ -146,8 +131,7 @@ h3 {
 }
 
 pre {
-	width: 95%;
-	background-color: OldLace;
+	background-color: #FDF5E6;
 	color: #000;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -158,14 +142,10 @@ pre {
 }
 
 div.comment {
-	font-size: 13px;
 	text-align: left;
 	background-color: transparent;
 	color: #000;
-	padding: 2px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-  	margin: 0em;
+	padding: 0px;
 	margin-right: 20px;
 	margin-left: 6px;
 }
@@ -408,4 +388,63 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+blockquote {
+	border-top: solid 2px #A58484;
+	border-bottom: solid 2px #A58484;
+	padding: 8px;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: small;
+	padding: 1px;
+	margin: 2px auto;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+        padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/*
+脚注本文全体
+*/
+div.body div.footnote {
+       border-top: 1px solid #000;
+       font-size:x-small;
+       text-align: left;
+       margin-left: 24px;
+       margin-right: 16px;
+       background-color: transparent;
+}
+/*
+それぞれの脚注本文
+*/
+span.footnote{
+       vertical-align: super;
+       font-size:x-small;
 }

@@ -7,6 +7,11 @@ Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 validated by W3C
 
 ChangeLog
+2002-11-02 Nana <mpc@mikan.sakura.ne.jp>
+	* remove body,div.body font-size:13px 
+	* remove p.calendar font-size,font-family
+	* set blockquote,recent_list,calendar2,footnote
+
 2002-10-08 NT <nt@24i.net>
         * convert for 1.5 series.
 

@@ -1,0 +1,256 @@
+/*
+	snow_man.css: Snow Man Style Sheet of tDiary $Revision: 1.1 $
+	Copyright (C) 2002 nga <http://nga.jp/>
+	validated by W3C. (2002-03-02)
+ */
+
+a:link, a:visited {
+	background-color: transparent;
+	color: #3300FF;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: none;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	color: #00BFFF;
+	background-color: #FFFF00;
+	border-style: none;
+	border-width: 1px;
+}
+
+body {
+	background-image: url(snow_man_back.gif);
+	background-repeat: repeat-y;
+	background-color: #F0F8FF;
+	color: black;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	padding: 8px;
+	margin: 0px;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+span.adminmenu {
+	background-image: url(snow_man_back2.gif);
+	border-style: outset;
+	border-color: white;
+	border-width: 1px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h1 {
+	background-color: transparent;
+	background-image: url(snow_man.jpg);
+	border-style: outset;
+	border-color: dodgerblue;
+	border-width: 2px;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	text-align: center;
+}
+
+p.calendar {
+	background-color: #87CEFA;
+	color: #696969;
+	text-align: right;
+	border-style: outset;
+	border-color: cornflowerblue;
+	border-width: 1px;
+	padding: 2px;
+	margin-left: 40%;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+div.day {
+	border-width: 1px;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 60px;
+}
+
+h2 {
+	background-color: #87CEFA;
+	color: #000000;
+	border-style: outset;
+	border-color:  dodgerblue;
+	border-width: 1px;
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	padding: 3px;
+}
+
+span.date {
+	font-size: large;
+}
+
+span.title {
+	background-color: transparent;
+	color: white;
+	margin-right: 1em;
+}
+
+div.body {
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+}
+
+p {
+	margin-left: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	background-color: transparent;
+	border-style: solid;
+	color: #696969;
+	border-color: #00BFFF;
+	border-width: 0px 0px 1px 0px;
+	margin: 0em;
+	font-weight: bold;
+}
+
+pre {
+	background-color: #2F4F4F;
+	color: white;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	background-color: white;
+	color: #696969;
+	font-size: small;
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 1px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+p.commenttitle {
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: white;
+	color: #000000;
+	text-align: right;
+	font-size: small;
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 1px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 4em;
+}
+
+div.refererlist {
+	background-color: white;
+	color: #00BFFF;
+	font-size: small;
+	border-style: solid;
+	border-color: #00BFFF;
+	border-width: 1px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: cornflowerblue;
+	border-width: 1px;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	background-image: url(snow_man_back2.gif);
+	background-color: #FFFFFF;
+	color: black;
+	border-style: outset;
+	border-color: #00BFFF;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-left: 60px;
+}
+
+input.field {
+	background-color: white;
+	color: #000000;
+}
+
+textarea {
+	background-color: white;
+	color: #000000;
+	margin-left: 1em;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+

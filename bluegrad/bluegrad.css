@@ -1,6 +1,6 @@
 /*
 Title: Bluegrad
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -387,7 +387,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -421,7 +420,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

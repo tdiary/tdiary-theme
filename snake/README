@@ -1,0 +1,17 @@
+Title: Snake
+Revision: $Revision: 1.1 $
+Author: s.sawada
+Access: moonwave@ba2.so-net.ne.jp
+License: GPL
+Comment: 名前とは裏腹にシンプルで大人しいテーマ
+
+	snake.css: Style Sheet of tDiary $Revision: 1.1 $
+	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
+	validated by W3C
+
+ChangeLog
+2002-10-16 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* no underline for links.

@@ -1,6 +1,6 @@
 /*
 Title: Simple
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -206,7 +206,7 @@ div.caption {
 ツッコミ欄全体の設定
 */
 div.comment {
-	padding: 5px;
+	padding: 5px 5px 5px 1em;
 	background-color: #fff;
 	color: #555;
 	margin: 0.5em;
@@ -243,7 +243,7 @@ div.commentbody {
 */
 div.commentator {
 	line-height: 1.5em;
-	margin-left: 1em;
+	/*margin-left: 1em;*/
 }
 
 /*

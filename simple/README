@@ -1,5 +1,5 @@
 Title: Simple
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
@@ -9,5 +9,9 @@ Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 ChangeLog
-	2003-03-01 Nana <clorets@estyle.ne.jp>
+2003-03-02 Nana <clorets@estyle.ne.jp>
+	* remove div.commentator margin-left: 1em;
+        * div.comment padding: 5px ->5px 5px 5px 1em;
+	
+2003-03-01 Nana <clorets@estyle.ne.jp>
 	* add Simple Theme.

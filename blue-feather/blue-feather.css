@@ -1,0 +1,369 @@
+/*
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.1 $
+	created by Shinchan <http://nga.jp/>
+	validated by W3C.
+ */
+
+a:link, a:visited {
+	color: blue;
+	background-color:transparent; 
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: underline;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #000088;
+	background-color: #818ccc;
+	border-style: none;
+	border-width: 1px;
+}
+
+body {	
+	background-repeat:repeat-y;
+	background-attachment:scroll;
+	background-color: transparent;
+	font-family: Verdana,Arial,Helvetica,sans-serif,'MS PGothic';
+	background-image: url(blue-feather.gif);
+	color: #333333;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	color: white;
+        background-color: #ffffff;
+	padding: 8px;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+span.adminmenu {
+	background-color: #ffffff;
+	color: #000000;
+	border-style: outset;
+	border-color: #000000;
+	border-width: 1px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h1 {
+	background-color: #e6e7f5;
+	border-style: outset;
+	border-color: mediumblue;
+	border-width: 2px;
+	color: black;
+	padding: 4px;
+	text-align: right;
+}
+
+p.calendar {
+	background-color: #ffffff;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-left: 0%;
+	color: black;
+	text-align: right;
+	font-size: x-small;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+div.day {
+	background-color: transparent;
+	margin-left: 5em;
+	margin-right: 1em;
+	border-style: ridge;
+	border-color: #818ccc;
+	border-width: 4px 4px 4px 4px;
+	margin-bottom: 1em;
+}
+
+span.title {
+	color: #333333;
+	background-color: transparent;
+	margin-right: 1em;
+	font-size: 16px;
+	text-align: right;
+}
+
+h2 {
+	color: black;
+	margin: 0px 0px 0px 0px;
+	background-color: #e6e7f5;	
+	border-style: ridge;
+	border-color: #6495ed;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px 3px 3px 3px;
+	margin-bottom: 1em;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+span.date {
+	font-weight: normal;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+div.body {
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+; color: #000000
+}
+
+p {
+        text-indent: 1em;
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	border-style: solid;
+	border-color: gray;
+	border-width: 0px 0px 1px 0px;
+	margin: 0em;
+	font-weight: bold;
+	color: #4169E1;
+	background-color: transparent;
+}
+
+pre {
+	font-size: x-small;
+	background-color: #ffffff;
+	color: #000000;
+	margin-left: 1em;
+	margin-right: 5em;
+	padding: 8px 8px 8px 8px;
+	border-color: #818ccc ;
+	border-style: ridge ; 
+	border-width: 3px;
+}
+
+div.comment {
+	text-align: right;
+	background-color: white;
+	background-color: transparent;
+	color: black;
+	font-size: x-small;
+	border-style: ridge;
+	border-color: #818ccc;
+	border-width: 0px 0px 1px 0px;
+
+}
+
+p.commenttitle {
+	font-size: x-small;
+	text-align: right;
+	background-color: #e6e7f5;
+	color: #000000;
+	padding: 3px 3px 3px 3px;
+	border-style: ridge;
+	border-color: blue;
+	border-width: 0px 0px 1px 0px;
+	margin-left: 0em;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: honeydew;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.referertitle {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #818ccc;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: white;
+	background-color: transparent;
+	text-align: right;
+	color: black;
+	font-size: x-small;
+	border-style: ridge;
+	border-color: Olive;
+	border-width: 0px;
+	margin-left: 4em;
+}
+
+div.refererlist {
+	background-color: white;
+	color: #4169E1;
+	font-size: small;
+	border-style: ridge;
+	border-color: #818ccc;
+	border-width: 0px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: #818ccc;
+	border-width: 1px;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	background-color: #e6e7f5;
+	color: #000000;
+	font-size: x-small;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-style: ridge;
+	border-color: #818ccc;
+	border-width: 1px 1px 1px 1px;
+	margin-bottom: 1em;
+}
+
+input.field {
+	font-size: small;
+	color: #000000;
+	background-color: white;
+}
+
+textarea {
+	font-size: small;
+	color: #000000;
+	background-color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+li{
+	margin-left: 6em;
+}
+
+blockquote {
+	color: #000000;
+	background-color: white;
+	margin-left: 2em;
+	border-style: solid;
+	border-color: #818ccc;
+	border-width: 1px 1px 1px 5px;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+p.titlelist  {
+
+	font-size : x-small;
+	border-style : solid;
+	border-color : #818ccc;
+	border-width : 1px;
+	padding : 2px;
+	margin : 4px;
+
+}
+
+strong {
+	
+}
+
+li {
+	font-size: x-small;
+}
+p.calendar2 {
+
+	text-align: center;
+}
+
+table.calendar {
+	text-align: center;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #818ccc;
+	border-width: 0px;
+}
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
+}
+
+/*
+	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.1 $
+ */

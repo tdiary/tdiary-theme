@@ -1,0 +1,18 @@
+Title: 水
+Revision: $Revision: 1.1 $
+Author: NOB 
+Access: nob@ivyvalley.net
+License: GPL
+Comment: 水の涼しいイメージで作りました。
+
+Validated by w3c.
+
+サイドバー対応
+calendar2 recent_item footnote todo title_list プラグイン対応。
+サイドバー使用時の見出しはh3,h4を想定しています。
+
+このフォルダには
+mizu.css	theme本体です
+README		このファイル
+が入っています。
+

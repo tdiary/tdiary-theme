@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Yukon
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -372,7 +372,6 @@ div.footer {
 */
 div.day.update {
 	background-color: #8ca;
-	background-image: url(lake.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-color: #233343;

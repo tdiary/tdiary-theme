@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: DICE
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -403,7 +403,6 @@ table.calendar {
 /* calendar2อัฒ่มü */
 /*
 table.calendar td.image {
-        background-image: url(paper_calendar_image.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	height: 90px;

@@ -11,6 +11,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Changelog
+2005-03-09 TADA Tadashi <sho@spc.gr.jp>
+	* remove about 'paper_calendar_image.png'.
+
 2003-09-03 NT <nt@be.to>
 	* remove "em" specification of font-size.
 

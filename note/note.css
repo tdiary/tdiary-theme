@@ -1,0 +1,444 @@
+/*
+Title: Note
+Revision: $Revision: 1.1 $
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: ·ÓÀþÍ­¤ê
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+ */
+
+a:link {
+	text-decoration: none;
+	color: #f22;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #f77;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #e44;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #b80;
+	color: #000;
+}
+
+p.adminmenu {
+	text-align: left;
+	font-size: 0.9em;
+	background-color: #eee;
+	margin: 0em ! important;
+}
+
+span.adminmenu {
+	font-weight: bold;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+}
+
+div.day {
+	text-align: left;
+	padding: 0em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 2em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	padding: 0em;
+	text-align: left;
+	font-size: medium;
+}
+
+div.body {
+	text-align: left;
+	padding: 0em;
+}
+
+h3.subtitle {
+	padding: 0em;
+	margin: 0em;
+	font-weight: bold;
+	font-size: medium;
+	line-height: 20px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+div.section {
+	background-image: url(note_dayback.png);
+	background-color: #eec;
+	margin: 1em 0em 1.5em 0em;
+	padding: 0em;
+	font-size: 14px;
+	line-height: 24px;
+	border-style: solid;
+	border-color: #eec;
+	border-width: 24px 12px;
+}
+
+div.section p {
+	line-height: 24px;
+	padding: 0em 1em 0em 1em;
+	margin: 0em ;
+}
+
+div.day span.panchor {
+	background-image: url(note_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 18px 0px 0px;
+	color: #eec;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(note_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #ed9;
+	background-color: transparent;
+}
+
+pre {
+	margin-left: 1em;
+	margin-right: 1em;
+	background-color: #eec;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px 1px;
+}
+
+div.comment {
+	background-image: url(note_dayback.png);
+	background-color: #ed9;
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 4px;
+	margin: 1em 0em 0em 0em;
+	border-style: solid;
+	border-color: #ed9;
+	border-width: 24px 10px;
+}
+
+div.comment p {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	line-height: 24px;
+}
+
+p.commenttitle {
+	text-align: left;
+	margin-left: 0em ! important;
+	padding-left: 1em ! important;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+span.commentator {
+	font-weight: bold;
+	margin-left: -1em;
+}
+
+p.referertitle {
+	padding-left: 1em;
+	margin: 0em;
+	line-height: 24px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.refererlist {
+	background-image: url(note_dayback.png);
+	background-color: #dd9;
+	font-size: 14px;
+	text-align: left;
+	padding: 0em;
+	border-style: solid;
+	border-color: #dd9;
+	border-width: 24px 10px;
+}
+
+ul.referer {
+	margin-top: 0em;
+	padding-top: 0em;
+	list-style-image: url(note_liback.png);
+}
+
+ul.referer li {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+div.day ol {
+	margin-top: 0em;
+	line-height: 24px;
+}
+
+div.section blockquote {
+	margin-top: 0em;
+	line-height: 24px;
+	text-decoration: underline;
+	color: #00c; 
+}
+
+hr {
+	border-style: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+input, select {
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+	padding: 0px;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+}
+
+dl {
+	margin-left: 2em;
+	margin-top: 0px;
+	line-height: 24px;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+dd {
+	margin-left: 1em;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+strong {
+	font-size: 2em;
+	line-height: 40px;
+}
+
+/* sidebar */
+/* ²èÁüplugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+/* sidebar */
+
+div.leftsidebar {
+	width: 18%;
+	font-size: x-small;
+	margin: 0em 4px 0em 0em;
+	padding: 0em;
+	float: left;
+/*	position: fixed; */
+}
+
+div.leftsidebar p{
+	margin: 0em;
+}
+
+div.rightsidebar {
+	width: 18%;
+	font-size: x-small;
+	float: right;
+	padding: 0em ! important;
+}
+
+div.rightsidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #eee;
+	color: #111;
+	border: solid 1px #dd8;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0px 2px;
+}
+
+div.list ul {
+	padding-left: 2px;
+	margin: 0px 2px;
+	list-style: none;
+}
+
+div.list p {
+	background-color: #dd8;
+	margin: 0em;
+	text-align: center;
+}
+
+div.list form {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.calendar {
+	font-size: small;
+	text-align: left;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	background-color: #bbb;
+	border: solid 1px #bbb;
+}
+
+div.calendar p.year {
+	background-color: #00d;
+	margin: 0em;
+	text-align: center;
+}
+
+div.calendar a:hover {
+	display: block;
+	border-style: solid;
+	border-width:  1px;
+	border-color:  #fff #888 #888 #fff;
+}
+
+div.calendar a {
+	margin: 0em;
+	text-align: center;
+	display: block;
+	border: none 1px #888;
+}
+
+p.theme {
+	line-height: 1.0;
+	font-size: x-small;
+}
+
+/* calendar2 */
+table.calendar {
+        background-color: #ddd;
+	font-size: x-small;
+	line-height: 1em;
+	margin: 2px auto;
+	border-spacing: 0px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 4px 0px 0px 0px;
+	color: #000;
+}
+/*
+table.calendar td.image {
+        background-image: url(nobeyama.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 72px;
+}
+*/
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px 1px;
+	line-height: 1em;
+}
+
+table.calendar td.calendar-sunday {
+	color: #f00;
+}
+
+table.calendar td.calendar-saturday {
+	color: #00f;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+

@@ -1,6 +1,6 @@
 /*
 Title: LR
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 
@@ -8,9 +8,6 @@ Access: http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C
 */
 /* ChangeLog
-2002-10-18 NT <nt@24i.net>
-        * remove some "color:".
-
 2002-09-12 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -351,7 +348,7 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        margin-left: 3em;
+        margin: 1ex 0px 1ex auto;
         width: 30em;
         height: 5em;
 }
@@ -391,12 +388,12 @@ form.update div.field.title input {
 form.update div.textarea {
         display: block;
         margin-top: 1em;
+	text-align: center;
 }
 
 form.update textarea {
         display: block;
-        margin-left: 3em;
-        margin-bottom: 1em;
+        margin: 1ex 0px 1ex auto;
         width: 35em;
         height: 15em;
 }

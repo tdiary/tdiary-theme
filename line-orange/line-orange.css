@@ -1,6 +1,6 @@
 /*
 Title: Line-orange
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc
 
@@ -304,7 +304,7 @@ div.form form {
 	margin-bottom: 0.5em;
 	border-color: #FF8000;
 	border-style: solid;
-	width: 100%;
+	width: 95%;
 }
 
 input.field {
@@ -346,6 +346,7 @@ div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
+
 LI{
 	list-style-type:upper-roman
 }
@@ -429,7 +430,7 @@ form.comment textarea {
         background-color: #fff;
         color: #000;
         margin-left: 3em;
-        width: 30em;
+        width: 90%;
         height: 5em;
 }
 

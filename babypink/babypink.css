@@ -529,7 +529,7 @@ form.comment textarea {
         display: block;
         background-color: white;
         color: #000000;
-        margin-left: 3em;
+        margin: 1ex 0px 1ex auto;
         width: 30em;
         height: 5em;
 }
@@ -574,8 +574,7 @@ form.update div.textarea {
 
 form.update textarea {
         display: block;
-        margin-left: 3em;
-        margin-bottom: 1em;
+        margin: 1ex 0px 1ex auto;
         width: 35em;
         height: 15em;
 }

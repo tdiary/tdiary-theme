@@ -1,6 +1,6 @@
 /*
 Title: Moo
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: ตํสม
@@ -365,7 +365,7 @@ form.comment textarea {
         display: block;
         background-color: white;
         color: #000;
-        margin-left: 3em;
+        margin: 1ex 0px 1ex auto;
         width: 30em;
         height: 5em;
 }

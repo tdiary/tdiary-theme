@@ -1,6 +1,6 @@
 /*
 Title: Bluegrad
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -11,9 +11,6 @@ Comment: 青グラデーションの背景
 	validated by W3C
  */
 /* ChangeLog
-2002-10-18 NT <nt@24i.net>
-        * remove some "color:".
-
 2002-09-13 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -390,6 +387,7 @@ div.field {
 
 form.comment input {
         background-color: white;
+        color: 
         margin-left: 1em;
 }
 
@@ -423,6 +421,7 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
+        color: 
 }
 
 form.update span.field {
@@ -448,7 +447,7 @@ form.update div.textarea {
 form.update textarea {
         display: block;
         margin-left: 3em;
-        margin-bottom: 1em;
+	margin: 1ex 0em 2ex auto;
         width: 35em;
         height: 15em;
 }

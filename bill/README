@@ -8,6 +8,9 @@ Modified by TADA Tadashi
 validated by W3C.
 
 ChanaegLog
+2003-09-02 NT <nt@be.to>
+	* removed specification of font-family and "em" specification of font-size.
+
 2003-03-27 Nana <clorets@estyle.ne.jp>
 	* support major plugin.
 	* font-size adjustment.

@@ -7,6 +7,9 @@ Comment: レストランのメニューのようなテーマ
 	Copyright (c) 2002 nga <http://nga.jp/>
 	validated by W3C.
 ChangeLog
+2003-09-02 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2002-10-22 zoe <zoe@kasumi.sakura.ne.jp>
 	* add font-size: small in div.comment
 	* add margin-left: 2em in div.commentshort and div.commentbody

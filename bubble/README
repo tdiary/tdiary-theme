@@ -9,6 +9,9 @@ Copyright 2001 (C)by Nana <clorets@estyle.ne.jp>
 validated by W3C
 
 ChangeLog
+2003-09-02 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2003-03-06 Nana <clorets@estyle.ne.jp>
 	* support major plugin
 	* remove body font-size,font-size adjustment.remove some duplicate lines.

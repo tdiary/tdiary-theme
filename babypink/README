@@ -10,6 +10,9 @@ Modified by Nana <moo@xu.boo.jp>
 validated by W3C
 
 --Change Log---
+2003-09-02 NT <nt@be.to>
+	* removed specification of font-family and "em" specification of font-size.
+
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
 	* insert indent.
 	* remove some duplicate lines.

@@ -4,11 +4,14 @@ Access: stakei@nga.jp
 License: GPL
 Comment: 
 
-bulu-feather.css: Style Sheet of tDiary $Revision: 1.2 $
+bulu-feather.css: Style Sheet of tDiary $Revision: 1.3 $
 created by Shinchan <http://nga.jp/>
 validated by W3C.
 
 ChangeLog
+2003-09-02 NT <nt@be.to>
+	* remove specification of font-family and "em" specification of font-size.
+
 2002-10-05 NT <nt@24i.net>
         * change some properties in update form.
 

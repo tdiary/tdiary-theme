@@ -1,5 +1,5 @@
 Title: dot
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 License: GPL
 
@@ -7,6 +7,9 @@ validated by W3C.
 calendar3 プラグイン対応
 
 ChangeLog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

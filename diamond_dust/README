@@ -1,6 +1,6 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -10,10 +10,14 @@ Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 */
 
+* ナンバリングアンカーに対応しています。
+  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
+  と記入してください。
+
 Chagelog
-	* ナンバリングアンカーに対応しています。
-	  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
-	  と記入してください。
+2003-09-03 NT <nt@be.to>
+	* remove specification of font-family and "em" specification of font-size.
+
 2003-02-16 Nana <clorets@estyle.ne.jp>
 	* remove div.day span.canchor 
 	* rename div.day span.sanchor, sanchor.png->p01.png

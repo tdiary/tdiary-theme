@@ -8,6 +8,9 @@ Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 validated by W3C.
 
 ChangeLog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2003-01-18 zoe <zoe@kasumi.sakura.ne.jp>
         * add GPL description.
 

@@ -8,6 +8,9 @@ validated by W3C.
 footnote, calendar2, dropdown-calendar, search_form プラグイン対応
 
 Changelog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2003-03-14 Nana <clorets@estyle.ne.jp>
 	* font-size: em -> %.
 	* remove p.comment

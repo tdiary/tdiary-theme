@@ -1,5 +1,5 @@
 Title: Bright-green
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -8,6 +8,12 @@ Comment: 新緑の季節な感じ
 Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
-Memo 	  ヘッダ、フッダに文字を入れる場合は<div class="rank"><p>ここに文字文
-字文字</p></div>
-		などとしてもらえると背景が白になり日記と違和感無く綺麗にレイアウトされます。
+Memo
+ヘッダ、フッダに文字を入れる場合は
+  <div class="rank"><p>ここに文字文字文字</p></div>
+などとしてもらえると背景が白になり日記と違和感無く綺麗にレイアウトされます。
+
+Changelog
+2003-09-02 NT <nt@be.to>
+	* remove specification of font-family.
+

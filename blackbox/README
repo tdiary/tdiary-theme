@@ -13,6 +13,9 @@ ChangeLog
 	   * remove div.adminmenu,div.calendar  float
 	   * set div.body clear: both
 	   
+2003-09-02 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

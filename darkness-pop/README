@@ -9,6 +9,9 @@ Access: <clores@estyle.ne.jp>
 	Copyright 2002 (C) by Nana <clores@estyle.ne.jp>
 
 Changelog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2003-03-12 Nana <clores@estyle.ne.jp>
 	* support major plugin
 	* font-size: small -> 90%.

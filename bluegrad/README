@@ -9,6 +9,9 @@ Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 validated by W3C
 
 ChangeLog
+2003-09-02 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2003-02-19 zoe <zoe@kasumi.sakura.ne.jp>
         * add "clear: both" in div.body.
 

@@ -11,6 +11,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Changelog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
 2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
 	* change span.panchor -> span.sanchor. I forgot about number_anchor.
 

@@ -1,6 +1,6 @@
 /*
 Title: Piyo-family
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -14,7 +14,6 @@ Comment: 散歩を楽しむにわとりの親子たち
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #FFFACD;
 	color: #380000;
 }
@@ -132,7 +131,7 @@ div.section {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0px;
 	padding: 3px;
 	background-image: url(piyo-line.png);
@@ -496,7 +495,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

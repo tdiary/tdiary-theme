@@ -1,6 +1,6 @@
 /*
 Title: pain
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: epi
 Access: http://330mg.bufferin.jp/diary/
 License: GPL
@@ -43,7 +43,7 @@ text-decoration: underline;
 */
 div.adminmenu {
 text-align: right;
-font-size: 0.9em;
+font-size: 90%;
 }
 
 /*
@@ -113,7 +113,6 @@ margin-bottom: 1em;
 */
 h2 span.date {
 margin-right: 0.5em;
-font-family: "Verdana", "Arial", "Helvetica", sans-serif;
 }
 
 /*
@@ -330,7 +329,6 @@ div.footer {
 font-size: small;
 text-align: right;
 margin-top: 1em;
-font-family: "Verdana", "Arial", "Helvetica", sans-serif;
 font-style: italic;
 }
 

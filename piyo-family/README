@@ -1,5 +1,5 @@
 Title: Piyo-family
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -16,7 +16,11 @@ captain piyo http://www.rain-road.com/ By rain-road
 EGG-katakana http://www.coara.or.jp/~kumac/642/ By Design Ïª½Ð¶¸
 
 ChangeLog
-	 2003-03-11 Nana <clorets@estyle.ne.jp>
+2003-09-13 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2003-03-11 Nana <clorets@estyle.ne.jp>
 	 * h2 span.date font-size:90%-> 130%
 	 * div.commentbody p margin-left: 2em->3em
 	 * div.commentshort p margin-top: 0.2em->12px

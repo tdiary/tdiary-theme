@@ -8,6 +8,9 @@ Comment: À±¤Î²¦»Ò¤µ¤Þ¢ö
 	validated by W3C.
 
 Change-Log
+2003-09-13 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-01 Nana <clorets@estyle.ne.jp>
 	* remove body font-size 
 	* set body margin-left 25%

@@ -130,7 +130,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -184,7 +184,7 @@ div.section p {
 ツッコミ欄全体の設定
 */
 div.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -274,7 +274,7 @@ div.refererlist {
 リンク元リスト一覧の設定
 */
 div.refererlist ul {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em 1em 0.5em 3em;
 	line-height: 1.2em;
 }

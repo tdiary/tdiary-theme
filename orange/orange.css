@@ -1,6 +1,6 @@
 /*
 Title: Orange
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://moo.boo.jp
 
@@ -15,7 +15,6 @@ Access: http://moo.boo.jp
 body {
 	background-image: url(orange_namazu.gif);
 	color: maroon;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size: 13px;
 }
 
@@ -60,7 +59,6 @@ h1 {
 }
 
 div.calendar {
-	font-family :Georgia;
 	color: #006400;
 	font-size: 15px;
 	background-color: transparent;
@@ -77,11 +75,9 @@ h2 {
 	text-align: center;
 	margin-top: 0.1em;
 	margin-bottom: 0.1em;
-	font-family :Georgia;
 	font-size: 15px;
 }
 h2 span.date {
-	font-family :Georgia;
 	font-weight: bold;
 	font-size: 15px;
 	padding: 2px;
@@ -101,7 +97,6 @@ h2 span.title {
 }
 
 div.body {    
-	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 	background-color: transparent;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -148,7 +143,6 @@ pre {
 }
 
 div.comment {
-	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 	font-size: 13px;
 	color: maroon;
 	padding: 2px;
@@ -267,7 +261,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	font-family:"Comic Sans MS","ÇlÇr UI ÉSÉVÉbÉN";
 }
 
 /*

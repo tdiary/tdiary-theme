@@ -8,5 +8,8 @@ Copyright 2002 (C) by abbey <inlet@cello.no-ip.org>
 validated by W3C.
 
 Changelog
+2003-09-13 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-10 abbey <inlet@cello.no-ip.org>
 	*create

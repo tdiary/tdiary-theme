@@ -10,6 +10,9 @@ Comment: ピンクなグラデーション
 	validated by W3C
 
 ChangeLog
+2003-09-13 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
 	* fix "div.body footnote" -> "div.body div.footnote"
 

@@ -8,6 +8,10 @@ License: GPL
 	validated by W3C
 
 ChangeLog
+2003-09-13 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-11-03 Nana <moo@xu.boo.jp>
 	* CRLF to LF
 	* remove body,div.day font-size:13px

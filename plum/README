@@ -11,6 +11,9 @@ validated by W3C
 calendar2, recent_list, footnote プラグイン対応
 
 --Change Log---
+2003-09-13 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-14 epi
 	* フォントサイズをすべて相対指定に変更
 	

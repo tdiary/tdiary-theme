@@ -1,6 +1,6 @@
 /*
 Title: Puppy
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-color: #fff;
 	color: #333;
 	background-image: url(puppy_bg.png);
-	font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;
 	margin: 0.5em 7%;
 }
 

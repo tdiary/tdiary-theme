@@ -22,7 +22,6 @@ Access: http://moo.boo.jp
 
 body {
 	text-align : center;
-	font-family :osaka, Arial,"MS UI Gothic", sans-serif;    
 	background-color: #FFCC33;
 	color: #00007F;
 }
@@ -311,7 +310,7 @@ div.body dd {
 
 /* calendar2 */
 table.calendar {
-	font-size: 0.9em;
+	font-size: 90%;
 	line-height: 100%;
 	border-width: 2px;
         border-color: #00007F;
@@ -336,13 +335,13 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 
 /* recent_list */
         p.recentitem {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-top: 0px;
         margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-top: 0px;
         margin-bottom: 1em;
         margin-left: 1em;
@@ -358,7 +357,7 @@ div.footnote {
         border-color: #aaa;
         border-width: 1px 0px 0px 0px;
         margin-left: 10em;
-        font-size:0.9em;
+        font-size:90%;
 }
 div.footnote p.footnote {
         text-align: right;

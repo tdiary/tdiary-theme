@@ -1,6 +1,6 @@
 /*
 Title: プールサイド
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: ただただし
 Access: sho@spc.gr.jp
 Comment: 涼しげなプールサイトのイメージ
@@ -266,7 +266,7 @@ table.calendar {
 	border-width: 1px;
 	margin-bottom: 1em;
         margin-left: 3em;
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 td.calendar-current-month {

@@ -1,6 +1,6 @@
 /*
 Title: Pettan
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -18,7 +18,6 @@ body {
 	color: #562;
 	padding: 0.2em 0em;
 	margin: 0.5em 20%;
-	font-family: Arial,Verdana,Helvetica,sans-serif;
 }
 
 /*
@@ -80,7 +79,6 @@ span.adminmenu {
 h1 {
 	color: #DEB887;
 	text-align: left;
-	font-family: "Courier New","Times New Roman","Comic Sans MS",sans-serif;
 	font-style: italic;
 	font-size: 150%;
 }
@@ -108,7 +106,7 @@ h2 {
 	background-image: url(pettan-yellow.png);
 	background-position: right top;
 	background-repeat: no-repeat;
-	font-size: 1.2em;
+	font-size: 120%;
 	line-height: 1.5em;			
 }
 
@@ -137,7 +135,7 @@ h2 span.title {
 	margin-left: 2em;
 	padding: 0px;
 	font-weight: normal;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 /*
@@ -164,7 +162,7 @@ h3 {
 	padding: 0.3em;
 	margin: 0px;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 100%;
 	border-bottom: ridge 2px #F5DEB3;
 }
 
@@ -224,7 +222,7 @@ div.caption {
 ツッコミ欄全体の設定
 */
 div.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: left;
 	margin: 0px;
 	padding: 0px;
@@ -235,7 +233,7 @@ div.comment {
 ツッコミ省略版本文
 */
 div.commentshort {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-left: 1em;
 }
 span.commentator {
@@ -302,7 +300,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {

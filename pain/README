@@ -11,6 +11,10 @@ validated by W3C
 calendar2, recent_list, footnote プラグイン対応
 
 --Change Log---
+2003-09-13 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2003-01-21 epi
         * add pain theme
 

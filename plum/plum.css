@@ -1,6 +1,6 @@
 /*
 Title: plum
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: epi
 Access: <episode@104.net>
 License: GPL
@@ -450,7 +450,7 @@ margin-left: 1em;
 /* footnote */
 div.body span.footnote {
 vertical-align: super;
-font-size: 0.7em;
+font-size: 70%;
 }
 div.footnote {
 font-size: small;

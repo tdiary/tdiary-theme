@@ -8,6 +8,10 @@ Comment: メモ帳ぺったん風
         Validated by W3C
 
 ChangeLog
+2003-09-13 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-12-01 Nana <>
 	* add Pettan Theme.
 

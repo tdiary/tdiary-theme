@@ -3,7 +3,7 @@
 	Copyright by (C) Nana <http://moo.boo.jp>
 	validated by W3C.
         Title:Orange-border
-	Revision: $Revision: 1.8 $
+	Revision: $Revision: 1.9 $
 	Author: Nana
 	Comment: À±¤Î²¦»Ò¤µ¤Þ¢ö
 
@@ -17,7 +17,7 @@ div.rank {
         margin-left: 25%;
         margin-bottom: 2px;
         margin-top: 2px;
-        font-size: 0.9em;
+        font-size: 90%;
         text-align: left;
 }
 
@@ -27,7 +27,7 @@ body {
 	background-repeat: repeat-y;
 	color: #330000;
 	margin-right: 5%;
-        /*font-size: 1em;*/
+font-size: 100%;
 	margin-left: 25%;
 }
 
@@ -45,7 +45,7 @@ a:hover,a:focus {
 }
 
 div.adminmenu {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0;
 	margin-right: 2%;
 	text-align: right
@@ -70,7 +70,7 @@ h1 {
 	padding-top: 3%;
 	padding-right: 10%;
 	text-align: left;
-        font-size: 1.3em;
+        font-size: 130%;
 }
 
 div.calendar {
@@ -78,7 +78,7 @@ div.calendar {
 	border-color: #ffffc8;
 	border-style: none;
 	border-width: 1px 0px 1px 0px;   
-	font-size: 0.9em;
+	font-size: 90%;
 	/*margin: 0% 0% 3% 25%;*/
 	padding: 3px;
 	text-align: left;
@@ -91,7 +91,7 @@ div.day {
 
 h2 {
         color: #ffffff;
-	font-size: 1em;
+	font-size: 100%;
 	background-color: #f8bf22;
         border-color: #ffffc8;
 	border-style: solid;
@@ -108,7 +108,7 @@ div.body {
 h3 {
    	padding-left: 2px;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 100%;
 	font-weight: bold;
 	margin: 1.5em 0px 0px
 }
@@ -121,7 +121,7 @@ div.day p {
 }
 
 div.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 	padding-bottom: 1px;
 	padding-left: 2em;
 	padding-right: 2px;
@@ -162,7 +162,7 @@ div.comment p {
 }
 
 div.referer {
-	font-size: 0.9em;
+	font-size: 90%;
 	border-color: #f8bf22;
 	border-style: solid;
 	border-width: 1px 0px 1px 0px;
@@ -177,7 +177,7 @@ div.refererlist {
 	border-color: #f8bf22;
 	border-style: solid;
 	border-width: 1px 0px 1px 0px;
-        font-size: 0.9em;
+        font-size: 90%;
 	padding-bottom: 1px; 
 	padding-left: 2px;
 	padding-right: 2px;
@@ -202,7 +202,7 @@ hr.sep {
 }
 
 div.footer {
-        font-size: 0.9em;
+        font-size: 90%;
 	text-align: right;
 }
 
@@ -243,7 +243,7 @@ p.message {
 pre {
 	background-color: #FFF8DC;
 	color: #330000;
-        font-size: 1em;
+        font-size: 100%;
 	margin-left: 3em;
 	padding: 8px;
         border-style: solid;
@@ -337,7 +337,7 @@ input, select {
 
 /* calendar2 */
 table.calendar {
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 2px;
         border-color: #FFA500;

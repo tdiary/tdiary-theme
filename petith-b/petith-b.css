@@ -27,7 +27,6 @@ a:hover, a:focus {
 }
 
 body {
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #000;
 	color: #999;
 	margin-right: 0.2em;
@@ -91,7 +90,7 @@ h2 {
 	margin-right: 12px;
 	padding: 0em;
 	text-align: right;
-	font-size: 1em;
+	font-size: 100%;
     /* Internet Explorer 5 (Mac) can't float a box which isn't assigned its width.  
        float: right;
     */
@@ -447,13 +446,13 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
@@ -469,7 +468,7 @@ div.body div.footnote {
 	border-color: #aaa;
 	border-width: 1px 0px 0px 0px;
 	margin-left: 10em;
-	font-size:0.9em;
+	font-size:90%;
 }
 
 form.search {

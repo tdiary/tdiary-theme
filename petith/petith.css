@@ -20,7 +20,6 @@ Comment: 小さなハートの枠がかわいいテーマ
 	* fix textarea biyo--n problem.
 
 2002-3-20  by Nana
-	* remove font-family,font-size:13px>>>1em
 	* changed pre-style
 	* div.day margin-left,right:12%>>>10%    
 
@@ -57,7 +56,7 @@ body {
 	color: #999;
 	margin-right: 0.2em;
 	margin-left: 0.2em;
-	font-size: 1em;
+	font-size: 100%;
 }
 p.strong {
 	font-size: 200%;
@@ -69,7 +68,7 @@ p.strong {
 
 div.adminmenu {
 	text-align: right;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 p.message {
@@ -110,7 +109,7 @@ div.day {
 	padding-right: 0px;
 	margin-right: 10%;
 	margin-left: 10%;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 h2 {
@@ -119,7 +118,7 @@ h2 {
 	margin-right: 12px;
 	padding: 0em;
 	text-align: right;
-	font-size: 1em;
+	font-size: 100%;
     /* Internet Explorer 5 (Mac) can't float a box which isn't assigned its widt
 h.
     float: right;
@@ -127,7 +126,7 @@ h.
 }
 
 h2 span.date {
-	font-size: 1em;
+	font-size: 100%;
 	margin-left: 0.5em;
 }
 
@@ -196,7 +195,7 @@ pre {
 }
 
 div.comment {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: left;
 	background-color: transparent;
 	padding: 2px;
@@ -225,7 +224,7 @@ div.refererlist div.caption {
 
 div.referer {
 	text-align: right;
-	font-size: 1em;
+	font-size: 100%;
 	background-color: transparent;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -233,7 +232,7 @@ div.referer {
 }
 
 div.refererlist {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: left;
 	background-color: transparent;
 	padding: 2px;
@@ -258,7 +257,7 @@ hr.sep {
 }
 
 div.footer {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: right;
 	height: 32px;
 }

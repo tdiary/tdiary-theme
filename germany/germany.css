@@ -1,5 +1,5 @@
 /*
-  germany.css Germany Style Sheet of tDiary $Revision: 1.1 $
+  germany.css Germany Style Sheet of tDiary $Revision: 1.2 $
   Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
   validated by W3C.
 */
@@ -71,7 +71,7 @@ div.day {
 }
 
 div.day a {
-   color: #66b3ff;
+  color: #66b3ff;
 }
 h2 {
   border-style: solid;
@@ -244,98 +244,3 @@ span.memo {
   background:#ffccff;
 }
  
-div.kensaku{
-  text-align:right;
-  padding:2px;
-}
-        
-a img {
-  border-width: 1px;
-  color:#DBE8FB;	
-}
-
-/*
-脚注番号
-*/
-span.footnote ,span.footnote a{
-  font-size: 0.8em;
-  color:#DC143C;
-}
-/*
-脚注本文全体
-*/
-div.footnote {
-  border-color:#000;
-  border-style:solid;
-  border-width: 1px 0px 0px 0px;
-  padding: 3px;
-  font-size:0.6em;
-  text-align: left;
-  margin-left: 24px;
-  margin-right: 16px;
-}
-
-div.footnote a{
-   color:#DC143C;
-}
-/*
-それぞれの脚注本文
-*/
-span.footnote{
-   vertical-align: super;
-   color:#DC143C;
-   font-size:0.6em;
-}
-/*
-スミ消しプラグイン用
-*/
-.hide{
-    background-color:#000;
-}
-
-/*
-カレンダー
-*/
-table.calendar {
-    text-align: center;    
-    border-style: dashed;
-    background-color: #bb0000;
-    border-color: #ccc;
-    border-width: 1px;
-    color: #fff;
-}
-
-td.calendar-current-month {
-    text-align: center;
-}
-
-td.calendar-next-month {
-    text-align: right;
-}
-
-td.calendar-prev-month {
-    text-align: left;
-}
-
-td.calendar-sunday {
-    color: red;
-    background-color: #fbac00;
-    text-align: center;
-}
-
-td.calendar-saturday {
-    color: blue;
-    background-color: #bbf;
-    text-align: center;
-}
-
-td.calendar-weekday {
-    background-color: #000;
-    text-align: center;
-    color: #fff;
-}
-
-td.calendar-day {
-    text-align: right;
-    font-size: 0.6em;
-}

@@ -1,5 +1,5 @@
 Title: Old-pavement
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: NOB 
 Access: nob@ivyvalley.net
 License: GPL
@@ -35,7 +35,7 @@ README			このファイル
 
 Changelog
 2004-06-24 NOB <nob@ivyvalley.net>
-	* removed duplicate recentiem.
+	* removed duplicate recentitem.
 
 2004-06-23 NOB <nob@ivyvalley.net>
 	* adjustment of margin and padding on recentiem in sidebar.

@@ -13,9 +13,9 @@
 
 --Change Log---
  2002-05-16 epi
-        * add sidebar-left, sidebar-right, main-left, main-right
-                  if (sidebar == left) sidebar-left + main-right
-                  if (sidebar == right) sidebar-right +  main-left
+        * add leftsidebar, rightsidebar, leftmain, rightmain
+                  if (sidebar == left) leftsidebar + rightmain
+                  if (sidebar == right) rightsidebar +  leftmain
         * calendar2  margin modified
 */
        

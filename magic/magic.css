@@ -1,5 +1,7 @@
 /*
-	magic.css: Style Sheet of tDiary $Revisions$
+	magic.css: Magic Style Sheet of tDiary $Revisions: 1.1 $
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C
  */
 
 body {
@@ -87,8 +89,8 @@ span.date {
 }
 
 span.title {
-	text-align: justify;
-	text-justify: distribute-all-lines;
+/*	text-align: justify; */
+/*	text-justify: distribute-all-lines; */
 }
 
 div.body {

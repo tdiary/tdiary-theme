@@ -1,0 +1,22 @@
+Title: 夜空
+Author: Sarsya&Nana
+Access: 
+License: see Hanayashiki <http://vanilla.ath.cx/~Hanayashiki/>
+Comment: 夜空をイメージしたテーマ。背景画像はSarsya、cssはNanaが製作した共同テーマです。画像の加工は禁止させて頂きます。
+
+
+	Yozora Style Sheet of tDiary
+	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
+	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
+        
+        Modified by Nana <mpc@mikan.sakura.ne.jp>
+        背景画像はSarsya、cssはNanaが製作した共同テーマです。画像の加工は禁止させて頂きます。
+
+ChangeLog
+2002-10-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* div.comment align left.
+

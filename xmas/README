@@ -1,0 +1,19 @@
+Title: クリスマス
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 
+License: GPL
+
+       Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+       Modified by TADA Tadashi
+
+ChangeLog
+2002-10-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-16 Nana
+	* color:gold >>> #ffd700,white >>>#fff,red>>>#ff0
+	* font-family was deleted.     

@@ -1,0 +1,344 @@
+/*
+	haru.css: Default Style Sheet of tDiary $Revision: 1.1 $
+ */
+a:link, a:visited {
+	color: #0080ff;
+	text-decoration: none;
+    
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color: #9CAEF7;
+	text-decoration: none;
+}
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #fff;
+    font-size: 13px;
+	color: black;
+	margin: 0em 0.5em 1em 1em;
+	background-image: url(haru_3.png);
+	background-attachment: fixed;
+    font-family :osaka, Arial,"MS UI Gothic";
+}
+
+div.body p a{
+	background-image:url(haru.gif) ;
+	
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: 13px;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+    font-size: 13px;
+    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {font-size: 13px;
+    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+    
+    text-align: right;
+	border-style: none;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 2px;
+	margin-bottom: 0.5em;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+    font-family :osaka, Arial,"MS UI Gothic";
+	border-style: none;
+	border-color: pink;
+	border-width: 1px;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+/*
+日付の設定
+*/
+span.date {
+    font-size: 15px;
+    
+	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.date a:link, span.date a:visited {
+	color: pink;
+	text-decoration: none;
+}
+
+span.date a:hover ,span.date a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+    font-family :osaka,"Lucida Sans Unicode",Arial;
+	font-size: 13px;
+	margin: 0em;
+	font-weight: bold;
+}
+
+h3.subtitle a:link, h3.subtitle a:visited {
+	color: #2a4;
+	text-decoration: none;
+}
+h3.subtitle a:hover, h3.subtitle a:focus {
+	color: #4e8;
+	text-decoration: none;
+}
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: 13px;
+	background-color: ;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+width: 90%;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: 13px;
+	background-color: ;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: 13px;
+	background-color: ;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+width: 90%;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: pink;
+    width: 90%;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+    
+    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	font-size: 13px;
+	text-align: right;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-right: 30px;
+	
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: transparent;
+	border-style: none;
+	border-color: #008;
+	border-width: 0px 0px 1px 1px;
+	padding: 0.5em 1em 0.5em 24px;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+    
+}}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+}
+
+
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	margin-left: 1em;
+    width:80%
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: #fff;
+	color: #0080ff;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px;
+    width: 90%
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+　　font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+    color: #ff0;
+}

@@ -1,0 +1,16 @@
+Title: 雪だるま
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: 雪だるま
+
+	snow_man.css: Snow Man Style Sheet of tDiary $Revision: 1.1 $
+	Copyright (C) 2002 nga <http://nga.jp/>
+	validated by W3C. (2002-03-02)
+
+ChangeLog
+2002-10-18 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.

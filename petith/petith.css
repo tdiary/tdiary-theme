@@ -1,5 +1,5 @@
 /*
-	petith.css: Petith Style Sheet of tDiary $Revision: 1.2 $
+	petith.css: Petith Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
  */
@@ -137,6 +137,25 @@ h3.subtitle {
 	font-size: medium;
 }
 
+div.day span.panchor {
+	background-image: url(petith_panchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 18px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(petith_canchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 18px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
 pre {
 	background-color: #2266AA;
 	color: #fff;

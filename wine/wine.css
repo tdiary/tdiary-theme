@@ -6,6 +6,11 @@
 　　</div>
 　　を書き込んでください。
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 /*
 ページ全体の基本的な設定。背景色や文字色など
@@ -246,6 +251,10 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 13px;
 	margin-bottom: 0.5em;
+}
+
+div.form form {
+	width:90%;
 }
 
 /*

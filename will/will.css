@@ -4,6 +4,10 @@ wiLL.css: tDiary.Net構築日誌用テーマ(改)
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
 */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
 
 body {
 	line-height: 120%;
@@ -135,6 +139,7 @@ div.form {
 div.form form {
 	margin: 0;
 	padding: 4px 4px 4px 4px;
+	width: 100%;
 }
 
 div.form p {

@@ -8,6 +8,10 @@ Modified by Nana http://moo.boo.jptdiary/
 validated by W3C. 
 
 ChangeLog
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-21 NT <nt@24i.net>
         * convert for 1.5 series.
 

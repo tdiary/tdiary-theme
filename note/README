@@ -8,6 +8,10 @@ Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
 
 ChangeLog
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

@@ -6,6 +6,9 @@ Comment: 淡いグレーを織りまぜた白系統のテーマ
 
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 ChangeLog
+2003-09-10 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

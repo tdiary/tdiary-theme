@@ -8,5 +8,9 @@ Copyright 2002 (C) by peco <peco@momo.so-net.ne.jp>
 validated by W3C.
 
 ChangLog
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-12-30 Nana <moo@xu.boo.jp>
 	* add Nenga Theme 

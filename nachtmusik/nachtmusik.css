@@ -1,6 +1,6 @@
 /*
 Title: Nacht Musik
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: epi
 Access: http://wind.prohosting.com/~episodee/
 License: GPL
@@ -16,7 +16,6 @@ Validated by W3C.
 body {
 	color: #FFFAFA; 
 	background-color: #000000; 
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 
 a:link {
@@ -156,14 +155,12 @@ h3 {
 p.strong {
 	font-size: 200%;
 	font-weight: bold;
-	font-family:"Comic Sans MS","£Í£Ó UI ¥´¥·¥Ã¥¯",Osaka,sans-serif;
 	text-align: center;
 }
 pre {
 	color: #696969;
 	background-color: #dcdcdc; 
 	margin-left: 2em;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size: 80%;
 	margin-right: 3em;
 	padding: 8px;

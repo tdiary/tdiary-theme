@@ -1,6 +1,6 @@
 /* 
 Title: Nahanaha
-Revision: $Revision: 1.6 $ 
+Revision: $Revision: 1.7 $ 
 Author: furu
 Access: http://nahanaha.zive.net/
 License: GPL
@@ -159,7 +159,7 @@ div.body p {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -313,7 +313,6 @@ pre {
 	margin-left: 1.5em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
-        font-family: osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 
 /*
@@ -337,7 +336,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -355,7 +354,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -386,7 +385,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #eeeeee;
         border-width: 0px 0px 1px 0px;
@@ -394,7 +393,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

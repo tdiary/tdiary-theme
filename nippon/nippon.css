@@ -1,6 +1,6 @@
 /*
 Title: 日本ちゃちゃちゃ
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -19,7 +19,6 @@ body {
 	background-repeat: repeat-y;
 	background-color: #007;
 	color: #fff;
-	font-family: osaka,'MS PGothic',sans-serif;
 	margin-left: 210px;
 }
 

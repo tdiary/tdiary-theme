@@ -15,7 +15,6 @@ Comment: 年賀ハガキアンカー
 body {
 	background: #ffffff;
 	color: #663300;
-	font-family: Verdana,Arial,sans-serif;
 	margin: 1em 5em;
 }
 
@@ -282,7 +281,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {

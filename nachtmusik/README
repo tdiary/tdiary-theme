@@ -8,7 +8,10 @@ Copyright 2002 (C) by epi <http://wind.prohosting.com/~episodee/>
 Validated by W3C.
 
 Changelog
-2003-05-21 TADA Tadashi <sho@spc.gr.jp?
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+
+2003-05-21 TADA Tadashi <sho@spc.gr.jp>
 	* font-size: em -> %.
 
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>

@@ -1,6 +1,6 @@
 /*
 Title: ナチュラルグレイ
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -12,7 +12,7 @@ Comment: 淡いグレーを織りまぜた白系統のテーマ
 */
 
 /*
-	Natural_gray.css: Default Style Sheet of tDiary $Revision: 1.5 $
+	Natural_gray.css: Default Style Sheet of tDiary $Revision: 1.6 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
  */
 
@@ -63,7 +63,7 @@ span.adminmenu a:hover{
 */
 h1 {
 	text-align: left;
-	font-size:1.5em;
+	font-size:150%;
 	font-style:normal;
 	margin: 2em 0em 3em 1.5em;
 }
@@ -99,7 +99,7 @@ div.day {
 タイトル行全体の設定
 */
 h2 {
-	font-size: 1.2em;
+	font-size: 120%;
 	font-style: normal;
 	background-color: #e6e6cc;
 	border-width : 1px 3px;
@@ -135,7 +135,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin-top: 1em;
 	font-weight: bold;
 	border-color: #ccc;

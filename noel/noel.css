@@ -1,6 +1,6 @@
 /*
 Title: noel
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: oyuu
 Access: oyuu@mocha.freemail.ne.jp
 License: GPL
@@ -14,7 +14,6 @@ body {
 	color: #ffffcc;
 	background-color: #000000;
 	margin: 0px;
-	font-family: "Lucida Sans Unicode", sans-serif;
 	text-align: center;
 }
 
@@ -276,7 +275,7 @@ strong {
 table.calendar {
 	color: #ffffcc;
 	background-color: #006600;
-        font-size: 1em;
+        font-size: 100%;
         line-height: 120%;
 	border: #ff3300 solid 5px;
 	margin: 3% auto 3% auto;
@@ -343,7 +342,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -1,14 +1,17 @@
 Title: Orangegrad
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: オレンジなグラデーション
 
 	Orangegrad.css: Style Sheet of tDiary 
-	Copyright (C) 2002 by Nana <moo@xu.boo.jp>
+	Copyright (C) 2002 by Nana <clorets@estyle.ne.jp>
 	validated by W3C
 
 ChangeLog
+2003-02-19 Nana <clorets@estyle.ne.jp>
+	* remove h2 float right
+
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
 	* fix "div.body footnote" -> "div.body div.footnote"
 

@@ -1,5 +1,5 @@
 /*
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.1 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
@@ -38,7 +38,7 @@ body {
         border-color: #cccccc;
         border-width: 8px;
         margin: 2% 5% 2% 5%;
-     /* background-image: url(back.jpg); */
+        background-image: url(back.jpg); 
         background-repeat: no-repeat;
         background-position: left bottom;
         background-attachment: fixed;
@@ -101,20 +101,20 @@ div.day {
 }
 
 div.day span.panchor {
-     /* background-image: url(panchor.png); */
+        background-image: url(panchor.png);
         background-position: bottom right;
         background-repeat: no-repeat;
-        padding: 17px 17px 0px 0px;
-        color: #cccccc;
-        font-size: 0px;
+        padding: 13px 13px 0px 0px;
+        color: #fff;
+        font-size: 0px;         
 }
 
 div.day span.canchor {
-     /* background-image: url(canchor.png); */
+        background-image: url(canchor.png);
         background-position: bottom right;
         background-repeat: no-repeat;
-        padding: 13px 13px 1px 1px;
-        color: #cccccc;
+        padding: 10px 10px 0px 0px;
+        color: #fff;
         font-size: 0px;
 }
 
@@ -199,6 +199,8 @@ span.commentator {
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 0px 0px 1px 0px;
+        color: #006699;
+        background-color: transparent;
 }
 
 p.referertitle {

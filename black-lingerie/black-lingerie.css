@@ -1,5 +1,5 @@
 /*
-	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.1 $
+	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
  */
@@ -20,9 +20,9 @@ body {
 	scrollbar-track-color: #000000;
 	scrollbar-darkshadow-color: #000000;
 }
-A:link{color:#FFFFFF}
-A:visited{color:#990033}
-A:active{color:#9370DB}
+A:link{color:#FFFFFF;}
+A:visited{color:#990033;}
+A:active{color:#9370DB;}
 A:hover { color:#DDA0DD; }
 
 /*
@@ -119,6 +119,26 @@ h3.subtitle {
 	font-size: 1em;
 	margin: 0em;
 	font-weight: bold;
+}
+
+div.day span.panchor {
+	background-image: url(black-lingerie_panchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 11px 11px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(black-lingerie_canchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 /*

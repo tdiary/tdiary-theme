@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: ¿å
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: TSUTAYA Nobuo (NOB)
 Access: nob@ivyvalley.net <http://nob.ivyvalley.net/>
 License: GPL
@@ -579,7 +579,7 @@ div.sidebar div.recentsubtitles {
 	margin-bottom: 1em;
 	margin-left: 1em;
 	padding-right:0.5em;
-
+	text-align:right;
 }
 
 div.main {
@@ -645,10 +645,6 @@ div.sidebar ul {
 	margin: 5px;
 	padding: 0px;
 	list-style-type: none;
-}
-
-div.sidebar div.recentsubtitles {
-	text-align:right;
 }
 
 div.counter {

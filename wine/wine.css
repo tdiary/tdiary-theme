@@ -1,0 +1,342 @@
+/*
+	サンプルのように日記部分だけを分けたい場合は
+　　設定画面でヘッダーに
+　　<div style="width: 100%;height:60%;overflow:auto;position:relative;top:1%;">
+　　フッターに
+　　</div>
+　　を書き込んでください。
+ */
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	
+    font-size: small;
+	color: #fff;
+	background-color: #800040;
+	margin: 3em 6em 1em 6em;
+    
+scrollbar-face-color:#800040;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #000000;
+scrollbar-3dlight-color: #000000;
+scrollbar-arrow-color:#FFBBBB;
+scrollbar-track-color:#800040;
+scrollbar-darkshadow-color: #800040;}
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	margin-top: 0em;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+    font-size: 13px;
+	background-color: #800040;
+	position: relative;
+	border-style: solid;
+    border-color: #fff;
+	border-width: 5px 1px 1px 1px;
+	padding: 0.1em;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+    font-size: 13px;
+    font-weight: bold;
+	background-color: #800040;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 5px 1px 1px 1px;
+	padding: 2px;
+	margin-bottom: 0.5em;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: transparent;font-size: small;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 1px 1px 1px;
+	
+	
+
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	background-color: #800040;
+	margin: 0em 0em 0.5em 0em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 5px 0px 0px 0px;
+}
+
+/*
+日付の設定
+*/
+    span.date {font-size: 18px;
+    font-family : Arial,"MS UI Gothic";
+	margin-left: 1em;
+    	
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: transparent;
+    font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	font-size: 1em;
+	margin: 0em;
+	font-weight: bold;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.2;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: 13px;
+	background-color: #800040;
+	margin-left: 1em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+    border-width:100%
+
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	background-color: #800040;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+    
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 1px 0px 0px 0px;
+	padding: 3px;
+
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {margin-left: 1em;
+	text-align: right;
+	font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	border-width:100%
+	border-style: solid;
+	border-color: #55f;
+	border-width: 0px 0px 0px 0px;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: 13px;
+	background-color: #800040;
+	padding: 0px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	
+	border-style: solid;
+	border-color: #55f;
+	border-width: 0px 0px 0px 0px;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	background-color: #800040;
+	margin-top: 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: 13px;
+	text-align: right;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {color: #fff;
+	background-color: #800040;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 5px 1px 1px 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 13px;
+	margin-bottom: 0.5em;
+    
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {color: #fff;
+	background-color: #800040;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px 1px 1px 1px;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {color: #fff;
+	background-color: #800040;
+	margin-left: 1em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px 1px 1px 1px;
+    width:90%
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+    font-size: 13px;
+	background-color: #fff;
+	color: #800040;
+	margin-left: 0.5em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+a:link {
+        text-decoration: none;
+        font-weight: bold;
+	color: pink;
+}
+a:visited {
+        text-decoration: none;
+        color: #FFB5FF;
+        font-weight: bold;
+}
+a:hover,a:active {
+	text-decoration: none;
+        color: #fff;
+}
+p.strong {
+	font-size: 180%;
+	font-weight: bold;
+	text-align: center;
+　　font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+    color: #fff;
+}
+

@@ -8,6 +8,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-Log
+2002-11-02 Nana <mpc@mikan.sakura.ne.jp>
+	* charset iso-2022-jp to EUC-JP.
+	
 2002-10-21 Nana <mpc@mikan.sakura.ne.jp>
 	* set form.search {text-align:right}
 	

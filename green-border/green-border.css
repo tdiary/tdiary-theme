@@ -3,9 +3,9 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
         Title: Green-border
-	Revision: $Revision: 1.7 $
+	Revision: $Revision: 1.8 $
 	Author: Nana
-	Comment: $B%+%(%k$/$s$J%F!<%^(B
+	Comment: ¥«¥¨¥ë¤¯¤ó¤Ê¥Æ¡¼¥Þ
 */
 
 
@@ -293,14 +293,14 @@ a img {
 }
 
 /*
-$B5SCmHV9f(B
+µÓÃíÈÖ¹æ
 */
 span.footnote ,span.footnote a{
         font-size: xx-small;
         color:#DC143C;
 }
 /*
-$B5SCmK\J8A4BN(B
+µÓÃíËÜÊ¸Á´ÂÎ
 */
 div.footnote {
         border-color:#ffffff;
@@ -356,7 +356,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 }
 
 /*
-$B%D%C%3%_>JN,HGK\J8(B
+¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
 */
 div.commentshort {
         font-size: 0.9em;
@@ -374,7 +374,7 @@ div.commentshort p {
 }
 
 /*
-$B%D%C%3%_K\BN(B
+¥Ä¥Ã¥³¥ßËÜÂÎ
 */
 div.commentbody {
         font-size: 0.9em;
@@ -383,7 +383,7 @@ div.commentbody {
 }
 
 /*
-$B%D%C%3%_$7$??M$N>pJs(B
+¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ðÊó
 */
 div.commentator {
         border-style: solid;
@@ -393,7 +393,7 @@ div.commentator {
 }
 
 /*
-$B%D%C%3%_K\J8(B
+¥Ä¥Ã¥³¥ßËÜÊ¸
 */
 div.commentbody p {
         margin: 0.5em;
@@ -401,7 +401,7 @@ div.commentbody p {
 }
 
 /*
-$B%U%)!<%`$N@_Dj(B
+¥Õ¥©¡¼¥à¤ÎÀßÄê
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -450,7 +450,7 @@ div.button {
 }
 
 /*
-$B99?7%U%)!<%`(B
+¹¹¿·¥Õ¥©¡¼¥à
 */
 form.update {
         padding-top: 0.5em;
@@ -495,14 +495,14 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-$B%D%C%3%_>uBVJQ99%U%)!<%`(B
+¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
 */
 div.comment form {
         margin-top: 0em;
 }
 
 /*
-$B8!:w%U%)!<%`(B
+¸¡º÷¥Õ¥©¡¼¥à
 */
 form.search {
 	text-align:right;

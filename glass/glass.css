@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -158,7 +158,7 @@ div.section p{
         line-height: 135%;
 }
 
-div.section p {
+p {
 	background-color: transparent;
 	color: #000000;
 	margin-left: 2em;

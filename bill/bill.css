@@ -1,5 +1,5 @@
 /*
-	bill.css: Bill Style Sheet of tDiary $Revision: 1.2 $
+	bill.css: Bill Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	Modified by TADA Tadashi
  */
@@ -9,9 +9,7 @@
 	orchid -> #DA70D6
 	DarkSlateBlue -> #483D8B
 */
-/*
-ƒy[ƒW‘S‘Ì‚ÌŠî–{“I‚Èİ’èB”wŒiF‚â•¶šF‚È‚Ç
-*/
+
 body {
 	background-color: #000;
 	color: #F5F5F5;
@@ -38,9 +36,7 @@ a:hover, a:focus {
 	background-color: transparent;
 	text-decoration: underline;
 }
-/*
-ƒy[ƒWƒgƒbƒv‚É‚ ‚é‘€ìƒ{ƒ^ƒ“‚Ì•À‚Ôs‚Ìİ’è
-*/
+
 p.adminmenu {
 	text-align: right;
 	font-size: small;
@@ -53,25 +49,19 @@ p.message {
 	color: white;
 	padding: 8px;
 }
-/*
-ƒy[ƒWƒgƒbƒv‚É‚ ‚é‘€ìƒ{ƒ^ƒ“©‘Ì‚Ìİ’è
-*/
+
 span.adminmenu {
 	background-color: transparent;
 	padding: 2px;
-    font-size: small;
+	font-size: small;
    
 }
-/*
-“ú‹Lƒ^ƒCƒgƒ‹‚Ìİ’è
-*/
+
 h1 {
 	text-align: left;
 	font-size: small;
 }
-/*
-ƒJƒŒƒ“ƒ_[‚Ìİ’è
-*/
+
 p.calendar {
 	border-style: none;
 	border-color: darkgray #eee #eee darkgray;
@@ -80,13 +70,10 @@ p.calendar {
 	margin-bottom: 0.5em;
    
 }
-/*
-1“ú‚Ì“ú‹L‘S‘Ì‚ğˆÍ‚Ş˜g‚Ìİ’è
-*/
+
 div.day {
-    
-    background-color: transparent;
-    color: #F5F5F5;
+	background-color: transparent;
+	color: #F5F5F5;
 	margin: 3em auto 3em auto;
 	text-align: left;
 	clear: both;
@@ -96,9 +83,7 @@ div.day {
 	border-width: 1px;
 	padding: 0px 10px 0px 10px;
 }
-/*
-ƒ^ƒCƒgƒ‹s‘S‘Ì‚Ìİ’è
-*/
+
 h2 {
 	text-align: left;
 	margin-top: 0.5em;
@@ -107,23 +92,15 @@ h2 {
 	margin-right: 0px;
         font-weight: bold;
 }
-/*
-“ú•t‚Ìİ’è
-*/
+
 span.date {
-	
 	text-align: center;
-	
-	}
-/*
-ƒ^ƒCƒgƒ‹‚Ìİ’è
-*/
+}
+
 span.title {
 	font-size: small;
 }
-/*
-ƒ^ƒCƒgƒ‹‚ğœ‚¢‚½±“ú‚Ì“ú‹L–{•¶‘S‘Ì‚Ìİ’è
-*/
+
 div.body {
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
@@ -133,14 +110,12 @@ div.body {
 	background-color: transparent;
 }
 
-/*
-“ú‹L‚Ì–{•¶¨’i—©‚Ìİ’è
-*/
 p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
 }
+
 p.sentence {
 	margin-left: 12px;
 	margin-right: 12px;
@@ -149,9 +124,7 @@ p.sentence {
 	border-color: black;
 	border-width: 1px 0px 0px 0px;
 }
-/*
-ƒTƒuƒ^ƒCƒgƒ‹‚Ìİ’è
-*/
+
 h3.subtitle {
 	font-size: 1em;
 	margin: 0em;
@@ -165,11 +138,13 @@ h3.subtitle a:link, h3.subtitle a:visited {
 	background-color: transparent;
 	text-decoration: none;
 }
+
 h3.subtitle a:hover, h3.subtitle a:focus {
 	color: #FFD700;
 	background-color: transparent;
 	text-decoration: none;
 }
+
 span.anchor {
 	margin-top: 0em;
 	margin-bottom: 0em;
@@ -197,9 +172,7 @@ pre {
         font-size: 13px;
         line-height: 1.3;
 }
-/*
-ƒcƒbƒRƒ~—“‘S‘Ì‚Ìİ’è
-*/
+
 div.comment {
 	clear: both;
 	text-align: left;
@@ -211,9 +184,7 @@ div.comment {
         color: #ccc;
 	background-color: transparent;
 }
-/*
-ƒcƒbƒRƒ~—“ƒ^ƒCƒgƒ‹s‚Ìİ’è
-*/
+
 p.commenttitle {
         background-color: transparent;
 	border-style: solid;
@@ -221,9 +192,6 @@ p.commenttitle {
 	border-width: 0px 0px 1px 0px;
 }
 
-/*
-ƒcƒbƒRƒ~‚µ‚½l‚Ì–¼‘O‚Ìİ’è
-*/
 span.commentator {
 	border-style: solid;
 	border-color: #aaa;
@@ -242,9 +210,7 @@ p.comment {
 	margin-bottom: 2px;
 	line-height: 1.0;
 }
-/*
-ƒŠƒ“ƒNŒ³ƒŠƒXƒgƒ^ƒCƒgƒ‹‚Ìİ’è
-*/
+
 p.referertitle {
         background-color: transparent;
 	color: #ccc;
@@ -254,9 +220,7 @@ p.referertitle {
 	border-width: 1px;
     padding: 2px;
 }
-/*
-ƒŠƒ“ƒNŒ³ƒŠƒXƒg(’Z‚¢•û©‚Ìİ’è
-*/
+
 p.referer {
 	text-align: right;
 	background-color: transparent;
@@ -266,9 +230,7 @@ p.referer {
 	margin-right: 12px;
     color: #ccc;
 }
-/*
-ƒŠƒ“ƒNŒ³ƒŠƒXƒg(‘S‘Ìˆê——)‚Ìİ’è
-*/
+
 div.refererlist {
 	color: #ccc;
 	background-color: transparent;
@@ -279,39 +241,29 @@ div.refererlist {
 	border-color: black;
 	border-width: 3px 0px 0px 0px;
 }
-/*
-ƒŠƒ“ƒNŒ³ƒŠƒXƒgˆê——‚Ìİ’è
-*/
+
 ul.referer {
 	margin-top: 0em;
 	text-align: left;
 }
-/*
-Œrü‚Ìİ’è
-*/
+
 hr {
 	border-style: dotted;
 	border-width: 1px;
 	border-color: black;
 }
-/*
-“úX‚Ì“ú‹L‚ÌƒZƒpƒŒ[ƒ^‚Éç‚í‚ê‚éŒrü‚Ìİ’è
-*/
+
 hr.sep {
 	display: none;
 }
 
-/*
-ƒtƒbƒ^‚Ìİ’è
-*/
+
 p.footer {
 	text-align: right;
 	margin-top: 0px;
 	clear: both;
 }
-/*
-ƒtƒH[ƒ€‘S‘Ì‚ğˆÍ‚Ş˜g‚Ìİ’è
-*/
+
 div.form {
     
 	background-color: transparent;
@@ -337,9 +289,7 @@ textarea {
 	color:#fff;
 	
 }
-/*
-€–ÚƒŠƒXƒg‚Ìİ’è
-*/
+
 dl {
 	margin-left: 2em;
 }

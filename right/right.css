@@ -1,9 +1,11 @@
 /*
-	right.css: Right Style Sheet of tDiary $Revision: 1.1 $
+	right.css: Right Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
  */
 
 a:link, a:visited {
-	color: DarkGreen;
+	color: #006400;
 	text-decoration: underline;
 }
 

@@ -3,9 +3,9 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
 	Title:Blue-border
-	Revision: $Revision: 1.3 $
+	Revision: $Revision: 1.4 $
 	Author: Nana
-	Comment:
+	Comment:support calendar2
 
         Change-Log 2002-4-15 Nana
         div.form margin-left:10%--> 0
@@ -339,4 +339,29 @@ input, select {
 	border-color: #99DAF5;
 	border-width: 1px;
         padding: 2px;
+}
+
+/* calendar2 */
+table.calendar {
+	       font-size: 0.9em;
+	       line-height: 100%;
+	       border-width: 2px;
+               border-color: #99daf5;
+               border-style: solid;
+               margin-left :25%;
+               background-color: #fff8dc;
+               color: #004080;
+               padding: 1px;
+}
+
+table.calendar td {
+	       margin: 0px;
+	       text-align: right;
+	       padding: 0px;
+	       margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+			   text-align: center;
 }

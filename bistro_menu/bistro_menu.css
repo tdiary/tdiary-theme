@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.18 $
+Revision: $Revision: 1.19 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -11,7 +11,7 @@ Comment: レストランのメニューのようなテーマ
 */
 /* ChangeLog
 2002-05-10 Nana
-        * div.day margin-left,right -> auto
+	* div.day margin-left,right -> auto
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* font-size: smaller -> 0.9em.
 
@@ -58,6 +58,12 @@ p.message {
 
 div.adminmenu {
 	text-align: right;
+}
+
+div.adminmenu form span.adminmenu {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	margin: 1em;
 }
 
 span.adminmenu {
@@ -145,6 +151,8 @@ div.body {
 	background-repeat:repeat-y ;
 	color: #000000;
 	margin-top: 0;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 0;
 }
 
@@ -160,19 +168,15 @@ div.section * {
 	margin-bottom: 0px;
 }
 
-div.section p{
-        text-indent: 1em;
-	background-color: transparent;
-	margin-top: 0;
-	line-height: 140%;
-}
-
 div.section p {
 	background-color: transparent;
 	color: #000000;
-	margin-left: 2em;
-	margin-right: 1em;
-	margin-top: 0.5em;
+	text-indent: 1em;
+	line-height: 125%;
+	padding-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 0;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -183,10 +187,38 @@ h3 {
 	border-color: gray;
 	border-width: 0px 0px 1px 0px;
 	margin-top: 0;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 0;
+	margin-right: 0;
 	padding-top: 20px;
 	font-weight: bold;
+	font-size: 110%;
+}
+
+div.section h4, div.section h5, div.section h6 {
+	color: #696969;
+	background-color: transparent;
+	border-style: dotted;
+	border-color: gray;
+	border-width: 0px 0px 1px 0px;
+	margin-top: 0;
+	margin-right: 0;
+	padding-top: 1em;
+	font-weight: bold;
+}
+
+div.section h4 {
+	margin-left: 15px;
+	font-size: 100%;
+}
+
+div.section h5 {
+	margin-left: 20px;
+	font-size: 85%;
+}
+
+div.section h6 {
+	margin-left: 24px;
+	font-size: 80%;
 }
 
 pre {
@@ -218,6 +250,7 @@ div.comment div.caption {
 	color: #000000;
 	text-align: left ;
 	margin-left:15px;
+	margin-right:15px;
 	margin-top: 0px;
 	padding-left: 1em;
 	border-style: solid;
@@ -407,34 +440,34 @@ td.calendar-day {
 ツッコミ省略版本文
 */
 div.commentshort {
-        margin-left: 2em;
+	margin-left: 2em;
 }
 
 span.commentator {
 }
 
 div.commentshort p {
-        margin-top: 0.2em;
-        margin-bottom: 0.2em;
-        line-height: 1.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	line-height: 1.2em;
 }
 
 /*
 ツッコミ本体
 */
 div.commentbody {
-        margin: 0.5em 0.5em 0.5em 2em;
-        line-height: 1.2em;
+	margin: 0.5em 0.5em 0.5em 2em;
+	line-height: 1.2em;
 }
 
 /*
 ツッコミした人の情報
 */
 div.commentator {
-        border-style: solid;
-	border-color: honeydew;
-        border-width: 0px 0px 1px 0px;
-        line-height: 1.5em;
+	border-style: solid;
+	border-color: #f0fff0;
+	border-width: 0px 0px 1px 0px;
+	line-height: 1.5em;
 	display: inline;
 }
 
@@ -442,18 +475,18 @@ div.commentator {
 ツッコミ本文
 */
 div.commentbody p {
-        margin: 0.5em;
+	margin: 0.5em;
 }
 
 /*
 フォームの設定
 */
 div.form form {
-        margin: 0em;
+	margin: 0em;
 }
 
 div.form div.caption {
-        margin: 0em 2em;
+	margin: 0em 2em;
 }
 
 div.form form.comment {
@@ -461,30 +494,32 @@ div.form form.comment {
 }
 
 div.field {
-        display: inline;
-        margin-right: 2em;
+	display: inline;
+	margin-right: 2em;
 }
 
+/*
 form.comment input {
-        background-color: white;
-        color: #000000;
+	background-color: white;
+	color: #000000;
 }
+*/
 
 div.textarea {
-        display: block;
-        vertical-align: top;
+	display: block;
+	vertical-align: top;
 }
 
 form.comment textarea {
-        display: block;
-        background-color: white;
-        color: #000000;
-        width: 30em;
-        height: 5em;
+	display: block;
+	background-color: white;
+	color: #000000;
+	width: 30em;
+	height: 5em;
 }
 
 div.button {
-        display: block;
+	display: block;
 }
 
 /*
@@ -506,54 +541,148 @@ div.day.update div.form form {
 }
 
 form.update {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
+/*
 form.update input, form.update textarea, form.commentstat input {
-        background-color: white;
-        color: #000000;
+	background-color: white;
+	color: #000000;
 }
+*/
 
 form.update span.field {
-        display: inline;
-        margin-left: 0em;
-        margin-right: 0.5em;
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
 }
 
 form.update div.field.title {
-        display: block;
-        margin-top: 1em;
+	display: block;
+	margin-top: 1em;
 }
 
 form.update div.field.title input {
-        margin-left: 0.5em;
+	margin-left: 0.5em;
 }
 
 form.update div.textarea {
-        display: block;
-        margin-top: 1em;
+	display: block;
+	margin-top: 1em;
 }
 
 form.update textarea {
-        display: block;
-        margin-bottom: 1em;
-        width: 35em;
-        height: 15em;
+	display: block;
+	margin-bottom: 1em;
+	width: 35em;
+	height: 15em;
 }
 
 form.update span.checkbox.hidediary {
-        margin-left: 1em;
+	margin-left: 1em;
 }
 
 /*
 ツッコミ状態変更フォーム
 */
 div.comment form {
-        margin-top: 0em;
+	margin-top: 0em;
 }
 
 div.footnote {
 	font-size: small;
 	margin-left: 4em;
+}
+
+/*
+side bar
+*/
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 18%;
+	padding: 2px 1em 5em 2px;
+	margin-left: 1em;
+	padding-top: 1em;
+	background-color: #F4D9A9;
+	border-style: solid;
+	border-color: #B22222;
+	border-width: 1px 3px 1px 3px;
+}
+
+div.sidebar p {
+	line-height: 120%;
+}
+
+div.sidebar li {
+	margin-left: 0px;
+}
+
+div.sidebar h2 {
+	background-image: none;
+	font-size: medium;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+div.sidebar h3 {
+	font-size: small;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+/*
+calendar3
+*/
+
+.calendar-popup {
+	display: none;
+	text-align: left;
+	position: absolute;
+	padding: 0 1ex 0 1ex;
+}
+
+.calendar-sunday {
+	color: red;
+	background-color: transparent;
+}
+
+a.calendar-sunday {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.calendar-saturday {
+	color: blue;
+	background-color: transparent;
+}
+
+a.calendar-saturday {
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.calendar-weekday {
+	color: black;
+	background-color: transparent;
+}
+
+a.calendar-weekday {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.calendar-todo {
+	border-style: solid;
+	border-color: #B22222;
+	border-width: 1px;
 }

@@ -1,0 +1,322 @@
+/*
+	line.css: Line Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	Modified by TADA Tadashi
+	validated by W3C.
+ */
+
+body {
+	background-color: black;
+	color: #fff;
+}
+
+a:link {
+        text-decoration: none;
+	background-color: transparent;
+	color: #ff8;
+}
+a:visited {
+        text-decoration: none;
+	background-color: transparent;
+        color: #ff8;
+}
+a:hover,a:active {
+	text-decoration: none;
+        color: #c90;
+	background-color: transparent;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+}
+
+h1 {
+	text-align: left;
+	font-size: medium;
+}
+
+p.calendar {
+	font-size: small;
+	background-color: transparent;
+	text-align: right;
+	padding: 2px;
+	margin-bottom: 0.5em;
+}
+
+div.day {
+	margin: 3em auto 3em auto;
+	text-align: right;
+	clear: both;
+	width: 80%;
+	border-style: double solid double solid;
+	border-color: #fcc;
+	border-width: 6px 1px 6px 1px;
+	padding: 0px 8px 0px 8px;
+}
+h2 {
+	text-align: right;
+	margin-top: 0.1em;
+	margin-bottom: 0em;
+	margin-left: auto;
+	margin-right: 0px;
+	font-weight: normal;
+}
+
+span.date {
+	font-size: medium;
+	position: relative;
+	top: -10px;
+	left: -20px;
+	text-align: left;
+	background-color: #000;
+	color: #ffffff;
+	margin-bottom: 0em;
+	margin-left: auto;
+	margin-right: 0px;
+	padding-bottom: 0em;
+	border-style: double solid double solid;
+	border-color: #fff #aaa #aaa #fff;
+	border-width: 4px 1px 4px 1px;
+}
+
+span.title {
+	font-size: medium;
+}
+
+div.body {
+	margin: 0px auto 0px auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: left;
+	color: #fcc;
+	background-color: black;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+p.sentence {
+	margin-left: 12px;
+	margin-right: 12px;
+	line-height: 1.2;
+	border-style: none;
+	border-color: #ccc;
+	border-width: 1px 0px 0px 0px;
+}
+
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+	font-size: medium;
+	clear: both;
+}
+span.anchor {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-weight: bold;
+	font-size: 24pt;
+	float: left;
+}
+
+pre {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fcc;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	clear: both;
+	text-align: right;
+	padding-bottom: 1px;
+	margin: auto 12px 12px 0px;
+	border-style: double;
+	border-color: #fcc;
+	border-width: 3px 0px 0px 0px;
+}
+
+p.commenttitle {
+	text-align: right;
+	background-color: #000;
+	position: relative;
+	top: -10px;
+	left: -20px;
+	color: #cff;
+	display: inline;
+	font-size: small;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-style: double solid double solid;
+	border-color: #fff #aaa #aaa #fff;
+	border-width: 4px 1px 4px 1px;
+}
+
+span.commentator {
+	padding-top: 0px;
+	margin-top: 0px;
+	display: block;
+	color: #cff;
+	background-color: black;
+	clear: both;
+}
+
+p.comment {
+	font-size: small;
+	text-align: left;
+	background-color: black;
+	color: #cff;
+	padding: 0px 0px 0px 0px;
+	margin-left: 24px;
+	margin-right: 12px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	line-height: 1.2;
+}
+p.referertitle {
+	color: #8f8;
+	background-color: #000;
+	text-align: right;
+	display: inline;
+	position: relative;
+	top: -10px;
+	left: -20px;
+	border-style: double solid double solid;
+	border-color: #fff #aaa #aaa #fff;
+	border-width: 4px 1px 4px 1px;
+}
+
+p.referer {
+	display: inline;
+	text-align: right;
+	color: #8f8;
+	position: relative;
+	top: 10px;
+	left: -20px;
+	clear: both;
+	font-size: small;
+	background-color: #000;
+	padding: 2px;
+	border-style: double solid double solid;
+	border-color: #fff #ccc #ccc #fff;
+	border-width: 4px 1px 4px 1px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: right;
+	padding-bottom: 1px;
+	margin-top: 0.2em;
+	border-style: double;
+	border-color: #fcc;
+	border-width: 3px 0px 0px 0px;
+}
+
+ul.referer {
+	margin-top: 0em;
+	text-align: left;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+form {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+
+input.field {
+	background-color: transparent;
+	color: #fff;
+	border-color: #f80;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, select, option {
+	background-color: transparent;
+	color: #fff;
+	border-color: #f80;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+}
+
+textarea {
+	background-color: transparent;
+	color: #fff;
+	border-color: #f80;
+	border-style: solid;
+	border-width: 1px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+option{
+	background-color: #ffffff;
+	color: #000000;
+}

@@ -1,13 +1,19 @@
 /*
 Title: HARU
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
+Comment: support calendar2
 Access: http://mikan.sakura.ne.jp/~mpc/
 
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
 /* ChangeLog
+2002-05-02 Nana <mpc@mikan.sakura.ne.jp>
+        * support calendar2
+        * fix CRLF->LF
+        * div day font-size: 1em; 
+        * font-size 13px->0.9em
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 
@@ -29,12 +35,9 @@ a:hover, a:focus{
 	text-decoration: none;
 }
 
-/*
-ページ全体の基本的な設定。背景色や文字色など
-*/
 body {
 	background-color: #fff;
-	font-size: 13px;
+	font-size: 1em;
 	color: black;
 	margin: 0em 0.5em 1em 1em;
 	background-image: url(haru_3.png);
@@ -46,20 +49,13 @@ div.body p a{
 	background-image:url(haru.gif) ;
 }
 
-/*
-ページトップにある操作ボタンの並ぶ行の設定
-*/
 p.adminmenu {
 	text-align: right;
-	font-size: 13px;
+	font-size: 0.9em;
 }
 
-/*
-ページトップにある操作ボタン自体の設定
-*/
 span.adminmenu {
-	font-size: 13px;
-	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	font-size: 0.9em;
 	background-color: transparent;
 	border-style: solid;
 	border-color: #eee #aaa #aaa #eee;
@@ -67,19 +63,12 @@ span.adminmenu {
 	padding: 3px;
 }
 
-/*
-日記タイトルの設定
-*/
 h1 {
 	text-align: center;
 }
 
-/*
-カレンダーの設定
-*/
 p.calendar {
-	font-size: 13px;
-	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	font-size: 0.9em;
 	text-align: right;
 	border-style: none;
 	border-color: darkgray #eee #eee darkgray;
@@ -88,11 +77,7 @@ p.calendar {
 	margin-bottom: 0.5em;
 }
 
-/*
-1日の日記全体を囲む枠の設定
-*/
 div.day {
-	font-family :osaka, Arial,"MS UI Gothic";
 	border-style: none;
 	border-color: pink;
 	border-width: 1px;
@@ -100,28 +85,18 @@ div.day {
 	padding-left: 0em;
 	margin-bottom: 0em;
 	margin-left: 0em;
+        font-size: 1em;
 }
 
-/*
-タイトル行全体の設定
-*/
 h2 {
 	margin-top: 0.1em;
 	margin-bottom: 0.1em;
 }
 
-/*
-日付の設定
-*/
 span.date {
-	font-size: 15px;
-	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
 	margin-left: 0.5em;
 }
 
-/*
-タイトルの設定
-*/
 span.date a:link, span.date a:visited {
 	color: #ffc0cb;
 	text-decoration: none;
@@ -132,9 +107,6 @@ span.date a:hover ,span.date a:focus {
 	text-decoration: none;
 }
 
-/*
-タイトルを除いた1日の日記本文全体の設定
-*/
 div.body {
 	background-color: transparent;
 	padding: 2px;
@@ -143,12 +115,8 @@ div.body {
 	margin-right: 12px;
 }
 
-/*
-サブタイトルの設定
-*/
 h3.subtitle {
-	font-family :osaka,"Lucida Sans Unicode",Arial;
-	font-size: 13px;
+	font-size: 1em;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -161,20 +129,15 @@ h3.subtitle a:hover, h3.subtitle a:focus {
 	color: #4e8;
 	text-decoration: none;
 }
-/*
-日記の本文(段落)の設定
-*/
+
 p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3em;
 }
 
-/*
-ツッコミ欄全体の設定
-*/
 div.comment {
-	font-size: 13px;
+	font-size: 0.9em;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -182,9 +145,6 @@ div.comment {
 	margin-right: 12px;
 }
 
-/*
-ツッコミ欄タイトル行の設定
-*/
 p.commenttitle {
 	border-style: solid;
 	border-color: #ffc0cb;
@@ -192,9 +152,6 @@ p.commenttitle {
 	width: 90%;
 }
 
-/*
-ツッコミした人の名前の設定
-*/
 span.commentator {
 	border-style: solid;
 	border-color: #ffc0cb;
@@ -202,23 +159,17 @@ span.commentator {
 	padding: 3px;
 }
 
-/*
-リンク元リスト(短い方)の設定
-*/
 p.referer {
 	text-align: right;
-	font-size: 13px;
+	font-size: 0.9em;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 12px;
 	margin-right: 12px;
 }
 
-/*
-リンク元リスト(全体一覧)の設定
-*/
 div.refererlist {
-	font-size: 13px;
+	font-size: 0.9em;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -226,9 +177,6 @@ div.refererlist {
 	margin-right: 12px;
 }
 
-/*
-リンク元リストタイトルの設定
-*/
 p.referertitle {
 	border-style: solid;
 	border-color: #ffc0cb;
@@ -236,16 +184,10 @@ p.referertitle {
 	width: 90%;
 }
 
-/*
-リンク元リスト一覧の設定
-*/
 ul.referer {
 	margin-top: 0em;
 }
 
-/*
-罫線の設定
-*/
 hr {
 	border-style: solid;
 	border-width: 1px 0px 0px 0px;
@@ -253,19 +195,13 @@ hr {
 	width: 90%;
 }
 
-/*
-日々の日記のセパレータに使われる罫線の設定
-*/
 hr.sep {
 	display: none;
 }
 
-/*
-フッタの設定
-*/
 p.footer {
-	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
-	font-size: 13px;
+	font-family :osaka,Arial,sans-serif;
+	font-size: 0.9em;
 	text-align: right;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -273,9 +209,7 @@ p.footer {
 	
 }
 
-/*
-フォーム全体を囲む枠の設定
-*/
+
 div.form {
 	background-color: transparent;
 	border-style: none;
@@ -290,26 +224,15 @@ div.form {
 	width:80%
 }
 
-/*
-入力フィールドの設定
-*/
 input.field {
 	background-color: white;
 }
 
-
-
-/*
-複数行入力フィールドの設定
-*/
 textarea {
 	background-color: white;
 	margin-left: 1em;
 }
 
-/*
-エラーメッセージ表示の設定
-*/
 p.message {
 	text-align: center;
 	font-size: large;
@@ -318,9 +241,6 @@ p.message {
 	padding: 8px;
 }
 
-/*
-整形済みテキスト(preタグ)の設定
-*/
 pre {
 	background-color: #fff;
 	color: #0080ff;
@@ -330,9 +250,6 @@ pre {
 	width: 90%
 }
 
-/*
-項目リストの設定
-*/
 dl {
 	margin-left: 2em;
 }
@@ -350,6 +267,58 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
 	color: #ff0;
+}
+
+/* calendar2 */
+table.calendar {
+	text-align: center;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #ccc #999999 #999999 #ccc;
+	border-width: 1px;
+	margin-bottom: 1em;
+        margin-left: 3em;
+        font-size: 0.9em;
+}
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
 }

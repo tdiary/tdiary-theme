@@ -1,5 +1,5 @@
 /*
-	double.css: Double Style Sheet of tDiary $Revision: 1.2 $
+	double.css: Double Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
@@ -92,7 +92,7 @@ div.body {
 	text-align: left;
 	padding: 0.1em;
 }
-/* This ">" selector does not affects IE */
+/* This ">" selector does not affect IE */
 div.day div.section > * {
 	margin-left: 100px;
 }
@@ -110,6 +110,26 @@ h3.subtitle {
 div.section p {
 	line-height: 1.3em;
 	margin-left: 100px;
+}
+
+div.day span.panchor {
+	background-image: url(double_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 19px 16px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(double_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 12px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 pre {

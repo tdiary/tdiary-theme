@@ -9,7 +9,6 @@ html {
 BODY{ 
 	font-size: 90%;
 	letter-spacing: 1px;
-	font-family: Verdana,Osaka; 
 	line-height: 150%; 
 	color: #000000;
 	background-color:  #E5D6B9; 
@@ -175,7 +174,6 @@ blockquote{
 pre	{
 	margin: 1em;
 	padding: 1em;
-	font-family:‚l‚r ‚oƒSƒVƒbƒN;
 	letter-spacing: 0px;    
 	background-color: #e0e0e0;
 	line-height: 100%;

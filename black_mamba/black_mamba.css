@@ -10,7 +10,6 @@ html {
 BODY { 
 	font-size: 90%;
 	letter-spacing: 1px;
-	font-family: Verdana,Osaka; 
 	line-height: 150%; 
 	color: #080808;
 	background-color:  #FFE000; 
@@ -40,7 +39,6 @@ A:ACTIVE  { color: #ff0000; }
 
 h1 {	
 	font-size: 400%;
-	font-family: Impact;
 	letter-spacing: 0px;
 	font-weight: normal;
 	text-align: right;
@@ -71,7 +69,6 @@ h2 {
 }
 
 span.date{
-	font-family: Impact;
 	letter-spacing: 0px;
 	font-weight: normal;
 	font-size:200%;
@@ -167,7 +164,6 @@ blockquote{
 pre{
 	margin: 1em;
 	padding: 1em;
-	font-family:‚l‚r ‚oƒSƒVƒbƒN;
 	letter-spacing: 0px;    
 	background-color: #e0e0e0;
 	line-height: 100%;

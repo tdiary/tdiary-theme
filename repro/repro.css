@@ -104,7 +104,6 @@ text-decoration: none;
 */
 h2 span.date {
 font-size:20pt;
-	font-family: 'Arial';
 	color: #000000;
 	text-decoration: none;
 }
@@ -523,7 +522,6 @@ div.section pre {
 	margin-right: 1em;
 	padding: 2px 2px 8px 2px;
 font-size : 12pt;
-font-family : "£Í£Ó £Ð¥´¥·¥Ã¥¯";
 line-height : 18px;
 }
 

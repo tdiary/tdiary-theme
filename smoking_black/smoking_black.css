@@ -28,7 +28,6 @@ h1,h2,h3,h4,h5,h6 {
  background-color:#000000;
  color:#b5b5b5;
  border-bottom:1px solid #515151;
- font-family:Verdana,"£Í£Ó £Ð¥´¥·¥Ã¥¯",Osaka,sans-serif;
 }
 
 h1 {
@@ -109,7 +108,6 @@ tbody {
 /* ÆÃ¼ì¥Æ¡¼¥Ö¥ë */
 table.calendar {
  text-align:right;
- font-family:Verdana,Osaka,sans-serif;
  font-size:small;
 }
 
@@ -216,12 +214,10 @@ pre {
  color:#b5b5b5;
  background-color:#515151;
  margin:10px;padding:5px;
- font-family:"MS Gothic",Osaka,monospace;
 }
 
 
 span.aa {
- font-family:"£Í£Ó £Ð¥´¥·¥Ã¥¯";
 }
 
 img.photo {
@@ -251,7 +247,6 @@ div.calendar {
  width:auto;
  margin-top:10px;
  margin-bottom:10px;
- font-family:Verdana,"£Í£Ó £Ð¥´¥·¥Ã¥¯",Osaka,sans-serif;
 }
 
 div.day {
@@ -261,7 +256,6 @@ div.day {
 
 div.body {
  margin-left:10px;
- font-family:Verdana,"£Í£Ó £Ð¥´¥·¥Ã¥¯",Osaka,sans-serif;
 }
 
 div.section {
@@ -305,7 +299,6 @@ div.comment {
  margin-bottom:30px;
  background-color:#000000;
  color:#b5b5b5
- font-family:"£Í£Ó £Ð¥´¥·¥Ã¥¯";
 }
 
 div.commentshort p {
@@ -313,7 +306,6 @@ div.commentshort p {
 }
 
 span.commentator {
- font-family:Verdana,"£Í£Ó £Ð¥´¥·¥Ã¥¯",Osaka,sans-serif;
 }
 
 div.footer {
@@ -350,17 +342,14 @@ p.recentitem {
  body,p,ul.ol.table,td,blockquote,dd {
   font-size:medium;
   line-height:130%;
-  font-family: "£Í£Ó £ÐÌÀÄ«",ºÙÌÀÄ«ÂÎ,serif;
  }
  
  h1,h2,h3,h4,h5,h6,dt,em,strong,th {
   font-weight:normal;
-  font-family: "£Í£Ó £Ð¥´¥·¥Ã¥¯",Osaka,sans-serif;
  }
  
  pre,code,kbd,samp {
   border:1px dashed #a0a0a0;
-  font-family:monospace;
  }
 
  div.sidebar,object {
@@ -369,7 +358,6 @@ p.recentitem {
 
  a:after {
   font-size:x-small;
-  font-family:sans-serif;
   content: "["attr(href)"]";
  }
 }

@@ -8,5 +8,8 @@ validated by W3C.
 footnote, calendar2, dropdown-calendar, search_form プラグイン対応
 
 Changelog
+2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
+        * insert indent.
+
 2002-09-14 NT <nt@24i.net>
         * convert for 1.5 series.

@@ -1,6 +1,6 @@
 /*
 Title: Date
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: epi
 Access: http://epi.s5.xrea.com/diary/
 License: GPL
@@ -18,23 +18,23 @@ Changelog
 全体の基本的な設定。背景色や文字色など
 */
 body {
-color: #191970;
-background-color: #fffff0;
+	color: #191970;
+	background-color: #fffff0;
 }
 
 a:link {
-color: #6b8e23;
-background-color: transparent;
-text-decoration: none;
+	color: #6b8e23;
+	background-color: transparent;
+	text-decoration: none;
 }
 a:visited {
-color: #808000;
-background-color: transparent;
-text-decoration: none;
+	color: #808000;
+	background-color: transparent;
+	text-decoration: none;
 }
 a:active, a:hover, a:focus {
-background-color: transparent;
-text-decoration: underline;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 /*
@@ -42,169 +42,169 @@ text-decoration: underline;
 */
 
 div.adminmenu {
-font-size: small;
-text-align: right;
+	font-size: small;
+	text-align: right;
 }
 
 p.message {
-color: white;
-background-color: transparent;
-font-size: small;
-text-align: center;
-padding: 8px;
+	color: white;
+	background-color: transparent;
+	font-size: small;
+	text-align: center;
+	padding: 8px;
 }
 /*
 ページトップにある操作ボタン自体の設定
 */
 span.adminmenu {
-color: #4b0082;
-background-color: transparent;
-font-size: small;
-padding: 2px;
+	color: #4b0082;
+	background-color: transparent;
+	font-size: small;
+	padding: 2px;
 }
 /*
 日記タイトルの設定
 */
 h1 {
-color: #add8e6;
-background-color: transparent;
-text-align: right;
+	color: #add8e6;
+	background-color: transparent;
+	text-align: right;
 }
 /*
 カレンダーの設定
 */
 div.calendar {
-margin-bottom: 0.5em;
-padding: 2px;
-text-align: right;
+	margin-bottom: 0.5em;
+	padding: 2px;
+	text-align: right;
 }
 /*
 1日の日記全体を囲む枠の設定
 */
 div.day {
-text-align: left;
-margin: 3em 2% 3em 2%;
-padding: 0px 10px 0px 10px;
-clear: both;
+	text-align: left;
+	margin: 3em 2% 3em 2%;
+	padding: 0px 10px 0px 10px;
+	clear: both;
 }
 /*
 タイトル行全体の設定
 */
 h2 {
-background-color: transparent;
+	background-color: transparent;
 }
 /*
 日付の設定
 */
 h2 span.date {
-font-size:50pt;
-color: #778899;
-background-color: transparent;
-/*text-transform:none;*/
-font-family : Arial,sans-serif;
-text-align : center;
-width: 600px;
+	font-size:50pt;
+	color: #778899;
+	background-color: transparent;
+	/*text-transform:none;*/
+	font-family : Arial,sans-serif;
+	text-align : center;
+	width: 600px;
 }
 /*
 タイトルの設定
 */
 h2 span.title {
-text-align : center;
-margin-left:-50%;
-margin-right:2%;
-font-size: 20pt;
-margin-top:100px;
-color: #add8e6;
-font-family : Arial,sans-serif;
-background-color: transparent;
+	text-align : center;
+	margin-left:-50%;
+	margin-right:2%;
+	font-size: 20pt;
+	margin-top:100px;
+	color: #add8e6;
+	font-family : Arial,sans-serif;
+	background-color: transparent;
 }
 /*
 タイトルを除いた1日の日記本文全体の設定
 */
 div.body {
-text-align: left;
-padding-top: 0.5em;
-padding-bottom: 0.5em;
-padding-left: 0.5em;
+	text-align: left;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
 }
 
 /*
 日記の本文(段落)の設定
 */
 div.section p {
-margin-top: 0.5em;
-margin-bottom: 0.7em;
-line-height: 1.3;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
 }
 
 /*
 サブタイトルの設定
 */
 h3 {
-color: #4169e1;
-background-color: transparent;
-font-size: 1em;
-font-weight: bold;
-margin-top: 1em;
+	color: #4169e1;
+	background-color: transparent;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1em;
 }
 
 p.strong {
-font-size: 200%;
-font-weight: bold;
-text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
 }
 pre {
-color: #696969;
-background-color: #dcdcdc;
-margin-left: 2em;
-font-size: 0.8em;
-margin-right: 3em;
-padding: 8px;
-line-height: 1.3;
+	color: #696969;
+	background-color: #dcdcdc;
+	margin-left: 2em;
+	font-size: 0.8em;
+	margin-right: 3em;
+	padding: 8px;
+	line-height: 1.3;
 }
 /*
 引用(blockquoteタグ)の設定
 */
 div.body blockquote {
-border-color:#dcdcdc;
-border-style: solid double;
-border-width: 0px 0px 0px 2px;
-padding: 5px 10px 5px 10px;
+	border-color:#dcdcdc;
+	border-style: solid double;
+	border-width: 0px 0px 0px 2px;
+	padding: 5px 10px 5px 10px;
 }
 p.source {
-padding: 5px 10px 5px 10px;
-text-align: right;
-font-size: 80%;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	font-size: 80%;
 }
 
 /*
 アンカー
 */
 div.day span.sanchor {
-padding: 15px 10px 0px 0px;
-color: #e6e6fa;
-background-color: transparent;
-font-size: 1px;
+	padding: 15px 10px 0px 0px;
+	color: #e6e6fa;
+	background-color: transparent;
+	font-size: 1px;
 }
 div.day span.canchor {
-padding: 15px 10px 0px 0px;
-color: #e6e6fa;
-background-color: transparent;
-font-size: 1px;
+	padding: 15px 10px 0px 0px;
+	color: #e6e6fa;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 /*
 ツッコミ欄全体の設定
 */
 div.comment {
-text-align: left;
-font-size: 0.8em;
-margin: auto 5px;
-padding-left: 0.5em;
-clear: both;
-border-style: dotted;
-border-color: #b0c4de;
-border-width: 1px;
+	text-align: left;
+	font-size: 0.8em;
+	margin: auto 5px;
+	padding-left: 0.5em;
+	clear: both;
+	border-style: dotted;
+	border-color: #b0c4de;
+	border-width: 1px;
 }
 /*
 ツッコミ欄タイトル行の設定
@@ -217,105 +217,105 @@ div.comment div.caption {
 */
 
 p.comment {
-text-align: left;
+	text-align: left;
 }
 /*
 リンク元リストタイトルの設定
 */
 div.refererlist div.caption {
-color: #4169e1;
-background-color: transparent;
-text-align: left;
-padding: 2px;
+	color: #4169e1;
+	background-color: transparent;
+	text-align: left;
+	padding: 2px;
 }
 /*
 リンク元リスト(短い方)の設定
 */
 div.referer {
-text-align: right;
-margin-left: 24px;
-margin-right: 12px;
-padding: 2px;
-padding-bottom: 1px;
+	text-align: right;
+	margin-left: 24px;
+	margin-right: 12px;
+	padding: 2px;
+	padding-bottom: 1px;
 }
 /*
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist {
-color: gray;
-background-color: transparent;
-text-align: right;
-margin-top: 1em;
-padding-bottom: 1px;
+	color: gray;
+	background-color: transparent;
+	text-align: right;
+	margin-top: 1em;
+	padding-bottom: 1px;
 }
 /*
 リンク元リスト一覧の設定
 */
 div.refererlist ul {
-text-align: left;
-margin-top: 0em;
+	text-align: left;
+	margin-top: 0em;
 }
 /*
 罫線の設定
 */
 hr {
-border-style: dotted;
-border-color: #4682b4; /* steelblue */
-border-width: 1px;
+	border-style: dotted;
+	border-color: #4682b4; /* steelblue */
+	border-width: 1px;
 }
 /*
 日々の日記のセパレータに使われる罫線の設定
 */
 hr.sep {
-display: none;
-clear: both;
+	display: none;
+	clear: both;
 }
 
 /*
 フッタの設定
 */
 div.footer {
-font-size: small;
-text-align: right;
-clear: both;
+	font-size: small;
+	text-align: right;
+	clear: both;
 }
 /*
 フォーム全体を囲む枠の設定
 */
 div.form {
-color: #4169e1;
-background-color: transparent;
-padding: 0.5em 1em 0.5em 1em;
-margin-bottom: 0.5em;
-margin-top: 0.5em;
-margin-left: 1em;
+	color: #4169e1;
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	margin-left: 1em;
 }
 
 
 input.field {
-color: #000000;
-background-color: white;
+	color: #000000;
+	background-color: white;
 }
 
 textarea {
-color:#000000;
-background-color: white;
+	color:#000000;
+	background-color: white;
 }
 /*
 項目リストの設定
 */
 div.body dl {
-margin-left: 2em;
+	margin-left: 2em;
 }
 
 div.body dt {
-margin-bottom: 0.2em;
-font-weight: bold;
+	margin-bottom: 0.2em;
+	font-weight: bold;
 }
 
 div.body dd {
-margin-left: 1em;
-margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
 }
 
 /*
@@ -323,102 +323,102 @@ for plugin
 */
 
 /* footnote */
-span.footnote {
-color: #696969;
-font-size: 0.6em;
-background-color: transparent;
+	span.footnote {
+	color: #696969;
+	font-size: 0.6em;
+	background-color: transparent;
 }
 div.footnote {
-color: #a9a9a9;
-background-color: transparent;
+	color: #a9a9a9;
+	background-color: transparent;
 }
 p.footnote {
-font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 /* calendar2 */
 table.calendar {
-font-size: x-small;
-line-height: 100%;
-border-width: 0px;
-text-align: center;
-border-style: solid;
-border-width: 1px;
-margin-bottom: 1em;
-background-color: transparent;
-border-color: #696969;
-color: #778899;
+	font-size: x-small;
+	line-height: 100%;
+	border-width: 0px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 1em;
+	background-color: transparent;
+	border-color: #696969;
+	color: #778899;
 }
 
 td.calendar-current-month {
-font-size: x-small;
-text-align: center;
+	font-size: x-small;
+	text-align: center;
 }
 
 td.calendar-next-month {
-font-size: x-small;
-text-align: right;
+	font-size: x-small;
+	text-align: right;
 }
 
 td.calendar-prev-month {
-font-size: x-small;
-text-align: left;
+	font-size: x-small;
+	text-align: left;
 }
 
 td.calendar-sunday {
-color: #dc7093;
-background-color: transparent;
-font-size: xx-small;
-text-align: center;
+	color: #dc7093;
+	background-color: transparent;
+	font-size: xx-small;
+	text-align: center;
 }
 
 td.calendar-saturday {
-color: #4682b4;
-background-color: transparent;
-font-size: xx-small;
-text-align: center;
+	color: #4682b4;
+	background-color: transparent;
+	font-size: xx-small;
+	text-align: center;
 }
 
 td.calendar-weekday {
-color: #dcdcdc;
-background-color: transparent;
-font-size: xx-small;
-text-align: center;
+	color: #dcdcdc;
+	background-color: transparent;
+	font-size: xx-small;
+	text-align: center;
 }
 
 td.calendar-day {
-font-size: xx-small;
-text-align: right;
+	font-size: xx-small;
+	text-align: right;
 }
 
 /* recent_list, title_list */
 p.recentitem {
-font-size: x-small;
-margin-top: 0px;
-margin-bottom: 0px;
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-font-size: x-small;
-margin-top: 0px;
-margin-bottom: 1em;
-margin-left: 1em;
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
 }
 
 /* dropdown_calender */
 select {
-color: #dcdcdc;
-background-color: transparent;
+	color: #dcdcdc;
+	background-color: transparent;
 }
 p.calendar input {
-color: #dcdcdc;
-background-color: transparent;
+	color: #dcdcdc;
+	background-color: transparent;
 }
 /* search_form */
 input.search {
-color: #dcdcdc;
-background-color: transparent;
-font-size: x-small;
+	color: #dcdcdc;
+	background-color: transparent;
+	font-size: x-small;
 }
 
 /*

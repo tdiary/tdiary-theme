@@ -1,6 +1,6 @@
 /*
 Title: Gear
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-color: #F0F0F0;
 	color: #000;
 	margin: 2px 15%;
-	font-family: Verdana,Arial,Verdana,Helvetica,sans-serif;
 }
 
 /*
@@ -289,7 +288,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {
@@ -525,7 +524,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

@@ -1,18 +1,17 @@
 /*
 Title: gold
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: なんとなくゴールドっぽいテーマ 
 
-	gold.css: Style Sheet of tDiary $Revision: 1.9 $
+	gold.css: Style Sheet of tDiary $Revision: 1.10 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
 */
 
 a:link, a:visited {
-	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
 	color: darkgreen;
 	text-decoration: none;
 	border-style: none;
@@ -33,7 +32,6 @@ a:hover, a:focus {
 }
 
 body {	
-	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
 	background-image: url(gold_back.jpg);
 	color: #333333;
 }
@@ -106,7 +104,6 @@ h2 {
 }
 
 h2 span.date {
-	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
 	font-size: large;
 }
 
@@ -122,11 +119,9 @@ div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
-	font-family: "ＭＳ Ｐゴシック", "Osaka"
 }
 
 h3 {
-	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
 	border-style: solid;
 	border-color: gray;
 	border-width: 0px 0px 1px 0px;

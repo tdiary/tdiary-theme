@@ -6,6 +6,9 @@ License: GPL
 Copyright (C)by Nana http://moo.boo.jp
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

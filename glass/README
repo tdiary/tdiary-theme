@@ -9,6 +9,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-log
+2003-09-08 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-12-09 TADA Tadashi <sho@spc.gr.jp>
 	* remove using glass_back.png (it's not there!).
 

@@ -6,6 +6,9 @@ Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-05 Nana <clorets@estyle.ne.jp>
 	* remove some duplicate lines.
 	* font-size:0.8em -> 90%

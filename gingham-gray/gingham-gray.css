@@ -1,6 +1,6 @@
 /*
 Title: gingham-gray
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: moo@xu.boo.jp
 License: GPL
@@ -270,7 +270,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {
@@ -523,11 +523,11 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {
-	font-size: 0.9em;
+	font-size: 90%;
 	border-style: solid;
 	border-color: #00C800;
 	border-width: 1px 0px 0px 0px;

@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: Nana
 Access: <http://moo.boo.jp>
 License: GPL
@@ -38,7 +38,7 @@ body {
 	/*background-image: url(glass_back.png);*/
 	background-color: #ffffff;
 	color: #000080;
-        font-size: 1em;
+        font-size: 100%;
 }
 
 p.message {
@@ -62,7 +62,7 @@ span.adminmenu {
 
 h1 {
 	text-align: left;
-        font-size: 1em;
+        font-size: 100%;
         color: #000;
         font-weight: bold;
         margin-left: 3em;
@@ -80,7 +80,7 @@ div.calendar {
 }
 
 div.day {
-        font-size: 1em;
+        font-size: 100%;
 	width: 693px;
 	background-image: url(glass_back_day.png);
 	background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h2 {
 	padding-top: 15px;
 	padding-bottom:10px;
 	margin-bottom: 0;
-	font-size: 1em;
+	font-size: 100%;
 	font-weight: bold;
 }
 
@@ -199,7 +199,7 @@ div.comment {
 }
 
 div.comment p{
-	font-size: 1em;
+	font-size: 100%;
         margin-left: 0em! important;
 	text-indent: 0em
 }

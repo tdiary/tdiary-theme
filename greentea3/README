@@ -13,6 +13,10 @@ Comment: 春らしい若葉色のテーマ、でも名前は緑茶
   div.all 内の height の数値をいじるとスクロールする部分の高さが変化します。
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

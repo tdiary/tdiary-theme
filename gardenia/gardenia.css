@@ -1,6 +1,6 @@
 /*
 Title: Gardenia
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -366,7 +366,7 @@ strong {
 table.calendar {
 	color: #003E00;
         background-color: #FEFEE9;
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 1px;
         border-color: #007900;
@@ -398,7 +398,7 @@ div.leftsidebar {
 	top: 0px;
 	left: 0px;
 	width: 23%;
-	font-size: 0.8em;
+	font-size: 80%;
 	margin: 1%;
 	padding: 2px 2px 2px 2px;
 	border-style: solid;
@@ -426,7 +426,7 @@ div.rightsidebar {
 	top: 0px;
 	right: 0px;
 	width: 23%;
-	font-size: 0.8em;
+	font-size: 80%;
 	margin: 1%;
 	padding: 2px 2px 2px 2px;
 	border-style: solid;
@@ -453,7 +453,7 @@ div.recentsubtitles{
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -471,7 +471,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -499,12 +499,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -30,6 +30,9 @@ Validated by W3C.
 を書き加えてください。
 
 Changelog
+2003-09-08 NT <nt@be.to>
+	* font-size: em -> %.
+	
 2002-09-16 NT <nt@24i.net>
         * convert for 1.5 series.
 

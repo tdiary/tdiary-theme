@@ -1,6 +1,6 @@
 /*
 Title: ギザギザ
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -102,11 +102,11 @@ h2 {
 	margin-bottom: 0.1em;
 	padding-right:3.5em;
 	text-align: right;
-	font-size: 1.2em;
+	font-size: 120%;
 }
 
 h2 span.date {
-	font-size: 1.2em;
+	font-size: 120%;
         padding-right:2em;
         text-align: left;
 }
@@ -273,7 +273,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -291,7 +291,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -319,12 +319,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

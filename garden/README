@@ -9,6 +9,9 @@ validated by W3C.
 calendar2, recent_list プラグイン対応
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* font-size: em -> %.
+	
 2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 	* h3 -> h3 a and h3 -> h3 a:hover

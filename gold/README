@@ -9,6 +9,9 @@ created by Shinchan <http://nga.jp/>
 validated by W3C.
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+
 2002-01-30 TADA Tadashi <sho@spc.gr.jp>
         * 0.9em -> 90% in font-size.
 

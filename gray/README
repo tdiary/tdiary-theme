@@ -1,5 +1,5 @@
 Title: Gray
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
@@ -9,5 +9,9 @@ Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 ChangeLog
-	2003-02-12 Nana <clorets@estyle.ne.jp>
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2003-02-12 Nana <clorets@estyle.ne.jp>
 	* add Gray Theme.

@@ -1,5 +1,5 @@
 /*
-	bulu-feather.css: Style Sheet of tDiary $Revision: 1.1 $
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.2 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -126,7 +126,7 @@ div.body {
 ; color: #000000
 }
 
-p {
+div.section p {
         text-indent: 1em;
 	margin-left: 1em;
 	margin-top: 0.5em;
@@ -365,5 +365,5 @@ td.calendar-day {
 }
 
 /*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.1 $
+	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.2 $
  */

@@ -1,5 +1,7 @@
 /*
-	sky.css: Sky Style Sheet of tDiary $Revision: 1.1 $
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.2 $
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
  */
 a:link, a:visited {
 	color: #24f;
@@ -256,7 +258,7 @@ div.form {
 	padding: 0.5em 1em 0.5em 24px;
 	margin-bottom: 0.5em;
 	margin-left: 8em;
-}}
+}
 
 /*
 入力フィールドの設定

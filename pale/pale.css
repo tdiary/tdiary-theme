@@ -1,6 +1,6 @@
 /*
 Title: Pale
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access:
 License: GPL
@@ -16,7 +16,7 @@ validated by W3C.
 body{
 	background-image: url(pale_green.png);
 	margin: 0px;
-	background-color: #fff;
+	background-color: #dcedec;
 	color: #555;
 	font-family: Arial,Verdana,Helvetica,sans-serif;
 }
@@ -91,7 +91,7 @@ h2{
 	font-size: 110%;
 	padding: 5px 1em 5px 2em;
 	background-image: url(pale_pink.png);
-	background-color: #ff99cc;
+	background-color: #eddce5;
 }
 /*
 日付の設定

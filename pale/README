@@ -1,5 +1,5 @@
 Title: Pale
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -11,3 +11,5 @@ validated by W3C.
 ChangeLog
 	2003-03-07 Nana <clorets@estyle.ne.jp>
 	* add Pale Theme.
+	* body background-color #fff->#dcedec
+	* h2 background-color #ff99cc->#eddce5

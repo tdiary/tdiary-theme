@@ -1,0 +1,435 @@
+/*
+Title: noel
+Revision: $Revision: 1.2 $
+Author: oyuu
+Access: oyuu@mocha.freemail.ne.jp
+License: GPL
+Comment: クリスマス向け
+
+   Copyright(C) 2002 oyuu (http://landscape.tdiary.net/)
+   validated by W3C */
+
+
+body {
+	color: #ffffcc;
+	background-color: #000000;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: #ff3300;
+	background-color: transparent;
+}
+a:visited {
+	text-decoration: none;
+	color: #00cc00;
+	background-color: transparent;
+}
+a:active {
+	color: #FF812d;
+ 	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	color: #FF812d;
+ 	text-decoration: none;
+	background-color: transparent;
+}
+
+div.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+span.adminmenu {
+	color: #ffffcc;
+	background-color: #006600;
+	padding: 1%;
+}
+
+h1 {
+	margin: 0%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+	font-size: 150%;
+}
+
+div.calendar {
+	font-size: 100%;
+	margin: 3% 5% 1% 5%;
+	padding: 1%;
+	text-align: left;
+}
+
+div.day {
+	margin: 2% 10% 2% 10%;
+	padding: 1% 1% 1% 1%;
+	border: #ff3300 solid 8px;
+	text-align: left;
+}
+
+h2 {
+	color: #ffffcc;
+	background-color: #006600;
+	font-size: 100%;
+	margin: 0%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+h2 span.date {
+	margin-left: 0.5%
+}
+
+h2 span.title {
+	font-size: 100%
+}
+
+div.body {
+	margin: 0%;
+	padding: 1% 1% 1% 1%;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: 4%;
+	margin-bottom: 0.1%
+}
+
+div.day p {
+	font-size: 95%;
+	line-height: 1.5;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+p {
+	font-size: 100%;
+}
+
+div.comment {
+	font-size: 90%;
+	color: #ffffcc;
+	background-color: #006600;
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+div.comment div.caption {
+	padding-left: 0.2%;
+}
+
+
+div.referer {
+	font-size: 90%;
+	text-align: right;
+	margin-bottom: 3%;
+}
+
+div.refererlist {
+	border-top: #008000 1px solid;
+	font-size: 100%;
+	padding: 0.2% 1% 0% 1%;
+}
+
+div.refererlist div.caption {
+	border-bottom: #008000 1px solid;
+	font-size: 95%;
+	margin-top: 0.5em;
+}
+
+ul{
+	font-size: 90%;
+	line-height: 1.4;
+	margin-top: 0.5em;
+	margin-left: 2em;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+ol{
+	font-size: 90%;
+	line-height: 1.4;
+	margin-top: 0.5em;
+	margin-left: 2em;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr {
+	border: #008000 1px solid;
+}
+
+hr.sep {
+	display: none
+}
+
+div.footer {
+	font-size: 100%;
+	margin: 3%;
+	text-align: right;
+}
+
+div.form {
+	text-align: center;
+	padding: 0.5% 1% 0.5% 1%;
+}
+div.form form {
+	width: 100%;
+}
+
+input.field {
+	color: #ffffcc;
+	background-color: #000000;
+	border: 2px solid #008000;
+        text-indent: 0em ! important;
+}
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	color: #ffffcc;
+	background-color: #000000;
+	border: 2px solid #008000;
+        text-indent: 0em ! important;
+        width: 100%;
+}
+
+p.message {
+	background-color: #ffffff;
+	color: #F7007B;
+	font-size: 100%;
+	padding: 8px;
+	text-align: center
+}
+
+pre {
+	color: #000000;
+	background-color: #f3fff3;
+	margin: 2%;
+	padding: 8px;
+}
+
+div.body blockquote {
+	color: #ffffcc;
+	background-color: transparent;
+	border: #ff3300 2px solid;
+	margin: 1% 2%;
+	padding: 1%;
+	font-size: 90%;
+}
+
+div.section blockquote p {
+	margin-top : 0em;
+	text-indent: 0em
+}
+
+div.body dl {
+	margin-left: 2em;
+	font-size: 90%
+}
+
+div.body dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	line-height: 1.5
+}
+
+em {
+	color: #ff3300;
+	background-color: #ffffff;
+	font-weight: normal
+}
+
+strong {
+	color: #ff3300;
+	background-color: #ffffff;
+}
+
+.hide {
+	color: #ffffcc;
+	background-color: #000000
+}
+
+
+/* calendar2 */
+table.calendar {
+	color: #ffffcc;
+	background-color: #006600;
+        font-size: 1em;
+        line-height: 120%;
+	border: #ff3300 solid 5px;
+	margin: 3% auto 3% auto;
+}
+
+table.calendar td {
+        margin: 3px;
+        text-align: right;
+        padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+	font-weight: bold;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #000000;
+        color: #ffffcc;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #000000;
+        color: #ffffcc;
+        width: 30em;
+        height: 5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #000000;
+        color: #ffffcc;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+div.day.update div.comment div.caption {
+	text-align: center;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+	text-align: center;
+}

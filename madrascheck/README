@@ -1,14 +1,17 @@
 Title: Madras check
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: Madras check
 
-	Madras check.css: Thin Style Sheet of tDiary
-	Copyright 2002 (C) by Nana <moo@xu.boo.jp>
+	Madras check Style Sheet of tDiary
+	Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
         
         Validated by W3C
 
 ChangeLog
+2003-02-16 Nana <clorets@estyle.ne.jp>
+	* add sanchor image
+	
 2002-10-31 Nana <>
 	* add Madras check Theme.

@@ -9,14 +9,17 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-log
+2002-12-09 TADA Tadashi <sho@spc.gr.jp>
+	* remove using glass_back.png (it's not there!).
+
 2002-12-01 NT <nt@be.to>
-         * change one of "div.section p" to "p".
+	* change one of "div.section p" to "p".
 
 2002-09-23 NT <nt@24i.net>
-         * convert for 1.5 series.
+	* convert for 1.5 series.
 
 2002-05-10 Nana
-        * div.day margin-left,right:1em -> auto
+	* div.day margin-left,right:1em -> auto
 
 2002-05-05 Nana
-        * h2 font-size:0.9em -> 1em
+	* h2 font-size:0.9em -> 1em

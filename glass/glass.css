@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -10,20 +10,8 @@ Comment: かき氷なテーマ(おぃ
 	validated by W3C.
 */
 
-/*
-Change-log
-2002-09-23 NT <nt@24i.net>
-         * convert for 1.5 series.
-
-2002-05-10 Nana
-        * div.day margin-left,right:1em -> auto
-
-2002-05-05 Nana
-        * h2 font-size:0.9em -> 1em
-*/
-
 div.rank {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: left;
 	margin-left: 3em;
 }
@@ -47,7 +35,7 @@ a:hover, a:focus {
 }
 
 body {
-	background-image: url(glass_back.png);
+	/*background-image: url(glass_back.png);*/
 	background-color: #ffffff;
 	color: #000080;
         font-size: 1em;
@@ -237,7 +225,7 @@ div.day span.canchor {
 }
 
 div.comment div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
 	background-color: transparent;
 	color: #0038C8;
 	text-align: left;
@@ -252,7 +240,7 @@ div.comment div.caption {
 
 
 div.refererlist div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
 	background-color: transparent;
 	color: #0038C8;
 	text-align: left;
@@ -269,7 +257,7 @@ div.referer {
 	color: #000000;
 	text-align: right;
 	padding-top: 0;
-	font-size: 0.9em;
+	font-size: 90%;
 	padding-right: 2em;
 }
 
@@ -350,7 +338,7 @@ div.body dd {
 
 li{
 	margin-left: 6em;
-	font-size: 0.9em;
+	font-size: 90%;
         margin-bottom:0px
 }
 
@@ -378,7 +366,7 @@ table.calendar {
 	border-width: 10px 1px 1px 1px;
 	margin-bottom: 1em;
         margin-left: 3em;
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 td.calendar-current-month {
@@ -448,7 +436,7 @@ div.footnote p.footnote{
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -466,7 +454,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0px 0.5em 0px 0.5em;
         line-height: 1.2em;
 }
@@ -497,7 +485,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #000080;
         border-width: 0px 0px 1px 0px;
@@ -508,7 +496,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

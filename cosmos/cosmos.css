@@ -1,6 +1,6 @@
 /*
 Title: ¾®±§Ãè
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -376,13 +376,6 @@ table.calendar {
                border-style: solid;
                color: #fff;
                padding: 2px;
-}
-
-table.calendar td.image {
-        background-image: url(nobeyama.png);
-	background-position: center top;
-	background-repeat: no-repeat;
-	height: 72px;
 }
 
 table.calendar td {

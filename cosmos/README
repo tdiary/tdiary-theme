@@ -10,6 +10,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-log
+2003-12-26 Hiroyuki Ikezoe <poincare@ikezoe.net>
+	* removed table calendar td.image.
+
 2003-09-05 NT <nt@be.to>
 	* font-size: em -> %.
 

@@ -1,6 +1,6 @@
 /*
 Title: クールアイス
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,9 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
 */
 /* ChangeLog
+2002-04-20 TADA Tadashi <sho@spc.gr.jp>
+	* down size anchor image.
+
 2002-04-17 TADA Tadashi <sho@spc.gr.jp>
 	* support amazon plugin.
 	* change <hr> color.
@@ -89,7 +92,7 @@ div.day span.panchor {
 	background-image: url(cool_ice_anchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	padding: 16px 16px 0px 0px;
+	padding: 12px 12px 0px 0px;
 	color: #fff;
 	background-color: transparent;
 	font-size: 1px;

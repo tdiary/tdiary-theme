@@ -1,0 +1,16 @@
+/*
+Title: Diamond_dust
+Revision: $Revision: 1.1 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: 冬っぽく
+
+Copyright 2002 (C) by Nana <mpc@mikan.sakura.ne.jp>
+validated by W3C.
+*/
+
+Chagelog
+	* ナンバリングアンカー対応に対応しています。
+	  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
+	  と記入してください。

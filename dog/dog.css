@@ -231,12 +231,14 @@ div.comment {
 div.commentshort {
 	font-size: 100%;
 	margin-left: 1em;
+	padding-top: 5px;
 }
 
 div.commentshort p {
 	margin:0.2em 1em;
 	font-size: 100%;
 	line-height: 24px;
+	
 }
 
 /*
@@ -251,6 +253,7 @@ div.commentbody {
 */
 span.commentator {
 	font-weight: bold;
+	padding-top: 5px;
 }
 
 /*

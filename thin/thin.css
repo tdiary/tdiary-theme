@@ -3,7 +3,7 @@ Title: Thin
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.10 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.11 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
@@ -66,7 +66,7 @@ body {
         backrgound-image:URL(poppy1.jpg);
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 	float: right;
@@ -122,7 +122,7 @@ div.day {
         color: #000;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
         background-image: url(thin_panchor.png);
         background-position: bottom right;
         background-repeat: no-repeat;
@@ -153,7 +153,7 @@ h2 {
         border-style: solid;
 }
 
-span.date a {
+h2 span.date {
 	color: #000033;
 }
 
@@ -167,7 +167,7 @@ div.day div.section > * {
 	margin-left: 120px;
 }
 
-h3.subtitle {
+h3 {
 	margin: 0em ! important;
 	padding: 0em;
 	font-weight: bold;
@@ -207,31 +207,24 @@ div.comment p{
 	margin-left: 120px;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	text-align: left;
 	margin-left: 0em ! important;
+	margin-bottom: 0.5em;
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 0px 0px 1px 0px;
 }
 
-span.commentator {
-	margin-left: -100px;
-	display: block;
-	border-style: solid;
-	border-color: #cccccc;
-	border-width: 0px 0px 1px 0px;
-        color: #006699;
-        background-color: transparent;
-}
 
-p.referertitle {
+div.refererlist div.caption {
         border-style: solid;
 	border-color: #cccccc;
 	border-width: 0px 0px 1px 0px;
+	margin-bottom: 0.5em;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: small;
 	color: #000;
@@ -268,7 +261,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 }
@@ -322,16 +315,16 @@ textarea {
 	border-width: 1px 1px 1px 1px;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -363,7 +356,7 @@ div.footnote p.footnote{
 	color: #000; 
 }
 
-blockquote {
+div.body blockquote {
         border-width: 3px 0px 1px 0px;
 	border-style: solid solid solid solid;
 	border-color: #191970;
@@ -416,7 +409,163 @@ div.sidebar p {
 	text-align: left;
 	margin: 2px 3px 2px 4px;
 }
- p.recentitem{
+
+p.recentitem{
         color: #006699;
         background-color: transparent;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0px 0px 0px 120px;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #fff;
+        color: #000;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	margin-bottom: 0.5em;
+	margin-left: 120px;
+        border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #cccccc;
+}
+
+div.day.update div.form {
+        border-style: none;
+	margin-left: 0px;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+form.commentstat div.button input {
+        margin-left: 120px !important;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

@@ -1,0 +1,29 @@
+Title: Stripe
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: none
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	Modified by TADA Tadashi
+
+ChangeLog
+2002-10-13 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* div.comment align left.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-16 Nana
+	* rename copyright zoe>>>Nana
+	* stripe_bg08.gif>>>stripe_back.gif
+	* font-family was deleted.
+	* body font-size:small>>>1em
+	* color:red>>>#ff0000
+	* input,textarea,etc.changed border-color#000
+	* p.calendar border-style:dashed>>>none
+	* text-align:center>>>left
+	* font-size:15px>>>medium

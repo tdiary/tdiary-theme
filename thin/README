@@ -1,0 +1,33 @@
+Title: Thin
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment:
+
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+        Only a few changed Theme Double.
+        Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
+        Validated by W3C
+
+ChangeLog
+2002-10-13 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-22 Nana
+        * support calendar2,blockquote,title_list
+
+2002-04-16 Nana
+        * fix p.adminmenu margin-top:10% ->> 0
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* add prefix 'thin_' to image files.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-18 Nana
+	* add ul,ol margin-left:100px >>> 0px

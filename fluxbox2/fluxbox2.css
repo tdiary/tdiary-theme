@@ -1,6 +1,6 @@
 /*
 Title: fluxbox2
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -353,14 +353,14 @@ span.memo {
   background:#CCCEFC;
 }
 /*
-$B5SCmHV9f(B
+µ”√Ì»÷πÊ
 */
 span.footnote ,span.footnote a{
   font-size:90%;
   color:#DC143C;
 }
 /*
-$B5SCmK\J8A4BN(B
+µ”√ÌÀ‹ ∏¡¥¬Œ
 */
 div.footnote {
   border-color:#800040;
@@ -377,7 +377,7 @@ div.footnote a{
    color:#DC143C;
 }
 /*
-$B$=$l$>$l$N5SCmK\J8(B
+§Ω§Ï§æ§Ï§Œµ”√ÌÀ‹ ∏
 */
 span.footnote{
     vertical-align: super;

@@ -1,6 +1,6 @@
 /*
 Title: ³Á
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: oyuu
 Access: oyuu@mocha.freemail.ne.jp
 License: GPL
@@ -99,7 +99,7 @@ h2 span.title {
 }
 
 div.body {
-	font-size: 90%;
+	font-size: 100%;
 	border: #ffdd77 3px solid;
 	margin-top: 2%;
 	margin-bottom: 3%;

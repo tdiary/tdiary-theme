@@ -1,5 +1,5 @@
 /*
-	bistro_menu.css: Style Sheet of tDiary $Revision: 1.1 $
+	bistro_menu.css: Style Sheet of tDiary $Revision: 1.2 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -26,7 +26,7 @@ a:hover, a:focus {
 }
 
 body {
-	background-image: url(bistro_back.gif);
+	background-image: url(bistro_menu__back.gif);
 	background-color: #f4d9a9;
 	color: #696969;
 }
@@ -80,7 +80,7 @@ p.calendar {
 
 div.day {
 	width: 631px;
-	background-image: url(bistro_back_day.gif);
+	background-image: url(bistro_menu_back_day.gif);
 	background-repeat: no-repeat;
 	background-position: 0% 100%;
 	margin-left: 3em;
@@ -102,7 +102,7 @@ span.title {
 }
 
 h2 {
-	background-image: url(bistro_back_h2.gif);
+	background-image: url(bistro_menu_back_h2.gif);
 	background-repeat:no-repeat ;
 	background-attachment:scroll;
 	background-color: transparent;
@@ -121,7 +121,7 @@ span.date {
 }
 
 div.body {
-	background-image: url(bistro_back_body.gif);
+	background-image: url(bistro_menu_back_body.gif);
 	background-color: transparent;
 	background-repeat:repeat-y ;
 	color: #000000;
@@ -181,7 +181,7 @@ pre {
 }
 
 div.comment {
-	background-image: url(bistro_back_body.gif);
+	background-image: url(bistro_menu_back_body.gif);
 	background-color: transparent;
 	background-repeat:repeat-y ;
 	color: black;
@@ -233,7 +233,7 @@ p.referer {
 
 div.refererlist {
 	width: 631px;
-	background-image: url(bistro_back_body.gif);
+	background-image: url(bistro_menu_back_body.gif);
 	background-color: transparent;
 	color: #B22222;
 	font-size: small;
@@ -263,7 +263,7 @@ p.footer {
 
 div.form {
 	width: 631px;
-	background-image: url(bistro_back_body.gif);
+	background-image: url(bistro_menu_back_body.gif);
 	background-color: transparent;
 	color: #000000;
 	font-size: x-small;

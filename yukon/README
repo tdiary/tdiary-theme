@@ -7,6 +7,8 @@ Comment: 想い出のユーコン
 Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
 
+2002-11-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* add div.main for sidebar.
+
 2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
 	* change span.panchor -> span.sanchor. But not using.
-

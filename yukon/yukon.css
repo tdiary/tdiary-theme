@@ -1,6 +1,6 @@
 /*
 Title: Yukon
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -536,6 +536,11 @@ strong {
 /*
 サイドバー関連
 */
+div.main {
+	width: 75%;
+	float: left;
+}
+
 div.sidebar {
 	width: 18%;
 	font-size: x-small;

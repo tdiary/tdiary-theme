@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.10 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.11 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -39,7 +39,7 @@ a:hover, a:focus {
 }
 
 body {
-	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-family: Osaka,Verdana,Arial,Helvetica,sans-serif;
 	background-color: #fdffcf;
 	color: black;
 	margin-left: 0px;
@@ -120,10 +120,10 @@ div.body {
 	margin-left: 2em;
 }
 
-div body p {
+div.body p {
 	margin-left: 1em;
 	margin-right: 1em;
-	margin-top: 0.5em;
+	margin-top: 0.2em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
 }

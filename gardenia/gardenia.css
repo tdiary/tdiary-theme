@@ -1,0 +1,462 @@
+/*
+Title: Gardenia
+Revision: $Revision: 1.1 $
+Author: oyuu
+Access: <http://landscape.tdiary.net/>
+License: GPL
+Comment: クチナシ(Gardenia jasminoides Ellis) アカネ科
+        
+Copyright 2002 (C) by oyuu <oyuu@mocha.freemail.ne.jp>
+Validated by W3C.
+*/
+
+/* このテーマは、sidebarに対応しています。
+
+左側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="leftsidebar">
+	<%=title_list%>
+	</div>
+	<div class="rightmain">
+　　フッタに
+	</div>
+
+右側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="rightsidebar">
+	<%=title_list%>
+	</div>
+	<div class="leftmain">
+　　フッタに
+	</div>
+
+を書き加えてください。*/
+
+
+a:link{ 
+	color: #1EFF1E;
+        text-decoration: none;
+}
+a:visited{ 
+	color: #00EC00;
+        text-decoration: none;
+ }
+a:active{
+	color: #00A200;
+ 	text-decoration: none;
+}
+a:hover{
+	color: #00C600;
+ 	text-decoration: none;
+}
+
+body {
+	color: #FEFEE9;
+	background-color: #007900;
+	margin: 0px
+}
+
+p.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+h1 {
+	margin: 0%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+	font-size: 150%;
+}
+
+p.calendar {
+	font-size: 90%;
+	margin: 3% 5% 1% 5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left;
+}
+
+.headline {
+	font-size: 90%;
+	margin: 1% 1% 1% 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left
+}
+
+div.intro{
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+div.day {
+	color: #003E00;
+	background-color: #FEFEE9;
+	margin: 1% 1% 1% 1%;
+	padding: 1% 1% 1% 1%;
+	border-top: #007900 1px solid;
+	border-right: #007900 1px solid;
+	border-bottom: #007900 1px solid;
+	border-left: #007900 1px solid;
+}
+
+div.day a:link,
+table.calendar a:link,
+div.rightsidebar a:link,
+div.leftsidebar a:link {
+	color: #00A200;
+}
+
+div.day a:visited,
+table.calendar a:visited,
+div.rightsidebar a:visited,
+div.leftsidebar a:visited {
+	color: #00C600;
+}
+
+day.day a:active,
+table.calendar a:active,
+day.rightsidebar a:active,
+day.leftsidebar a:active {
+	color: #00EC00;
+}
+
+div.day a:hover,
+table.calendar a:hover,
+div.rightsidebar a:hover,
+div.leftsidebar a:hover {
+	color: #1EFF1E;
+}
+
+h2 {
+	font-size: 100%;
+	color: #003E00;
+	background-color: #FEFEE9;
+	border-top: #007900 1px solid;
+	border-right: #007900 0px solid;
+	border-bottom: #007900 1px solid;
+	border-left: #007900 0px solid;
+	margin-top: 3%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+span.date {
+	font-size: 100%;
+	font-style: normal;
+	margin-left: 1%;
+	margin-right: 1%
+}
+
+span.title {
+	font-size: 100%;
+	font-style: normal
+}
+
+div.body {
+	font-size: 90%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 1% 1% 1% 1%;
+	line-height: 1.5;
+}
+
+div.section {
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+
+h3.subtitle {
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 0.1%
+}
+
+div.day p {
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+p {
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+}
+
+div.comment {
+	font-size: 90%;
+	line-height: 1.5;
+}
+
+p.commenttitle {
+	font-size: 90%;
+	padding-left: 1% ;
+	border-top: #007900 1px solid;
+	border-bottom: #007900 1px solid;
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+span.commentator {
+	font-weight: bold;
+	padding: 1% ;
+}
+
+p.referer {
+	font-size: 85%;
+	border-top: #007900 1px solid;
+	border-right: #007900 0px solid;
+	border-bottom: #007900 1px solid;
+	border-left: #007900 0px solid;
+	padding-top: 0.2%;
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+	text-align: right
+}
+
+div.refererlist {
+	border-top: #007900 1px solid;
+	border-right: #007900 0px solid;
+	border-bottom: #007900 1px solid;
+	border-left: #007900 0px solid;
+	font-size: 100%;
+	padding-top: 1%; 
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+}
+
+p.referertitle {
+	border-bottom: #007900 1px solid;
+}
+
+UL.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-top: #FEFEE9 1px solid;
+	border-right: #FEFEE9 1px solid;
+	border-bottom: #FEFEE9 1px solid;
+	border-left: #FEFEE9 1px solid;
+}
+
+hr.sep { display: none }
+
+.sfooter {}
+
+p.footer {
+	font-size: 85%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+div.form {
+	font-size: 90%;
+	line-height: 1.5;
+	padding-top: 0.5%;
+	padding-right: 1%;
+	padding-bottom: 0.5%;
+	padding-left: 1%;
+}
+
+div.form form {
+	width: 90%;
+}
+
+input.field {
+        color: #002F00;
+	background-color: #FEFEE9;
+	border-right: 1px solid #005700;
+	border-left: 1px solid #005700;
+	border-top: 1px solid #005700;
+	border-bottom: 1px solid #005700;
+        text-indent: 0em ! important;
+
+}
+
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	font-size: 90%;
+        color: #002F00;
+	background-color: #FEFEE9;
+	border-right: 1px solid #005700;
+	border-left: 1px solid #005700;
+	border-top: 1px solid #005700;
+	border-bottom: 1px solid #005700;
+        text-indent: 0em ! important;
+        width: 100%;
+}
+
+p.message {
+	color: #1EFF1E;
+	background-color: #007900;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-align: center;
+}
+
+pre {
+	color: #FEFEE9;
+	background-color: #007900;
+	font-size: 90%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+blockquote {
+	color: #003E00;
+	background-color: #FEFEE9;
+	border-top: #007900 2px solid;
+	border-right: #007900 2px solid;
+	border-bottom: #007900 2px solid;
+	border-left: #007900 2px solid;
+	margin: 1% 2%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+div.section blockquote p {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+em {
+	background-color: #FEFEE9;
+	color: #002F00;
+	font-style: normal;
+	font-weight: normal
+}
+
+strong {
+	color: #002F00;
+	background-color: #1EFF1E;
+}
+
+.hide {
+	color: #002F00;
+	background-color: #FEFEE9
+}
+
+/* calendar2 */
+table.calendar {
+	color: #003E00;
+        background-color: #FEFEE9;
+        font-size: 0.9em;
+        line-height: 100%;
+        border-width: 1px;
+        border-color: #007900;
+        border-style: solid;
+	margin: 1%;
+        padding: 1px;
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+
+
+/* for sidebar layout */
+
+div.rightmain {
+	margin-left: 25%;
+}
+
+div.leftsidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 23%;
+	font-size: 0.8em;
+	margin: 1%;
+	padding: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: #007900;
+	border-width: 1px;
+	color: #003E00;
+	background-color: #FEFEE9;
+}
+
+div.leftsidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #007900;
+	border-width: 1px 0px 1px 0px;
+	margin: 4px 2px 4px 2px;
+}
+
+div.leftmain {
+	margin-right: 25%;
+}
+
+div.rightsidebar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 23%;
+	font-size: 0.8em;
+	margin: 1%;
+	padding: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: #007900;
+	border-width: 1px;
+	color: #003E00;
+	background-color: #FEFEE9;
+}
+
+div.rightsidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #007900;
+	border-width: 1px 0px 1px 0px;
+	margin: 4px 2px 4px 2px;
+}
+
+div.recentsubtitles{
+	margin: 2px 3px 2px 3px
+}

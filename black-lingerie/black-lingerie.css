@@ -1,5 +1,5 @@
 /*
-	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.2 $
+	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
  */
@@ -129,6 +129,10 @@ div.day span.panchor {
 	color: #000;
 	background-color: transparent;
 	font-size: 1px;
+}
+/* this section affects only mozilla. */
+h3.subtitle > a:first-child {
+	text-decoration: none;
 }
 
 div.day span.canchor {

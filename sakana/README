@@ -1,6 +1,12 @@
 Title: Sakana
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
-Comment: 1.5系
-	Copyright(C)2002 Nana
+Comment: 涼しげな魚のイメージ
+
+	Copyright(C)2002 Nana <mpc@mikan.sakura.ne.jp>
 	validated by W3C.
+		 
+Changelog
+	2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+       	* delete no need lines
+	       

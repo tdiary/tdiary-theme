@@ -1,20 +1,24 @@
 /*
+	grape.css: Grape Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+ */
+
+/*
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-    text-align : center;
-    font-family :osaka, Arial,"MS UI Gothic";
-    font-size: small;
+	text-align : center;
+	font-family :osaka, Arial,"MS UI Gothic";
+	font-size: small;
 	background-image: url(grape_maru.png);
-    background-color: #000;
+	background-color: #000;
 	color: #fff;
-    
 }
 
 a:link {
-        text-decoration: none;
-	    color: #FF3868;
-        font-weight:bold;
+	text-decoration: none;
+	color: #FF3868;
+	font-weight:bold;
 }
 a:visited {
         text-decoration: none;
@@ -22,7 +26,7 @@ a:visited {
         color: #FF0000;
 }
 a:hover,a:active {
-	    text-decoration: underline overline;
+	text-decoration: underline overline;
         color: #A43F7D;
 }
 /*
@@ -46,7 +50,7 @@ p.message {
 span.adminmenu {
 	background-color: transparent;
 	padding: 3px;
-    font-size: small;
+	font-size: small;
 }
 /*
 日記タイトルの設定
@@ -58,26 +62,24 @@ h1 {
 /*
 カレンダーの設定
 */
-p.calendar {
-    
+p.calendar {    
 	font-size: 14px;
-    font-weight: bold;
-	
+	font-weight: bold;
 	text-align: center;
 	padding: 5px;
-    border-style: none;
+	border-style: none;
 	border-color: #F879AA;
 	border-width: 0px 0px 3px 0px;
-    width:80%
+	width:80%
 }
 /*
 1日の日記全体を囲む枠の設定
 */
 div.day {
-    -moz-opacity:0.7;
-    filter:Alpha(opacity=70);
-    background-color: #CAB4CA;
-    color: #000;
+	-moz-opacity:0.7;
+	filter:Alpha(opacity=70);
+	background-color: #CAB4CA;
+	color: #000;
 	margin: 3em auto 3em auto;
 	text-align: left;
 	clear: both;
@@ -97,7 +99,7 @@ h2 {
 	margin-left: auto;
 	margin-right: 0px;
 	font-size: small;
-    font-weight: bold;
+	font-weight: bold;
 }
 /*
 日付の設定
@@ -106,8 +108,6 @@ span.date {
 	font-weight: bold;
 	font-size: small;
 	text-align: center;
-	
-	
 }
 /*
 タイトルの設定
@@ -119,27 +119,27 @@ span.title {
 タイトルを除いた1日の日記本文全体の設定
 */
 div.body {
-    
-    font-size: small;
+	font-size: small;
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	text-align: left;
-	color: ##00007F;
+	color: #00007F;
 }
 
 /*
 日記の本文(段落)の設定
 */
-p {font-size: small;
+p {
+	font-size: small;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
-	line-height: 1.3;
+	line-height: 1.3em;
 }
 p.sentence {
 	margin-left: 12px;
 	margin-right: 12px;
-	line-height: 1.2;
+	line-height: 1.2em;
 	border-style: none;
 	border-color: #000;
 	border-width: 1px 0px 0px 0px;
@@ -153,7 +153,7 @@ h3.subtitle {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-    font-size: small;
+	font-size: small;
 	clear: both;
 }
 span.anchor {
@@ -169,8 +169,8 @@ span.anchor {
 pre {
 	border-style: none;
 	font-size: small;
-　　background-color: #fff;
-    color: #005AC9; 
+	background-color: #fff;
+	color: #005AC9; 
 	border-color: #fcc;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -201,7 +201,6 @@ p.commenttitle {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-style: none;
-	
 }
 /*
 ツッコミした人の名前の設定
@@ -223,7 +222,7 @@ p.comment {
 	margin-right: 12px;
 	margin-top: 0px;
 	margin-bottom: 2px;
-	line-height: 1.0;
+	line-height: 1.0em;
 }
 /*
 リンク元リストタイトルの設定
@@ -235,28 +234,24 @@ p.referertitle {
 	border-style: solid;
 	border-color: #AD5477;
 	border-width: 1px;
-    padding: 2px;
+	padding: 2px;
 }
 /*
 リンク元リスト(短い方)の設定
 */
 p.referer {
-    background-color: #AD5477;
-	
+	background-color: #AD5477;
 	text-align: center;
 	color: #000;
-	
 	font-size: small;
 	padding: 2px;
 	border-style: none;
-	
 	border-width: 3px;
 }
 /*
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist {
-    
 	font-size: small;
 	text-align: right;
 	padding-bottom: 1px;
@@ -300,19 +295,18 @@ p.footer {
 フォーム全体を囲む枠の設定
 */
 div.form {
-    -moz-opacity:0.7;
-    filter:Alpha(opacity=70);
+	-moz-opacity:0.7;
+	filter:Alpha(opacity=70);
 	background-color: #CAB4CA;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-width: 5px;
-    width: 80%;
-    border-color: pink;
+	border-width: 5px;
+	width: 80%;
+	border-color: pink;
 	border-style: outset;
 }
 form {
-    
-    color: #000;
+	color: #000;
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
@@ -322,24 +316,19 @@ form {
 
 
 input.field {
-    
 	color: #000000;
 	border-color: #500650;
 	border-style: solid;
-	
 }
 
 input, select, option {
-	
 	color: #000;
 	border-color: #500650;
 	border-style: solid;
-	
 	clear: both;
 }
 
 textarea {
-    
 	color: #000;
 	border-color: #500650;
 	border-style: solid;

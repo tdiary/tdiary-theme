@@ -1,0 +1,354 @@
+/*
+	lime.css: Lime Style Sheet of tDiary $Revisions$
+ */
+
+body {
+	background-color: black;
+	color: lime;
+	border-style: solid;
+	border-color: lime;
+	border-width: 0px 4px 0px 0px;;
+}
+
+a:link {
+        text-decoration: none;
+	color: #f60;
+}
+a:visited {
+        text-decoration: none;
+        color: #f60;
+}
+a:hover,a:active {
+	text-decoration: none;
+        color: lime;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: black;
+	color: white;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	text-align: right;
+	padding: 2px;
+	margin-left auto;
+	margin-right auto;
+	border-style: none;
+	border-color: lime;
+	border-width: 2px;
+}
+
+div.day {
+	margin: 1em 0em 3em 3em;
+	text-align: left;
+	border-style: solid;
+	border-color: lime;
+	border-width: 0px 0px 4px 0px;
+}
+h2 {
+	text-align: left;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding: 0px;
+	display: inline;
+	font-weight: bold;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px 0px 0px 2px;;
+}
+
+span.date {
+	margin-left: 3em;
+	text-align: left;
+	position: relative;
+	top: -0.7em;
+	background-color: yellow;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+li a {
+	color:white;
+	position: relative;
+	background-color: yellow;
+        line-height: 2.0em;;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+span.title {
+	background-color: yellow;
+	padding: 0px;
+	position: relative;
+	top: -0.7em;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+div.body {
+	margin: 0em 9em 0.5em 0em;
+	padding: 0px;
+	background-color: #ff2;
+	text-align: left;
+	color: lime;
+	border-style: solid;
+	border-color: lime;
+	border-width: 4px;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+div.body p {
+	margin-left: 12px;
+	margin-right: 12px;
+	background-color: #ff2;
+	line-height: 1.4;
+}
+
+h3.subtitle {
+	display: inline;
+	font-weight: bold;
+	border-style: none;
+	border-color: lime;
+	border-width: 0px 0px 2px 0px;
+}
+span.anchor {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-weight: bold;
+	font-size: 24pt;
+	float: left;
+}
+
+pre {
+	background-color: black;
+	color: #ff8000;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: right;
+	padding: 0px;
+	margin: 1em 3em 0em 9em;
+	padding-bottom: 0.7em;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px 0px 0px 2px;
+}
+
+div.comment p.commenttitle {
+	text-align: left;
+	background-color: yellow;
+	position: relative;
+	top: -0.7em;
+	color: #lime;
+	display: inline;
+	font-size: medium;
+	margin: 0em 0em 0em 0em;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+span.commentator {
+	background-color: yellow;
+	padding-top: 0px;
+	text-align: left;
+	color: greenlime;
+	padding: 0px 0px 0px 0px;
+	line-height: 1.2;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+div.comment p {
+	font-size: small;
+	text-align: left;
+	color: lime;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 0.4em 0em 0.4em 3em;;
+	line-height: 1.2;
+	border-style: none;
+	border-color: lime;
+	border-width: 2px;
+}
+p.referertitle {
+	color: lime;
+	background-color: yellow;
+	text-align: right;
+	margin-left: 3em;
+	margin-right: 3em;
+	display: inline;
+	position: relative;
+	top: -0.7em;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+p.referer {
+	display: inline;
+	text-align: left;
+	color: lime;
+#	position: relative;
+#	top: 0.7em;
+	font-size: x-small;
+#	background-color: yellow;
+	padding: 2px;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px 2px 2px 2px;
+}
+p.referer a {
+	position: relative;
+	margin-left: auto;
+	margin-right: 0px;
+	top: 2.0em;
+	color:red;
+	background-color: #ff2;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px;
+}
+
+div.refererlist {
+	font-size: x-small;
+	text-align: right;
+	background-color: #000;
+	padding-top: 0px;
+	margin: 0em 9em 0em 6em;
+	border-style: solid;
+	border-color: lime;
+	border-width: 2px 2px 0px 2px;
+}
+
+ul.referer {
+	margin: 0em 0em 0em 0em;
+	text-align: right;
+	position: relative;
+	left:6em;
+	list-style-type: circle;
+	border-style: none;
+	border-color: lime;
+	border-width: 2px;
+}
+ul.referer li{
+	background-color: #ff2;
+	text-align: left;
+	margin-top:0.5em;
+	list-style-type: circle;
+	border-style: solid;
+	border-color: lime;
+	border-width: 1px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: x-small;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+	background-color: #transparent;
+	font-size: small;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+form {
+	background-color: #transparent;
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+
+input.field {
+	background-color: #ff2;
+	font-size: small;
+	color: lime;
+	border-color: lime;
+	border-style: solid;
+	border-width: 2px;
+}
+
+input {
+	background-color: #ff2;
+	font-size: small;
+	color: lime;
+	border-color: lime;
+	border-style: solid;
+	border-width: 2px;
+}
+
+textarea {
+	background-color: #ff2;
+	font-size: small;
+	color: lime;
+	border-color: lime;
+	border-style: solid;
+	border-width: 2px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

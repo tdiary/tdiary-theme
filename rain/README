@@ -1,0 +1,20 @@
+Title: Rain
+Revision: $Revision: 1.1 $
+Author: Nana
+Access: clorets@estyle.ne.jp
+License: GPL
+Comment: 雨つぶ
+
+Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
+validated by W3C.
+
+ChangeLog
+	2003-03-06 Nana <clorets@estyle.ne.jp>
+	* add rain Theme.
+
+Memo 
+	2003-03-06 Nana <clorets@estyle.ne.jp>
+	* このテーマは設定画面のヘッダに<%=navi%>より前に日記タイトル<h1>を入れる事をお勧めします。
+	<h1>日記タイトル</h1><%=navi%>な感じに。
+	
+	

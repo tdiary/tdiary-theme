@@ -2,35 +2,39 @@
       bubble.css: Bubble Style Sheet of tDiary
       Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
  */
-
+/* ChangeLog
+2002-03-14 TADA Tadashi <sho@spc.gr.jp>
+	* CR/LF -> LF.
+	* finish by ';' at all end of line.
+ */
 a:link, a:visited {
-       color: powderblue;
-       text-decoration: none;
-       font-weight: bold;
-       border-style: none;
-       border-width: 1px;
+	color: powderblue;
+	text-decoration: none;
+	font-weight: bold;
+	border-style: none;
+	border-width: 1px;
 }
 
 a:active {
-       text-decoration: none;
-       color: greenyellow;
+	text-decoration: none;
+	color: greenyellow;
 }
 
 a:hover, a:focus {
-        color: #FFFFD5;
-        text-decoration:underline;
+	color: #FFFFD5;
+	text-decoration:underline;
 }
 
 body {
-        background-image: url(bubble_back.png);
-        background-repeat: repeat-x;
-        background-position: right top;
-        background-attachment: fixed;
-        background-color: #000;
+	background-image: url(bubble_back.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	background-attachment: fixed;
+	background-color: #000;
 	color: aliceblue;
 	margin-left: 3%;
 	margin-right: 5%;
-        font-size: 13px;
+	font-size: 13px;
 }
 
 p.message {
@@ -59,7 +63,7 @@ h1 {
 
 p.calendar {
 	margin-top: 0px;
-        background-color: transparent;
+	background-color: transparent;
 	margin-left: 0px;
 	font-size: 16px;
 	color: #fff;
@@ -76,14 +80,14 @@ div.day {
 }
 
 h2 {
-        text-align: left;
+	text-align: left;
 	padding-bottom: 1em;
 }
 
 p.strong {
 	font-size: 200%;
 	font-weight: bold;
-	text-align: center;Å
+	text-align: center;
 }
 
 span.date {
@@ -91,7 +95,7 @@ span.date {
 }
 
 span.date a:link,a:visited{
-        color: #A4FFA4
+	color: #A4FFA4;
 }
 
 span.title {
@@ -116,7 +120,7 @@ p {
 h3.subtitle {
 	margin: 0em;
 	font-weight: bold;
-        color:pink;
+	color:pink;
 }
 
 pre {
@@ -125,7 +129,7 @@ pre {
 	margin-left: 2em;
 	margin-right: 3em;
 	padding: 8px;
-        line-height: 1.3;
+	line-height: 1.3;
 }
 
 div.comment {
@@ -143,7 +147,7 @@ p.commenttitle {
 	border-style: solid;
 	border-color: #9BF9FF;
 	border-width: 0px 0px 1px 0px;
-        font-size: small;
+	font-size: small;
 }
 
 span.commentator {

@@ -1,6 +1,6 @@
 /*
 	Title: Hellali
-	Revision: $Revision: 1.4 $
+	Revision: $Revision: 1.5 $
 	Author: NT
 	Access: nt@24i.net
 	Comment: æ«Æ§Œ¿÷
@@ -75,9 +75,6 @@ h1 {
         border-left: 0em none;
 
         padding-right: 0.5em;
-        /*border-width: 0em 0em 0.1em 3em;
-        border-style: none none solid solid;
-        border-color: #9C9; */
 }
 
 div.calendar {
@@ -215,8 +212,6 @@ hr {
 
 hr.sep {
         display: none;
-/*        color: #ffffff;
-*/
 }
 
 div.footer {

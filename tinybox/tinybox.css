@@ -1,6 +1,6 @@
 /*
 Title: tinybox
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -380,4 +380,56 @@ div.list ul {
 
 p.theme {
 	font-size: small;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 100%;
+	color: #fff;
+	padding: 1px;
+	border-spacing: 1px;
+	margin: 0px auto;
+	border: solid 1px #ff0;
+}
+
+table.calendar td {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	color: #cc0;
+}
+
+table.calendar td.calendar-sunday {
+	color: #f00;
+}
+
+table.calendar td.calendar-weekday {
+	color: #ddd;
+}
+
+table.calendar td.calendar-saturday {
+	color: #004;
+}
+
+table.calendar td.calendar-day a{
+	border: solid 1px #f00;
+	display: block;
+	color: inherit;
+}
+
+table.calendar td.calendar-day a:hover{
+	border-color: #ff0;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	border-bottom: solid 1px #ff0;
+	text-align: center;
+	color: #030;
+}
+
+table.calendar td.calendar-prev-month a, table.calendar
+td.calendar-current-month a, table.calendar td.calendar-next-month a{
+	border-style: none ! important;
 }

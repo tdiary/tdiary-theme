@@ -8,5 +8,8 @@ Copyright by (C) abbey <inlet@cello.no-ip.org>
 validated by W3C
 
 Changelog
+2003-08-31 NT <nt@be.to>
+	* removed "em" specification of font-size.
+
 2002-09-13 NT <nt@24i.net>
         * convert for 1.5 series.

@@ -8,6 +8,9 @@ Copyright (C) 2001-2002 Kazuaki Saitoh <kazuaki@dream.com>
 validated by W3C.
 
 ChangeLog
+2003-08-31 NT <nt@be.to>
+	* removed specification of font-family and "em" specification of font-size.
+
 2002-10-05 NT <nt@24i.net>
         * change some properties in update form.
 

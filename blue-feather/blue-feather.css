@@ -1,16 +1,20 @@
 /*
 Title: bulu-feather
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: 
 
-	bulu-feather.css: Style Sheet of tDiary $Revision: 1.4 $
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.5 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
 /* ChangeLog
+2002-04-26 nga
+	div.day
+	margin-left: 5em; -> margin-left: 80px;
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* div.comment align left.
 */
@@ -94,7 +98,7 @@ p.calendar {
 
 div.day {
 	background-color: transparent;
-	margin-left: 5em;
+	margin-left: 80px;
 	margin-right: 1em;
 	border-style: ridge;
 	border-color: #818ccc;
@@ -376,5 +380,5 @@ td.calendar-day {
 }
 
 /*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.4 $
+	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.5 $
  */

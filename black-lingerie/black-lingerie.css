@@ -1,0 +1,301 @@
+/*
+	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.1 $
+	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
+	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
+ */
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #424242;
+	color: #c0c0c0;
+	background-image:url("black-lingerie_back1.gif");
+	background-repeat:repeat-y;
+	scrollbar-face-color: #424242;
+	scrollbar-highlight-color: #424242;
+	scrollbar-shadow-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #999999;
+	scrollbar-track-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+}
+A:link{color:#FFFFFF}
+A:visited{color:#990033}
+A:active{color:#9370DB}
+A:hover { color:#DDA0DD; }
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: #a9a9a9;
+	border-style: solid;
+	border-color: #eee #555 #555 #eee;
+	border-width: 2px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	background-color: #000;
+	background-image:url("black-lingerie_back2.gif");
+	border-style: none;
+	border-color: #000 #000 #000 #000;
+	border-width: 1px;
+	padding: 1%;
+	margin:1% 10% 1% 10%;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: #000;
+	border-style: none;
+	border-color: #000 #000 #000 #000;
+	border-width: 1px;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 10% 1% 10%;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+/*
+日付の設定
+*/
+span.date {
+	font-size: large;
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: #424242;
+	background-image:url("black-lingerie_back2.gif");
+	font-size: 100%;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	font-size: 1em;
+	margin: 0em;
+	font-weight: bold;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: 100%;
+	background-color: #424242;
+	background-image:url("black-lingerie_back2.gif");
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: dotted;
+	border-color: #aaa;
+	border-width: 0px 0px 2px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: dotted;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: #000000;
+	background-image:url("black-lingerie_back2.gif");
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: 80%;
+	background-color: #000000;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: dotted;
+	border-color: #aaa;
+	border-width: 0px 0px 2px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: none;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: 80%;
+	text-align: center;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: #000000;
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 0.5em 1em 0.5em 2em;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: #676767;
+	background-image:url("black-lingerie_back2.gif");
+	color:#c0c0c0;
+	font-size: 100%;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: #676767;
+	background-image:url("black-lingerie_back2.gif");
+	color:#c0c0c0;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: black;
+	color: #ff8000;
+	margin:1% 1% 1% 1%;
+	padding:1% 1% 1% 1%;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+

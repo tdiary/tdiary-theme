@@ -1,6 +1,6 @@
 /*
 Title: Rectangle
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -131,6 +131,7 @@ h3{
 }
 
 div.section{
+	width: 100%;
 }
 
 div.body {
@@ -198,6 +199,7 @@ div.comment {
 	margin-top: -3em;
 	background-color: #9e99ad;
 	color: #333;
+	width: 70%;
 }
 
 /*

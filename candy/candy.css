@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.5 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.6 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -48,7 +48,7 @@ p.message {
 	font-size: large;
 	font-weight: bold;
 	background-color: red;
-	color: white;
+	color: #fff;
 	padding: 8px;
 	margin: 0px;
 }
@@ -149,8 +149,11 @@ div.day span.canchor {
 }
 
 pre {
-	background-color: #8B0000;
-	color: white;
+	background-color: #ffee55;
+	color: black;
+	border-style: solid;
+	border-color: gold;
+	border-width: 1px 1px 1px 0.5em;
 	margin-left: 2em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
@@ -243,16 +246,19 @@ div.form {
 }
 
 input.field {
-	background-color: white;
-	color: #000000;
-	width: 9em;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 1px;
+	background-color: #fff;
 }
 
 textarea {
-	background-color: white;
-	color: #000000;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 1px;
+	background-color: #fff;
 	margin-left: 1em;
-	width: 90%;
+	width: 30em;
 }
 
 dl {
@@ -267,5 +273,75 @@ dt {
 dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/* amazon plugin */
+img.leftimg {
+	border-width: 1px;
+	border-color: darkred;
+	float: left;
+}
+
+img.rightimg {
+	border-width: 1px;
+	border-color: darkred;
+	float: right;
+}
+
+div.section {
+	clear: both;
+}
+
+/*
+ for Asumi Diary
+ */
+p.titlelist {
+	font-size: 8pt;
+	margin: 4px;
+	border-color: darkred;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	padding: 1px;
+}
+
+p.recentitem {
+	font-size: 8pt;
+	margin: 4px;
+	border-color: darkred;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	padding: 1px;
+}
+
+div.recentsubtitles {
+	font-size: 8pt;
+	margin: 4px;
+	padding: 1px;
+}
+
+div.main {
+	margin-left: 18%;
+}
+
+div.sidebar {
+	border-style: solid;
+	border-color: #8B000;
+	border-width: 0px 1px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 18%;
+	padding: 2px 2px 100% 2px;
+}
+
+div.sidebar p {
+	text-align: center;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: darkred;
+	font-size: x-small;
+	padding: 2px;
+	margin: 4px;
 }
 

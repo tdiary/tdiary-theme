@@ -1,0 +1,260 @@
+/*
+   Giza.css Style Sheet of tDiary $Revision: 1.1 $
+ */
+
+
+a:link {
+	text-decoration: none;
+	color: #fff;
+    font-weight: bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #fff;
+    font-weight: bold;
+}
+
+a:hover, a:focus,a:active {
+    text-decoration: underline;
+    
+}
+
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+}
+body {
+	background-color: #000;
+	color: #fff;
+	font-size: 13px;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: 13px;
+	
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: none;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: left;
+    margin-left:12%;
+}
+
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	margin-left:12%;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.day {
+	background-image: url(giza_day.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	border-style: none;
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+    font-size: 13px;
+}
+
+h2 {
+	margin-top: 3.5em;
+	margin-bottom: 0.1em;
+	padding-right:3.5em;
+	text-align: right;
+	font-size: 13px;
+	
+}
+
+span.date {
+	font-size: 16px;
+    padding-right:2em;
+    text-align: left;
+}
+span.date a:hover ,span.date a:focus {
+	color: gold;
+	text-decoration: underline overline;
+}
+    
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 1px;
+	padding-top: 2px;
+	padding-right: 30px;
+	margin-top: 12px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-hight: 1.5;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+div.body p a:link, div.body p a:visited {
+	background-image:url(giza_pre.png) ;
+	background-color: transparent;
+	color: black;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4;
+}
+
+h3.subtitle {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+pre {
+    width: 95%;
+	background-image:url(giza_pre.png) ;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+    border-color: #fff;
+	border-width: 1px;
+    border-style: solid;    
+}
+
+div.comment {
+    color: #EDA52F;
+	font-size: 13px;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+  	margin: 0em;
+	margin-right: 20px;
+	margin-left: 6px;
+	
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+p.commenttitle {
+	text-align: left;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+    
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+    padding: 0px;
+    margin-top: 3em;
+}
+
+p.referer {
+	text-align: right;
+	font-size: 13px;
+	background-color: transparent;
+	padding: 0px;
+	padding-bottom: 1px;
+    margin-left: 10px;
+    padding-top: 1.5em;
+}
+
+div.refererlist {
+	font-size: 13px;
+	text-align: left;
+	background-color: transparent;
+	padding: 0px;
+	padding-bottom: 1px;
+	
+	margin-top: 0.5em;
+	
+}
+span.title {
+    margin-left:25px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: 13px;
+	text-align: right;
+	height: 32px;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+    
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

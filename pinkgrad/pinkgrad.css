@@ -179,7 +179,6 @@ h3 {
 整形済みテキスト(preタグ)の設定
 */
 pre {
-     	background-image: url(pink_a.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	background-color: white;

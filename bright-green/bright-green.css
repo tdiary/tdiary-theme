@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Bright-green
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -95,7 +95,6 @@ div.day {
 	padding: 1.5em 0.5em 0.5em 0.5em;
 	background-color: #fff;
 	color: #555;
-	background-image: url(green_bottomline.png);
 	background-repeat: repeat-x;
 	background-position: bottom center;
 }

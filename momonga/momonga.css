@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -44,6 +44,16 @@ div.footer {
 	border-width: 2px;
 }
 
+h1 a:link, h1 a:visited {
+	color: #F1EDEC;
+	text-decoration: none;
+}
+
+h1 a:hover, h1 a:focus, h1 a:active {
+	color: #351A14;
+	text-decoration: none;
+}
+
 h2 a:link, h2 a:visited {
 	color: #D2C1B8;
 	text-decoration: none;
@@ -76,6 +86,14 @@ p.message {
 div.adminmenu {
 	text-align: right;
 	font-size: small;
+}
+
+div.adminmenu a:link, div.adminmenu a:visited {
+	color: #351A14;
+}
+
+div.adminmenu a:hover, div.adminmenu a:focus, div.adminmenu a:active {
+	color: #ED7332;
 }
 
 span.adminmenu {
@@ -389,4 +407,45 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+h2 span.nyear {
+	font-size: 80%;
+}
+/*
+サイドバー関連
+*/
+div.main {
+	margin-left: 21%;
+}
+
+div.sidebar {
+	background-color: #d2c1b8;
+	color: #745247;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	border-style: solid;
+	border-color: #ddd;
+	border-width: 0px 2px 2px 0px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	margin: 2px 4px 2px 4px;
+}
+
+div.sidebar a:link, div.sidebar a:visited {
+	color: #351A14;
+}
+
+div.sidebar a:hover, div.sidebar a:focus, div.sidebar a:active {
+	color: #ED7332;
 }

@@ -1,5 +1,5 @@
 <%
-	# themebench.rhtml: $Revision: 1.5 $
+	# themebench.rhtml: $Revision: 1.6 $
 
 	require 'cgi'
 	ERuby.charset = 'EUC-JP'
@@ -195,6 +195,16 @@
 			<!-- ツッコミ本文 -->
 			<p>ほげほげ</p>
 			<p>ほげほげ</p>
+
+			<!-- 個々のツッコんだ人の情報(span.canchorは省略されうる) -->
+			<div class="commentator">
+				<a name="c02" href="..."><span class="canchor">_</span></a>
+				<span class="commentator">fuga</span>
+				<span class="commenttime">(2002-05-16:09:99)</span>
+			</div>
+			<!-- ツッコミ本文 -->
+			<p>ブラウザで表示文字サイズを小さくしても、イメージアンカーが上のツッコミに重なりませんか。</p>
+			<p>フガフガ</p>
 		</div>
 	</div>
 
@@ -273,6 +283,9 @@
 			<p><a href="..."><span class="canchor">_</span></a>
 			<span class="commentator">hoge</span>
 			ツッコミは短く、愛をこめて。</p>
+			<p><a href="..."><span class="canchor">_</span></a>
+			<span class="commentator">fuga</span>
+			ブラウザで表示文字サイズを小さくしても、イメージアンカーが上のツッコミに重なりませんか。</p>
 		</div>
 	</div>
 

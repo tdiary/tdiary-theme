@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -493,7 +493,7 @@ div.section blockquote p {
 箇条書きの設定
 */
 div.section ul, div.section ol {
-	line-height: 1.1;
+	line-height: 1.3;
 	margin: 0em 3em 0em 3em;
 	padding: 0em 1em 0.2em 1em;
 }
@@ -507,7 +507,7 @@ div.section ul ul, div.section ol ol {
 項目リストの設定
 */
 div.section dl {
-	line-height: 1.1;
+	line-height: 1.3;
 	margin: 0em 1em 0em 1em;
 	padding: 0em 1em 0.2em 1em;
 }

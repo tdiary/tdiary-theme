@@ -1,6 +1,6 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -572,5 +572,20 @@ table,td{
 	text-align: left;
 }
 /* counter */
-div.counter p{font-size: 13px;
+div.counter p{
+	font-size: 13px;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+				    
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+    	margin-bottom: 1em;
+    	margin-left: 1em;
 }

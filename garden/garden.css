@@ -1,13 +1,17 @@
 /*
 Title: Garden
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: support calender2,recent_list
 
    Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc/
    validated by W3C.
 */
 /*ChangeLog
+2002-05-10 Nana
+        *support calender2,recent_list,etc.
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 */
@@ -42,15 +46,18 @@ p.adminmenu {
 }
 
 h1 {
-  text-align: left;
-  font-size: small;
+  text-align: center;
+  font-size: medium;
   color:#ffffdf;
 }
 
 p.calendar {
+  border-width: 0px 0px 3px 0px;
+  border-style: double;
+  border-color: #fff; 
   text-align: left;
   color:#ffffdf;
-  margin: 0px;
+  
 }
 
 div.day {
@@ -295,3 +302,94 @@ ul{
     line-height: 130%;
 }
 
+/* calendar2 */
+table.calendar {
+	text-align: center;
+	color: #ffffff;
+	background-color: transparent;
+	border-width: 3px;
+        border-style: double;
+        border-color: #fff;  
+	margin-bottom: 1em;
+        margin-left: 3em;
+        font-size: small;
+}
+
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: #fff;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: #fff;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #fff;
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+blockquote {
+	color: #000;
+	background-color: transparent;
+	padding: 0.5em 0.5em 0.5em 1em;
+        border-color: #ffffff;
+	border-style: double; 
+	border-width: 3px 0px 3px 0px;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}

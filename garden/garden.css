@@ -24,6 +24,7 @@ a:visited {
 a:hover {
   text-decoration: underline;
   background-color: #fff;
+  color: #000;
 }
 
 p.adminmenu {
@@ -103,7 +104,7 @@ h3.subtitle a{
 }
 
 h3.subtitle a:hover{
-  color:#ffffff;
+  text-decoration: underline;
 }
 
 div.section{
@@ -126,12 +127,12 @@ div.comment {
   margin-right: 1em;
   font-size: 0.8em;
   border-width: 1px;
-  border-style: none; 
-  border-color: #fff;
-  background-color:#ccffcc;
-  color:#000;
-  margin-left: 5%;
-  margin-right:5%;
+  Border-Style: None; 
+  Border-Color: #Fff;
+  Background-Color:#Ccffcc;
+  Color:#000;
+  Margin-Left: 5%;
+  Margin-Right:5%;
   margin-bottom: 2em;
   padding: 0.3em;
 }

@@ -1,6 +1,6 @@
 /*
 Title: tinybox
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -168,6 +168,7 @@ p.referertitle {
 	border-style: solid;
 	border-color: #aaa;
 	border-width: 0px 0px 1px 0px;
+	margin-top: 0em;
 }
 
 p.referer {
@@ -184,7 +185,6 @@ div.refererlist {
 	background-color: #00f;
 	margin: 0em ! important;
 	padding: 0em;
-	border: solid 1px #00f ;
 }
 
 ul.referer {

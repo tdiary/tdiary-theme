@@ -1,6 +1,6 @@
 /*
 Title: 黒蜥蜴
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: abbey
 Access: inlet@cello.no-ip.org
 License: GPL
@@ -99,25 +99,37 @@ div.body h3 {
 	padding: 4px;
 }
 
-div.day span.panchor {
-/*	background-image: url(clover_anchor.png);
+
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.sanchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+/*
+div.day span.sanchor {
+	background-image: url(default_sanchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	padding: 16px 16px 0px 0px;
 	color: #fff;
 	background-color: transparent;
 	font-size: 1px;
-*/}
+}
 
 div.day span.canchor {
-/*	background-image: url(clover_anchor2.png);
+	background-image: url(default_canchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	padding: 16px 16px 0px 0px;
-	color: #cfd;
+	color: #fff;
 	background-color: transparent;
 	font-size: 1px;
-*/}
+}
+*/
 
 div.body p {
 	margin-top: 0px;
@@ -134,7 +146,6 @@ div.body pre {
 	border-style: solid;
 	border-width: 1px 1px 1px 6px;
 	border-color: #9370db;
-	/*overflow: auto;*/
 	padding: 8px;
 	margin-left: 2em;
 }
@@ -188,27 +199,30 @@ div.comment {
 	font-size: small;
 }
 
-div.form div.comment {
-	margin-right: 1em;
-	color: #000;
-	background-color: #dcf;
-}
-
 div.comment p {
 	margin-top: 0px;
 	margin-bottom: 0.5em;
 }
 
-div.comment p.commenttitle {
+div.comment div.caption {
 	border-style: dashed;
 	border-color: #808;
 	border-width: 0px 0px 1px 0px;
+	margin-bottom: 0.5em;
 }
 
-div.comment span.commentator, div.commentator {
+div.commentator {
 	border-style: solid;
 	border-color: #9370db;
 	border-width: 0px 0px 1px 0px;
+	display: inline;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+	margin: 0.5em;
 }
 
 div.form {
@@ -242,7 +256,7 @@ div.form textarea {
 	margin-left: 2em;
 }
 
-p.referer, div.referer {
+div.referer {
 	text-align: right;
 	font-size: x-small;
 	margin-top: 0px;
@@ -260,14 +274,8 @@ div.refererlist {
 	font-size: small;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-left: 2em;
-}
-
-div.form div.refererlist {
-	margin-right: 1em;
-	color: #000;
-	background-color: #fff;
 }
 
 div.refererlist p, div.refererlist ul {
@@ -375,4 +383,76 @@ img.right {
 
 div.section {
 	clear: both;
+}
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 1px;
+	color: #000;
+	background-color: #dcf;
+	padding: 0px 4px 4px 4px;
+}
+
+div.day.update div.form {
+	border-style: none;
+}
+
+form.update {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+form.update input, form.update textarea, form.commentstat input {
+	background-color: #eef;
+	color: #000;
+}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+form.update div.field.title input {
+	margin-left: 0.5em;
+}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+}
+form.update textarea {
+	display: block;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	width: 35em;
+	height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+
+div.day.update div.refererlist {
+	margin-right: 1em;
+	color: #000;
+	background-color: #fff;
+}
+
+div.day.update div.comment {
+	margin-right: 1em;
+	color: #000;
+	background-color: #dcf;
 }

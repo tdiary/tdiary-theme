@@ -3,27 +3,36 @@
         
         Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
+/*CangLog
+2002-03-03 nga <stakei@nga.jp>
+	color: orenge -> #FFA500
+	font-family :osaka, Arial,"MS UI Gothic"; -> font-family :osaka, Arial,"MS UI Gothic",sans-serif;
+*/
 
 body {
     text-align : center;
-    font-family :osaka, Arial,"MS UI Gothic";
+    font-family :osaka, Arial,"MS UI Gothic",sans-serif;
     font-size: small;
     background-image: url(check.jpg);
+    background-color: #FFFFFF;
     color: #800040;
     
 }
 
 a:link {
      text-decoration: none;
-     color: orange;
+     background-color:transparent;
+     color: #FFA500;
      font-weight:bold;
 }
 a:visited {
      text-decoration: none;
-     color: orange;
+     background-color:transparent;
+     color: #FFA500;
 }
 a:hover,a:active {
      text-decoration: none;
+     background-color:transparent;
      color: #E9D1CD;
 }
 
@@ -36,12 +45,12 @@ p.message {
      text-align: center;
      font-size: small;
      background-color: red;
+     background-color:transparent;
      color: white;
      padding: 8px;
 }
 
 span.adminmenu {
-     background-color: transparent;
      padding: 3px;
      font-size: small;
 }
@@ -55,6 +64,7 @@ p.calendar {
      font-size: small;
      font-weight: bold;
      background-color: #E2D8F0;
+     color: #800040;
      text-align: center;
      padding: 2px;
      border-style: dashed;
@@ -64,6 +74,7 @@ p.calendar {
 
 div.day {
      background-color: #fff;
+     color: #800040;
      margin: 3em auto 3em auto;
      text-align: right;
      clear: both;
@@ -100,12 +111,13 @@ span.title {
 }
 
 div.body {
+     background-color: #FFF; 
      font-size: small;
      margin: 0px auto 0px auto;
      padding-top: 0.5em;
      padding-bottom: 0.5em;
      text-align: left;
-     color: ##00007F;
+     color: #00007F;
 }
 
 p.body {
@@ -156,7 +168,7 @@ span.anchor {
 pre {
      border-style: none;
      font-size: small;
-Å@Å@ background-color: #fff;
+     background-color: #FFF;
      color: #005AC9; 
      border-color: #fcc;
      margin-left: 1em;
@@ -179,6 +191,7 @@ p.commenttitle {
      text-align: right;
      position: relative;
      font-size: small;
+     background-color: #FFF;
      color: #800040;
      display: inline;
      margin-bottom: 0px;
@@ -190,6 +203,7 @@ span.commentator {
      padding-top: 0px;
      margin-top: 0px;
      display: block;
+     background-color: #FFF;
      color: #800040;
      clear: both;
 }
@@ -197,6 +211,7 @@ span.commentator {
 p.comment {
      font-size: small;
      text-align: left;
+     background-color: #FFF;
      color: #800040;
      padding: 0px 0px 0px 0px;
      margin-left: 24px;
@@ -222,6 +237,7 @@ p.referertitle {
 p.referer {
      display: inline;
      text-align: right;
+     background-color: #FFF;
      color: #999;
      position: relative;	
      font-size: small;	
@@ -266,6 +282,7 @@ p.footer {
 
 div.form {
      background-color: #FEE4F8;
+     color: #800040;
      padding: 0.5em 1em 0.5em 1em;
      margin-bottom: 0.5em;
      border-style: none;
@@ -281,20 +298,21 @@ form {
      margin-bottom: 0.5em;
 }
 
-input.field {   
+input.field {
+     background-color: #FFF;
      color: #00007F;
      border-color: #E9D1CD;
      border-style: solid;	
 }
 
-input, select, option {	
-      color: #800040;
+input, select, option {
       border-color: #E9D1CD;
       border-style: solid;	
       clear: both;
 }
 
 textarea {
+     background-color: #FFF;
       color: #800040;
       border-color: #E9D1CD;
       border-style: solid;

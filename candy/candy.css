@@ -1,10 +1,16 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.1 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.2 $
 	created by TADA Tadashi <sho@spc.gr.jp>
+	validated by W3C.
  */
+*/ CangeLog
+2002-03-02 nga <stakei@nga.jp>
+	* DarkRed -> #8B0000
+ /*
 
 a:link, a:visited {
-	color: darkred;
+	background-color:transparent; 
+	color: #8B0000;
 	text-decoration: none;
 	border-style: none;
 	border-width: 1px;
@@ -16,7 +22,7 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: darkred;
+	color: #8B0000;
 	background-color: #F0E68C;
 	border-style: none;
 	border-width: 1px;
@@ -56,6 +62,7 @@ h1 {
 }
 
 p.calendar {
+	background-color:transparent; 
 	background-image: url(candy_calendar.png);
 	background-repeat: no-repeat;
 	margin-top: 0px;
@@ -92,6 +99,7 @@ span.date {
 }
 
 span.title {
+	background-color:transparent; 
 	color: black;
 	margin-right: 1em;
 }
@@ -116,7 +124,7 @@ h3.subtitle {
 }
 
 pre {
-	background-color: darkred;
+	background-color: #8B0000;
 	color: white;
 	margin-left: 2em;
 	margin-right: 1em;
@@ -136,13 +144,13 @@ div.comment {
 
 p.commenttitle {
 	border-style: solid;
-	border-color: darkred;
+	border-color: #8B0000;
 	border-width: 0px 0px 1px 0px;
 }
 
 span.commentator {
 	border-style: solid;
-	border-color: darkred;
+	border-color: #8B0000;
 	border-width: 0px 0px 1px 0px;
 	padding: 3px;
 }
@@ -152,6 +160,7 @@ p.referertitle {
 
 p.referer {
 	background-color: white;
+	color: #000000;
 	text-align: right;
 	font-size: small;
 	padding: 2px;
@@ -162,6 +171,7 @@ p.referer {
 
 div.refererlist {
 	background-color: white;
+	color: #000000;
 	font-size: small;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -192,6 +202,7 @@ p.footer {
 
 div.form {
 	background-color: white;
+	color: #000000;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-left: 3em;
 	margin-right: 1em;
@@ -200,11 +211,13 @@ div.form {
 
 input.field {
 	background-color: white;
+	color: #000000;
 	width: 9em;
 }
 
 textarea {
 	background-color: white;
+	color: #000000;
 	margin-left: 1em;
 	width: 90%;
 }

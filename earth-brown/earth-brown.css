@@ -1,0 +1,385 @@
+/*
+Title: Earth-Brown
+Revision: 
+Author: Nana
+License: GPL
+Comment: アースからー茶
+
+Copyright (C) 2002 Nana http://mikan.sakura.ne.jp/~mpc
+
+validated by W3C
+*/
+
+body {
+  background-color: #fffff0;
+  color: #a59c6b;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ff8c00;
+  background-color: transparent;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background-color: #ff8c00;
+}
+
+p.adminmenu {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+span.adminmenu{
+  padding: 2px;
+}
+span.adminmenu a:link,a:visited{
+  color: #ff8c00;
+  background-color: transparent;
+}
+
+h1 {
+  
+  text-align: center;
+  font-size: 1.2em;
+  color:#a59c6b;
+  background-color: transparent;
+}
+
+p.calendar {
+  text-align: right;
+  color: #a59c6b;
+  border-width: 0px 0px 5px 0px;
+  border-style: solid; 
+  background-color:#fffff0;
+  border-color:#a59c6b;
+  margin: 0px 10% 2px 10%;
+  font-size: 1em;
+  padding: 2px 2px 0px 2px;
+}
+
+div.day {
+  background-color: #ded6bd;
+  color: #a59c6b;
+  text-align: left;
+  margin-bottom: 3em;
+  font-size: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-width: 5px 0px 5px 0px;
+  border-style: solid;
+}
+
+h2 {
+  border-width: 0px 0px 5px 0px;
+  border-style: solid; 
+  font-size: medium;
+  font-weight: bold;
+  background-color: #fffff0;
+  margin-top: 3px;
+  color: #a59c6b;
+}
+
+span.date a:hover, a:active {
+  text-decoration: underline;
+  color: #fff;
+  background-color: #ff8c00;
+}
+
+span.date{
+  margin-left: 2em;
+}
+
+span.title {
+  font-size: medium;
+}
+
+div.body {
+  margin-left: 5%;
+  margin-right: 5%;
+  color : #556b2f;
+  background-color : transparent;
+}
+div.section p{
+  margin-left: 1em;
+  line-height: 130%;
+}
+
+h3.subtitle {
+  background-color: #a59c6b;
+  font-size: medium;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-align: left;
+  padding: 2px;
+}
+h3.subtitle a:link{
+  color: #fffff0;
+  background-color: transparent;
+  text-decoration: underline;
+  
+}
+h3.subtitle a:visited{
+  color: #ffffff;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+h3.subtitle a:hover{
+  color:#fff;
+  background-color: #ff8c00;
+}
+
+pre {
+  color: #556B2F;
+  padding: 5px;
+  border: 2px solid #a59c6b;
+  background-color:#fffff0;
+}
+
+div.comment {
+  color: #8B4513;
+  text-align: left;
+  font-size: 0.9em;
+  background-color:#ded6bd;
+  margin-bottom: 1em;
+  margin-left: 3em;
+ /* border-width: 3px 0px 0px 0px;
+  border-color: #fffff0;
+  border-style: solid;*/
+}
+
+/*div.comment a:link{
+  color: #fff;
+}
+div.comment a:hover{
+  color: #ff0000;
+  background-color: #fff;
+}
+div.comment a:visited{
+  color: #ff0000;
+  background-color: transparent;
+}*/
+
+p.commenttitle {
+  text-align: right;
+  color:#ffffff;
+  font-size: 0.9em;
+  background-color: transparent;
+  margin-left: 3em;
+  padding-right: 3em;
+}
+
+span.commentator {
+  color: #880000;
+  background-color: transparent;
+  font-weight: bold;
+  border-width: 0px 0px 2px 0px;
+  border-color: #fffff0;
+  border-style: solid;
+}
+
+p.referertitle {
+  text-align: right;
+  color: #ffffff;
+  background-color: transparent;
+  margin-left: 10%;
+  font-size: 0.9em;
+}
+
+p.referer {
+  margin-left: 10%;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+div.refererlist {
+  text-align: right;
+  color:#a59c6b;
+  font-size: 0.9em;
+  margin-right: auto;
+  background-color: transparent;
+  border-width: 3px 0px 0px 0px;
+  border-color: #fffff0;
+  border-style: solid;
+}
+
+hr {
+}
+
+hr.sep {
+  display: none;
+}
+
+p.footer {
+  font-size: small;
+  text-align: right;
+}
+
+div.form {
+  margin-left: 2em;
+}
+
+div.form textarea {
+  color: #000000;
+  background-color: #ffffff;
+  margin-left:2em;
+}
+
+p.strong {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color:#ff8c00;
+  background-color: transparent;
+}
+
+div.rank {
+  font-size: 0.8em;
+  color: #a59c6b;
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 0px;
+  background-color: #fffff0;
+  /*border-color: #ded6bd;
+  border-width: 2px 0px 1px 0px;
+  border-style: solid;*/
+} 
+
+span.memo {
+  color:#000;
+  font-weight: bold;
+  background-color: #00BFFF;
+} 
+       
+a img {
+  border-width: 0px;	
+}
+
+div.body blockquote p {
+	margin-left: 0em;
+}
+
+div.body li {
+	margin-left: 2em;
+        color: #8B4513;
+}
+
+div.body dl {
+	margin-left: 2em;
+        color: #8B4513;
+}
+
+div.body dt {
+	border-style: solid;
+	border-color: #eee;
+	border-width: 0px 0px 1px 0px;
+	margin-top: 0.7em;
+}
+
+div.body dd {
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+}
+/*
+脚注番号
+*/
+span.footnote ,span.footnote a{
+        font-size:xx-small;
+        color:#DC143C;
+        background-color: transparent;
+}
+/*
+脚注本文全体
+*/
+div.footnote {
+       border-color:#ffffff;
+       border-style:solid;
+       border-width: 2px 0px 0px 0px;
+       padding: 3px;
+       font-size:x-small;
+       text-align: left;
+       margin-left: 24px;
+       margin-right: 16px;
+       background-color: transparent;
+}
+
+div.footnote a{
+       color:#DC143C;
+       background-color: transparent;
+}
+/*
+それぞれの脚注本文
+*/
+span.footnote{
+       vertical-align: super;
+       color:#DC143C;
+       font-size:x-small;
+}
+/*
+スミ消しプラグイン用
+*/
+.hide{
+       background-color:#fff;
+}
+
+/* calendar2 */
+table.calendar {
+        background-color: #ded6bd;
+	font-size: 0.8em;
+	border-style: solid solid solid solid;
+        border-width: 5px 1px 1px 1px;
+        border-color: #a59c6b #a59c6b #a59c6b #a59c6b;
+	color: #ffffff;
+	padding: 1px;
+	margin: 2px auto;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+        padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+blockquote {
+        background-image: url(earth-brown_bq.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+        background-color: #fffff0;
+        color: #8B4513;
+        border-style: solid solid solid solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #8B4513;
+        padding: 3px 3px 3px 2em;
+        font-style: italic;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}

@@ -1,0 +1,507 @@
+/*
+	cards.css: Cards Style Sheet of tDiary
+	Copyright(C) NT <http://246ra.ath.cx/~takasi/index.html>
+	validated by W3C.
+	Title: Cards
+	Rivision: $Revision: 1.1 $ 
+	Author: NT
+	Access: nt@24i.net
+	License: GPL
+	Comment: メッセージカードを並べたようなテーマ 
+*/
+
+/*
+link の設定
+*/
+a:link, a:visited {
+        color: #339;
+  	text-decoration: none;
+        border-style: none;
+        border-width: 1px;
+}
+
+a:active {
+        text-decoration: none;
+        border-width:2px;
+}
+
+a:hover, a:focus {
+        color: #fff;
+        background-color: #f90;
+        border-style: none;
+        border-width: 1px;
+}
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #fff;
+        background-image: url(cards_back.png);
+        background-attachment: scroll;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: #ddd;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	color: black;
+	background-color: #fff;
+	border-style: ridge;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 2px;
+	padding: 3px;
+	margin-left: 1px;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: #ddd;
+        background-image: url(cards_back2.png);
+	border-style: ridge;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 2px;
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+/*
+日付の設定
+*/
+span.date {
+	font-size: large;
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: #333;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+/*
+section の設定
+*/
+div.section {
+	background: #fbfbff;
+        background-image: url(cards_back3.png);
+	margin-left: -1em;
+	margin-right: 0.5em;
+	margin-top: -1.5em;
+	margin-bottom: 1.7em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 150%;
+}
+
+/*
+引用部の設定
+*/
+blockquote {
+	line-height: 150%;
+}
+
+/*
+セクションアンカーの設定
+*/
+div.day span.panchor {
+	font-size: 1px;
+	color: #ffffff;
+	background-image: url(cards_p.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 24px 25px 0px 0px;
+}
+
+h3 a:hover, h3 a:focus {
+        color: #f90;
+        background-color: #fbfbff;
+        border-style: none;
+        border-width: 1px;
+}
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: small;
+	background-color: #fbfbff;
+        background-image: url(cards_back4.png);
+	padding: 10px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+ツッコミアンカーの設定
+*/
+div.day span.canchor {
+	font-size: 1px;
+	color: #fbfbff;
+	background-image: url(cards_c.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 10px 11px 0px 0px;
+}
+
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: #fbfbff;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: small;
+	background-color: #fbfbff;
+        background-image: url(cards_back4.png);
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: #fbfbff;
+        background-image: url(cards_back4.png);
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 1.7em;
+	margin-right: 1.7em;
+	border-width: thin;
+	border-style: ridge;
+	border-color: #ddd;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: black;
+	color: #0f3;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	overflow: auto;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+縦書き用の設定
+div.section {
+	direction: ltr;
+	writing-mode: tb-rl;
+	overflow: auto;
+	margin: 0em;
+	clear: both;
+}
+*/
+
+/*
+自分の日記向け
+*/
+p.calendar-drop {
+        text-align: left;
+}
+
+p.jobun {
+        color: black;
+        padding: 2px;
+}
+
+div.serch {
+        text-align: right;
+}
+
+td.calendar-current-month {
+        text-align: center;
+}
+
+p.validcss {
+        text-align: right;
+}
+
+/*
+calendar2.rb用
+*/
+
+/*
+全体の外枠の色を変えるときはborder-color:を変更する
+ */
+table.calendar {
+	text-align: center;
+	color: #000000;
+	background-color: #eee;
+	border-style: solid;
+	border-color: #818ccc;
+	border-width: 1px;
+	margin-bottom: 1em;
+	padding: 2px;
+}
+
+td.calendar-current-month {
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: 1em;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: 1em;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: 1em;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: 1em;
+	text-align: right;
+}
+
+/*
+前文の段組の設定
+*/
+div.head-calendar {
+      float: left;
+      width: 20%;
+      }
+
+div.head-jobun {
+      float: left;
+      width: 80%;
+      }
+
+div.clear {
+      clear: left;
+      }
+

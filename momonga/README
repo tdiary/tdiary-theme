@@ -17,6 +17,11 @@ colors:
    #F1EDEC almost white (background color of momo_bg.png)
 
 ChangeLog
+2003-05-21 zunda <zunda at freeshell.org>
+	* follow default.css
+	* sidebar enabled
+	* colors brushed up
+
 2002-11-02 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 

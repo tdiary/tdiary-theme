@@ -1,0 +1,322 @@
+/*
+	fluxbox.css: FluxBox Style Sheet 
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+ */
+a:link {
+	text-decoration: none;
+	color: #faa;
+}
+a:visited {
+	text-decoration: none;
+	color: #d82;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #00c;
+}
+
+body {
+	background-color: #6c857a;
+	background-position: center;
+	color: black;
+	margin: 1em;
+}
+
+strong {
+        font-weight: bold;
+	font-size: 2em;
+}
+font.keyword {
+        font-weight: bold;
+	font-size: 2em;
+	color: red;
+}
+
+em {
+        font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: white;
+	width: 66%;
+	color: #f00;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+img.logo {
+	border-style: solid;
+	border-color: #0ff;
+	border-width: 2px;
+	float: left;
+}	 
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+	float: right;
+}
+
+div.rank {
+	background-color: transparent;
+	border-style: none;
+	border-color: black;
+	border-width: 1px;
+	font-size: 0.6em;
+	text-align: left;
+	margin: 0em;
+}
+p.sentence {
+	background-color: transparent;
+	border-style: none;
+	margin: 0em;
+	font-size: 0.6em;
+}
+
+div.day {
+	background-color: white;
+	background-image: url(fluxbox_back.png);
+	color: black;
+	text-align: left;
+	padding: 0em;
+	margin: 1em;
+	margin-top: 0.5em;
+	border-style: solid;
+	border-color: #030;
+	border-width: 0px 0px 4px 0px;
+	clear: both;
+}
+
+div.day a{
+	color: #44f;
+}
+
+div.day a:hover, a:focus {
+	color: #c30;
+}
+
+div.day h2 {
+	background-image: url(fluxbox_backh2.png);
+	background-repeat: repeat-x;
+	margin: 0em;
+	padding: 0em;
+	padding-top: 4px;
+	height: 24px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+div.day h2 span.date {
+	background-image: url(fluxbox_backdate.png);
+	background-color: #6a7;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0em;
+	font-size: 10px;
+	float: left;
+	position: relative;
+	left: -18px;
+	top: -4px;
+	width: 16px;
+	border-style: solid;
+	border-color: #254;
+	border-width: 1px;
+}
+
+span.title {
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	margin: 0em;
+	padding: 1em;
+}
+
+div.section {
+	background-color: transparent;
+	text-align: left;
+	padding: 0em;
+	margin: 0em;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-height: 1.5em;
+	margin-top:0.7em;
+	margin-left :1em;
+	margin-bottom:0.5em;
+}
+
+h3.subtitle {
+	padding: 0em;
+	padding-left: 0em;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+}
+
+div.body a.anchor{
+	background-image: url(fluxbox_anchorback.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+pre {
+     	background-image: url(fluxbox_backpre.png);
+	background-position: left top;
+	background-repeat: repeat;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 20px;
+}
+
+div.comment {
+	background-color: transparent;
+	text-align: left;
+	margin: 0em;
+	line-height: 1.4em;
+	padding: 1em;
+	padding-left: 3em;
+}
+
+div.comment a.anchor{
+	background-image: url(fluxbox_smallanchorback.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+p.commenttitle a.anchor {
+	background-image: none ! important;
+}
+
+p.commenttitle {
+	text-align: left;
+	margin: 0em;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #04c;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: transparent;
+	text-align: right;
+	font-size: small;
+	padding: 0em ! important;
+	margin: 0em;
+	padding-right: 16px;
+	height: 16px;
+}
+
+div.refererlist {
+	background-color: transparent;
+	font-size: small;
+	text-align: left;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 32px;
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 2em;
+	margin: 0em;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+form.search {
+	clear: right;
+	text-align: right;
+	float: right;
+	margin: 0em;
+}
+

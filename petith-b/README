@@ -6,7 +6,14 @@ License: GPL
 
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
+
 ChangeLog
+2002-11-03 Nana <mpc@mikan.sakura.ne.jp>
+	* CRLF to LF
+	* remove body,div.day font-size:13px
+	* div.refererlist font-size:13px -> small
+	* set div.body blockquote calendar2,recent_list,footnote,form.search
+
 2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

@@ -1,6 +1,6 @@
 /*
 Title: シルバー
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -8,7 +8,7 @@ Comment: グレー基調の落ち着いたテーマ／縦横のストライプがアクセント
 */
 
 /*
-	silver.css: Style Sheet of tDiary $Revision: 1.5 $
+	silver.css: Style Sheet of tDiary $Revision: 1.6 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
@@ -371,3 +371,12 @@ strong{
 	background-color: #444466;
 }
 
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-top: 0em;
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
+}

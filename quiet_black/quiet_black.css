@@ -1,6 +1,6 @@
 /*
 Title: Quiet_black
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -8,7 +8,7 @@ Comment: 黒バック独特の嫌味を消すように配慮したテーマ
 */
 
 /*
-	quiet_black.css: Style Sheet of tDiary $Revision: 1.5 $
+	quiet_black.css: Style Sheet of tDiary $Revision: 1.6 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 */
 
@@ -358,4 +358,14 @@ strong{
 */
 .hide{
 	background-color: #dddddd;
+}
+
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-top: 0em;
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
 }

@@ -1,5 +1,5 @@
 Title: Aoikuruma
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -10,3 +10,7 @@ validated by W3C.
 
 Memo 	ヘッダ、フッダに文章を入れる場合は<div class="rank"><p>ここに文字文字文字</p></div>
 	などとしてもらえると背景が白、左右の枠が青になり日記と違和感無く綺麗にレイアウトされます。
+
+ChangeLog 
+	2003-03-25 Nana <clorets@estyle.ne.jp>
+	* support sidebar.

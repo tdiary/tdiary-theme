@@ -1,6 +1,6 @@
 /*
 Title: Aoikuruma
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -545,17 +545,16 @@ div.sidebar {
 	left: 0px;
 	width: 20%;
 	padding: 2px 2px 100% 2px;
-	border-style: solid;
-	border-color: #fff;
-	border-width: 0px 2px 2px 0px;
-	padding-top: 0.5em;
+	color: #808000;
+	background-color: #fff;
+	border-right: 8px solid #004080;
 }
 
 div.sidebar p {
 	line-height: 120%;
 	text-align: center;
 	border-style: solid;
-	border-color: #fff;
+	border-color: #004080;
 	border-width: 0px 0px 1px 0px;
 	margin: 2px 4px 2px 4px;
 }

@@ -1,13 +1,16 @@
 Title: XXX
 Author: Nana
-Access: http://moo.boo.jp
+Access: http://orange.sakura.ne.jp/~mpc/d/
 License: GPL
 Comment: X'mas¤Ã¤Ý¤¯
 
-	Copyright 2002 (C) by Nana <moo@xu.boo.jp>
+	Copyright 2002 (C) by Nana
         Validated by W3C
 
 ChangeLog
+2003-03-14 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: em -> %.
+
 2002-12-01 Nana <>
 	* add XXX Theme.
 

@@ -1,12 +1,12 @@
 /*
 Title: Moo
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: clorets@estyle.ne.jp
 Comment: 牛柄
 License: GPL
 
-Copyright by (C) Nana http://moo.boo.jp
+Copyright 2002 by (C) by Nana clorets@estyle.ne.jp
 validated by W3C
 */
 /* Changelog
@@ -49,7 +49,7 @@ body {
         background-image: url(moo.gif);
 	background-color: #000;
 	color: #804040;
-        font-size: small;
+        /*font-size: small;*/
         margin-left: 0em;
         margin-right: 0em;    
 }
@@ -95,16 +95,15 @@ span.calendar {
 
 div.day {
         background-color: #000;
-	border-style: none;
-	text-align: right;
+	text-align: left;
         color: #fff;
 	padding: 0.5em;
 	padding-bottom: 0em;
 	padding-top: 0em;
-	margin: 0em;
+	margin-bottom: 2em;
         border-style: solid;
 	border-color: #fff;
-	border-width: 3px 3px 0px 3px;
+	border-width: 3px 3px 3px 3px;
 	margin-right: 10%;
 	margin-left: 10%;
 }
@@ -115,10 +114,11 @@ h2 {
 	margin-right: 12px;
 	padding: 0em;
 	text-align: right;
+	font-size: 120%;
 }
 
 h2 span.date {
-	font-size: small;
+	font-size: 100%;
 	margin-left: 0.5em;
 }
 
@@ -145,7 +145,7 @@ div.body {
 	text-align: left;
 	padding: 0.1em;
 	margin-left: auto;
-        font-size: 1em;
+        /*font-size: 1em;*/
 }
 
 div.section p {
@@ -158,7 +158,7 @@ h3 {
 	margin: 0.5em;
 	padding: 0em;
 	font-weight: bold;
-	font-size: small;
+	font-size: 120%;
         margin-bottom: 0.3em;
 }
 
@@ -171,7 +171,7 @@ pre {
 }
 
 div.comment {
-	font-size: small;
+	font-size: 90%;
 	text-align: left;
 	background-color: transparent;
 	padding: 2px;
@@ -189,7 +189,7 @@ div.comment p {
 }
 
 div.comment div.caption {
-	text-align: right;
+	text-align: left;
 }
 
 
@@ -197,11 +197,12 @@ div.refererlist div.caption {
 	border-style: solid;
 	border-color: #aaa;
 	border-width: 0px 0px 1px 0px;
+	font-size: 90%;
 }
 
 div.referer {
-	text-align: right;
-	font-size: small;
+	text-align: left;
+	font-size: 90%;
 	color: #fff;
 	background-color: transparent;
 	padding: 2px;
@@ -210,7 +211,7 @@ div.referer {
 }
 
 div.defererlist {
-	font-size: small;
+	font-size: 90%;
 	text-align: left;
 	background-color: transparent;
 	padding: 2px;
@@ -235,13 +236,13 @@ hr.sep {
 }
 
 div.footer {
-	font-size: small;
+	font-size: 90%;
 	text-align: right;
         color: #804040;
 }
 
 div.form {
-	background-color: transparent;
+	background-color: #000;
 	padding: 0.5em 1em 0.5em 1em;
 	color: #fff;
 	margin-bottom: 0.5em;
@@ -251,7 +252,7 @@ div.form {
 }
 
 div.form form {
-	width: 80%;
+	/*width: 80%;*/
 }
 
 input.field, texterea {
@@ -294,7 +295,7 @@ p.strong {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -312,7 +313,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -336,16 +337,16 @@ div.commentbody p {
 フォームの設定
 */
 div.form form {
-        margin: 0em 0em 0em 2em;
+        margin: 0em 0em 0em 1em;
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {
@@ -366,7 +367,7 @@ form.comment textarea {
         display: block;
         background-color: white;
         color: #000;
-        margin: 1ex 0px 1ex auto;
+        /*margin: 1ex 0px 1ex auto;*/
         width: 30em;
         height: 5em;
 }
@@ -380,7 +381,7 @@ div.button {
 更新フォーム
 */
 div.update.day {
-	background-color: transparent;
+	background-color: #000;
 	padding: 0.5em 1em 0.5em 1em;
 	color: #fff;
 	margin-bottom: 0.5em;
@@ -425,7 +426,7 @@ form.update div.textarea {
 
 form.update textarea {
         display: block;
-        margin-left: 3em;
+        /*margin-left: 1em;*/
         margin-bottom: 1em;
         width: 35em;
         height: 15em;
@@ -440,4 +441,140 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+	background-color: #000;	
+	color: #555;
+	text-align: center;
+	border: 3px solid #fff;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	background-color: #fff;
+	color: #555;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+div.section, div.comment {
+	clear: both;
+}
+
+/*
+サイドバー関連
+*/
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	margin: 2px 4px 2px 4px;
+	
+}
+/*
+引用(blockquoteタグ)の設定
+*/
+div.body blockquote {
+	padding: 5px;
+	font-style: italic;
+}
+
+div.body blockquote p {
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-right: 1.5em;
+        margin-top: 0px;
+	text-align: right;
+	font-size:90%;
+        line-height: 24px;
+        font-style: italic;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
 }

@@ -1,13 +1,17 @@
 Title: Moo
 Author: Nana
-Access: http://moo.boo.jp
+Access: clorets@estyle.ne.jp
 Comment: ตํสม
 License: GPL
 
-Copyright by (C) Nana http://moo.boo.jp
+Copyright 2002 by (C) by Nana clorets@estyle.ne.jp
 validated by W3C
 
 Changelog
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* font-size adjustment.
+	* set footnote,recent-list,calendar2,3 sidebar,blockquote
+
 2002-10-21 NT <nt@24i.net>
         * adjust the position of textarea.
 

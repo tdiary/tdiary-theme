@@ -1,36 +1,15 @@
 /*
 Title: Check
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment:support calendar2
         Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
-/*ChangeLog
-2002-09-14 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-04-29 Nana
-        * support calendar2,blockquote,
-        * fixed pre color&background-color.
-
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-	* div.comment align left.
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-
-2002-03-03 nga <stakei@nga.jp>
-	color: orenge -> #FFA500
-	font-family :osaka, Arial,"MS UI Gothic"; -> font-family :osaka, Arial,"MS UI Gothic",sans-serif;
-	validated by W3C.
-*/
 
 body {
 	text-align : center;
 	font-family :osaka, Arial,"MS UI Gothic",sans-serif;
-	font-size: small;
 	background-image: url(check.jpg);
 	background-color: #FFFFFF;
 	color: #800040;
@@ -74,7 +53,6 @@ span.adminmenu {
 
 h1 {
 	text-align: left;
-	font-size: small;
 }
 
 div.calendar {
@@ -82,7 +60,7 @@ div.calendar {
 	font-weight: bold;
 	background-color: #E2D8F0;
 	color: #800040;
-	text-align: center;
+	text-align: left;
 	padding: 2px;
 	border-style: dashed;
 	border-color: #E9D1CD;
@@ -128,25 +106,14 @@ h2 span.title {
 
 div.body {
 	background-color: #FFF; 
-	font-size: small;
-	margin: 0px auto 0px auto;
+       	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	text-align: left;
 	color: #00007F;
 }
 
-p.body {
-	font-size: small;
-	margin-top: 0em;
-	margin-bottom: 0em;
-	line-height: 1.2;
-	padding-left: 1em;
-	padding-top:0em;
-}
-
 div.section p {
-	font-size: small;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;

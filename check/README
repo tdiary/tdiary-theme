@@ -6,6 +6,11 @@ Comment:support calendar2
 Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 
 ChangeLog
+2002-11-03 Nana <mpc@mikan.sakura.ne.jp>
+	* remove body,div.body,h1,h3, font-size:small
+	* remove p.body
+	* div.calendar text-align:center -> left
+	
 2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 

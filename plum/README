@@ -11,8 +11,12 @@ validated by W3C
 calendar2, recent_list, footnote プラグイン対応
 
 --Change Log---
+2003-03-10 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: em -> %.
+
 2003-02-25 epi
-		* 日ごとのタイトル表示まわりを修正
+	* 日ごとのタイトル表示まわりを修正
+
 2003-02-24 epi
-        * add plum theme
+	* add plum theme
 

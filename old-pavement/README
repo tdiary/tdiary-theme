@@ -1,0 +1,34 @@
+Title: Old-pavement
+Revision: $Revision: 1.1 $
+Author: NOB 
+Access: nob@ivyvalley.net
+License: GPL
+Comment: 色あせた古い舗装の様なテーマ
+
+Validated by w3c.
+
+
+サイドバー対応(専用？)
+calendar2 recent_item footnote todo プラグイン対応。
+
+このフォルダには
+old-pavement.css	theme本体です
+old-pavement_back.png	サイドバー用の背景画像
+old-pavement_quote.png	blockquoteで使っている画像
+README			このファイル
+が入っています。
+
+あっちこっちパクリの集合体なので著作権は主張しませんが、
+不具合などには対処します。
+自分が使うのに作ったもので、サイドバー用に出来ています。
+サイドーバー無しで使ってもサイドバーがあるような表示に
+なってしまいます。どうしても気になる人は次の設定を試み
+てください。
+
+1.プラグイン選択でappend_css.rbを有効にします。
+2.設定画面のCSSの追加にて
+	body { background-image:none; margin-left:25px; }
+	div.main { margin-left:170px; }
+	以上の2行を加えます。
+
+これでサイドバーのない殺風景な(笑)表示に変わるはずです。

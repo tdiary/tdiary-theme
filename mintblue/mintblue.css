@@ -1,6 +1,6 @@
 /*
         Title: Mintblue
-        Revision: $Revision: 1.2 $
+        Revision: $Revision: 1.3 $
         Author: epi
         Access: <http://episode2.tdiary.net/>
         License: GPL
@@ -10,14 +10,20 @@
         
         Modified by Nana 2002-04-29
         validated by W3C
-*/
 
+---Change Log---
+ 2002-05-10 Nana
+        * body remove max-width: 60em;min-width: 20em;
+        * div.day margin: 0 2em 2em 2em;
+        * h3 font-size:small -> medium
+*/
+        
 /*
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-	max-width: 60em;
-	min-width: 20em;
+      /*max-width: 60em;*/
+      /*min-width: 20em;*/
         color: #483D8B;
 	background-color:#FFFAFA;
 	font-family: Osaka, "MS Gothic", Verdana, sans-serif;
@@ -81,7 +87,7 @@ p.calendar {
 1日の日記全体を囲む枠の設定
 */
 div.day {
-       margin-bottom: 2em;
+       margin: 0 2em 2em 2em;
 }
 
 /*
@@ -150,7 +156,7 @@ h3.subtitle {
 	color: #4682B4;
 	font-style: normal; 
 	font-weight: normal;
-	font-size: small;
+	font-size: medium;
 }
 div.day span.panchor {
 	font-weight: bold;

@@ -1,6 +1,6 @@
 /*
 Title: Sakana
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 1.5·Ï
@@ -449,8 +449,7 @@ span.big {
 	text-align: left;
 	background-color: #fff;
 	position: absolute;
-	border: dotted 1px #boc4de;
-	padding: 0 1ex 0 1ex;
+ 	padding: 0 1ex 0 1ex;
 }
 
 .calendar-day a{
@@ -468,3 +467,5 @@ span.big {
 .calendar-weekday {
 	color: #999999;
 }
+.calendar-todo {
+	border: 1px solid white;}

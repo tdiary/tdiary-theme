@@ -9,4 +9,5 @@ Comment: 涼しげな魚のイメージ
 Changelog
 	2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
        	* delete no need lines
-	       
+	* add .calendar-todo {border : 1px solid white;}
+	

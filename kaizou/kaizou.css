@@ -1,0 +1,264 @@
+body {
+	background-color: #E30000;
+	color: #fff;
+	font-family :osaka, Arial,"MS UI Gothic";
+    font-size: small;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FF8040;
+	font-weight: bold;
+}
+a:visited {
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+	
+}
+a:hover,a:active {
+	text-decoration: underline;
+	color: red;
+    font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: small;
+	background-color: red;
+	color: white;
+	margin: 0px;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+    
+    color:#000;
+	font-size: small;
+	background-color: #FFFF00;
+	padding: 2px;
+    border-style: solid;
+	border-color: #FFFF00;
+	border-width: 1px;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+div.day {
+	margin-bottom: 0.5em;
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-family :osaka, Arial,"MS UI Gothic";
+}
+span.date {
+    font-weight: bold;
+	font-size: medium;
+	margin-left:10px;
+}
+span.date a:link, span.date a:visited {
+	color: #FFFF00;
+	text-decoration: none;
+}
+
+span.date a:hover ,span.date a:focus {
+	color: #fff;
+	text-decoration: underline overline;
+}
+
+span.title {
+}
+
+div.body {
+	background-color: #000;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 0px;
+	margin-right: 6px;
+	width: 50%;
+	float: left;
+	border-style: none; 
+	border-color: #fff darkgray darkgray darkgray; 
+	border-width: 1px;
+	padding: 4px;
+    font-size: small;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+	width: 80%;
+}
+
+pre {
+	background-color: #ff0;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+    background-color: #fff;
+	font-size: small;
+	color: #000;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-right: 0px;
+	margin-left: 50%;
+}
+p.commenttitle {
+	margin-left: 0em;
+	color: #E30000;
+    border-style: solid;
+	border-color: #000;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: #000;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+	color: #E30000;
+}
+
+p.referertitle {
+	width: 100px;
+	margin-left: 4em;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 4em;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 30%;
+	margin-right: 12px;
+	width: 400px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+	background-color: #transparent;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	width:80%;
+}
+
+input.field {
+	background-color: transparent;
+	color: #fff;
+	border-color: #00f;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, select, option {
+	background-color: transparent;
+	border-color: #00f;
+	color: #fff;
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	background-color: transparent;
+	margin-left: 1em;
+	color: #fff;
+	border-color: #00f;
+	border-style: solid;
+	border-width: 1px;
+    width:80%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+Å@Å@font-family:"Comic Sans MS","ÇlÇr UI ÉSÉVÉbÉN";
+    color: #ff0;
+}

@@ -3,7 +3,7 @@
 	Copyright(C) NT <http://246ra.ath.cx/~takasi/index.html>
 	validated by W3C.
 	Title: Windowz
-	Rivision: $Revision: 1.5 $ 
+	Rivision: $Revision: 1.6 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -366,7 +366,7 @@ pre {
 	margin-left: 2em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
-	overflow: scroll;
+/*	overflow: scroll;*/
 }
 
 /*

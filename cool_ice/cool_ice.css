@@ -1,6 +1,6 @@
 /*
 Title: クールアイス
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -122,7 +122,7 @@ div.body pre {
 	border-style: solid;
 	border-width: 1px 1px 1px 3px;
 	border-color: #89dbff;
-	overflow: auto;
+/*	overflow: auto; */
 	padding: 8px;
 	margin-left: 2em;
 }

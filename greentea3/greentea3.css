@@ -1,6 +1,6 @@
 /*
 Title: GreenTea3
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: NT
 
   使用上の注意
@@ -12,6 +12,9 @@ Author: NT
         265 行目の height の数値をいじるとスクロールする部分の高さが変化します。 Written by NT
 */
 /* ChangeLog
+2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
+	* fix overflow problem (scroll -> none).
+
 2002-05-07 NT <nt@24i.net>
 	* fix overflow problem.
 
@@ -282,7 +285,7 @@ div.all {
 	writing-mode: tb-rl;
 	height: 75%;
 	width: 100%;
-	overflow: scroll;
+/*	overflow: scroll; */
 	margin: 0em;
 	clear: both;
 	background-color: #fff;

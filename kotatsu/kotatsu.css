@@ -1,6 +1,6 @@
 /*
 Title: こたつ
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,9 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
 */
 /* ChangeLog
+2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove overflow.
+
 2002-04-04 TADA Tadashi <sho@spc.gr.jp>
 	* created.
 */
@@ -87,7 +90,7 @@ div.body pre {
 	border-style: solid;
 	border-width: 1px 1px 1px 3px;
 	border-color: #000;
-	overflow: auto;
+/*	overflow: auto; */
 	padding: 8px;
 	margin-left: 2em;
 	font-weight: normal;

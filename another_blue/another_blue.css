@@ -1,6 +1,6 @@
 /*
 Title: another_blue
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: kazuaki
 License: GPL
 Comment: 
@@ -340,7 +340,7 @@ pre {
 	margin-left: 2em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
-	overflow: auto;
+/*	overflow: auto; */
 }
 
 /*

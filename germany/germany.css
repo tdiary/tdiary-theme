@@ -1,25 +1,12 @@
 /*
 Title: Germany
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
 
   Copyright (C) Nana http://moo.boo.jp
   validated by W3C.
-*/
-/* ChangeLog
-2002-09-21 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-
-2002-03-15 TADA Tadashi <sho@spc.gr.jp>
-	* support image anchor as span.panchor and span.canchor.
 */
 
 body {
@@ -47,7 +34,7 @@ a:hover {
 
 div.adminmenu {
 	text-align: right;
-	font-size:0.8em;
+	font-size:90%;
 	margin:0px;
 }
 
@@ -67,7 +54,7 @@ span.logo {
 form.search {
 	clear: right;
 	text-align: right;
-	float: right;
+	/*float: right;*/
 	margin: 0em;
 }
 
@@ -78,14 +65,7 @@ div.calendar {
 }
 
 div.day {
-	border-style: none;
-	border-width: 1px;
-	border-color: #ff0000;
-	margin-right: 0em;
-	margin-left: 0em;
-	margin-bottom:0em;
-	margin-top:0em;
-	font-size:100%;
+	margin: 0px;
 }
 
 div.day a {
@@ -120,14 +100,6 @@ div.body {
 	margin-top:10px;
 }
 
-div.body a.anchor{
-	background-image: url(germany_anchor.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-	font-size: 1em;
-	text-decoration: none;
-}
-
 div.body span.sanchor {
 	background-image: url(germany_anchor.png);
 	background-position: right bottom;
@@ -150,10 +122,6 @@ h3 {
 	text-align: left;  
 }
 
-h3 {
-	color:#66B3FF;
-}
-
 pre {
 	margin-left: 0em;
 	padding: 0.5em;
@@ -161,21 +129,13 @@ pre {
 }
 
 div.comment {
-	font-size:0.8em;
+	font-size: 90%;
 	text-align: left;
 	background-color: transparent;
 	color: #000;
 	margin-left: 8%;
 	margin-right:8%;
 	padding:0.5em;
-}
-
-div.comment a.anchor{
-	background-image: url(germany_comment_anchor.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-	font-size: 1em;
-	text-decoration: none;
 }
 
 div.comment span.canchor {
@@ -190,7 +150,7 @@ div.comment span.canchor {
 
 div.comment div.caption {
 	text-align: right;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.comment div.caption {
@@ -201,19 +161,19 @@ div.refererlist div.caption {
 	text-align: right;
 	color:#000;
 	margin-left:10%;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.referer {
 	margin-left:10%;
 	margin-bottom:1em;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.refererlist {
 	text-align: right;
 	color:#000;
-	font-size:0.8em;
+	font-size:90%;
 	padding:1px;
 }
 
@@ -225,7 +185,7 @@ hr.sep {
 }
 
 div.footer {
-	font-size: 0.8em;
+	font-size: 90%;
 	text-align: right;
 }
 
@@ -265,12 +225,12 @@ div.rank{
 	margin-left: 2em;
 	margin-bottom: 1em;
 	padding-bottom:0.5em;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 span.rank a a:visited{
 	color:#bb0000;
-	font-size:0.8em;
+	font-size:90%;
 }
  
 span.memo {
@@ -418,4 +378,129 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+div.section, div.comment {
+	clear: both;
+}
+
+/*
+サイドバー関連
+*/
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	margin: 2px 4px 2px 4px;
+	
+}
+
+div.body blockquote {
+	border: inset 3px #ddd;
+	padding: 5px;
+	margin-left: 3em;
+}
+
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-right: 1.5em;
+        margin-top: 0px;
+	text-align: right;
+	font-size:90%;
+        line-height: 24px;
+        font-style: italic;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: red;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: blue;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: black;
+	background-color: transparent;
 }

@@ -1,11 +1,16 @@
 Title: Germany
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
-Copyright (C) Nana http://moo.boo.jp
+Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 ChangeLog
+2003-03-05 Nana <clorets@estyle.ne.jp>
+	* remove some duplicate lines.
+	* font-size:0.8em -> 90%
+	* set blockquote,recent-list,sidebar,calendar2,3,footnote
+
 2002-11-02 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 

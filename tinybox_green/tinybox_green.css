@@ -1,0 +1,390 @@
+/*
+Title: tinyboxÎÐ
+Revision: $Revision: 1.1 $
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: ÎÐ¾®ÊýÂÎ
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+ */
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #f00;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #ff0;
+}
+
+body {
+	background-color: #030;
+	color: #fff;
+	margin: 1em;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: white;
+	width: 66%;
+	color: #f00;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #ff0 #cc0 #cc0 #ff0;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	margin: 0em;
+	padding: 0em;
+	line-height: 1.0em;
+}
+
+div.day {
+	background-color: #040;
+	background-image: url(tinybox_green_day.png);
+	background-repeat: repeat-y;
+	color: #0f0;
+	text-align: left;
+	font-size: small ! important;
+	padding: 0em;
+	margin: 1em;
+	width: 354px;
+	clear: left;
+}
+
+h2 {
+	background-image: url(tinybox_green_h2.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin: 0em;
+	padding: 70px 0px 0px 4px;
+	font-size: small;
+}
+
+span.date {
+}
+
+div.body {
+	text-align: left;
+	margin: 0em;
+	padding: 0em;
+}
+
+div.section {
+	background-color: transparent;
+	text-align: left;
+	padding: 0em;
+	margin: 0em;
+        padding-right: 80px;
+	padding-left: 8px;
+}
+
+div.day span.panchor {
+	background-image: url(tinybox_green_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #030;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.section p {
+	line-height: 1.5em;
+	margin-top:0.7em;
+	margin-bottom:0.5em;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4em;
+}
+
+h3.subtitle {
+	padding: 0em;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+}
+
+pre {
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	border-color: #ff0;
+	border-width: 1px;
+}
+
+div.comment {
+	background-image: url(tinybox_green_comment.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: transparent;
+	text-align: left;
+	padding: 0px 80px 70px 8px;
+	margin: 0em;
+}
+
+div.day span.canchor {
+	background-image: url(tinybox_green_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 8px 8px 0px 0px;
+	color: #030;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+p.commenttitle {
+	text-align: left;
+}
+
+span.commentator {
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: #030;
+	text-align: left;
+	font-size: small;
+	padding: 2px 0px 0px 8px;
+	margin: 0px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: #030;
+	margin: 0em ! important;
+	padding-left: 8px;
+	padding-right: 80px;
+	border: solid 1px #030;
+}
+
+ul.referer {
+	margin: 0em;
+	padding-left: 8px;
+}
+
+ul.referer li {
+	margin: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	background-color: #030;
+	padding: 1em 0em;
+	margin: 0em;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	line-height: 1.0em;
+	padding: 0em;
+	font-size: 1.0em;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+	font-size: small;
+}
+
+dl {
+	margin-left: 1em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+form.search {
+	clear: right;
+	text-align: center;
+	margin: 0em;
+}
+
+strong {
+        font-weight: bold;
+	font-size: 2em;
+}
+
+span.keyword {
+        font-weight: bold;
+	font-size: 2em;
+	color: red;
+}
+
+em {
+        font-weight: bold;
+}
+
+p.search {
+	margin-left: auto;
+	text-align: center;
+}
+
+form.search {
+	text-align: center;
+	margin: 0em;
+}
+
+/* ²èÁüplugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+/* sidebar */
+
+div.leftsidebar {
+	width: 18%;
+	float: right;
+	margin: 0em 8px 0em 0em;
+	padding: 0em;
+	margin-left: 2%;
+}
+
+div.leftsidebar p{
+	margin: 0em;
+}
+
+div.rightsidebar {
+	width: 18%;
+	float: right;
+	padding: 0em ! important;
+}
+
+div.rightsidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #030;
+	border: solid 1px #0f0;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0em;
+}
+
+div.list p {
+	background-color: #080;
+	margin: 0em;
+	text-align: center;
+}
+
+form.search {
+	text-align: center;
+}
+
+div.calendar {
+	background-color: #030;
+	font-size: small;
+	text-align: left;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	border: solid 1px #0f0;
+}
+
+div.calendar p.year {
+	margin: 0em;
+	text-align: center;
+	background-color: #080;
+}
+
+div.calendar a:hover {
+	display: block;
+	border-style: solid;
+	border-width:  1px;
+	border-color:  #ff0 #880 #880 #ff0;
+}
+
+div.calendar a {
+	margin: 0em;
+	text-align: center;
+	display: block;
+	border: none 1px #0f0;
+}
+
+div.list ul {
+	padding-left: 1.2em;
+	margin: 0em;
+	list-style: circle;
+}

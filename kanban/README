@@ -1,13 +1,13 @@
 Title: 看板
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 Comment: 日付が看板に描かれているように見えます
 
-Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+Copyright by (C) Nana http://moo.boo.jp
 validated by W3C
 
 ChangeLog
-2002-11-02 Nana <mpc@mikan.sakura.ne.jp>
+2002-11-02 Nana <moo@xu.boo.jp>
 	* remove body,div.body font-size:13px 
 	* remove p.calendar font-size,font-family
 	* set blockquote,recent_list,calendar2,footnote

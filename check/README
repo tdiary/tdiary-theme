@@ -1,12 +1,12 @@
 Title: Check
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 Comment:support calendar2
 
 Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 
 ChangeLog
-2002-11-03 Nana <mpc@mikan.sakura.ne.jp>
+2002-11-03 Nana <moo@xu.boo.jp>
 	* remove body,div.body,h1,h3, font-size:small
 	* remove p.body
 	* div.calendar text-align:center -> left

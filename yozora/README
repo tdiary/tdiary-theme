@@ -9,11 +9,11 @@ Comment: 夜空をイメージしたテーマ。背景画像はSarsya、cssはNanaが製作した共同テー
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
         
-        Modified by Nana <mpc@mikan.sakura.ne.jp>
+        Modified by Nana <moo@xu.boo.jp>
         背景画像はSarsya、cssはNanaが製作した共同テーマです。画像の加工は禁止させて頂きます。
 
 ChangeLog
-2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+2002-10-19 Nana <moo@xu.boo.jp>
 	* remove p.comment,scrollbar property is only for IE.
 	* div.calendar {text-align: center ->left}
 	* validated by W3C.

@@ -1,19 +1,19 @@
 Title: Snowy
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 License: GPL
 Comment: ゆきだるまん
 
-	Copyright 2002 (C) by Nana <mpc@mikan.sakura.ne.jp>
+	Copyright 2002 (C) by Nana <moo@xu.boo.jp>
         Validated by W3C
 
 ChangeLog
 2003-01-18 TADA Tadashi <sho@spc.gr.jp>
 	* remove background image in calendar2.
 	
-2003-01-12 Nana <mpc@mikan.sakura.ne.jp>
+2003-01-12 Nana <moo@xu.boo.jp>
 	* div.commntshort p margin-top:0.2em-> 12px;
 	
-2002-12-15 Nana <mpc@mikan.sakura.ne.jp>
+2002-12-15 Nana <moo@xu.boo.jp>
 	* add Snowy Theme.
 

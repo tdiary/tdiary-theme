@@ -1,11 +1,11 @@
 /*
 Title: HARU
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Comment: support calendar2
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 
-	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	Copyright by (C) Nana http://moo.boo.jp
 	validated by W3C
  */
 /* ChangeLog
@@ -15,7 +15,7 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 2002-09-24 NT <nt@24i.net>
         * convert for 1.5 series.
 
-2002-05-02 Nana <mpc@mikan.sakura.ne.jp>
+2002-05-02 Nana <moo@xu.boo.jp>
         * support calendar2
         * fix CRLF->LF
         * div day font-size: 1em; 

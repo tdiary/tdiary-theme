@@ -1,16 +1,16 @@
 Title: Sakana
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 Comment: 涼しげな魚のイメージ
 
-	Copyright(C)2002 Nana <mpc@mikan.sakura.ne.jp>
+	Copyright(C)2002 Nana <moo@xu.boo.jp>
 	validated by W3C.
 		 
 Changelog
 2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
 	* change span.panchor -> span.sanchor.
 
-2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+2002-10-19 Nana <moo@xu.boo.jp>
        	* delete no need lines
 	* add .calendar-todo {border : 1px solid white;}
 	

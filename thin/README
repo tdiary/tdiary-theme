@@ -1,11 +1,11 @@
 Title: Thin
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 License: GPL
 Comment: シンプルなだけ
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.3 $
-	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.4 $
+	Copyright by (C) Nana http://moo.boo.jp
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
         Validated by W3C
@@ -14,7 +14,7 @@ ChangeLog
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
 	* equalize indent size.
 
-2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+2002-10-19 Nana <moo@xu.boo.jp>
 	* remove div.rank 
 	* remove div.adminmenu {float: right,margin-left: 100px}
 	* add div.body blockquote {padding: 8px}

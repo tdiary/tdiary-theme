@@ -1,12 +1,12 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
-Access: http://mikan.sakura.ne.jp/~mpc/
+Access: http://moo.boo.jp
 License: GPL
 Comment: 冬っぽく
 
-Copyright 2002 (C) by Nana <mpc@mikan.sakura.ne.jp>
+Copyright 2002 (C) by Nana <moo@xu.boo.jp>
 validated by W3C.
 */
 
@@ -15,5 +15,5 @@ Chagelog
 	  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
 	  と記入してください。
 
-2002-12-20 Nana <mpc@mikan.sakura.ne.jp>
+2002-12-20 Nana <moo@xu.boo.jp>
 	* add recent_list.

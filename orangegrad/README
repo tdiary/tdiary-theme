@@ -5,12 +5,12 @@ License: GPL
 Comment: オレンジなグラデーション
 
 	Orangegrad.css: Style Sheet of tDiary 
-	Copyright (C) 2002 by Nana <mpc@mikan.sakura.ne.jp>
+	Copyright (C) 2002 by Nana <moo@xu.boo.jp>
 	validated by W3C
 
 ChangeLog
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
 	* fix "div.body footnote" -> "div.body div.footnote"
 
-2002-10-24 Nana <mpc@mikan.sakura.ne.jp>
+2002-10-24 Nana <moo@xu.boo.jp>
 	* convert for 1.5 series.

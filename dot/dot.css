@@ -1,9 +1,14 @@
 /*
-	dot.css: Default Style Sheet of tDiary $Revision: 1.1 $
+	dot.css: Default Style Sheet of tDiary $Revision: 1.2 $
+	validated by W3C.
+ */
+/*CangeLog
+2002-03-04 nga <stakei@nga.jp>
+	DarkGreen -> #006400
  */
 
 a:link, a:visited {
-	color: DarkGreen;
+	color:#006400;
 	text-decoration: none;
 }
 
@@ -42,6 +47,7 @@ p.adminmenu {
 */
 span.adminmenu {
 	background-color: orange;
+	color: black;
 	border-style: none ridge none ridge;
 	border-color: #fc0 #f80 #f80 #fc0;
 	border-width: 20px;
@@ -60,6 +66,7 @@ h1 {
 */
 p.calendar {
 	background-color: #fc0;
+	color: black;
 	padding: 2px;
 	margin-bottom: 0.5em;
 }

@@ -1,6 +1,6 @@
 /*
 Title: クローバー
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,9 +10,6 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 validated by W3C.
 */
 /* ChangeLog
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add img.photo.
-
 2002-03-28 TADA Tadashi <sho@spc.gr.jp>
 	* image color down to 7bit.
 	* no underline for links.
@@ -404,8 +401,4 @@ div.sidebar p {
 	border-color: #3faf43;
 	border-width: 0px 0px 1px 0px;
 	margin: 2px 4px 2px 4px;
-}
-
-image.photo {
-	margin-left: 5em;
 }

@@ -1,6 +1,6 @@
 /*
 	Title: Windowz
-	Rivision: $Revision: 1.9 $ 
+	Rivision: $Revision: 1.10 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -196,13 +196,13 @@ div.section p {
 セクションアンカーの設定
 */
 div.day span.sanchor {
-   background-image: url(windowz_p.png);
-   background-position: bottom right;
-   background-repeat: no-repeat;
-   padding: 15px 18px 0px 0px;
-   color: #ffffff;
+	background-image: url(windowz_p.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 15px 18px 0px 0px;
+	color: #ffffff;
 	background-color: transparent;
-   font-size: 1px;
+	font-size: 1px;
 }
 
 /*
@@ -239,13 +239,13 @@ div.comment div.caption {
 ツッコミアンカーの設定
 */
 div.day span.canchor {
-   background-image: url(windowz_c.png);
-   background-position: bottom right;
-   background-repeat: no-repeat;
-   padding: 10px 11px 0px 0px;
-   color: #fbfbff;
+	background-image: url(windowz_c.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 11px 0px 0px;
+	color: #fbfbff;
 	background-color: transparent;
-   font-size: 1px;
+	font-size: 1px;
 }
 
 

@@ -3,7 +3,7 @@ Title: Thin
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.12 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.13 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
@@ -306,16 +306,16 @@ li {
 }
 
 p.strong{
-    font-size: 200%;
-    color: #000;
+	font-size: 200%;
+	color: #000;
 }
 .memo{
-    background-color: #6495ed;
-    color: #fff;
+	background-color: #6495ed;
+	color: #fff;
 }
 
 .hide{
-    background-color: #000;
+	background-color: #000;
 }
 
 div.footnote p.footnote{

@@ -4,13 +4,16 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
 Comment: シンプルなだけ
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.2 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
         Validated by W3C
 
 ChangeLog
+2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
+	* equalize indent size.
+
 2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
 	* remove div.rank 
 	* remove div.adminmenu {float: right,margin-left: 100px}

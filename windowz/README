@@ -7,6 +7,9 @@ Comment: 某 OS 風のテーマ
 validated by W3C.
 
 Changelog
+2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
+        * equalize indent size.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

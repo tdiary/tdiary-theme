@@ -6,6 +6,9 @@ License: GPL
   Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 
 ChangeLog
+2002-10-31 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* equalize indent size.
+
 2002-10-15 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

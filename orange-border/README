@@ -1,13 +1,19 @@
 Title: Orange-border
 Author: Nana
-Access: http://moo.boo.jp
+Access: clorets@estyle.ne.jp
 License: GPL
 Comment: 星の王子さま♪
 
-	Copyright by (C) Nana <http://moo.boo.jp>
+	Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 	validated by W3C.
 
-ChangeLog
+Change-Log
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* remove body font-size 
+	* set body margin-left 25%
+	* remove h1,div.day,div.calendar marfin-left:25%
+	* set calendar3
+
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 
@@ -16,3 +22,8 @@ ChangeLog
 
 2002-05-16 Nana
         * div.form margin-left:25% --> 0px
+
+Comment 
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* body内に文章を入れている方が多く
+	  画像に文字が被るのでbodyにマージンを取るように変更しました。

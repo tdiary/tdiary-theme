@@ -1,0 +1,30 @@
+Title: Petith
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: 小さなハートの枠がかわいいテーマ
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	validated by W3C
+
+Changelog 
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-05-24 Nana 
+        * a:hover, a:focus remove border-bottom:2pt double;
+          text-decoration:none->>underline
+         
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-3-20  by Nana
+	* remove font-family,font-size:13px>>>1em
+	* changed pre-style
+	* div.day margin-left,right:12%>>>10%    
+
+2002-3-21 by Nana
+	* validated by W3C >>> warned of is corrected. 

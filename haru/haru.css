@@ -1,6 +1,6 @@
 /*
 Title: HARU
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
 Comment: support calendar2
 Access: http://moo.boo.jp
@@ -19,7 +19,7 @@ License: GPL
 2002-05-02 Nana <moo@xu.boo.jp>
         * support calendar2
         * fix CRLF->LF
-        * div day font-size: 1em; 
+ font-size: 100%;
         * font-size 13px->0.9em
 
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
@@ -45,12 +45,11 @@ a:hover, a:focus{
 
 body {
 	background-color: #fff;
-	font-size: 1em;
+	font-size: 100%;
 	color: black;
 	margin: 0em 0.5em 1em 1em;
 	background-image: url(haru_3.png);
 	background-attachment: fixed;
-	font-family :osaka, Arial,"MS UI Gothic";
 }
 
 div.body p a{
@@ -59,11 +58,11 @@ div.body p a{
 
 div.adminmenu {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 span.adminmenu {
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: transparent;
 	border-style: solid;
 	border-color: #eee #aaa #aaa #eee;
@@ -76,7 +75,7 @@ h1 {
 }
 
 div.calendar {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: right;
 	border-style: none;
 	border-color: darkgray #eee #eee darkgray;
@@ -93,7 +92,7 @@ div.day {
 	padding-left: 0em;
 	margin-bottom: 0em;
 	margin-left: 0em;
-        font-size: 1em;
+        font-size: 100%;
 }
 
 h2 {
@@ -124,7 +123,7 @@ div.body {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -145,7 +144,7 @@ div.section p {
 }
 
 div.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -163,7 +162,7 @@ div.comment div.caption {
 
 div.referer {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 12px;
@@ -171,7 +170,7 @@ div.referer {
 }
 
 div.refererlist {
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -202,8 +201,7 @@ hr.sep {
 }
 
 div.footer {
-	font-family :osaka,Arial,sans-serif;
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: right;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -281,7 +279,7 @@ table.calendar {
 	border-width: 1px;
 	margin-bottom: 1em;
         margin-left: 3em;
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 td.calendar-current-month {
@@ -329,7 +327,7 @@ td.calendar-day {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -347,7 +345,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -378,7 +376,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #ffc0cb;
         border-width: 0px 0px 1px 0px;
@@ -386,7 +384,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -7,6 +7,10 @@ Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 validated by W3C
 
 ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-08 NT <nt@24i.net>
         * convert for 1.5 series.
 

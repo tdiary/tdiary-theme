@@ -1,6 +1,6 @@
 /*
 Title: ³Á
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: oyuu
 Access: oyuu@mocha.freemail.ne.jp
 License: GPL
@@ -35,7 +35,6 @@ body {
 	color: #886d00;
 	background-color: #ffffff;
 	margin: 0px;
-	font-family: "Book Antiqua", serif;
 }
 
 div.adminmenu {
@@ -288,7 +287,7 @@ strong {
 
 /* calendar2 */
 table.calendar {
-        font-size: 0.8em;
+        font-size: 80%;
         line-height: 100%;
         border-width: 2px;
         border-color: #ffdd77;
@@ -362,7 +361,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

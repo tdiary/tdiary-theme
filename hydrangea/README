@@ -10,6 +10,10 @@ Modified by Nana <moo@xu.boo.jp>
 validated by W3C.
 
 Changelog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-09-24 NT <nt@24i.net>
         * convert for 1.5 series.
 

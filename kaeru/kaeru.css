@@ -1,6 +1,6 @@
 /*
 Title: kaeru
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -15,7 +15,6 @@ validated by W3C.
 */
 body {
 	background: #FDFDF1 url(kaeru_bg.png) no-repeat fixed 0% 100%;
-	font-family: Arial,Helvetica,sans-serif;
 	margin: 1em 0px;
 	color: #A07C69;
 }
@@ -82,7 +81,6 @@ h1 {
 	color: #5c8533;
 	border-bottom:dotted 2px #C4D2B4;
 	letter-spacing: 0.2em;
-	font-family: "comic sans ms",Geneva,sans-serif;
 }
 
 /*
@@ -117,7 +115,6 @@ h2 {
 	background-image: url(kaeru_h2.png);
 	background-position: top left;
 	background-repeat: no-repeat;
-	font-family: "comic sans ms",Geneva,sans-serif;
 }
 
 /*

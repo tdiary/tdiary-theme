@@ -1,5 +1,5 @@
 Title: Kaeru
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -7,3 +7,8 @@ Comment: カエラー(梅雨時も楽しく)
 	
 	Copyright 2003(C)by Nana <clorets@estyle.ne.jp>
 	validated by W3C.
+
+Changelog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+

@@ -1,6 +1,6 @@
 /*
 Title: 改造
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -18,7 +18,6 @@ License: GPL
 body {
 	background-color: #E30000;
 	color: #fff;
-	font-family :osaka, Arial,"MS UI Gothic";
 	font-size: small;
 }
 
@@ -83,7 +82,6 @@ h2 {
 	text-align: center;
 	margin-top: 0.1em;
 	margin-bottom: 0.1em;
-	font-family :osaka, Arial,"MS UI Gothic";
 }
 h2 span.date {
 	font-weight: bold;
@@ -268,7 +266,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
 	color: #ff0;
 }
 
@@ -276,7 +273,7 @@ p.strong {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -294,7 +291,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -325,7 +322,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #000;
         border-width: 0px 0px 1px 0px;
@@ -333,7 +330,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

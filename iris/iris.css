@@ -1,6 +1,6 @@
 /*
 Title: Iris
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -57,7 +57,6 @@ h1 {
 	padding-top: 3%;
 	text-align: center;
 	font-size: 150%;
-	font-family: "Tempus Sans ITC", sans-serif;
 }
 
 div.calendar {
@@ -186,7 +185,6 @@ hr.sep {
 .sfooter {}
 
 div.footer {
-	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 85%;
 	margin-right: 2%;
 	margin-bottom: 3%;
@@ -290,7 +288,7 @@ strong {
 
 /* calendar2 */
 table.calendar {
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 2px;
         border-color: #800040;
@@ -320,7 +318,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -338,7 +336,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -366,12 +364,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

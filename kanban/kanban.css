@@ -1,6 +1,6 @@
 /*
 Title: 看板
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 Comment: 日付が看板に描かれているように見えます
@@ -24,7 +24,6 @@ a:hover, a:focus,a:active {
 }
 
 body {
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #fff;
 	color: #000;
 	margin-right: 0.2em;
@@ -90,7 +89,6 @@ h2 {
 
 h2 span.date {
 	font-size: 90%;
-	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 h2 span.date a:link, a:visited {
 	color: #f4a460;
@@ -208,7 +206,6 @@ div.footer {
 	font-size: 90%;
 	text-align: right;
 	height: 32px;
-	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 
 div.form {

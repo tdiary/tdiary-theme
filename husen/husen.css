@@ -1,6 +1,6 @@
 /*
 Title: husen
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: kosaka <kosaka@tnat.net>
 Access: http://ko.cot.jp/
 License: GPL
@@ -273,7 +273,7 @@ table.calendar {
 	border-width: 1px;
 	border-color: #4682b4;
 	margin-bottom: 1em;
-	font-size: 0.9em;
+	font-size: 90%;
 	line-height: 0.9em;
 }
 
@@ -315,19 +315,19 @@ td.calendar-day {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.8em;
+	font-size: 80%;
 }
 
 div.footnote {
 	margin-left: 20px;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 p.source{
 	margin-top: 0em;
 	margin-right: 1.5em;
 	text-align: right;
-	font-size:0.9em;
+	font-size:90%;
 }
 
 /*

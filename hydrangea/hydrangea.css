@@ -1,6 +1,6 @@
 /*
 Title: Hydrangea
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -54,11 +54,9 @@ h1 {
 	padding-top: 3%;
 	text-align: center;
 	font-size: 150%;
-	font-family: "Tempus Sans ITC", sans-serif;
 }
 
 div.calendar {
-	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 90%;
 	margin: 3% 5% 1% 5%;
 	padding-bottom: 1%;
@@ -103,7 +101,6 @@ h2 {
 
 h2 span.date {
 	font-size: 100%;
-	font-family: "Tempus Sans ITC", sans-serif;
 	font-style: normal;
 	margin-left: 0.5%;
 	margin-right: 1%
@@ -156,7 +153,6 @@ div.comment {
 
 div.comment div.caption {
 	font-size: 90%;
-	font-family: "Tempus Sans ITC", sans-serif;
 	padding-left: 1% ;
 	border-top: #8A7CD8 1px solid;
 	border-bottom: #8A7CD8 1px solid;
@@ -170,7 +166,6 @@ div.comment p {
 
 div.referer {
 	font-size: 85%;
-	font-family: "Tempus Sans ITC", sans-serif;
 	border-top: #8A7CD8 1px solid;
 	border-bottom: #8A7CD8 1px solid;
 	padding-top: 0.2%;
@@ -212,7 +207,6 @@ hr.sep { display: none }
 .sfooter {}
 
 div.footer {
-	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 85%;
 	margin-right: 3%;
 	padding-bottom: 3%;
@@ -331,7 +325,7 @@ strong {
 
 /* calendar2 */
 table.calendar {
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 1px;
         border-color: #8a7cd8;
@@ -381,7 +375,7 @@ div.day div.comment a:visited {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -399,7 +393,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -427,12 +421,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -1,5 +1,5 @@
 Title: Matcha
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -11,3 +11,6 @@ Comment: Àı√„§§§Ì
 ChangeLog
 	2003-04-05 Nana <clorets@estyle.ne.jp>
 	* Update.
+	
+	2003-04-06 Nana <clorets@estyle.ne.jp>
+	* remove form.search /* -- */

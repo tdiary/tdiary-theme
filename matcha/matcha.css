@@ -1,6 +1,6 @@
 /*
 Title: Matcha
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -601,10 +601,10 @@ p.source{
 form.search{
 	margin: 0px;
 	text-align: left;
-	/*margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 	width: 530px;
-	padding: 5px;*/     /*コミット時はコメントしない事*/
+	padding: 5px;
 }
 
 table.head{

@@ -1,0 +1,234 @@
+/*
+	double.css: Double Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
+ */
+div.rank {
+	font-size: 0.6em;
+	text-align: left;
+	margin: 0em;
+}
+
+a:link {
+	text-decoration: none;
+	color: #a00;
+}
+a:visited {
+	text-decoration: none;
+	color: #e44;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #008;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+}
+
+div.day {
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin: 0em;
+	margin-bottom: 2em;
+	border-style: double;
+	border-color: #6a2;
+	border-width: 8px;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+}
+
+span.date a {
+	color: #6a2;
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+}
+
+h3.subtitle {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+	border-style: double;
+	border-color: #e00;
+	border-width: 0px 0px 3px 0px;
+}
+
+div.section p {
+	line-height: 1.3em;
+	margin-left: 100px;
+}
+
+pre {
+	margin-left: 100px;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	border-style: double solid double solid;
+	border-color: #e00;
+	border-width: 3px 1px 3px 1px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.comment p{
+	margin-left: 100px;
+}
+
+p.commenttitle {
+	text-align: left;
+	margin-left: 0em ! important;
+	border-style: double;
+	border-color: #0e0;
+	border-width: 0px 0px 3px 0px;
+}
+
+span.commentator {
+	margin-left: -100px;
+	display: block;
+	font-weight: bold;
+	border-style: double;
+	border-color: #e00;
+	border-width: 0px 0px 3px 0px;
+}
+
+p.referertitle {
+	border-style: double;
+	border-color: #e00;
+	border-width: 0px 0px 3px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+}
+
+ul.referer {
+	margin-top: 0em;
+	margin-left: 100px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-left: 100px;
+}
+
+input.field {
+}
+
+input, select {
+        background-color: #fff;
+	border-style: double solid double solid;
+	border-color: #0e0;
+	border-width: 3px 1px 3px 1px;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: double solid double solid;
+	border-color: #0e0;
+	border-width: 3px 1px 3px 1px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+li {
+	list-style-type: none;
+}

@@ -1,6 +1,6 @@
 /*
 Title: ハート
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 背景にハートマークがちりばめられています
@@ -41,7 +41,7 @@ a:visited {
 }
 
 a:hover,a:active {
-	text-decoration: under-line;
+	text-decoration: underline;
 }
 
 p.adminmenu {
@@ -84,7 +84,7 @@ div.day {
 	font-size: 1em;
 	margin: 3em auto 3em auto;
 	clear: both;
-	/*width: 80%;*/
+	width: 80%;
 	border-style: solid;
 	border-color: #F879AA;
 	border-width: 3px;

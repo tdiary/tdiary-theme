@@ -1,0 +1,340 @@
+@charset "euc-jp";
+/*
+Title:redgrid
+Author:ナカガキ
+Access:http://d.hatena.ne.jp/calmzone/
+       http://park18.wakwak.com/~calmzone/
+License:GPL
+Comment:独自クラスのSPAN.spoilerを用意しました。<SPAN CLASS="spoiler"></SPAN>で文字を囲むと、文字と背景が同色になり、ネタばれ防止等に使えます。
+*/
+
+
+
+/*アンカー*/
+A{
+	text-decoration:none;
+}
+A:link{
+	color:#FFB4B4;
+	border-bottom:dashed silver 1px;
+}
+A:visited{
+	color:#DEDEFF;
+	border-bottom:dashed silver 1px;
+}
+A:hover{
+	color:white;
+	background-color:#5A5A5A;
+	border-style:none;
+}
+A.keyword{
+	color:#FFFFFF;
+}
+A.keyword:link{
+	border-bottom:solid #969696 1px;
+}
+A.keyword:visited{
+	border-bottom:solid #444444 1px;
+}
+A.keyword:hover{
+	background-color:transparent;
+	color:#FFE1C8;
+	border-bottom:none;
+}
+
+
+/*main*/
+BODY{
+	background-image:url("redgrid.gif");
+	background-color:#000000;
+	background-attachment:fixed;
+	font-family:"verdana",MS UI Gothic;
+	color:#F0F0F0;
+	padding:0;
+	margin:0;
+	word-break:break-all;
+}
+H1{
+	border:solid #990000;
+border-width:0 2px 2px 2px;
+	text-align:right;
+	margin:0 0 3em 0;
+	padding:0;
+	font-weight:normal;
+	font-size:160%;
+	color:#FFFFFF;
+}
+DIV.day{
+	background-color:#000040;
+	border:solid 2px #990000;
+	margin:5px 10% 2em 10%;
+	padding:5px 0 0 0;
+}
+H2{
+	border:solid 2px #990000;
+	margin:0 -8% 5px -8%;
+	padding:0;
+	font-weight:normal;
+	font-size:120%;
+	text-align:center;
+}
+H2 .date{
+}
+H2 SPAN.title{
+	margin:0 0 0 0.5em;
+}
+H2 A:link,H2 A:visited{
+border:none;
+	color:#FFFFFF;
+}
+DIV.body{
+}
+DIV.section{
+	border:solid 1px #990000;
+	background-color:#000000;
+	padding:5px 0 0 0;
+	margin:5px -15px 5px 15px;
+	line-height:120%;
+}
+H3{
+	border:solid 1px #990000;
+	margin:0 40px 0 -40px;
+	padding:2px;
+	font-weight:normal;
+	font-size:110%;
+}
+H3 .timestamp{
+	color:#FFFFFF;
+	font-weight:normal;
+	font-size:80%;
+}
+DIV.section P{
+	margin:1em;
+}
+DIV.body HR{
+	width:70%;
+	height:5px;
+}
+DIV.footnote{
+	border:solid 1px #990000;
+	margin:5px 35px 5px -35px;
+	font-size:90%;
+	padding:5px;
+	clear:right;
+}
+DIV.footnote P{
+	margin:0;
+}
+DIV.comment{
+	border:solid 1px #990000;
+	margin:5px -35px -5px 35px;
+	font-size:90%;
+	padding:5px;
+	font-size:90%;
+	clear:right;
+}
+DIV.comment DIV.caption{
+	text-align:right;
+}
+DIV.commentshort P{
+	margin:0.5em;
+}
+DIV.refererlist{
+	border:solid 1px #990000;
+	margin:10px 30px -10px -30px;
+	padding:5px;
+}
+DIV.calendar{
+	font-size:75%;
+}
+BLOCKQUOTE,PRE{
+	background-color:#000040;
+	border-right:solid 1px #990000;
+	border-bottom:solid 1px #990000;
+	color:#CCCCCC;
+	font-size:90%;
+	margin:1em 1.5em 1em 1.5em;
+	padding:5px;
+}
+BLOCKQUOTE CITE{
+	display:block;
+	text-align:right;
+	padding-right:5px;
+}
+UL,OL{
+}
+LI{
+}
+DL{
+	margin:1em 1.5em 1em 1.5em;
+}
+
+
+/*IMG関連*/
+IMG.photo{
+	float:right;
+	border:solid #990000;
+	border-width:0 1px 1px 0;
+	margin:3px -5px 3px 3px;
+	padding:4px;
+	background-color:#000040;
+}
+A:link IMG.asin{
+	border:solid #FFB4B4;
+	border-width:0 1px 1px 0;
+	padding:4px;
+	background-color:#000040;
+}
+A:visited IMG.asin{
+	border:solid #DEDEFF;
+	border-width:0 1px 1px 0;
+	padding:4px;
+	background-color:#000040;
+}
+
+
+/*インライン要素*/
+Q{
+	background-color:#000040;
+	border:dashed #990000 1px;
+}
+Q CITE,SPAN.footnote A{
+	font-style:normal;
+	font-size:80%;
+}
+STRONG{
+}
+.small{
+	font-size:80%;
+	font-weight:normal;
+}
+INS{
+	border-bottom:dotted #FFFFFF 1px;
+	text-decoration:none;
+	font-size:90%;
+}
+INS:before{
+	content:"(追記)";
+}
+DEL,DEL A.keyword,DEL A.keyword:link,DEL A.keyword:visited{
+	color:#708090;
+}
+.highlight {
+	font-weight:bold;
+	border:dashed #990000 2px;
+}
+SPAN.spoiler{
+	color:#FFFFFF;
+	background-color:#FFFFFF;
+	border-style:dashed;
+	border-color:#000000;
+	border-width:1px;
+}
+SPAN.spoiler A.keyword{
+	color:#FFFFFF;
+	background-color:#FFFFFF;
+}
+
+
+/*はてなモジュール関連*/
+/*photoモジュール*/
+UL.hatena_photo{
+	padding:0;
+	list-style-type:none;
+}
+UL.hatena_photo LI{
+	list-style-type:none;
+	display:inline;
+	border:none;
+}
+UL.hatena_photo A{
+	border-style:none;
+}
+UL.hatena_photo A:hover{
+	background-color:transparent;
+}
+UL.hatena_photo LI IMG{
+	border:solid #990000;
+	border-width:0 1px 1px 0;
+	margin:1px;
+	padding:4px;
+	background-color:#000040;
+}
+/*calendar2モジュール*/
+TABLE.calendar{
+	border:solid 1px #990000;
+	background-color:#000040;
+	padding:0;
+	font-size:10px;
+	margin:0;
+}
+TABLE.calendar TR{
+	padding:0;
+	margin:0;
+}
+TABLE.calendar TD{
+	border-right:solid 1px #990000;
+	border-bottom:solid 1px #990000;
+	margin:0;
+}
+TD.calendar-prev-month,TD.calendar-current-month,TD.calendar-next-month{
+	text-align:center;
+}
+TD.calendar-day{
+	text-align:left;
+	vertical-align:top;
+	padding:1px;
+	color:#BBBBBB;
+}
+TD.calendar-sunday{
+	color:red;
+}
+TD.calendar-saturday{
+	color:blue;
+}
+TABLE.calendar TD{
+	text-align:center;
+}
+TABLE.calendar A:link,TABLE.calendar A:visited{
+	border-style:none;
+}
+/*sectionモジュール等*/
+P.recentitem{
+	font-size:95%;
+	font-weight:bold;
+	margin:0;
+}
+DIV.recentsubtitles{
+	font-size:85%;
+}
+P.recentitem A:link,DIV.recentsubtitles A:link,P.recentitem A:visited,DIV.recentsubtitles A:visited{
+	border:none;
+}
+/*サイドバー*/
+DIV.main{
+	margin-right:20%;
+	padding:0;
+}
+DIV.sidebar{
+	position:absolute;
+	right:0;
+	top:150px;
+	width:20%;
+	margin:0;
+	padding:0;
+}
+
+
+/*その他*/
+FORM.hatena-searchform{
+}
+SPAN.hatena-counter{
+	font-weight:bold;
+}
+textarea{
+	width:85%;
+	height:30em;
+	margin-left:1em;
+	padding:0;
+}
+

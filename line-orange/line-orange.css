@@ -1,35 +1,41 @@
 /*
-	line2.css: Line Style Sheet of tDiary $Revision: 1.1 $
-	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
- */
+ 
+        Changelog 2000.3.14 by Nana
+        font-size:13px>>>font-size:1em
+        all font-famiry were deleted.
+        rename line2_bd.gif>>>line-orange_back.gif 
+        copyright rename zoe>>>Nana
+*/
 
 body {
-    text-align : center;
-    font-family :osaka, Arial,"MS UI Gothic";
-    margin: 0em 4em 0em 4em; 
+        text-align : center;
+        margin: 0em 4em 0em 4em; 
 	padding: 1em; 
 	border-style: none solid none solid;
 	border-color: transparent #FF8000 transparent #FF8000;
 	border-width: 30px;
-    font-size: 13px;
-	background-image: url(line2_bd.gif);
+        font-size: 1em;
+	background-image: url(line-orange_back.gif);
 	color: #FF8000;
-    
 }
 
 a:link {
-    text-decoration: none;
+        text-decoration: none;
 	color: #FF0080;
-    font-weight: bold;
+        font-weight: bold;
 }
+
 a:visited {
         text-decoration: none;
         color: #FF8000;
         font-weight: bold;
 }
+
 a:hover,a:active {
-	    text-decoration: none;
+        text-decoration: none;
         color: #000;
 }
 
@@ -42,14 +48,14 @@ p.message {
 	text-align: center;
 	font-size: 13px;
 	background-color: red;
-	color: white;
+	color: #fff;
 	padding: 8px;
 }
 
 span.adminmenu {
 	background-color: transparent;
 	padding: 3px;
-    font-size: 13px;
+        font-size: 1em;
 }
 
 h1 {
@@ -58,26 +64,26 @@ h1 {
 }
 
 p.calendar {
-	font-size: 13px;
-    font-weight: bold;
+	font-size: 1em;
+        font-weight: bold;
 	background-color: transparent;
 	text-align: left;
 	padding: 2px;
-    border-style: solid;
+        border-style: solid;
 	border-color: #FF8000;
 	border-width: 1px;
-    border-style: none;
+        border-style: none;
 }
 
 div.day {
-    -moz-opacity:0.5;
-    filter:Alpha(opacity=50);
-    font-size: 14px;
+        -moz-opacity:0.5;
+        filter:Alpha(opacity=50);
+        font-size: medium;
 	margin: 3em auto 3em auto;
 	text-align: right;
 	background-color: #fff;
 	width: 80%;
-    color:#000;
+        color:#000;
 	border-style: double;
 	border-color: #FF8000;
 	border-width: 4px;
@@ -89,44 +95,45 @@ h2 {
 	margin-bottom: 0em;
 	margin-left: auto;
 	margin-right: 0px;
-	font-size: 13px;
-    font-weight: bold;
+	font-size: 1em;
+        font-weight: bold;
 }
 
 span.date {
 	font-weight: bold;
 	position: relative;
-	font-size: 13px;
+	font-size: 1em;
 	text-align: right;
 	background-color: transparent;
 	margin-bottom: 0em;
 	margin-left: auto;
 	margin-right: 0px;
 	padding-bottom: 0em;
-	
 }
 
 span.title {
-	font-size: 13px;
+	font-size: 1em;
 }
 
 div.body {
-    font-size: 13px;
+        font-size: 1em;
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	text-align: left;
-	color: ##FF8000;
+	color: #FF8000;
 }
 
-p.body {font-size: 13px;
+p.body {
+        font-size: 1em;
 	margin-top: 0em;
 	margin-bottom: 0em;
-	line-height: 1.2;
+	line-height: 1.3;
 	padding-left: 1em;
 	padding-top:0em;
 }
-p {font-size: 13px;
+p {
+        font-size: 1em;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
@@ -134,7 +141,7 @@ p {font-size: 13px;
 p.sentence {
 	margin-left: 12px;
 	margin-right: 12px;
-	line-height: 1.2;
+	line-height: 1.3;
 	border-style: none;
 	border-color: #ccc;
 	border-width: 1px 0px 0px 0px;
@@ -146,7 +153,7 @@ h3.subtitle {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-    font-size: 13px;
+        font-size: 1em;
 	clear: both;
 }
 span.anchor {
@@ -155,23 +162,23 @@ span.anchor {
 	margin-left: 12px;
 	margin-right: 12px;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 1em;
 	float: left;
 }
 
 pre {
 	border-style: none;
-	font-size: 13px;
-Å@Å@background-color: #FF8000;
-    color: transparent; 
+	font-size: 1em;
+        background-color: #FF8000; 
 	border-color: #fcc;
+        color: #000;
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 5px 5px 5px 5px;
 }
 
 div.comment {
-	font-size: 13px;
+	font-size: 1em;
 	clear: both;
 	text-align: right;
 	padding-bottom: 1px;
@@ -185,13 +192,12 @@ p.commenttitle {
 	text-align: right;
 	background-color: transparent;
 	position: relative;
-	font-size: 13px;
+	font-size: 1em;
 	color: #FF8000;
 	display: inline;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-style: none;
-	
 }
 
 span.commentator {
@@ -203,7 +209,7 @@ span.commentator {
 }
 
 p.comment {
-	font-size: 13px;
+	font-size: 1em;
 	text-align: left;
 	color: #FF8000;
 	padding: 0px 0px 0px 0px;
@@ -224,18 +230,17 @@ p.referertitle {
 	border-style: solid;
 	border-color: #FF8000;
 	border-width: 1px 1px 1px 1px;
-    padding: 4px;
+        padding: 4px;
 }
 
 p.referer {
 	display: inline;
 	text-align: right;
 	color: #FF8000;
-	
-	top: 10px;
+       	top: 10px;
 	left: -20px;
 	clear: both;
-	font-size: 13px;
+	font-size: 1em;
 	background-color: transparent;
 	padding: 2px;
 	border-style: solid;
@@ -244,7 +249,7 @@ p.referer {
 }
 
 div.refererlist {
-	font-size: 13px;
+	font-size: 1em;
 	text-align: right;
 	padding-bottom: 1px;
 	margin-top: 0.2em;
@@ -268,7 +273,6 @@ hr.sep {
 	display: none;
 }
 
-
 p.footer {
 	font-size: small;
 	text-align: right;
@@ -277,45 +281,41 @@ p.footer {
 }
 
 div.form {
-    
-	padding: 0.5em 1em 0.5em 1em;
+   	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-style: none;
-    width: 90%;
+        border-style: none;
+        width: 90%;
 }
 form {
-	color: #fff;
+	color: #000;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    border-color: #FF8000;
+        border-color: #FF8000;
 	border-style: solid;
 }
-
 
 input.field {
 	filter:Alpha(opacity=60);
 	background-color: #fff;
-	color: transparent;
 	border-color: #FF8000;
 	border-style: solid;
-	
+        color: #000;	
 }
 
 input, select, option {
 	filter:Alpha(opacity=60);
 	background-color: #fff;
-	color: #FF8000;
+	color: #000;
 	border-color: #FF8000;
 	border-style: solid;
-	
-	clear: both;
+    	clear: both;
 }
 
 textarea {
-    filter:Alpha(opacity=60);
+        filter:Alpha(opacity=60);
 	background-color: #fff;
-	color: #FF8000;
+	color: #000;
 	border-color: #FF8000;
 	border-style: solid;
 	width: 90%;
@@ -335,6 +335,5 @@ dd {
 	margin-bottom: 0.5em;
 }
 LI{
-    list-style-type:upper-roman
+        list-style-type:upper-roman
 }
-

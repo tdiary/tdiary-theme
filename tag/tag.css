@@ -1,5 +1,5 @@
 /*
-	tag.css: Tag Style Sheet of tDiary $Revision: 1.2 $
+	tag.css: Tag Style Sheet of tDiary $Revision: 1.3 $
  */
 
 /*
@@ -127,7 +127,7 @@ p {
 div.comment {
 	font-size: small;
 	background-color: #fff;
-	padding: 0px;xs
+	padding: 0px;
 	padding-bottom: 1px;
 	padding-top: 0px;
 	margin-top: 0.5em;

@@ -1,6 +1,6 @@
 /*
 Title: tuki
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -49,7 +49,7 @@ body {
 	background-image: url(tuki.gif);
         background-repeat: repeat-y;
         color: #555;
-        font-size: 1em;
+        font-size: 100%;
 }
 
 p.message {
@@ -104,7 +104,7 @@ h2 {
 }
 
 h2 span.date {
-	font-size: 1em;
+	font-size: 100%;
 }
 
 h2 span.title {
@@ -249,7 +249,7 @@ div.body blockquote {
 
 /* calendar2 */
 table.calendar {
-	font-size: 0.9em;
+	font-size: 90%;
 	line-height: 100%;
 	border-width: 2px;
 	border-color: #FFB6C1;

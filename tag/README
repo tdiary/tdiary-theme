@@ -8,6 +8,9 @@ Comment: 付箋紙が貼り付けられたようなテーマ
 	validated by W3C
 
 ChangeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-13 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

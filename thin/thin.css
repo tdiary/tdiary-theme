@@ -3,7 +3,7 @@ Title: Thin
 Author: Nana
 Access: http://moo.boo.jp
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.14 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.15 $
 	Copyright by (C) Nana http://moo.boo.jp
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
@@ -65,7 +65,7 @@ span.adminmenu {
 
 h1 {
 	text-align: left;
-        font-size: 1em;
+        font-size: 100%;
         color: #000;
         font-weight: bold;
 }
@@ -118,7 +118,7 @@ h2 {
 	margin-right: auto;
 	padding: 3px;
 	text-align: right;
-        font-size: 1em;
+        font-size: 100%;
         background-color: transparent;
         border-color: #99cccc;
         border-width: 0px 2px 1px 0px;
@@ -143,7 +143,7 @@ h3 {
 	margin: 0em ! important;
 	padding: 0em;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 100%;
 	border-style: none;
 	border-color: #cccccc;
 	border-width: 1px 0px 0px 1px;
@@ -340,7 +340,7 @@ div.body blockquote {
 
 /* calendar2 */
 table.calendar {
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 1px;
         border-color: #ccc #999999 #999999 #ccc;
@@ -368,7 +368,7 @@ div.sidebar {
 	top: 0%;
 	left: 0px;
 	width: 20%;
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 7em 2px 100% 2px;
 	border-style: none;
 	border-color: #ccc;
@@ -392,7 +392,7 @@ p.recentitem{
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -409,7 +409,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -440,7 +440,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #cccccc;
         border-width: 0px 0px 1px 0px;
@@ -448,7 +448,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

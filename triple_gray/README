@@ -7,6 +7,9 @@ Comment: グレーのストライプ、いたってシンプルなテーマ
 	validated by W3C.
 
 ChangeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-09-10 zoe <poincare@ikezoe.net>
 	* add width property in div.section.
 	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html

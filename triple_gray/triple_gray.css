@@ -1,6 +1,6 @@
 /*
 Title: トリプルグレー
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -444,7 +444,7 @@ div.footnote {
 	margin-right: 24px;
 }
 p.footnote {
-	font-size: 0.9em;
+	font-size: 90%;
 	padding-bottom: 5px;
 }
 

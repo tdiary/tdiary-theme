@@ -8,6 +8,9 @@ Copyright by (C) Nana <http://moo.boo.jp>
 validated by W3C
 
 ChengeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
 	* equalize indent size.
 

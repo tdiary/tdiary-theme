@@ -1,0 +1,11 @@
+Title: tile
+Author: kosaka
+Access: http://tnat.net/diary/
+License: GPL
+
+Copyright 2003 (C) by kosaka <http://tnat.net/diary/>
+
+ChangeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+

@@ -1,0 +1,27 @@
+Title: クローバー
+Author: ただただし
+Access: sho@spc.gr.jp
+License: GPL
+Comment: 四つ葉のクローバーの葉をあしらった、シンプルでかわいらしいテーマ
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+validated by W3C.
+calendar2, recent_list, amazon, footnote プラグイン対応
+
+ChangeLog
+2002-09-14 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-05-07 TADA Tadashi <sho@spc.gr.jp>
+	* remove overflow from pre.
+	* line-height of body upto 150%.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* image color down to 7bit.
+	* no underline for links.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* support new amazon plugin.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

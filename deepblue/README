@@ -1,0 +1,36 @@
+Title: Deep Blue
+Author: oyuu
+Access: oyuu@mocha.freemail.ne.jp
+License: GPL
+Comment: 海の中
+
+deepblue.css for tDiary
+Copyright 2002 (C) oyuu <oyuu@mocha.freemail.ne.jp>
+Validated by W3C.
+
+calendar2 プラグイン対応。
+このテーマは、sidebarに対応しています。
+
+左側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="leftsidebar">
+	<%=title_list%>
+	</div>
+	<div class="rightmain">
+　　フッタに
+	</div>
+
+右側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="rightsidebar">
+	<%=title_list%>
+	</div>
+	<div class="leftmain">
+　　フッタに
+	</div>
+
+を書き加えてください。
+
+Changelog
+2002-09-14 NT <nt@24i.net>
+        * convert for 1.5 series.

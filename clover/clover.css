@@ -1,6 +1,6 @@
 /*
 Title: クローバー
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,9 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 validated by W3C.
 */
 /* ChangeLog
+2002-09-14 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-05-07 TADA Tadashi <sho@spc.gr.jp>
 	* remove overflow from pre.
 	* line-height of body upto 150%.
@@ -43,12 +46,12 @@ a:visited {
 	text-decoration: none;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	margin-top: 0px;
 }
 
-p.adminmenu a:link, p.adminmenu a:visited {
+div.adminmenu {
 	padding-right: 0.5em;
 	font-size: x-small;
 }
@@ -102,7 +105,7 @@ div.body h3 {
 	padding: 4px;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	background-image: url(clover_anchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -208,11 +211,6 @@ div.comment p.commenttitle {
 	border-width: 0px 0px 1px 0px;
 }
 
-div.comment span.commentator {
-	border-style: solid;
-	border-color: #3faf43;
-	border-width: 0px 0px 1px 0px;
-}
 
 div.form {
 	border-style: solid;
@@ -245,7 +243,7 @@ div.form textarea {
 	margin-left: 2em;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: x-small;
 	margin-top: 0px;
@@ -263,7 +261,7 @@ div.refererlist {
 	font-size: small;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-left: 2em;
 }
 
@@ -289,7 +287,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	text-align: right;
 	font-size: x-small;
 }
@@ -308,7 +306,7 @@ form div.body {
  */
 
 /* calendar */
-p.calendar {
+div.calendar {
 	color: #000;
 	background-color: #fff;
 	text-align: right;
@@ -406,4 +404,138 @@ div.sidebar p {
 	border-color: #3faf43;
 	border-width: 0px 0px 1px 0px;
 	margin: 2px 4px 2px 4px;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

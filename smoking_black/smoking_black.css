@@ -1,0 +1,375 @@
+@charset "euc-jp";
+
+/*
+Title: smoking_black
+Author: 186（一服中）
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://smoking186.rocket3.net/
+License: GPL
+Comment: span.aaが何故かある。
+	何故か印刷用のcssもある。
+	NN4.xでも大体見られるらしい。
+*/
+
+/* よく使うもの */
+
+body {
+ background-color:#000000;
+ color:#b5b5b5;
+ line-height:1.3;
+ margin:0;
+ padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ margin:0px;
+ padding:2px;
+ width:auto;
+ background-color:#000000;
+ color:#b5b5b5;
+ border-bottom:1px solid #515151;
+ font-family:Verdana,"ＭＳ Ｐゴシック",Osaka,sans-serif;
+}
+
+h1 {
+ text-align:right;font-size:large;
+}
+
+h2 {
+ text-align:right;
+}
+
+h2,h3,h4,h5,h6 {
+ font-size:medium;
+}
+
+h4 {
+ margin-left:20px;
+}
+
+h5 {
+ margin-left:30px;
+}
+
+h6 {
+ margin-left:40px;
+}
+
+p {
+ text-indent:1em;
+ margin-top:0.2em;
+ margin-bottom:0.5em;
+}
+
+
+/* リンク */
+a {
+ color:#b5b5b5;
+ background-color:transparent;
+ text-decoration:underline;
+}
+
+a.keyword  {
+ border-top:1px dashed #515151;
+ border-bottom:1px dashed #515151;
+ padding:0px 2px 0px 2px;
+ text-decoration:none;
+}
+
+a:visited {
+ color:#b5b5b5;
+ background-color:transparent;
+ text-decoration:underline;
+}
+
+a:hover {
+ color:#b5b5b5;
+ background-color:transparent;
+ text-decoration:none;
+ border-bottom:1px dashed #b5b5b5;
+}
+
+
+/* テーブル一般 */
+table {
+ background-color:#000000;
+}
+
+thead,tfoot {
+ background-color:#a0a0a0;
+ color:#000000;
+}
+
+tbody {
+ background-color:#e0e0e0;
+ color:#000000;
+}
+
+
+/* 特殊テーブル */
+table.calendar {
+ text-align:right;
+ font-family:Verdana,Osaka,sans-serif;
+ font-size:small;
+}
+
+table.calendar td {
+ font-size:small;
+}
+
+td.calendar-prev-month,td.calendar-current-month,td.calendar-next-month {
+ text-align:center;
+}
+
+td.calendar-prev-month a,td.calendar-current-month a,td.calendar-next-month a {
+ width:100%;
+}
+
+td.calendar-sunday {
+ color:#aa0000;
+}
+
+td.calendar-saturday {
+ color:#0000aa;
+}
+
+td.calendar-day a img {
+ width:1em; height:1em;
+}
+
+/* その他 */
+address {
+ font-weight:normal;
+ font-style:normal;
+}
+
+ul {
+ list-style-type:square;margin-left:2em;
+}
+
+ol {
+ margin-left:2em;
+}
+
+dl {
+ margin-left:1em;
+}
+
+dt {
+ margin:5px 10px 3px 5px;
+ padding:5px;
+ border-left:5px solid #515151;
+ border-top:1px solid #515151;
+}
+
+dd {
+ margin:0px 10px 10px 5px;
+ padding:5px 5px 5px 20px;
+ border-right:3px solid #515151;
+ border-bottom:1px solid #515151;
+}
+
+ol ol,ol ul,ul ol,ul ul {
+ margin-left:1em;
+}
+
+blockquote {
+ border-left:8px solid #515151;
+ border-top:8px solid #515151;
+}
+
+blockquote cite {
+ display:block;
+ text-align:right;
+ border-top:1px dashed #515151;
+ margin:5px;
+ padding:0px 5px 0px 5px;
+}
+
+q {
+ border-left:3px double #515151;
+ border-bottom:1px dashed #515151;
+ padding-left:5px;
+ font-weight:normal;
+ font-style:normal;
+}
+
+img {
+ border:0;
+}
+
+ins {
+ display:block;
+ text-decoration:none;
+ border-left:3px solid #515151;
+ border-right:3px solid #515151;
+ border-top:1px dashed #515151;
+ border-bottom:1px dashed #515151;
+ margin:10px;
+}
+
+p ins,li ins {
+ display:inline;margin:0;padding:2px;
+}
+
+pre {
+ color:#b5b5b5;
+ background-color:#515151;
+ margin:10px;padding:5px;
+ font-family:"MS Gothic",Osaka,monospace;
+}
+
+
+span.aa {
+ font-family:"ＭＳ Ｐゴシック";
+}
+
+img.photo {
+ float:right;
+ margin:10px;
+ border:0;
+}
+
+.highlight {
+ background-color:red;
+}
+
+.tex {
+ background-color:white;
+}
+
+textarea {
+ width:80%;
+}
+
+
+/* レイアウト */
+div.calendar {
+ text-align:right;
+ font-size:small;
+ padding:5px;
+ width:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ font-family:Verdana,"ＭＳ Ｐゴシック",Osaka,sans-serif;
+}
+
+div.day {
+ margin-left:30%;
+ border-left:5px solid #515151;
+}
+
+div.body {
+ margin-left:10px;
+ font-family:Verdana,"ＭＳ Ｐゴシック",Osaka,sans-serif;
+}
+
+div.section {
+ padding:0px;
+ width:auto;
+ margin-top:20px;
+ margin-bottom:20px;
+ background-color:#000000;
+ color:#b5b5b5;
+}
+
+div.section p {
+ margin-left:5px;margin-right:5px;
+}
+
+span.timestamp {
+ font-size:small;
+}
+
+span.footnote {
+ font-size:small;
+}
+
+div.footnote {
+ padding:5px;
+ width:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ background-color:#000000;
+ color:#b5b5b5;
+}
+
+p.footnote {
+ text-indent:0em;
+}
+
+div.comment {
+ padding:5px;
+ width:auto;
+ margin-top:10px;
+ margin-bottom:30px;
+ background-color:#000000;
+ color:#b5b5b5
+ font-family:"ＭＳ Ｐゴシック";
+}
+
+div.commentshort p {
+ text-indent:0em;
+}
+
+span.commentator {
+ font-family:Verdana,"ＭＳ Ｐゴシック",Osaka,sans-serif;
+}
+
+div.footer {
+ text-align:center;
+ padding:5px;
+ width:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ background-color:#000000;
+ color:#b5b5b5;
+}
+
+/* 独自モジュールらしきもの */
+p.recentitem {
+ text-indent:0;
+}
+
+
+/* omit NN4.x MacIE5 */
+@media screen {
+ pre {
+  width:80%;
+  overflow:scroll;
+ }
+}
+
+/* 印刷用 */
+@media print {
+ body * {
+  color:#000000;
+  background-color:#ffffff;
+ }
+
+ body,p,ul.ol.table,td,blockquote,dd {
+  font-size:medium;
+  line-height:130%;
+  font-family: "ＭＳ Ｐ明朝",細明朝体,serif;
+ }
+ 
+ h1,h2,h3,h4,h5,h6,dt,em,strong,th {
+  font-weight:normal;
+  font-family: "ＭＳ Ｐゴシック",Osaka,sans-serif;
+ }
+ 
+ pre,code,kbd,samp {
+  border:1px dashed #a0a0a0;
+  font-family:monospace;
+ }
+
+ div.sidebar,object {
+  display:none;
+ }
+
+ a:after {
+  font-size:x-small;
+  font-family:sans-serif;
+  content: "["attr(href)"]";
+ }
+}

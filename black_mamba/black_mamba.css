@@ -1,0 +1,207 @@
+@charset "euc-jp";
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+
+BODY { 
+	font-size: 90%;
+	letter-spacing: 1px;
+	font-family: Verdana,Osaka; 
+	line-height: 150%; 
+	color: #080808;
+	background-color:  #FFE000; 
+	margin:0;
+	padding:0;
+ } 
+
+
+a{
+	text-decoration: none;
+	color: #080808;
+	border-bottom:solid 1px #080808;
+	
+}
+
+a.keyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #080808;
+}
+
+A:LINK    { 	}
+A:VISITED { } 
+A:HOVER   { color: #ff0000; } 
+A:ACTIVE  { color: #ff0000; } 
+
+
+
+h1 {	
+	font-size: 400%;
+	font-family: Impact;
+	letter-spacing: 0px;
+	font-weight: normal;
+	text-align: right;
+	margin: 30px 2%;
+
+}
+
+.calendar {
+	font-size:80%;
+	border:none;
+	margin: 0 2%;
+	text-align: right;
+}
+
+div.day {
+	border: none;
+	margin: 10px 0% 10px 2%;
+}
+
+h2 {
+	color: #E20101;
+	font-weight:bold;
+	font-size: 100%;
+    text-decoration:none;
+    margin: 20px 0;
+    padding:15px;
+    background-color: #080808;
+}
+
+span.date{
+	font-family: Impact;
+	letter-spacing: 0px;
+	font-weight: normal;
+	font-size:200%;
+}
+
+h2 a:link,h2 a:visited{
+	text-decoration: none;
+	border: none;
+	color: #E20101;
+	
+}
+
+h2 a:active,h2 a:hover,h3 a:active,h3 a:hover{
+	text-decoration: none;
+	border: none;
+	color: #E20101;
+}
+
+h3 {	
+	font-size: 100%;
+    color: #080808;
+    border-bottom: solid 6px #080808;   
+	font-weight:bold;
+	margin:0;
+	padding-left:0.3em;
+}
+
+h3 a:link,h3 a:visited{
+	text-decoration: none;
+	border: none;
+	color: #080808;
+}
+
+span.sanchor{
+	font-size: 1px;
+	background-image: url(sanchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 17px 17px 0px 0px;
+	color: #E20101;
+	background-color: transparent;
+	padding: 16px;
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+div.section{
+	margin-left: 20px;
+}
+
+div.section P {
+	margin: 1em;
+}
+
+span.footnote{
+	font-size: 70%;
+}
+
+div.footnote{
+	margin: 1.5em;
+}
+
+span.footnote a{
+	border: 0px;
+}
+
+div.caption{
+	font-size: 80%;
+	margin-left: 1.5em 20px 1.5em 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 20px;
+	font-size: 80%;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+blockquote{
+	border-left: solid 6px #080808;
+	margin: 1em;
+	padding: 1em;
+}
+
+pre{
+	margin: 1em;
+	padding: 1em;
+	font-family:‚l‚r ‚oƒSƒVƒbƒN;
+	letter-spacing: 0px;    
+	background-color: #e0e0e0;
+	line-height: 100%;
+}
+
+img.photo {
+	float: right;
+	margin: 10px;
+	border: solid 1px #080808;
+}
+
+
+span.highlight {
+	color: black;
+	background-color: #E20101;
+	padding: 1px;
+}
+
+
+
+/***************** sidebar *******************/
+
+P.recentitem{
+	text-align: center;
+	font-weight: bold;
+	background-color: #080808 ;
+	color: #E20101;
+}
+
+P.recentitem a{
+	border: none;
+	color: #E20101;
+}
+
+div.recentsubtitles{
+	margin: 0 5px;
+}

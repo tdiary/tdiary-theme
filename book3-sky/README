@@ -1,0 +1,7 @@
+Title: book3-sky
+Revision: 1.5
+Author: Nishioka Yuji
+Access: http://d.hatena.ne.jp/n-yuji/
+License: GPL
+Comment: 「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、明るい空のイメージに調整。男の子向けかなぁ。
+はてなの場合、ヘッダー部分は、<div class="footer">……</div>で囲むと良いです。

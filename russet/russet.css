@@ -1,0 +1,221 @@
+@charset "euc-jp";
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+BODY{ 
+	font-size: 90%;
+	letter-spacing: 1px;
+	font-family: Verdana,Osaka; 
+	line-height: 150%; 
+	color: #000000;
+	background-color:  #E5D6B9; 
+	margin:0;
+	padding:0;
+}
+
+div.title{
+	margin: 20px 2% 20px 2%;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #000000;
+	border-bottom:solid 1px #753919;
+}
+
+a.keyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #753919;
+
+}
+
+A:LINK    { }
+
+A:VISITED { } 
+
+A:HOVER   { 
+	color: #ff0000;
+ }
+  
+A:ACTIVE  {  } 
+
+div.sidebar a {
+    border: 0;
+}
+
+h1 {	
+	text-align: center;
+}
+
+
+div.day {
+	margin: 10px 2% 10px 2%;
+	padding: 15px;
+	border: 5px dotted #753919;
+}
+
+
+h2 {
+	font-size:100%;
+	color: #000000;
+	font-weight:normal;
+    text-decoration:none;
+    margin: 0;
+    padding:0;
+    border: none;
+}
+
+div.body{
+	margin: 1em 0;
+}
+
+span.date{
+	display: block;
+	letter-spacing: 0px;
+	font-size: 100%;
+	font-weight:bold;
+}
+
+h2 a:link,h2 a:visited{
+	text-decoration: none;
+	border: none;
+}
+
+h3 {	
+    color: #000000;
+    font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding-left:0.3em;
+}
+
+h3 a:link ,h3 a:visited{
+    border: none;
+}
+
+h4{
+	font-weight: bold;
+	margin: 0;
+	padding-left:1em;
+	font-size: 100%;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #753919;
+	padding:0;
+	margin: 0;
+}
+
+div.section{
+	margin-left: 1em;
+}
+
+div.section P {	
+	margin: 1em;
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0px;
+}
+
+div.footnote{
+	margin: 1.5em;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+div.caption{
+	font-size: 80%;
+	margin-left: 1.5em 20px 1.5em 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 20px;
+	font-size: 80%;
+}
+
+img.photo {
+	float: right;
+	margin: 10px;
+	border: 3px dotted #753919;
+}
+
+blockquote{
+	border-left: 3px dotted #753919;
+	margin: 1em;
+	padding: 1em;
+}
+
+pre	{
+	margin: 1em;
+	padding: 1em;
+	font-family:‚l‚r ‚oƒSƒVƒbƒN;
+	letter-spacing: 0px;    
+	background-color: #e0e0e0;
+	line-height: 100%;
+}
+
+/***************** sidebar ******************/
+
+P.recentitem{
+	text-align: center;
+	font-weight: bold;
+	border-top: 5px dotted #753919;
+	border-bottom: 5px dotted #753919;
+	margin: 5px 0;
+	pading: 5px 0;
+}
+
+P.recentitem a{
+	border: none;
+}
+
+div.recentsubtitles{
+	margin: 0.5em 10%;
+}
+
+
+/***************** calender *****************/
+
+div.calendar {
+	font-size:90%;
+	border:none;
+	margin:0 2%;
+	text-align: left;
+}
+
+div.calendar a{
+	border: none;
+}
+
+/***************** textarea *****************/
+
+input,textarea{
+	background-color: transparent;
+}

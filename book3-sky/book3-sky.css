@@ -1,0 +1,465 @@
+@charset "euc-jp";
+
+/*
+Title: book3-sky
+Revision: 1.5
+Author: Nishioka Yuji
+Access: http://d.hatena.ne.jp/n-yuji/
+License: GPL
+Comment: 「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、明るい空のイメージに調整。男の子向けかなぁ。
+はてなの場合、ヘッダー部分は、<div class="footer">……</div>で囲むと良いです。
+*/
+
+/* ページ全体の基本的な設定。背景色や文字色など */
+
+body {
+	background-color: #ffffff;
+	color: #000000;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+
+}
+
+/* リンク文字列に関する設定 */
+
+a:link {
+	text-decoration: none;
+	color: #7c89ea;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #75728c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #75728c;
+}
+
+/* はてなキーワードリンクに関する設定 */
+
+a.keyword {
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 1px dashed gray;
+}
+
+a.keyword:link {
+	color: #000000;
+}
+
+a.keyword:visited {
+	color: #75728c;
+}
+
+a.keyword:hover {
+	color: #7c89ea;
+	background-color: #ffffff;
+}
+
+/* 日記タイトルの設定 */
+
+h1 {
+	text-align: left;
+	font-size: 165%;
+	font-weight: 100;
+	letter-spacing: 0.25em;
+	color: #7c89ea;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-right: 60px;
+	margin-left: 60px;
+	border-style: solid;
+	border-color: #7c89ea;
+	border-width: 1px 0px 0px 1px;
+	padding: 4px 0px 0px 8px;
+}
+
+/* カレンダーの設定 */
+
+div.calendar {
+	text-align: right;
+	color: #000000;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	line-height: 110%;
+	font-size: 80%;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+div.calendar div.year {
+}
+
+/* 1日の日記全体を囲む枠の設定 */
+
+div.day {
+	background-color: #e5e8f7;
+	color: #000000;
+	border-style: solid;
+	border-color: #7c89ea;
+	border-width: 1px 1px 1px 1px;
+	padding-bottom: 0.5em;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 1.5em;
+}
+
+/* タイトル行全体の設定 */
+
+h2 {
+	font-size: 100%;
+	font-weight: normal;
+	margin: 8px 0px 0px 0px;
+}
+
+/* 日付の設定 */
+
+h2 span.date {
+	font-size: 120%;
+	font-family: 'Verdana';
+	padding: 8px 0.2em 0.3em 0.3em;
+	border-style: solid;
+	border-color: #7c89ea;
+	border-width: 0px 1px 0px 4px;
+}
+
+/* タイトルの設定 */
+
+h2 span.title {
+	font-size: 120%;
+	color: #7c89ea;
+	padding: 8px 2em 0.3em 0.2em;
+	border-style: solid;
+	border-color: #7c89ea;
+	border-width: 0px 0px 0px 0px;
+}
+
+/* タイトルを除いた1日の日記本文全体の設定 */
+
+div.body {
+	background-color: #e5e8f7;
+	color: #000000;
+	margin: 3em 0.5em 0em 5em;
+}
+
+/*
+サブタイトルを含むセクションの設定
+*/
+div.section {
+	margin-top: 0.75em;
+	margin-left: 0em;
+	margin-bottom: 0em;
+}
+
+/* サブタイトルの設定 */
+
+h3 {
+	font-size: 80%;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+
+/* その他の見出し(必要なら) */
+
+h4 {
+	margin: 2em;
+	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+/* 日記の本文(段落)の設定 */
+
+div.section p {
+	font-size: 90%;
+	line-height: 165%;
+	margin: 0em 0em 0em 0em;
+}
+
+/* コメント/フォーム/リンク元のキャプション設定 */
+
+div.caption {
+	font-size: 80%;
+	line-height: 150%;
+	border-style: dashed;
+	border-color: #7c89ea;
+	border-width: 1px 0px 0px 0px;
+}
+
+/* コメント欄全体の設定 */
+
+div.comment {
+	background-color: #e5e8f7;
+	color: #000000;
+	padding: 0px;
+	padding-bottom: 2px;
+	margin-top: 1em;
+	margin-left: 7em;
+	margin-right: 1em;
+}
+
+/* コメント欄本文 */
+
+div.commentshort {
+	font-size: 80%;
+}
+span.commentator {
+	font-style: italic;
+	font-size: 120%;
+	margin-right: 0.5em;
+}
+div.commentshort p {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	line-height: 140%;
+}
+
+/* フォーム全体を囲む枠の設定 */
+
+div.form {
+	background-color: #e5e8f7;
+	color: #000000;
+	border-style: solid;
+	border-color: #aaf;
+	border-width: 1px;
+	padding: 2px;
+	margin: 0.5em 1em 0.5em 2em;
+}
+
+/* リンク元リストの設定 */
+
+div.refererlist {
+	background-color: #e5e8f7;
+	color: #000000;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1em;
+}
+
+/* リンク元リスト一覧の設定 */
+
+div.refererlist ul {
+	font-size: 90%;
+	margin: 0.5em 1em 0.5em 3em;
+	line-height: 120%;
+}
+
+/* 罫線の設定 */
+
+hr {
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #ffffff;
+}
+
+/* 日々の日記のセパレータに使われる罫線の設定 */
+
+hr.sep {
+	display: none;
+}
+
+/*
+ヘッダ・フッタの設定
+*/
+div.footer {
+	text-align: left;
+	font-size: 80%;
+	line-height: 120%;
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+
+/* エラーメッセージ表示の設定 */
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: #d00;
+	color: #fff;
+	padding: 8px;
+}
+
+/* 整形済みテキスト(preタグ)の設定 */
+
+div.section pre {
+	background-color: #ffffff;
+	color: #000000;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+	margin-right: 1em;
+	padding: 0.25em 1em 0.25em 1em;
+}
+
+/* 引用(blockquoteタグ)の設定 */
+
+div.section blockquote {
+	font-style: italic;
+	background-color: #e5e8f7;
+	border-style: dashed;
+	border-color: #7c89ea;
+	border-width: 0px 0px 0px 1px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 0em 1em 0em 0.5em;
+}
+div.section blockquote p {
+	margin: 0em 0em 0em 0em;
+}
+
+/*
+箇条書きの設定
+*/
+div.section ul, div.section ol {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 5em;
+	margin-right: 2em;
+	padding-left: 0px;
+	font-size: 90%;
+	line-height: 130%;
+}
+div.section ul ul, div.section ol ol {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* 項目リストの設定 */
+
+div.section dl {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 5em;
+	font-size: 90%;
+	line-height: 130%;
+}
+
+div.section dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.section dd {
+	margin: 0em 3em 0.5em 1em;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 120%;
+	margin-bottom: 10px;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* モジュールの設定 */
+
+p.recentitem {
+	font-size: 70%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: 70%;
+	line-height: 130%;
+	margin: 2px 4px 0px 4px;
+}
+
+/* 脚注の設定 */
+
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+div.footnote {
+	font-size: 70%;
+	line-height: 130%;
+	padding: 0em;
+	margin-top: 1.75em;
+	margin-left: 8em;
+	margin-right: 1em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+/* amazonの書影リンクの設定 */
+
+img.asin {
+	float: left;
+	margin-top: 2px;
+	margin-right: 1em;
+	margin-bottom: 4px;
+	border: 0;
+}
+
+/* photoの設定 */
+
+img.photo {
+	float: left;
+	margin-top: 2px;
+	margin-right: 1em;
+	margin-bottom: 4px;
+	border: 0;
+}
+
+/* 検索時のハイライトの設定 */
+
+span.highlight {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/* サイドバー関連の設定 */
+
+div.main {
+	margin-right: 175px;
+}
+
+div.sidebar {
+	background-color: #eae8dd;
+	color: #000000;
+	position: absolute;
+	top: 75px;
+	width: 170px;
+	right: 20px;
+	padding: 6px 6px 6px 6px;
+	border-style: solid;
+	border-color: #7c89ea;
+	border-width: 2px 1px 1px 1px;
+}
+
+div.sidebar p {
+	line-height: 160%;
+	text-align: left;
+	font-size: 75%;
+	border-style: dashed;
+	border-color: #ffffff;
+	border-width: 2px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+}

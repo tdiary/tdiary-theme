@@ -1,6 +1,6 @@
 /*
 Title: Spring
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 Comment:
@@ -36,7 +36,7 @@ a:hover {
 
 div.adminmenu {
 	text-align: right;
-	font-size:0.8em;
+	font-size:90%;
 	margin:0px;
 }
 
@@ -117,11 +117,11 @@ pre {
 	padding: 0.5em;
 	border: 2px dashed #EF8BAF;
 	background-color:#ffffdf;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.comment {
-	font-size:0.8em;
+	font-size:90%;
 	text-align: left;
 	background-color:#ffffdf;
 	color: #000000;
@@ -136,7 +136,7 @@ div.comment a{
 
 div.comment div.caption {
 	text-align: right;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 
@@ -144,19 +144,19 @@ div.refererlist div.caption {
 	text-align: right;
 	color:#F7CA8E;
 	margin-left:10%;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.referer {
 	margin-left:10%;
 	margin-bottom:1em;
-	font-size:0.8em;
+	font-size:90%;
 }
 
 div.refererlist {
 	text-align: right;
 	color:#F7CA8E;
-	font-size:0.8em;
+	font-size:90%;
 	padding:1px;
 }
 
@@ -216,13 +216,13 @@ div.rank{
 	color:#F2C991;
 	margin-bottom: 1em;
 	padding-bottom:0.5em;
-	font-size:0.8em;
+	font-size:90%;
 	text-align:center;
 }
 
 span.rank a{
 	color:#EF8BAF;
-	font-size:0.8em;
+	font-size:90%;
 }
  
 span.memo {
@@ -503,4 +503,9 @@ p.source{
 	border-style: solid;
 	border-color: #1E90FF;
 	border-width: 1px;
+}
+
+blockquote {
+	border: 2px solid #ffbbbb;
+	font-style: italic;
 }

@@ -8,7 +8,8 @@ License: GPL
 ChangeLog
 2003-03-16 Nana <clorets@estyle.ne.jp>
 	* remove h1 color
-	* support major plugin
+	* support major plugin,blockquote
+	* font-size:0.8em->90%
 
 2002-10-31 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* equalize indent size.

@@ -1,18 +1,12 @@
 /*
 Title: らぶり〜
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: ただただし
 Access: sho@spc.gr.jp
+License: GPL
 
 	validated by W3C.
  */
-/* ChangeLog
-2002-10-13 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-*/
 
 a:link, a:visited {
 	color: white;

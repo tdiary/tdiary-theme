@@ -1,38 +1,12 @@
 /*
 Title: Candy
-Revision: $Revision: 1.15 $
+Revision: $Revision: 1.16 $
 Author: ただただし
 Access: sho@spc.gr.jp
+License: GPL
 
 	validated by W3C.
  */
-/* ChangeLog
-2002-10-18 NT <nt@24i.net>
-        * remove some "color:".
-
-2002-09-14 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-06-07 TADA Tadashi <sho@spc.gr.jp>
-	* change images to index colored (for mozilla/w32).
-	* set line-height of comments to 150%.
-
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-
-2002-03-15 TADA Tadashi <sho@spc.gr.jp>
-	* fix color bug.
-
-2002-03-14 TADA Tadashi <sho@spc.gr.jp>
-	* marge with the theme of Asumi Diary.
-	* add span.panchor and span.canchor.
-
-2002-03-03 TADA Tadahi <sho@spc.gr.jp>
-	* fix comment bug.
-
-2002-03-02 nga <stakei@nga.jp>
-	* DarkRed -> #8B0000
-*/
 
 a:link, a:visited {
 	background-color:transparent; 

@@ -227,12 +227,14 @@ p.footer {
 
 div.form {
   margin-left: 2em;
+  width:90%
 }
 
-div.form textarea {
+textarea {
   color: #000000;
   background-color: #ffffff;
   margin-left:2em;
+  width:90%
 }
 
 p.strong {

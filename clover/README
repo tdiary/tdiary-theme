@@ -9,6 +9,9 @@ validated by W3C.
 calendar2, recent_list, amazon, footnote プラグイン対応
 
 ChangeLog
+2004-04-08 TADA Tadashi <sho@spc.gr.jp>
+	* little modified.
+
 2003-09-05 NT <nt@be.to>
 	* remove specification of font-family.
 

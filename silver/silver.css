@@ -1,5 +1,5 @@
 /*
-	silver.css: Style Sheet of tDiary $Revision: 1.2 $
+	silver.css: Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
@@ -177,7 +177,7 @@ span.commentator {
 ツッコミ欄の中の段落（インデントしない）
 */
 div.comment p{
-	text-indent: 0;
+	text-indent: 0em;
 	margin-left: 0em ! important;
 }
 
@@ -332,8 +332,9 @@ blockquote{
 /*
 引用中の段落
 */
-blockquote p{
-	text-indent: 0;
+div.section blockquote p{
+	text-indent: 0em;
+	margin-left:0em;
 }
 
 /*

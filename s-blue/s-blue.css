@@ -1,6 +1,6 @@
 /*
 Title: S-BLUE
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 淡いブルーベースのシンプル系
@@ -39,8 +39,6 @@ body {
 	color: #000;
 	margin-right: 10%;
 	margin-left: 10%;
-	/*font-size: small;*/
-	/*font-family :osaka,"MS UI ゴシック","Lucida Sans Unicode",Arial;*/
 }
 
 strong {
@@ -52,7 +50,6 @@ div.adminmenu {
 	text-align: right;
 	font-size: small;
 	float: right;
-	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
 }
 
 p.message {
@@ -83,7 +80,6 @@ div.calendar {
 	background-color: transparent;
 	border-style: none;
 	padding-top: 0.5em;
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 }
 div.day {
 	border-style: solid;
@@ -94,7 +90,6 @@ div.day {
 	padding-bottom: 0em;
 	padding-top: 30px;
 	margin: 0em;
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 }
 
 h2 {
@@ -110,7 +105,6 @@ h2 span.date {
 	font-size: small;
 	margin-left: 0.5em;
 	margin-top: 3em;
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 }
 
 div.body {
@@ -216,7 +210,6 @@ div.footer {
 	font-size: small;
 	text-align: right;
 	height: 32px;
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 }
 p.footline {
 	float:left;

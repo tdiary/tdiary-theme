@@ -7,6 +7,9 @@ Comment: 淡いブルーベースのシンプル系
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
 ChangeLog
+2002-11-01 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove many /* comment-out feature (mainly font-family) */.
+
 2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

@@ -3,9 +3,13 @@ Author: Nana
 Access: http://moo.boo.jp
 License: GPL
 
-  Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+  Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 
 ChangeLog
+2003-03-16 Nana <clorets@estyle.ne.jp>
+	* remove h1 color
+	* support major plugin
+
 2002-10-31 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* equalize indent size.
 

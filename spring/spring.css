@@ -1,17 +1,11 @@
 /*
 Title: Spring
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
+Comment:
 
-  Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
-*/
-/* ChangeLog
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
+  Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 */
 
 
@@ -21,7 +15,7 @@ body {
 	background-attachment: fixed;
 	color: #000000;
 	text-align: left;
-	margin: 0% 5% 0% 5%;
+	margin: 1em 5%;
 }
 
 a:link {
@@ -51,7 +45,7 @@ h1 {
 	margin-top:0px;
 	margin-left:0px;
 	font-size: medium;
-	color:#ffffdf;
+	/*color:#ffffdf;*/
 }
 
 div.calendar {
@@ -67,7 +61,7 @@ div.day {
 	margin-left: 0em;
 	margin-bottom:0em;
 	margin-top:3em;
-	font-size:100%;
+	/*font-size:100%;*/
 }
 
 h2 {
@@ -248,38 +242,6 @@ a img {
 }
 
 /*
-脚注番号
-*/
-span.footnote ,span.footnote a{
-	font-size:xx-0.8em; /* What's this? Please fix. */
-	color:#DC143C;
-}
-/*
-脚注本文全体
-*/
-div.footnote {
-	border-color:#F7CA8E;
-	border-style:dashed;
-	border-width: 2px 0px 0px 0px;
-	padding: 3px;
-	font-size:0.6em;
-	text-align: left;
-	margin-left: 24px;
-	margin-right: 16px;
-}
-
-div.footnote a{
-	color:#DC143C;
-}
-/*
-それぞれの脚注本文
-*/
-span.footnote{
-	vertical-align: super;
-	color:#DC143C;
-	font-size:0.6em;
-}
-/*
 スミ消しプラグイン用
 */
 .hide{
@@ -415,4 +377,130 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;	
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+div.section, div.comment {
+	clear: both;
+}
+
+/*
+サイドバー関連
+*/
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+	margin: 2px 4px 2px 4px;
+}
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-right: 1.5em;
+        margin-top: 0px;
+	text-align: right;
+	font-size:90%;
+        line-height: 24px;
+        font-style: italic;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+	border-style: solid;
+	border-color: #1E90FF;
+	border-width: 1px;
 }

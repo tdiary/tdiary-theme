@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -18,6 +18,13 @@ colors:
    #FFFF20 Yellow
    #F1EDEC almost white (background color of momo_bg.png)
  */
+/* ChangeLog
+2002-07-05 nga
+	*div.section p --> margin-bottom: 1.3em ;
+	*div.comment p -->line-height: 1.3em;
+ */
+
+
 
 p.footer {
   padding: 0.5em;
@@ -138,6 +145,9 @@ div.body {
   margin-bottom: 0em;
 }
 
+div.section p {
+	margin-bottom: 1.3em ;
+}
 pre, blockquote {
   background-color: #D2C1B8;
   color: #745247;
@@ -154,6 +164,9 @@ div.comment {
 /*  font-size: small; */
 }
 
+div.comment p {
+	line-height: 1.3em;
+}
 div.form {
   background-color: #745247;
   color: white;

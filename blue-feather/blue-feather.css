@@ -1,12 +1,12 @@
 /*
 Title: bulu-feather
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: 
 
-	bulu-feather.css: Style Sheet of tDiary $Revision: 1.5 $
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.6 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -379,6 +379,3 @@ td.calendar-day {
 	text-align: right;
 }
 
-/*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.5 $
- */

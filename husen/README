@@ -1,0 +1,25 @@
+Title: husen
+Author: kosaka <kosaka@tnat.net>
+Access: http://tnat.net/diary/
+License: GPL
+Comment: ノートに付箋 左sidebarに対応
+
+validated by W3C.
+
+--sidebarに対応しています。設定で以下を追加してください。--
+ ヘッダ
+    <div class="rightmain">
+ フッタ
+   </div>
+   <div class="leftsidebar">
+   <%=calendar%>
+   <%=recent_list day=10 %> ←recent_listを入れる場合だけ記述する。
+</div>
+ 
+Changelog
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	* add image anchor description in css file.
+
+2002-10-20 Nana <mpc@mikan.sakura.ne.jp>
+        * add image anchor,footnote

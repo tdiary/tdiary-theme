@@ -1,0 +1,17 @@
+Title: Sky
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+License: GPL
+Comment: おお青い空白い雲
+
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
+ChangeLog
+2002-10-18 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-06-07 TADA Tadashi <sho@spc.gr.jp>
+	* change images to index colored (for mozilla/w32).
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add specification.

@@ -10,3 +10,16 @@ Validated by W3C.
 Changelog
 2002-09-24 NT <nt@24i.net>
         * convert for 1.5 series.
+
+2002-11-21 oyuu <oyuu@mocha.freemail.ne.jp>
+	* modified font-size: div.body, h3, div.comment, div.section p.
+	* removed .headline border, div.comment div.caption border-right
+		& border-left & border-bottom, div.referer border-right
+		& border-left & border-bottom, div.refererlist border-right
+		& border-left, div.refererlist div.caption border-right
+		& border-left & border-top.
+	* simplified div.day margin, div.body blockquote padding, 
+		div.day padding, div.calendar padding, 
+		.headline margin & padding, h2 border & padding,
+		div.body padding, div.referer padding, hr border,
+		input.field border, textarea border, p.message padding,.

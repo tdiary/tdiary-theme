@@ -1,0 +1,267 @@
+/*
+   Kanban.css Style Sheet of tDiary $Revision: 1.1 $
+ */
+
+
+a:link {
+	text-decoration: none;
+	color: #A58484;
+}
+a:visited {
+	text-decoration: none;
+	color: #A58484;
+}
+
+a:hover, a:focus,a:active {
+    background-color: Moccasin;
+   
+}
+
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: #fff;
+	color: #000;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+    font-size: 13px;
+}
+
+p.adminmenu {
+	text-align: left;
+	font-size: 13px;
+	
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #000;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	color: #000;
+	border-style: none;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: left;
+    margin-left:12%;
+}
+
+p.calendar {
+	background-color: transparent;
+	color: #000;
+	border-style: none;
+	margin-left:12%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family :Georgia;
+}
+div.day {
+	background-image: url(kanban_1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	border-style: none;
+	text-align: left;
+	padding-left: 45px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+    font-size: 13px;
+    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding-top: 3.5em;
+	text-align: left;
+	font-size: 13px;
+	
+}
+
+span.date {
+	font-size: 13px;
+	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+    
+}
+span.date a:link, a:visited {
+	color: SandyBrown;
+	text-decoration: none;
+}
+span.date a:hover, a:focus {
+	color: #000;
+	text-decoration: none;
+}
+
+div.body {
+	
+	background-color: transparent;
+	color: #000;
+	text-align: left;
+	padding: 1px;
+	padding-top: 2px;
+	padding-right: 30px;
+	
+    margin-top: 12px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-hight: 1.5;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4;
+}
+
+h3.subtitle {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+pre {
+    width: 95%;
+	background-color: OldLace;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+    border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+div.comment {
+	font-size: 13px;
+	text-align: left;
+	background-color: transparent;
+	color: #000;
+	padding: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+  	margin: 0em;
+	margin-right: 20px;
+	margin-left: 6px;
+	
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+p.commenttitle {
+	text-align: left;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+    
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+    padding: 0px;
+
+}
+
+p.referer {
+	text-align: right;
+	font-size: 13px;
+	background-color: transparent;
+	color: #000;
+	padding: 0px;
+	padding-bottom: 1px;
+    margin-left: 10px;
+}
+
+div.refererlist {
+	font-size: 13px;
+	text-align: left;
+	background-color: transparent;
+	color: #000;
+	padding: 0px;
+	padding-bottom: 1px;
+	
+	margin-top: 0.5em;
+	
+}
+span.title {
+    margin-left:25px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: 13px;
+	text-align: right;
+	height: 32px;
+    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+}
+
+div.form {
+	background-color: transparent;
+	color: #000;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+    
+}
+
+input.field {
+	background-color: white;
+	color: #black;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	color: #black;
+	margin-left: 1em;
+	width: 80%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

@@ -1,19 +1,19 @@
 /*
 Title: purple sun
-Author: ‚­‚í
+Author: ¤¯¤ï
 Access: http://www.spc.gr.jp/kuwa/
 License: GPL
-Comment: ‡F‚Ì‘¾—z‚ªŒ©‚¦‰B‚ê‚µ‚Ü‚·B
+Comment: »ç¿§¤ÎÂÀÍÛ¤¬¸«¤¨±£¤ì¤·¤Ş¤¹¡£
 
-1.4ŒnA1.5Œn—¼‘Î‰i‚ÌƒnƒYjB
-sidebar‘Î‰B
-calendar2Arecent_listAfootnoteƒvƒ‰ƒOƒCƒ“‚É‘Î‰B
+1.4·Ï¡¢1.5·ÏÎ¾ÂĞ±ş¡Ê¤Î¥Ï¥º¡Ë¡£
+sidebarÂĞ±ş¡£
+calendar2¡¢recent_list¡¢footnote¥×¥é¥°¥¤¥ó¤ËÂĞ±ş¡£
 
-Copyright 2003 (C) by ‚­‚í <kuwa@s26.xrea.com>
+Copyright 2003 (C) by ¤¯¤ï <kuwa@s26.xrea.com>
 validated by W3C.
 */
 
-/* ƒXƒNƒ[ƒ‹ƒo[@W3C‚Ìƒ`ƒFƒbƒN‚Í’Ê‚ç‚È‚¢‚Ì‚ÅƒRƒƒ“ƒg
+/* ¥¹¥¯¥í¡¼¥ë¥Ğ¡¼¡¡W3C¤Î¥Á¥§¥Ã¥¯¤ÏÄÌ¤é¤Ê¤¤¤Î¤Ç¥³¥á¥ó¥È
 html,body{
 scrollbar-3d-light-color: #fdd;
 scrollbar-highlight-color: #fdd;
@@ -94,7 +94,7 @@ h3{
 h3.subtitle{
 }
 
-/* “à—e */
+/* ÆâÍÆ */
 h2{
 	margin-bottom:0px;
 	font-size:110%;

@@ -1,6 +1,6 @@
 /*
 Title: plum
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: epi
 Access: <episode@104.net>
 License: GPL
@@ -94,14 +94,13 @@ background-color: transparent;
 background-position: right top;
 background-image: url("plum_righttop.png");
 background-repeat: no-repeat;
-height:50px;
+text-align: center;
 }
 /*
 日付の設定
 */
 h2 span.date {
 font-size: medium;
-text-align: center;
 background-color: transparent;
 background-position: left top;
 background-image: url("plum_lefttop.png");
@@ -113,7 +112,11 @@ display:block;
 タイトルの設定
 */
 h2 span.title {
+position:relative;
 font-size: large;
+top:-30px;
+color: #990033;
+background-color:transparent;
 }
 /*
 タイトルを除いた1日の日記本文全体の設定

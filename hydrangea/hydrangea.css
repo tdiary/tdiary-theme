@@ -1,10 +1,10 @@
 /*
 Title: Hydrangea
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
-Comment: ªÁÕ€≤÷§Œµ®¿·§À∏˛§±§∆
+Comment: éáózâ‘ÇÃãGêﬂÇ…å¸ÇØÇƒ
         
         Hydrangea Style Sheet of tDiary 
 	Copyright (c) 2002 oyuu
@@ -13,19 +13,25 @@ Comment: ªÁÕ€≤÷§Œµ®¿·§À∏˛§±§∆
 */
 
 a:link{ 
+	color: #7B68EE;
         text-decoration: underline;
-	color: #7B68EE 
 }
 a:visited{ 
+	color: #7B68EE;
         text-decoration: underline;
-	color: #7B68EE 
+ }
+a:active{
+	color: #B0C4DE;
+ 	text-decoration: none;
 }
-a:active  { color: #B0C4DE }
-a:hover   { color: #B0C4DE }
+a:hover{
+	color: #B0C4DE;
+ 	text-decoration: none;
+}
 
 body {
-	background-color: #ffffff;
 	color: #6A5ACD;
+	background-color: #ffffff;
 	margin: 0px
 }
 
@@ -48,6 +54,7 @@ h1 {
 }
 
 p.calendar {
+	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 90%;
 	margin: 3% 5% 1% 5%;
 	padding-bottom: 1%;
@@ -68,16 +75,18 @@ p.calendar {
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-top: 1%;
-	text-align: right
+	text-align: left
 }
 
 div.intro{
-	margin-left: 40%;
+	margin-top: 2%;
 	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
 }
 
 div.day {
-	margin: 2% 20% 2% 20%;
+	margin: 5% 20% 8% 20%;
 	padding: 1% 1% 1% 1%;
 }
 
@@ -89,15 +98,20 @@ h2 {
 }
 
 span.date {
+	font-size: 100%;
+	font-family: "Tempus Sans ITC", sans-serif;
 	font-style: normal;
-	margin-left: 0.5%
+	margin-left: 0.5%;
+	margin-right: 1%
 }
 
 span.title {
-	font-size: 100%
+	font-size: 100%;
+	font-style: normal
 }
 
 div.body {
+	font-size: 90%;
 	border-bottom: #8A7CD8 1px solid;
 	border-left: #8A7CD8 1px solid;
 	border-right: #8A7CD8 1px solid;
@@ -105,45 +119,43 @@ div.body {
 	margin-top: 3%;
 	margin-bottom: 3%;
 	padding: 1% 1% 1% 1%;
+	line-height: 1.5;
+}
+
+div.section {
+	margin-top: 2%;
+	margin-bottom: 2%
 }
 
 h3.subtitle {
-	font-size: 90%;
+	font-size: 120%;
 	font-weight: bold;
 	margin-top: 2%;
 	margin-bottom: 0.1%
 }
 
 div.day p {
-	line-height: 1.5;
 	margin-bottom: 0.5%;
 	margin-top: 0.5%;
 	text-indent: 1em
 }
 
 p {
-	font-size: 90%;
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
 }
 
 div.comment {
 	font-size: 90%;
+	line-height: 1.5;
 }
 
 p.commenttitle {
-	padding-left: 0.2% ;
+	font-size: 90%;
+	font-family: "Tempus Sans ITC", sans-serif;
+	padding-left: 1% ;
 	border-top: #8A7CD8 1px solid;
-	border-right: #8A7CD8 0px solid;
 	border-bottom: #8A7CD8 1px solid;
-	border-left: #8A7CD8 0px solid;
-}
-
-span.commentator {
-	border-top: #8A7CD8 1px solid;
-	border-right: #8A7CD8 0px solid;
-	border-bottom: #8A7CD8 1px solid;
-	border-left: #8A7CD8 0px solid;
-	color: #6A5ACD;
-	padding: 2px 1% 2px 1%;
 }
 
 div.comment p {
@@ -151,12 +163,17 @@ div.comment p {
 	text-indent: 0em
 }
 
+span.commentator {
+	color: #6A5ACD;
+	font-weight: bold;
+	padding: 1% ;
+}
+
 p.referer {
-	font-size: 90%;
+	font-size: 85%;
+	font-family: "Tempus Sans ITC", sans-serif;
 	border-top: #8A7CD8 1px solid;
-	border-right: #8A7CD8 0px solid;
 	border-bottom: #8A7CD8 1px solid;
-	border-left: #8A7CD8 0px solid;
 	padding-top: 0.2%;
 	padding-right: 1%;
 	padding-bottom: 0.2%;
@@ -169,18 +186,15 @@ div.refererlist {
 	border-right: #8A7CD8 0px solid;
 	border-bottom: #8A7CD8 1px solid;
 	border-left: #8A7CD8 0px solid;
-	font-size: 90%;
-	padding-top: 0.2%; 
+	font-size: 100%;
+	padding-top: 1%; 
 	padding-right: 1%;
 	padding-bottom: 0.2%;
 	padding-left: 1%;
 }
 
 p.referertitle {
-	border-top: #8A7CD8 0px solid;
-	border-right: #8A7CD8 0px solid;
 	border-bottom: #8A7CD8 1px solid;
-	border-left: #8A7CD8 0px solid;
 }
 
 UL.referer {
@@ -194,21 +208,21 @@ hr {
 	border-left: #8A7CD8 1px solid;
 }
 
-hr.sep { 
-        
-}
+hr.sep { display: none }
 
 .sfooter {}
 
 p.footer {
 	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 85%;
-	margin-right: 2%;
-	margin-bottom: 3%;
+	margin-right: 3%;
+	padding-bottom: 3%;
 	text-align: right
 }
 
 div.form {
+	font-size: 90%;
+	line-height: 1.5;
 	padding-top: 0.5%;
 	padding-right: 1%;
 	padding-bottom: 0.5%;
@@ -216,36 +230,39 @@ div.form {
 }
 
 div.form form {
-	width: 90%;
+	width: 100%;
 }
 
 input.field {
+        color: #06040F;
 	background-color: #ffffff;
 	border-right: 1px solid #8A7CD8;
 	border-left: 1px solid #8A7CD8;
 	border-top: 1px solid #8A7CD8;
 	border-bottom: 1px solid #8A7CD8;
         text-indent: 0em ! important;
-        color: #000;
+
 }
+
 input,select { 
         text-indent: 0em ! important;
 }
 
 textarea {
+	font-size: 90%;
+        color: #06040F;
 	background-color: #ffffff;
 	border-right: 1px solid #8A7CD8;
 	border-left: 1px solid #8A7CD8;
 	border-top: 1px solid #8A7CD8;
 	border-bottom: 1px solid #8A7CD8;
         text-indent: 0em ! important;
-        width: 90%;
-        color: #000;
+        width: 100%;
 }
 
 p.message {
-	background-color: #ffffff;
 	color: #6A5ACD;
+	background-color: #ffffff;
 	font-size: 100%;
 	padding-top: 8px;
 	padding-right: 8px;
@@ -255,14 +272,9 @@ p.message {
 }
 
 pre {
-	background-color: #ffffff;
-	border-top: #8A7CD8 2px solid;
-	border-right: #8A7CD8 2px solid;
-	border-bottom: #8A7CD8 2px solid;
-	border-left: #8A7CD8 2px solid;
 	color: #6A5ACD;
-	margin-right: 2%;
-	margin-left: 1%;
+	background-color: #DDDDFF;
+	font-size: 90%;
 	padding-top: 8px;
 	padding-right: 8px;
 	padding-bottom: 8px;
@@ -283,16 +295,17 @@ dd {
 }
 
 blockquote {
+	color: #6A5ACD;
 	background-color: #ffffff;
 	border-top: #8A7CD8 2px solid;
-	border-right: none;
+	border-right: #8A7CD8 2px solid;
 	border-bottom: #8A7CD8 2px solid;
-	border-left: none;
+	border-left: #8A7CD8 2px solid;
 	margin: 1% 2%;
-	padding-top: 0.5%;
-	padding-right: 0.5%;
-	padding-bottom: 0.5%;
-	padding-left: 0.5%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
 }
 
 div.section blockquote p {
@@ -308,11 +321,12 @@ em {
 }
 
 strong {
-	background-color: #DDDDFF;
-	color: #000046
+	color: #000046;
+	background-color: #ffffff;
 }
 
 .hide {
+	color: #000000;
 	background-color: #ffffff
 }
 
@@ -338,3 +352,28 @@ table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
         text-align: center;
 }
+
+div.day span.date a:link {
+	text-decoration: none;
+}
+
+div.day span.date a:visited {
+	text-decoration: none;
+}
+
+div.day h3.subtitle a:link {
+	text-decoration: none;
+ }
+
+div.day h3.subtitle a:visited{
+	text-decoration: none;
+}
+
+div.day div.comment a:link {
+ 	text-decoration: none;
+ }
+ 
+div.day div.comment a:visited {
+	text-decoration: none;
+}
+

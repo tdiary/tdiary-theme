@@ -1,0 +1,502 @@
+/*
+Title: Sakana
+Revision: $Revision: 1.1 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 1.5系
+	Copyright(C)2002 Nana
+	validated by W3C.
+ */
+
+/*
+リンク文字列に関する設定
+*/
+a:link {
+        background-color: transparent;
+	color: #0080FF;
+	text-decoration: none;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #9370DB;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	
+	
+}
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #cdffff;
+	color: #505050;
+        border-style: none;
+        border-color: #cccccc;
+        border-width: 8px;
+        background-image: url(sakana_bg-b.jpg);
+        background-repeat: repeat-x;
+        background-position: center bottom;
+        background-attachment: fixed;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+div.adminmenu {
+	font-size: small;
+	float: right;
+}
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: transparent;
+        color: #3CB371;
+        /*border-style: solid;
+        border-color: #eee #aaa #aaa #eee;
+        border-width: 1px;*/
+        padding: 3px;
+        border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        background-color: #E0FFFF;
+}
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: red;
+	color: #000;
+	padding: 8px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: left;
+        color: #0080FF;
+}
+
+/*
+カレンダーの設定
+*/
+div.calendar {
+	border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        background-color: #E0FFFF;
+        padding: 0px;
+        text-align: right;
+        margin-top: 1px;
+}
+div.calendar div.year {
+        font-weight: bold;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin: 0em;
+	margin-bottom: 2em;
+	/*border-style: dotted;
+	border-color: #5acffb;
+	border-width: 0px 0px 1px 0px;*/
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	/*margin-right: 12px;*/
+	padding: 2px 0px 2px 1em;
+	text-align: left;
+        font-size: 1em;
+        border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        background-color: #E0FFFF;
+}
+/*
+日付の設定
+*/
+h2 span.date {
+        font-size: 1.1em;
+}
+
+span.date a {
+	color: #9370DB;
+        background-color: transparent;
+}
+
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+}
+/* This ">" selector does not affect IE */
+div.day div.section > * {
+	margin-left: 100px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3 {
+        margin: 0em ! important;
+	padding: 0em;
+	font-weight: bold;
+	font-size: 1em;
+	border-style: none;
+	border-color: #e00;
+	border-width: 0px 0px 3px 0px;
+}
+
+div.section p {
+	line-height: 130%;
+	
+}
+
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.panchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+div.day span.panchor {
+	background-image: url(sakana_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 27px 24px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(sakana_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 22px 22px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+/*
+ツッコミ/フォーム/リンク元のキャプション設定
+*/
+div.caption {
+       	font-size: 0.9em;
+	border-style: dotted;
+	border-color: #5acffb;
+	border-width: 1px 0px 1px 0px;
+	margin: 1em;
+	
+}
+
+pre {
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        margin-left: 100px;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: 0.9em;
+	margin-left: 100px;
+        text-align: left;
+	padding: 2px;
+	padding-bottom: 2px;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin: 0em ! important;
+	font-size: 0.9em;
+}
+
+span.commentator {
+        color: #7B68EE;
+        /*background-color: #F0F8FF;*/
+	/*display: block;*/
+	font-weight: bold;
+	/*border-style: none none solid none;
+	border-color: #7B68EE;
+	border-width: 0px 0px 1px 0px;*/
+}
+
+div.commentshort p {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+p.commenttitle {
+	text-align: left;
+	/*margin-left: 0em ! important;*/
+	border-style: none;
+	border-color: #5acffb;
+	border-width: 0px 0px 2px 0px;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+div.comment p {
+	padding: 0em;
+	line-height: 130%;
+}
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+	font-weight: bold;
+        color: #7B68EE;
+        /*background-color: #F0F8FF;*/
+}
+
+p.referertitle {
+	border-style: none;
+	border-color: #e00;
+	border-width: 0px 0px 3px 0px;
+}
+
+/*
+リンク元リスト(Month/Latestモード)の設定
+*/
+div.referer {
+	text-align: right;
+	font-size: small;
+	color: #505050;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 2px;
+	margin-left: 100px;
+}
+/*
+リンク元リスト(Dayモード)の設定
+*/
+div.refererlist {
+	font-size: 0.9em;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+        margin-left: 100px;
+}
+
+ul.referer li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 0.9em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #5acffb;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: left;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-left: 10%;
+        border-style: dotted solid dotted solid;
+	border-color: #5acffb;
+	border-width: 1px 5px 1px 5px;
+        background-color: #ffffff;
+        background-color: transparent;
+       
+}
+
+input.field {
+        color: #000000;
+        background-color: #ffffff;
+        margin:2px;
+}
+       
+input, select {
+        color: #000000;
+        border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        background-color: #ffffff;
+        
+}
+
+textarea {
+	margin-left: 1em;
+	border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        background-color: #ffffff;
+        color: #000000;
+}
+
+/*
+箇条書きの設定
+*/
+div.body ul, div.body ol {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+/*
+項目リストの設定
+*/
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin: 0em 3em 0.5em 1em;
+}
+
+li {
+	list-style-type:lower-roman;
+}
+
+p.strong{
+    font-size: 200%;
+    color: #000000;
+    background-color: transparent;
+}
+.memo{
+    background-color: #6495ed;
+    color: #fff;
+}
+
+/*.hide{
+    background-color: #505050;
+}*/
+
+div.footnote p.footnote{
+	margin-left: 100px;
+        border-style: dotted none dotted solid;
+	border-color: #5acffb;
+	border-width: 0px 0px 0px 5px;
+        padding: 3px;
+	color: #505050; 
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 0.8em;
+        line-height: 100%;
+        border-style:  solid;
+	border-color: #5acffb;
+	border-width: 1px;
+        color: #505050;
+        background-color: #E0FFFF;
+        padding: 3px;
+}
+table.calendar td a:link,a:visited{
+        text-decoration: none;
+}
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+
+blockquote {
+        border-width: 3px 0px 1px 0px;
+	border-style: solid solid solid solid;
+	border-color: #87CEFA;
+	background-color: #E0FFFF;
+        color: #191970;
+        padding: 2px;
+      
+}
+
+div.rank {
+	font-size: 0.8em;
+	text-align: left;
+	margin: 0em;
+        padding-bottom: 2px;
+}
+span.big {
+        font-size:20pt;
+        color: blue;
+        background-color: transparent;
+}
+.calendar-popup {
+	display: none;
+	text-align: left;
+	background-color: #fff;
+	position: absolute;
+	border-style: dotted;
+	border-width: 1px;
+        border-color: #B0C4DE;
+	padding: 0 1ex 0 1ex;
+}
+
+.calendar-day a{
+	font-weight: bold;
+}
+
+.calendar-sunday {
+	color: #DA70D6;
+}
+
+.calendar-saturday {
+	color: #1E90FF;
+}
+
+.calendar-weekday {
+	color: #999999;
+}
+

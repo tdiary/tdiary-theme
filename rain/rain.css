@@ -1,6 +1,6 @@
 /*
 Title: rain
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-color: #D8D7EA;
 	color: #333333;
 	margin: 0px;
-	font-family: Arial,Verdana,Helvetica,sans-serif;
 }
 
 /*
@@ -72,7 +71,6 @@ h1 {
 	background-position: bottom left;
 	background-repeat: repeat-x;
 	letter-spacing: 0.2em;
-	font-family: "Comic sans MS",sans-serif;
 }
 
 /*
@@ -112,7 +110,6 @@ h2 {
 	font-size: 130%;
         color: #ffffff;
         letter-spacing: 0.2em;
-	font-family: "Comic sans MS",sans-serif;
 }
 
 /*

@@ -4,11 +4,14 @@ Access: moonwave@ba2.so-net.ne.jp
 License: GPL
 Comment: 黒バック独特の嫌味を消すように配慮したテーマ
 
-	quiet_black.css: Style Sheet of tDiary $Revision: 1.1 $
+	quiet_black.css: Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	このthemeは、段落の先頭が1文字分インデントされる仕様です
 
 ChangeLog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

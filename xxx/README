@@ -8,6 +8,9 @@ Comment: X'mas¤Ã¤Ý¤¯
         Validated by W3C
 
 ChangeLog
+2003-09-14 NT <nt@be.to>
+	* remove specification of font-family.
+
 2003-03-14 TADA Tadashi <sho@spc.gr.jp>
 	* font-size: em -> %.
 

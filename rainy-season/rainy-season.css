@@ -1,6 +1,6 @@
 /*
 Title: rainy-season
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: naoko
 Access: naoko@undefine.to
 License: GPL
@@ -607,7 +607,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

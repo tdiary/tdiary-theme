@@ -7,6 +7,10 @@ Comment: 想い出のユーコン
 Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
 
+Changelog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-11-20 zoe <zoe@kasumi.sakura.ne.jp>
 	* add div.main for sidebar.
 

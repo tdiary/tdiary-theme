@@ -8,6 +8,10 @@ Comment: 全体がやや右寄せ
 	validated by W3C.
 
 ChengeLog
+2003-09-14 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

@@ -1,5 +1,5 @@
 Title: Rain
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
@@ -9,11 +9,15 @@ Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 ChangeLog
-	2003-03-06 Nana <clorets@estyle.ne.jp>
+2003-09-14 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2003-03-06 Nana <clorets@estyle.ne.jp>
 	* add rain Theme.
 
 Memo 
-	2003-03-06 Nana <clorets@estyle.ne.jp>
+2003-03-06 Nana <clorets@estyle.ne.jp>
 	* このテーマは設定画面のヘッダに<%=navi%>より前に日記タイトル<h1>を入れる事をお勧めします。
 	<h1>日記タイトル</h1><%=navi%>な感じに。
 	

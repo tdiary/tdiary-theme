@@ -8,5 +8,8 @@ Comment: Xmas§ µ®¿·§À
 	validated by W3C
 
 ChangeLog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-12-15
 	* convert for 1.5 series. Nana <moo@xu.boo.jp>

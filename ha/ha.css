@@ -1,6 +1,6 @@
 /*
 Title: ハート
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 背景にハートマークがちりばめられています
@@ -8,6 +8,11 @@ Comment: 背景にハートマークがちりばめられています
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
  */
 /* ChangeLog
+2002-06-07 Nana
+        * removed a:hover #fff, add text-decoration:underline
+        * div.day font-size16px->1em
+        * removed p.calendar width:80%,font-size:small
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 	* div.comment align left.
@@ -36,8 +41,7 @@ a:visited {
 }
 
 a:hover,a:active {
-	text-decoration: none;
-	color: #FFf;
+	text-decoration: under-line;
 }
 
 p.adminmenu {
@@ -65,25 +69,22 @@ h1 {
 }
 
 p.calendar {
-    
-	font-size: small;
 	font-weight: bold;
 	text-align: center;
 	padding: 5px;
 	border-style: solid;
 	border-color: #F879AA;
 	border-width: 0px 0px 3px 0px;
-	width:80%
 }
 
 div.day {
 	-moz-opacity:0.8;
 	filter:Alpha(opacity=85);
 	background-color: #fff;
-	font-size: 16px;
+	font-size: 1em;
 	margin: 3em auto 3em auto;
 	clear: both;
-	width: 80%;
+	/*width: 80%;*/
 	border-style: solid;
 	border-color: #F879AA;
 	border-width: 3px;

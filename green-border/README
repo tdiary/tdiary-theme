@@ -8,6 +8,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-Log
+2002-10-21 Nana <mpc@mikan.sakura.ne.jp>
+	* set form.search {text-align:right}
+	
 2002-09-23 NT <nt@24i.net>
         * convert for 1.5 series.
 

@@ -3,22 +3,11 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
         Title: Green-border
-	Revision: $Revision: 1.6 $
+	Revision: $Revision: 1.7 $
 	Author: Nana
-	Comment: support calendar2
+	Comment: $B%+%(%k$/$s$J%F!<%^(B
 */
 
-/*
-Change-Log
-2002-09-23 NT <nt@24i.net>
-        * convert for 1.5 series.
-
-2002-04-15 Nana
-        * div.form margin-left:10%--> 0
-            
-2002-04-17 Nana
-        * support calendar2
- */
 
 div.rank {
         margin-left: 25%;
@@ -367,7 +356,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+$B%D%C%3%_>JN,HGK\J8(B
 */
 div.commentshort {
         font-size: 0.9em;
@@ -385,7 +374,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+$B%D%C%3%_K\BN(B
 */
 div.commentbody {
         font-size: 0.9em;
@@ -394,7 +383,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ðÊó
+$B%D%C%3%_$7$??M$N>pJs(B
 */
 div.commentator {
         border-style: solid;
@@ -404,7 +393,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+$B%D%C%3%_K\J8(B
 */
 div.commentbody p {
         margin: 0.5em;
@@ -412,7 +401,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+$B%U%)!<%`$N@_Dj(B
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -461,7 +450,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+$B99?7%U%)!<%`(B
 */
 form.update {
         padding-top: 0.5em;
@@ -506,8 +495,15 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+$B%D%C%3%_>uBVJQ99%U%)!<%`(B
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+$B8!:w%U%)!<%`(B
+*/
+form.search {
+	text-align:right;
 }

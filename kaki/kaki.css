@@ -1,0 +1,454 @@
+/*
+Title: 柿
+Revision: $Revision: 1.2 $
+Author: oyuu
+Access: oyuu@mocha.freemail.ne.jp
+License: GPL
+Comment: パステル系オレンジ色のテーマ
+*/
+/*
+        Kaki Style Sheet for tDiary 
+	Copyright (c) 2002 oyuu
+	validated by W3C.
+*/
+
+a:link{ 
+	color: #ff7f50;
+        text-decoration: none;
+}
+a:visited{ 
+	color: #ff5610;
+        text-decoration: none;
+ }
+a:active{
+	color: #ffffff;
+	background-color: #ff7f50;
+ 	text-decoration: none;
+}
+a:hover{
+	color: #ffffff;
+	background-color: #ff7f50;
+ 	text-decoration: none;
+}
+
+body {
+	color: #886d00;
+	background-color: #ffffff;
+	margin: 0px;
+	font-family: "Book Antiqua", serif;
+}
+
+div.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+span.adminmenu {}
+
+h1 {
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
+	font-size: 150%;
+}
+
+div.calendar {
+	font-size: 90%;
+	margin: 3% 5% 1% 5%;
+	padding: 1%;
+	text-align: right;
+}
+
+.headline {
+	font-size: 90%;
+	margin: 0% 10% 0% 10%;
+	padding: 2%;
+	text-align: left;
+	background-color: #ffee99;
+}
+
+div.intro{
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+div.day {
+	margin: 1% 10% 1% 10%;
+	padding: 1% 1% 1% 1%;
+}
+
+h2 {
+	font-size: 100%;
+	background-color: #ffdd77;
+	padding: 0.5%;
+}
+
+h2 span.date {
+	font-size: 100%;
+	font-style: normal;
+	margin-left: 0.5%;
+	margin-right: 1%
+}
+
+h2 span.title {
+	font-size: 100%;
+	font-style: normal
+}
+
+div.body {
+	font-size: 90%;
+	border: #ffdd77 3px solid;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding: 1% 1% 1% 1%;
+	line-height: 1.5;
+}
+
+div.section {
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 0.1%
+}
+
+div.day p {
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+div.section p {
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+}
+
+div.comment {
+	font-size: 90%;
+	line-height: 1.5;
+}
+
+div.comment div.caption {
+	font-size: 100%;
+	padding-left: 1% ;
+	border-top: #ffdd77 2px solid;
+	border-bottom: #ffdd77 2px solid;
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+
+div.referer {
+	font-size: 90%;
+	border-top: #ffdd77 2px solid;
+	border-bottom: #ffdd77 2px solid;
+	text-align: right;
+	line-height: 1.5;
+}
+
+div.refererlist {
+	border-top: #ffdd77 2px solid;
+	border-bottom: #ffdd77 2px solid;
+	font-size: 85%;
+	padding: 1%; 
+}
+
+div.refererlist div.caption {
+	border-bottom: #ffdd77 2px solid;
+}
+
+UL.referer {
+	margin-top: 0em;
+}
+
+hr {}
+
+hr.sep { display: none }
+
+.sfooter {}
+
+div.footer {
+	font-size: 90%;
+	margin-right: 3%;
+	padding-bottom: 3%;
+	text-align: right
+}
+
+div.form {
+	font-size: 90%;
+	line-height: 1.5;
+	margin: 1% 5% 1% 5%;
+	padding: 1%;
+	text-align: center;
+}
+
+div.form form {
+	width: 100%;
+}
+
+input.field {
+        color: #06040F;
+	background-color: #ffffff;
+	border: 2px solid #ffdd77;
+        text-indent: 0em ! important;
+
+}
+
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	font-size: 90%;
+        color: #06040F;
+	background-color: #ffffff;
+	border: 2px solid #ffdd77;
+        text-indent: 0em ! important;
+        width: 100%;
+}
+
+p.message {
+	color: #886d00;
+	background-color: #ffffff;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-align: center;
+}
+
+pre {
+	color: #886d00;
+	background-color: #ffee99;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.body blockquote {
+	color: #886d00;
+	background-color: #ffffff;
+	border: #ffdd77 2px solid;
+	margin: 1% 2%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+div.section blockquote p {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+em {
+	background-color: #ffffff;
+	color: #2c2400;
+	font-style: italic;
+	font-weight: normal
+}
+
+strong {
+	color: #2c2400;
+	background-color: #ffffff;
+	font-style: italic;
+	font-weight: bold
+}
+
+.hide {
+	color: #000000;
+	background-color: #ffffff
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 0.8em;
+        line-height: 100%;
+        border-width: 2px;
+        border-color: #ffdd77;
+        border-style: solid;
+        background-color: transparent;
+        margin: 3%;
+}
+
+table.calendar td {
+        margin: 3px;
+        text-align: right;
+        padding: 3px;
+        margin: 3px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+
+
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+	font-weight: bold;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #ffffff;
+        color: #06040F;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+	text-align: center;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #ffffff;
+        color: #06040F;
+        width: 30em;
+        height: 5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #ffffff;
+        color: #06040F;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+	text-align: center;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+div.day.update div.comment {
+	text-align: center;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form{
+        margin-top: 0em;
+}

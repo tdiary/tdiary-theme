@@ -1,0 +1,12 @@
+Title: Aoikuruma
+Revision: $Revision: 1.1 $
+Author: Nana
+Access: <clorets@estyle.ne.jp>
+License: GPL
+Comment: 青い車♪READMEもお読み下さい。
+
+Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
+validated by W3C.
+
+Memo 	ヘッダ、フッダに文章を入れる場合は<div class="rank"><p>ここに文字文字文字</p></div>
+	などとしてもらえると背景が白、左右の枠が青になり日記と違和感無く綺麗にレイアウトされます。

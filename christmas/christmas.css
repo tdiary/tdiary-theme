@@ -1,0 +1,543 @@
+/*
+Title: christmas
+Revision: $Revision: 1.2 $
+Author: shimery
+Access: shim@s5.xrea.com
+License: GPL
+Comment: クリスマス限定。
+ */
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body  {
+	color: #fff;
+	background-color: #00542E;
+}
+
+/*
+リンク文字列に関する設定
+*/
+a:link   {
+	color: #77aa33;
+	text-decoration: none;
+}
+
+a:visited   {
+	color: #77aa33;
+	text-decoration: none;
+}
+
+a:hover  {
+	color: #cc6666;
+	text-decoration: underline;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+div.adminmenu {
+	font-size: small;
+	margin: 2px 15% 1px;
+	padding: 2px;
+	border: solid 1px #fff;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu   {
+	padding: 4px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1  {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: left;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+/*
+カレンダーの設定
+*/
+div.calendar {
+	color: #fff;
+	text-align: right;
+	font-size: 0.9em;
+	margin: 1px 15% 0.5em;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day  {
+	background-color: #fff;
+	color: #333;
+	width: 500px;
+	margin: 0.5em auto;
+	padding-top: 2px;
+	padding-bottom: 0.5em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2  {
+	background-image: url(christmas_h2.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 450px;
+	height: 26px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;	/* Opera 用 */
+}
+
+/*
+日付の設定
+*/
+h2 span.date {
+	font-size: medium;
+	font-weight: bold;
+	margin-left: 1em;
+}
+
+/*
+タイトルの設定
+*/
+h2 span.title {
+	font-weight: bold;
+	font-size: medium;
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body  {
+	margin-right: 2em;
+	margin-left: 4em;
+	margin-top: 0px;
+	padding: 2px 2px 0px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	background-image: url(christmas_h3.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	margin-bottom: 0px;
+	padding: 2px 0px 4px;
+}
+
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.panchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+/*
+div.day span.sanchor {
+	background-image: url(default_panchor.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	padding: 38px 20px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(default_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+*/
+
+/*
+日記の本文(段落)の設定
+*/
+div.section p {
+	line-height: 1.3em;
+	margin-top: 0.2em;
+	margin-bottom: 0.7em;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment  {
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	margin-right: 4em;
+	margin-left: 5em;
+	padding: 2px 2px 1px;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+div.comment div.caption {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	border-top: 1px solid #669900;
+	border-bottom: 1px solid #669900;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+
+/*
+リンク元リスト(短い方)の設定
+*/
+div.referer {
+	font-size: 0.9em;
+	text-align: right;
+	background-image: url(christmas_com.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding: 2px 4em 20px 2px;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist  {
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	margin-right: 4em;
+	margin-left: 5em;
+	padding: 2px 2px 1px;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+div.refererlist div.caption {
+	border-bottom: 1px solid #669900;
+	padding-bottom: 2px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr  {
+/*	border-top: 2px solid #fcc;*/
+	background-image: url(christmas_hr.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 210px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+/*	display: none;*/
+}
+
+/*
+フッタの設定
+*/
+div.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+	padding-right: 4px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form  {
+	color: #333;
+	background-color: #fff;
+	padding: 0.5em 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+	color: #000;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	color: #000;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre  {
+	font-size: small;
+	background-color: #fee;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 4px;
+	border-color: #faa;
+}
+
+/*
+引用(blockquoteタグ)の設定
+*/
+div.body blockquote {
+	background-color: #fee;
+	margin-right: 3em;
+	margin-left: 3em;
+	padding: 4px;
+	border-style: solid;
+	border-width: 4px 1px 4px 1px;
+	border-color: #faa;
+}
+
+/*
+項目リストの設定
+*/
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* calendar2 */
+table.calendar  {
+	font-size: x-small;
+	line-height: 100%;
+	border: dashed 1px #77aa33;
+}
+
+table.calendar td {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1.2em;
+}
+
+/* footnote */
+div.body span.footnote  {
+	font-size: x-small;
+	vertical-align: super;
+}
+
+div.footnote  {
+	font-size: small;
+	margin-right: 1em;
+	margin-left: 1em;
+	border-top: 1px solid #fcc;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+div.commentator {
+	border-bottom: 1px solid #fcc;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: #000;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: #000;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+div.update.day div.form {
+        border: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: #000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

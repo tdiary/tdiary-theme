@@ -1,6 +1,6 @@
 /*
 Title: White Lingerie
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Sarsya
 Access: none
 License: GPL
@@ -36,7 +36,7 @@ body {
 A:link{color:#FFC0CB}
 A:visited{color:#FF99CC}
 A:active{color:#9370DB}
-A:hover { color:#DDA0DD; }
+A:link:hover { color:#DDA0DD; }
 
 /*
 ページトップにある操作ボタンの並ぶ行の設定

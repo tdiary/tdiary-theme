@@ -1,6 +1,6 @@
 /*
 Title: 張り紙
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -130,31 +130,31 @@ div.day span.sanchor {
 	font-size: 1px;
 }
 /* ナンバリングアンカー */
-div.day a.p01 span.panchor {
+div.day a.p01 span.sanchor {
 	background-image: url(paper_p01.png);
 }
-div.day a.p02 span.panchor {
+div.day a.p02 span.sanchor {
 	background-image: url(paper_p02.png);
 }
-div.day a.p03 span.panchor {
+div.day a.p03 span.sanchor {
 	background-image: url(paper_p03.png);
 }
-div.day a.p04 span.panchor {
+div.day a.p04 span.sanchor {
 	background-image: url(paper_p04.png);
 }
-div.day a.p05 span.panchor {
+div.day a.p05 span.sanchor {
 	background-image: url(paper_p05.png);
 }
-div.day a.p06 span.panchor {
+div.day a.p06 span.sanchor {
 	background-image: url(paper_p06.png);
 }
-div.day a.p07 span.panchor {
+div.day a.p07 span.sanchor {
 	background-image: url(paper_p07.png);
 }
-div.day a.p08 span.panchor {
+div.day a.p08 span.sanchor {
 	background-image: url(paper_p08.png);
 }
-div.day a.p09 span.panchor {
+div.day a.p09 span.sanchor {
 	background-image: url(paper_p09.png);
 }
 

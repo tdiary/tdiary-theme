@@ -1,6 +1,6 @@
 /*
 Title: Yukon
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -162,7 +162,7 @@ h3 {
   - colorに背景色と同じ色を指定(文字を見えなくするため)
 */
 /*
-div.day h3 span.panchor {
+div.day h3 span.sanchor {
 	background-image: url(sanchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;

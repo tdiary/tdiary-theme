@@ -2,7 +2,7 @@
 	ajisai.css: Ajisai Style Sheet of tDiary
 	Copyright by (C) sapphire <http://sapphire.tdiary.net/>
 	Title:ajisai
-	Revision: $Revision: 1.3 $
+	Revision: $Revision: 1.4 $
 	Author: sapphire
 	Comment: 雨の日もさわやかに
 
@@ -140,7 +140,7 @@ div.comment {
 	font-size : 90%;
 }
 
-.panchor {
+span.sanchor {
 	padding : 15px 16px 0 0;
 	color : #FFFFFF;
 	background-color : transparent;
@@ -150,7 +150,7 @@ div.comment {
 	font-size : 1px;
 }
 
-.canchor {
+span.canchor {
 	padding : 10px 10px 0 0;
 	color : #FFFFFF;
 	background-color : transparent;

@@ -7,7 +7,10 @@ Comment: 涼しげな魚のイメージ
 	validated by W3C.
 		 
 Changelog
-	2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+	* change span.panchor -> span.sanchor.
+
+2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
        	* delete no need lines
 	* add .calendar-todo {border : 1px solid white;}
 	

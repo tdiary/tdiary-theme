@@ -9,6 +9,9 @@ Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
 
 ChangeLog
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+	* change span.panchor -> span.sanchor. I forgot about number_anchor.
+
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

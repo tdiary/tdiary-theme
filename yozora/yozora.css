@@ -4,19 +4,15 @@ Author: Sarsya&Nana
 Access: 
 Comment: 夜空をイメージしたテーマ
 License: see Hanayashiki<http://vanilla.ath.cx/~Hanayashiki/>
-
+        
 	Yozora Style Sheet of tDiary
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
         
         Modified by Nana <mpc@mikan.sakura.ne.jp>
         背景画像はSarsya、cssはNanaが製作した共同テーマです。画像の加工は禁止させて頂きます。
+       validated by W3C. 
  */
-/* ChangeLog
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-	* div.comment align left.
-*/
 
 body {
 	text-align : center;
@@ -26,14 +22,6 @@ body {
 	background-attachment:fixed;
 	color: #999;
 	background-color: #000;
-	/* scrollbar property is only for IE. */
-	scrollbar-face-color: #000;
-	scrollbar-highlight-color: #000;
-	scrollbar-3dlight-color: #000;
-	scrollbar-darkshadow-color: #000;
-	scrollbar-shadow-color: #000;
-	scrollbar-arrow-color: #BDD6C6;
-	scrollbar-track-color: #000;
 }
 
 a:link {
@@ -75,7 +63,7 @@ div.calendar {
 	font-size: small;
 	font-weight: bold;
 	background-color: transparent;
-	text-align: center;
+	text-align: left;
 	padding: 2px;
 	border-style: solid;
 	border-color: #ADCD03;
@@ -187,17 +175,6 @@ div.comment div.caption {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-style: none;
-}
-
-p.comment {
-	text-align: left;
-	color: #800040;
-	padding: 0px 0px 0px 0px;
-	margin-left: 24px;
-	margin-right: 12px;
-	margin-top: 0px;
-	margin-bottom: 2px;
-	line-height: 1.0;
 }
 
 div.refererlist div.caption {
@@ -329,7 +306,7 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+	font-family:"Comic Sans MS","ＭＳ UI ゴシック",sans-serif;
 	color: #400080;
 }
 

@@ -5,7 +5,7 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 
 License: GPL
 
-       xmas.css: X'mas Style Sheet of tDiary $Revision: 1.6 $
+       xmas.css: X'mas Style Sheet of tDiary $Revision: 1.7 $
        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
        Modified by TADA Tadashi
 
@@ -28,27 +28,27 @@ body {
        background-color: #000;
        color: #fff;
        border-style: none solid none solid;
-       border-color: transparent #006600 transparent #006600;
+       border-color: #006600;
        border-width: 30px;
-    /* scrollbar property is only for IE. */
+    /* scrollbar property is only for IE. 
        scrollbar-face-color: #000;
        scrollbar-highlight-color: #000;
        scrollbar-3dlight-color: #000;
        scrollbar-darkshadow-color: #000;
        scrollbar-shadow-color: #000;
        scrollbar-arrow-color: #BDD6C6;
-       scrollbar-track-color: #000;
+       scrollbar-track-color: #000;*/
 }
 
 a:link {
         text-decoration: none;
         color: #ffd700;
-        font-weight:bold;
+       /*font-weight:bold;*/
 }
 
 a:visited {
         text-decoration: none;
-        font-weight:bold;
+       /*font-weight:bold;*/
         color: #ffd700;
 }
 
@@ -91,7 +91,7 @@ h1 {
 */
 div.calendar {
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	padding: 5px;
         border-style: none;
 	border-color: #000;
@@ -102,7 +102,7 @@ div.calendar {
 1日の日記全体を囲む枠の設定
 */
 div.day {
-/*      -moz-opacity:0.8;
+	/*-moz-opacity:0.8;
         filter:Alpha(opacity=80);*/
         background-color: #000;
         color: #fff;
@@ -110,10 +110,10 @@ div.day {
 	text-align: left;
 	clear: both;
 	width: 80%;
-	border-style: dotted;
+       /* border-style: dotted;
 	border-color: #fff;
-	border-width: 3px;
-	padding: 0px 8px 0px 8px;
+	border-width: 3px;*/
+	padding: 8px;
 }
 
 /*
@@ -182,7 +182,7 @@ h3 {
 pre {
 	border-style: none;
 	font-size: small;
-    　　background-color: #fff;
+	background-color: #fff;
         color: #005AC9; 
 	border-color: #fcc;
 	margin-left: 1em;
@@ -498,4 +498,32 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+/* 引用 */
+blockquote {
+	padding: 8px;
+	border: ridge 3px white;
+}
+
+/* calendar2 */
+       table.calendar {
+       font-size: small;
+       line-height: 100%;
+       border: solid 2px green;			       		      
+       padding: 3px;
+       background-color: black;
+       color: white;
+}
+table.calendar td a:link,a:visited{
+       text-decoration: none;
+}
+table.calendar td {
+       margin: 0px;
+       text-align: right;
+       padding: 0px;
+       margin: 0px;
+}
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
 }

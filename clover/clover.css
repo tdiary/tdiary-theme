@@ -1,5 +1,5 @@
 /*
-clover.css: クローバー $Revision: 1.4 $
+clover.css: クローバー $Revision: 1.5 $
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Distributed under the GPL.
@@ -7,6 +7,10 @@ Distributed under the GPL.
 validated by W3C.
 */
 /* ChangeLog
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* image color down to 7bit.
+	* no underline for links.
+
 2002-03-28 TADA Tadashi <sho@spc.gr.jp>
 	* support new amazon plugin.
 
@@ -23,11 +27,13 @@ body {
 a:link {
 	color: #3faf43;
 	background-color: transparent;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #080;
 	background-color: transparent;
+	text-decoration: none;
 }
 
 p.adminmenu {

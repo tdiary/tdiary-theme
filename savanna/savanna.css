@@ -1,6 +1,6 @@
 /*
 Title: savanna
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: abbey
 Access: inlet@sd6.so-net.ne.jp
 License: GPL
@@ -52,8 +52,9 @@ h1 {
 
 div.day {
 	text-align: left;
-	padding: 15px 0 15px 15px;
-	margin: 0 10%;
+	margin: 0px;
+	padding: 15px 0px 15px 15px;
+	border: 1px solid #fff;
 	border-left: 10px double #ddd;
 }
 
@@ -383,9 +384,7 @@ div.calendar {
 	color: #333;
 	border-left: double #ddd 10px;
 	border-top: solid #ddd 1px;
-	margin: 0 10%;
 }
-
 /* amazon plugin */
 img.left {
 	border-width: 0px;
@@ -463,4 +462,29 @@ div.calendar3 {
 .calendar-weekday {
 	background-color: transparent;
 	color: #333;
+}
+/* sidebar */
+div.sidebar {
+	font-size: 90%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 15%;
+  padding: 2px 2px 100% 2px;
+	border-style: none;
+	border-color: #ddd;
+	border-width: 0px 2px 2px 0px;
+	padding-top: 0.5em;
+}
+div.main{
+	margin-left: 21%;
+}
+
+div.sidebar p {
+  line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+  margin: 2px 4px 2px 4px;
 }

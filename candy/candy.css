@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.9 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.10 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -120,7 +120,7 @@ div.body {
 	margin-left: 2em;
 }
 
-p {
+div body p {
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 0.5em;
@@ -162,6 +162,17 @@ pre {
 	margin-left: 2em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
+}
+
+blockquote {
+	background-color: #ffee55;
+	color: black;
+	border-style: solid;
+	border-color: gold;
+	border-width: 3px 1px 3px 1px;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 0px 8px 0px 8px;
 }
 
 div.comment {

@@ -1,9 +1,12 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.7 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.8 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
 /* CangeLog
+2002-03-15 TADA Tadashi <sho@spc.gr.jp>
+	* fix color bug.
+
 2002-03-14 TADA Tadashi <sho@spc.gr.jp>
 	* marge with the theme of Asumi Diary.
 	* add span.panchor and span.canchor.
@@ -327,7 +330,7 @@ div.main {
 
 div.sidebar {
 	border-style: solid;
-	border-color: #8B000;
+	border-color: #8B0000;
 	border-width: 0px 1px 0px 0px;
 	position: absolute;
 	top: 0px;

@@ -1,6 +1,6 @@
 /*
 Title: cat
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -79,9 +79,6 @@ div.day {
 	padding: 1.5em 1.5em 0px 1.5em;
 	background-color: #fff;
 	color: #555;
-	/*background-image: url(cat_bottom.png);
-	background-repeat: repeat-x;
-	background-position: bottom right;*/
 }
 
 /*

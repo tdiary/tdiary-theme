@@ -1,9 +1,9 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
-comment: sodapop_back.jpg¤ÏÃøºî¸¢¤Î´Ø·¸¤Ç´Þ¤Þ¤ì¤Æ¤¤¤Þ¤»¤ó¡£¤ª¹¥¤­¤ÊÇØ·Ê¥¤¥á¡¼¥¸¤òÍÑ°Õ¤·¤Æ¤¯¤À¤µ¤¤¡£
+Comment: support calendar2
 
    Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
 
@@ -11,6 +11,8 @@ comment: sodapop_back.jpg¤ÏÃøºî¸¢¤Î´Ø·¸¤Ç´Þ¤Þ¤ì¤Æ¤¤¤Þ¤»¤ó¡£¤ª¹¥¤­¤ÊÇØ·Ê¥¤¥á¡¼¥¸¤
    ¤ª¹¥¤­¤ÊÇØ·Ê¥¤¥á¡¼¥¸¤òÍÑ°Õ¤·¤Æ¤¯¤À¤µ¤¤¡£
 */
 /* ChengeLog
+2002-05-05 Nana
+        *support calendar2.
 2002-04-05 TADA Tadashi
 	* add spec.
 	* div.comment align left;
@@ -261,3 +263,27 @@ pre {
   padding: 1em;
   border: 1px solid #666;
 }
+
+/* calendar2 */
+table.calendar {
+        background-color: #fff;
+	font-size: small;
+	border-style: solid;
+        border-width: 10px 1px 1px 1px;
+        border-color: #9cc #ddd #ddd #ddd;
+	color: #999;
+	padding: 1px;
+	margin: 2px auto;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+

@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.6 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.7 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -136,7 +136,8 @@ div.day span.panchor {
 	background-repeat: no-repeat;
 	padding: 16px 16px 0px 0px;
 	color: #fdffcf;
-	font-size: 0;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 div.day span.canchor {
@@ -145,7 +146,8 @@ div.day span.canchor {
 	background-repeat: no-repeat;
 	padding: 16px 16px 0px 0px;
 	color: #eceebe;
-	font-size: 0;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 pre {

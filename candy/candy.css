@@ -1,12 +1,15 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.2 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.3 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
-*/ CangeLog
+/* CangeLog
+2002-03-03 TADA Tadahi <sho@spc.gr.jp>
+	* fix comment bug.
+
 2002-03-02 nga <stakei@nga.jp>
 	* DarkRed -> #8B0000
- /*
+*/
 
 a:link, a:visited {
 	background-color:transparent; 

@@ -1,5 +1,5 @@
 /*
-	nebula.css: Nebula Style Sheet of tDiary $Revision: 1.1 $
+	nebula.css: Nebula Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	Modified by TADA Tadashi
 	validated by W3C.
@@ -240,6 +240,7 @@ textarea {
 	border-color: #00f;
 	border-style: solid;
 	border-width: 1px;
+	width: 95%;
 }
 
 dl {

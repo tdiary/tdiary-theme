@@ -1,6 +1,6 @@
 /*
 Title: プールサイド
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: ただただし
 Access: sho@spc.gr.jp
 Comment: 涼しげなプールサイトのイメージ
@@ -8,6 +8,9 @@ Comment: 涼しげなプールサイトのイメージ
 	validated by W3C.
 */
 /* ChangeLog
+2002-05-02 Nana <mpc@mikan.sakura.ne.jp>
+        * support calendar2
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 */
@@ -257,3 +260,55 @@ dd {
 	margin-bottom: 0.5em;
 }
 
+/* calendar2 */
+table.calendar {
+	text-align: center;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #ccc #999999 #999999 #ccc;
+	border-width: 1px;
+	margin-bottom: 1em;
+        margin-left: 3em;
+        font-size: 0.9em;
+}
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
+}

@@ -8,6 +8,9 @@ Modifed by Nana http://mikan.sakura.ne.jp/~mpc
 validated by W3C
 
 ChangeLog
+2003-09-06 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-02-16 Nana <clorets@estyle.ne.jp>
 	* remove div.day fluxbox3_back.png
 	

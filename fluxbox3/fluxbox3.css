@@ -1,6 +1,6 @@
 /*
 Title: fluxbox3
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -50,11 +50,11 @@ body {
 
 strong {
         font-weight: bold;
-	font-size: 2em;
+	font-size: 200%;
 }
 font.keyword {
         font-weight: bold;
-	font-size: 2em;
+	font-size: 200%;
 	color: red;
 }
 
@@ -112,7 +112,7 @@ div.rank {
 	border-style: none;
 	border-color: black;
 	border-width: 1px;
-	font-size: 0.6em;
+	font-size: 60%;
 	text-align: left;
 	margin: 0em;
 }
@@ -120,7 +120,7 @@ p.sentence {
 	background-color: transparent;
 	border-style: none;
 	margin: 0em;
-	font-size: 0.6em;
+	font-size: 60%;
 }
 
 div.day {
@@ -204,7 +204,7 @@ h3 {
 	padding: 0em;
 	padding-left: 0em;
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 140%;
 	margin-bottom: 0.5em;
 	margin-top: 0.7em;
 }
@@ -351,7 +351,7 @@ form.search {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -369,7 +369,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -397,12 +397,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

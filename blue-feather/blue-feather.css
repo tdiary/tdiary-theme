@@ -1,12 +1,12 @@
 /*
 Title: bulu-feather
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: 
 
-	bulu-feather.css: Style Sheet of tDiary $Revision: 1.8 $
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.9 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -50,7 +50,6 @@ body {
 	background-repeat:repeat-y;
 	background-attachment:scroll;
 	background-color: transparent;
-	font-family: Verdana,Arial,Helvetica,sans-serif,'MS PGothic';
 	background-image: url(blue-feather.gif);
 	color: #333333;
 }
@@ -136,7 +135,6 @@ h2 {
 h2 span.date {
 	font-weight: normal;
 	font-size: 18px;
-	font-family: sans-serif;
 }
 
 div.body {
@@ -384,7 +382,7 @@ td.calendar-day {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 100%;
         margin-left: 0.5em;
 }
 
@@ -402,7 +400,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 100%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -433,7 +431,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: blue;
         border-width: 0px 0px 1px 0px;
@@ -441,7 +439,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

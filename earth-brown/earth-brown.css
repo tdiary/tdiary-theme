@@ -39,7 +39,7 @@ a:hover {
 
 div.adminmenu {
 	text-align: left;
-	font-size: 0.8em;
+	font-size: 80%;
 }
 
 span.adminmenu{
@@ -52,7 +52,7 @@ span.adminmenu a:link,a:visited{
 
 h1 {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 120%;
 	color:#a59c6b;
 	background-color: transparent;
 }
@@ -65,7 +65,7 @@ div.calendar {
 	background-color:#fffff0;
 	border-color:#a59c6b;
 	margin: 0px 10% 2px 10%;
-	font-size: 1em;
+	font-size: 100%;
 	padding: 2px 2px 0px 2px;
 }
 
@@ -152,7 +152,7 @@ pre {
 div.comment {
 	color: #8B4513;
 	text-align: left;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color:#ded6bd;
 	margin-bottom: 1em;
 	margin-left: 3em;
@@ -161,7 +161,7 @@ div.comment {
 div.comment div.caption {
 	text-align: right;
 	color:#ffffff;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: transparent;
 	margin-left: 3em;
 	padding-right: 3em;
@@ -172,19 +172,19 @@ div.refererlist div.caption {
 	color: #ffffff;
 	background-color: transparent;
 	margin-left: 10%;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.referer {
 	margin-left: 10%;
 	margin-bottom: 1em;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.refererlist {
 	text-align: right;
 	color:#a59c6b;
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-right: auto;
 	background-color: transparent;
 	border-width: 3px 0px 0px 0px;
@@ -217,7 +217,7 @@ textarea {
 }
 
 p.strong {
-	font-size: 2em;
+	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
 	color:#ff8c00;
@@ -225,7 +225,7 @@ p.strong {
 }
 
 div.rank {
-	font-size: 0.8em;
+	font-size: 80%;
 	color: #a59c6b;
 	text-align: left;
 	margin-right: 10%;
@@ -315,7 +315,7 @@ span.footnote{
 /* calendar2 */
 table.calendar {
         background-color: #ded6bd;
-	font-size: 0.8em;
+	font-size: 80%;
 	border-style: solid solid solid solid;
         border-width: 5px 1px 1px 1px;
         border-color: #a59c6b #a59c6b #a59c6b #a59c6b;
@@ -368,7 +368,7 @@ div.recentsubtitles {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -386,7 +386,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -414,12 +414,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

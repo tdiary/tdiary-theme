@@ -7,6 +7,9 @@ Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 validated by W3C
 
 ChangeLog
+2003-09-06 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

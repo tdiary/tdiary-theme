@@ -10,6 +10,10 @@ Modified by Nana
 Validated by W3C.
 
 Changelog
+2003-09-06 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

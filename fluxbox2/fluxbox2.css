@@ -1,6 +1,6 @@
 /*
 Title: fluxbox2
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -51,11 +51,11 @@ body {
 
 strong {
         font-weight: bold;
-	font-size: 2em;
+	font-size: 200%;
 }
 font.keyword {
         font-weight: bold;
-	font-size: 2em;
+	font-size: 200%;
 	color: red;
 }
 
@@ -113,7 +113,7 @@ div.rank {
 	border-style: none;
 	border-color: black;
 	border-width: 1px;
-	font-size: 0.6em;
+	font-size: 60%;
 	text-align: left;
 	margin: 0em;
 }
@@ -121,7 +121,7 @@ p.sentence {
 	background-color: transparent;
 	border-style: none;
 	margin: 0em;
-	font-size: 0.6em;
+	font-size: 60%;
 }
 
 div.day {
@@ -207,7 +207,7 @@ h3 {
 	padding: 0em;
 	padding-left: 0em;
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 140%;
 	margin-bottom: 0.5em;
 	margin-top: 0.7em;
 }
@@ -356,7 +356,7 @@ span.memo {
 $B5SCmHV9f(B
 */
 span.footnote ,span.footnote a{
-  font-size:0.9em;
+  font-size:90%;
   color:#DC143C;
 }
 /*
@@ -367,7 +367,7 @@ div.footnote {
   border-style:solid;
   border-width: 2px 1px 1px 1px;
   padding: 3px;
-  font-size:0.8em;
+  font-size:80%;
   text-align: left;
   margin-left: 24px;
   margin-right: 16px;
@@ -382,7 +382,7 @@ div.footnote a{
 span.footnote{
     vertical-align: super;
     color:#DC143C;
-    font-size:0.6em;
+    font-size:60%;
 }
 
 
@@ -390,7 +390,7 @@ span.footnote{
 ¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -408,7 +408,7 @@ div.commentshort p {
 ¥Ä¥Ã¥³¥ßËÜÂÎ
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -436,12 +436,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

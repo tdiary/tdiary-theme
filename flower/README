@@ -1,5 +1,5 @@
 Title: Flower
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: moo@xu.boo.jp
 License: GPL
@@ -12,5 +12,9 @@ validated by W3C.
  flower photo by Free Photos <http://www.mars.dti.ne.jp/~blues/pps/>
 
 Changelog
-	2002-12-23 Nana <moo@xu.boo.jp>
+2003-09-06 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-12-23 Nana <moo@xu.boo.jp>
 	* add Flower Theme.

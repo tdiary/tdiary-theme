@@ -8,6 +8,9 @@ validated by W3C.
 calendar2 プラグイン対応
 
 Change-Log
+2003-01-06 TADA Tadashi <sho@spc.gr.jp>
+	* em -> % in font-size.
+
 2002-11-02 Nana <mpc@mikan.sakura.ne.jp>
 	* charset iso-2022-jp to EUC-JP.
 	* equalize indent size.

@@ -1,6 +1,6 @@
 /*
 Title: mono
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -18,7 +18,6 @@ Validated by W3C.
 body {
 	background-color: #fff;
 	color: #000;
-	font-family: osaka,'MS PGothic',sans-serif;
 }
 
 a {
@@ -423,7 +422,7 @@ div.sidebar p {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -441,7 +440,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -469,12 +468,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

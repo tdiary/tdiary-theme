@@ -9,6 +9,9 @@ modified by TADA Tadashi <sho@spc.gr.jp>
 validated by W3C.
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * convert for 1.5 series.
 

@@ -10,6 +10,9 @@ Modified by Nana 2002-04-29
 validated by W3C
 
 ---Change Log---
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+
 2003-01-20 TADA Tadashi <sho@spc.gr.jp?
 	* adjust font-size to tDiary standard.
 

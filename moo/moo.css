@@ -1,6 +1,6 @@
 /*
 Title: Moo
-Revision: $Revision: 1.11 $
+Revision: $Revision: 1.12 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 Comment: ตํสม
@@ -137,7 +137,7 @@ h2 span.date a:hover, span.date a:focus {
 }
 
 h2 span.title {
-        font-size: 1em;
+        font-size: 100%;
 }
 
 div.body {
@@ -145,7 +145,7 @@ div.body {
 	text-align: left;
 	padding: 0.1em;
 	margin-left: auto;
-        /*font-size: 1em;*/
+font-size: 100%;
 }
 
 div.section p {
@@ -481,7 +481,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

@@ -1,6 +1,6 @@
 /*
 Title: Metal
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -20,7 +20,6 @@ body {
 	background-image: url(background.png);
 	padding: 5px 1em 1em 1em;
 	color: #000;
-	font-family:	Arial,Verdana, Myriad Web, Syntax, sans-serif;
 }
 
 a:link{
@@ -53,7 +52,7 @@ div.adminmenu {
 h1 {
 	color: #000;
 	text-align: left;
-	font-size:1.5em;
+	font-size:150%;
 	font-style:normal;
 	padding-left: 2em;
 	margin-bottom: 1em;

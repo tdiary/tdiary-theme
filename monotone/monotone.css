@@ -1,6 +1,6 @@
 /*
 Title: monotone
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: epi
 Access: episode@104.net
 License: GPL
@@ -62,7 +62,6 @@ span.adminmenu {
 h1 {
 	text-align: left;
 	color: #666666;
-	font-family: "Arial";
 }
 
 /*

@@ -8,6 +8,9 @@ Copyright 2002 by (C) by Nana clorets@estyle.ne.jp
 validated by W3C
 
 Changelog
+2003-09-09 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-01 Nana <clorets@estyle.ne.jp>
 	* font-size adjustment.
 	* set footnote,recent-list,calendar2,3 sidebar,blockquote

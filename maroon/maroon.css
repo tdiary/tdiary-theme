@@ -1,6 +1,6 @@
 /*
 Title: マルーン
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -266,7 +266,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -284,7 +284,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -315,7 +315,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #8B4513;
         border-width: 0px 0px 1px 0px;
@@ -323,7 +323,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -5,6 +5,9 @@ License: GPL
 Comment: ハートだらけなテーマ
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-18 NT <nt@24i.net>
         * crimson => #dc143c
         * validated by w3c.

@@ -8,6 +8,10 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-10-19 NT <nt@24i.net>
 	* convert for 1.5 series.
 

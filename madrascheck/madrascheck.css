@@ -1,6 +1,6 @@
 /*
 Title: Madras check
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-image: url(madras-blue.jpg);
 	color: #fff;
 	background-color: #000068;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
         text-align: center;
 }
 /*
@@ -107,7 +106,6 @@ h2 {
 日付の設定
 */
 h2 span.date {
-        font-family: "Times New Roman",Times,sans-serif;
 	font-size: medium;
 	font-style: italic;
 	padding: 1em;	
@@ -301,7 +299,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0px;
 }
 
@@ -321,7 +319,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 130%;
 }
@@ -349,14 +347,14 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border: solid 1px #000080;
         margin: 1em;
 	padding: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {
@@ -566,7 +564,6 @@ div.recentsubtitles {
 
 /* counter */
 div.counter p{font-size: 13px;color: white;
-	font-family: "Courier New",Times,sans-serif;}
 span.counter,span.counter-today,span.counter-yesterday{
 	margin-top: 1em;padding: 2px;
 }

@@ -1,6 +1,6 @@
 /*
 Title: loose-leaf
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -19,7 +19,6 @@ body {
 	background-position: top;
 	background-color: #fff;
 	color: #333;
-	font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;
 }
 
 /*

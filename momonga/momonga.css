@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -259,7 +259,7 @@ div.comment {
 ツッコミ省略版本文
 */
 div.commentshort {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-left: 0.5em;
 }
 
@@ -277,7 +277,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em;
 	line-height: 1.2em;
 }
@@ -317,12 +317,12 @@ div.form form {
 }
 
 div.form div.caption {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em;
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {

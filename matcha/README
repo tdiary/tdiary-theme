@@ -1,5 +1,5 @@
 Title: Matcha
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -9,8 +9,11 @@ Comment: Àı√„§§§Ì
 	validated by W3C.
 
 ChangeLog
-	2003-04-05 Nana <clorets@estyle.ne.jp>
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+
+2003-04-05 Nana <clorets@estyle.ne.jp>
 	* Update.
-	
-	2003-04-06 Nana <clorets@estyle.ne.jp>
+
+2003-04-06 Nana <clorets@estyle.ne.jp>
 	* remove form.search /* -- */

@@ -1,6 +1,6 @@
 /*
 Title: Marguerite
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: moo@xu.boo.jp
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-color: #E5EDBE;
 	color: #555555;
 	text-align: center;
-	font-family:Verdana,Helvetica,'MS UI Gothic',sans-serif;
 	background-image: url(bg.png);
 }
 
@@ -62,7 +61,6 @@ h1 {
 	text-align: center;
 	font-size: 180%;
 	color: #FFCC00;
-	font-family:"Comic sans MS",Geneva,sans-serif;
 }
 
 /*
@@ -113,7 +111,6 @@ h2 {
 	background-repeat: no-repeat;
 	border-bottom: dashed 1px #000000;
 	height: 60px;
-	font-family:"Comic sans MS",Geneva,sans-serif;
 }
 
 /*
@@ -517,7 +514,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

@@ -10,6 +10,10 @@ Comment: Madras check
         Validated by W3C
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2003-02-16 Nana <clorets@estyle.ne.jp>
 	* add sanchor image
 	

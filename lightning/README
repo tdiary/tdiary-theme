@@ -8,6 +8,10 @@ Copyright by (C) Nana <moo@xu.boo.jp>
 validated by W3C
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2002-11-02 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 

@@ -8,6 +8,9 @@ validated by W3C
 calendar3 プラグインに対応
 
 ChangeLog
+2003-09-09 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-01-18 zoe <zoe@kasumi.sakura.ne.jp>
         * add GPL description.
 

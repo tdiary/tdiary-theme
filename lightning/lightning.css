@@ -1,41 +1,42 @@
 /*
-	Lightning.css: Candy Style Sheet of tDiary $Revision: 1.1 $
-	
+	Lightning.css: Lightning Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+	validated by W3C
  */
 
 a:link, a:visited {
 	color: #FCC404;
 	text-decoration: none;
 	font-weight: bold;
-    border-style: none;
+	border-style: none;
 	border-width: 1px;
 }
 
 a:active {
 	text-decoration: none;
-	color: greenyellow;
+	color: #adff2f;
 }
 
 a:hover, a:focus {
-    color: crimson;
-	background-color: greenyellow;
-    border-style: none;
+	color: #dc143c;
+	background-color: #adff2f;
+	border-style: none;
 	border-width: 1px;
 }
 
 
 
 body {
-    background-image: url(lightning_bg.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+	background-image: url(lightning_bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #000;
 	color: #fff;
 	margin-left: 0px;
 	margin-right: 0px;
-    font-size: 13px;
+	font-size: 13px;
 }
 
 p.message {
@@ -64,9 +65,8 @@ h1 {
 }
 
 p.calendar {
-	
 	margin-top: 0px;
-    background-color: transparent;
+	background-color: transparent;
 	margin-left: 0px;
 	font-size: 16px;
 	color: #fff;
@@ -83,29 +83,27 @@ div.day {
 }
 
 h2 {
-    text-align: right;
+   text-align: right;
 	background-image: url(lightning_hi.png);
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 	width: 249px;
 	height: 72px;
 	padding-bottom: 1em;
-    font-size: 13px;
-    
+	font-size: 13px;
 }
 
 p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-¡¡¡¡font-family:"Comic Sans MS","£Í£Ó UI ¥´¥·¥Ã¥¯";
+	font-family:"Comic Sans MS","£Í£Ó UI ¥´¥·¥Ã¥¯";
 }
 
 span.date {
 	font-size: 15px;
 }
 span.date a:link,a:visited{
-color: #78D2F8
+	color: #78D2F8
 }
 
 span.title {
@@ -124,7 +122,7 @@ p {
 	margin-right: 1em;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
-	line-height: 1.3;
+	line-height: 1.3em;
 }
 
 h3.subtitle {
@@ -138,9 +136,9 @@ pre {
 	margin-left: 2em;
 	margin-right: 3em;
 	padding: 8px;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
-    font-size: 13px;
-    line-height: 1.3;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	line-height: 1.3em;
 }
 
 div.comment {
@@ -158,7 +156,7 @@ p.commenttitle {
 	border-style: solid;
 	border-color: #9BF9FF;
 	border-width: 0px 0px 1px 0px;
-    font-size: 13px;
+	font-size: 13px;
 }
 
 span.commentator {
@@ -212,25 +210,19 @@ p.footer {
 }
 
 div.form {
-	
 	padding: 0.5em 1em 0.5em 1em;
 	margin-left: 3em;
 	margin-right: 1em;
 	margin-bottom: 0.5em;
-    
 }
 
 input.field {
-	
 	width: 9em;
-    
 }
 
 textarea {
-
 	margin-left: 1em;
 	width: 90%;
-   
 }
 
 dl {
@@ -246,4 +238,3 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
-

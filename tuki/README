@@ -1,0 +1,29 @@
+Title: tuki
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: support calendar2
+
+Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
+validated by W3C
+
+ChengeLog
+2002-10-04 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-28 Nana
+        * support calendar2,blockquote
+        * color#999-> #555
+        * add body font-size:1em
+        * pre color #999 -> #555 
+
+2002-04-03 TADA Tadashi <sho@spc.gr.jp>
+	* #fff -> #555 on title.
+	* add specifications.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-16 Nana
+	* color:pink>>>#ffc0cb,red>>>#ff0000,white>>>#fff
+	* font-size:15px>>>font-size:medium

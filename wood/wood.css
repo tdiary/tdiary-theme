@@ -1,5 +1,5 @@
 /*
-	wood.css: Wood Style Sheet of tDiary $Revision: 1.2 $
+	wood.css: Wood Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
  */
 /* ChangeLog
@@ -27,7 +27,7 @@ a:link {
 	text-decoration: none;
 	border-style: none;
 	border-width: 1px;
-	border-color: orange;
+	border-color: #ffa500;
 	color: #ff3;
 	margin: 2px;
 }
@@ -45,7 +45,7 @@ a:hover,a:active {
 	text-decoration: underline;
 	border-style: none;
 	border-width: 1px;
-	border-color: orange;
+	border-color: #ffa500;
 	margin: 2px;
 }
 
@@ -182,7 +182,7 @@ p.referer {
 	margin-top: 0.5em;
 	width: 600px;
 	text-align: left;
-	font-size: normal;
+	font-size: medium;
 	background-color: transparent;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -191,7 +191,7 @@ p.referer {
 }
 
 div.refererlist {
-        font-size: normal;
+        font-size: medium;
         padding: 2px;
         padding-bottom: 1px;
         margin-top: 0.5em;
@@ -223,7 +223,7 @@ p.footer {
 }
 
 div.form {
-	background-color: #transparent;
+	background-color: transparent;
 	border-style: solid;
 	border-color: darkgray #eee #eee darkgray;
 	border-width: 1px;
@@ -258,6 +258,7 @@ textarea {
 	border-color: #00f;
 	border-style: solid;
 	border-width: 1px;
+	width: 95%;
 }
 
 dl {
@@ -276,6 +277,6 @@ dd {
 p.strong
 {
         font-size: 200%;
-        font-width: bold;
+        font-weight: bold;
         text-align: center;
 }

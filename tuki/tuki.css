@@ -1,9 +1,14 @@
 /*
-	tuki.css
- */
-
+        tuki.css tuki Style Sheet of tDiary $Revision: 1.2 $
+        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+    
+        Changelog 2002.3.16 by Nana
+        color:pink>>>#ffc0cb,red>>>#ff0000,white>>>#fff
+        font-size:15px>>>font-size:medium
+*/
+        
 a:link, a:visited {
-	color: pink;
+	color: #ffc0cb;
 	text-decoration: none;
 	border-style: none;
 	border-width: 1px;
@@ -15,37 +20,37 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: red;
+	color: #ff0000;
 }
 
 body {
-    background-color:#fff;
+        background-color:#fff;
 	background-image: url(tuki.gif);
-    background-repeat: repeat-y;
-    color: #555;
+        background-repeat: repeat-y;
+        color: #555;
 }
 
 p.message {
 	text-align: center;
 	font-size: large;
 	font-weight: bold;
-	background-color: red;
-	color: white;
+	background-color: #ff0;
+	color: #fff;
 	padding: 8px;
 	margin: 0px;
 }
 
 p.adminmenu {
-    text-align: right;
+        text-align: right;
 	
 }
 
 span.adminmenu {
 	background-image:url("tuki_2.gif");
-    border-style: outset;
-    border-color: #fff;
-    border-width: 1px;
-    padding: 3px;
+        border-style: outset;
+        border-color: #fff;
+        border-width: 1px;
+        padding: 3px;
 	padding: 3px;
 	font-weight: bold;
 }
@@ -58,12 +63,12 @@ h1 {
 
 p.calendar {
 	background-image: url(tuki_2.gif);
-    background-repeat: repeat-x;
+        background-repeat: repeat-x;
 	text-align: right;
 	padding: 2px;
 	font-weight: bold;
-    margin-left: 80px;
-    font-size:15px;
+        margin-left: 80px;
+        font-size:15px;
 }
 
 div.day {
@@ -79,20 +84,20 @@ h2 {
 }
 
 span.date {
-	font-size:15px;
+	font-size: medium;
 }
 
 span.title {
-	color: white;
+	color: #fff;
 	margin-right: 1em;
 }
 
 div.body {
-    background-color: #fff;
+        background-color: #fff;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 20px;
-    margin-right: 20px;
+        margin-right: 20px;
 }
 
 p {
@@ -105,7 +110,7 @@ p {
 h3.subtitle {
 	border-style: solid;
 	color: #999;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	margin: 0em;
 	font-weight: bold;
@@ -129,15 +134,15 @@ div.comment {
 
 p.commenttitle {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
-    width:90%;
+        width:90%;
     
 }
 
 span.commentator {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	padding: 3px;
     
@@ -145,12 +150,12 @@ span.commentator {
 
 p.referertitle {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 }
 
 p.referer {
-	background-color: white;
+	background-color: #fff;
 	text-align: right;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -159,10 +164,9 @@ p.referer {
 
 div.refererlist {
 	background-image: url(tuki_2.gif);
-    background-repeat: repeat-x;
-	color: pink;
-	
-    padding: 2px;
+        background-repeat: repeat-x;
+	color: #ffc0cb;
+        padding: 2px;
 	padding-bottom: 1px;
 }
 
@@ -172,9 +176,8 @@ ul.referer {
 
 hr {
 	border-style: outset;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 1px;
-	
 }
 
 hr.sep {
@@ -182,29 +185,26 @@ hr.sep {
 }
 
 p.footer {
-	
 	text-align: right;
 	margin-top: 0px;
 }
 
 div.form {
-	
 	color: #555;
 	background-image: url(tuki_2.gif);
-    padding: 5px;
+        padding: 5px;
 	margin-bottom: 0.5em;
 	margin-left: 6em;
-    
 }
-
+    
 input.field {
-	background-color: white;
+	background-color: #fff;
 }
 
 textarea {
-	background-color: white;
+	background-color: #fff;
 	margin-left: 3em;
-    width: 80%;
+        width: 80%;
 }
 
 dl {

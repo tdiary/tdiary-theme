@@ -1,21 +1,22 @@
 /*
-   Giza.css Style Sheet of tDiary $Revision: 1.1 $
+   Giza.css Style Sheet of tDiary $Revision: 1.2 $
+   Copyright (C)by Nana http://mikan.sakura.ne.jp/~mpc
  */
 
 
 a:link {
 	text-decoration: none;
 	color: #fff;
-    font-weight: bold;
+        font-weight: bold;
 }
 a:visited {
 	text-decoration: none;
 	color: #fff;
-    font-weight: bold;
+        font-weight: bold;
 }
 
 a:hover, a:focus,a:active {
-    text-decoration: underline;
+        text-decoration: underline;
     
 }
 
@@ -88,12 +89,12 @@ h2 {
 }
 
 span.date {
-	font-size: 16px;
-    padding-right:2em;
-    text-align: left;
+	font-size: 1.2em;
+        padding-right:2em;
+        text-align: left;
 }
 span.date a:hover ,span.date a:focus {
-	color: gold;
+	color: #ffd700;
 	text-decoration: underline overline;
 }
     
@@ -108,7 +109,7 @@ div.body {
 
 div.body p {
 	padding-left: 16px;
-	line-hight: 1.5;
+	line-height: 1.3;
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
 }

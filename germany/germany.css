@@ -1,0 +1,341 @@
+/*
+  germany.css Germany Style Sheet of tDiary $Revision: 1.1 $
+  Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+  validated by W3C.
+*/
+
+body {
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  font-weight:bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #bb0000;
+}
+
+p.adminmenu {
+  text-align: right;
+  font-size:0.8em;
+  margin:0px;
+}
+
+h1 {
+  text-align: center;
+  margin-top:0px;
+  margin-left:0px;
+  font-size: medium;
+  color:#000;
+}
+
+span.logo {
+  margin-left: 1.5em;
+  float: left;
+}
+
+form.search {
+  clear: right;
+  text-align: right;
+  float: right;
+  margin: 0em;
+}
+
+p.calendar {
+  text-align: left;
+  text-indent:0em;
+  margin-left:2px;
+}
+
+div.day {
+  border-style: none;
+  border-width: 1px;
+  border-color: #ff0000;
+  margin-right: 0em;
+  margin-left: 0em;
+  margin-bottom:0em;
+  margin-top:0em;
+  font-size:100%;
+}
+
+div.day a {
+   color: #66b3ff;
+}
+h2 {
+  border-style: solid;
+  border-color: #000 #fff #FBAC00 #fff;
+  border-width: 10px 10px 10px 10px;
+  background-color: #BB0000;
+  margin: 0% 3% 0% 3%;
+  font-size: medium;
+  font-weight: bold;
+  text-align:left;
+  padding-left: 3em;
+}
+
+span.date a{
+  color: #66B3FF;
+}
+
+span.title {
+  text-align:left;
+  font-size: medium;
+  color: #000;
+  margin-left:2em;
+}
+
+div.body {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:10px;
+}
+
+div.body a.anchor{
+  background-image: url(germany_anchor.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+p {
+  margin-left: 1em;
+  line-height: 130%;
+}
+
+h3.subtitle {
+  background-color: transparent;
+  font-size: 1em;
+  color: #000;
+  text-align: left;  
+}
+
+h3.subtitle a{
+  color:#66B3FF;
+}
+
+pre {
+  margin-left: 0em;
+  padding: 0.5em;
+  border: 2px solid #000;
+}
+
+div.comment {
+  font-size:0.8em;
+  text-align: left;
+  background-color: transparent;
+  color: #000;
+  margin-left: 8%;
+  margin-right:8%;
+  padding:0.5em;
+}
+
+div.comment a.anchor{
+  background-image: url(germany_comment_anchor.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  text-decoration: none;
+}
+p.commenttitle {
+  text-align: right;
+  font-size:0.8em;
+}
+
+p.commenttitle a.anchor{
+	       background-image: none ! important;
+}
+
+span.commentator {
+  line-height:1em;
+}
+
+p.referertitle {
+  text-align: right;
+  color:#000;
+  margin-left:10%;
+  font-size:0.8em;
+}
+
+p.referer {
+  margin-left:10%;
+  margin-bottom:1em;
+  font-size:0.8em;
+}
+
+div.refererlist {
+  text-align: right;
+  color:#000;
+  font-size:0.8em;
+  padding:1px;
+}
+
+hr {
+}
+
+hr.sep {
+  display: none;
+}
+
+p.footer {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+form {
+  border:none; 
+}
+
+input.field {
+  color: #000;
+  background-color: #fff;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+textarea {
+  background-color: #fff;
+  color: #000;
+  padding: 0.5em;
+  width:90%;
+}
+
+p.strong {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  color:#000;
+}
+
+div.rank{
+  color:#000;
+  margin-top:4em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  padding-bottom:0.5em;
+  font-size:0.8em;
+}
+
+span.rank a a:visited{
+  color:#bb0000;
+  font-size:0.8em;
+}
+ 
+span.memo {
+  color:#9E68CA;
+  font-weight:bold;
+  background:#ffccff;
+}
+ 
+div.kensaku{
+  text-align:right;
+  padding:2px;
+}
+        
+a img {
+  border-width: 1px;
+  color:#DBE8FB;	
+}
+
+/*
+脚注番号
+*/
+span.footnote ,span.footnote a{
+  font-size: 0.8em;
+  color:#DC143C;
+}
+/*
+脚注本文全体
+*/
+div.footnote {
+  border-color:#000;
+  border-style:solid;
+  border-width: 1px 0px 0px 0px;
+  padding: 3px;
+  font-size:0.6em;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+div.footnote a{
+   color:#DC143C;
+}
+/*
+それぞれの脚注本文
+*/
+span.footnote{
+   vertical-align: super;
+   color:#DC143C;
+   font-size:0.6em;
+}
+/*
+スミ消しプラグイン用
+*/
+.hide{
+    background-color:#000;
+}
+
+/*
+カレンダー
+*/
+table.calendar {
+    text-align: center;    
+    border-style: dashed;
+    background-color: #bb0000;
+    border-color: #ccc;
+    border-width: 1px;
+    color: #fff;
+}
+
+td.calendar-current-month {
+    text-align: center;
+}
+
+td.calendar-next-month {
+    text-align: right;
+}
+
+td.calendar-prev-month {
+    text-align: left;
+}
+
+td.calendar-sunday {
+    color: red;
+    background-color: #fbac00;
+    text-align: center;
+}
+
+td.calendar-saturday {
+    color: blue;
+    background-color: #bbf;
+    text-align: center;
+}
+
+td.calendar-weekday {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+td.calendar-day {
+    text-align: right;
+    font-size: 0.6em;
+}

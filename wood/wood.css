@@ -3,24 +3,12 @@ Title: ¹õÈÄ
 Author: yosshy
 Access: http://yosshy.tdiary.net/>
 
-	wood.css: Wood Style Sheet of tDiary $Revision: 1.7 $
+	wood.css: Wood Style Sheet of tDiary $Revision: 1.8 $
 	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
- */
-/* ChangeLog
-2002-04-05 TADA Tadashi <sho@spc.gr.jp>
-	* add spec.
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-
-2002-03-01 TADA Tadashi <sho@spc.gr.jp>
-	* wood.png -> wood.jpg
-	* delete background-color from div.all and body.
  */
 div.all {
 	width: 100%;
 	height: 80%;
-	overflow: auto;
 	margin: 0em;
 	clear: both;
 	background-image: url(wood.jpg);
@@ -124,7 +112,6 @@ div.body {
 	border-color: #fff darkgray darkgray darkgray; 
 	border-width: 1px;
 	padding: 4px;
-	word-break: break-all;
 }
 
 p.body {
@@ -167,7 +154,11 @@ div.comment {
 	margin-top: 0.5em;
 	margin-right: 4px;
 	margin-left: 75%;
-	word-break: break-all;
+	clear: none;
+}
+
+div.trackbacks {
+	margin-left: 0px;
 }
 
 div.comment div.caption {

@@ -7,6 +7,9 @@ License: GPL
 	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
 
 ChangeLog
+2003-10-31 TADA Tadashi <sho@spc.gr.jp>
+	* adjust layout of div.comment.
+
 2003-09-14 NT <nt@be.to>
 	* font-size: em -> %.
 

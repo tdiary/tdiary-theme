@@ -1,0 +1,252 @@
+/*
+Title: purple sun
+Author: くわ
+Access: http://www.spc.gr.jp/kuwa/
+License: GPL
+Comment: 紫色の太陽が見え隠れします。
+
+1.4系、1.5系両対応（のハズ）。
+sidebar対応。
+calendar2、recent_list、footnoteプラグインに対応。
+
+Copyright 2003 (C) by くわ <kuwa@s26.xrea.com>
+validated by W3C.
+*/
+
+/* スクロールバー　W3Cのチェックは通らないのでコメント
+html,body{
+scrollbar-3d-light-color: #fdd;
+scrollbar-highlight-color: #fdd;
+scrollbar-face-color: #fdd;
+scrollbar-base-color: #fee;
+scrollbar-shadow-color: #fff;
+scrollbar-arrow-color: #d88;
+}
+*/
+body{
+color:#888;
+padding:0.5em;
+background:#fff url(purple_sun.jpg) no-repeat fixed 50% 50%;
+}
+
+div.main{
+	float:right;
+	width:69%;
+	margin-left:0.2em;
+}
+div.sidebar{
+}
+
+
+a{
+	color:#d66;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.refererlist li{
+	margin-bottom:0.3em;
+}
+.referer a,.refererlist a{
+	font-weight:normal;
+	text-decoration:none;
+	background: transparent;
+	border-style:solid;
+	border-color:#fee #fbb #fbb #fee;
+	border-width:1px;
+	padding:1px;
+	margin:1px 1px;
+	color:#cc4444;
+}
+.referer a:visited,.refererlist a:visited{
+	padding:2px 0 0 2px;
+	border-color:#fbb #fee #fee #fbb;
+}
+.referer a:hover,.refererlist a:hover{
+	letter-spacing:-1px;
+	font-weight:bold;
+	color:#999;
+	background-color:#fee;
+	border-style:solid;
+	border-color:#fbb #fff #fff #fbb;
+	border-width:1px;
+	padding:2px 0 0 2px;
+	margin:0 1px;
+	color:#a22;
+}
+
+div.recentsubtitles{
+	font-size:80%;
+}
+form{
+	padding:0;
+	margin:0;
+}
+h1{
+	font-size : large;
+	margin-bottom:1px;
+}
+h3{
+	margin:1px;
+}
+h3.subtitle{
+}
+
+/* 内容 */
+h2{
+	margin-bottom:0px;
+	font-size:110%;
+	background-color:#E88;
+	color:#fff;
+	font-weight:normal;
+	padding:2px 4px;
+	border-width:0 1px 1px 0;
+	border-style:solid;
+	border-color:#c66;
+}
+div.body{
+	background-color:#fff;
+	margin-top:0px;
+	padding-left:2em;
+	padding-top:0.8em;
+	color:#422;
+}
+div.body p{
+	margin-bottom:0;
+}
+div.section{
+	margin-top:0;
+	margin-bottom:1em;
+}
+div.section p,div.comment p{
+	font-size:95%;
+}
+div.comment{
+	background-color:#fee;
+	padding:4px 0 4px 1em;
+	color:#444;
+	margin-top:0.5em;
+}
+div.comment p{
+	margin:2px;
+}
+p.referer,div.referer{
+	margin-top:0.5em;
+	font-size: smaller;
+}
+pre{
+	margin-left:1em;
+	background-color : #fee;
+	color:#000;
+	border :#f88 1px solid;
+}
+blockquote{
+	border : 1px solid #f88;
+	border-left-color:#f88;
+	border-left-style:solid;
+	border-left-width:1em;
+	padding:0.5em;
+	font-size:80%;
+}
+
+.footer{
+	text-align : right;
+}
+
+dl{
+	margin-left:1em;
+	margin-bottom:0.2em;
+}
+dt{
+	font-weight:bold;
+}
+hr.sep{
+	display:none;
+}
+h2 a{
+	color:#fff;
+	background-color:transparent;
+}
+strong{
+	color:#000;
+	background-color:transparent;
+}
+
+
+table.calendar{
+	background-color:#fee;
+	color:inherit;
+	border:1px solid #fcc;
+	margin-top:2px;
+	border-spacing:0 0;
+}
+table.calendar td{
+	width:1.7em;
+	text-align:center;
+	font-size:80%;
+	padding:0;
+}
+td.calendar-current-month br{
+	display:none;
+}
+table.calendar td.calendar-current-month{
+	width:5.4em;
+	font-size:78%;
+	text-align:center;
+	padding:0;
+}
+table.calendar td.calendar-prev-month{
+	text-align:left;
+	width:3.6em;
+}
+table.calendar td.calendar-next-month{
+	text-align:right;
+	width:3.6em;
+}
+td.calendar-sunday{
+	background-color:red;
+	color:#fff;
+	text-align:center;
+}
+td.calendar-saturday{
+	background-color:red;
+	color:#fff;
+	text-align:center;
+}
+td.calendar-day{
+	border-style:solid;
+	border-color:#fcc;
+	border-width:0 1px 1px 0;
+	padding:0;
+	background-color:#fee;
+	color:inherit;
+}
+
+
+p.recentitem{
+	margin-bottom:0px;
+	font-size: medium;
+	background-color:#f88;
+	color:#fff;
+	font-weight:normal;
+	padding:2px 4px;
+	border-width:0 1px 1px 0;
+	border-style:solid;
+	border-color:#c66;
+}
+p.recentitem a,p.recentitem a:hover{
+	background-color:transparent;
+	color:#fff;
+	border-style:none;
+}
+div.recentsubtitles{
+	padding-left:0.5em;
+}
+p.footnote{
+	font-size:80%;
+}
+span.footnote{
+	font-size:80%;
+}

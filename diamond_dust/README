@@ -1,12 +1,12 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: 冬っぽく
 
-Copyright 2002 (C) by Nana <moo@xu.boo.jp>
+Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 */
 
@@ -14,6 +14,9 @@ Chagelog
 	* ナンバリングアンカーに対応しています。
 	  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
 	  と記入してください。
+2003-02-16 Nana <clorets@estyle.ne.jp>
+	* remove div.day span.canchor 
+	* rename div.day span.sanchor, sanchor.png->p01.png
 
 2002-12-20 Nana <moo@xu.boo.jp>
 	* add recent_list.

@@ -1,0 +1,316 @@
+/*
+        check.css: Style Sheet of tDiary $Revisions 1.2$
+        
+        Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+*/
+
+body {
+    text-align : center;
+    font-family :osaka, Arial,"MS UI Gothic";
+    font-size: small;
+    background-image: url(check.jpg);
+    color: #800040;
+    
+}
+
+a:link {
+     text-decoration: none;
+     color: orange;
+     font-weight:bold;
+}
+a:visited {
+     text-decoration: none;
+     color: orange;
+}
+a:hover,a:active {
+     text-decoration: none;
+     color: #E9D1CD;
+}
+
+p.adminmenu {
+     text-align: right;
+     font-size: small;
+}
+
+p.message {
+     text-align: center;
+     font-size: small;
+     background-color: red;
+     color: white;
+     padding: 8px;
+}
+
+span.adminmenu {
+     background-color: transparent;
+     padding: 3px;
+     font-size: small;
+}
+
+h1 {
+     text-align: left;
+     font-size: small;
+}
+
+p.calendar {
+     font-size: small;
+     font-weight: bold;
+     background-color: #E2D8F0;
+     text-align: center;
+     padding: 2px;
+     border-style: dashed;
+     border-color: #E9D1CD;
+     border-width: 3px;
+}
+
+div.day {
+     background-color: #fff;
+     margin: 3em auto 3em auto;
+     text-align: right;
+     clear: both;
+     width: 80%;
+     border-style: dashed;
+     border-color: #E9D1CD;
+     border-width: 4px;
+     padding: 0px 8px 0px 8px;
+}
+
+h2 {
+     text-align: left;
+     margin-top: 0.5em;
+     margin-bottom: 0em;
+     margin-left: auto;
+     margin-right: 0px;
+     font-size: small;
+     font-weight: bold;
+}
+
+span.date {
+     font-weight: bold;
+     position: relative;
+     font-size: small;
+     text-align: right;	
+     margin-bottom: 0em;
+     margin-left: auto;
+     margin-right: 0px;
+     padding-bottom: 0em;	
+}
+
+span.title {
+     font-size: small;
+}
+
+div.body {
+     font-size: small;
+     margin: 0px auto 0px auto;
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+     text-align: left;
+     color: ##00007F;
+}
+
+p.body {
+     font-size: small;
+     margin-top: 0em;
+     margin-bottom: 0em;
+     line-height: 1.2;
+     padding-left: 1em;
+     padding-top:0em;
+}
+
+p { 
+     font-size: small;
+     margin-top: 0.5em;
+     margin-bottom: 0.7em;
+     line-height: 1.3;
+}
+
+p.sentence {
+     margin-left: 12px;
+     margin-right: 12px;
+     line-height: 1.2;
+     border-style: none;
+     border-color: #ccc;
+     border-width: 1px 0px 0px 0px;
+}
+
+h3.subtitle {
+     margin-top: 0.2em;
+     margin-bottom: 0em;
+     margin-left: 2px;
+     margin-right: 2px;
+     font-weight: bold;
+     font-size: small;
+     clear: both;
+}
+
+span.anchor {
+     margin-top: 0em;
+     margin-bottom: 0em;
+     margin-left: 12px;
+     margin-right: 12px;
+     font-weight: bold;
+     font-size: small;
+     float: left;
+}
+
+pre {
+     border-style: none;
+     font-size: small;
+Å@Å@ background-color: #fff;
+     color: #005AC9; 
+     border-color: #fcc;
+     margin-left: 1em;
+     margin-right: 1em;
+     padding: 5px 5px 5px 5px;
+}
+
+div.comment {
+     font-size: small;
+     clear: both;
+     text-align: right;
+     padding-bottom: 1px;
+     margin: auto 5px;
+     border-style: dashed;
+     border-color: #E9D1CD;
+     border-width: 3px 0px 0px 0px;
+}
+
+p.commenttitle {
+     text-align: right;
+     position: relative;
+     font-size: small;
+     color: #800040;
+     display: inline;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     border-style: none;	
+}
+
+span.commentator {
+     padding-top: 0px;
+     margin-top: 0px;
+     display: block;
+     color: #800040;
+     clear: both;
+}
+
+p.comment {
+     font-size: small;
+     text-align: left;
+     color: #800040;
+     padding: 0px 0px 0px 0px;
+     margin-left: 24px;
+     margin-right: 12px;
+     margin-top: 0px;
+     margin-bottom: 2px;
+     line-height: 1.0;
+}
+p.referertitle {
+     color: #999;
+     background-color: #fff;
+     text-align: right;
+     display: inline;
+     position: relative;
+     top: -10px;
+     left: -20px;
+     border-style: dashed;
+     border-color: #E9D1CD;
+     border-width: 3px;
+     padding: 4px;
+}
+
+p.referer {
+     display: inline;
+     text-align: right;
+     color: #999;
+     position: relative;	
+     font-size: small;	
+     padding: 2px;
+     border-style: none;
+     border-color: #E9D1CD;
+     border-width: 3px;
+}
+
+div.refererlist {
+     font-size: small;
+     text-align: right;
+     padding-bottom: 1px;
+     margin-top: 1em;
+     border-style: dashed;
+     border-color: #E9D1CD;
+     border-width: 3px 0px 0px 0px;
+}
+
+ul.referer {
+     margin-top: 0em;
+     text-align: left;
+}
+
+hr {
+     border-style: dashed;
+     border-width: 2px 0px 0px 0px;
+     border-color: #ddd;
+}
+
+hr.sep {
+     display: none;
+}
+
+
+p.footer {
+     font-size: small;
+     text-align: right;
+     margin-top: 0px;
+     clear: both;
+}
+
+div.form {
+     background-color: #FEE4F8;
+     padding: 0.5em 1em 0.5em 1em;
+     margin-bottom: 0.5em;
+     border-style: none;
+     width: 80%;
+     border-color: #E9D1CD;
+     border-style: dashed;
+}
+form {
+     color: #800040;
+     background-color: transparent;
+     text-align: left;
+     padding: 0.5em 1em 0.5em 1em;
+     margin-bottom: 0.5em;
+}
+
+input.field {   
+     color: #00007F;
+     border-color: #E9D1CD;
+     border-style: solid;	
+}
+
+input, select, option {	
+      color: #800040;
+      border-color: #E9D1CD;
+      border-style: solid;	
+      clear: both;
+}
+
+textarea {
+      color: #800040;
+      border-color: #E9D1CD;
+      border-style: solid;
+      width: 90%;
+}
+
+dl {
+      margin-left: 2em;
+}
+
+dt {
+      margin-bottom: 0.2em;
+      font-weight: bold;
+}
+
+dd {
+      margin-left: 1em;
+      margin-bottom: 0.5em;
+}

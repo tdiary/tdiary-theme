@@ -119,7 +119,7 @@ div.caption {
 }
 
 div.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: left;
 	margin-left: 5em;
 	margin-bottom: 1em;
@@ -129,7 +129,7 @@ div.comment {
 }
 
 div.commentshort {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-left: 0.5em;
 }
 span.commentator {
@@ -178,7 +178,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {

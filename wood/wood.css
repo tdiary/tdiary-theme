@@ -1,0 +1,281 @@
+/*
+	wood.css: Wood Style Sheet of tDiary $Revision: 1.1 $
+	Auther: ?
+ */
+/* ChangeLog
+2002-03-01 TADA Tadashi <sho@spc.gr.jp>
+	* wood.png -> wood.jpg
+	* delete background-color from div.all and body.
+ */
+div.all {
+	width: 100%;
+	height: 80%;
+	overflow: auto;
+	margin: 0em;
+	clear: both;
+	background-image: url(wood.jpg);
+}
+
+body {
+	color: #fff;
+	background-image: url(wood.jpg);
+	background-attachment: fixed;
+}
+
+a:link {
+	font-weight: bolder;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+	border-color: orange;
+	color: #ff3;
+	margin: 2px;
+}
+a:visited {
+	font-weight: bolder;
+        text-decoration: none;
+        color: #ff0;
+	border-style: none;
+	border-width: 1px;
+	border-color: orange;
+	margin: 2px;
+}
+a:hover,a:active {
+	color: orange;
+	text-decoration: underline;
+	border-style: none;
+	border-width: 1px;
+	border-color: orange;
+	margin: 2px;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	margin: 0px;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	font-size: small;
+	background-color: transparent;
+	padding: 2px;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+
+div.day {
+	margin-bottom: 0.5em;
+	clear: both;
+}
+
+h2 {
+	text-align: left;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+}
+
+span.date {
+	font-size: large;
+	margin-left: 40px;
+}
+
+span.title {
+}
+
+div.body {
+	line-height: 1.5;
+	/* background-color: transparent; */
+	background-color: #003200;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 10px;
+	margin-right: 6px;
+	width: 70%;
+	float: left;
+	border-style: solid; 
+	border-color: #fff darkgray darkgray darkgray; 
+	border-width: 1px;
+	padding: 4px;
+	word-break: break-all;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 1.0em;
+	line-height: 1.5;
+}
+
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	border-style: solid; /* dashed; */
+	border-color: #0ff;
+	border-width: 0px 0px 1px 0px;
+	width: 80%;
+}
+
+pre {
+	background-color: black;
+	color: #bbf;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	color: #bbf;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-right: 4px;
+	margin-left: 75%;
+	word-break: break-all;
+}
+
+p.commenttitle {
+	margin-left: 0em;
+	color: #fff;
+}
+
+span.commentator {
+	border-style: solid; /* dashed; */
+	border-color: #00ffff;
+	border-width: 0px 0px 1px 0px;
+	/* padding: 0px; */
+	color: #fff;
+}
+
+p.referertitle {
+	width: 200px;
+	margin-left: 4em;
+}
+
+p.referer {
+	margin-top: 0.5em;
+	width: 600px;
+	text-align: left;
+	font-size: normal;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 3%;
+	margin-bottom: 5%;
+}
+
+div.refererlist {
+        font-size: normal;
+        padding: 2px;
+        padding-bottom: 1px;
+        margin-top: 0.5em;
+        margin-left: 0%;
+        margin-right: 12px;
+        width: 600px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+	background-color: #transparent;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	clear: both;
+}
+
+input.field {
+	/* background-color: black; */
+	background-color: #003200;
+	color: #fff;
+	border-color: #00f;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, select, option {
+	/* background-color: black; */
+	background-color: #003200;
+	border-color: #00f;
+	color: #fff;
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	/* background-color: black; */
+	background-color: #003200;
+	margin-left: 1em;
+	color: #fff;
+	border-color: #00f;
+	border-style: solid;
+	border-width: 1px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong
+{
+        font-size: 200%;
+        font-width: bold;
+        text-align: center;
+}

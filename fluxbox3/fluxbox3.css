@@ -190,10 +190,25 @@ h3.subtitle {
 	margin-top: 0.7em;
 }
 
-div.body a.anchor{
-	background-image: url(fluxbox3_smallanchorback.png);
-	background-position: left top;
+
+div.day span.panchor {
+	background-image: url(fluxbox3_anchorback.png);
+	background-position: bottom right;
 	background-repeat: no-repeat;
+	padding: 24px 24px 0px 0px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(fluxbox3_smallanchorback.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 1px;
 }
 
 pre {
@@ -215,16 +230,6 @@ div.comment {
 	line-height: 1.4em;
 	padding: 1em;
 	padding-left: 3em;
-}
-
-div.comment a.anchor{
-	background-image: url(fluxbox3_smallanchorback.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-}
-
-p.commenttitle a.anchor {
-	background-image: none ! important;
 }
 
 p.commenttitle {

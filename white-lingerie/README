@@ -1,0 +1,18 @@
+Title: White Lingerie
+Author: Sarsya
+Access: none
+License: GPL
+Comment: 白いランジェリーのテーマ
+
+Copyright (C) 2000-2002.Sarsya. All Rights Reserved. 
+Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
+
+ChangeLog
+2002-10-03 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-15 TADA Tadashi <sho@spc.gr.jp>
+	* support image anchor as span.panchor and span.canchor.

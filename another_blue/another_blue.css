@@ -1,0 +1,466 @@
+/*
+Title: another_blue
+Revision: $Revision: 1.1 $
+Author: kazuaki
+License: GPL
+Comment: 
+
+Copyright (C) 2001-2002 Kazuaki Saitoh <kazuaki@dream.com>
+
+validated by W3C.
+*/
+
+/* ChangeLog
+2002-04-15 Kazuaki Saitoh <kazuaki@dream.com>
+	* create public version.
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: white;
+	color: black;
+}
+
+/*
+リンク文字列に関する設定
+*/
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: x-small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: #cff;
+	color: black;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+	background-color: #9cf;
+	color: blue;
+	border-width: thin medium;
+	border-style: solid;
+	border-color: blue;
+	font-size: large;
+	padding: 3px;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	text-align: right;
+	background-color: #cff;
+	color: black;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 2px;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: white;
+	color: black;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	background-color: #9cf;
+	color: black;
+	font-size: medium;
+	border-style: solid;
+	border-color: blue;
+	border-width: 0 0 thin thick;
+}
+
+/*
+日付の設定
+*/
+span.date {
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: white;
+	color: black;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0em;
+	border-style: solid;
+	border-width: 0 0 thin 0;
+	border-color: blue;
+}
+
+/*
+イメージアンカーの設定
+*/
+/*
+div.day span.panchor {
+	background-image: url(default_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: white;
+	background-color: transparent;
+	font-size: 1px;
+}
+div.day span.canghor {
+	background-image: url(default_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: white;
+	background-color: transparent;
+	font-size: 1px;
+}
+*/
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: small;
+	background-color: #cff;
+	color: black;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: #69f;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #69f;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: x-small;
+	background-color: white;
+	color: black;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: small;
+	background-color: white;
+	color: black;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: #69f;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: x-small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: #cff;
+	color: black;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 0.5em 1em 0.5em 2em;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: #ffe;
+	color: black;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: #ffe;
+	color: black;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: blue;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: #69f;
+	border-width: 1px;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	overflow: auto;
+}
+
+/*
+引用(blockquoteタグ)の設定
+*/
+blockquote {
+	border-style: solid;
+	border-color: #69f;
+	border-width: 0 0 0 thin;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding: 4px 4px 4px 4px;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+プラグイン対応
+*/
+
+/* calender2 */
+table.calendar {
+	font-size: x-small;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #69f;
+}
+
+table.calendar td {
+	margin: 1px;
+	padding: 1px;
+}
+
+td.calendar-prev-month {
+	text-align: left;
+}
+
+td.calendar-current-month {
+	text-align: center;
+}
+
+td.calendar-next-month {
+	text-align: right;
+}
+
+td.calendar-sunday {
+	background-color: white;
+	color: red;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	text-align: center;
+}
+
+td.calendar-saturday {
+	background-color: white;
+	color: blue;
+	text-align: center;
+}
+
+td.calendar-day {
+	text-align: right;
+}
+
+/* recent_list */
+p.recenttitle {
+	font-size: x-small;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* recent_comment */
+span.recentcommenttitle {
+	font-weight: bold;
+}
+
+/* comment_rank */
+span.commentranktitle {
+	font-weight: bold;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+
+div.footnote {
+	border-style: solid;
+	border-color: #69f;
+	border-width: 1px 0px 0px 0px;
+	margin-left: 3em;
+	font-size: small;
+}

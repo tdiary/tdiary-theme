@@ -1,0 +1,378 @@
+/*
+Title: 黒蜥蜴
+Revision: $Revision: 1.1 $
+Author: abbey
+Access: inlet@cello.no-ip.org
+License: GPL
+Comment: 黒蜥蜴テーマ
+
+Copyright 2002 (C) by abbey <inlet@cello.no-ip.org>
+validated by W3C.
+*/
+/*
+kurotokage_h1.jpg
+Copyright 2002 (C) by KEIKO SAWAMURA
+この画像についてはtDiary日記システム外での無断使用を禁止します。
+*/
+/* ChangeLog
+2002-07-18 abbey <inlet@cello.no-ip.org>
+	* create
+*/
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: osaka,'MS PGothic',sans-serif;
+}
+
+a:link {
+	color: #9400d3;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #808;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+p.adminmenu, div.adminmenu {
+	text-align: right;
+	margin-top: 0px;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+p.adminmenu a:link, p.adminmenu a:visited, span.adminmenu a:link, span.adminmenu a:visited {
+	padding-right: 0.5em;
+	font-size: x-small;
+}
+
+h1 {
+	color: #000;
+	background-color: transparent;
+	background-image: url(kurotokage_h1.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 64px;
+	line-height: 64px;
+	text-align: right;
+	padding-right: 64px;
+	padding-bottom: 5px;
+}
+
+h1 img {
+	vertical-align: middle;
+	border-width: 0px;
+}
+
+h2 {
+	font-size: medium;
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.day h2 {
+	font-size: medium;
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 0px 0px 1px 0px;
+	padding-left: 8px;
+	padding-bottom: 4px;
+}
+
+div.body {
+	margin-left: 1em;
+	line-height: 120%;
+}
+
+div.body h3 {
+	font-size: medium;
+	border-style: dashed;
+	border-color: #9370db;
+	border-width: 0px 0px 1px 0px;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	padding: 4px;
+}
+
+div.day span.panchor {
+/*	background-image: url(clover_anchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+*/}
+
+div.day span.canchor {
+/*	background-image: url(clover_anchor2.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: #cfd;
+	background-color: transparent;
+	font-size: 1px;
+*/}
+
+div.body p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	color: #000;
+	background-color: transparent;
+	line-height: 150%;
+}
+
+div.body pre {
+	color: #000;
+	background-color: #dcf;
+	border-style: solid;
+	border-width: 1px 1px 1px 6px;
+	border-color: #9370db;
+	/*overflow: auto;*/
+	padding: 8px;
+	margin-left: 2em;
+}
+
+div.body blockquote {
+	color: #000;
+	background-color: #dcf;
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 2px 0px 2px 0px;
+	padding: 4px;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+div.body blockquote p {
+	margin-left: 0em;
+}
+
+div.body li {
+	margin-left: 2em;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	border-style: solid;
+	border-color: #808;
+	border-width: 0px 0px 1px 0px;
+	margin-top: 0.7em;
+}
+
+div.body dd {
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+}
+
+div.comment {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 1px;
+	color: #000;
+	background-color: #dcf;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	padding: 4px;
+	font-size: small;
+}
+
+div.form div.comment {
+	margin-right: 1em;
+	color: #000;
+	background-color: #dcf;
+}
+
+div.comment p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
+
+div.comment p.commenttitle {
+	border-style: dashed;
+	border-color: #808;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.comment span.commentator, div.commentator {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.form {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 1px;
+	color: #000;
+	background-color: #dcf;
+}
+
+div.day div.form {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	font-size: small;
+}
+
+div.form form {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	width: 100%;
+}
+
+div.form p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	padding-left: 4px;
+}
+
+div.form textarea {
+	margin-left: 2em;
+}
+
+p.referer, div.referer {
+	text-align: right;
+	font-size: x-small;
+	margin-top: 0px;
+}
+
+div.refererlist {
+	border-style: solid;
+	color: #000;
+	border-color: #9370db;
+	border-width: 1px;
+	background-color: #dcf;
+	margin-top: 0px;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	font-size: small;
+}
+
+ul.referer {
+	margin-left: 2em;
+}
+
+div.form div.refererlist {
+	margin-right: 1em;
+	color: #000;
+	background-color: #fff;
+}
+
+div.refererlist p, div.refererlist ul {
+	margin-top: 0px;
+	margin-bottom: 0em;
+	padding: 4px 4px 4px 4px;
+}
+
+hr {
+	color: #9370db;
+	background-color: transparent;
+	margin-top: 0.5em;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer, div.footer {
+	text-align: right;
+	font-size: x-small;
+}
+
+form div.body {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 1px;
+	color: #000;
+	background-color: #dcf;
+	padding: 0px 4px 4px 4px;
+}
+
+/*
+ for plugins
+ */
+
+/* calendar */
+div.calendar, p.calendar {
+	color: #000;
+	background-color: #fff;
+	text-align: right;
+	font-size: x-small;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9370db;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+
+div.footnote {
+	border-style: solid;
+	border-color: #9370db;
+	border-width: 1px 0px 0px 0px;
+	margin-left: 3em;
+	font-size: small;
+}
+
+/* amazon plugin */
+img.left {
+	border-width: 1px;
+	border-color: #9370db;
+	float: left;
+}
+
+img.right {
+	border-width: 1px;
+	border-color: #9370db;
+	float: right;
+}
+
+div.section {
+	clear: both;
+}

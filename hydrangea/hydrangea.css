@@ -1,6 +1,6 @@
 /*
 Title: Hydrangea
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -10,6 +10,10 @@ Comment: 紫陽花の季節に向けて
 	Copyright (c) 2002 oyuu
         Modified by Nana <mpc@mikan.sakura.ne.jp>
 	validated by W3C.
+
+Changelog
+2002-09-24 NT <nt@24i.net>
+        * convert for 1.5 series.
 */
 
 a:link{ 
@@ -35,7 +39,7 @@ body {
 	margin: 0px
 }
 
-p.adminmenu {
+div.adminmenu {
 	font-size: 90%;
 	margin: 2% 5% 0% 0%;
 	text-align: right
@@ -53,7 +57,7 @@ h1 {
 	font-family: "Tempus Sans ITC", sans-serif;
 }
 
-p.calendar {
+div.calendar {
 	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 90%;
 	margin: 3% 5% 1% 5%;
@@ -97,7 +101,7 @@ h2 {
 	padding: 0.5% 0.5% 0.5% 0.5%;
 }
 
-span.date {
+h2 span.date {
 	font-size: 100%;
 	font-family: "Tempus Sans ITC", sans-serif;
 	font-style: normal;
@@ -105,7 +109,7 @@ span.date {
 	margin-right: 1%
 }
 
-span.title {
+h2 span.title {
 	font-size: 100%;
 	font-style: normal
 }
@@ -127,7 +131,7 @@ div.section {
 	margin-bottom: 2%
 }
 
-h3.subtitle {
+h3 {
 	font-size: 120%;
 	font-weight: bold;
 	margin-top: 2%;
@@ -140,7 +144,7 @@ div.day p {
 	text-indent: 1em
 }
 
-p {
+div.section p {
 	padding-top: 0.2%;
 	padding-bottom: 0.2%;
 }
@@ -150,7 +154,7 @@ div.comment {
 	line-height: 1.5;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	font-size: 90%;
 	font-family: "Tempus Sans ITC", sans-serif;
 	padding-left: 1% ;
@@ -163,13 +167,8 @@ div.comment p {
 	text-indent: 0em
 }
 
-span.commentator {
-	color: #6A5ACD;
-	font-weight: bold;
-	padding: 1% ;
-}
 
-p.referer {
+div.referer {
 	font-size: 85%;
 	font-family: "Tempus Sans ITC", sans-serif;
 	border-top: #8A7CD8 1px solid;
@@ -193,7 +192,7 @@ div.refererlist {
 	padding-left: 1%;
 }
 
-p.referertitle {
+div.refererlist div.caption {
 	border-bottom: #8A7CD8 1px solid;
 }
 
@@ -212,7 +211,7 @@ hr.sep { display: none }
 
 .sfooter {}
 
-p.footer {
+div.footer {
 	font-family: "Tempus Sans ITC", sans-serif;
 	font-size: 85%;
 	margin-right: 3%;
@@ -257,7 +256,7 @@ textarea {
 	border-top: 1px solid #8A7CD8;
 	border-bottom: 1px solid #8A7CD8;
         text-indent: 0em ! important;
-        width: 100%;
+        width: 95%;
 }
 
 p.message {
@@ -281,20 +280,20 @@ pre {
 	padding-left: 8px;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	font-weight: bold;
 	margin-bottom: 0.2em;
 }
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
 
-blockquote {
+div.body blockquote {
 	color: #6A5ACD;
 	background-color: #ffffff;
 	border-top: #8A7CD8 2px solid;
@@ -377,3 +376,143 @@ div.day div.comment a:visited {
 	text-decoration: none;
 }
 
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #ffffff;
+        color: #06040F;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #ffffff;
+        color: #06040F;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #ffffff;
+        color: #06040F;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

@@ -1,6 +1,6 @@
 /*
 Title: HARU
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Comment: support calendar2
 Access: http://mikan.sakura.ne.jp/~mpc/
@@ -9,11 +9,15 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
 /* ChangeLog
+2002-09-24 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-05-02 Nana <mpc@mikan.sakura.ne.jp>
         * support calendar2
         * fix CRLF->LF
         * div day font-size: 1em; 
         * font-size 13px->0.9em
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 
@@ -49,7 +53,7 @@ div.body p a{
 	background-image:url(haru.gif) ;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: 0.9em;
 }
@@ -67,7 +71,7 @@ h1 {
 	text-align: center;
 }
 
-p.calendar {
+div.calendar {
 	font-size: 0.9em;
 	text-align: right;
 	border-style: none;
@@ -93,16 +97,16 @@ h2 {
 	margin-bottom: 0.1em;
 }
 
-span.date {
+h2 span.date {
 	margin-left: 0.5em;
 }
 
-span.date a:link, span.date a:visited {
+h2 span.date {
 	color: #ffc0cb;
 	text-decoration: none;
 }
 
-span.date a:hover ,span.date a:focus {
+h2 span.date {
 	color: #fff;
 	text-decoration: none;
 }
@@ -115,22 +119,22 @@ div.body {
 	margin-right: 12px;
 }
 
-h3.subtitle {
+h3 {
 	font-size: 1em;
 	margin: 0em;
 	font-weight: bold;
 }
 
-h3.subtitle a:link, h3.subtitle a:visited {
+h3 {
 	color: #2a4;
 	text-decoration: none;
 }
-h3.subtitle a:hover, h3.subtitle a:focus {
+h3 {
 	color: #4e8;
 	text-decoration: none;
 }
 
-p {
+div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3em;
@@ -145,21 +149,15 @@ div.comment {
 	margin-right: 12px;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	border-style: solid;
 	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	width: 90%;
 }
 
-span.commentator {
-	border-style: solid;
-	border-color: #ffc0cb;
-	border-width: 0px 0px 1px 0px;
-	padding: 3px;
-}
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: 0.9em;
 	padding: 2px;
@@ -177,14 +175,14 @@ div.refererlist {
 	margin-right: 12px;
 }
 
-p.referertitle {
+div.refererlist div.caption {
 	border-style: solid;
 	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	width: 90%;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -199,7 +197,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	font-family :osaka,Arial,sans-serif;
 	font-size: 0.9em;
 	text-align: right;
@@ -250,16 +248,16 @@ pre {
 	width: 90%
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -321,4 +319,150 @@ td.calendar-weekday {
 td.calendar-day {
 	font-size: xx-small;
 	text-align: right;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #ffc0cb;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: #ffc0cb;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: 
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: 
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: 
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

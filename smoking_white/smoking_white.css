@@ -147,7 +147,7 @@ span.sanchor {
  font-size:0;
  text-decoration:none;
  padding:10px 10px 0 0;
- background:url("http://d.hatena.ne.jp/theme/smoking_white/white.png") bottom right no-repeat;
+ background:url("white.png") bottom right no-repeat;
 }
 
 div.calendar {
@@ -207,7 +207,7 @@ div.sidebar ul {
 div.sidebar ul li {
  max-width:15em;
  min-height:10px;
- list-style-image:url("http://d.hatena.ne.jp/theme/smoking_white/white.png");
+ list-style-image:url("white.png");
  padding:1px 1px 1px 5px;
  margin-bottom:3px;
 }

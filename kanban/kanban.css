@@ -1,5 +1,7 @@
 /*
-   Kanban.css Style Sheet of tDiary $Revision: 1.1 $
+	Kanban.css: Kanban  Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+	validated by W3C
  */
 
 
@@ -13,23 +15,21 @@ a:visited {
 }
 
 a:hover, a:focus,a:active {
-    background-color: Moccasin;
-   
+	background-color: Moccasin;
 }
 
 body {
-    font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #fff;
 	color: #000;
 	margin-right: 0.2em;
 	margin-left: 0.2em;
-    font-size: 13px;
+	font-size: 13px;
 }
 
 p.adminmenu {
 	text-align: left;
 	font-size: 13px;
-	
 }
 
 p.message {
@@ -51,7 +51,7 @@ span.adminmenu {
 
 h1 {
 	text-align: left;
-    margin-left:12%;
+	margin-left:12%;
 }
 
 p.calendar {
@@ -59,9 +59,9 @@ p.calendar {
 	color: #000;
 	border-style: none;
 	margin-left:12%;
-    font-weight: bold;
-    font-size: 16px;
-    font-family :Georgia;
+	font-weight: bold;
+	font-size: 16px;
+	font-family :Georgia;
 }
 div.day {
 	background-image: url(kanban_1.png);
@@ -74,8 +74,8 @@ div.day {
 	padding-top: 10px;
 	margin-right: 10%;
 	margin-left: 10%;
-    font-size: 13px;
-    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+	font-size: 13px;
+	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 
 h2 {
@@ -85,16 +85,14 @@ h2 {
 	padding-top: 3.5em;
 	text-align: left;
 	font-size: 13px;
-	
 }
 
 span.date {
 	font-size: 13px;
 	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
-    
 }
 span.date a:link, a:visited {
-	color: SandyBrown;
+	color: #f4a460;
 	text-decoration: none;
 }
 span.date a:hover, a:focus {
@@ -103,20 +101,18 @@ span.date a:hover, a:focus {
 }
 
 div.body {
-	
 	background-color: transparent;
 	color: #000;
 	text-align: left;
 	padding: 1px;
 	padding-top: 2px;
 	padding-right: 30px;
-	
-    margin-top: 12px;
+	margin-top: 12px;
 }
 
 div.body p {
 	padding-left: 16px;
-	line-hight: 1.5;
+	line-height: 1.5em;
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
 }
@@ -124,7 +120,7 @@ div.body p {
 p {
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
-	line-height: 1.4;
+	line-height: 1.4em;
 }
 
 h3.subtitle {
@@ -135,13 +131,13 @@ h3.subtitle {
 }
 
 pre {
-    width: 95%;
+	width: 95%;
 	background-color: OldLace;
 	color: #000;
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
-    border-style: solid;
+	border-style: solid;
 	border-color: #000;
 	border-width: 1px;
 }
@@ -157,7 +153,6 @@ div.comment {
   	margin: 0em;
 	margin-right: 20px;
 	margin-left: 6px;
-	
 }
 
 div.comment p {
@@ -171,15 +166,13 @@ p.commenttitle {
 span.commentator {
 	position: relative;
 	left: -1em;
-    
 }
 
 p.referertitle {
 	border-style: solid;
 	border-color: #aaa;
 	border-width: 0px 0px 1px 0px;
-    padding: 0px;
-
+	padding: 0px;
 }
 
 p.referer {
@@ -189,7 +182,7 @@ p.referer {
 	color: #000;
 	padding: 0px;
 	padding-bottom: 1px;
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 div.refererlist {
@@ -199,9 +192,7 @@ div.refererlist {
 	color: #000;
 	padding: 0px;
 	padding-bottom: 1px;
-	
 	margin-top: 0.5em;
-	
 }
 span.title {
     margin-left:25px;
@@ -225,7 +216,7 @@ p.footer {
 	font-size: 13px;
 	text-align: right;
 	height: 32px;
-    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+	font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
 }
 
 div.form {
@@ -233,12 +224,11 @@ div.form {
 	color: #000;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    
 }
 
 input.field {
 	background-color: white;
-	color: #black;
+	color: black;
 }
 
 input {
@@ -247,7 +237,7 @@ input {
 
 textarea {
 	background-color: white;
-	color: #black;
+	color: black;
 	margin-left: 1em;
 	width: 80%;
 }

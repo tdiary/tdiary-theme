@@ -1,8 +1,9 @@
 /*
 Title: SimpleBlack
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 思いっきりシンプル
 
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
    Validated by W3C
@@ -52,7 +53,7 @@ a:hover,a:active {
 /*
 ページトップにある操作ボタンの並ぶ行の設定
 */
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -82,7 +83,7 @@ h1 {
 /*
 カレンダーの設定
 */
-p.calendar {
+div.calendar {
 	font-size: medium;
         font-weight: bold;
        	text-align: left;
@@ -122,7 +123,7 @@ h2 {
 /*
 日付の設定
 */
-span.date {
+h2 span.date {
 	font-weight: bold;
 	font-size: small;
 	text-align: center;	
@@ -130,7 +131,7 @@ span.date {
 /*
 タイトルの設定
 */
-span.title {
+h2 span.title {
 	font-size: small;
 }
 /*
@@ -165,7 +166,7 @@ p.sentence {
 /*
 サブタイトルの設定
 */
-h3.subtitle {
+h3 {
 	margin-top: 0.2em;
 	margin-bottom: 0em;
 	margin-left: 2px;
@@ -210,7 +211,7 @@ div.comment {
 /*
 ツッコミ欄タイトル行の設定
 */
-p.commenttitle {
+div.comment div.caption {
 	text-align: right;
 	position: relative;
 	font-size: small;
@@ -223,13 +224,6 @@ p.commenttitle {
 /*
 ツッコミした人の名前の設定
 */
-span.commentator {
-	padding-top: 0px;
-	margin-top: 0px;
-	display: block;
-	color: #000;
-	clear: both;
-}
 
 p.comment {
 	font-size: small;
@@ -245,7 +239,7 @@ p.comment {
 /*
 リンク元リストタイトルの設定
 */
-p.referertitle {
+div.refererlist div.caption {
 	color: #999;
 	text-align: left;
 	background-color: black;
@@ -257,12 +251,13 @@ p.referertitle {
 /*
 リンク元リスト(短い方)の設定
 */
-p.referer {
+div.referer {
         background-color: #000;
        	text-align: center;
 	color: #999;
        	font-size: small;
 	padding: 2px;
+	margin-bottom: 1em;
 	border-style: none;
   	border-width: 3px;
 }
@@ -270,10 +265,10 @@ p.referer {
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist {
-    
 	font-size: small;
 	text-align: right;
 	padding-bottom: 1px;
+	padding-top: 1em;
 	margin-top: 1em;
 	border-style: dotted;
 	border-color: #000;
@@ -282,7 +277,7 @@ div.refererlist {
 /*
 リンク元リスト一覧の設定
 */
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 	text-align: left;
 }
@@ -304,7 +299,7 @@ hr.sep {
 /*
 フッタの設定
 */
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 	margin-top: 0px;
@@ -357,18 +352,147 @@ textarea {
 /*
 項目リストの設定
 */
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
 
-  
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+	color: #000;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+	color: #000;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update div.form {
+	border-style: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

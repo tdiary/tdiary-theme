@@ -1,0 +1,25 @@
+Title: SimpleBlack
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: 思いっきりシンプル
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	Validated by W3C
+
+ChangeLog
+2002-10-18 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-16 by Nana
+	* change body font-size:small>>>1em
+	* color:black>>>#000
+	* a:hover,a:active color: blue>>>#0000ff
+	* p.calendar font-size:14px>>>medium
+	* W3C css-validator check

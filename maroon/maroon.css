@@ -1,6 +1,6 @@
 /*
 Title: マルーン
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -11,9 +11,9 @@ Comment: 秋の枯れ葉のテーマ
 	validated by W3C.
  */
 
-/* CangLog
+/* ChangeLog
 2002-04-03 nga<stakei@nga.jp>
-	* created
+	* add spec.
 */
 a:link, a:visited {
 	background-color: transparent;

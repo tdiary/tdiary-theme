@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.11 $
+Revision: $Revision: 1.12 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -9,7 +9,10 @@ Comment: レストランのメニューのようなテーマ
 	Copyright (c) 2002 nga <http://nga.jp/>
 	validated by W3C.
 */
-/* CangLog
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: smaller -> 0.9em.
+
 2002-04-03 nga<stakei@nga.jp>
 	* add specification for Theme Gallery.
 
@@ -200,11 +203,10 @@ div.comment {
 }
 
 div.comment p{
-	font-size: smaller;
+	font-size: 0.9em;
 }
 p.commenttitle {
 	background-color: transparent;
-	font-size: smaller;
 	color: #000000;
 	text-align: left ;
 	margin-left:15px;
@@ -241,7 +243,7 @@ p.referer {
 	color: #000000;
 	text-align: right;
 	padding-top: 1em;
-	font-size: smaller;
+	font-size: 0.9em;
 }
 
 div.refererlist {
@@ -313,7 +315,7 @@ dd {
 
 li{
 	margin-left: 6em;
-	font-size: smaller;
+	font-size: 0.9em;
 }
 
 blockquote {

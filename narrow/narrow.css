@@ -1,8 +1,18 @@
 /*
-	narrow.css: Narrow Style Sheet of tDiary $Revision: 1.2 $
+Title: Narrow
+Revision: $Revision: 1.3 $
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+License: GPL
+
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C
- */
+*/
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+*/
+
 a:link {
 	text-decoration: none;
 	color: #26a;

@@ -1,9 +1,16 @@
 /*
-        check.css: Style Sheet of tDiary $Revisions 1.2$
-        
+Title: Check
+Revision: $Revision: 1.5 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+
         Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
-/*CangLog
+/*ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* div.comment align left.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 
@@ -80,7 +87,6 @@ div.day {
      background-color: #fff;
      color: #800040;
      margin: 3em auto 3em auto;
-     text-align: right;
      clear: both;
      width: 80%;
      border-style: dashed;
@@ -183,7 +189,7 @@ pre {
 div.comment {
      font-size: small;
      clear: both;
-     text-align: right;
+     text-align: left;
      padding-bottom: 1px;
      margin: auto 5px;
      border-style: dashed;

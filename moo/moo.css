@@ -1,20 +1,27 @@
 /*
-	moo.css: Moo Style Sheet of tDiary $Revision: 1.5 $
-        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
-	validated by W3C
+Title: Moo
+Revision: $Revision: 1.6 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: ตํสม
 
-        Changelog 2002-3-23 by Nana
-        pre font-color#000-->#fff
-        p   margin-left 1em
-        div day margin-left,right 15%-->10%
-        p adminmenu boder-style none-->solid,background-color #000
-        form margin delete
+Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+validated by W3C
 */
-/* ChangeLog
+/* Changelog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
-*/
 
+2002-03-23 Nana
+	* pre font-color#000-->#fff
+	* p   margin-left 1em
+	* div day margin-left,right 15%-->10%
+	* p adminmenu boder-style none-->solid,background-color #000
+	* form margin delete
+*/
 
 a:link {
 	text-decoration: none;

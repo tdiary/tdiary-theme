@@ -1,6 +1,13 @@
 /*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.1 $
- */
+Title: 真夜中
+Revision: $Revision: 1.2 $
+Author: ただただし
+Access: sho@spc.gr.jp
+*/
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+*/
 
 a:link, a:visited {
 	color: gray;

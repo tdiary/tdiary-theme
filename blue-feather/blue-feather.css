@@ -1,15 +1,19 @@
 /*
 Title: bulu-feather
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: 
 
-	bulu-feather.css: Style Sheet of tDiary $Revision: 1.3 $
+	bulu-feather.css: Style Sheet of tDiary $Revision: 1.4 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* div.comment align left.
+*/
 
 a:link, a:visited {
 	color: blue;
@@ -164,7 +168,7 @@ pre {
 }
 
 div.comment {
-	text-align: right;
+	/*text-align: right;*/
 	background-color: white;
 	background-color: transparent;
 	color: black;
@@ -372,5 +376,5 @@ td.calendar-day {
 }
 
 /*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.3 $
+	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.4 $
  */

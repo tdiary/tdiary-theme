@@ -1,9 +1,19 @@
 /*
-   Sodapop - tDiary用テーマCSSファイル $Revision: 1.3 $
+Title: Sodapop
+Revision: $Revision: 1.4 $
+Author: kadu
+Access: http://www.bb.wakwak.com/~akk/kadu/
+comment: sodapop_back.jpgは著作権の関係で含まれていません。お好きな背景イメージを用意してください。
+
    Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
 
    sodapop_back.jpgは著作権の関係で含まれていません。
    お好きな背景イメージを用意してください。
+*/
+/* ChengeLog
+2002-04-05 TADA Tadashi
+	* add spec.
+	* div.comment align left;
 */
 
 /*
@@ -113,7 +123,7 @@ p {
   ツッコミ欄全体の設定
   */
 div.comment {
-  text-align: right;
+  /*text-align: right;*/
   font-size: small;
   padding: 2px;
   padding-bottom: 1px;
@@ -126,6 +136,7 @@ div.comment {
   ツッコミ欄タイトル行の設定
   */
 p.commenttitle {
+  text-align: right;
   border-style: solid;
   border-color: #aaa;
   border-width: 0px 0px 1px 0px;

@@ -1,7 +1,15 @@
 /*
-        hellali.css: Hellali Style Sheet of tDiary $Revision: 1.1 $
+Title: Hellali
+Revision: $Revision: 1.2 $
+Author: NT
+Access: http://246ra.ath.cx/~takasi/index.html
+
         Copyright(C) NT http://246ra.ath.cx/~takasi/index.html
         validated by W3C.
+*/
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
 */
 
 a:link, a:visited {

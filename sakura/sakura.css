@@ -1,6 +1,6 @@
 /*
 Title: sakura.css
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -9,9 +9,12 @@ Comment: 桜色なテーマ
 	Copyright by (C) nga <http://nga.jp/>
  */
 
-/* CangLog
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: smaller -> 0.9em.
+
 2002-04-03 nga<stakei@nga.jp>
-	* created
+	* add spec.
 */
 
 body {
@@ -435,6 +438,6 @@ div.footnote {
 	margin-right: 24px;
 }
 p.footnote {
-	font-size: smaller;
+	font-size: 0.9em;
 	padding-bottom: 5px;
 }

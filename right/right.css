@@ -1,8 +1,17 @@
 /*
-	right.css: Right Style Sheet of tDiary $Revision: 1.3 $
+Title: Right
+Revision: Revision: 1.3 $
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+Comment: 全体がやや右寄せ
+
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
- */
+*/
+/* ChengeLog
+2002-04-05 TADA Tadashi
+	* add spec.
+*/
 
 a:link, a:visited {
 	color: #006400;

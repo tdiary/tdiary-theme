@@ -1,9 +1,16 @@
 /*
-	stripe.css: Stripe Style Sheet of tDiary $Revision: 1.4 $
+Title: Stripe
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+
+	stripe.css: Stripe Style Sheet of tDiary $Revision: 1.5 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	Modified by TADA Tadashi
 */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* div.comment align left.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 
@@ -65,8 +72,8 @@ p.message {
 span.adminmenu {
 	background-color: transparent;
 	padding: 1px;
-        font-size: small;
-        margin-right: 1em;
+	font-size: small;
+	margin-right: 1em;
 }
 
 h1 {
@@ -93,7 +100,7 @@ div.day {
         font-size: small;
         color :#000;
 	margin: 3em auto 3em auto;
-	text-align: right;
+	text-align: left;
 	clear: both;
 	width: 90%;
 	border-style: dashed;
@@ -192,7 +199,6 @@ pre {
 div.comment {
 	font-size: small;
 	clear: both;
-	text-align: right;
 	padding-bottom: 1px;
 	margin: auto 5px;
 	border-style: dashed;
@@ -221,7 +227,7 @@ span.commentator {
 
 p.comment {
 	font-size: small;
-	text-align: right;
+	/*text-align: right;*/
 	color: #555555;
 	padding: 0px 0px 0px 0px;
 	margin-left: 24px;
@@ -229,7 +235,7 @@ p.comment {
 	margin-top: 0px;
 }
 
-p.referertitle {    
+p.referertitle {
 	text-align: right;
 	display: inline;
 	position: relative;

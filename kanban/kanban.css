@@ -1,9 +1,17 @@
 /*
-	Kanban.css: Kanban  Style Sheet of tDiary $Revision: 1.3 $
-	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+Title: 看板
+Revision: $Revision: 1.4 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 日付が看板に描かれているように見えます
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */

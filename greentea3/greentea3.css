@@ -1,5 +1,7 @@
 /*
-        greentea3.css: GreenTea3(Tategaki) Style Sheet of tDiary $Revision: 1.3 $
+Title: GreenTea3
+Revision: $Revision: 1.4 $
+Author: NT
 
   使用上の注意
         このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで表示されます。
@@ -10,6 +12,9 @@
         265 行目の height の数値をいじるとスクロールする部分の高さが変化します。 Written by NT
 */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */

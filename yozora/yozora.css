@@ -1,7 +1,16 @@
 /*
-	yozora.css: Yozora Style Sheet of tDiary $Revision: 1.3 $
+Title: –é‹ó
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+
+	yozora.css: Yozora Style Sheet of tDiary $Revision: 1.4 $
 	Copyright (C) nana http://mikan.sakura.ne.jp/~mpc/
  */
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* div.comment align left.
+*/
 
 body {
 	text-align : center;
@@ -73,7 +82,7 @@ div.day {
 	color:#fff;
 	font-size: small;
 	margin: 3em auto 3em auto;
-	text-align: right;
+	text-align: left;
 	clear: both;
 	width: 70%;
 	border-style: double;
@@ -163,7 +172,7 @@ pre {
 div.comment {
 	color:#fff;
 	clear: both;
-	text-align: right;
+	/*text-align: right;*/
 	padding-bottom: 1px;
 	margin: auto 5px;
 	border-style: double;

@@ -1,10 +1,17 @@
 /*
-	line.css: Line Style Sheet of tDiary $Revision: 1.3 $
+Title: Line
+Revision: $Revision: 1.4 $
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	Modified by TADA Tadashi
 	validated by W3C.
  */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */
@@ -163,7 +170,7 @@ pre {
 div.comment {
 	font-size: small;
 	clear: both;
-	text-align: right;
+	/*text-align: right;*/
 	padding-bottom: 1px;
 	margin: auto 12px 12px 0px;
 	border-style: double;
@@ -172,7 +179,7 @@ div.comment {
 }
 
 p.commenttitle {
-	text-align: right;
+	text-align: left;
 	background-color: #000;
 	position: relative;
 	top: -10px;

@@ -1,8 +1,18 @@
 /*
-	snow_man.css: Snow Man Style Sheet of tDiary $Revision: 1.1 $
+Title: 雪だるま
+Revision: $Revision: 1.2 $
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+
+	snow_man.css: Snow Man Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2002 nga <http://nga.jp/>
 	validated by W3C. (2002-03-02)
  */
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+*/
 
 a:link, a:visited {
 	background-color: transparent;

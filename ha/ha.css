@@ -1,34 +1,43 @@
 /*
-	ha.css: Ha Style Sheet of tDiary $Revision: 1.4 $
+Title: ハート
+Revision: $Revision: 1.5 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 背景にハートマークがちりばめられています
+
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
  */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* div.comment align left.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */
 
 
 body {
-        text-align : center;
-        font-size: 1em;
-        background-image: url(ha_back.png);
-        color: #000;
+	text-align: center;
+	font-size: 1em;
+	background-image: url(ha_back.png);
+	color: #000;
 }
 
 a:link {
-        text-decoration: none;
+	text-decoration: none;
 	color: #FF6300;
-        font-weight:bold;
+	font-weight:bold;
 }
 
 a:visited {
-        text-decoration: none;
-        color: #FF6300;
+	text-decoration: none;
+	color: #FF6300;
 }
 
 a:hover,a:active {
 	text-decoration: none;
-        color: #FFf;
+	color: #FFf;
 }
 
 p.adminmenu {
@@ -47,7 +56,7 @@ p.message {
 span.adminmenu {
 	background-color: transparent;
 	padding: 3px;
-        font-size: small;
+	font-size: small;
 }
 
 h1 {
@@ -58,22 +67,21 @@ h1 {
 p.calendar {
     
 	font-size: small;
-        font-weight: bold;
+	font-weight: bold;
 	text-align: center;
 	padding: 5px;
-        border-style: solid;
+	border-style: solid;
 	border-color: #F879AA;
 	border-width: 0px 0px 3px 0px;
-        width:80%
+	width:80%
 }
 
 div.day {
-        -moz-opacity:0.8;
-        filter:Alpha(opacity=85);
-        background-color: #fff;
-        font-size: 16px;
+	-moz-opacity:0.8;
+	filter:Alpha(opacity=85);
+	background-color: #fff;
+	font-size: 16px;
 	margin: 3em auto 3em auto;
-	text-align: right;
 	clear: both;
 	width: 80%;
 	border-style: solid;
@@ -89,14 +97,13 @@ h2 {
 	margin-left: auto;
 	margin-right: 0px;
 	font-size: small;
-        font-weight: bold;
+	font-weight: bold;
 }
 
 span.date {
 	font-weight: bold;
 	position: relative;
 	font-size: small;
-	text-align: right;
 	margin-bottom: 0em;
 	margin-left: auto;
 	margin-right: 0px;
@@ -108,7 +115,7 @@ span.title {
 }
 
 div.body {
-        font-size: 1em;
+	font-size: 1em;
 	margin: 0px auto 0px auto;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -117,7 +124,7 @@ div.body {
 }
 
 p.body {
-        font-size: 1em;
+	font-size: 1em;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	line-height: 1.2em;
@@ -147,7 +154,7 @@ h3.subtitle {
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
-        font-size: small;
+	font-size: small;
 	clear: both;
 }
 
@@ -165,7 +172,7 @@ pre {
 	border-style: none;
 	font-size: small;
 	background-color: #fff;
-        color: #005AC9; 
+	color: #005AC9; 
 	border-color: #fcc;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -173,9 +180,9 @@ pre {
 }
 
 div.comment {
+	text-align: left;
 	font-size: small;
 	clear: both;
-	text-align: right;
 	padding-bottom: 1px;
 	margin: auto 5px;
 	border-style: dotted;
@@ -225,7 +232,7 @@ p.referertitle {
 	border-style: dotted;
 	border-color: #FFCE00;
 	border-width: 3px;
-        padding: 6px;
+	padding: 6px;
 }
 
 p.referer {
@@ -273,14 +280,14 @@ p.footer {
 }
 
 div.form {
-        -moz-opacity:0.8;
-        filter:Alpha(opacity=85);
+	-moz-opacity:0.8;
+	filter:Alpha(opacity=85);
 	background-color: #FFCE00;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-        border-style: none;
-        width: 80%;
-        border-color: #F879AA;
+	border-style: none;
+	width: 80%;
+	border-color: #F879AA;
 	border-style: solid;
 }
 
@@ -294,7 +301,7 @@ div.form form {
 }
 
 input.field {
-        color: #00007F;
+	color: #00007F;
 	border-color: #FFCE00;
 	border-style: solid;
 }

@@ -1,6 +1,10 @@
 /*
-	rasuta.css: Rasuta Sheet of tDiary $Revision: 1.4 $
-	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+Title: Rasuta
+Revision: $Revision: 1.5 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	Modified by TADA Tadashi
  
         Changelog 2002.3.17 by Nana
@@ -9,6 +13,9 @@
         deleted font-famiry
 */
 /* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 */

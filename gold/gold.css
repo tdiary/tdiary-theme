@@ -1,11 +1,11 @@
 /*
 Title: gold
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: 何となくゴールドっぽいテーマ
-	gold.css: Style Sheet of tDiary $Revision: 1.2 $
+	gold.css: Style Sheet of tDiary $Revision: 1.3 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -265,5 +265,58 @@ blockquote {
 strong {
 	color:darkgreen;
 }
+img {
+	border-style: none;
+}
 
+table.calendar {
+	text-align: center;
+	color: #000000;
+	background-color: #FFEBCD;
+	border-style: solid;
+	border-color: #B22222;
+	border-width: 1px;
+	margin-bottom: 1em;
+}
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
+}
 

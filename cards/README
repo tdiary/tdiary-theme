@@ -4,6 +4,12 @@ Access: nt@be.to
 License: GPL
 Comment: メッセージカードを並べたようなテーマ 
 
+Notice: このテーマはWindows上のIE6.0において背景色が正常に描画されない
+	という問題があります。
+	したがって、現時点では使用をお奨めしません。
+	しかし、直す気はあります。長い目で見てね(笑。
+	2003-09-25 Hiroyuki Ikezoe <poincare@ikezoe.net>
+	
 validated by W3C.
 calendar2, calendar3 プラグインに対応
 

@@ -1,6 +1,6 @@
 /*
         Title: Sunset
-        Revision: $Revision: 1.3 $
+        Revision: $Revision: 1.4 $
         Author: epi
         Access: <http://wind.prohosting.com/~episodee/>
         License: GPL
@@ -23,7 +23,7 @@ body {
 	color:           #2F4F4F;
 	background-color:#FFFAFA;
 	font-family: osaka,'MS Gothic',sans-serif;
-	font-size:	small;
+/*	font-size:	small;*/
         text-align:     left;
 }
 

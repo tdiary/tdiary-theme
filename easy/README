@@ -1,0 +1,22 @@
+Title: Easy
+Author: abbey
+Access: http://cello.no-ip.org/
+License: GPL
+Comment: お気楽に作成したテーマ<br>4/15 calendar2とtitle_list対応
+
+easy.css Easy Style Sheet of tDiary 
+created by abbey <http://cello.no-ip.org/>
+Modified by Nana
+Validated by W3C.
+
+Changelog
+2002-09-15 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-15 abbey <inlet@cello.no-ip.org>
+	* add plugin's style.
+	calender2, recent_list, search_form
+	dropdown_calender
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.

@@ -6,8 +6,11 @@ License: GPL
 Comment: アースからー茶
 
 Copyright (C) 2002 Nana http://mikan.sakura.ne.jp/~mpc
-
 validated by W3C
+
+Changelog
+2002-09-15 NT <nt@24i.net>
+        * convert for 1.5 series.
 */
 
 body {
@@ -34,7 +37,7 @@ a:hover {
   background-color: #ff8c00;
 }
 
-p.adminmenu {
+div.adminmenu {
   text-align: left;
   font-size: 0.8em;
 }
@@ -55,7 +58,7 @@ h1 {
   background-color: transparent;
 }
 
-p.calendar {
+div.calendar {
   text-align: right;
   color: #a59c6b;
   border-width: 0px 0px 5px 0px;
@@ -89,7 +92,7 @@ h2 {
   color: #a59c6b;
 }
 
-span.date a:hover, a:active {
+h2 span.date a:hover, a:active{
   text-decoration: underline;
   color: #fff;
   background-color: #ff8c00;
@@ -99,7 +102,7 @@ span.date{
   margin-left: 2em;
 }
 
-span.title {
+h2 span.title {
   font-size: medium;
 }
 
@@ -114,7 +117,7 @@ div.section p{
   line-height: 130%;
 }
 
-h3.subtitle {
+h3 {
   background-color: #a59c6b;
   font-size: medium;
   color: #ffffff;
@@ -122,19 +125,19 @@ h3.subtitle {
   text-align: left;
   padding: 2px;
 }
-h3.subtitle a:link{
+h3 a:link{
   color: #fffff0;
   background-color: transparent;
   text-decoration: underline;
   
 }
-h3.subtitle a:visited{
+h3 a:visited{
   color: #ffffff;
   text-decoration: underline;
   background-color: transparent;
 }
 
-h3.subtitle a:hover{
+h3 a:hover{
   color:#fff;
   background-color: #ff8c00;
 }
@@ -170,7 +173,7 @@ div.comment a:visited{
   background-color: transparent;
 }*/
 
-p.commenttitle {
+div.comment div.caption {
   text-align: right;
   color:#ffffff;
   font-size: 0.9em;
@@ -179,16 +182,8 @@ p.commenttitle {
   padding-right: 3em;
 }
 
-span.commentator {
-  color: #880000;
-  background-color: transparent;
-  font-weight: bold;
-  border-width: 0px 0px 2px 0px;
-  border-color: #fffff0;
-  border-style: solid;
-}
 
-p.referertitle {
+div.refererlist div.caption {
   text-align: right;
   color: #ffffff;
   background-color: transparent;
@@ -196,7 +191,7 @@ p.referertitle {
   font-size: 0.9em;
 }
 
-p.referer {
+div.referer {
   margin-left: 10%;
   margin-bottom: 1em;
   font-size: 0.9em;
@@ -220,7 +215,7 @@ hr.sep {
   display: none;
 }
 
-p.footer {
+div.footer {
   font-size: small;
   text-align: right;
 }
@@ -359,7 +354,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 	text-align: center;
 }
 
-blockquote {
+div.body blockquote {
         background-image: url(earth-brown_bq.png);
 	background-position: left top;
 	background-repeat: no-repeat;
@@ -384,4 +379,142 @@ div.recentsubtitles {
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #ffffff;
+        color: #000000;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #ffffff;
+        color: #000000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

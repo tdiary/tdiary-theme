@@ -1,6 +1,6 @@
 /*
 Title: クールアイス
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -12,6 +12,7 @@ Validated by W3C.
 /* ChangeLog
 2002-04-17 TADA Tadashi <sho@spc.gr.jp>
 	* support amazon plugin.
+	* change <hr> color.
 
 2002-04-03 TADA Tadashi <sho@spc.gr.jp>
 	* created.
@@ -270,7 +271,7 @@ div.refererlist p, div.refererlist ul {
 }
 
 hr {
-	color: #3faf43;
+	color: #008;
 	background-color: transparent;
 	margin-top: 0.5em;
 }

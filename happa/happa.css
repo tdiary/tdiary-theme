@@ -1,10 +1,10 @@
 /*
 Title: はっぱ
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
-	Copyright (C) 2001 Nana <http://moo.boo.jp> 
+	Copyright (C) 2001 Nana <clorets@estyle.ne.jp>
 	validated by W3C
  */
 /* ChangeLog
@@ -39,8 +39,8 @@ body {
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #FFFFE4;
 	color: #000;
-	margin-left: 0px;
-	margin-right: 0px;
+	/*margin-left: 0px;
+	margin-right: 0px;*/
 	background-image: url(happa_back.png);
 	background-repeat: repeat-x;
 	background-position: left bottom;
@@ -59,6 +59,7 @@ p.message {
 
 div.adminmenu {
 	text-align: left;
+	font-size: 90%;
 	
 }
 
@@ -78,12 +79,13 @@ h1 {
 }
 
 div.calendar {
-	margin-top: 0px;
-	margin-left: 0px;
+	/*margin-top: 0px;
+	margin-left: 0px;*/
 	color: #000;
 	text-align: left;
 	padding-top: 8px;
 	padding-left: 8px;
+	font-size: 90%;
 }
 
 div.day {
@@ -129,13 +131,13 @@ div.section p {
 }
 
 h3 {
-	margin: 0em;
+	margin: 0px;
 	font-weight: bold;
 	color: #70B61A;
 	border-style: solid;
 	border-color: #8FDD48;
 	border-width: 0px 0px 1px 0px;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 h3 a:link, h3 a:visited {
@@ -171,8 +173,7 @@ pre {
 	background-image: url(happa_pre.png);
 	background-color: #fff;
 	color: #000;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin: 1em 3em;
 	padding: 8px 8px 8px 8px;
 }
 
@@ -310,9 +311,9 @@ div.commentbody {
 ツッコミした人の情報
 */
 div.commentator {
-        border-style: solid;
+        /*border-style: solid;
         border-color: #8FDD48;
-        border-width: 0px 0px 1px 0px;
+        border-width: 0px 0px 1px 0px;*/
         line-height: 1.5em;
 }
 
@@ -425,4 +426,111 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+div.body blockquote {
+	border: solid 4px #ffcc33;
+	padding: 5px;
+	margin-left: 4em;
+}
+
+div.body ul,ol {
+	margin-left: 4em;
+}
+
+/*
+サイドバー関連
+*/
+div.sidebar {
+	width: 18%;
+	font-size: 90%;
+	margin: 0em 4px 0em 0em;
+	padding: 0.5em 2px;
+	float: right;
+}
+
+div.sidebar p{
+	margin: 0em;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1em;
+	margin: 1px auto;
+	text-align: center;
+}
+
+table.calendar td {
+	text-align: right;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* calendar3用 */
+.calendar-popup {
+	display: none;
+	text-align: left;
+	position: absolute;
+	padding: 0 1ex 0 1ex;
+}
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+div.footnote {
+	font-size: 85%;
+	padding: 0em;
+	margin-left: 15%;
+	margin-right: 2em;
+	background-color: #ebf8dd;
+	color: #85a366;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
 }

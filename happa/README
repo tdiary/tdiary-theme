@@ -7,6 +7,13 @@ Copyright (C) 2001 Nana <http://moo.boo.jp>
 validated by W3C
 
 ChangeLog
+2003-03-04 Nana <clorets@estyle.ne.jp>
+	* remove h3 width:50%
+	* set resent-list,blockquote,ul,ol,calendar2.3
+	* adminmenu,calendar font-size:90%
+	* pre margin: 1em 3em;
+	* remove div.commentator border
+
 2002-10-07 NT <nt@24i.net>
         * change some properties in update form.
 

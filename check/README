@@ -6,6 +6,9 @@ Comment:support calendar2
 Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 
 ChangeLog
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+        * equalize indent size.
+
 2002-10-05 NT <nt@24i.net>
         * change some properties in update form.
 

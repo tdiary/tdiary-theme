@@ -1,0 +1,428 @@
+/*
+Title: W2K Button
+Revision: $Revision: 1.2 $
+Author: jun nogata
+Access: http://www.nofuture.tv/diary/
+License: GPL
+Comment: Windowsに見立てたテーマ
+
+validated by W3C.
+*/
+
+/* Change log
+   2002-09-30 Nana
+        fix .day margin
+*/
+
+body { 
+        color: white;
+        background-color: #3a6ea5; 
+        margin: 0em;
+        padding: 0em;
+        font-size: 100%;
+}
+
+a { 
+        text-decoration: none; 
+}
+
+a:hover { 
+        text-decoration: underline; 
+}
+
+p { 
+        margin-top: 0em;
+        margin-bottom: 0em;
+}
+
+img {
+        margin: 0.3ex;
+        border: none;
+}
+
+hr { 
+        display: none; 
+}
+
+form { 
+        margin: 0em;
+        padding: 0em;
+}
+
+q { 
+        text-decoration: underline; 
+}
+
+kbd {
+        font-family: monospace;
+        font-style: italic;
+        font-weight: bold;
+        white-space:  pre;
+        text-decoration: underline;
+}
+
+/*
+-----------------------------------------------------
+*/
+
+.day { 
+        color: #333333;
+        background-color: #c0c0c0;
+
+        width: 80%;
+        margin-bottom: 1.5em;
+	margin-top: 1.5em;
+	margin-right: auto;
+	margin-left: auto;
+
+        border-style: solid;
+        border-width: 1px 2px 2px 1px;
+        border-color: #ffffff #000000 #000000 #ffffff;
+}
+
+.day h2{
+        color: white;
+        background-color: #000080;
+
+        font-size: 9pt;
+        font-family: "MS UI Gothic",sans-serif;
+        font-weight: normal;
+
+        background-image: url("w2k_button.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+
+        margin: 1px 2px 18px 2px;
+        padding: 3px 2px;
+}
+
+.day h2 a{ 
+        color: white;
+        background-color: #000080;
+}
+
+/*
+---------------------------------------------------
+*/
+
+.body {
+        color: #333333;
+        background-color: white;
+
+        margin: 2px;
+        padding: 1em 2em 1em 2em;
+
+        border-style: solid;
+        border-width: 1px 2px 2px 1px;
+        border-color: #000000 #808080 #808080 #000000;
+}
+
+.section h3 {
+        font-size: 140%;
+        font-weight: bolder;
+
+        margin: 3ex 0ex 0.5ex 0ex;
+        padding: 0em;
+
+        border-bottom: solid 1px #c0c0c0;
+}
+
+.section p{ 
+        font-size: 100%;
+        margin: 0em;
+        text-indent: 1ex;
+        line-height: 130%;
+}
+
+.section blockquote { 
+        color: #333333;
+        background-color: #c0c0c0;
+
+        margin: 1em;
+        padding: 1em 2em;
+
+        border-style: solid;
+        border-width: 1px 2px 2px 1px;
+        border-color: #ffffff #000000 #000000 #ffffff;
+}
+
+.section pre { 
+        width: 90%;
+/*          overflow: auto;*/
+
+        margin: 1ex auto;
+        padding: 1em;
+
+        border-style: inset;
+        border-width: 1px 2px 2px 1px;
+        border-color: #c0c0c0 #808080 #808080 #c0c0c0;
+}
+
+.section dl { 
+        margin: 0em;
+        padding-left: 1em;
+}
+
+.section dl dt { 
+        font-weight: bold;
+        margin: 1ex 0ex;
+}
+
+.section dl dd { 
+        margin-left: 1ex;
+}
+
+/*
+---------------------------------------------------
+*/
+
+
+p.calendar { 
+         color: black;
+         background-color: #c0c0c0;
+
+         font-size: 9pt;
+         text-align: right;
+
+         margin: 0px;
+         padding: 4px;
+
+         border: groove 2px white;
+}
+
+p.calender select { 
+         margin: 0em;
+         padding: 0em;
+}
+
+/*
+---------------------------------------------------
+*/
+
+p.adminmenu { 
+         color: black;
+         background-color: #c0c0c0;
+
+         font-size: 9pt;
+
+         margin: 0px;
+         padding: 2px 0px 2px 8px;
+
+         border: groove 2px white;
+}
+
+span.adminmenu{ 
+         padding: 1px;
+         margin: 0px;
+}
+
+span.adminmenu a{
+         color: black;
+         background-color: #c0c0c0;
+         padding: 1px;
+         margin: 0px;
+         border-left: solid 1px #c0c0c0;
+         border-right: solid 1px #c0c0c0;
+}
+
+span.adminmenu a:hover {
+         text-decoration: none;
+         border-style: solid;
+         border-width: 1px;
+         border-color: #ffffff #808080 #808080 #ffffff; 
+}
+
+/*
+---------------------------------------------------
+*/
+
+.comment {
+         font-size: 9pt;
+         margin: 2px;
+         padding: 1ex 2ex;
+
+         border-style: inset;
+         border-width: 1px 1px 1px 1px;
+         border-color: #808080 #ffffff #ffffff #808080;
+}
+
+.comment p { 
+         line-height: 130%;
+}
+
+.comment p span.commentator { 
+         font-weight: bold;
+}
+
+/*
+---------------------------------------------------
+*/
+
+p.referer { 
+         font-size: 8pt;
+         text-align: right;
+
+         margin: 1px;
+         padding: 2px 8px 2px 1px;
+
+         border-style: inset;
+         border-width: 1px 1px 1px 1px;
+         border-color: #808080 #ffffff #ffffff #808080;
+}
+
+/*
+---------------------------------------------------
+*/
+
+p.footer { 
+         font-size: 9pt;
+         color: black;
+         background-color: #c0c0c0;
+         border-top: solid 1px white;
+         margin: 0em;
+         padding: 2px;
+         text-align: right;
+}
+
+/*
+---------------------------------------------------
+*/
+
+
+div.form {
+         color: #333333;
+         background-color: #c0c0c0;
+
+         margin: 1ex;
+         padding: 1em;
+         border: groove 2px white;
+}
+
+div.form textarea { 
+/*
+         font-size: 90%;
+*/
+         width: 80%;
+}
+
+div.form p { 
+         margin: 0.5ex 0em;
+}
+
+div.refererlist { 
+         margin: 0em;
+         padding: 0em 1em;
+}
+/*
+------------------------------ 
+*/
+
+div.footnote { 
+         margin: 1em 0em 0em 0em;
+         padding: 0em 0em 0em 1em;
+
+         border-top: solid 1px #c0c0c0;
+}
+
+p.footnote {
+         margin: 0.5em 0em;
+}
+
+/*
+------------------------------ calender2
+*/
+
+.calendar {
+         color: #333333;
+         background-color: #c0c0c0;
+         border: outset 2px #c0c0c0;
+         border-spacing: 1px;
+         border-collapse: collapse;
+}
+
+.calendar td {
+         padding: 1px 4px;
+         text-align: center;
+}
+
+.calendar td.calendar-prev-month,
+.calendar td.calendar-current-month,
+.calendar td.calendar-next-month { 
+         color: #c0c0c0;
+         background-color: #808080;
+}
+
+.calendar td.calendar-prev-month a,
+.calendar td.calendar-current-month a,
+.calendar td.calendar-next-month a{
+         color: white;
+         background-color: transparent;
+}
+
+.calendar td.calendar-sunday,
+.calendar td.calendar-weekday,
+.calendar td.calendar-saturday { 
+         color: #c0c0c0;
+         background-color: #808080;
+         border-top: groove 2px white;
+}
+
+/*
+------------------------------ recent_list
+*/
+
+p.recentitem { 
+         color: white;
+         background-color: #000080;
+
+         font-size: 9pt;
+         font-family: "MS UI Gothic",sans-serif;
+         font-weight: normal;
+
+         background-image: url("w2k_gradation.png");
+         background-repeat: repeat-y;
+         background-position: right top;
+
+         margin: 0px;
+         padding: 3px 6px;
+
+         border-style: solid;
+         border-width: 1px 2px 0px 1px;
+         border-color: #808080 #000000 #000000 #808080;
+}
+
+p.recentitem a{
+         color: white;
+         background-color: transparent;
+}
+
+div.recentsubtitles { 
+         color: #333333;
+         background-color: #c0c0c0;
+
+         margin: 0em;
+         padding: 1em;
+
+         border-style: solid;
+         border-width: 0px 2px 2px 1px;
+         border-color: #808080 #000000 #000000 #808080;
+}
+
+
+/*
+------------------------------ amazon
+*/
+
+img.left { 
+         vertical-align: top;
+         float: left;
+}
+
+img.right { 
+         vertical-align: top;
+         float: right;
+}
+
+div.section, div.comment {
+         clear: both;
+}

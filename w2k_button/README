@@ -1,0 +1,15 @@
+Title: W2K Button
+Author: jun nogata
+Access: http://www.nofuture.tv/diary/
+License: GPL
+Comment: Windowsに見立てたテーマ
+
+validated by W3C.
+
+Change log
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	* add "div" in many sections.
+
+2002-09-30 Nana
+        * fix .day margin

@@ -1,9 +1,11 @@
 /*
-	lr.css: LR Style Sheet of tDiary $Revision: 1.1 $
+	lr.css: LR Style Sheet of tDiary $Revision: 1.2 $
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C
  */
 a:link {
 	text-decoration: none;
-	color: mediumblue;
+	color: #0000cd;
 }
 a:visited {
 	text-decoration: none;
@@ -16,7 +18,7 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: mediumblue;
+	color: #0000cd;
 }
 
 body {
@@ -220,8 +222,10 @@ div.form {
 	border-style: solid;
 	border-color: darkgray #eee #eee darkgray;
 	border-width: 1px;
+	color: #888;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
+	clear: both;
 }
 
 input.field {

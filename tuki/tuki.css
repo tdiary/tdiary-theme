@@ -1,6 +1,7 @@
 /*
-        tuki.css tuki Style Sheet of tDiary $Revision: 1.2 $
+        tuki.css tuki Style Sheet of tDiary $Revision: 1.3 $
         Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	validated by W3C
     
         Changelog 2002.3.16 by Nana
         color:pink>>>#ffc0cb,red>>>#ff0000,white>>>#fff
@@ -104,7 +105,7 @@ p {
 	margin-left: 1em;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
-	line-height: 1.3;
+	line-height: 1.3em;
 }
 
 h3.subtitle {
@@ -117,7 +118,7 @@ h3.subtitle {
 }
 
 pre {
-	background-color: pink;
+	background-color: #ffc0cb;
 	color: #999;
 	margin-left: 3em;
 	margin-right: 1em;
@@ -126,7 +127,7 @@ pre {
 
 div.comment {
 	color: #555;
-    padding: 2px;
+	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
 	margin-left: 4em;
@@ -137,7 +138,6 @@ p.commenttitle {
 	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
         width:90%;
-    
 }
 
 span.commentator {

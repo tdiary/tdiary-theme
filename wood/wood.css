@@ -3,7 +3,7 @@ Title: 黒板
 Author: yosshy
 Access: http://yosshy.tdiary.net/>
 
-	wood.css: Wood Style Sheet of tDiary $Revision: 1.5 $
+	wood.css: Wood Style Sheet of tDiary $Revision: 1.6 $
 	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
  */
 /* ChangeLog
@@ -59,7 +59,7 @@ a:hover,a:active {
 	margin: 2px;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -82,7 +82,7 @@ h1 {
 	text-align: center;
 }
 
-p.calendar {
+div.calendar {
 	font-size: small;
 	background-color: transparent;
 	padding: 2px;
@@ -102,12 +102,12 @@ h2 {
 	font-weight: bold;
 }
 
-span.date {
+h2 span.date {
 	font-size: large;
 	margin-left: 40px;
 }
 
-span.title {
+h2 span.title {
 }
 
 div.body {
@@ -135,13 +135,13 @@ p.body {
 	padding-top:0em;
 }
 
-p {
+div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 1.0em;
 	line-height: 1.5;
 }
 
-h3.subtitle {
+h3 {
 	margin-top: 0.2em;
 	margin-bottom: 0em;
 	font-weight: bold;
@@ -170,25 +170,18 @@ div.comment {
 	word-break: break-all;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	margin-left: 0em;
 	color: #fff;
 }
 
-span.commentator {
-	border-style: solid; /* dashed; */
-	border-color: #00ffff;
-	border-width: 0px 0px 1px 0px;
-	/* padding: 0px; */
-	color: #fff;
-}
 
-p.referertitle {
+div.refererlist div.caption {
 	width: 200px;
 	margin-left: 4em;
 }
 
-p.referer {
+div.referer {
 	margin-top: 0.5em;
 	width: 600px;
 	text-align: left;
@@ -210,7 +203,7 @@ div.refererlist {
         width: 600px;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -225,7 +218,7 @@ hr.sep {
 }
 
 
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 	margin-top: 0px;
@@ -274,22 +267,168 @@ textarea {
 	border-width: 1px;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
+
 p.strong
 {
         font-size: 200%;
         font-weight: bold;
         text-align: center;
 }
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+	border-bottom: solid #00ffff 1px;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #003200;
+        color: #fff;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #003200;
+        color: #fff;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 0em;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+}
+
+div.day.update div.form {
+	border-style: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #003200;
+        color: #fff;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+

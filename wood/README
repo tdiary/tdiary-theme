@@ -1,0 +1,21 @@
+Title: ¹õÈÄ
+Author: yosshy
+Access: http://yosshy.tdiary.net/
+Comment: 
+License: GPL
+
+	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
+
+ChangeLog
+2002-10-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-01 TADA Tadashi <sho@spc.gr.jp>
+	* wood.png -> wood.jpg
+	* delete background-color from div.all and body.

@@ -1,0 +1,421 @@
+/*
+	sakura.css: Sakura Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) nga <http://nga.jp/>
+ */
+
+
+body {
+	background-color: #FFFFFF;
+	border-color:#DB7093;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding: 0px;
+	padding-bottom: 1px;
+	margin-left: 0em;
+	margin-right: 1em;
+}
+a:link, a:visited {
+	background-color:transparent; 
+	color: #B22222;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: underline;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #B22222;
+	background-color: #FFC0CB;
+	border-style: none;
+	border-width: 1px;
+}
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: #ddd;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	background-color: #FFF;
+	text-align:right;
+	border-style: solid;
+	border-color: #DB7093;
+	border-width: 1px 1px 1px 0px;
+	padding: 2px;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background-color: #FFF;
+	color: black;
+	border-style: solid;
+	border-color: #FFC0CB;
+	border-width: 0px 0px 0px 25px;
+
+	margin-left: 0;
+	margin-right: 1em;
+	margin-bottom: 0;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	background-color: #FFF5EE;
+	color: #C71585;
+	margin-top: 0.1em;
+	margin-bottom: 0em;
+	border-color:#FFC0CB #FFE4E1 #FFE4E1 #FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 0;
+	margin-left: 0em;
+	margin-right: 0;
+}
+
+div.section {
+	background-color: #FFF5EE;
+
+
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+div.section p {
+	text-indent:1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+/*
+日付の設定
+*/
+span.date {
+
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.title {
+	font-size: small; 
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: #FFF5EE;
+	border-color:#FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 0em;
+	margin-right: 0;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	font-size: medium;
+	margin: 0em;
+	font-weight: bold;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	background-color: #FFF5EE;
+	border-color:#FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 0em;
+	margin-right: 0;
+}
+
+div.comment p {
+	margin-left:3em;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	background-color: #FFF5EE;
+	border-color:#FFE4E1 #FFE4E1 #FFF #FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left:3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: small;
+	background-color: #FFF5EE;
+	border-color:#FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 0em;
+	margin-right: 1em;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: #eee;
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 0.5em 1em 0.5em 2em;
+}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+}
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 30em;
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: #FFFAF0;
+	color: #000;
+	border-color:#DB7093;
+	border-style: solid;
+	border-width: 1px 1px 1px 5px;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+/*
+Calendar2の設定
+*/
+table.calendar {
+	text-align: center;
+	color: #000000;
+	background-color: #FFF5EE;
+	border-style: solid;
+	border-color: #DB7093;
+	border-width: 1px;
+	margin-bottom: 1em;
+}
+
+td.calendar-current-month {
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-next-month {
+	font-size: xx-small;
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	font-size: xx-small;
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-weekday {
+	color: #000000;
+	background-color: #ddd;
+	font-size: xx-small;
+	text-align: center;
+}
+
+td.calendar-day {
+	font-size: xx-small;
+	text-align: right;
+}
+
+/*
+footnoteの設定
+*/
+
+span.footnote {
+	font-size: x-small;
+	vertical-align:  super;
+}
+
+div.footnote {
+	background-color: #FFE4E1;
+	padding: 5px;
+	padding-bottom: 1px;
+	margin-top:1em;
+	margin-left: 36px;
+	margin-right: 24px;
+}
+p.footnote {
+	font-size: smaller;
+	padding-bottom: 5px;
+}

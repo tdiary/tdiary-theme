@@ -1,6 +1,6 @@
 /*
 Title: WiLL
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 
@@ -52,12 +52,15 @@ h1 img {
 	border-width: 0px;
 }
 
-p {
+div.section p {
 	color: black;
 	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
 }
 
-p.calendar {
+div.calendar {
 	color: black;
 	background-color: white;
 	border-style: solid;
@@ -65,6 +68,7 @@ p.calendar {
 	border-color: #f80;
 	padding: 4px;
 	font-size: small;
+	line-height: 100%;
 }
 
 h2 {
@@ -83,7 +87,7 @@ div.day h2 {
 	padding-bottom: 4px;
 }
 
-h3.subtitle {
+h3 {
 	font-size: medium;
 	border-style: dashed;
 	border-color: #f80;
@@ -94,12 +98,6 @@ h3.subtitle {
 }
 
 div.body {
-	margin-left: 1em;
-}
-
-div.section p {
-	margin-top: 0px;
-	margin-bottom: 0.5em;
 	margin-left: 1em;
 }
 
@@ -135,11 +133,6 @@ div.comment p.commenttitle {
 	border-width: 0px 0px 1px 0px;
 }
 
-div.comment span.commentator {
-	border-style: solid;
-	border-color: #f80;
-	border-width: 0px 0px 1px 0px;
-}
 
 div.form {
 	border-style: dashed;
@@ -165,7 +158,7 @@ div.form textarea {
 	width: 100%;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: x-small;
 	margin-top: 0px;
@@ -197,7 +190,7 @@ hr.sep {
 	display: none;
 }
 
-dt {
+div.body dt {
 	border-style: solid;
 	border-color: #f80;
 	border-width: 0px 0px 1px 0px;
@@ -209,7 +202,7 @@ div.section dl {
 	margin-left: 2em;
 }
 
-dd {
+div.body dd {
 	margin-top: 0.3em;
 	margin-bottom: 0.5em;
 }
@@ -257,7 +250,7 @@ p.navi a:link, p.navi a:visited {
 	border-color: #f80;
 }
 
-address, p.footer {
+address, div.footer {
 	font-style: normal;
 	text-align: right;
 	font-size: small;
@@ -344,4 +337,153 @@ div.recentsubtitles {
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.0em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+	display: inline;
+	border-style: solid;
+	border-color: #f80;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin-top: 0.5em;
+}
+
+div.comment div.caption {
+        margin: 0em 0.5em;
+	border-style: dashed;
+	border-color: #f80;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 0em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        margin-left: 0em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 0em;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	border-style: dashed;
+	border-color: #f80;
+	border-width: 1px;
+}
+
+div.day.update div.form {
+        border-style: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 0em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 0em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

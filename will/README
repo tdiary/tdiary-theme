@@ -1,0 +1,25 @@
+Title: WiLL
+Author: ただただし
+Access: http://sho.tdiary.net/
+Licence: GPL
+Comment: 
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+	validated by W3C.
+	calendar2 プラグインに対応
+
+ChangeLog
+2002-10-02 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove overflow.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* no underline for links.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

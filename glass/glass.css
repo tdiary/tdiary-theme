@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -348,7 +348,7 @@ li{
 }
 
 blockquote {
-	color: #ffffff;
+	color: #000;
 	background-color: #B0E0E6;
 	margin-left: 3em;
 	border-style: inset;

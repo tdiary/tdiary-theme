@@ -1,16 +1,25 @@
 Title: Pink-border
 Author: Nana
-Access: http://moo.boo.jp
+Access: clorets@estyle.ne.jp
 License: GPL
 Comment: sidebarには不向きです。
        
-       Copyright(C)2002 Nana
+       Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
        validated by W3C.
 
 ChangeLog
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* remove body font-size, body p
+	* set body margin-left 25%,margin-right: 5%,calendar3
+	* remove h1,div.day,div.calendar marfin-left:25%
+
 2003-01-06 TADA Tadashi <sho@spc.gr.jp>
 	* em -> % in font-size.
 
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 
+Comment 
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* body内に文章を入れている方が多く
+	  画像に文字が被るのでbodyにマージンを取るように変更しました。

@@ -1,0 +1,265 @@
+/*
+	gold.css: Style Sheet of tDiary $Revision: 1.1 $
+	created by Shinchan <http://nga.jp/>
+	validated by W3C.
+ */
+
+a:link, a:visited {
+	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
+	color: darkgreen;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: underline;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+	color: crimson;
+	background-color: greenyellow;
+	border-style: none;
+	border-width: 1px;
+}
+
+body {	
+	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
+	background-image: url(gold_back.jpg);
+	color: #333333;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	color: white;
+	padding: 8px;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+span.adminmenu {
+	background-image: url(gold_h1.png);
+	border-style: outset;
+	border-color: white;
+	border-width: 1px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h1 {
+	background-image: url(gold_h1.png);
+	border-style: outset;
+	border-color: mediumblue;
+	border-width: 2px;
+	color: black;
+	padding: 4px;
+	text-align: right;
+}
+
+p.calendar {
+	margin-top: 0px;
+	margin-left: 0%;
+	color: black;
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+div.day {
+	border-width: 1px;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+span.title {
+	color: #333333;
+	margin-right: 1em;
+	font-size: 10px
+	text-align: right;
+}
+
+h2 {
+	background-image: url(gold_h2.png);
+	background-repeat: no-repeat;
+	font-size: medium ;
+	margin-left: 0px;
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+	width: 550px;
+	height: 32px;
+	padding-left: 8px;
+}
+
+span.date {
+	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
+	font-size: large;
+}
+
+div.body {
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 2em;
+; color: #000000
+}
+
+p {
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+; font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"
+}
+
+h3.subtitle {
+	font-family: "Arial", "Helvetica", "Verdana", "Impact", "Tahoma";
+	border-style: solid;
+	border-color: gray;
+	border-width: 0px 0px 1px 0px;
+	margin: 0em;
+	font-weight: bold;
+	color: darkgreen
+}
+
+pre {
+	background-color: black;
+	color: limegreen;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	border-color: Olive ;
+	border-style: ridge ; 
+	border-width: 3px;
+}
+
+div.comment {
+	background-color: white;
+	text-align: left;
+	color: black;
+	/* font-size: 14px; */
+	font-size: smaller;
+	border-style: ridge;
+	border-color: Olive;
+	border-width: 3px;
+	margin-left: 4em;
+}
+
+p.commenttitle {
+	border-style: solid;
+	border-color: yellowgreen;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: honeydew;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: yellowgreen;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: white;
+	text-align: right;
+	color: black;
+	font-size: 14px;
+	border-style: ridge;
+	border-color: Olive;
+	border-width: 3px;
+	margin-left: 4em;
+}
+
+div.refererlist {
+	background-color: white;
+	color: darkolivegreen;
+	font-size: small;
+	border-style: solid;
+	border-color: yellowgreen;
+	border-width: 1px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: Lime;
+	border-width: 1px;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	background-image: url(gold_h1.png);
+	color: #666666;
+	border-style: outset;
+	border-color: yellowgreen;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+input.field {
+	background-color: white;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+blockquote {
+	background-color: lightgoldenrodyellow;
+	margin-left: 2em;
+	border-style: solid;
+	border-color: olivedrab;
+	border-width: 0px 0px 0px 5px;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+strong {
+	color:darkgreen;
+}
+
+/*
+	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.1 $
+ */

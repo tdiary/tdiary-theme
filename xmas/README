@@ -8,6 +8,9 @@ License: GPL
        Modified by TADA Tadashi
 
 ChangeLog
+2002-10-19 Nana <mpc@mikan.sakura.ne.jp>
+	* remove div.day,div.comment {-moz-opacity:0.8;filter:Alpha(opacity=80);}
+	
 2002-10-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

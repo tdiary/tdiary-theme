@@ -5,7 +5,7 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 
 License: GPL
 
-       xmas.css: X'mas Style Sheet of tDiary $Revision: 1.5 $
+       xmas.css: X'mas Style Sheet of tDiary $Revision: 1.6 $
        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
        Modified by TADA Tadashi
 
@@ -102,8 +102,8 @@ div.calendar {
 1日の日記全体を囲む枠の設定
 */
 div.day {
-        -moz-opacity:0.8;
-        filter:Alpha(opacity=80);
+/*      -moz-opacity:0.8;
+        filter:Alpha(opacity=80);*/
         background-color: #000;
         color: #fff;
 	margin: 3em auto 3em auto;
@@ -194,8 +194,8 @@ pre {
 ツッコミ欄全体の設定
 */
 div.comment {
-        -moz-opacity:0.8;
-        filter:Alpha(opacity=80);
+	/*-moz-opacity:0.8;
+        filter:Alpha(opacity=80);*/
         background-color: #000;
 	font-size: small;
 	text-align: left;
@@ -293,8 +293,8 @@ div.footer {
 フォーム全体を囲む枠の設定
 */
 div.form {
-        -moz-opacity:0.8;
-        filter:Alpha(opacity=80);
+       /*-moz-opacity:0.8;
+        filter:Alpha(opacity=80);*/
 	background-color: #000;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;

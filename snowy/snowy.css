@@ -1,6 +1,6 @@
 /*
 Title: Snowy
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -497,9 +497,11 @@ div.body dd {
 table.calendar {
 	font-size: x-small;
 	line-height: 1.1em;
+	/*
 	background-image: url(piyo-line.png);
 	background-position: bottom center;
 	background-repeat: repeat-x;
+	*/
 	text-align: left;
 }
 

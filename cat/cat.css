@@ -1,6 +1,6 @@
 /*
 Title: cat
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -122,6 +122,7 @@ div.body {
 div.section {
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
+	width: 100%;
 }
 
 /*
@@ -169,7 +170,6 @@ div.day span.canchor {
 div.section p {
 	margin: 1em 1em 0.5em 1em;
 	line-height: 130%;
-	width: 100%;
 }
 
 /*

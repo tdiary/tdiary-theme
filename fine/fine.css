@@ -1,5 +1,7 @@
 /*
-	fine.css: Division Style Sheet of tDiary $Revision: 1.1 $
+	fine.css: Fine Style Sheet of tDiary $Revision: 1.2 $
+	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C
  */
 a:link {
 	text-decoration: none;
@@ -15,7 +17,7 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: mediumblue;
+	color: #0000cd;
 }
 
 body {
@@ -113,7 +115,7 @@ div.body {
 
 div.body p {
 	padding-left: 16px;
-	line-hight: 1.5;
+	line-height: 1.5em;
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
 }

@@ -1,0 +1,13 @@
+Title: Orangegrad
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc
+License: GPL
+Comment: オレンジなグラデーション
+
+	Orangegrad.css: Style Sheet of tDiary 
+	Copyright (C) 2002 by Nana <mpc@mikan.sakura.ne.jp>
+	validated by W3C
+
+ChangeLog
+	 2002-10-24 Nana <mpc@mikan.sakura.ne.jp>
+         * convert for 1.5 series.

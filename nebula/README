@@ -1,0 +1,23 @@
+Title: Nebula
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+License: GPL
+Comment: ネビュラチェーーーン。はい。
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C.
+
+ChangeLog
+2002-10-21 Hiroyuki Ikezoe<zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-10-21 Hiroyuki Ikezoe<zoe@kasumi.sakura.ne.jp>
+	* remove no-name element. 
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-05-09 s.sawada <moonwave@ba2.so-net.ne.jp>
+	* fix MacIE de makkurokekke problem.

@@ -1,20 +1,23 @@
 /*
-	moo.css: Default Style Sheet of tDiary $Revision: 1.1 $
- */
+	moo.css: Moo Style Sheet of tDiary $Revision: 1.2 $
+        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+*/
+
 a:link {
 	text-decoration: none;
 	color: #804040;
-    font-weight: bold;
+        font-weight: bold;
 }
+
 a:visited {
 	text-decoration: none;
 	color: #804040;
-    font-weight: bold;
+        font-weight: bold;
 }
 
 a:active {
 	text-decoration: none;
-    color: #9999FF;
+        color: #9999FF;
 }
 
 a:hover, a:focus {
@@ -22,13 +25,12 @@ a:hover, a:focus {
 }
 
 body {
-    background-image:url("moo.gif");
+        background-image: url(moo.gif);
 	background-color: #000;
 	color: #804040;
-    font-size: small;
-    
-    margin-left: 0em;
-    margin-right: 0em;
+        font-size: small;
+        margin-left: 0em;
+        margin-right: 0em;
     
 }
 
@@ -57,27 +59,27 @@ span.adminmenu {
 
 h1 {
 	text-align: center;
-    color: #804040;
+        color: #804040;
 }
 
 p.calendar {
 	background-color: #000;
 	border-style: none;
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 15px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 15px;
 }
 
 div.day {
-    background-color: #000;
+        background-color: #000;
 	border-style: none;
 	text-align: right;
-    color: #fff;
+        color: #fff;
 	padding: 0.5em;
 	padding-bottom: 0em;
 	padding-top: 0em;
 	margin-: 0em;
-    border-style: solid;
+        border-style: solid;
 	border-color: #fff;
 	border-width: 3px 3px 0px 3px;
 	margin-right: 15%;
@@ -90,15 +92,13 @@ h2 {
 	margin-right: 12px;
 	padding: 0em;
 	text-align: right;
-	
 }
 
 span.date {
 	font-size: small;
 	margin-left: 0.5em;
-    
-    
 }
+
 span.date a {
 	color: #a62;
 }
@@ -107,10 +107,12 @@ span.date a:link, {
 	color: orange;
 	text-decoration: none;
 }
+
 span.date a:hover, a:focus {
 	color: #4e8;
 	text-decoration: none;
 }
+
 span.title {
 }
 
@@ -119,15 +121,12 @@ div.body {
 	text-align: left;
 	padding: 0.1em;
 	margin-left: auto;
-    font-size: small;
-
-	
+        font-size: 1em;
 }
 
 p {
 	margin: 0em;
-	line-height: 1.4;
-    
+	line-height: 1.4;  
 }
 
 h3.subtitle {
@@ -135,8 +134,7 @@ h3.subtitle {
 	padding: 0em;
 	font-weight: bold;
 	font-size: small;
-    margin-bottom: 0.3em;
-    
+        margin-bottom: 0.3em;
 }
 
 pre {
@@ -156,7 +154,7 @@ div.comment {
   	margin: 0.2em;
 	margin-right: auto;
 	margin-left: 2px;
-    border-style: solid;
+        border-style: solid;
 	border-color: #999;
 	border-width: 1px 0px 0px 0px;
 }
@@ -167,7 +165,6 @@ div.comment p {
 
 p.commenttitle {
 	text-align: right;
-	
 }
 
 span.commentator {
@@ -218,8 +215,7 @@ hr.sep {
 p.footer {
 	font-size: small;
 	text-align: right;
-    color: #804040;
-    
+        color: #804040;
 }
 
 div.form {
@@ -227,11 +223,10 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	color: #fff;
 	margin-bottom: 0.5em;
-    border-style: solid;
+        border-style: solid;
 	border-color: #fff;
 	border-width: 3px 3px 3px 3px;
-    
-    margin-right: 15%;
+        margin-right: 15%;
 	margin-left: 15%;
 }
 
@@ -262,9 +257,10 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
+
 p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-    color: #FF8000;
+        color: #FF8000;
 }

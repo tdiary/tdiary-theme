@@ -3,11 +3,14 @@ Title: Sky
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 
-	sky.css: Sky Style Sheet of tDiary $Revision: 1.4 $
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.5 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
 /* ChangeLog
+2002-06-07 TADA Tadashi <sho@spc.gr.jp>
+	* change images to index colored (for mozilla/w32).
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add specification.
 */

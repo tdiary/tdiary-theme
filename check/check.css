@@ -1,6 +1,6 @@
 /*
 Title: Check
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment:support calendar2
@@ -467,6 +467,15 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day {
+     background-color: #FEE4F8;
+     color: #800040;
+}
+
+div.update.day div.form {
+	border: none;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

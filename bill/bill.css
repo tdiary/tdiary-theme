@@ -1,6 +1,6 @@
 /*
 Title: Bill
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
@@ -9,6 +9,9 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C.
  */
 /* ChanaegLog
+2002-10-05 NT <nt@24i.net>
+        * change some properties in update form.
+
 2002-09-13 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -407,6 +410,10 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day div.form {
+	border: none;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

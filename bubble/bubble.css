@@ -1,6 +1,6 @@
 /*
 Title: bubble
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -244,7 +244,6 @@ div.form form {
 }
 
 input.field {
-	width: 9em;
 }
 
 textarea {

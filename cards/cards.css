@@ -3,7 +3,7 @@
 	Copyright(C) NT <http://246ra.ath.cx/~takasi/index.html>
 	validated by W3C.
 	Title: Cards
-	Rivision: $Revision: 1.1 $ 
+	Rivision: $Revision: 1.2 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -392,41 +392,6 @@ dd {
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 0.5em;
-}
-
-/*
-縦書き用の設定
-div.section {
-	direction: ltr;
-	writing-mode: tb-rl;
-	overflow: auto;
-	margin: 0em;
-	clear: both;
-}
-*/
-
-/*
-自分の日記向け
-*/
-p.calendar-drop {
-        text-align: left;
-}
-
-p.jobun {
-        color: black;
-        padding: 2px;
-}
-
-div.serch {
-        text-align: right;
-}
-
-td.calendar-current-month {
-        text-align: center;
-}
-
-p.validcss {
-        text-align: right;
 }
 
 /*

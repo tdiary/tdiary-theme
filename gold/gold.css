@@ -1,5 +1,11 @@
 /*
-	gold.css: Style Sheet of tDiary $Revision: 1.1 $
+Title: gold
+Revision: $Revision: 1.2 $
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: 何となくゴールドっぽいテーマ
+	gold.css: Style Sheet of tDiary $Revision: 1.2 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -260,6 +266,4 @@ strong {
 	color:darkgreen;
 }
 
-/*
-	midnight.css: Midnight Style Sheet of tDiary $Revision: 1.1 $
- */
+

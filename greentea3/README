@@ -1,0 +1,13 @@
+Title: GreenTea3
+Author: NT
+Access: nt@24i.net
+License: GPL
+Comment: 春らしい若葉色のテーマ、でも名前は緑茶
+
+このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで
+表示させることができます。
+日記を縦書きにするには、ヘッダに <div class="all">、フッタに </div> 
+と入れる必要があります。
+ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、
+縦書きになる範囲が変化します。div.all 内の height の数値をいじると
+スクロールする部分の高さが変化します。

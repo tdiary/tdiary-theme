@@ -1,0 +1,17 @@
+Title: LR
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+
+Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+validated by W3C
+calendar3 プラグインに対応
+
+ChangeLog
+2002-09-12 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

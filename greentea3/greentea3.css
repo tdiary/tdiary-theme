@@ -1,17 +1,23 @@
 /*
 Title: GreenTea3
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: NT
+Access: nt@24i.net
+License: GPL
+Comment: 春らしい若葉色のテーマ、でも名前は緑茶
 
-  使用上の注意
-        このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで表示されます。
-        日記を縦書きにするには、この CSS と greentea3_back.jpg とを theme ディレクトリにコピーしてから、
-        日記のヘッダに <div class="all"> 、フッタに </div> と入れる必要があります。
-        ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、縦書きになる範囲が
-        変化します。
-        265 行目の height の数値をいじるとスクロールする部分の高さが変化します。 Written by NT
-*/
-/* ChangeLog
+使用上の注意
+  このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで
+表示されます。日記を縦書きにするには、日記のヘッダに <div class="all">
+フッタに </div> と入れる必要があります。
+  ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、
+縦書きになる範囲が変化します。
+  div.all 内の height の数値をいじるとスクロールする部分の高さが変化します。
+
+ChangeLog
+2002-09-12 NT <nt@24i.net>
+	* convert for 1.5 series.
+
 2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
 	* fix overflow problem (scroll -> none).
 
@@ -55,7 +61,7 @@ body {
         line-height: 1.7;
 }
 
-p.adminmenu {
+div.adminmenu {
         text-align: right;
         font-size: small;
 }
@@ -94,7 +100,7 @@ h1 {
         border-color: #9C9; */
 }
 
-p.calendar {
+div.calendar {
         text-align: right;
         border-style: solid;
         border-color: #96B34E;
@@ -123,11 +129,11 @@ h2 {
         padding-left: 0.3em;
 }
 
-span.date {
+h2 span.date {
         font-size: 1.5x;
         font-family: "comic sans ms", verdana, sans-serif;
 } 
-span.title {
+h2 span.title {
         color: black;
         margin-right: 1em;
 }
@@ -144,14 +150,14 @@ div.body {
         margin-left: 1em;
 }
 
-p {
+div.section p {
         margin-left: 1em;
         margin-top: 0.5em;
         margin-bottom: 0.7em;
         line-height: 1.7;
 }
 
-h3.subtitle {
+h3 {
         border-style: solid;
         border-color: #96B34E;
         border-width: 0px 0px 1px 0px;
@@ -180,26 +186,20 @@ div.comment {
         margin-left: 4em;
 }
 
-p.commenttitle {
+div.comment div.caption {
         border-style: solid;
         border-color: gray;
         border-width: 0px 0px 1px 0px;
 }
 
-span.commentator {
-        border-style: solid;
-        border-color: gray;
-        border-width: 0px 0px 1px 0px;
-        padding: 3px;
-}
 
-p.referertitle {
+div.refererlist div.caption {
         border-style: solid;
         border-color: gray;
         border-width: 0px 0px 1px 0px;
 }
 
-p.referer {
+div.referer {
         background-color: white;
         text-align: right;
         font-size: small;
@@ -223,7 +223,7 @@ div.refererlist {
         margin-left: 4em;
 }
 
-ul.referer {
+div.refererlist ul {
         margin-top: 0em;
 }
 
@@ -239,7 +239,7 @@ hr.sep {
 */
 }
 
-p.footer {
+div.footer {
         font-size: small;
         text-align: right;
         margin-top: 0px;
@@ -266,16 +266,16 @@ textarea {
         margin-left: 1.5em;
 }
 
-dl {
+div.body dl {
         margin-left: 2em;
 }
 
-dt {
+div.body dt {
         margin-bottom: 0.2em;
         font-weight: bold;
 }
 
-dd {
+div.body dd {
         margin-left: 1em;
         margin-bottom: 0.5em;
 }
@@ -292,4 +292,150 @@ div.all {
         background-image: url(greentea3_back.jpg);
         background-attachment: scroll;
         background-repeat: repeat;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: 
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: 
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: 
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

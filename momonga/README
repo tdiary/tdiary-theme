@@ -1,0 +1,25 @@
+Title: momonga
+Author: ずんだあん かずひこ
+Access: zunda@momonga-linux.org kazuhiko@fdiary.net
+License: GPL
+Comment: mo?
+
+validated by W3C
+
+colors:
+   #351A14 Dark Brown
+   #50B44C Green
+   #ED7332 Orange
+   #745247 Brown
+   #D2C1B8 White Brown
+   #000020 Night Black
+   #FFFF20 Yellow
+   #F1EDEC almost white (background color of momo_bg.png)
+
+ChangeLog
+2002-09-12 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-07-05 nga
+	* div.section p --> margin-bottom: 1.3em;
+	* div.comment p --> line-height: 1.3em;

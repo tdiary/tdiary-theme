@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -19,6 +19,9 @@ colors:
    #F1EDEC almost white (background color of momo_bg.png)
  */
 /* ChangeLog
+2002-09-12 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-07-05 nga
 	*div.section p --> margin-bottom: 1.3em ;
 	*div.comment p -->line-height: 1.3em;
@@ -26,7 +29,7 @@ colors:
 
 
 
-p.footer {
+div.footer {
   padding: 0.5em;
   margin: 0em;
   background-color: #50B44C;
@@ -67,7 +70,7 @@ p.message {
   margin: 0px;
 }
 
-p.adminmenu {
+div.adminmenu {
   text-align: right;
   font-size: small;
 }
@@ -117,7 +120,7 @@ address {
   padding: 0em 1em 0.2em 1em;
 }
 
-p.calendar {
+div.calendar {
   text-align: right;
   font-weight: bold;
 }
@@ -130,11 +133,11 @@ p.recentcomment {
 div.day {
 }
 
-span.date {
+h2 span.date {
   font-size: large;
 }
 
-span.title {
+h2 span.title {
 }
 
 div.body {
@@ -174,16 +177,14 @@ div.form {
   padding: 1em;
 }
 
-p.commenttitle {
+div.comment div.caption {
 }
 
-span.commentator {
+
+div.refererlist div.caption {
 }
 
-p.referertitle {
-}
-
-p.referer {
+div.referer {
 }
 
 hr {
@@ -224,13 +225,13 @@ ul.recentitem {
   white-space: nowrap;
 }
 
-dt {
+div.body dt {
   margin-top: 0.5em;
   margin-bottom: 0em;
   font-weight: bold;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	background-image: url(momonga_icon_s.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -248,4 +249,144 @@ div.day span.canchor {
 	color: #F0F0E0;
 	background-color: transparent;
 	font-size: 1px;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: 
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: 
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: 
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

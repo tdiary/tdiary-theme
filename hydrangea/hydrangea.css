@@ -1,6 +1,6 @@
 /*
 Title: Hydrangea
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -213,6 +213,10 @@ div.form {
 	padding-right: 1%;
 	padding-bottom: 0.5%;
 	padding-left: 1%;
+}
+
+div.form form {
+	width: 90%;
 }
 
 input.field {

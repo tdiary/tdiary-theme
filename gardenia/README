@@ -1,0 +1,35 @@
+Title: Gardenia
+Author: oyuu
+Access: <http://landscape.tdiary.net/>
+License: GPL
+Comment: クチナシ(Gardenia jasminoides Ellis) アカネ科
+        
+Copyright 2002 (C) by oyuu <oyuu@mocha.freemail.ne.jp>
+Validated by W3C.
+
+このテーマは、sidebarに対応しています。
+
+左側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="leftsidebar">
+	<%=title_list%>
+	</div>
+	<div class="rightmain">
+　　フッタに
+	</div>
+
+右側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="rightsidebar">
+	<%=title_list%>
+	</div>
+	<div class="leftmain">
+　　フッタに
+	</div>
+
+を書き加えてください。
+
+Changelog
+2002-09-16 NT <nt@24i.net>
+        * convert for 1.5 series.
+

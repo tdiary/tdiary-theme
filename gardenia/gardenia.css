@@ -1,6 +1,6 @@
 /*
 Title: Gardenia
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -30,7 +30,12 @@ Validated by W3C.
 　　フッタに
 	</div>
 
-を書き加えてください。*/
+を書き加えてください。
+
+Changelog
+2002-09-16 NT <nt@24i.net>
+        * convert for 1.5 series.
+*/
 
 
 a:link{ 
@@ -56,7 +61,7 @@ body {
 	margin: 0px
 }
 
-p.adminmenu {
+div.adminmenu {
 	font-size: 90%;
 	margin: 2% 5% 0% 0%;
 	text-align: right
@@ -70,7 +75,7 @@ h1 {
 	font-size: 150%;
 }
 
-p.calendar {
+div.calendar {
 	font-size: 90%;
 	margin: 3% 5% 1% 5%;
 	padding-bottom: 1%;
@@ -108,31 +113,19 @@ div.day {
 	border-left: #007900 1px solid;
 }
 
-div.day a:link,
-table.calendar a:link,
-div.rightsidebar a:link,
-div.leftsidebar a:link {
+div.day a:link, table.calendar a:link, div.rightsidebar a:link, div.leftsidebar a:link {
 	color: #00A200;
 }
 
-div.day a:visited,
-table.calendar a:visited,
-div.rightsidebar a:visited,
-div.leftsidebar a:visited {
+div.day a:visited, table.calendar a:visited, div.rightsidebar a:visited, div.leftsidebar a:visited {
 	color: #00C600;
 }
 
-day.day a:active,
-table.calendar a:active,
-day.rightsidebar a:active,
-day.leftsidebar a:active {
+day.day a:active, table.calendar a:active, day.rightsidebar a:active, day.leftsidebar a:active {
 	color: #00EC00;
 }
 
-div.day a:hover,
-table.calendar a:hover,
-div.rightsidebar a:hover,
-div.leftsidebar a:hover {
+div.day a:hover, table.calendar a:hover, div.rightsidebar a:hover, div.leftsidebar a:hover {
 	color: #1EFF1E;
 }
 
@@ -148,14 +141,14 @@ h2 {
 	padding: 0.5% 0.5% 0.5% 0.5%;
 }
 
-span.date {
+h2 span.date {
 	font-size: 100%;
 	font-style: normal;
 	margin-left: 1%;
 	margin-right: 1%
 }
 
-span.title {
+h2 span.title {
 	font-size: 100%;
 	font-style: normal
 }
@@ -173,7 +166,7 @@ div.section {
 	margin-bottom: 2%
 }
 
-h3.subtitle {
+h3 {
 	font-size: 120%;
 	font-weight: bold;
 	margin-top: 2%;
@@ -186,7 +179,7 @@ div.day p {
 	text-indent: 1em
 }
 
-p {
+div.section p {
 	padding-top: 0.2%;
 	padding-bottom: 0.2%;
 }
@@ -196,7 +189,7 @@ div.comment {
 	line-height: 1.5;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	font-size: 90%;
 	padding-left: 1% ;
 	border-top: #007900 1px solid;
@@ -208,12 +201,8 @@ div.comment p {
 	text-indent: 0em
 }
 
-span.commentator {
-	font-weight: bold;
-	padding: 1% ;
-}
 
-p.referer {
+div.referer {
 	font-size: 85%;
 	border-top: #007900 1px solid;
 	border-right: #007900 0px solid;
@@ -238,11 +227,11 @@ div.refererlist {
 	padding-left: 1%;
 }
 
-p.referertitle {
+div.refererlist div.caption {
 	border-bottom: #007900 1px solid;
 }
 
-UL.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -257,7 +246,7 @@ hr.sep { display: none }
 
 .sfooter {}
 
-p.footer {
+div.footer {
 	font-size: 85%;
 	text-align: center;
 	padding-bottom: 3%;
@@ -324,20 +313,20 @@ pre {
 	padding-left: 8px;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	font-weight: bold;
 	margin-bottom: 0.2em;
 }
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
 
-blockquote {
+div.body blockquote {
 	color: #003E00;
 	background-color: #FEFEE9;
 	border-top: #007900 2px solid;
@@ -393,8 +382,7 @@ table.calendar td {
         margin: 0px;
 }
 
-table.calendar td.calendar-prev-month, table.calendar
-td.calendar-current-month, table.calendar td.calendar-next-month {
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
         text-align: center;
 }
 
@@ -459,4 +447,144 @@ div.rightsidebar p {
 
 div.recentsubtitles{
 	margin: 2px 3px 2px 3px
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #FEFEE9;
+        color: #002F00;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #FEFEE9;
+        color: #002F00;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 2em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #FEFEE9;
+        color: #002F00;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

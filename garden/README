@@ -1,0 +1,19 @@
+Title: Garden
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: support calender2,recent_list
+
+Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc/
+validated by W3C.
+calendar2, recent_list プラグイン対応
+
+ChangeLog
+2002-09-16 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-05-10 Nana
+        *support calender2,recent_list,etc.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.

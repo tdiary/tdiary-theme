@@ -9,6 +9,10 @@ Comment: 小さなハートの枠がかわいいテーマ
 	validated by W3C
 */
 /* Changelog 
+2002-05-24 Nana 
+        * a:hover, a:focus remove border-bottom:2pt double;
+          text-decoration:none->>underline
+         
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 
@@ -44,8 +48,7 @@ a:active {
 
 a:hover, a:focus {
 	color: #ba55d3;
-	border-bottom:2pt double;
-	text-decoration: none;
+	text-decoration: underline;
         background-color: #fff;
 }
 
@@ -176,7 +179,7 @@ div.day span.canchor {
 	background-image: url(petith_canchor.gif);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	padding: 14px 18px 0px 0px;
+	padding: 15px 18px 0px 0px;
 	color: #fff;
 	background-color: transparent;
 	font-size: 1px;

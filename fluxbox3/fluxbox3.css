@@ -1,6 +1,6 @@
 /*
 Title: fluxbox3
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -125,7 +125,7 @@ p.sentence {
 
 div.day {
 	background-color: white;
-	background-image: url(fluxbox3_back.png);
+       /*background-image: url(fluxbox3_back.png);*/
 	color: black;
 	text-align: left;
 	padding: 0em;

@@ -1,9 +1,19 @@
 /*
-        tuki.css tuki Style Sheet of tDiary $Revision: 1.4 $
-        Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
-	validated by W3C
+Title: 月
+Revision: $Revision: 1.5 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: (タイトルが見えなかったのを修正)
+
+Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+validated by W3C
 */
 /* ChengeLog
+2002-04-03 TADA Tadashi <sho@spc.gr.jp>
+	* #fff -> #999 on title.
+	* add specifications.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 
@@ -93,7 +103,7 @@ span.date {
 }
 
 span.title {
-	color: #fff;
+	color: #999;
 	margin-right: 1em;
 }
 

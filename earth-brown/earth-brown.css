@@ -225,9 +225,9 @@ p.footer {
   text-align: right;
 }
 
-div.form {
+div.form form{
   margin-left: 2em;
-  width:90%
+  width: 90%;
 }
 
 textarea {

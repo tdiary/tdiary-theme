@@ -1,0 +1,18 @@
+Title: Green-border
+Author: Nana
+Comment: support calendar2
+
+Green-Border.Css: Green-Border style sheet of tdiary
+Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
+validated by W3C.
+calendar2 プラグイン対応
+
+Change-Log
+2002-09-23 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-15 Nana
+        * div.form margin-left:10%--> 0
+            
+2002-04-17 Nana
+        * support calendar2

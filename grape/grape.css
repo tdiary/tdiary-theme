@@ -1,12 +1,15 @@
 /*
 Title: Grape
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
 /* ChangeLog
+2002-09-23 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 
@@ -15,7 +18,7 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 */
 
 /*
-儁乕僕慡懱偺婎杮揑側愝掕丅攚宨怓傗暥帤怓側偳
+ペ〖ジ链挛の答塑弄な肋年。秦肥咖や矢机咖など
 */
 body {
 	text-align : center;
@@ -41,9 +44,9 @@ a:hover,a:active {
         color: #A43F7D;
 }
 /*
-儁乕僕僩僢僾偵偁傞憖嶌儃僞儞偺暲傇峴偺愝掕
+ペ〖ジトップにある拎侯ボタンの事ぶ乖の肋年
 */
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -56,7 +59,7 @@ p.message {
 	padding: 8px;
 }
 /*
-儁乕僕僩僢僾偵偁傞憖嶌儃僞儞帺懱偺愝掕
+ペ〖ジトップにある拎侯ボタン极挛の肋年
 */
 span.adminmenu {
 	background-color: transparent;
@@ -64,16 +67,16 @@ span.adminmenu {
 	font-size: small;
 }
 /*
-擔婰僞僀僩儖偺愝掕
+泣淡タイトルの肋年
 */
 h1 {
 	text-align: left;
 	font-size: small;
 }
 /*
-僇儗儞僟乕偺愝掕
+カレンダ〖の肋年
 */
-p.calendar {    
+div.calendar {
 	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
@@ -84,7 +87,7 @@ p.calendar {
 	width:80%
 }
 /*
-1擔偺擔婰慡懱傪埻傓榞偺愝掕
+1泣の泣淡链挛を跋む先の肋年
 */
 div.day {
 	-moz-opacity:0.7;
@@ -101,7 +104,7 @@ div.day {
 	padding: 0px 8px 0px 8px;
 }
 /*
-僞僀僩儖峴慡懱偺愝掕
+タイトル乖链挛の肋年
 */
 h2 {
 	text-align: left;
@@ -113,21 +116,21 @@ h2 {
 	font-weight: bold;
 }
 /*
-擔晅偺愝掕
+泣烧の肋年
 */
-span.date {
+h2 span.date {
 	font-weight: bold;
 	font-size: small;
 	text-align: center;
 }
 /*
-僞僀僩儖偺愝掕
+タイトルの肋年
 */
-span.title {
+h2 span.title {
 	font-size: small;
 }
 /*
-僞僀僩儖傪彍偄偨1擔偺擔婰杮暥慡懱偺愝掕
+タイトルを近いた1泣の泣淡塑矢链挛の肋年
 */
 div.body {
 	font-size: small;
@@ -139,9 +142,9 @@ div.body {
 }
 
 /*
-擔婰偺杮暥(抜棊)偺愝掕
+泣淡の塑矢(檬皖)の肋年
 */
-p {
+div.section p {
 	font-size: small;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
@@ -156,9 +159,9 @@ p.sentence {
 	border-width: 1px 0px 0px 0px;
 }
 /*
-僒僽僞僀僩儖偺愝掕
+サブタイトルの肋年
 */
-h3.subtitle {
+h3 {
 	margin-top: 0.2em;
 	margin-bottom: 0em;
 	margin-left: 2px;
@@ -188,7 +191,7 @@ pre {
 	padding: 5px 5px 5px 5px;
 }
 /*
-僣僢僐儈棑慡懱偺愝掕
+ツッコミ腕链挛の肋年
 */
 div.comment {
 	font-size: small;
@@ -201,9 +204,9 @@ div.comment {
 	border-width: 3px 0px 0px 0px;
 }
 /*
-僣僢僐儈棑僞僀僩儖峴偺愝掕
+ツッコミ腕タイトル乖の肋年
 */
-p.commenttitle {
+div.comment div.caption {
 	text-align: right;
 	position: relative;
 	font-size: small;
@@ -214,15 +217,8 @@ p.commenttitle {
 	border-style: none;
 }
 /*
-僣僢僐儈偟偨恖偺柤慜偺愝掕
+ツッコミした客の叹涟の肋年
 */
-span.commentator {
-	padding-top: 0px;
-	margin-top: 0px;
-	display: block;
-	color: #000;
-	clear: both;
-}
 
 p.comment {
 	font-size: small;
@@ -236,9 +232,9 @@ p.comment {
 	line-height: 1.0em;
 }
 /*
-儕儞僋尦儕僗僩僞僀僩儖偺愝掕
+リンク傅リストタイトルの肋年
 */
-p.referertitle {
+div.refererlist div.caption {
 	color: #000;
 	text-align: left;
 	background-color: #AD5477;
@@ -248,9 +244,9 @@ p.referertitle {
 	padding: 2px;
 }
 /*
-儕儞僋尦儕僗僩(抁偄曽)偺愝掕
+リンク傅リスト(没い数)の肋年
 */
-p.referer {
+div.referer {
 	background-color: #AD5477;
 	text-align: center;
 	color: #000;
@@ -260,7 +256,7 @@ p.referer {
 	border-width: 3px;
 }
 /*
-儕儞僋尦儕僗僩(慡懱堦棗)偺愝掕
+リンク傅リスト(链挛办枉)の肋年
 */
 div.refererlist {
 	font-size: small;
@@ -272,14 +268,14 @@ div.refererlist {
 	border-width: 3px 0px 0px 0px;
 }
 /*
-儕儞僋尦儕僗僩堦棗偺愝掕
+リンク傅リスト办枉の肋年
 */
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 	text-align: left;
 }
 /*
-宺慄偺愝掕
+酚俐の肋年
 */
 hr {
 	border-style: dotted;
@@ -287,23 +283,23 @@ hr {
 	border-color: #AD5477;
 }
 /*
-擔乆偺擔婰偺僙僷儗乕僞偵巊傢傟傞宺慄偺愝掕
+泣」の泣淡のセパレ〖タに蝗われる酚俐の肋年
 */
 hr.sep {
 	display: none;
 }
 
 /*
-僼僢僞偺愝掕
+フッタの肋年
 */
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 	margin-top: 0px;
 	clear: both;
 }
 /*
-僼僅乕儉慡懱傪埻傓榞偺愝掕
+フォ〖ム链挛を跋む先の肋年
 */
 div.form {
 	-moz-opacity:0.7;
@@ -312,7 +308,6 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
 	border-width: 5px;
-	width: 80%;
 	border-color: pink;
 	border-style: outset;
 }
@@ -323,7 +318,6 @@ div.form form {
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-	width: 90%;
 }
 
 input.field {
@@ -345,18 +339,151 @@ textarea {
 	border-style: solid;
 }
 /*
-崁栚儕僗僩偺愝掕
+灌誊リストの肋年
 */
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/*
+ˇトˇテˇウˇ‖セハホャネヌヒワハク
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ˇトˇテˇウˇ‖ヒワツホ
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ˇトˇテˇウˇ‖、キ、ソソヘ、ホセ*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ塑矢
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォ〖ムの肋年
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+构糠フォ〖ム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ觉轮恃构フォ〖ム
+*/
+div.comment form {
+        margin-top: 0em;
 }

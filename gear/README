@@ -1,5 +1,5 @@
 Title: Gear
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -9,5 +9,8 @@ Copyright 2003 (C) by Nana <mpc@mikan.sakura.ne.jp>
 validated by W3C.
 
 ChangeLog
+	2003-01-16 Nana <mpc@mikan.sakura.ne.jp>
+	* remove div.day canchor
+	
 	2003-01-09 Nana <mpc@mikan.sakura.ne.jp>
 	* add Gear Theme.

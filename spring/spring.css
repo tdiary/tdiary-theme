@@ -130,7 +130,6 @@ div.comment a{
 
 p.commenttitle {
   text-align: right;
-  font-color:#ffffff;
   font-size:0.8em;
 }
 
@@ -189,6 +188,7 @@ input {
   -moz-border-radius: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  text-indent: 0em ! important;
 }
 
 textarea {
@@ -241,7 +241,7 @@ a img {
 µ”√Ì»÷πÊ
 */
 span.footnote ,span.footnote a{
-  font-size:xx-0.8em;
+  font-size:xx-0.8em; /* What's this? Please fix. */
   color:#DC143C;
 }
 /*

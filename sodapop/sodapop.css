@@ -1,6 +1,6 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
 Comment: blockquote,footnote,recent_list plugin対応
@@ -26,13 +26,13 @@ Comment: blockquote,footnote,recent_list plugin対応
   ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-  background-color: white;
-  background-image: url(sodapop_bg.jpg);
-  background-repeat: no-repeat;
-  background-position: right top;
-  color: black;
-  margin-left: 10%;
-  margin-right: 10%;
+	background-color: white;
+	background-image: url(sodapop_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /*
@@ -46,8 +46,8 @@ a:link, a:visited {
   ページトップにある操作ボタンの並ぶ行の設定
 */
 div.adminmenu {
-  text-align: right;
-  font-size: small;
+	text-align: right;
+	font-size: small;
 }
 
 /*
@@ -60,7 +60,7 @@ span.adminmenu {
   日記タイトルの設定
   */
 h1 {
-  text-align: left;
+	text-align: left;
 }
 
 /*
@@ -73,52 +73,52 @@ div.calendar {
   1日の日記全体を囲む枠の設定
   */
 div.day {
-  border: 1px solid #999;
-  margin-bottom: 2em;
-  line-height: 135%;
-  padding-bottom: 1px;
+	border: 1px solid #999;
+	margin-bottom: 2em;
+	line-height: 135%;
+	padding-bottom: 1px;
 }
 
 /*
   タイトル行全体の設定
   */
 h2 {
-  background-color: #9cc;
-  font-size: 1em;
-  margin: 0px;
-  padding: 0.2em 0.2em 0.2em 0.5em;
-  border-bottom: 1px solid #999;
+	background-color: #9cc;
+	font-size: 1em;
+	margin: 0px;
+	padding: 0.2em 0.2em 0.2em 0.5em;
+	border-bottom: 1px solid #999;
 }
 
 /* 日付の設定 */
 h2 span.date {
 }
-h2 span.date {
-  text-decoration: none;
-  color: #fff;
+h2 span.date a {
+	text-decoration: none;
+	color: #fff;
 }
 
 /* タイトルの設定 */
 h2 span.title {
-  color: #fff;
+	color: #fff;
 }
 
 /*
   タイトルを除いた1日の日記本文全体の設定
   */
 div.body {
-  padding: 0em;
-  margin: 0.5em 1em 0.5em 1em;
+	padding: 0em;
+	margin: 0.5em 1em 0.5em 1em;
 }
 
 /*
   サブタイトルの設定
   */
 h3 {
-  font-size: 1em;
-  margin: 0em;
-  font-weight: bold;
-  border-bottom: 1px solid #ccc;
+	font-size: 1em;
+	margin: 0em;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
 }
 
 h3 {
@@ -132,22 +132,22 @@ div.section p {
   */
 div.comment {
   /*text-align: right;*/
-  font-size: small;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-top: 0.5em;
-  margin-left: 24px;
-  margin-right: 12px;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
 }
 
 /*
   ツッコミ欄タイトル行の設定
   */
 div.comment div.caption {
-  text-align: right;
-  border-style: solid;
-  border-color: #aaa;
-  border-width: 0px 0px 1px 0px;
+	text-align: right;
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
 }
 
 /*
@@ -158,110 +158,110 @@ div.comment div.caption {
   リンク元リスト(短い方)の設定
   */
 div.referer {
-  text-align: right;
-  font-size: small;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-left: 24px;
-  margin-right: 12px;
+	text-align: right;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
 }
 
 /*
   リンク元リスト(全体一覧)の設定
   */
 div.refererlist {
-  font-size: small;
-  background-color: #eee;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-top: 0.5em;
-  margin-left: 24px;
-  margin-right: 12px;
+	font-size: small;
+	background-color: #eee;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
 }
 
 /*
   リンク元リストタイトルの設定
   */
 div.refererlist div.caption {
-  border-style: solid;
-  border-color: #aaa;
-  border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
 }
 
 /*
   リンク元リスト一覧の設定
   */
 div.refererlist ul {
-  margin-top: 0em;
+	margin-top: 0em;
 }
 
 /*
   罫線の設定
   */
 hr {
-  border-style: solid;
-  border-width: 2px 0px 0px 0px;
-  border-color: #ddd;
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
 }
 
 /*
   日々の日記のセパレータに使われる罫線の設定
   */
 hr.sep {
-  display: none;
+	display: none;
 }
 
 /*
   フッタの設定
   */
 div.footer {
-  font-size: small;
-  text-align: right;
-  margin-top: 0px;
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
 }
 
 /*
   フォーム全体を囲む枠の設定
   */
 div.form {
-  padding: 0.5em 1em 0.5em 1em;
-  border: 1px solid #999;
-  margin-bottom: 2em;
+	padding: 0.5em 1em 0.5em 1em;
+	border: 1px solid #999;
+	margin-bottom: 2em;
 }
 
 /*
   入力フィールドの設定
   */
 input.field {
-  background-color: white;
+	background-color: white;
 }
 
 /*
   複数行入力フィールドの設定
   */
 textarea {
-  background-color: white;
-  margin-left: 1em;
+	background-color: white;
+	margin-left: 1em;
 }
 
 /*
   エラーメッセージ表示の設定
   */
 p.message {
-  text-align: center;
-  font-size: large;
-  background-color: red;
-  color: white;
-  padding: 8px;
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
 }
 
 /*
   整形済みテキスト(preタグ)の設定
   */
 pre {
-  margin-left: 2em;
-  padding: 1em;
-  border: 1px solid #666;
+	margin-left: 2em;
+	padding: 1em;
+	border: 1px solid #666;
 }
 
 /* calendar2 */

@@ -9,9 +9,13 @@ Comment: blockquote,footnote,recent_list plugin対応
    お好きな背景イメージを用意してください。
 
 ChengeLog
+2002-11-01 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* equalize indent size.
+	* fix "h2 span.date -> h2 span.date a". Sorry, I missed conversion.
+
 2002-10-15 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
-	
+
 2002-09-30 Nana
         * add blockquote,footnote,recent_list
 2002-06-03 Nana

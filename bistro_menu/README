@@ -8,6 +8,10 @@ Comment: レストランのメニューのようなテーマ
 	validated by W3C.
 ChangeLog
 2002-10-22 zoe <zoe@kasumi.sakura.ne.jp>
+	* add font-size: small in div.comment
+	* add margin-left: 2em in div.commentshort and div.commentbody
+
+2002-10-22 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 	* add top image in update form.
 	* add div.footnote.

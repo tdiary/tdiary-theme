@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.16 $
+Revision: $Revision: 1.17 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -210,11 +210,9 @@ div.comment {
 	padding-top:25px;
 	padding-right:1em;
 	padding-bottom: 1em;
-}
-
-div.comment p{
 	font-size: 0.9em;
 }
+
 div.comment div.caption {
 	background-color: transparent;
 	color: #000000;
@@ -409,7 +407,7 @@ td.calendar-day {
 ツッコミ省略版本文
 */
 div.commentshort {
-        margin-left: 0.5em;
+        margin-left: 2em;
 }
 
 span.commentator {
@@ -425,7 +423,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        margin: 0.5em;
+        margin: 0.5em 0.5em 0.5em 2em;
         line-height: 1.2em;
 }
 

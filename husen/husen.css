@@ -1,6 +1,6 @@
 /*
 Title: husen
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: kosaka <kosaka@tnat.net>
 Access: http://ko.cot.jp/
 License: GPL
@@ -76,12 +76,12 @@ span.adminmenu{
 }
 
 h1{
-	font-size : 1.8em;
+	font-size: 180%;
 }
 
 h2 {
 	text-align: right;
-	font-size : 1.0em;
+	font-size: 100%;
 	line-height: 1.0em;
 	margin-bottom: 3px;
 	margin-right :10px;
@@ -90,11 +90,11 @@ h2 {
 }
 
 h3 {
-	font-size : 1.3em;
+	font-size: 130%;
 }
 
 div.day{
-	margin-top:40px;
+	margin-top: 40px;
 }
 
 span.date{
@@ -199,7 +199,7 @@ div.comment {
 	color:#000;
 	background-color:#eeeeff;
 	margin-top: 10px;
-	font-size : 0.95em;
+	font-size: 95%;
 	line-height: 1.5em;
 	border-style: solid;
 	border-color: #aaa #eee #eee #aaa;
@@ -225,29 +225,29 @@ div.referer {
 	margin-right : 5px;
 	margin-top   : 5px;
 	margin-bottom: 70px;
-	font-size : 0.95em;
+	font-size: 95%;
 }
 
 div.refererlist {
 	margin: 10px;
-	font-size : 0.95em;
+	font-size: 95%;
 }
 
 div.calendar {
-	font-size : 0.95em;
+	font-size: 95%;
 }
 
 p.recentitem {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size : 0.95em;
+	font-size: 95%;
 }
 
 div.recentsubtitles {
 	margin-bottom:10px;
 	margin-left  :10px;
 	line-height: 1.1em;
-	font-size : 0.95em;
+	font-size: 95%;
 }
 
 img.right{
@@ -258,7 +258,7 @@ img.right{
 }
 
 textarea {
-	font-size : 12px ; 
+	font-size: 12px ; 
 }
 
 div.footer {

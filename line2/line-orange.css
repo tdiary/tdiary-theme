@@ -1,5 +1,5 @@
 /*
-	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.1 $
+	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
  
@@ -171,6 +171,7 @@ pre {
 	font-size: 1em;
         background-color: #FF8000; 
 	border-color: #fcc;
+        color: #000;
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 5px 5px 5px 5px;
@@ -286,7 +287,7 @@ div.form {
         width: 90%;
 }
 form {
-	color: #fff;
+	color: #000;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
@@ -298,13 +299,14 @@ input.field {
 	filter:Alpha(opacity=60);
 	background-color: #fff;
 	border-color: #FF8000;
-	border-style: solid;	
+	border-style: solid;
+        color: #000;	
 }
 
 input, select, option {
 	filter:Alpha(opacity=60);
 	background-color: #fff;
-	color: #FF8000;
+	color: #000;
 	border-color: #FF8000;
 	border-style: solid;
     	clear: both;
@@ -313,7 +315,7 @@ input, select, option {
 textarea {
         filter:Alpha(opacity=60);
 	background-color: #fff;
-	color: #FF8000;
+	color: #000;
 	border-color: #FF8000;
 	border-style: solid;
 	width: 90%;

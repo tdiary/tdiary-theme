@@ -1,6 +1,6 @@
 /*
         Title: Sunset
-        Revision: $Revision: 1.2 $
+        Revision: $Revision: 1.3 $
         Author: epi
         Access: <http://wind.prohosting.com/~episodee/>
         License: GPL
@@ -155,10 +155,10 @@ div.body blockquote {
 	margin: 0em 3em 0em 3em;
 }
 p.source {
-    text-align: right;
-    margin-top: 0.1em;
-    margin-right: 3em;
-    font-size: 80%;
+	text-align: right;
+	margin-top: 0.1em;
+	margin-right: 3em;
+	font-size: 80%;
 }
 
 /*
@@ -225,10 +225,6 @@ div.comment div.caption {
 	border-width: 0px 0px 1px 0px;
 	text-align: right;
 }
-
-/*
-ツッコミした人の名前の設定
-*/
 
 /*
 リンク元リスト(短い方)の設定
@@ -476,6 +472,9 @@ div.commentshort {
         margin-left: 0.5em;
 }
 
+/*
+ツッコミした人の名前の設定
+*/
 span.commentator {
 }
 

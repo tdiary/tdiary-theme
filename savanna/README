@@ -10,6 +10,9 @@ Copyright 2003 (C) by abbey <inlet@sd6.so-net.ne.jp>
 validated by W3C.
 
 Changelog
+2003-01-31 abbey <inlet@sd6.so-net.ne.jp>
+	* remove h2.title display:block
+	
 2003-01-21 TADA Tadashi <sho@spc.gr.jp>
 	* font-size adjustment.
 

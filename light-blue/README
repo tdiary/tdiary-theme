@@ -1,5 +1,5 @@
 Title: light-blue
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: naoko
 Access: naoko@undefine.to
 License: GPL
@@ -8,3 +8,5 @@ Comment: 明るい水色のテーマ。
 ChangeLog
 2003-05-13 TADA Tadashi <sho@spc.gr.jp>
 	add into repository.
+2003-07-09 Nana <clorets@estyle.ne.jp>
+	*div.calendar letter-spacing: 0.08em ->0.8em,remove margin-top

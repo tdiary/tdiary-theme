@@ -1,6 +1,6 @@
 /*
 Title: light-blue
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: naoko
 Access: naoko@undefine.to
 License: GPL
@@ -80,14 +80,14 @@ h1 {
 */
 div.calendar {
 	text-align: right;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.8em;
 	background-color: #fff;
 	color: #222;
 	border-style: solid;
 	border-color: #B8E8FF;
 	border-width: 0px 0px 3px 0px;
 	padding: 2px;
-	margin-top: -1em;
+	/*margin-top: -1em;*/
 	margin-bottom: 0.5em;
 	line-height: 110%;
 	font-size: 90%;

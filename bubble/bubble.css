@@ -1,8 +1,11 @@
 /*
       bubble.css: Bubble Style Sheet of tDiary
-      Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+      Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc/
  */
 /* ChangeLog
+2002-03-15 TADA Tadashi <sho@spc.gr.jp>
+	* support image anchor as span.panchor and span.canchor.
+
 2002-03-14 TADA Tadashi <sho@spc.gr.jp>
 	* CR/LF -> LF.
 	* finish by ';' at all end of line.
@@ -155,6 +158,26 @@ span.commentator {
 	border-color: #9BF9FF;
 	border-width: 0px 0px 1px 0px;
 	padding: 3px;
+}
+
+div.day span.panchor {
+	background-image: url(bubble_anchor_a.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 18px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(bubble_anchor_b.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 18px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 p.referertitle {

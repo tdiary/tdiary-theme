@@ -1,9 +1,9 @@
 /*
-	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.1 $
+	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
  
-        Changelog 2000.3.14 by Nana
+        Changelog 2002.3.14 by Nana
         font-size:13px>>>font-size:1em
         all font-famiry were deleted.
         rename line2_bd.gif>>>line-orange_back.gif 
@@ -180,6 +180,7 @@ pre {
 div.comment {
 	font-size: 1em;
 	clear: both;
+        color: #ff8000;
 	text-align: right;
 	padding-bottom: 1px;
 	margin: auto 5px;

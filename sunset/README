@@ -11,7 +11,11 @@ Modified by Nana 2002-04-29
 validated by W3C
 
 ChangeLog
-2002-12-23 Nana <moo@xu.boo.jp>
+2003-03-13 Nana <clorets@estyle.ne.jp>
+	* h2,h2.date,h2.title,h3 font-size adjustment.
+	* 0.9em ->90%
+
+2002-12-23 Nana <clorets@estyle.ne.jp>
 	*  remove body font-size small
 	
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>

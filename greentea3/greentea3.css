@@ -1,0 +1,276 @@
+/*
+        greentea3.css: GreenTea3(Tategaki) Style Sheet of tDiary $Revision: 1.1 $
+
+  使用上の注意
+        このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで表示されます。
+        日記を縦書きにするには、この CSS と green.jpg とを theme ディレクトリにコピーしてから、
+        日記のヘッダに <div class="all"> 、フッタに </div> と入れる必要があります。
+        ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、縦書きになる範囲が
+        変化します。
+        265 行目の height の数値をいじるとスクロールする部分の高さが変化します。 Written by NT
+*/
+
+a:link, a:visited {
+        color: darkolivegreen;
+        text-decoration: none;
+        border-style: none;
+        border-width: 1px;
+}
+
+a:active {
+        text-decoration: none;
+        border-width: 2px;
+}
+
+a:hover, a:focus {
+        color: darkslategray;
+        background-color: #96B34E;
+        border-style: none;
+        border-width: 1px;
+}
+
+body {
+        background-image: url(greentea3_back.jpg);
+        background-attachment: scroll;
+        background-repeat: repeat;
+        color: black;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 1.7;
+}
+
+p.adminmenu {
+        text-align: right;
+        font-size: small;
+}
+
+p.message {
+        text-align: center;
+        font-size: large;
+        color: black;
+        padding: 8px;
+}
+
+span.adminmenu {
+        background-color: white;
+        border-style: outset;
+        border-color: white;
+        border-width: 1px;
+        padding: 3px;
+}
+
+h1 {
+        color: #2F4F4F;
+        font-size: large;
+        font-family: verdana, serif;
+        padding: 0px;
+        text-align: right;
+
+        background-color: #FFFFCC;
+        border-top: 0em none;
+        border-right: 6px solid yellow;
+        border-bottom: 2px solid yellow;
+        border-left: 0em none;
+
+        padding-right: 0.5em;
+        /*border-width: 0em 0em 0.1em 3em;
+        border-style: none none solid solid;
+        border-color: #9C9; */
+}
+
+p.calendar {
+        text-align: right;
+        border-style: solid;
+        border-color: #96B34E;
+        border-width: 0px 0px 0px 0px;
+        padding: 2px;
+        margin-bottom: 0.5em;
+}
+
+div.day {
+        background-image: url(greentea3_back.jpg);
+        background-attachment: scroll;
+        background-repeat: repeat;
+        border-width: 1px;
+        padding-bottom: 0.5em;
+        margin-bottom: 0.5em;
+}
+
+h2 {
+        background-color: #FFFFCC;
+        border-style: solid;
+        border-color: #96B34E;
+        border-width: 2px 0px 0px 3px;
+        margin-top: 1em;
+        margin-bottom: 0.1em;
+        padding: 3px;
+        padding-left: 0.3em;
+}
+
+span.date {
+        font-size: 1.5x;
+        font-family: "comic sans ms", verdana, sans-serif;
+} 
+span.title {
+        color: black;
+        margin-right: 1em;
+}
+
+div.body {
+        background-color: white;
+        border-style: dotted;
+        border-color: #96B34E;
+        border-width: 1px 1px 1px 1px;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        margin-top: 1em;
+        margin-left: 1em;
+}
+
+p {
+        margin-left: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.7em;
+        line-height: 1.7;
+}
+
+h3.subtitle {
+        border-style: solid;
+        border-color: #96B34E;
+        border-width: 0px 0px 1px 0px;
+        margin: 0em;
+        font-weight: bold;
+}
+
+pre {
+        background-color: #CCFF99;
+        color: black;
+        font-size: 8pt;
+        margin-left: 2em;
+        margin-right: 1em;
+        padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+        background-color: white;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 2px;
+        padding-bottom: 1px;
+        margin-top: 0.5em;
+        margin-left: 4em;
+}
+
+p.commenttitle {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+        padding: 3px;
+}
+
+p.referertitle {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+        background-color: white;
+        text-align: right;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 2px;
+        padding-bottom: 1px;
+        margin-left: 4em;
+}
+
+div.refererlist {
+        background-color: white;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 2px;
+        padding-bottom: 1px;
+        margin-top: 0.5em;
+        margin-left: 4em;
+}
+
+ul.referer {
+        margin-top: 0em;
+}
+
+hr {
+        border-style: solid;
+        border-width: 2px 0px 0px 0px;
+        border-color: gray;
+}
+
+hr.sep {
+        display: none;
+/*        color: black;
+*/
+}
+
+p.footer {
+        font-size: small;
+        text-align: right;
+        margin-top: 0px;
+}
+
+div.form {
+        border-style: dotted;
+        border-color: gray;
+        border-width: 1px;
+        padding: 0.5em 1em 0.5em 1em;
+        margin-bottom: 0.5em;
+}
+
+input.field {
+        background-color: white;
+}
+
+textarea {
+        background-color: white;
+        margin-left: 1.5em;
+        width: 50%;
+}
+
+dl {
+        margin-left: 2em;
+}
+
+dt {
+        margin-bottom: 0.2em;
+        font-weight: bold;
+}
+
+dd {
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+}
+
+div.all {
+	direction: ltr;
+	writing-mode: tb-rl;
+	height: 75%;
+	width: 100%;
+	overflow: auto;
+	margin: 0em;
+	clear: both;
+	background-color: #fff;
+        background-image: url(greentea3_back.jpg);
+        background-attachment: scroll;
+        background-repeat: repeat;
+}

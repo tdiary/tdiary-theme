@@ -4,7 +4,6 @@
   Copyright (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
   Title:Darkness-pop
   Original theme is sodapop by kadu <http://www.bb.wakwak.com/~akk/kadu/>
-  validated by W3C.
 /*
 
   ページ全体の基本的な設定。背景色や文字色など
@@ -257,8 +256,11 @@ p.message {
 }
 
 pre {
-   background-image: url(pre.png);
+   background-image: url(darkness-pop_pre.png);
    background-color: #fff;
+   border-style: solid;
+   border-color: #ccc;
+   border-width: 1px 3px 1px 3px;
    color: #4169e1;
    margin-left: 1em;
    margin-right: 1em;
@@ -321,4 +323,13 @@ span.date a:hover ,span.date a:focus {
 .memo{
  background-color: #ffe4e1;
  color: #000;
+}
+
+blockquote {
+ background-image: URL(darkness-pop_blockquote.png);
+ color: #000;
+ border-style: solid;
+ border-color: #ccc;
+ border-width: 3px 1px 3px 1px;
+ padding: 5px;
 }

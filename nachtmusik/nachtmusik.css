@@ -1,0 +1,462 @@
+/*
+Title: Nacht Musik
+Revision: $Revision: 1.1 $
+Author: epi
+Access: http://wind.prohosting.com/~episodee/
+License: GPL
+Comment: 夜のお共に
+
+Copyright 2002 (C) by epi <http://wind.prohosting.com/~episodee/>
+Validated by W3C.
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+color: #FFFAFA; 
+background-color: #000000; 
+font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+a:link {
+color: #b0c4de;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: #d3d3d3;
+background-color: transparent;
+text-decoration: none;
+}
+a:active, a:hover, a:focus {
+background-color: transparent;
+text-decoration: underline;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+
+p.adminmenu {
+font-size: small;
+text-align: right;
+}
+
+p.message {
+color: white;
+background-color: transparent;
+font-size: small;
+text-align: center;
+padding: 8px;
+}
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+color: #4b0082; 
+background-color: transparent; 
+border-style: solid;
+border-color: #696969 #eee #eee #696969;
+border-width: 1px;
+font-size: small;
+padding: 2px;
+}
+/*
+日記タイトルの設定
+*/
+h1 {
+text-align: right;
+padding: 5px 10px 5px 10px;
+background-image: url(nachtmusik_bg1.png);
+background-position: top left;
+background-repeat: no-repeat;
+background-color: #000000;
+height: 32px;
+line-height: 32px;
+}
+/*
+カレンダーの設定
+*/
+p.calendar {
+margin-bottom: 0.5em;
+border-style: none;
+border-color: #696969 #eee #eee #696969;
+border-width: 1px;
+padding: 2px;
+}
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+text-align: left;
+margin: 3em 2% 3em 2%;
+padding: 0px 10px 0px 10px;
+clear: both;
+}
+/*
+タイトル行全体の設定
+*/
+h2 {
+text-align: right;
+margin: 0.5em auto 0em 0em;
+background-image: url(nachtmusik_bg2.png);
+background-position: top left;
+background-repeat: no-repeat;
+background-color: #000000;
+height: 32px;
+line-height: 32px;
+}
+/*
+日付の設定
+*/
+span.date {
+color: #4b0082; 
+background-color: transparent;
+text-align: center;
+
+}
+/*
+タイトルの設定
+*/
+span.title {
+}
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+text-align: left;
+margin: 0px auto 0px auto;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+padding-left: 0.5em;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+margin-top: 0.5em;
+margin-bottom: 0.7em;
+line-height: 1.3;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+color: #bc8f8f;
+background-color: transparent;
+font-size: 1em;
+font-weight: bold;
+margin: 0em;
+}
+
+p.strong {
+font-size: 200%;
+font-weight: bold;
+font-family:"Comic Sans MS","ＭＳ UI ゴシック",Osaka,sans-serif;
+text-align: center;
+}
+pre {
+color: #696969;
+background-color: #dcdcdc; 
+margin-left: 2em;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 0.8em;
+margin-right: 3em;
+padding: 8px;
+line-height: 1.3;
+}
+/*
+引用(blockquoteタグ)の設定
+*/
+div.body blockquote {
+border-color:#dcdcdc;
+border-style: solid double;
+border-width: 0px 0px 0px 2px;
+padding: 5px 10px 5px 10px;
+}
+
+/* 
+アンカー
+*/
+div.day span.panchor {
+background-image: url(nachtmusik_icon.png);
+background-position: bottom right;
+background-repeat: no-repeat;
+padding: 15px 10px 0px 0px;
+color: #000;
+background-color: transparent;
+font-size: 1px;
+}
+div.day span.canchor {
+background-image: url(nachtmusik_icon2.png);
+background-position: bottom right;
+background-repeat: no-repeat;
+padding: 15px 10px 0px 0px;
+color: #000;
+background-color: transparent;
+font-size: 1px;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+text-align: left;
+font-size: 0.8em;
+margin: auto 5px;
+border-style: solid;
+border-color: #696969;
+border-width: 0px 0px 1px 0px;
+padding-left: 0.5em;
+clear: both;
+}
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+border-style: solid;
+border-color: #696969;
+border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+border-style: solid;
+border-color: #aaa;
+border-width: 0px 0px 1px 0px;
+padding: 3px;
+}
+
+p.comment {
+text-align: left;
+}
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+color: #dcdcdc;
+background-color: transparent;
+text-align: left;
+border-style: solid;
+border-color: #696969;
+border-width: 1px;
+padding: 2px;
+}
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+text-align: right;
+margin-left: 24px;
+margin-right: 12px;
+padding: 2px;
+padding-bottom: 1px;
+}
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+color: gray;
+background-color: transparent;
+text-align: right;
+margin-top: 1em;
+border-style: solid;
+border-color: black;
+border-width: 3px 0px 0px 0px;
+padding-bottom: 1px;
+}
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+text-align: left;
+margin-top: 0em;
+}
+/*
+罫線の設定
+*/
+hr {
+border-style: dotted;
+border-color: #4682b4; /* steelblue */
+border-width: 1px;
+}
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+display: none;
+clear: both;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+font-size: small;
+text-align: right;
+clear: both;
+}
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+color: #dcdcdc; 
+background-color: transparent;
+border-style: solid;
+border-color: #696969;
+border-width: 1px;
+padding: 0.5em 1em 0.5em 1em;
+margin-bottom: 0.5em;
+margin-top: 0.5em;
+margin-left: 1em;
+}
+
+
+input.field {
+color: #000000; 
+background-color: white;
+border-color: #2f4f4f;
+border-style: solid;
+border-width: 1px;
+}
+
+textarea {
+color:#000000;
+background-color: white;
+border-color: #2f4f4f;
+border-style: solid;
+border-width: 1px;
+}
+/*
+項目リストの設定
+*/
+dl {
+margin-left: 2em;
+}
+
+dt {
+margin-bottom: 0.2em;
+font-weight: bold;
+}
+
+dd {
+margin-left: 1em;
+margin-bottom: 0.5em;
+}
+
+/*
+for plugin
+*/
+
+/* footnote */
+span.footnote {
+color: #696969;
+font-size: 0.6em;
+background-color: transparent;
+}
+div.footnote {
+color: #a9a9a9;
+background-color: transparent;
+}
+p.footnote {
+font-size: 0.8em;
+}
+
+/* calendar2 */
+table.calendar {
+font-size: x-small;
+line-height: 100%;
+border-width: 0px;
+text-align: center;
+border-style: solid;
+border-width: 1px;
+margin-bottom: 1em;
+background-color: transparent;
+border-color: #696969; 
+color: #778899; 
+}
+
+td.calendar-current-month {
+font-size: x-small;
+text-align: center;
+}
+
+td.calendar-next-month {
+font-size: x-small;
+text-align: right;
+}
+
+td.calendar-prev-month {
+font-size: x-small;
+text-align: left;
+}
+
+td.calendar-sunday {
+color: #dc7093;
+background-color: transparent;
+font-size: xx-small;
+text-align: center;
+}
+
+td.calendar-saturday {
+color: #4682b4;
+background-color: transparent;
+font-size: xx-small;
+text-align: center;
+}
+
+td.calendar-weekday {
+color: #dcdcdc;
+background-color: transparent;
+font-size: xx-small;
+text-align: center;
+}
+
+td.calendar-day {
+font-size: xx-small;
+text-align: right;
+}
+
+/* recent_list, title_list */
+p.recentitem {
+font-size: x-small;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+font-size: x-small;
+margin-top: 0px;
+margin-bottom: 1em;
+margin-left: 1em;
+}
+
+/* dropdown_calender */
+select {
+color: #dcdcdc;
+background-color: transparent;
+border-color: #696969;
+border-style: solid;
+border-width: 1px;
+}
+input {
+color: #dcdcdc;
+background-color: transparent;
+border-color: #696969;
+border-style: solid;
+border-width: 1px;
+}
+/* search_form */
+input.search {
+color: #dcdcdc;
+background-color: transparent;
+border-color: #696969;
+border-style: solid;
+border-width: 1px;
+font-size: x-small;
+}

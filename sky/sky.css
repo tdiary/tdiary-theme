@@ -1,5 +1,5 @@
 /*
-	sky.css: Sky Style Sheet of tDiary $Revision: 1.2 $
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
@@ -257,7 +257,7 @@ div.form {
 	border-width: 0px 0px 1px 1px;
 	padding: 0.5em 1em 0.5em 24px;
 	margin-bottom: 0.5em;
-	margin-left: 8em;
+	margin-left: 4em;
 }
 
 /*

@@ -1,13 +1,17 @@
 /*
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.4 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.5 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
         Validated by W3C
-        
-        changelog 2002.3.18 by Nana
-        add ul,ol margin-left:100px >>> 0px
- */
+*/
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-18 Nana
+	* add ul,ol margin-left:100px >>> 0px
+*/
 
 div.rank {
 	font-size: 0.6em;
@@ -262,6 +266,10 @@ div.form {
         border-style: solid;
 	border-width: 1px 0px 0px 1px;
 	border-color: #cccccc;
+}
+
+div.form form {
+	width: 90%;
 }
 
 input.field {

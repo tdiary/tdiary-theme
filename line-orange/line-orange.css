@@ -1,5 +1,5 @@
 /*
-	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.2 $
+	line-orange.css: Line-orange Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
  
@@ -9,6 +9,11 @@
         rename line2_bd.gif>>>line-orange_back.gif 
         copyright rename zoe>>>Nana
 */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 body {
         text-align : center;
@@ -287,13 +292,15 @@ div.form {
         border-style: none;
         width: 90%;
 }
-form {
+
+div.form form {
 	color: #000;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
         border-color: #FF8000;
 	border-style: solid;
+	width: 100%;
 }
 
 input.field {
@@ -319,7 +326,7 @@ textarea {
 	color: #000;
 	border-color: #FF8000;
 	border-style: solid;
-	width: 90%;
+	width: 100%;
 }
 
 dl {

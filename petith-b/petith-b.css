@@ -1,8 +1,13 @@
 /*
-	petith-b.css: Petith-b Style Sheet of tDiary $Revision: 1.3 $
+	petith-b.css: Petith-b Style Sheet of tDiary $Revision: 1.4 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 a:link {
 	text-decoration: none;
 	color: #ffc0cb;
@@ -248,8 +253,12 @@ div.form {
 	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-	margin-left: 20%;
-	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.form form {
+	width: 100%;
 }
 
 input.field {
@@ -263,7 +272,7 @@ input {
 textarea {
 	background-color: white;
 	margin-left: 1em;
-	width: 90%;
+	width: 80%;
 }
 
 dl {

@@ -2,6 +2,11 @@
 	fluxbox.css: FluxBox Style Sheet 
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 a:link {
 	text-decoration: none;
 	color: #faa;
@@ -289,6 +294,10 @@ div.form {
 	margin: 0em;
 }
 
+div.form form {
+	width: 90%;
+}
+
 input.field {
 	background-color: white;
 }
@@ -300,7 +309,6 @@ input {
 textarea {
 	background-color: white;
 	margin-left: 1em;
-	width: 90%;
 }
 
 dl {

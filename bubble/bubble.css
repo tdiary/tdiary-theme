@@ -4,6 +4,9 @@
       validated by W3C
  */
 /* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
 2002-03-15 TADA Tadashi <sho@spc.gr.jp>
 	* support image anchor as span.panchor and span.canchor.
 
@@ -228,13 +231,16 @@ div.form {
 	margin-bottom: 0.5em;
 }
 
+div.form form {
+	width: 90%;
+}
+
 input.field {
 	width: 9em;
 }
 
 textarea {
 	margin-left: 1em;
-	width: 90%;
 }
 
 dl {

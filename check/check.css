@@ -4,6 +4,9 @@
         Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
 /*CangLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
 2002-03-03 nga <stakei@nga.jp>
 	color: orenge -> #FFA500
 	font-family :osaka, Arial,"MS UI Gothic"; -> font-family :osaka, Arial,"MS UI Gothic",sans-serif;
@@ -291,12 +294,14 @@ div.form {
      border-color: #E9D1CD;
      border-style: dashed;
 }
-form {
+
+div.form form {
      color: #800040;
      background-color: transparent;
      text-align: left;
      padding: 0.5em 1em 0.5em 1em;
      margin-bottom: 0.5em;
+     width: 90%;
 }
 
 input.field {
@@ -317,7 +322,6 @@ textarea {
       color: #800040;
       border-color: #E9D1CD;
       border-style: solid;
-      width: 90%;
 }
 
 dl {

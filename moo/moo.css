@@ -1,5 +1,5 @@
 /*
-	moo.css: Moo Style Sheet of tDiary $Revision: 1.4 $
+	moo.css: Moo Style Sheet of tDiary $Revision: 1.5 $
         Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
 
@@ -10,6 +10,11 @@
         p adminmenu boder-style none-->solid,background-color #000
         form margin delete
 */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 a:link {
 	text-decoration: none;
@@ -240,6 +245,10 @@ div.form {
 	border-width: 3px 3px 3px 3px;
 }
 
+div.form form {
+	width: 80%;
+}
+
 input.field,texterea {
 	background-color: white;
         color: #000;
@@ -252,7 +261,6 @@ input {
 textarea {
 	background-color: white;
 	margin-left: 1em;
-	width: 80%;
         color: #000;
 }
 

@@ -1,16 +1,20 @@
 /*
-	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.3 $
+	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.4 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
-	Modified by TADA Tadashi
-        validated by W3C
-
-        Changelog 2002.3.16 by Nana
-        change body font-size:small>>>1em
-                    color:black>>>#000
-               a:hover,a:active color: blue>>>#0000ff
-               p.calendar font-size:14px>>>medium
-        W3C css-validator check
+   Validated by W3C
 */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-16 by Nana
+	* change body font-size:small>>>1em
+	* color:black>>>#000
+	* a:hover,a:active color: blue>>>#0000ff
+	* p.calendar font-size:14px>>>medium
+	* W3C css-validator check
+*/
+
 /*
 ページ全体の基本的な設定。背景色や文字色など
 */
@@ -311,12 +315,14 @@ div.form {
         border-color: #000;
 	border-style: solid;
 }
-form {
+
+div.form form {
         color: #000;
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
+	width: 90%;
 }
 
 
@@ -336,7 +342,6 @@ input, select, option {
 }
 
 textarea {
-    
 	color: #000;
 	border-color: #000;
 	border-style: solid;

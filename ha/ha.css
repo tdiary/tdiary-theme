@@ -1,7 +1,12 @@
 /*
-	ha.css: Ha Style Sheet of tDiary $Revision: 1.3 $
+	ha.css: Ha Style Sheet of tDiary $Revision: 1.4 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 body {
         text-align : center;
@@ -279,12 +284,13 @@ div.form {
 	border-style: solid;
 }
 
-form {
-        color: #000;
+div.form form {
+   color: #000;
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
+	width: 90%;
 }
 
 input.field {
@@ -304,7 +310,6 @@ textarea {
 	color: #000;
 	border-color: #FFCE00;
 	border-style: solid;
-	width: 90%;
 }
 
 dl {

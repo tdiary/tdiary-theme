@@ -1,9 +1,12 @@
 /*
-	Kanban.css: Kanban  Style Sheet of tDiary $Revision: 1.2 $
+	Kanban.css: Kanban  Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
  */
-
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
 
 a:link {
 	text-decoration: none;
@@ -226,6 +229,10 @@ div.form {
 	margin-bottom: 0.5em;
 }
 
+div.form form {
+	width: 80%;
+}
+
 input.field {
 	background-color: white;
 	color: black;
@@ -239,7 +246,6 @@ textarea {
 	background-color: white;
 	color: black;
 	margin-left: 1em;
-	width: 80%;
 }
 
 dl {

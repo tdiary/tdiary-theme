@@ -3,6 +3,11 @@
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 a:link, a:visited {
 	color: #CCCCFF;
@@ -213,6 +218,10 @@ div.form {
 	margin-bottom: 0.5em;
 }
 
+div.form form {
+	width: 90%;
+}
+
 input.field {
 	width: 9em;
 }
@@ -221,7 +230,6 @@ textarea {
         color: #000;
 	background-color: #fff;
 	margin-left: 1em;
-	width: 90%;
 }
 
 d {

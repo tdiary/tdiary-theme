@@ -1,8 +1,11 @@
 /*
-	dot.css: Default Style Sheet of tDiary $Revision: 1.4 $
+	dot.css: Default Style Sheet of tDiary $Revision: 1.5 $
 	validated by W3C.
  */
 /*CangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
 2002-03-04 nga <stakei@nga.jp>
 	DarkGreen -> #006400
  */
@@ -262,6 +265,10 @@ div.form {
 	margin-bottom: 0.5em;
 }
 
+div.form form {
+	width: 95%;
+}
+
 /*
 入力フィールドの設定
 */
@@ -276,7 +283,6 @@ textarea {
 	background-color: #fc0;
 	margin-left: 1em;
 	font-size: x-small;
-	width: 95%;
 }
 
 /*

@@ -1,7 +1,12 @@
 /*
-	grape.css: Grape Style Sheet of tDiary $Revision: 1.2 $
+	grape.css: Grape Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 /*
 ページ全体の基本的な設定。背景色や文字色など
@@ -305,15 +310,15 @@ div.form {
 	border-color: pink;
 	border-style: outset;
 }
-form {
+
+div.form form {
 	color: #000;
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-    
+	width: 90%;
 }
-
 
 input.field {
 	color: #000000;
@@ -332,7 +337,6 @@ textarea {
 	color: #000;
 	border-color: #500650;
 	border-style: solid;
-	width: 90%;
 }
 /*
 項目リストの設定

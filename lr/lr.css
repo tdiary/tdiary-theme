@@ -1,8 +1,13 @@
 /*
-	lr.css: LR Style Sheet of tDiary $Revision: 1.2 $
+	lr.css: LR Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 a:link {
 	text-decoration: none;
 	color: #0000cd;
@@ -226,6 +231,10 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
 	clear: both;
+}
+
+div.form form {
+	width: 90%;
 }
 
 input.field {

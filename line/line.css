@@ -1,9 +1,14 @@
 /*
-	line.css: Line Style Sheet of tDiary $Revision: 1.2 $
+	line.css: Line Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	Modified by TADA Tadashi
 	validated by W3C.
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 body {
 	background-color: black;
@@ -270,11 +275,13 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
 }
-form {
+
+div.form form {
 	background-color: transparent;
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
+	width: 95%;
 }
 
 

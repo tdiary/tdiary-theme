@@ -1,8 +1,13 @@
 /*
-	tag.css: Tag Style Sheet of tDiary $Revision: 1.4 $
+	tag.css: Tag Style Sheet of tDiary $Revision: 1.5 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 /*
 ページ全体の基本的な設定。背景色や文字色など
@@ -242,6 +247,10 @@ div.form {
 	margin-left: 24px;
 	margin-right: 12px;
 	margin-bottom: 0.5em;
+}
+
+div.form form {
+	width: 95%;
 }
 
 /*

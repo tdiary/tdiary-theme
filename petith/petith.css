@@ -1,17 +1,21 @@
 /*
-	petith.css: Petith Style Sheet of tDiary $Revision: 1.5 $
+	petith.css: Petith Style Sheet of tDiary $Revision: 1.6 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
-        
-        Changelog 
-        2002-3-20  by Nana
-        remove font-family,font-size:13px>>>1em
-        changed pre-style
-        div.day margin-left,right:12%>>>10%    
-        
-        2002-3-21 by Nana
-        validated by W3C >>> warned of is corrected. 
- */
+*/
+/* Changelog 
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-3-20  by Nana
+	* remove font-family,font-size:13px>>>1em
+	* changed pre-style
+	* div.day margin-left,right:12%>>>10%    
+
+2002-3-21 by Nana
+	* validated by W3C >>> warned of is corrected. 
+*/
+
 a:link {
 	text-decoration: none;
 	color: #4A8CAD;
@@ -261,6 +265,10 @@ div.form {
         text-align: left;
 }
 
+div.form form {
+	width: 90%;
+}
+
 input.field {
 	background-color: #fff;
         color: #000;
@@ -274,7 +282,7 @@ textarea {
 	background-color: #fff;
         color: #000;
 	margin-left: 1em;
-	width: 90%;
+	width: 80%;
 }
 
 dl {

@@ -4,6 +4,11 @@
         Modifed by Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
  */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 
 a{
@@ -295,6 +300,10 @@ div.form {
 	margin: 0em;
 }
 
+div.form form {
+	width: 90%;
+}
+
 input.field {
 	background-color: white;
 }
@@ -306,7 +315,6 @@ input {
 textarea {
 	background-color: white;
 	margin-left: 1em;
-	width: 90%;
 }
 
 dl {

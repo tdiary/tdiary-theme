@@ -2,6 +2,11 @@
   spring.css Spring Style Sheet of tDiary  $Revisions1.0$
   Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
 */
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
 
 body {
   background-color: #fff;
@@ -170,8 +175,9 @@ p.footer {
   color:#000000;
 }
 
-form {
+div.form form {
   border:none; 
+  width:90%;
 }
 
 input.field {

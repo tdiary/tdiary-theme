@@ -1,5 +1,5 @@
 /*
-	happa.css: Happa Style Sheet of tDiary $Revision: 1.3 $
+	happa.css: Happa Style Sheet of tDiary $Revision: 1.4 $
 	Copyright (C) 2001 Nana <http://mikan.sakura.ne.jp/~mpc/> 
 	validated by W3C
  */
@@ -132,6 +132,27 @@ h3.subtitle a:hover, h3.subtitle a:focus {
 	color: #dc143c;
 	text-decoration: none;
 }
+
+div.day span.panchor {
+	background-image: url(happa_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 21px 0px 0px;
+	color: #ffffe4;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(happa_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 20px 21px 0px 0px;
+	color: #ffffe4;
+	background-color: transparent;
+	font-size: 1px;
+}
+
 pre {
 	background-image: url(happa_pre.png);
 	background-color: #fff;

@@ -1,0 +1,288 @@
+/*
+   garden.css Garden Style Sheet of tDiary $Revisions1.0$
+   Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+   validated by W3C.
+*/
+
+body {
+  background-color: #99cc99;
+  color: #000;
+  text-align: center;
+  margin: 0% 8% 0% 8%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #669933;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #669933;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #fff;
+}
+
+p.adminmenu {
+  font-size:small;
+  text-align: right;
+  margin-right: 0px;
+}
+
+h1 {
+  text-align: left;
+  font-size: small;
+  color:#ffffdf;
+}
+
+p.calendar {
+  text-align: left;
+  color:#ffffdf;
+  margin: 0px;
+}
+
+div.day {
+  background-color: #cc9966;
+  color: #000;
+  border-width: 3px;
+  border-style: double;
+  border-color: #fff;  
+  text-align: left;
+  margin-bottom: 3em;
+  margin-top: 0%;
+  font-size:100%;
+}
+
+h2 {
+  margin-left: 1em;
+  font-size: medium;
+  font-weight: bold;
+  color: #fff;
+}
+
+span.date a{
+  color: #99ff99;
+  margin-left: 2em;
+}
+
+span.title {
+  font-size: medium;
+}
+
+div.body {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-color: #cc9966;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  color: #000;
+}
+
+p {
+  margin: auto; width: 90%; padding: 0.3em; line-height: 130%;
+}
+
+h3.subtitle {
+  background-color: #99cc99;
+  font-size: 1.1em;
+  color: #ffffdf;
+  border-style: none;
+  border-width: 1px;
+  border-color: #ffffff;
+  padding: 3px;
+  text-align:left;
+  margin:0 0 0 0;
+}
+
+h3.subtitle a{
+  color: #663333;
+}
+
+h3.subtitle a:hover{
+  color:#ffffff;
+}
+
+div.section{
+  background-color: #ffcc99;
+  color: #000;
+  padding-bottom: 0.1px;
+}
+pre {
+  margin-left: 1.5em;
+  margin-right: 1em;
+  padding: 0.5em;
+  border-width: 1px;
+  border-style: none;
+  border-color: #fff;
+  background-color:#ffffdf;
+}
+
+div.comment {
+  text-align: left;
+  margin-right: 1em;
+  font-size: 0.8em;
+  border-width: 1px;
+  border-style: none; 
+  border-color: #fff;
+  background-color:#ccffcc;
+  color:#000;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-bottom: 2em;
+  padding: 0.3em;
+}
+div.comment a:hover{
+  color: #ff0000;
+  background-color: #fff;
+}
+
+p.commenttitle {
+  text-align: right;
+  color:#000;
+  font-size: 0.8em;
+}
+
+span.commentator {
+  color: #cc9966;  
+}
+
+p.referertitle {
+  text-align: right;
+  color:#ffffff;
+  margin-left:10%;
+  font-size:small;
+}
+
+p.referer {
+  margin-left:10%;
+  margin-bottom:1em;
+  font-size:0.8em;
+}
+
+div.refererlist {
+  text-align: right;
+  color:#cc3300;
+  font-size:0.8em;
+}
+
+hr {
+}
+
+hr.sep {
+  display: none;
+}
+
+p.footer {
+  font-size: 0.8em;
+  text-align: right;
+  color:#ffffdf;
+}
+
+form {
+
+}
+
+input.field {
+  color: #000;
+  border: 1px solid #ffffdf;
+}
+
+input{
+  border-width: 0px;
+  border-color: #ffffdf;
+  color: #669933;
+  margin: 2px;
+}
+
+textarea {
+  background-color: #ffffdf;
+  text-align: left;
+  color: #000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffdf;
+  padding: 0.5em;
+}
+
+p.strong {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color:#ff3300;
+}
+
+div.rank {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  color:#ffffdf;
+  text-align: left;
+}
+.rank a:hover,a:active{
+  text-decoration : underline;
+  background-color : #fff;
+  color: #669933;
+}
+ 
+span.memo {
+  color:#000;
+  background-color: #ffcccc;
+} 
+        
+a img {
+  border-width: 0px;	
+}
+
+/*
+脚注番号
+*/
+span.footnote ,span.footnote a{
+  font-size: 0.8em;
+  color:#DC143C;
+}
+/*
+脚注本文全体
+*/
+div.footnote {
+  border-color:#ffffff;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 3px;
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: 16px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+div.footnote a{
+   color:#DC143C;
+}
+/*
+それぞれの脚注本文
+*/
+span.footnote{
+    vertical-align: super;
+    color:#DC143C;
+    font-size: 0.8em;
+}
+/*
+スミ消しプラグイン用
+*/
+.hide{
+    background-color:#ff9900;
+}
+form.search{
+    margin-top: 0px;
+    text-align: right;
+}
+ul{
+    list-style-type: square;
+    line-height: 130%;
+}
+

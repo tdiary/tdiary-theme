@@ -1,6 +1,6 @@
 /*
 Title: Nacht Musik
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: epi
 Access: http://wind.prohosting.com/~episodee/
 License: GPL
@@ -38,7 +38,7 @@ text-decoration: underline;
 ページトップにある操作ボタンの並ぶ行の設定
 */
 
-p.adminmenu {
+div.adminmenu {
 font-size: small;
 text-align: right;
 }
@@ -78,7 +78,7 @@ line-height: 32px;
 /*
 カレンダーの設定
 */
-p.calendar {
+div.calendar {
 margin-bottom: 0.5em;
 border-style: none;
 border-color: #696969 #eee #eee #696969;
@@ -110,7 +110,7 @@ line-height: 32px;
 /*
 日付の設定
 */
-span.date {
+h2 span.date {
 color: #4b0082; 
 background-color: transparent;
 text-align: center;
@@ -119,7 +119,7 @@ text-align: center;
 /*
 タイトルの設定
 */
-span.title {
+h2 span.title {
 }
 /*
 タイトルを除いた1日の日記本文全体の設定
@@ -135,7 +135,7 @@ padding-left: 0.5em;
 /*
 日記の本文(段落)の設定
 */
-p {
+div.section p {
 margin-top: 0.5em;
 margin-bottom: 0.7em;
 line-height: 1.3;
@@ -144,7 +144,7 @@ line-height: 1.3;
 /*
 サブタイトルの設定
 */
-h3.subtitle {
+h3 {
 color: #bc8f8f;
 background-color: transparent;
 font-size: 1em;
@@ -181,7 +181,7 @@ padding: 5px 10px 5px 10px;
 /* 
 アンカー
 */
-div.day span.panchor {
+div.day span.sanchor {
 background-image: url(nachtmusik_icon.png);
 background-position: bottom right;
 background-repeat: no-repeat;
@@ -216,7 +216,7 @@ clear: both;
 /*
 ツッコミ欄タイトル行の設定
 */
-p.commenttitle {
+div.comment div.caption {
 border-style: solid;
 border-color: #696969;
 border-width: 0px 0px 1px 0px;
@@ -225,12 +225,6 @@ border-width: 0px 0px 1px 0px;
 /*
 ツッコミした人の名前の設定
 */
-span.commentator {
-border-style: solid;
-border-color: #aaa;
-border-width: 0px 0px 1px 0px;
-padding: 3px;
-}
 
 p.comment {
 text-align: left;
@@ -238,7 +232,7 @@ text-align: left;
 /*
 リンク元リストタイトルの設定
 */
-p.referertitle {
+div.refererlist div.caption {
 color: #dcdcdc;
 background-color: transparent;
 text-align: left;
@@ -250,7 +244,7 @@ padding: 2px;
 /*
 リンク元リスト(短い方)の設定
 */
-p.referer {
+div.referer {
 text-align: right;
 margin-left: 24px;
 margin-right: 12px;
@@ -273,7 +267,7 @@ padding-bottom: 1px;
 /*
 リンク元リスト一覧の設定
 */
-ul.referer {
+div.refererlist ul {
 text-align: left;
 margin-top: 0em;
 }
@@ -296,7 +290,7 @@ clear: both;
 /*
 フッタの設定
 */
-p.footer {
+div.footer {
 font-size: small;
 text-align: right;
 clear: both;
@@ -335,16 +329,16 @@ border-width: 1px;
 /*
 項目リストの設定
 */
-dl {
+div.body dl {
 margin-left: 2em;
 }
 
-dt {
+div.body dt {
 margin-bottom: 0.2em;
 font-weight: bold;
 }
 
-dd {
+div.body dd {
 margin-left: 1em;
 margin-bottom: 0.5em;
 }
@@ -459,4 +453,171 @@ border-color: #696969;
 border-style: solid;
 border-width: 1px;
 font-size: x-small;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #696969;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: #696969;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: #000000;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: #000000;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+div.update.day {
+	color: #dcdcdc; 
+	background-color: transparent;
+	border-style: solid;
+	border-color: #696969;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+div.update.day div.form {
+	border: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update textarea {
+        background-color: white;
+        color: #000000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+div.update.day input {
+	background-color: #000;
+	color: #fff;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

@@ -1,6 +1,6 @@
 /*
 Title: 真夜中
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: ただただし
 Access: sho@spc.gr.jp
 */
@@ -302,7 +302,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -314,7 +313,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
         width: 30em;
         height: 5em;
@@ -348,7 +346,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

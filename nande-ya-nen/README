@@ -1,0 +1,20 @@
+Title: なんでやねん
+Author: Junichiro KITA
+Access: kita@a1.mbn.or.jp
+Comment: 「今日のなんでやねん」のテーマ
+
+Copyright (c) 2000-2001 Junichiro KITA <kita@a1.mbn.or.jp>
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation;
+A copy of the license is included in the section entitled "GNU Free
+Documentation License".
+
+ChanaegLog
+2002-10-21 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* font-size: smaller -> 0.9em.

@@ -15,7 +15,6 @@ validated by W3C.
 body {
 	background: #000033 url(dog_back.png) repeat fixed;
 	color: #ffffff;
-	font-family: Verdana,Arial,sans-serif;
 	margin: 1em 5em;
 }
 
@@ -298,7 +297,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {

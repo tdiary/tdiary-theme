@@ -1,6 +1,6 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -37,7 +37,6 @@ body {
 	border-style: solid;
 	border-color: #B0E0E6;
 	border-width: 1em 1em 1em 1em;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	padding: 0em;
         margin:0px;
 }
@@ -545,7 +544,7 @@ p.source{
 	border-width: 1px;
 }
 div.rank {
-        font-size: 0.8em;
+        font-size: 80%;
 }
 
 p.big {

@@ -1,6 +1,6 @@
 /*
 Title: S-BLUE
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 Comment: support major plugin
@@ -418,7 +418,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

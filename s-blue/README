@@ -7,6 +7,9 @@ Comment: 淡いブルーベースのシンプル系
 	Copyright by (C) Nana <clorets@estyle.ne.jp>
 	validated by W3C
 ChangeLog
+2003-09-22 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-05 Nana <clorets@estyle.ne.jp>
 	* div.day text-align:left
 	* support major plugin
@@ -22,3 +25,4 @@ ChangeLog
 
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
+

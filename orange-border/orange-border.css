@@ -3,13 +3,14 @@
 	Copyright by (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
         Title:Orange-border
-	Revision: $Revision: 1.4 $
+	Revision: $Revision: 1.5 $
 	Author: Nana
 	Comment: À±¤Î²¦»Ò¤µ¤Þ¢ö
 
-ChangeLog 2001-4-15 Nana
+ChangeLog 2002-04-15 Nana
         div.form margin-left:10% --> 0 
-
+          2002-05-16 Nana
+        div.form margin-left:25% --> 0px
 */
         
 div.rank {
@@ -215,7 +216,7 @@ p.footer {
 }
 
 div.form {
-        margin-left: 25%;
+        margin-left: 0px;
         background-color: transparent;
 	padding-bottom: 0.5em;
 	padding-left: 1em;

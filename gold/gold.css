@@ -1,15 +1,17 @@
 /*
 Title: gold
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
 Comment: なんとなくゴールドっぽいテーマ 
-	gold.css: Style Sheet of tDiary $Revision: 1.4 $
+	gold.css: Style Sheet of tDiary $Revision: 1.5 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
 */
 /* ChangeLog
+2002-09-09 NT <nt@24i.net>
+	* fix typo.
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* comment font-size: smaller -> 0.9em.
 */
@@ -117,7 +119,7 @@ div.body {
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 2em;
-; color: #000000
+	color: #000000
 }
 
 p {
@@ -125,7 +127,7 @@ p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
-; font-family: "ＭＳ Ｐゴシック", "Osaka"
+	font-family: "ＭＳ Ｐゴシック", "Osaka"
 }
 
 h3.subtitle {

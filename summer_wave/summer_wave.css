@@ -1,6 +1,6 @@
 /*
 Title: Summer Wave
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: shimery
 Access: http://shimery.tdiary.net/
 License: GPL
@@ -163,7 +163,8 @@ p.commenttitle   {
 span.commentator  {
 	color: #000080;
 	background-color: transparent;
-	padding: 3px; border-style: solid;
+	padding: 3px;
+	border-style: solid;
 	border-width: 0px 0px 1px 0px;
 	border-color: #000080
 }

@@ -1,6 +1,6 @@
 /*
 Title: Ocha
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -8,6 +8,10 @@ Comment: なんとなくお茶色なテーマ
 
 	Copyright (c) 2002 Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
+
+--- Change-Log ---
+        2002-05-11 Nana
+        h2 line-height: 40px;
 */
 
 div.rank {
@@ -73,10 +77,10 @@ p.calendar {
 	margin-left: 3em;
         margin-bottom: 1em;
 	color: black;
-       /*background-color: #DDAD5B;
-        border-style: none;
-	border-color: #C7D2A1;
-	border-width: 1px;*/
+      /*background-color: #DDAD5B;*/
+      /*border-style: none;*/
+      /*border-color: #C7D2A1;*/
+      /*border-width: 1px;*/
 	text-align: left;
         padding: 5px;
       /*padding-left: 3em;*/
@@ -91,9 +95,9 @@ div.day {
 	margin-left: auto;
         margin-right: auto;
 	margin-bottom: 5em;
-	border-style: none;
-	border-color: #b0aaa0;
-	border-width: 0px 0px 0px 0px;
+      /*border-style: none;*/
+      /*border-color: #b0aaa0;*/
+      /*border-width: 0px 0px 0px 0px;*/
 	margin-bottom: 2em;
 	padding: 0px 0px 20px 0px;
 }
@@ -102,25 +106,26 @@ span.title {
 	color: #333333;
 	background-color: transparent;
 	margin-right: 1em;
+	margin-bottom: 0px;
 	text-align: right;
 }
 
 h2 {
 	background-image: url(ocha_h2.png);
 	background-repeat:no-repeat ;
-	background-attachment:scroll;
 	background-color: transparent;
 	color: black;
 	padding-left: 3.5em;
-	padding-top: 10px;
-	padding-bottom:10px;
-	margin-bottom: 0;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
 	font-weight: bold;
         font-size: medium;
+	line-height: 40px;
 }
 
 span.date {
-	
+	margin-bottom: 0px;
 	font-weight: bold;
 }
 
@@ -129,21 +134,21 @@ div.body {
 	background-color: transparent;
 	background-repeat: repeat-y ;
 	color: #000000;
-	margin-top: 0;
-	padding-top: 0;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 div.section{
 	background-color: transparent;
-	margin-left: 0;
-	margin-top: 0;
+	margin-left: 0px;
+	margin-top: 0px;
 	margin-right: 1em;
 	padding-bottom: 2px;
 }
 
 div.section p{
         background-color: transparent;
-	margin-top: 0;
+	margin-top: 0px;
 	
 }
 
@@ -153,7 +158,7 @@ p {
 	margin-left: 2em;
 	margin-right: 1em;
 	margin-top: 0.5em;
-	margin-bottom: 0;
+	margin-bottom: 0px;
         line-height: 135%;
 }
 
@@ -163,10 +168,10 @@ h3.subtitle {
 	border-style: dotted;
 	border-color: #eee;
 	border-width: 0px 0px 1px 0px;
-	margin-top: 0;
+	margin-top: 0px;
 	margin-left: 1em;
 	margin-right: 1em;
-	padding: 12px 3em 0 0;
+	padding: 12px 3em 0px 0px;
 	font-weight: bold;
         font-size: medium;
 }
@@ -233,7 +238,7 @@ p.commenttitle {
 	color: #660000;
 	text-align: left ;
 	margin-left:15px;
-	margin-top: 0;
+	margin-top: 0px;
 	padding-left: 1em;
 	border-style: dotted;
 	border-color: #006800;
@@ -257,15 +262,15 @@ p.referertitle {
 	border-style: dotted;
 	border-color: #006800;
 	border-width: 0px 0px 1px 0px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 p.referer {
 	background-color: transparent;
 	color: #000000;
 	text-align: left;
-	padding-top: 0;
+	padding-top: 0px;
 	font-size: small;
 }
 
@@ -275,7 +280,7 @@ div.refererlist {
 	background-color: transparent;
 	color: #fff;
 	margin-right: 1em;
-	margin-top: 0;
+	margin-top: 0px;
         margin-bottom:0px
 }
 

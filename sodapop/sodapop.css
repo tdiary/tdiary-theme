@@ -1,28 +1,34 @@
 /*
-  sodapop.css: Sodapop Style Sheet of tDiary $Revision: 1.2 $
-  created by Kadu
-  validated by W3C
-  sodapop_back.jpgは著作権の関係で含まれていません。
-  お好きな背景イメージを用意してください。
-*/
-/*
+   Sodapop - tDiary用テーマCSSファイル $Revision: 1.3 $
+   Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
 
+   sodapop_back.jpgは著作権の関係で含まれていません。
+   お好きな背景イメージを用意してください。
+*/
+
+/*
   ページ全体の基本的な設定。背景色や文字色など
-  */
+*/
 body {
   background-color: white;
-  background-image: url(sodapop_back.jpg);
+  background-image: url(sodapop_bg.jpg);
   background-repeat: no-repeat;
   background-position: right top;
-
   color: black;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*
+ リンクの設定
+ */
+a:link, a:visited {
+	text-decoration: none;
 }
 
 /*
   ページトップにある操作ボタンの並ぶ行の設定
-  */
+*/
 p.adminmenu {
   text-align: right;
   font-size: small;
@@ -45,12 +51,6 @@ h1 {
   カレンダーの設定
   */
 p.calendar {
-  background-color: #ddd;
-  border-style: solid;
-  border-color: darkgray #eee #eee darkgray;
-  border-width: 1px;
-  padding: 2px;
-  margin-bottom: 0.5em;
 }
 
 /*
@@ -66,25 +66,21 @@ div.day {
   */
 h2 {
   background-color: #9cc;
-  
   font-size: 1em;
-  
   margin: 0px;
-  padding: 0.2em;
-  
+  padding: 0.2em 0.2em 0.2em 0.5em;
   border-bottom: 1px solid #999;
 }
 
-/*
-  日付の設定
-  */
+/* 日付の設定 */
 span.date {
-  margin-right: 2em;
+}
+span.date a{
+  text-decoration: none;
+  color: #fff;
 }
 
-/*
-  タイトルの設定
-  */
+/* タイトルの設定 */
 span.title {
   color: #fff;
 }
@@ -107,9 +103,9 @@ h3.subtitle {
   border-bottom: 1px solid #ccc;
 }
 
-/*
-  日記の本文(段落)の設定
-  */
+h3.subtitle a{
+}
+
 p {
 }
 
@@ -215,12 +211,9 @@ p.footer {
   フォーム全体を囲む枠の設定
   */
 div.form {
-  background-color: #ddd;
-  border-style: solid;
-  border-color: darkgray #eee #eee darkgray;
-  border-width: 1px;
   padding: 0.5em 1em 0.5em 1em;
-  margin-bottom: 0.5em;
+  border: 1px solid #999;
+  margin-bottom: 2em;
 }
 
 /*
@@ -257,21 +250,3 @@ pre {
   padding: 1em;
   border: 1px solid #666;
 }
-
-/*
-  項目リストの設定
-  */
-dl {
-  margin-left: 2em;
-}
-
-dt {
-  margin-bottom: 0.2em;
-  font-weight: bold;
-}
-
-dd {
-  margin-left: 1em;
-  margin-bottom: 0.5em;
-}
-

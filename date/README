@@ -1,6 +1,6 @@
 Title: Date
 Author: epi
-Access: http://epi.s5.xrea.com/diary/
+Access: http://330mg.bufferin.jp/diary/
 License: GPL
 Comment: 設定画面の日付フォーマットは%a %B %d, %Yがナイス
 
@@ -8,6 +8,10 @@ validated by W3C.
 footnote, calendar2, dropdown-calendar, search_form プラグイン対応
 
 Changelog
+2003-03-14 Nana <clorets@estyle.ne.jp>
+	* font-size: em -> %.
+	* remove p.comment
+
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
         * insert indent.
 

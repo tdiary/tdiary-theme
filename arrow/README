@@ -1,0 +1,33 @@
+Title: arrow
+Author: epi
+Access: <http://330mg.bufferin.jp/diary/>
+License: GPL
+Comment: キャッチーなテーマ
+
+Copyright by epi All Rights Reserved.
+validated by W3C
+
+サイドバー対応
+（サイドバーを利用するときにはたとえばヘッダの最終行に
+	<div class="main">
+　フッタに
+	</div>
+	<div class="sidebar">
+	  ... サイドバーに表示する内容...
+	</div>
+　などのように記述すると便利かと思われます．）
+	
+calendar2, calendar3, recent_list, footnote プラグイン対応
+calendar3を使う場合には、
+　<div class="calendar3"><%=calendar3%></div>
+などのようにしていただくとなんとなくセンタリングされます．
+
+Opera(6,7),IE(5.5,6)にて表示確認しています．
+どうも表示がおかしい、という場合には
+ご利用のブラウザを明記の上 http://330mg.bufferin.jp/diary/ にて
+ツッコんでいってくださいませ．対応できる限り対応したいと思います．
+
+--Change Log---
+2003-02-24 epi
+	* add arrow theme
+

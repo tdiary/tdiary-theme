@@ -1,0 +1,333 @@
+/*
+	stripe.css: Stripe Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	Modified by TADA Tadashi
+ */
+
+body {
+    background-image: url(stripe_bd08.gif);
+    text-align : center;
+    font-family :osaka, Arial,"MS UI Gothic";
+    font-size: small;
+	color: #000;
+    margin: 0em 3em 0em 3em; 
+	padding: 1em; 
+	border-style: none solid none solid;
+	border-color: transparent #C9E9FD transparent #C9E9FD;
+	border-width: 30px;
+}
+
+a:link {
+        text-decoration:none ;
+	    color: #400040;
+        font-weight : bold ;
+
+}
+a:visited {
+        text-decoration : none ;  
+        color: #6C6CB7;
+        font-weight: bold;
+}
+a:hover,a:active {
+	    text-decoration : none ; 
+        color: #555555;
+        font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	
+}
+
+p.message {
+	text-align: center;
+	font-size: small;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 1px;
+    font-size: small;
+    margin-right: 1em;
+}
+
+h1 {
+	text-align: left;
+	font-size: small;
+}
+
+p.calendar {
+    font-size:15px;
+    font-weight: bold;
+    font-family :osaka, Verdana,"MS UI Gothic";
+	text-align: center;
+    margin-left: 0em;
+	padding: 2px;
+    border-style: dashed;
+	border-color: #fff;
+	border-width: 0px 0px 4px 0px;
+    width:90%
+}
+
+div.day {
+    -moz-opacity:0.7;
+    filter:Alpha(opacity=70);
+    background-color :#D2FFFF;
+    font-size: small;
+    color :#000;
+	margin: 3em auto 3em auto;
+	text-align: right;
+	clear: both;
+	width: 90%;
+	border-style: dashed;
+	border-color: #fff;
+	border-width: 4px;
+	padding: 0px 8px 0px 8px;
+}
+h2 {
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	margin-left: auto;
+	margin-right: 0px;
+	font-size: small;
+    font-weight: bold;
+}
+
+span.date {
+    font-family :osaka, Verdana,"MS UI Gothic";
+	font-weight: bold;
+	font-size: small;
+	text-align: right;
+	margin-top: 1em;
+	
+}
+
+span.title {
+	font-size: small;
+}
+
+div.body {
+    font-size: small;
+	clear: both;
+	text-align: left;
+	padding-bottom: 1px;
+	margin: auto 5px;
+	border-style: dashed;
+	border-color: #5A66FD;
+	border-width: 4px 0px 0px 0px;
+
+    
+}
+
+p.body {font-size: small;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {font-size: small;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+p.sentence {
+	margin-left: 12px;
+	margin-right: 12px;
+	line-height: 1.2;
+	border-style: none;
+	border-color: #ccc;
+	border-width: 1px 0px 0px 0px;
+}
+
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+    font-size: small;
+	clear: both;
+}
+span.anchor {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-weight: bold;
+	font-size: small;
+	float: left;
+}
+
+pre {
+    background-color: #EFEFEF;
+	border-style: solid;
+	font-size: small;
+	border-color: #EFEFEF;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 5px 5px 5px 5px;
+}
+
+div.comment {
+	font-size: small;
+	clear: both;
+	text-align: right;
+	padding-bottom: 1px;
+	margin: auto 5px;
+	border-style: dashed;
+	border-color: #5A66FD;
+	border-width: 4px 0px 0px 0px;
+}
+
+p.commenttitle {
+	text-align: right;
+	
+	position: relative;
+	font-size: small;
+	color: #555555;
+	display: inline;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-style: none;
+	
+}
+
+span.commentator {
+	padding-top: 0px;
+	margin-top: 0px;
+	display: block;
+	color: #555555;
+	clear: both;
+}
+
+p.comment {
+	font-size: small;
+	text-align: right;
+	color: #555555;
+	padding: 0px 0px 0px 0px;
+	margin-left: 24px;
+	margin-right: 12px;
+	margin-top: 0px;
+	
+}
+p.referertitle {
+    
+	text-align: right;
+	display: inline;
+	position: relative;
+	border-style: none;
+	border-color: #D9E5FD;
+	border-width: 4px 4px 4px 4px;
+    padding: 2px;
+}
+
+p.referer {
+	display: inline;
+	color: #5A66FD;
+	font-size: small;
+	padding: 2px;
+	border-style: none;
+	border-color: #D9E5FD;
+	border-width: 0px;
+    
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: right;
+	padding-bottom: 1px;
+	margin-top: 0.2em;
+	border-style: dashed;
+	border-color: blue;
+	border-width: 4px 0px 0px 0px;
+}
+
+ul.referer {
+	margin-top: 0em;
+	text-align: left;
+}
+
+hr {
+	border-style: dotted;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+    color: #000;
+    -moz-opacity:0.7;
+    filter:Alpha(opacity=70);
+    background-color :#D2FFFF;
+	margin-bottom: 0.5em;
+    border-color: #fff;
+	border-style: dashed;
+    border-width: 4px;
+    width: 90%;
+}
+form {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+    border-color: #fff;
+	border-style: none;
+    border-width: 3px;
+}
+
+
+input.field {
+	background-color: transparent;
+	color: #EDC4C15;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, select, option {
+	background-color: transparent;
+	color: #EDC4C15;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+}
+
+textarea {
+	background-color: transparent;
+	color: #EDC4C15;
+	border-color: #E6E6E6;
+	border-style: solid;
+	width: 90%;
+    border-width: 1px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

@@ -1,6 +1,6 @@
 /*
 Title: momonga
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: ずんだあん かずひこ
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
@@ -35,11 +35,6 @@ colors:
 	*div.section p --> margin-bottom: 1.3em ;
 	*div.comment p -->line-height: 1.3em;
  */
-
-/*
-共通設定の読み込み
-*/
-@import url(../base.css);
 
 /*
 ページ全体の基本的な設定。背景色や文字色など
@@ -609,6 +604,10 @@ img.right {
 	border-color: #008;
 	float: right;
 	margin: 0.5em;
+}
+
+img {
+	vertical-align: text-bottom;
 }
 
 div.section, div.comment {

@@ -1,0 +1,238 @@
+/*
+Title: momonga
+Revision: $Revision: 1.1 $
+Author: ずんだあん かずひこ
+Access: zunda@momonga-linux.org kazuhiko@fdiary.net
+License: GPL
+Comment: mo?
+
+validated by W3C
+
+colors:
+   #351A14 Dark Brown
+   #50B44C Green
+   #ED7332 Orange
+   #745247 Brown
+   #D2C1B8 White Brown
+   #000020 Night Black
+   #FFFF20 Yellow
+   #F1EDEC almost white (background color of momo_bg.png)
+ */
+
+p.footer {
+  padding: 0.5em;
+  margin: 0em;
+  background-color: #50B44C;
+  color: #FFFFFF;
+  font-size: small;
+  text-align: right;
+  border-style: outset;
+  border-color: #50B44C;
+  border-width: 2px;
+}
+
+h2 a:link, h2 a:visited {
+  color: #D2C1B8;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #ED7332;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  color: #50B44C;
+}
+
+body {
+  background-color: #F0F0E0;
+  color: #351A14;
+}
+
+p.message {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-color: #745247;
+  color: white;
+  padding: 8px;
+  margin: 0px;
+}
+
+p.adminmenu {
+  text-align: right;
+  font-size: small;
+}
+
+span.adminmenu {
+  background-color: #D2C1B8;
+  border-color: #D2C1B8;
+  border-width: 1px;
+  padding: 0.2em;
+}
+
+h1 {
+  background-color: #50B44C;
+  border-style: outset;
+  border-color: #50B44C;
+  border-width: 2px;
+  color: #FFFFFF;
+  padding: 0.2em;
+}
+
+h2 {
+  background-color: #745247;
+  border-style: outset;
+  border-color: #745247;
+  border-width: 1px;
+  color: #FFFFFF;
+  padding: 0.2em;
+}
+
+h3 {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #50B44C;
+  padding: 0.2em;
+}
+
+p, dl, ul {
+  line-height: 1.1;
+  margin: 0em 1em 0em 1em;
+  padding: 0em 1em 0.2em 1em;
+}
+
+address {
+  font-style: italic;
+  margin: 0.5em 0em 0.5em 0em;
+  padding: 0em 1em 0.2em 1em;
+}
+
+p.calendar {
+  text-align: right;
+  font-weight: bold;
+}
+
+p.recentcomment {
+  text-align: right;
+  font-size: small;
+}
+
+div.day {
+}
+
+span.date {
+  font-size: large;
+}
+
+span.title {
+}
+
+div.body {
+  padding: 0.2em;
+  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+pre, blockquote {
+  background-color: #D2C1B8;
+  color: #745247;
+  margin: 1em 1em 1em 1em;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+
+div.comment {
+  background-color: #D2C1B8;
+  background-image: url(momonga_bg.png);
+  color: #351A14;
+  margin: 0.5em;
+  padding: 0.75em;
+/*  font-size: small; */
+}
+
+div.form {
+  background-color: #745247;
+  color: white;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+p.commenttitle {
+}
+
+span.commentator {
+}
+
+p.referertitle {
+}
+
+p.referer {
+}
+
+hr {
+}
+
+hr.sep {
+  display: none;
+}
+
+input.field {
+  background-color: white;
+}
+
+textarea {
+  background-color: white;
+  margin-left: 1em;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+li.referer, li.sidemenu, li.recentitem, li.packages {
+  margin: 0em 0em 0em 0em;
+  padding: 0em 0em 0em 0em;
+  white-space: nowrap;
+}
+
+ul.referer, ul.sidemenu, ul.recentitem, ul.packages {
+  margin: 0em 0em 0em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+ul.recentitem {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  white-space: nowrap;
+}
+
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  font-weight: bold;
+}
+
+div.day span.panchor {
+	background-image: url(momonga_icon_s.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 32px 32px 0px 0px;
+	color: #F0F0E0;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(momonga_icon.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px; 
+	color: #F0F0E0;
+	background-color: transparent;
+	font-size: 1px;
+}

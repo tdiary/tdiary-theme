@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -10,8 +10,11 @@ Comment: レストランのメニューのようなテーマ
 	validated by W3C.
 */
 /* CangLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add img.photo.
+
 2002-04-03 nga<stakei@nga.jp>
-	* created
+	* add specification for Theme Gallery.
 
 2002-03-03 nga <stakei@nga.jp>
 	fix fontsize.
@@ -344,6 +347,10 @@ strong {
 img {
 	border-style: none;
 }
+img.photo {
+	border-style: none;
+	margin-left: 3em;
+}
 
 table.calendar {
 	text-align: center;
@@ -395,4 +402,5 @@ td.calendar-day {
 	font-size: xx-small;
 	text-align: right;
 }
+
 

@@ -1,9 +1,9 @@
 /*
 	Green-Border.Css: Green-Border style sheet of tdiary
-	Copyright by (C) Nana <http://moo.boo.jp>
+	Copyright by (C) Nana <clorets@estyle.ne.jp>
 	validated by W3C.
 	Title: Green-border
-	Revision: $Revision: 1.12 $
+	Revision: $Revision: 1.13 $
 	Author: Nana
 	Comment: カエルくんなテーマ
 	License: GPL
@@ -24,6 +24,7 @@ body {
 	background-repeat: repeat-y;
 	color: #000;
 	margin-right: 5%;
+	margin-left: 25%;
 }
 
 a:link {
@@ -61,7 +62,7 @@ h1 {
 	border-color: #49ba18; 
 	border-width: 0px 0px 5px 0px;
 	border-style: solid;
-	margin-left: 25%;
+	/*margin-left: 25%;*/
 	padding-bottom: 3px;
 	padding-top: 3%;
 	padding-right: 10%;
@@ -75,14 +76,14 @@ div.calendar {
 	border-style: none;
 	border-width: 1px 0px 1px 0px;   
 	font-size: 90%;
-	margin: 0% 0% 3% 25%;
+	/*margin: 0% 0% 3% 25%;*/
 	padding: 3px;
 	text-align: left;
 }
 
 div.day {
 	margin-bottom: 3em;
-	margin-left: 25%;
+	/*margin-left: 25%;*/
 }
 
 h2 {
@@ -439,7 +440,7 @@ form.comment textarea {
 	display: block;
 	background-color: #ffffff;
 	color: #000;
-	margin-left: 3em;
+	/*margin-left: 3em;*/
 	width: 30em;
 	height: 5em;
 }
@@ -484,9 +485,9 @@ form.update div.textarea {
 
 form.update textarea {
 	display: block;
-	margin-left: 3em;
+	/*margin-left: 3em;*/
 	margin-bottom: 1em;
-	width: 35em;
+	width: 30em;
 	height: 15em;
 }
 
@@ -506,4 +507,36 @@ div.comment form {
 */
 form.search {
 	text-align:right;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
 }

@@ -1,14 +1,19 @@
 Title: Green-border
-Author: Nana
-Comment: 
+Author: Nana <clorets@estyle.ne.jp>
+Comment: カエルくんなテーマ
 License: GPL
 
-Green-Border.Css: Green-Border style sheet of tdiary
-Copyright by (C) Nana <http://moo.boo.jp>
+Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 
 
 Change-Log
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* remove body font-size 
+	* set body margin-left 25% *set calendar3
+	* remove h1,div.day,div.calendar marfin-left:25%
+	* remove form.update textarea margin-left: 3em
+
 2003-01-06 TADA Tadashi <sho@spc.gr.jp>
 	* em -> % in font-size.
 
@@ -27,3 +32,8 @@ Change-Log
             
 2002-04-17 Nana
         * support calendar2
+
+Comment 
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* body内に文章を入れている方が多く
+	  画像に文字が被るのでbodyにマージンを取るように変更しました。

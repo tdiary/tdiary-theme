@@ -3,7 +3,7 @@
 	# customize
 	theme_uri = './theme'
 	theme_path = '/home/tdiary/public_html/theme'
-	# themebench.rhtml: $Revision: 1.8 $
+	# themebench.rhtml: $Revision: 1.9 $
 	require 'cgi'
 	ERuby.charset = 'EUC-JP'
 	cgi = CGI::new
@@ -497,46 +497,45 @@ Powered by Ruby version <%= RUBY_VERSION %>
 <p>calendar3 プラグイン</p>
 <div class="calendar3">
 <!-- calendar3 -->
-<a href="./?date=200209">&lt;&lt;</a>
-<a href="./?date=200210">2002/10</a>/
-<span class="calendar-weekday">1</span>
-<span class="calendar-weekday">2</span>
-<span class="calendar-weekday">3</span>
-<span class="calendar-weekday">4</span>
-<span class="calendar-saturday">5</span>
-<span class="calendar-sunday">6</span>
-<span class="calendar-weekday">7</span>
-<span class="calendar-weekday">8</span>
-<span class="calendar-weekday">9</span>
-<span class="calendar-weekday">10</span>
-<span class="calendar-weekday">11</span>
-<span class="calendar-saturday">12</span>
-<span class="calendar-day" id="target-13" onmouseover="popup(document.getElementById('target-13'),document.getElementById('popup-13'), document.getElementById('title-13'));" onmouseout="popdown(document.getElementById('popup-13'));">
-  <a class="calendar-sunday" title="1. tDiary: HEAD&#13;&#10;2. テーマ変換" href="./?date=20020913" id="title-13">13</a>
-  <span class="calendar-popup" id="popup-13">
-    <a href="./?date=20020913#p01" title="tDiary: HEAD  ツッコミ後の挙動が変化しました。これまでのつもりでツッコミを入れたら一瞬焦るかもしれません。">1</a>. tDiary: HEAD<br>
-    <a href="./?date=20020913#p02" title="テーマ変換 bistro_menu は手直しが必要なので後回し。fjb まで終了している状態。">2</a>. テーマ変換<br>
-  </span>
-</span>
-<span class="calendar-weekday">14</span>
-<span class="calendar-weekday">15</span>
-<span class="calendar-weekday">16</span>
-<span class="calendar-weekday">17</span>
-<span class="calendar-weekday">18</span>
-<span class="calendar-saturday">19</span>
-<span class="calendar-sunday">20</span>
-<span class="calendar-weekday">21</span>
-<span class="calendar-weekday">22</span>
-<span class="calendar-weekday">23</span>
-<span class="calendar-weekday">24</span>
-<span class="calendar-weekday">25</span>
-<span class="calendar-saturday">26</span>
-<span class="calendar-sunday">27</span>
-<span class="calendar-weekday">28</span>
-<span class="calendar-weekday">29</span>
-<span class="calendar-weekday">30</span>
-<span class="calendar-weekday">31</span>
-<a href="./?date=200211">&gt;&gt;</a>
+<p style="text-align:center">
+<span class="calendar-prev-month"><a href="./200311.html">&lt;&lt;</a></span>
+<span class="calendar-current-month"><a href="./200312.html">2003/12</a>/</span>
+<span class="calendar-normal"><a class="calendar-weekday">1</a></span>
+<span class="calendar-day" id="target-2" onmouseover="popup(document.getElementById('target-2'),document.getElementById('popup-2'), document.getElementById('title-2'));" onmouseout="popdown(document.getElementById('popup-2'));">
+<a class="calendar-weekday" id="title-2" title="1. 本日のワイン" href="./20031202.html">2</a>
+<span class="calendar-popup" id="popup-2">
+<a href="./20031202.html#p01" title="もう眠いんですけど、書かずにはいられないのでちょっとだけ。 Cotes D'Auvergne cepage pinot 2001 / Domaine Vincent Tricot ..">1</a>. 本日のワイン<br>
+<span class="calendar-normal"><a class="calendar-weekday">3</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">4</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">5</a></span>
+<span class="calendar-normal"><a class="calendar-saturday">6</a></span>
+<span class="calendar-normal"><a class="calendar-sunday">7</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">8</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">9</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">10</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">11</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">12</a></span>
+<span class="calendar-normal"><a class="calendar-saturday">13</a></span>
+<span class="calendar-normal"><a class="calendar-sunday">14</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">15</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">16</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">17</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">18</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">19</a></span>
+<span class="calendar-normal"><a class="calendar-saturday">20</a></span>
+<span class="calendar-normal"><a class="calendar-sunday">21</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">22</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">23</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">24</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">25</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">26</a></span>
+<span class="calendar-normal"><a class="calendar-saturday">27</a></span>
+<span class="calendar-normal"><a class="calendar-sunday">28</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">29</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">30</a></span>
+<span class="calendar-normal"><a class="calendar-weekday">31</a></span>
+<span class="calendar-next-month"><a href="./200401.html">&gt;&gt;</a></span>
+</p>
 <!-- calendar3 ここまで -->
 </div>
 

@@ -1,6 +1,6 @@
 /*
 Title: こたつ
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,9 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
 */
 /* ChangeLog
+2002-10-08 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
 	* remove overflow.
 
@@ -30,12 +33,12 @@ a {
 	text-decoration: underline;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	margin-top: 0px;
 	font-size: x-small;
 }
-p.adminmenu input, select {
+div.adminmenu {
 	border-style: solid;
 	border-color: #000;
 	border-width: 1px;
@@ -72,7 +75,7 @@ div.body h3 a {
 	background-color: transparent;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	text-decoration: none;
 }
 
@@ -171,10 +174,6 @@ div.comment p.commenttitle a {
 	background-color: #000;
 }
 
-div.comment span.commentator {
-	margin-bottom: 0em;
-	font-weight: bold;
-}
 
 div.form {
 	border-style: solid;
@@ -235,7 +234,7 @@ div.form input {
 	margin-left: 2em;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: x-small;
 	margin-top: 0px;
@@ -262,11 +261,11 @@ div.day div.refererlist {
 	margin-right: 10%;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-left: 2em;
 	font-weight: normal;
 }
-ul.referer a {
+div.refererlist ul {
 	text-decoration: none;
 }
 
@@ -291,14 +290,14 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	color: #f50;
 	background-color: #000;
 	padding: 2px;
 	text-align: right;
 	font-size: x-small;
 }
-p.footer a {
+div.footer a {
 	color: #f50;
 	background-color: #000;
 }
@@ -317,7 +316,7 @@ form div.body {
  */
 
 /* calendar */
-p.calendar {
+div.calendar {
 	text-align: right;
 	font-size: x-small;
 	font-weight: normal;
@@ -419,4 +418,166 @@ div.sidebar p {
 	line-height: 120%;
 	text-align: left;
 	margin: 2px 4px 2px 4px;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #f80;
+        color: #000;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+div.update.day {
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+div.update.day div.form {
+	margin-left: 0%;
+	margin-right: 0%;
+	border: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #f80;
+        color: #000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+div.update.day form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment div.caption, div.comment div.caption a {
+	background-color: #000;
+	color: #f50;
+	padding: 2px;
+}
+
+div.comment form {
+        margin-top: 0em;
+}
+
+div.refererlist div.caption {
+	background-color: #000;
+	color: #f50;
+	padding: 2px;
 }

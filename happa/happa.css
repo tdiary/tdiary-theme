@@ -1,6 +1,6 @@
 /*
 Title: ¤Ï¤Ã¤Ñ
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
@@ -412,8 +412,8 @@ form.update textarea {
         height: 15em;
 }
 
-form.update input.field {
-	width: 3em;
+form.update span.field.year input.field, form.update span.field.month input.field, form.update span.field.day input.field {
+	width: auto;
 }
 
 form.update span.checkbox.hidediary {

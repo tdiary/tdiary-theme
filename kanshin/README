@@ -1,0 +1,15 @@
+Title: kanshin
+Author: abbey
+Access: inlet@cello.no-ip.org
+License: GPL
+Comment: 某空間なテーマ
+
+Copyright by (C) abbey <inlet@cello.no-ip.org>
+validated by W3C
+
+ChangeLog
+2002-10-08 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-05-13 abbey <inlet@cello.no-ip.org>
+	* remove search float.

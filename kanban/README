@@ -1,15 +1,13 @@
-Title: はっぱ
+Title: 看板
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: 日付が看板に描かれているように見えます
 
-Copyright (C) 2001 Nana <http://mikan.sakura.ne.jp/~mpc/> 
+Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 validated by W3C
 
 ChangeLog
-2002-10-07 NT <nt@24i.net>
-        * change some properties in update form.
-
-2002-09-24 NT <nt@24i.net>
+2002-10-08 NT <nt@24i.net>
         * convert for 1.5 series.
 
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>

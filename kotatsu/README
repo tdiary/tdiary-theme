@@ -1,0 +1,18 @@
+Title: こたつ
+Author: ただただし
+Access: sho@spc.gr.jp
+License: GPL
+Comment: こたつの中で本を読む感じ(←読むな)
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+Validated by W3C.
+
+ChangeLog
+2002-10-08 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove overflow.
+
+2002-04-04 TADA Tadashi <sho@spc.gr.jp>
+	* created.

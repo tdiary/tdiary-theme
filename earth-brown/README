@@ -8,6 +8,10 @@ validated by W3C
 calendar2, recent_list, footnote, 墨消しプラグイン対応
 
 Changelog
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+	* equalize indent size.
+	* remove many comment-out lines.
+	
 2002-11-02 Nana <mpc@mikan.sakura.ne.jp>
 	* set p.recentitem text-align:center,div.recentsubtitles: text-align:left
 	

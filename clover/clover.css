@@ -1,6 +1,6 @@
 /*
 Title: クローバー
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -10,6 +10,10 @@ Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 validated by W3C.
 */
 /* ChangeLog
+2002-05-07 TADA Tadashi <sho@spc.gr.jp>
+	* remove overflow from pre.
+	* line-height of body upto 150%.
+
 2002-03-28 TADA Tadashi <sho@spc.gr.jp>
 	* image color down to 7bit.
 	* no underline for links.
@@ -124,6 +128,7 @@ div.body p {
 	margin-left: 1em;
 	color: #000;
 	background-color: transparent;
+	line-height: 150%;
 }
 
 div.body pre {
@@ -132,7 +137,7 @@ div.body pre {
 	border-style: solid;
 	border-width: 1px 1px 1px 6px;
 	border-color: #3faf43;
-	overflow: auto;
+	/*overflow: auto;*/
 	padding: 8px;
 	margin-left: 2em;
 }

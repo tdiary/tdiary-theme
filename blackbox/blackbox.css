@@ -170,11 +170,24 @@ h3.subtitle {
 	margin-top: 0.7em;
 }
 
-div.body a.anchor{
+div.day span.panchor {
 	background-image: url(blackbox_anchorback.png);
-	background-position: left top;
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	font-size: 1.4em;
+	padding: 16px 16px 0px 0px;
+	color: #fdffcf;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(blackbox_smallanchorback.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #eceebe;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 pre {
@@ -199,13 +212,6 @@ div.comment {
 	padding: 1em;
 	padding-left: 3em;
 }
-
-div.comment a.anchor{
-	background-image: url(blackbox_smallanchorback.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-}
-
 
 p.commenttitle {
 	text-align: left;

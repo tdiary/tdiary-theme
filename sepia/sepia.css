@@ -1,6 +1,6 @@
 /*
 Title: sepia
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: naoko
 Access: naoko@undefine.to
 License: GPL
@@ -8,12 +8,6 @@ Comment: セピア色のシンプルなテーマ
 
 validated by W3C.
 */
-
-/*
-
-共通設定の読み込み
-*/
-@import url(../base.css);
 
 /*
 背景色

@@ -1,16 +1,11 @@
 /*
 Title: tile
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: kosaka
 Access: http://tnat.net/diary/
 License: GPL
 */
 
-
-/*
-共通設定の読み込み
-*/
-@import url(../base.css);
 
 body{
 	color: #000;

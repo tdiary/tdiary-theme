@@ -1,0 +1,459 @@
+/*
+Title: Xmastree
+Revision: $Revision: 1.2 $
+Author: ati
+Access: http://member.nifty.ne.jp/ati
+License: GPL
+Comment: Xmasな季節に
+
+Copyright 2002 (C) by ati All right reserved.
+validated by W3C.
+*/
+
+body {
+	background-color: #030;
+	color: #e0ffe0;
+}
+
+a:link { 
+	color: red;
+	text-decoration: none;
+}
+a:visited { 
+	color: #FFD700;
+	text-decoration: none;
+}
+a:active { 
+	color: #cfc;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #FFD700;
+}
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+span.adminmenu {
+	padding: 3px;
+}
+
+h1 {
+	background-color: transparent;
+	background-image: url(treeS.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 100px;
+	line-height: 100px;
+	text-align: left;
+	padding-left: 75px;
+	padding-bottom: 5px;
+	font-size: 150%;
+}
+
+div.calendar {
+	text-align: left;
+	background-color: #900000;
+	border-style: solid;
+	border-color: #966;
+	border-width: 0px 0px 1px 0px;
+	padding: 4px;
+	margin-bottom: 0.5em;
+}
+
+div.day {
+	background-color: #060;
+	border-style: none;
+	padding-bottom: 0.5em;
+	margin-bottom: 2em;
+}
+
+h2 {
+	margin: 0.1em 12px;
+	padding-top: 5px;
+	font-size: 130%;
+}
+
+h2 span.date {
+	margin-left: 0.5em;
+}
+
+h2 span.title {
+}
+
+div.body {
+	background-color: #003000;
+	color: white;
+	border-style: solid;
+	border-color: #c00000;
+	border-width: 2px;
+	padding: 10px;
+	padding-bottom: 1px;
+	margin: 15px 24px;
+}
+
+div.section {
+	margin: 1em 0.5em;
+}
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.sanchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+
+div.day h3 span.sanchor {
+	background-image: url(sanchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 55px 37px 0px 0px;
+	color: #003000;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(canchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 12px 12px 0px 0px;
+	color: #000;
+	font-size: 1px;
+}
+div.section p {
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 130%;
+}
+
+h3{
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: 12px;
+}
+
+pre {
+	background-color: black;
+	color: #FFA500;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: 90%;
+	background-color: #000;
+	border: solid #c00000 2px;
+	padding: 5px 5px 5px 24px;
+	margin: 0.5em 24px;
+}
+
+div.comment div.caption {
+	font-size: 90%;
+	padding: 5px;
+}
+
+
+div.refererlist div.caption {
+	font-size: 90%;
+	padding: 5px;
+}
+
+div.referer {
+	text-align: right;
+	font-size: 90%;
+	background-color: #ffffff;
+	color: #300;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+div.refererlist {
+	font-size: 90%;
+	background-color: #ffffff;
+	color: #300;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	background-color: #060;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-left: 24px;
+	margin-right: 24px;
+	border: solid #c00000 2px;
+}
+
+input.field {
+	background-color: #e0ffe0;
+}
+
+textarea {
+	background-color: #e0ffe0;
+	margin-left: 1em;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.body blockquote {
+	color: #300;
+	background-color: #ffffff;
+	margin-left: 2em;
+/*	font-style: italic; */
+	border-style: solid;
+	border-color: #090;
+	border-width: 0px 6px 0px 6px;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+	margin: 2px auto;
+	border: solid #c00000 2px;
+}
+
+table.calendar td {
+	text-align: right;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 0.9em;
+	border-style: solid;
+	border-color: #e0ffe0;
+	border-width: 1px 0px 0px 0px;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0em 0.5em;
+	padding: 0em;
+}
+
+/* recent_list */
+	p.recentitem {
+	font-size: 90%;
+	margin: 0em;
+	text-align: center;
+	padding: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin: 0px 0px 5px 0px;
+	padding-left: 3px;
+	text-align: left;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 90%;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 120%;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #966;
+        border-width: 0px 0px 1px 0px;
+        line-height: 150%;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: #966;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #e0ffe0;
+        color: #000;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #e0ffe0;
+        color: #000;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+div.update.day div.form {
+        border: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #e0ffe0;
+        color: #000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

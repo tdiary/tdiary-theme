@@ -1,17 +1,20 @@
 /*
 Title: Black Lingerie
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Sarsya
 Access: none
 License: GPL
 Comment: 黒いランジェリーのテーマ
 
-	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.6 $
+	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.7 $
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
  */
 
 /* ChangeLog
+2002-09-13 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-04-04 nga<stakei@nga.jp>
 	* created
 */
@@ -50,7 +53,7 @@ a:hover {
 /*
 ページトップにある操作ボタンの並ぶ行の設定
 */
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -76,7 +79,7 @@ h1 {
 /*
 カレンダーの設定
 */
-p.calendar {
+div.calendar {
 	background-color: #000;
 	background-image:url("black-lingerie_back2.gif");
 	border-style: none;
@@ -109,7 +112,7 @@ h2 {
 /*
 日付の設定
 */
-span.date {
+h2 span.date {
 	font-size: large;
 	margin-left: 0.5em;
 }
@@ -117,7 +120,7 @@ span.date {
 /*
 タイトルの設定
 */
-span.title {
+h2 span.title {
 }
 
 /*
@@ -137,13 +140,13 @@ div.body {
 /*
 サブタイトルの設定
 */
-h3.subtitle {
+h3 {
 	font-size: 1em;
 	margin: 0em;
 	font-weight: bold;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	background-image: url(black-lingerie_panchor.gif);
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -153,7 +156,7 @@ div.day span.panchor {
 	font-size: 1px;
 }
 /* this section affects only mozilla. */
-h3.subtitle > a:first-child {
+h3 {
 	text-decoration: none;
 }
 
@@ -170,7 +173,7 @@ div.day span.canchor {
 /*
 日記の本文(段落)の設定
 */
-p {
+div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
@@ -193,7 +196,7 @@ div.comment {
 /*
 ツッコミ欄タイトル行の設定
 */
-p.commenttitle {
+div.comment div.caption {
 	border-style: dotted;
 	border-color: #aaa;
 	border-width: 0px 0px 2px 0px;
@@ -202,17 +205,11 @@ p.commenttitle {
 /*
 ツッコミした人の名前の設定
 */
-span.commentator {
-	border-style: dotted;
-	border-color: #aaa;
-	border-width: 0px 0px 1px 0px;
-	padding: 3px;
-}
 
 /*
 リンク元リスト(短い方)の設定
 */
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: small;
 	background-color: #000000;
@@ -239,7 +236,7 @@ div.refererlist {
 /*
 リンク元リストタイトルの設定
 */
-p.referertitle {
+div.refererlist div.caption {
 	border-style: dotted;
 	border-color: #aaa;
 	border-width: 0px 0px 2px 0px;
@@ -248,7 +245,7 @@ p.referertitle {
 /*
 リンク元リスト一覧の設定
 */
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -271,7 +268,7 @@ hr.sep {
 /*
 フッタの設定
 */
-p.footer {
+div.footer {
 	font-size: 80%;
 	text-align: center;
 	margin-top: 0px;
@@ -331,17 +328,163 @@ pre {
 /*
 項目リストの設定
 */
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
 
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #aaa;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border-style: solid;
+        border-color: #aaa;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #676767;
+        color: #c0c0c0;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #676767;
+        color: #c0c0c0;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #676767;
+        color: #c0c0c0;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

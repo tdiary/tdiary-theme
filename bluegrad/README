@@ -1,0 +1,19 @@
+Title: Bluegrad
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+License: GPL
+Comment: 青グラデーションの背景
+
+bluegrad.css: grad Style Sheet
+Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+validated by W3C
+
+ChangeLog
+2002-09-13 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

@@ -10,20 +10,18 @@
 /*
 ページ全体の基本的な設定。背景色や文字色など
 */
-body {
-	
-    font-size: small;
+body {	
+	font-size: small;
 	color: #fff;
 	background-color: #800040;
 	margin: 3em 6em 1em 6em;
-    
-scrollbar-face-color:#800040;
-scrollbar-highlight-color: #FFFFFF;
-scrollbar-shadow-color: #000000;
-scrollbar-3dlight-color: #000000;
-scrollbar-arrow-color:#FFBBBB;
-scrollbar-track-color:#800040;
-scrollbar-darkshadow-color: #800040;}
+	scrollbar-face-color:#800040;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color:#FFBBBB;
+	scrollbar-track-color:#800040;
+	scrollbar-darkshadow-color: #800040;
 }
 
 /*
@@ -39,11 +37,11 @@ p.adminmenu {
 ページトップにある操作ボタン自体の設定
 */
 span.adminmenu {
-    font-size: 13px;
+	font-size: 13px;
 	background-color: #800040;
 	position: relative;
 	border-style: solid;
-    border-color: #fff;
+	border-color: #fff;
 	border-width: 5px 1px 1px 1px;
 	padding: 0.1em;
 }
@@ -59,8 +57,8 @@ h1 {
 カレンダーの設定
 */
 p.calendar {
-    font-size: 13px;
-    font-weight: bold;
+	font-size: 13px;
+	font-weight: bold;
 	background-color: #800040;
 	border-style: solid;
 	border-color: #fff;
@@ -73,13 +71,11 @@ p.calendar {
 1日の日記全体を囲む枠の設定
 */
 div.day {
-	background-color: transparent;font-size: small;
+	background-color: transparent;
+	font-size: small;
 	border-style: solid;
 	border-color: #fff;
 	border-width: 0px 1px 1px 1px;
-	
-	
-
 }
 
 /*
@@ -96,10 +92,10 @@ h2 {
 /*
 日付の設定
 */
-    span.date {font-size: 18px;
-    font-family : Arial,"MS UI Gothic";
+span.date {
+	font-size: 18px;
+	font-family : Arial,"MS UI Gothic";
 	margin-left: 1em;
-    	
 }
 
 /*
@@ -113,7 +109,7 @@ span.title {
 */
 div.body {
 	background-color: transparent;
-    font-size: 13px;
+	font-size: 13px;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 24px;
@@ -135,7 +131,7 @@ h3.subtitle {
 p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
-	line-height: 1.2;
+	line-height: 1.2em;
 }
 
 /*
@@ -148,8 +144,6 @@ div.comment {
 	border-style: solid;
 	border-color: #fff;
 	border-width: 0px 0px 1px 0px;
-    border-width:100%
-
 }
 
 /*
@@ -160,7 +154,6 @@ p.commenttitle {
 	border-style: solid;
 	border-color: #fff;
 	border-width: 0px 0px 1px 0px;
-    
 }
 
 /*
@@ -171,18 +164,17 @@ span.commentator {
 	border-color: #aaa;
 	border-width: 1px 0px 0px 0px;
 	padding: 3px;
-
 }
 
 /*
 リンク元リスト(短い方)の設定
 */
-p.referer {margin-left: 1em;
+p.referer {
+	margin-left: 1em;
 	text-align: right;
 	font-size: 13px;
 	padding: 2px;
 	padding-bottom: 1px;
-	border-width:100%
 	border-style: solid;
 	border-color: #55f;
 	border-width: 0px 0px 0px 0px;
@@ -196,8 +188,7 @@ div.refererlist {
 	background-color: #800040;
 	padding: 0px;
 	padding-bottom: 1px;
-	margin-top: 0.5em;
-	
+	margin-top: 0.5em;	
 	border-style: solid;
 	border-color: #55f;
 	border-width: 0px 0px 0px 0px;
@@ -246,7 +237,8 @@ p.footer {
 /*
 フォーム全体を囲む枠の設定
 */
-div.form {color: #fff;
+div.form {
+	color: #fff;
 	background-color: #800040;
 	border-style: solid;
 	border-color: #fff;
@@ -254,13 +246,13 @@ div.form {color: #fff;
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 13px;
 	margin-bottom: 0.5em;
-    
 }
 
 /*
 入力フィールドの設定
 */
-input.field {color: #fff;
+input.field {
+	color: #fff;
 	background-color: #800040;
 	border-style: solid;
 	border-color: #fff;
@@ -270,13 +262,14 @@ input.field {color: #fff;
 /*
 複数行入力フィールドの設定
 */
-textarea {color: #fff;
+textarea {
+	color: #fff;
 	background-color: #800040;
 	margin-left: 1em;
 	border-style: solid;
 	border-color: #fff;
 	border-width: 1px 1px 1px 1px;
-    width:90%
+	width:90%;
 }
 
 /*
@@ -294,7 +287,7 @@ p.message {
 整形済みテキスト(preタグ)の設定
 */
 pre {
-    font-size: 13px;
+	font-size: 13px;
 	background-color: #fff;
 	color: #800040;
 	margin-left: 0.5em;
@@ -321,7 +314,7 @@ dd {
 a:link {
         text-decoration: none;
         font-weight: bold;
-	color: pink;
+	color: #ffc0cb;
 }
 a:visited {
         text-decoration: none;
@@ -336,7 +329,7 @@ p.strong {
 	font-size: 180%;
 	font-weight: bold;
 	text-align: center;
-　　font-family:"Comic Sans MS","ＭＳ UI ゴシック";
-    color: #fff;
+	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+	color: #fff;
 }
 

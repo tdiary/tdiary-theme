@@ -1,5 +1,5 @@
 /*
-	dot.css: Default Style Sheet of tDiary $Revision: 1.2 $
+	dot.css: Default Style Sheet of tDiary $Revision: 1.3 $
 	validated by W3C.
  */
 /*CangeLog
@@ -276,6 +276,7 @@ textarea {
 	background-color: #fc0;
 	margin-left: 1em;
 	font-size: x-small;
+	width: 95%;
 }
 
 /*

@@ -1,5 +1,5 @@
 /*
-	tag.css: Tag Style Sheet of tDiary $Revision: 1.1 $
+	tag.css: Tag Style Sheet of tDiary $Revision: 1.2 $
  */
 
 /*
@@ -261,6 +261,7 @@ textarea {
 	border-style: solid;
 	border-color: #55f;
 	border-width: 8px 1px 1px 1px;
+	width: 95%;
 }
 
 /*

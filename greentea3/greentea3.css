@@ -1,9 +1,9 @@
 /*
-        greentea3.css: GreenTea3(Tategaki) Style Sheet of tDiary $Revision: 1.1 $
+        greentea3.css: GreenTea3(Tategaki) Style Sheet of tDiary $Revision: 1.2 $
 
   使用上の注意
         このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで表示されます。
-        日記を縦書きにするには、この CSS と green.jpg とを theme ディレクトリにコピーしてから、
+        日記を縦書きにするには、この CSS と greentea3_back.jpg とを theme ディレクトリにコピーしてから、
         日記のヘッダに <div class="all"> 、フッタに </div> と入れる必要があります。
         ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、縦書きになる範囲が
         変化します。

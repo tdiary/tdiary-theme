@@ -1,6 +1,6 @@
 /*
 Title: Lime
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -9,6 +9,9 @@ License: GPL
 	validated by W3C.
 */
 /* ChangeLog
+2002-10-08 NT <nt@24i.net>
+        * convert for 1.5 series.
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 */
@@ -34,7 +37,7 @@ a:hover,a:active {
         color: #00ff00;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -56,7 +59,7 @@ h1 {
 	text-align: center;
 }
 
-p.calendar {
+div.calendar {
 	text-align: right;
 	padding: 2px;
 	margin-left: auto;
@@ -85,7 +88,7 @@ h2 {
 	border-width: 2px 0px 0px 2px;;
 }
 
-span.date {
+h2 span.date {
 	margin-left: 3em;
 	text-align: left;
 	position: relative;
@@ -106,7 +109,7 @@ li a {
 	border-width: 2px;
 }
 
-span.title {
+h2 span.title {
 	background-color: yellow;
 	padding: 0px;
 	position: relative;
@@ -134,7 +137,7 @@ p.body {
 	padding-left: 1em;
 	padding-top:0em;
 }
-p {
+div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3;
@@ -146,7 +149,7 @@ div.body p {
 	line-height: 1.4;
 }
 
-h3.subtitle {
+h3 {
 	display: inline;
 	font-weight: bold;
 	border-style: none;
@@ -182,7 +185,7 @@ div.comment {
 	border-width: 2px 0px 0px 2px;
 }
 
-div.comment p.commenttitle {
+div.comment div.caption {
 	text-align: left;
 	background-color: yellow;
 	position: relative;
@@ -197,17 +200,6 @@ div.comment p.commenttitle {
 	border-width: 2px;
 }
 
-span.commentator {
-	background-color: yellow;
-	padding-top: 0px;
-	text-align: left;
-	color: #32cd32;
-	padding: 0px 0px 0px 0px;
-	line-height: 1.2;
-	border-style: solid;
-	border-color: #00ff00;
-	border-width: 2px;
-}
 
 div.comment p {
 	font-size: small;
@@ -221,7 +213,7 @@ div.comment p {
 	border-color: #00ff00;
 	border-width: 2px;
 }
-p.referertitle {
+div.refererlist div.caption {
 	color: #00ff00;
 	background-color: yellow;
 	text-align: right;
@@ -235,7 +227,7 @@ p.referertitle {
 	border-width: 2px;
 }
 
-p.referer {
+div.referer {
 	display: inline;
 	text-align: left;
 	color: #00ff00;
@@ -245,7 +237,7 @@ p.referer {
 	border-color: #00ff00;
 	border-width: 2px 2px 2px 2px;
 }
-p.referer a {
+div.referer {
 	position: relative;
 	margin-left: auto;
 	margin-right: 0px;
@@ -268,7 +260,7 @@ div.refererlist {
 	border-width: 2px 2px 0px 2px;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin: 0em 0em 0em 0em;
 	text-align: right;
 	position: relative;
@@ -278,7 +270,7 @@ ul.referer {
 	border-color: #00ff00;
 	border-width: 2px;
 }
-ul.referer li{
+div.refererlist ul {
 	background-color: #ff2;
 	text-align: left;
 	margin-top:0.5em;
@@ -299,7 +291,7 @@ hr.sep {
 }
 
 
-p.footer {
+div.footer {
 	font-size: x-small;
 	text-align: right;
 	margin-top: 0px;
@@ -347,16 +339,156 @@ textarea {
 	border-width: 2px;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0.5em;
+}
+
+span.commentator {
+        font-weight: bold;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+        margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #ff2;
+        color: #00ff00;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #ff2;
+        color: #00ff00;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #ff2;
+        color: #00ff00;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

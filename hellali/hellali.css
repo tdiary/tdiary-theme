@@ -1,0 +1,259 @@
+/*
+        hellali.css: Hellali Style Sheet of tDiary $Revision: 1.1 $
+        Copyright(C) NT http://246ra.ath.cx/~takasi/index.html
+        validated by W3C.
+*/
+
+a:link, a:visited {
+        color: #ff3300;
+  	text-decoration: none;
+        border-style: none;
+        border-width: 1px;
+}
+
+a:active {
+        text-decoration: none;
+        border-width:2px;
+}
+
+a:hover, a:focus {
+        color: #ffffff;
+        background-color: #33cc00;
+        border-style: none;
+        border-width: 1px;
+}
+
+body {
+        background-color: #c30300;
+        background-image: url(hellali_back.png);
+        background-attachment: scroll;
+        background-repeat: repeat;
+  	color: black;
+        margin-left: 11%;
+        margin-right: 10%;
+        line-height: 1.4;
+}
+
+p.adminmenu {
+        text-align: right;
+        font-size: small;
+}
+
+span.adminmenu {
+        background-color: #ffffff;
+        border-style: outset;
+        border-color: white;
+        border-width: 1px;
+        padding: 3px;
+}
+
+h1 {
+        color: #2f4f4f;
+        background-color: #ffffff;
+        font-size: large;
+        font-family: verdana, serif;
+        padding: 0px;
+        text-align: right;
+
+        border-top: 0em none;
+        border-right: 5px solid yellow;
+        border-bottom: 3px solid yellow;
+        border-left: 0em none;
+
+        padding-right: 0.5em;
+        /*border-width: 0em 0em 0.1em 3em;
+        border-style: none none solid solid;
+        border-color: #9C9; */
+}
+
+p.calendar {
+        background-color: #ffffff;
+        text-align: right;
+        border-style: solid;
+        border-color: #33cc33;
+        border-width: 2px 2px 2px 2px;
+        padding: 2px;
+        padding-right: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0.5em;
+}
+
+div.day {
+        background-color: #ffffff;
+        border-style: dotted;
+        border-color: #00cc00;
+        border-width: 2px;
+        padding-bottom: 15px;
+        margin-bottom: 0.5em;
+}
+
+h2 {
+        margin-bottom: 0.1em;
+        padding: 0px;
+        padding-left: 0.3em;
+}
+
+span.date {
+        font-size: 110%;
+        font-family: "comic sans ms", verdana, sans-serif;
+}
+
+span.title {
+        color: black;
+        margin-right: 0.5em;
+}
+
+div.body {
+        padding: 15px;
+}
+
+p {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.7em;
+        line-height: 1.7;
+}
+
+h3.subtitle {
+        border-style: solid;
+        border-color: #33cc33;
+        border-width: 0px 0px 1px 0px;
+        margin: 0em;
+        font-weight: bold;
+}
+
+pre {
+        background-color: #ffffff;
+        border-style: outset;
+        border-color: gray;
+        border-width: 2px;
+        padding: 8px;
+        color: black;
+        font-size: small;
+        margin-left: 1em;
+        margin-right: 1em;
+}
+
+div.comment {
+        background-color: #ffffff;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 2px;
+        padding-bottom: 1px;
+        margin-top: 0.5em;
+        margin-left: 4em;
+        margin-right: 15px;
+}
+
+p.commenttitle {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+        padding: 3px;
+}
+
+p.referertitle {
+        border-style: solid;
+        border-color: gray;
+        border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+        background-color: #339900;
+        text-align: right;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 1px;
+        padding-bottom: 1px;
+        margin-left: 4em;
+        margin-right: 15px;
+}
+
+div.refererlist {
+        background-color: #ffffff;
+        font-size: small;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding: 2px;
+        padding-right: 20px;
+        padding-bottom: 1px;
+        margin-top: 0.5em;
+        margin-left: 4em;
+        margin-right: 15px;
+}
+
+ul.referer {
+        margin-top: 0em;
+}
+
+hr {
+        border-style: solid;
+        border-width: 2px 0px 0px 0px;
+        border-color: gray;
+}
+
+hr.sep {
+        display: none;
+/*        color: #ffffff;
+*/
+}
+
+p.footer {
+        font-size: small;
+        text-align: right;
+        margin-top: 0px;
+}
+
+div.form {
+        padding: 0.5em 1em 0.5em 1em;
+        margin-bottom: 0.5em;
+}
+
+input.field {
+        background-color: #ffffff;
+}
+
+textarea {
+        background-color: #ffffff;
+        margin-left: 1.5em;
+}
+
+dl {
+        margin-left: 2em;
+}
+
+dt {
+        margin-bottom: 0.2em;
+        font-weight: bold;
+}
+
+dd {
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+}
+
+sapn.size {
+        text-align: center;
+	font-weight: bold;
+}
+
+td.calendar-current-month {
+        text-align: center;
+}
+
+td.calendar-day {
+        font-family: "Comic sans MS";
+}

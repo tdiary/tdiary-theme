@@ -1,6 +1,6 @@
 /* brown.css
 Title: Brown
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -49,7 +49,6 @@ h1 {
 	color: #FFE600;
 	background-color: transparent;
 	font-size: 150%;
-	font-family: "Tempus Sans ITC", sans-serif;
 	padding-top: 2%;
 	padding-bottom: 1%;
 	text-align: center;
@@ -68,7 +67,7 @@ div.calendar {
 
 /* カレンダー2 */
 table.calendar {
-        font-size: 0.9em;
+        font-size: 90%;
         line-height: 100%;
         border-width: 2px;
         border-color: #FFE600;

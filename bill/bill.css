@@ -1,6 +1,6 @@
 /*
 Title: Bill
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -18,7 +18,6 @@ body {
 	background-repeat: repeat-x;
         background-position: left bottom;
         background-attachment: fixed;
-        font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 
 a:link, a:visited {
@@ -127,7 +126,7 @@ p.sentence {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 	color: #00ADA5;
@@ -147,7 +146,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	font-family:"Comic Sans MS","ＭＳ UI Gochic",Osaka,sans-serif;
 }
 pre {
 	background-image: url(bill_pre.png);
@@ -281,7 +279,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -299,7 +297,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -330,7 +328,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #aaa;
         border-width: 0px 0px 1px 0px;
@@ -338,7 +336,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

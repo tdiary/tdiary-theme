@@ -28,8 +28,7 @@
 body {
 	color: #DB7093;
 	background-color:#FFF0F5;
-	font-family: Osaka, "MS Gothic", Verdana, sans-serif;
-	font-size: 1em;
+	font-size: 100%;
 	text-align: left;
 }
 
@@ -55,7 +54,7 @@ a:active, a:hover, a:focus {
 */
 div.adminmenu {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 /*
@@ -106,7 +105,7 @@ h2 {
 	border-style:solid;
 	border-width: 2px 0px 2px 0px;
 	padding: 0.2em 0em;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 /*
@@ -115,7 +114,7 @@ h2 {
 h2 span.date {
 	color: #DB7093;
 	background-color: transparent;
-	font-size: 1.2em;
+	font-size: 120%;
 	font-weight: bold;
 	margin-left: 0.5em;
 }
@@ -128,7 +127,7 @@ h2 span.date {
 タイトルの設定
 */
 h2 span.title {
-	font-size: 1em;
+	font-size: 100%;
 	font-style: normal;
 	color: #FF9C77;
 	background-color: transparent;
@@ -189,7 +188,7 @@ div.section p {
 */
 div.comment {
 	background-color: #FAF0E6;
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 10em;
@@ -215,7 +214,7 @@ div.comment div.caption {
 */
 div.referer {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: #FFE4E1;
 	border-style: solid;
 	border-color: #BC8F8F;
@@ -227,7 +226,7 @@ div.referer {
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist {
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: #FFE4E1;
 	padding: 2px;
 	padding-bottom: 1px;
@@ -373,13 +372,13 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
@@ -395,7 +394,7 @@ div.footnote {
 	border-color: #aaa;
 	border-width: 1px 0px 0px 0px;
 	margin-left: 10em;
-	font-size:0.9em;
+	font-size:90%;
 }
 div.footnote p.footnote {
 	text-align: right;
@@ -446,7 +445,7 @@ div.rightsidebar {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -464,7 +463,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -495,7 +494,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #BC8F8F;
         border-width: 0px 0px 1px 0px;
@@ -503,7 +502,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -1,6 +1,6 @@
 /*
 Title: Bright-green
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -18,7 +18,6 @@ body {
 	background-color: #94C337;
 	background-image: url(green-back.png);
 	color: #555;
-	font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;
 }
 
 /*

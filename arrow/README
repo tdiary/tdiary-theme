@@ -28,6 +28,8 @@ Opera(6,7),IE(5.5,6)にて表示確認しています．
 ツッコんでいってくださいませ．対応できる限り対応したいと思います．
 
 --Change Log---
+2004-01-21 epi
+	* h2 span.title height/top の値を変更 thanks to Mr.Kazutoshi Uehara.
 2003-02-24 epi
 	* add arrow theme
 

@@ -1,5 +1,5 @@
 Title: パラボラアンテナ
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -9,3 +9,8 @@ validated by W3C.
 サイドバー推奨
 amazon プラグイン対応
 
+ChangeLog
+
+2004-11-09 TADA Tadashi <sho@spc.gr.jp>
+	* add h5 element.
+	* insert '@charset "euc-jp";' into top of file.

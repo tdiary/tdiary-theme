@@ -1,6 +1,7 @@
+@charset "euc-jp";
 /*
 Title: パラボラアンテナ
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -118,6 +119,14 @@ h4 {
 	margin: 1em;
 	font-size: medium;
 	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+h5 {
+	margin: 2em;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0em;
 	margin-bottom: 0em;
 }
 

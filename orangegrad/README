@@ -9,5 +9,8 @@ Comment: オレンジなグラデーション
 	validated by W3C
 
 ChangeLog
-	 2002-10-24 Nana <mpc@mikan.sakura.ne.jp>
-         * convert for 1.5 series.
+2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
+	* fix "div.body footnote" -> "div.body div.footnote"
+
+2002-10-24 Nana <mpc@mikan.sakura.ne.jp>
+	* convert for 1.5 series.

@@ -357,7 +357,7 @@ div.body span.footnote {
 	font-size: xx-small;
 }
 
-div.body footnote {
+div.body div.footnote {
 	border-style: solid;
 	border-color: #ddd;
 	border-width: 1px 0px 0px 0px;

@@ -1,39 +1,20 @@
 /*
 Title: bubble
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: 泡がいっぱい♪
 
-      bubble.css: Bubble Style Sheet of tDiary
-      Copyright (C) Nana http://moo.boo.jp
+      Copyright 2001 (C) by Nana <clorets@estyle.ne.jp>
       validated by W3C
- */
-/* ChangeLog
-2002-09-14 NT <nt@24i.net>
-        * convert for 1.5 series.
+*/
 
-2002-04-04 nga
-	created
-
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-
-2002-03-15 TADA Tadashi <sho@spc.gr.jp>
-	* support image anchor as span.panchor and span.canchor.
-
-2002-03-14 TADA Tadashi <sho@spc.gr.jp>
-	* CR/LF -> LF.
-	* finish by ';' at all end of line.
- */
 
 a:link, a:visited {
 	color: #b0e0e6;
 	text-decoration: none;
 	font-weight: bold;
-	border-style: none;
-	border-width: 1px;
 }
 
 a:active {
@@ -55,7 +36,7 @@ body {
 	color: #f0f8ff;
 	margin-left: 3%;
 	margin-right: 5%;
-	font-size: 13px;
+	/*font-size: 13px;*/
 }
 
 p.message {
@@ -86,7 +67,7 @@ div.calendar {
 	margin-top: 0px;
 	background-color: transparent;
 	margin-left: 0px;
-	font-size: 16px;
+	font-size: 90%;
 	color: #fff;
 	text-align: left;
 	font-weight: bold;
@@ -103,16 +84,13 @@ div.day {
 h2 {
 	text-align: left;
 	padding-bottom: 1em;
+	font-size: 120%;
 }
 
 p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-}
-
-h2 span.date {
-	font-size: 15px;
 }
 
 h2 span.date {
@@ -156,7 +134,7 @@ pre {
 div.comment {
 	background-color: transparent;
 	color: #fff;
-	font-size: small;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -168,7 +146,8 @@ div.comment div.caption {
 	border-style: solid;
 	border-color: #9BF9FF;
 	border-width: 0px 0px 1px 0px;
-	font-size: small;
+	font-size: 90%;
+	padding: 5px;
 }
 
 
@@ -198,7 +177,7 @@ div.refererlist div.caption {
 div.referer {
 	background-color: transparent;
 	text-align: right;
-	font-size: small;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 4em;
@@ -207,7 +186,7 @@ div.referer {
 
 div.refererlist {
 	background-color: transparent;
-	font-size: small;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -217,6 +196,7 @@ div.refererlist {
 
 div.refererlist ul {
 	margin-top: 0em;
+	line-height: 1.3em;
 }
 
 hr {
@@ -227,9 +207,8 @@ hr.sep {
 }
 
 div.footer {
-	font-size: small;
+	font-size: 90%;
 	text-align: right;
-	margin-top: 0px;
 }
 
 div.form {
@@ -402,4 +381,138 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	padding: 0em;
+	margin-left: 6em;
+	margin-right: 4em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+div.section, div.comment {
+	clear: both;
+}
+
+/*
+サイドバー関連
+*/
+/*
+div.main {
+	margin-left: 20%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	padding: 2px 2px 100% 2px;
+	padding-top: 0.5em;
+}
+
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	margin: 2px 4px 2px 4px;
+}
+/*
+引用,bqプラグイン引用元表示
+*/
+p.source {
+	 margin-top: 0em;
+	 margin-right: 1.5em;
+	 text-align: right;
+	 font-size:90%;
+}
+					       
+div.body blockquote {
+	 border-style: inset;
+	 border-width: 3px 0px 3px 0px;
+         border-color: #fff;
+	 padding: 8px;
+	 background-color: #B0E0E6;
+	 color: #000;
+	 font-style: italic;	
+}
+
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	text-align: center;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	color: #FF8080;
+	background-color: transparent;
+}
+
+.calendar-saturday {
+	color: #0080FF;
+	background-color: transparent;
+}
+
+.calendar-weekday {
+	color: #555555;
+	background-color: transparent;
+}
+.calendar-todo {
+	border-style: dashed;
+	border-color: #fff;
+	border-width: 1px;
 }

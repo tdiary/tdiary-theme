@@ -1,5 +1,5 @@
 Title: Cat
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -9,8 +9,12 @@ Comment: ねこ雲に乗るノーマル版
 	validated by W3C.
 
 ChangeLog
-	2003-05-26 Nana <clorets@estyle.ne.jp>
+2003-09-05 NT <nt@be.to>
+	* remove specification of font-family.
+	
+2003-05-26 Nana <clorets@estyle.ne.jp>
 	* remove body font-family
-	2003-04-05 Nana <clorets@estyle.ne.jp>
+
+2003-04-05 Nana <clorets@estyle.ne.jp>
 	* Update.
 	* remove some duplicate lines.

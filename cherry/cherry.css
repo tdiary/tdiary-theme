@@ -1,6 +1,6 @@
 /*
 Title: Cherry
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -35,7 +35,6 @@ a:hover {
 body {
 	background-color: #FFD9D9;
 	color: #DB7093;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	padding: 0em;
 	margin: 1em 10%;
 }

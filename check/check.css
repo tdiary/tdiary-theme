@@ -1,6 +1,6 @@
 /*
 Title: Check
-Revision: $Revision: 1.13 $
+Revision: $Revision: 1.14 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -10,7 +10,6 @@ License: GPL
 
 body {
 	/*text-align : center;*/
-	font-family :osaka, Arial,"MS UI Gothic",sans-serif;
 	background-image: url(check.jpg);
 	background-color: #FFFFFF;
 	color: #800040;
@@ -311,7 +310,7 @@ div.body dd {
 
 /* calendar2 */
 table.calendar {
-	font-size: 0.9em;
+	font-size: 90%;
 	line-height: 100%;
 	border-style: dashed;
 	border-color: #fff;
@@ -496,7 +495,7 @@ div.comment form {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

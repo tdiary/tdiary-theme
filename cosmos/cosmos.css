@@ -1,6 +1,6 @@
 /*
 Title: 小宇宙
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -43,7 +43,7 @@ body {
 
 div.adminmenu {
 	text-align: left;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: #004;
 	margin: 0em ! important;
 }
@@ -369,7 +369,7 @@ div.list ul {
 
 /* calendar2 */
 table.calendar {
-	       font-size: 0.9em;
+	       font-size: 90%;
 	       line-height: 100%;
 	       border-width: 1px;
                border-color: #ddd;
@@ -401,7 +401,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -419,7 +419,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -450,7 +450,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #008;
         border-width: 0px 0px 1px 0px;
@@ -458,7 +458,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

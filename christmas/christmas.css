@@ -1,6 +1,6 @@
 /*
 Title: christmas
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: shimery
 Access: shim@s5.xrea.com
 License: GPL
@@ -55,7 +55,7 @@ span.adminmenu   {
 */
 h1  {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 150%;
 	text-align: left;
 	margin-right: 15%;
 	margin-left: 15%;
@@ -67,7 +67,7 @@ h1  {
 div.calendar {
 	color: #fff;
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 1px 15% 0.5em;
 }
 
@@ -129,7 +129,7 @@ div.body  {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	font-weight: bold;
 	background-image: url(christmas_h3.png);
 	background-repeat: no-repeat;
@@ -182,7 +182,7 @@ div.section p {
 ツッコミ欄全体の設定
 */
 div.comment  {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0.5em;
 	margin-right: 4em;
 	margin-left: 5em;
@@ -207,7 +207,7 @@ div.comment div.caption {
 リンク元リスト(短い方)の設定
 */
 div.referer {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: right;
 	background-image: url(christmas_com.png);
 	background-repeat: no-repeat;
@@ -219,7 +219,7 @@ div.referer {
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist  {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0.5em;
 	margin-right: 4em;
 	margin-left: 5em;
@@ -448,12 +448,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

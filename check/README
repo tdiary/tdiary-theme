@@ -7,6 +7,9 @@ Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 	validated by W3C.
 
 ChangeLog
+2003-09-05 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-02-28 Nana <clorets@estyle.ne.jp>
 	* font-size:samll,0.9em->90%
 	* remove form.update textarea margin-left: 3em;

@@ -1,7 +1,7 @@
 /*
 	cards.css: Cards Style Sheet of tDiary
 	Title: Cards
-	Rivision: $Revision: 1.7 $ 
+	Rivision: $Revision: 1.8 $ 
 	Author: NT
 	Access: nt@be.to
 	License: GPL
@@ -388,7 +388,7 @@ div.body dd {
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -406,7 +406,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -437,7 +437,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #aaa;
         border-width: 0px 0px 1px 0px;
@@ -445,7 +445,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {
@@ -546,43 +546,43 @@ table.calendar {
 }
 
 td.calendar-current-month {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: center;
 }
 
 td.calendar-next-month {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: right;
 }
 
 td.calendar-prev-month {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: left;
 }
 
 td.calendar-sunday {
 	color: red;
 	background-color: #fbb;
-	font-size: 1em;
+	font-size: 100%;
 	text-align: center;
 }
 
 td.calendar-saturday {
 	color: blue;
 	background-color: #bbf;
-	font-size: 1em;
+	font-size: 100%;
 	text-align: center;
 }
 
 td.calendar-weekday {
 	color: #000000;
 	background-color: #ddd;
-	font-size: 1em;
+	font-size: 100%;
 	text-align: center;
 }
 
 td.calendar-day {
-	font-size: 1em;
+	font-size: 100%;
 	text-align: right;
 }
 

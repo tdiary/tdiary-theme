@@ -1,6 +1,6 @@
 /*
 Title: Cross
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -53,7 +53,7 @@ div.adminmenu {
 h1 {
 	color: #000;
 	text-align: left;
-	font-size:1.5em;
+	font-size:150%;
 	font-style:normal;
 	margin-left: -70px;
 	padding-left: 70px;

@@ -1,5 +1,5 @@
 Title: citrus
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -9,5 +9,8 @@ Comment: ¤µ¤ï¤ä¤«´»µÌ·Ï
 	validated by W3C.
 
 ChangeLog
-	2003-04-05 Nana <clorets@estyle.ne.jp>
+2003-09-05 NT <nt@be.to>
+	* remove specification of font-family.
+
+2003-04-05 Nana <clorets@estyle.ne.jp>
 	* Update.

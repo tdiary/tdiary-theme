@@ -8,6 +8,9 @@ validated by W3C.
 calendar2, calendar3 プラグインに対応
 
 Changelog
+2003-09-05 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-02-17 NT <nt@be.to>
         * remove some "background-image:".
 

@@ -1,6 +1,6 @@
 /*
 Title: cat
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -16,7 +16,6 @@ validated by W3C.
 body {
 	background-color: #B0E0E6;
 	color: #555;
-      /*font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;*/
 	margin: 0.5em 5%;
 }
 

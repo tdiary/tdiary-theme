@@ -1,6 +1,6 @@
 /*
 Title: citrus
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -16,7 +16,6 @@ validated by W3C.
 body {
 	background-color: #fff;
 	color: #555;
-	font-family: 'MS UI Gothic',Arial,Verdana,Helvetica,sans-serif;
 	margin: 0px;
 	background-image: url(citrus_back.png);
 	background-repeat: repeat-y;

@@ -9,6 +9,10 @@ Validated by W3C.
 calendar2, recent_list, footnote, amazon プラグイン対応
 
 ChangeLog
+2003-09-05 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2003-01-21 TADA Tadashi <sho@spc.gr.jp>
 	* fix bug: div.adminmenu -> span.adminmenu.
 

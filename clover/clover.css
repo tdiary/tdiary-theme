@@ -1,6 +1,6 @@
 /*
 Title: クローバー
-Revision: $Revision: 1.12 $
+Revision: $Revision: 1.13 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -13,7 +13,6 @@ validated by W3C.
 body {
 	background-color: #fff;
 	color: #000;
-	font-family: osaka,'MS PGothic',sans-serif;
 }
 
 a:link {

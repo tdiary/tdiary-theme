@@ -9,6 +9,11 @@ Copyright (C) 2000-2001.Sarsya. All Rights Reserved.
 Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
 
 ChangeLog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2003-09-02 NT <nt@be.to>
 	* remove "em" specification of font-size.
 

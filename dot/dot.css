@@ -1,6 +1,6 @@
 /*
 Title: dot
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: Nana
 License: GPL
 
@@ -140,13 +140,15 @@ h3 {
 	margin: 0em;
 	font-weight: bold;
 }
+
+div.section {
+	width: 100%;
+}
+
 /*
 日記の本文(段落)の設定
 */
 div.section p {
-/*	margin-top: 0.5em;
-	margin-bottom: 0.7em;
-*/
 	line-height: 1.3em;
 }
 

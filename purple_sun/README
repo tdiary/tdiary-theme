@@ -9,6 +9,11 @@ sidebar対応。
 calendar2、recent_list、footnoteプラグインに対応。
 
 ChangeLog 
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2003-02-08 Nana <clorets@estyle.ne.jp>
 	* remove div.section p,div.comment p font-size:95%
 	* p.referer,div.referer font-size:smaller->95%

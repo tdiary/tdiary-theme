@@ -1,12 +1,12 @@
 /*
 Title: Black Lingerie
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: Sarsya
 Access: none
 License: GPL
 Comment: 黒いランジェリーのテーマ
 
-	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.8 $
+	Black-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.9 $
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
  */
@@ -168,6 +168,10 @@ div.day span.canchor {
 	color: #000;
 	background-color: transparent;
 	font-size: 1px;
+}
+
+div.section {
+	width: 100%;
 }
 
 /*

@@ -1,6 +1,6 @@
 /*
 Title: 砂漠
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -103,6 +103,10 @@ div.body {
 	padding-bottom: 1px;
 	margin-left: 2em;
 	margin-right: 1em;
+}
+
+div.section {
+	width: 100%;
 }
 
 div.section p {

@@ -1,6 +1,6 @@
 /*
 Title: Magic
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -116,6 +116,11 @@ p.body {
 	padding-left: 1em;
 	padding-top:0em;
 }
+
+div.section {
+	width: 100%;
+}
+
 div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;

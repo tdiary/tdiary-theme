@@ -8,6 +8,11 @@ Copyright 2002 (C) by jun nogata <http://www.nofuture.tv/tdiary/>
 validated by W3C.
 
 Change log
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
 	* Oops! I forgot to rename w2k_button-2.css. Sorry. I removed w2k_button-2.css now.
 

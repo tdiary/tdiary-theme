@@ -1,6 +1,6 @@
 /*
 Title: Simple
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -144,6 +144,7 @@ div.section {
 	padding-bottom: 0.5em;
 	background-color: #fff;
 	color: #555;
+	width: 100%;
 }
 
 /*

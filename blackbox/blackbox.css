@@ -1,6 +1,6 @@
 /*
 Title: blackbox
-Revision: $Revision: 1.12 $
+Revision: $Revision: 1.13 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -169,6 +169,7 @@ div.section {
 	text-align: left;
 	padding: 0em;
 	margin: 0em;
+	width: 100%;
 }
 
 div.body p {

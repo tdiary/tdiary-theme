@@ -1,5 +1,5 @@
 Title: dot
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 License: GPL
 
@@ -7,6 +7,11 @@ validated by W3C.
 calendar3 プラグイン対応
 
 ChangeLog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2003-09-03 NT <nt@be.to>
 	* remove "em" specification of font-size.
 

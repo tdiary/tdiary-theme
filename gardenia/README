@@ -30,6 +30,11 @@ Validated by W3C.
 を書き加えてください。
 
 Changelog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2003-09-08 NT <nt@be.to>
 	* font-size: em -> %.
 	

@@ -119,6 +119,7 @@ div.body p{
 div.section{
 	margin-top:0;
 	margin-bottom:1em;
+	width: 100%;
 }
 div.section p,div.comment p{
 	/*font-size:95%;*/

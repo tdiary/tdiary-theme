@@ -1,6 +1,6 @@
 /*
 Title: らぶり〜
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -115,6 +115,10 @@ div.body {
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 2em;
+}
+
+div.section {
+	width: 100%;
 }
 
 div.section p {

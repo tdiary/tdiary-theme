@@ -1,6 +1,6 @@
 /*
 Title: マルーン
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -122,6 +122,10 @@ div.body {
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 2em;
+}
+
+div.section {
+	width: 100%;
 }
 
 div.section p {

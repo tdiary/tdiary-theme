@@ -10,6 +10,11 @@ Comment: Madras check
         Validated by W3C
 
 ChangeLog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
 2003-09-09 NT <nt@be.to>
 	* remove specification of font-family.
 	* font-size: em -> %.

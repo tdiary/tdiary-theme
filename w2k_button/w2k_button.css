@@ -1,6 +1,6 @@
 /*
 Title: W2K Button
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: jun nogata
 Access: http://www.nofuture.tv/diary/
 License: GPL
@@ -28,6 +28,10 @@ a {
 
 a:hover { 
         text-decoration: underline; 
+}
+
+div.section {
+	width: 100%;
 }
 
 div.section p {

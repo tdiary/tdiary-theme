@@ -1,0 +1,370 @@
+/*
+Title: Summer Wave
+Revision: $Revision: 1.1 $
+Author: shimery
+Access: http://shimery.tdiary.net/
+License: GPL
+Comment: 夏だ！海が呼んでいるーなテーマ
+validated by W3C.
+*/
+
+div.rank   {
+	color: white;
+	font-size: 9pt;
+	text-align: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 10%
+}
+
+body  {
+	color: #000080;
+	font-size: 1em;
+	background-color: #fff;
+	margin: 2% 10%
+}
+
+a:link  {
+	color: #4169e1;
+	text-decoration: none
+}
+
+a:visited  {
+	color: #4169e1;
+	text-decoration: none
+}
+
+a:hover,a:focus  {
+	color: #1e90ff;
+	text-decoration: none
+}
+
+p.adminmenu   {
+	color: gray;
+	font-size: 1em;
+	text-align: right
+}
+
+span.adminmenu   {
+	background-color: #d8e6f5;
+	/*margin-left: 10%;*/
+	padding: 5px;
+	border: none
+}
+
+h1  {
+	color: #6495ed;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: transparent;
+	text-align: left;
+	/*margin-left: 10%;*/
+	padding-right: 10%;
+	padding-bottom: 1px;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 8px solid #d8e7f6;
+	border-left: 0px none
+}
+
+div.day span.panchor {
+	text-decoration: none;
+}
+
+div.day span.canchor {
+	text-decoration: none;
+}
+
+p.calendar  {
+	color: #191970;
+	font-size: 9pt;
+	background-color: transparent;
+	text-align: left;
+	/*margin: 0% 0% 3% 10%;*/
+	padding: 3px;
+	border: none 1px #87cefa
+}
+
+div.day    {
+	color: #666;
+	background-color: #d8e6f5;
+	margin-left: auto;
+        margin-right: auto;
+}
+
+h2      {
+	color: #000080;
+	font-weight: bold;
+	font-size: 11pt;
+	background: #d8e6f5 url(wave.png) repeat-x scroll 0% 100%;
+	padding-top: 40px
+}
+
+span.date {
+	margin-left: 1em
+}
+
+div.body     {
+	color: #000080;
+	background-color: #d8e7f6;
+	padding: 0pt 6pt
+}
+
+h3.subtitle   {
+	color: #000080;
+	font-weight: bold;
+	font-size: 10pt;
+	background-color: #f0f8ff;
+	padding: 3pt;
+	border: dashed 1px #96beff
+}
+
+div.day p {
+	line-height: 1.4;
+	margin-bottom: 0.7em;
+/*	margin-top: 0.5em;*/
+        margin-left: 2em;
+}
+
+div.comment  {
+	color: #333;
+	font-size: 9pt;
+	background-color: #d8e7f6;
+	padding: 2px 2px 1px 2em
+}
+
+div.day span.panchor {
+	background-image: url(summer_wave_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 17px 0px 0px;
+	color: #d8e6f5;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(summer_wave_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 17px 0px 0px;
+	color: #d8e6f5;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+p.commenttitle   {
+	color: #000080;
+	border-style: none none solid none;
+	border-width: 0px 0px 1px 0px;
+	border-color: #000080
+}
+
+span.commentator  {
+	color: #000080;
+	background-color: transparent;
+	padding: 3px; border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #000080
+}
+
+div.comment p  {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+p.referer    {
+	color: #000080;
+	font-size: 9pt;
+	background-color: #d8e7f6;
+	text-align: right;
+	padding: 4px
+}
+
+div.refererlist   {
+	font-size: 9pt;
+	background-color: #f0f8ff;
+	padding: 4px;
+	border: 2px
+}
+
+p.referertitle {
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+}
+
+hr  {
+	border: none
+}
+
+hr.sep {
+	display: none
+}
+
+p.footer {
+        font-size: 9pt;
+	text-align: right;
+}
+
+div.form  {
+	margin-left: 0px;
+	padding: 0.5em 1em
+}
+
+input.field  {
+	color: #000080;
+	background-color: white;
+	border: solid 1px #4169e1;
+	font-size: 1em
+}
+
+textarea  {
+	color: #000080;
+	background-color: white;
+	border: solid 1px #4169e1
+}
+
+
+p.message  {
+	color: #000;
+	font-size: large;
+	background-color: #d8e6f5;
+	text-align: center;
+	padding: 8px
+}
+
+pre  {
+	color: #000080;
+	font-size: 1em;
+	background-color: #4682b4;
+	margin-left: 3em;
+	padding: 8px
+}
+
+dl {
+	margin-left: 2em
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em
+}
+
+dd {
+	margin-bottom: 0.5em;
+	margin-left: 1em
+}
+
+li {
+	list-style-type: circle;
+}
+
+ul,ol {
+	margin-top: 0em;
+	margin-left: 2em
+}
+
+blockquote   {
+	color: #666;
+	background-color: white;
+	margin-left: 3em;
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 3px 1px 3px 1px;
+	border-color: #c0c0c0
+}
+
+.hide {
+	background-color: #666;
+}
+
+span.memo {
+        color:#666;
+        font-weight: bold;
+        background-color: #c0c0c0;
+}
+
+a img {
+        border-width: 0px;	
+}
+
+/*
+脚注番号
+*/
+span.footnote ,span.footnote a{
+        font-size: xx-small;
+        color:#DC143C;
+}
+/*
+脚注本文全体
+*/
+div.footnote {
+        border-color:#ffffff;
+        border-style:dashed;
+        border-width: 2px 0px 0px 0px;
+        padding: 3px;
+        font-size:x-small;
+        text-align: left;
+        margin-left: 24px;
+        margin-right: 16px;
+}
+
+div.footnote a{
+        color:#666;
+}
+
+p.strong {
+        font-size: 200%;
+}
+
+input     {
+	color: #666;
+	padding: 1px;
+	border: solid 1px #4169e1
+}
+
+select    {
+	color: #666;
+	padding: 2px;
+	border: solid 2px #4169e1
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 9pt;
+        line-height: 100%;
+        border-width: 2px;
+        border-color: #c0c0c0;
+        border-style: solid;
+        margin-left :25%;
+        background-color: #fff;
+        color: #666;
+        padding: 1px;
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+                           text-align: center;
+}
+
+/* recent_list */
+p.recentitem  {
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+div.recentsubtitles  {
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em
+}

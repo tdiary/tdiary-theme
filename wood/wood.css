@@ -3,7 +3,7 @@ Title: 黒板
 Author: yosshy
 Access: http://yosshy.tdiary.net/>
 
-	wood.css: Wood Style Sheet of tDiary $Revision: 1.6 $
+	wood.css: Wood Style Sheet of tDiary $Revision: 1.7 $
 	Copyright (C) 2002 by yosshy <http://yosshy.tdiary.net/>
  */
 /* ChangeLog
@@ -292,7 +292,7 @@ p.strong
 ツッコミ省略版本文
 */
 div.commentshort {
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 0.5em;
 }
 
@@ -310,7 +310,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
         line-height: 1.2em;
 }
@@ -339,12 +339,12 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         margin: 0.5em;
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

@@ -7,6 +7,9 @@ Comment: 某 OS 風のテーマ
 validated by W3C.
 
 Changelog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-31 zoe <zoe@kasumi.sakura.ne.jp>
         * equalize indent size.
 

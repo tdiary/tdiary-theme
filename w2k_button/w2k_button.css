@@ -1,6 +1,6 @@
 /*
 Title: W2K Button
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: jun nogata
 Access: http://www.nofuture.tv/diary/
 License: GPL
@@ -58,7 +58,6 @@ q {
 }
 
 kbd {
-        font-family: monospace;
         font-style: italic;
         font-weight: bold;
         white-space:  pre;
@@ -89,7 +88,6 @@ div.day h2{
         background-color: #000080;
 
         font-size: 9pt;
-        font-family: "MS UI Gothic",sans-serif;
         font-weight: normal;
 
         background-image: url("w2k_button.png");
@@ -377,7 +375,6 @@ p.recentitem {
          background-color: #000080;
 
          font-size: 9pt;
-         font-family: "MS UI Gothic",sans-serif;
          font-weight: normal;
 
          background-image: url("w2k_gradation.png");

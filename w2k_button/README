@@ -8,6 +8,9 @@ Copyright 2002 (C) by jun nogata <http://www.nofuture.tv/tdiary/>
 validated by W3C.
 
 Change log
+2003-09-14 NT <nt@be.to>
+	* remove specification of font-family.
+
 2003-09-10 zoe <poincare@ikezoe.net>
 	* add width property in div.section.
 	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html

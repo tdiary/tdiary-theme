@@ -7,6 +7,9 @@ Copyright 2002 (C) by Nana
 	validated by W3C.
 
 ChangeLog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-03 Nana <clorets@estyle.ne.jp>
 	* font-size adjustment.
 	* div.commentator->span.commentator font-weight: bold;

@@ -3,7 +3,7 @@
 	Copyright(C) NT <http://246ra.ath.cx/~takasi/index.html>
 	validated by W3C.
 	Title: Whiteout
-	Rivision: $Revision: 1.3 $ 
+	Rivision: $Revision: 1.4 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -132,7 +132,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }

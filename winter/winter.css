@@ -1,6 +1,6 @@
 /*
 Title: Winter
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -22,7 +22,6 @@ body {
 	background-attachment: fixed;
 	padding-left: 40px;
 	color: #333;
-	font-family:	Verdana, Myriad Web, Syntax, sans-serif;
 }
 
 a:hover{
@@ -50,7 +49,7 @@ h1 {
 	color: #000;
 	background-color: transparent;
 	text-align: left;
-	font-size:1.7em;
+	font-size:170%;
 	font-style:normal;
 	margin-top: 10px;
 	margin-bottom: 200px;

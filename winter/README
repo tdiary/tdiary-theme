@@ -3,3 +3,9 @@ Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
 Comment: 冬の風景写真を使ったテーマ
+
+Changelog
+2003-09-14 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+

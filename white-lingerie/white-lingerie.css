@@ -1,6 +1,6 @@
 /*
 Title: White Lingerie
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Sarsya
 Access: none
 License: GPL
@@ -130,7 +130,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }

@@ -1,0 +1,308 @@
+/*
+	blackbox.css: BlackBox Style Sheet 
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+ */
+a:link {
+	text-decoration: none;
+	color: #4af;
+}
+a:visited {
+	text-decoration: none;
+	color: #f6f;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #f6f;
+}
+
+body {
+	background-color: #8ce;
+	background-image: url(blackbox_back.png);
+	background-position: center;
+	color: white;
+	margin: 1em;
+}
+
+strong {
+        font-weight: bold;
+	font-size: 2em;
+}
+font.keyword {
+        font-weight: bold;
+	font-size: 2em;
+	color: red;
+}
+
+em {
+        font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: white;
+	width: 66%;
+	color: #f00;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+img.logo {
+	border-style: solid;
+	border-color: #0ff;
+	border-width: 2px;
+	float: left;
+}	 
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+	float: right;
+}
+
+div.rank {
+	background-color: transparent;
+	border-style: none;
+	border-color: black;
+	border-width: 1px;
+	font-size: 0.6em;
+	text-align: left;
+	margin: 0em;
+}
+p.sentence {
+	background-color: transparent;
+	border-style: none;
+	margin: 0em;
+	font-size: 0.6em;
+}
+
+div.day {
+	background-color: white;
+	color: black;
+	text-align: left;
+	padding: 0em;
+	margin: 2em;
+	margin-top: 0.5em;
+	border-style: solid;
+	border-color: #4bf;
+	border-width: 1px 1px 4px 1px;
+}
+
+div.day h2 {
+	background-image: url(blackbox_backh2.png);
+	background-color: #000;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
+	color: white;
+	font-size: medium;
+	border-style: solid;
+	border-color: #4bf;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.date {
+	margin-left: 0.5em;
+}
+
+span.title {
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	margin: 0em;
+	padding: 1em;
+	padding-top: 0em;
+	padding-left: 16px;
+}
+
+div.section {
+	background-color: transparent;
+	text-align: left;
+	padding: 0em;
+	margin: 0em;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-height: 1.3em;
+	margin-top:0.7em;
+	margin-left :1em;
+	margin-bottom:0.5em;
+}
+
+h3.subtitle {
+	padding: 0em;
+	padding-left: 0em;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+}
+
+div.body a.anchor{
+	background-image: url(blackbox_anchorback.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	font-size: 1.4em;
+}
+
+pre {
+     	background-image: url(blackbox_backpre.png);
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 20px;
+	border-style: solid;
+	border-color: #00f;
+	border-width: 1px
+}
+
+div.comment {
+	background-color: transparent;
+	text-align: left;
+	margin: 0em;
+	padding: 1em;
+	padding-left: 3em;
+}
+
+div.comment a.anchor{
+	background-image: url(blackbox_smallanchorback.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+p.commenttitle {
+	text-align: left;
+	margin: 0em;
+}
+
+p.commenttitle a.anchor{
+	background-image: none ! important;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #04c;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: transparent;
+	text-align: right;
+	font-size: small;
+	padding: 0em ! important;
+	margin: 0em;
+	padding-right: 16px;
+	height: 16px;
+}
+
+div.refererlist {
+	background-color: transparent;
+	font-size: small;
+	text-align: left;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 32px;
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 2em;
+	margin: 0em;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+form.search {
+	clear: right;
+	text-align: right;
+	float: right;
+	margin: 0em;
+}
+

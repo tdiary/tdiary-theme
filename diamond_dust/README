@@ -1,6 +1,6 @@
 /*
 Title: Diamond_dust
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -11,6 +11,6 @@ validated by W3C.
 */
 
 Chagelog
-	* ナンバリングアンカー対応に対応しています。
+	* ナンバリングアンカーに対応しています。
 	  number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>
 	  と記入してください。

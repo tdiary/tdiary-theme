@@ -1,0 +1,321 @@
+/*
+	bluegrad.css: grad Style Sheet
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+ */
+a:link {
+	text-decoration: none;
+	color: #26a;
+}
+a:visited {
+	text-decoration: none;
+	color: #d82;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: mediumblue;
+}
+
+body {
+	background-image: url(bluegrad_back.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color: #6bf;
+	color: black;
+	margin: 0em;
+}
+
+strong {
+        font-weight: bold;
+	font-size: 2em;
+}
+font.keyword {
+        font-weight: bold;
+	font-size: 2em;
+	color: red;
+}
+
+em {
+        font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: white;
+	width: 66%;
+	color: #f00;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+img.logo {
+	border-style: solid;
+	border-color: #7cf;
+	border-width: 2px;
+	float: left;
+}	 
+p.calendar {
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+	float: right;
+}
+
+div.rank {
+	background-color: transparent;
+	border-style: none;
+	border-color: black;
+	border-width: 1px;
+	font-size: 0.6em;
+	text-align: left;
+	margin: 0em;
+}
+p.sentence {
+	background-color: transparent;
+	border-style: none;
+	margin: 0em;
+	font-size: 0.6em;
+}
+
+div.day {
+	background-color: white;
+	background-image: url(bluegrad_backday.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	color: black;
+	text-align: right;
+	padding: 0em;
+	margin: 2em;
+	margin-top: 0.5em;
+}
+
+div.day:before {
+	white-space: pre;
+	background-color: transparent;
+	display: block;
+	text-align: left;
+}
+div.day:after {
+	white-space: pre;
+	background-color: transparent;
+	display: block;
+	text-align: left;
+}
+
+h2 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	font-size: medium;
+	float: right;
+}
+
+span.date {
+	margin-left: 0.5em;
+}
+span.date a {
+	color: #a62;
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 1em;
+	margin: 0em;
+}
+
+div.section {
+	background-color: transparent;
+	text-align: left;
+	padding: 0em;
+	margin: 0em;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-height: 1.5em;
+	margin-top:0.7em;
+	margin-bottom:0.5em;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4;
+}
+
+h3.subtitle {
+	padding: 0em;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+}
+
+div.body a.anchor{
+	background-image: url(bluegrad_anchor.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	font-size: 1.4em;
+}
+
+div.body p a.anchor{
+	background-image: url(bluegrad_commentanchor.png) ! important;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+pre {
+     	background-image: url(bluegrad_back.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color: white;
+	color: #000;
+	font-weight: bold;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px;
+}
+
+div.comment {
+	background-color: transparent;
+	text-align: left;
+	padding-left: 2em;
+}
+
+div.comment a.anchor{
+	background-image: url(bluegrad_commentanchor.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+p.commenttitle {
+	text-align: left;
+}
+
+p.commenttitle a {
+	background-image: none ! important;
+}
+
+span.commentator {
+	position: relative;
+	left: -1em;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: transparent;
+	text-align: right;
+	font-size: small;
+	padding: 0em;
+	margin: 0em;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 0em;
+	padding-left: 32px;
+	border-width: 0px;
+	width: 80%;
+	margin-top: 0em;
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	width: 90%;
+	margin-bottom: 0.5em;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 90%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+form.search {
+	clear: right;
+	text-align: right;
+	float: right;
+	margin: 0em;
+}
+

@@ -9,8 +9,11 @@ Validated by W3C.
 calendar2, recent_list, footnote, amazon プラグイン対応
 
 ChangeLog
+2003-01-21 TADA Tadashi <sho@spc.gr.jp>
+	* fix bug: div.adminmenu -> span.adminmenu.
+
 2002-09-14 NT <nt@24i.net>
-        * convert for 1.5 series.
+	* convert for 1.5 series.
 
 2002-04-20 TADA Tadashi <sho@spc.gr.jp>
 	* down size anchor image.

@@ -9,6 +9,9 @@ Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 validated by W3C
 
 ChangeLog
+2003-09-09 Nana <clorets@estyle.ne.jp> 
+           * remove form.search,img.logo  float
+
 2003-09-05 Nana <clorets@estyle.ne.jp>
 	   * remove div.adminmenu,div.calendar  float
 	   * set div.body clear: both

@@ -8,8 +8,11 @@ Copyright 2002 (C) by epi <http://wind.prohosting.com/~episodee/>
 Validated by W3C.
 
 Changelog
+2003-05-21 TADA Tadashi <sho@spc.gr.jp?
+	* font-size: em -> %.
+
 2002-10-28 zoe <zoe@kasumi.sakura.ne.jp>
-        * insert indent.
+	* insert indent.
 
 2002-10-19 NT <nt@24i.net>
-        * convert for 1.5 series.
+	* convert for 1.5 series.

@@ -1,6 +1,6 @@
 /* brown.css
 Title: Brown
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -133,7 +133,7 @@ h2 span.title {
 
 /* 本文パート */
 div.body {
-	font-size: 90%;
+	font-size: 100%;
 	margin-bottom: 3%;
 	padding: 0 1% 1% 1%;
 	line-height: 1.5;

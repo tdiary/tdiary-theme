@@ -1,6 +1,6 @@
 /*
 Title: Gardenia
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -154,7 +154,7 @@ h2 span.title {
 }
 
 div.body {
-	font-size: 90%;
+	font-size: 100%;
 	margin-top: 3%;
 	margin-bottom: 3%;
 	padding: 1% 1% 1% 1%;

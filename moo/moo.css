@@ -1,7 +1,14 @@
 /*
-	moo.css: Moo Style Sheet of tDiary $Revision: 1.3 $
+	moo.css: Moo Style Sheet of tDiary $Revision: 1.4 $
         Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
+
+        Changelog 2002-3-23 by Nana
+        pre font-color#000-->#fff
+        p   margin-left 1em
+        div day margin-left,right 15%-->10%
+        p adminmenu boder-style none-->solid,background-color #000
+        form margin delete
 */
 
 a:link {
@@ -50,10 +57,10 @@ p.message {
 }
 
 span.adminmenu {
-	background-color: transparent;
-	border-style: none;
-	border-color: #000;
-	border-width: 2px;
+	background-color: #000;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
 	padding: 3px;
 }
 
@@ -64,10 +71,13 @@ h1 {
 
 p.calendar {
 	background-color: #000;
-	border-style: none;
-        text-align: center;
-        padding: 5px;
-        margin-bottom: 15px;
+	border-style: solid;
+        border-color: #fff;
+        border-width: 1px;
+        text-align: left;
+}
+span.calendar {
+        padding: 3px;
 }
 
 div.day {
@@ -82,8 +92,8 @@ div.day {
         border-style: solid;
 	border-color: #fff;
 	border-width: 3px 3px 0px 3px;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 h2 {
@@ -114,6 +124,7 @@ span.date a:hover, a:focus {
 }
 
 span.title {
+        font-size: 1em;
 }
 
 div.body {
@@ -127,10 +138,11 @@ div.body {
 p {
 	margin: 0em;
 	line-height: 1.4em;
+        margin-left: 1em;
 }
 
 h3.subtitle {
-	margin: 0em;
+	margin: 0.5em;
 	padding: 0em;
 	font-weight: bold;
 	font-size: small;
@@ -139,7 +151,7 @@ h3.subtitle {
 
 pre {
 	background-color: orange;
-	color: #000;
+	color: #fff;
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 5px;
@@ -187,7 +199,7 @@ p.referer {
 	margin-right: 12px;
 }
 
-div.refererlist {
+div.defererlist {
 	font-size: small;
 	text-align: left;
 	background-color: transparent;
@@ -219,19 +231,18 @@ p.footer {
 }
 
 div.form {
-	background-color: #000;
+	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
 	color: #fff;
 	margin-bottom: 0.5em;
         border-style: solid;
 	border-color: #fff;
 	border-width: 3px 3px 3px 3px;
-        margin-right: 15%;
-	margin-left: 15%;
 }
 
-input.field {
+input.field,texterea {
 	background-color: white;
+        color: #000;
 }
 
 input {
@@ -242,6 +253,7 @@ textarea {
 	background-color: white;
 	margin-left: 1em;
 	width: 80%;
+        color: #000;
 }
 
 dl {

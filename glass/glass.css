@@ -1,6 +1,6 @@
 /*
 Title: Glass
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: <http://mikan.sakura.ne.jp/~mpc/>
 License: GPL
@@ -8,6 +8,12 @@ Comment: かき氷なテーマ(おぃ
 
 	Copyright (c) 2002 Nana <http://mikan.sakura.ne.jp/~mpc/>
 	validated by W3C.
+*/
+
+/*
+        Change-log
+2002-05-05 Nana
+        * h2 font-size:0.9em -> 1em
 */
 
 div.rank {
@@ -113,7 +119,7 @@ h2 {
 	padding-top: 15px;
 	padding-bottom:10px;
 	margin-bottom: 0;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: bold;
 }
 

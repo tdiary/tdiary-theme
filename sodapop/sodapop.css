@@ -1,9 +1,9 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
-Comment: support calendar2
+Comment: blockquote,footnote,recent_list plugin対応
 
    Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
 
@@ -11,6 +11,8 @@ Comment: support calendar2
    お好きな背景イメージを用意してください。
 */
 /* ChengeLog
+2002-09-30 Nana
+        * add blockquote,footnote,recent_list
 2002-06-03 Nana
         * add div.day line-heigt 135%
 2002-05-05 Nana
@@ -43,7 +45,7 @@ a:link, a:visited {
 /*
   ページトップにある操作ボタンの並ぶ行の設定
 */
-p.adminmenu {
+div.adminmenu {
   text-align: right;
   font-size: small;
 }
@@ -64,7 +66,7 @@ h1 {
 /*
   カレンダーの設定
   */
-p.calendar {
+div.calendar {
 }
 
 /*
@@ -74,6 +76,7 @@ div.day {
   border: 1px solid #999;
   margin-bottom: 2em;
   line-height: 135%;
+  padding-bottom: 1px;
 }
 
 /*
@@ -88,15 +91,15 @@ h2 {
 }
 
 /* 日付の設定 */
-span.date {
+h2 span.date {
 }
-span.date a{
+h2 span.date {
   text-decoration: none;
   color: #fff;
 }
 
 /* タイトルの設定 */
-span.title {
+h2 span.title {
   color: #fff;
 }
 
@@ -111,17 +114,17 @@ div.body {
 /*
   サブタイトルの設定
   */
-h3.subtitle {
+h3 {
   font-size: 1em;
   margin: 0em;
   font-weight: bold;
   border-bottom: 1px solid #ccc;
 }
 
-h3.subtitle a{
+h3 {
 }
 
-p {
+div.section p {
 }
 
 /*
@@ -140,7 +143,7 @@ div.comment {
 /*
   ツッコミ欄タイトル行の設定
   */
-p.commenttitle {
+div.comment div.caption {
   text-align: right;
   border-style: solid;
   border-color: #aaa;
@@ -150,17 +153,11 @@ p.commenttitle {
 /*
   ツッコミした人の名前の設定
   */
-span.commentator {
-  border-style: solid;
-  border-color: #aaa;
-  border-width: 0px 0px 1px 0px;
-  padding: 3px;
-}
 
 /*
   リンク元リスト(短い方)の設定
   */
-p.referer {
+div.referer {
   text-align: right;
   font-size: small;
   padding: 2px;
@@ -185,7 +182,7 @@ div.refererlist {
 /*
   リンク元リストタイトルの設定
   */
-p.referertitle {
+div.refererlist div.caption {
   border-style: solid;
   border-color: #aaa;
   border-width: 0px 0px 1px 0px;
@@ -194,7 +191,7 @@ p.referertitle {
 /*
   リンク元リスト一覧の設定
   */
-ul.referer {
+div.refererlist ul {
   margin-top: 0em;
 }
 
@@ -217,7 +214,7 @@ hr.sep {
 /*
   フッタの設定
   */
-p.footer {
+div.footer {
   font-size: small;
   text-align: right;
   margin-top: 0px;
@@ -288,4 +285,184 @@ table.calendar td {
 table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
 	text-align: center;
+}
+
+/*
+引用、引用ソースの表示
+*/
+div.body blockquote {
+        border: 2px inset black;
+        padding: 5px;
+        background-color: #eee;
+}
+p.source{
+	margin-top: 0em;
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+
+div.footnote {
+	border-style: solid;
+	border-color: #999;
+	border-width: 1px 0px 0px 0px;
+	margin-left: 3em;
+	font-size: small;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #aaa;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+	display: inline;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em 0em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        border-style: solid;
+        border-color: #aaa;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

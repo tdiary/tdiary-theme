@@ -1,0 +1,16 @@
+Title: Spring
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+
+  Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
+
+ChangeLog
+2002-10-15 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

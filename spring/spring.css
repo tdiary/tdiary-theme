@@ -1,6 +1,6 @@
 /*
 Title: Spring
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
@@ -40,7 +40,7 @@ a:hover {
   background:#ffffff;
 }
 
-p.adminmenu {
+div.adminmenu {
   text-align: right;
   font-size:0.8em;
   margin:0px;
@@ -54,7 +54,7 @@ h1 {
   color:#ffffdf;
 }
 
-p.calendar {
+div.calendar {
   text-align: left;
   color:#9494FF;
   text-indent:0em;
@@ -76,12 +76,12 @@ h2 {
   font-weight: bold;
 }
 
-span.date a{
+h2 span.date a {
   color: #66B3FF;
   margin-left:15%;
 }
 
-span.title {
+h2 span.title {
   font-size: medium;
   color: #EF8BAF;
   margin-left:2em;
@@ -99,7 +99,7 @@ div.section p {
   text-indent:1em;
 }
 
-h3.subtitle {
+h3 {
   background-color: #EF8BAF;
   font-size: medium;
   color: #ffffff;
@@ -108,11 +108,11 @@ h3.subtitle {
   -moz-border-radius: 1em;
 }
 
-h3.subtitle a{
+h3 a{
   color:#66B3FF;
 }
 
-h3.subtitle a:hover{
+h3 a:hover{
   background: #ffffff;
   -moz-border-radius:40px;
   padding:2px;
@@ -140,23 +140,20 @@ div.comment a{
   color:#F2C991;
 } 
 
-p.commenttitle {
+div.comment div.caption {
   text-align: right;
   font-size:0.8em;
 }
 
-span.commentator {
-  line-height:1em;
-}
 
-p.referertitle {
+div.refererlist div.caption {
   text-align: right;
   color:#F7CA8E;
   margin-left:10%;
   font-size:0.8em;
 }
 
-p.referer {
+div.referer {
   margin-left:10%;
   margin-bottom:1em;
   font-size:0.8em;
@@ -176,7 +173,7 @@ hr.sep {
   display: none;
 }
 
-p.footer {
+div.footer {
   font-size: 0.8em;
   text-align: right;
   color:#000000;
@@ -287,4 +284,135 @@ span.footnote{
 */
 .hide{
     background-color:#ff9900;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #ffffdf;
+        color: #EF8BAF;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #ffffdf;
+        color: #EF8BAF;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #ffffdf;
+        color: #EF8BAF;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

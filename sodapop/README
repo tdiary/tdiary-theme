@@ -1,0 +1,23 @@
+Title: Sodapop
+Author: kadu
+Access: http://www.bb.wakwak.com/~akk/kadu/
+Comment: blockquote,footnote,recent_list plugin対応
+
+   Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
+
+   sodapop_back.jpgは著作権の関係で含まれていません。
+   お好きな背景イメージを用意してください。
+
+ChengeLog
+2002-10-15 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	
+2002-09-30 Nana
+        * add blockquote,footnote,recent_list
+2002-06-03 Nana
+        * add div.day line-heigt 135%
+2002-05-05 Nana
+        *support calendar2.
+2002-04-05 TADA Tadashi
+	* add spec.
+	* div.comment align left;

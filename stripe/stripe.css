@@ -264,8 +264,8 @@ div.footer {
 div.form {
         color: #000;
        /* -moz-opacity:0.7;
-        filter:Alpha(opacity=70);*/
-        background-color :#D2FFFF;
+        filter:Alpha(opacity=70);
+        background-color :#D2FFFF;*/
 	margin-bottom: 0.5em;
         border-color: #fff;
 	border-style: dashed;

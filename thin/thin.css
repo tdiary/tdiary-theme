@@ -3,13 +3,15 @@ Title: Thin
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.8 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.9 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
         Validated by W3C
 */
 /* ChangeLog
+2002-04 16 Nana
+        * support calendar2,blockquote,title_list
 2002-04-16 Nana
         * fix p.adminmenu margin-top:10% ->> 0
 
@@ -360,3 +362,60 @@ div.footnote p.footnote{
 	color: #000; 
 }
 
+blockquote {
+        border-width: 3px 0px 1px 0px;
+	border-style: solid solid solid solid;
+	border-color: #191970;
+	background-color: transparent;
+        color: #191970;
+        font-style:italic;
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 0.9em;
+        line-height: 100%;
+        border-width: 1px;
+        border-color: #ccc #999999 #999999 #ccc;
+        border-style: solid;
+        background-color: transparent;
+        color: #000;
+        padding: 1px;
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+                           text-align: center;
+}
+
+/* title-list */
+div.sidebar {
+	position: absolute;
+	top: 0%;
+	left: 0px;
+	width: 20%;
+	font-size: 0.9em;
+	padding: 7em 2px 100% 2px;
+	border-style: none;
+	border-color: #ccc;
+	border-width: 0px 1px 0px 0px;
+	color: #000;
+	background-color: transparent;
+}
+
+div.sidebar p {
+	line-height: 130%;
+	text-align: left;
+	margin: 2px 3px 2px 4px;
+}
+ p.recentitem{
+        color: #006699;
+        background-color: transparent;
+}

@@ -1,0 +1,454 @@
+/*
+Title: savanna
+Revision: 
+Author: abbey
+Access: inlet@sd6.so-net.ne.jp
+License: GPL
+Comment: なんとなくサバンナ(zoeさん命名)
+
+validated by W3C.
+*/
+
+body {
+	background-color: #fff;
+	color: #333;
+	padding: 0.2em 0em;
+	background-image: url(savanna_back.png);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+a:link {
+	text-decoration: none;
+	color: #f60;
+	background-color: transparent;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+	background-color: transparent;
+}
+a:active {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+span.adminmenu {
+	padding: 2px;
+}
+
+h1 {
+	text-align: left;
+	margin-left: 20px;
+	font-size:medium;
+}
+
+div.day {
+	text-align: left;
+	padding: 15px 0 15px 15px;
+	margin: 0 10%;
+	border-left: 10px double #ddd;
+}
+
+h2 {
+	padding: 0px;
+	text-align: left;
+	font-size: medium;
+	border-bottom: 2px solid #999;
+}
+
+h2 span.date {
+	text-align: left;
+	margin: 0 0 0 5px;
+}
+
+h2 span.title {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.body {
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.section {
+	margin: 0em 1em;
+}
+
+h3 {
+	margin: 0px;
+	border-bottom: 1px solid #000;
+}
+div.day span.sanchor {
+	background-image: url(savanna_sanchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+div.day span.canchor {
+	background-image: url(savanna_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #eee;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.section p {
+	line-height: 1.5em;
+	margin-left: 1em;
+}
+
+div.caption {
+	text-align: right;
+	padding: 2px;
+	margin: 0em 0.4em;
+}
+
+div.comment {
+	font-size: 0.9em;
+	text-align: left;
+	margin-left: 5em;
+	margin-bottom: 1em;
+	padding: 5px;
+	color: #333;
+	background-color: #eee;
+}
+
+div.commentshort {
+	font-size: 0.9em;
+	margin-left: 0.5em;
+}
+span.commentator {
+	font-weight: bold;
+}
+div.commentshort p {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	line-height: 1.3em;
+}
+
+div.commentbody {
+	margin: 2px 8px;
+}
+
+span.commentator {
+	font-weight: bold;
+}
+
+div.commentbody p {
+	margin: 0.5em;
+	margin-left: 2em;
+}
+
+div.form {
+	text-align: left;
+	padding: 4px;
+	margin: 0em;
+	background-color: transparent;
+}
+
+div.form div.caption {
+	text-align: left;
+	padding: 0px;
+	margin-bottom: 0.5em;
+}
+
+div.form div.caption a{
+	display: block;
+	padding: 2px;
+	border-bottom: 1px solid #aaa;
+}
+
+div.form form {
+	margin: 0em 0em 0em 4px;
+}
+
+div.form form.comment {
+	font-size: 0.9em;
+}
+
+div.field {
+	display: inline;
+	margin-right: 2em;
+}
+form input {
+	background-color: #eee;
+	color: #000;
+	margin-left: 1em;
+	border: solid #aaa 1px;
+}
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+}
+
+form textarea {
+	display: block;
+	background-color: #eee;
+	color: #000;
+	margin-left: 3em;
+	width: 30em;
+	height: 5em;
+	border: solid #aaa 1px;
+}
+
+div.button {
+	display: block;
+}
+
+div.referer {
+	text-align: right;
+	font-size: small;
+	padding: 1px;
+	margin: 0px 20px;
+}
+div.referer a:link, div.refererlist a:link {
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	padding: 3px 8px;
+	margin: 0px 20px;
+	border: solid #000 1px;
+}
+
+div.refererlist ul {
+	margin-top: 3px;
+}
+
+hr {
+	border-style: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.day.update {
+	padding: 0px;
+}
+
+div.day.update div.caption {
+	margin: 0px;
+}
+
+div.day.update div.form {
+	padding: 0px;
+}
+
+form.update div {
+	padding: 0px;
+	margin: 0px 1px;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+form.update div.field.title input {
+	margin-left: 0.5em;
+}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+}
+form.update textarea {
+	display: block;
+	margin-left: 3em;
+	margin-bottom: 1em;
+	width: 35em;
+	height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+
+div.comment form {
+	margin-top: 0em;
+}
+
+div.conf.day h2 span.title {
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+}
+
+div.conf.day div.body {
+	padding: 8px;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+pre {
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px;
+	border: solid #f60 1px;
+}
+
+div.body blockquote {
+	border-style: solid;
+	border-color: #f60;
+	border-width: 2px 2px 2px 2px;
+	margin-left: 5em;
+	margin-right: 3em;
+	padding: 4px 4px 4px 4px;
+}
+div.body blockquote p {
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+div.body ul, div.body ol {
+	margin-left: 0em;
+	margin-right: 3em;
+}
+
+div.body dl {
+	margin-left: 5em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin: 0em 3em 0.5em 1em;
+}
+
+li {
+	list-style-type: circle;
+}
+
+em {
+	font-weight: bold;
+}
+
+
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.calendar {
+	font-size: small;
+	background-color: #fff;
+	color: #333;
+	border-left: double #ddd 10px;
+	border-top: solid #ddd 1px;
+	margin: 0 10%;
+}
+
+/* search */
+form.search {
+	text-align: right;
+}
+input.search {
+	background-color: #eee;
+	color: #000;
+	border: solid #aaa 1px;
+}
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 100%;
+	border-style: solid;
+	border-color: #f60;
+	border-width: 1px;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+/* clendar3 */
+div.calendar3 {
+	font-size: small;
+	background-color: #fff;
+	color: #333;
+	border-left: double #ddd 10px;
+	border-bottom: solid #ddd 1px;
+	margin: 0 10%;
+}
+.calendar-popup {
+	display: none;
+	text-align: left;
+	background-color: #fff;
+	color: #333;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0 1em;
+}
+							
+.calendar-normal a{
+}								
+
+.calendar-sunday {
+	background-color: transparent;
+	color: #ef8f9c;
+}
+									
+.calendar-saturday {
+	background-color: transparent;
+	color: #89bdde;
+}
+										
+.calendar-weekday {
+	background-color: transparent;
+	color: #333;
+}

@@ -1,0 +1,466 @@
+/*
+Title: DICE
+Revision: $Revision: 1.1 $
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: サイコロアンカー
+	 ナンバリングアンカープラグイン対応というか、
+	 使わないとなんの変哲もなし
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+ */
+
+a:link {
+	text-decoration: none;
+	color: #e44;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #f22;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #e44;
+}
+
+body {
+	background-color: #222;
+	margin: 0px 2px;
+	color: #eee;
+}
+
+p.adminmenu {
+	text-align: center;
+	background-color: #888;
+	margin: 0em ! important;
+}
+
+span.adminmenu {
+	font-weight: bold;
+}
+
+p.adminmenu a{
+	padding: 1px;
+	margin: 1px;
+       	border-style: none;
+	border-color: #004;
+	border-width: 1px;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+	background-color: transparent;
+}
+
+div.day {
+	text-align: left;
+	font-size: small;
+	padding: 0em;
+	margin: 1.5em 20% 1em 20%;
+	color: #eee;
+}
+
+h2 {
+	margin: 0.1em 0em;
+	padding: 0em;
+	text-align: left;
+	font-size: medium;
+	color: #eee;
+}
+
+div.body {
+	background-color: #eee;
+	border-style: solid;
+	border-color: #888;
+	border-width: 3px;
+	text-align: left;
+	padding: 0em;
+	color: #222;
+}
+
+h3.subtitle {
+	padding: 0em;
+	margin: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+div.section {
+	margin: 0.2em 0em 0.5em 0em;
+}
+
+div.section p {
+	line-height: 1.3em;
+	padding: 0em 1em 0em 1em;
+	margin-top: 0.2em ;
+	margin-bottom: 1.3em ;
+}
+
+div.day span.panchor {
+	background-image: url(dice_p01.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 16px 16px 0px 0px;
+	color: #eee;
+	background-color: transparent;
+	font-size: 1px;
+}
+/* ナンバリングアンカー サブタイトル */
+div.day a.p01 span.panchor {
+	background-image: url(dice_p01.png);
+}
+div.day a.p02 span.panchor {
+	background-image: url(dice_p02.png);
+}
+div.day a.p03 span.panchor {
+	background-image: url(dice_p03.png);
+}
+div.day a.p04 span.panchor {
+	background-image: url(dice_p04.png);
+}
+div.day a.p05 span.panchor {
+	background-image: url(dice_p05.png);
+}
+div.day a.p06 span.panchor {
+	background-image: url(dice_p06.png);
+}
+div.day a.p07 span.panchor {
+	background-image: url(dice_p07.png);
+}
+div.day a.p08 span.panchor {
+	background-image: url(dice_p08.png);
+}
+div.day a.p09 span.panchor {
+	background-image: url(dice_p09.png);
+}
+
+div.day span.canchor {
+	background-image: url(dice_c02.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #ddd;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+/* ナンバリングアンカー ツッコミ */
+div.day a.c01 span.canchor {
+	background-image: url(dice_c01.png);
+}
+div.day a.c02 span.canchor {
+	background-image: url(dice_c02.png);
+}
+div.day a.c03 span.canchor {
+	background-image: url(dice_c03.png);
+}
+div.day a.c04 span.canchor {
+	background-image: url(dice_c04.png);
+}
+div.day a.c05 span.canchor {
+	background-image: url(dice_c05.png);
+}
+div.day a.c06 span.canchor {
+	background-image: url(dice_c06.png);
+}
+
+pre {
+	margin: 0em 1em;
+	background-color: #fff;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px 1px;
+}
+
+div.comment {
+	background-color: #ddd;
+	font-size: small;
+	text-align: left;
+	color: #222;
+	padding-bottom: 12px;
+	margin: 1em 0em 0em 0em;
+}
+
+div.comment p {
+	margin: 0.2em 0em 0em 1em;
+	padding: 0em 10px 10px 0em;
+}
+
+p.commenttitle {
+	background-color: #ddd;
+	text-align: left;
+	margin-left: 0em ! important;
+	padding-left: 1em ! important;
+	padding-top: 0.2em ! important;
+	border-style: ridge;
+	border-color: #008;
+	border-width: 0px 0px 4px 0px;
+}
+
+span.commentator {
+	font-weight: bold;
+	margin-left: -1em;
+}
+
+p.referertitle {
+	padding-left: 1em;
+	border-style: ridge;
+	border-color: #00a;
+	border-width: 0px 0px 4px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	padding: 2px 0px 1px 0px;
+	color: #eee;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	color: #eee;
+	padding: 0px 0px 1px 0px;
+	margin-top: 1em;
+}
+
+ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+	color: #eee;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	color: #eee;
+}
+
+div.form form{
+	width: 90%;
+}
+
+input, select {
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px;
+	padding: 0px;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* 画像plugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+/* sidebar */
+
+div.leftsidebar {
+	width: 18%;
+	font-size: x-small;
+	margin: 0em 4px 0em 0em;
+	padding: 0em;
+	float: left;
+}
+
+div.leftsidebar p{
+	margin: 0em;
+}
+
+div.rightsidebar {
+	width: 18%;
+	font-size: x-small;
+	float: right;
+	padding: 0em ! important;
+}
+
+div.rightsidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #bbb;
+	border: solid 1px #bbb;
+	color: #111;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0px 2px;
+}
+
+div.list ul {
+	padding-left: 2px;
+	margin: 0px 2px;
+	list-style: none;
+}
+
+div.list p {
+	background-color: #888;
+	margin: 0em;
+	text-align: center;
+}
+
+div.list form {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.calendar {
+	font-size: small;
+	text-align: left;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	background-color: #bbb;
+	border: solid 1px #bbb;
+}
+
+div.calendar p.year {
+	background-color: #00d;
+	margin: 0em;
+	text-align: center;
+}
+
+div.calendar a:hover {
+	display: block;
+	border-style: solid;
+	border-width:  1px;
+	border-color:  #fff #888 #888 #fff;
+}
+
+div.calendar a {
+	margin: 0em;
+	text-align: center;
+	display: block;
+	border: none 1px #888;
+}
+
+p.theme {
+	line-height: 1.0;
+}
+
+/* calendar2 */
+table.calendar {
+        background-color: #ddd;
+	font-size: small;
+	border: solid 2px #888;
+	color: #000;
+	padding: 1px;
+	margin: 2px auto;
+}
+
+/* calendar2用画像 */
+/*
+table.calendar td.image {
+        background-image: url(paper_calendar_image.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 90px;
+}
+*/
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* カウンタープラグイン */
+
+span.counter {
+	font-size: 1.5em;
+}
+
+span.counter-today {
+	font-size: 0.8em;
+}
+
+span.counter-yesterday {
+	font-size: 0.6em;
+}
+
+span.counter-0 {
+	font-size: 1.5em;
+}

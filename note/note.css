@@ -1,6 +1,6 @@
 /*
 Title: Note
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -244,6 +244,10 @@ div.form {
 	text-align: left;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
+}
+
+div.form form {
+	width:90%;
 }
 
 input, select {

@@ -1,11 +1,11 @@
 Title: Piyo-family
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: 散歩を楽しむにわとりの親子たち
 
-	Copyright 2002 (C) by Nana <moo@xu.boo.jp>
+	Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 	validated by W3C.
 
 Special Thanks.
@@ -14,3 +14,8 @@ Special Thanks.
 PIYO_PIYO_FONT http://tama.cside21.com/ By ◆◇　たまふぁくとり〜　◇◆
 captain piyo http://www.rain-road.com/ By rain-road
 EGG-katakana http://www.coara.or.jp/~kumac/642/ By Design 露出狂
+
+ChangeLog
+	 2003-03-11 Nana <clorets@estyle.ne.jp>
+	 * h2 span.date font-size:90%-> 130%
+	 

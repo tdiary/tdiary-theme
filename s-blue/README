@@ -1,12 +1,16 @@
 Title: S-BLUE
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
 Comment: 淡いブルーベースのシンプル系
 
-	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+	Copyright by (C) Nana <clorets@estyle.ne.jp>
 	validated by W3C
 ChangeLog
+2003-03-05 Nana <clorets@estyle.ne.jp>
+	* div.day text-align:left
+	* support major plugin
+
 2002-11-01 zoe <zoe@kasumi.sakura.ne.jp>
 	* remove many /* comment-out feature (mainly font-family) */.
 

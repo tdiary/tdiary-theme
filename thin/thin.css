@@ -1,11 +1,14 @@
 /*
-	thin.css: Thin Style Sheet of tDiary $Revision: 1.5 $
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.6 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
         Only a few changed Theme Double.
         Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
         Validated by W3C
 */
 /* ChangeLog
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+	* add prefix 'thin_' to image files.
+
 2002-03-27 TADA Tadashi <sho@spc.gr.jp>
 	* fix textarea biyo--n problem.
 
@@ -45,7 +48,6 @@ body {
         border-color: #cccccc;
         border-width: 8px;
         margin: 2% 5% 2% 5%;
-        background-image: url(back.jpg); 
         background-repeat: no-repeat;
         background-position: left bottom;
         background-attachment: fixed;
@@ -108,7 +110,7 @@ div.day {
 }
 
 div.day span.panchor {
-        background-image: url(panchor.png);
+        background-image: url(thin_panchor.png);
         background-position: bottom right;
         background-repeat: no-repeat;
         padding: 13px 13px 0px 0px;
@@ -117,7 +119,7 @@ div.day span.panchor {
 }
 
 div.day span.canchor {
-        background-image: url(canchor.png);
+        background-image: url(thin_canchor.png);
         background-position: bottom right;
         background-repeat: no-repeat;
         padding: 10px 10px 0px 0px;

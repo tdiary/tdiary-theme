@@ -1,11 +1,11 @@
 /*
-	sakura.css: Sakura Style Sheet of tDiary $Revision: 1.1 $
+	sakura.css: Sakura Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) nga <http://nga.jp/>
  */
 
 
 body {
-	background-color: #FFFFFF;
+	background-color: #FFF5EE;
 	border-color:#DB7093;
 	border-style: solid;
 	border-width: 1px 1px 1px 25px;
@@ -64,11 +64,11 @@ h1 {
 カレンダーの設定
 */
 p.calendar {
-	background-color: #FFF;
+	background-color: #FFF5EE;
 	text-align:right;
 	border-style: solid;
-	border-color: #DB7093;
-	border-width: 1px 1px 1px 0px;
+	border-color: #FFC0CB;
+	border-width: 1px 1px 1px 25px;
 	padding: 2px;
 	margin-right: 1em;
 	margin-bottom: 0.5em;
@@ -83,7 +83,6 @@ div.day {
 	border-style: solid;
 	border-color: #FFC0CB;
 	border-width: 0px 0px 0px 25px;
-
 	margin-left: 0;
 	margin-right: 1em;
 	margin-bottom: 0;
@@ -97,11 +96,10 @@ h2 {
 	color: #C71585;
 	margin-top: 0.1em;
 	margin-bottom: 0em;
-	border-color:#FFC0CB #FFE4E1 #FFE4E1 #FFE4E1;
+	border-color:#FFE4E1;
 	border-style: solid;
-	border-width: 1px 1px 1px 25px;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	border-width: 25px 0px 0px 25px;
+	padding: 0.5em;
 	margin-top: 0;
 	margin-left: 0em;
 	margin-right: 0;
@@ -119,6 +117,7 @@ div.section p {
 	text-indent:1em;
 	margin-left: 1em;
 	margin-bottom: 1em;
+	line-height:1.4;
 }
 /*
 日付の設定
@@ -155,6 +154,7 @@ div.body {
 h3.subtitle {
 	font-size: medium;
 	margin: 0em;
+	padding: 0.5em;
 	font-weight: bold;
 }
 
@@ -210,7 +210,7 @@ span.commentator {
 */
 p.referer {
 	background-color: #FFF5EE;
-	border-color:#FFE4E1 #FFE4E1 #FFF #FFE4E1;
+	border-color:#FFE4E1;
 	border-style: solid;
 	border-width: 1px 1px 1px 25px;
 	padding-top: 1em;
@@ -232,9 +232,8 @@ div.refererlist {
 	border-style: solid;
 	border-width: 1px 1px 1px 25px;
 	padding: 2px;
-	padding-bottom: 1px;
 	margin-left: 0em;
-	margin-right: 1em;
+	margin-bottom: 0;
 }
 
 /*
@@ -282,9 +281,14 @@ p.footer {
 フォーム全体を囲む枠の設定
 */
 div.form {
-	background-color: #eee;
-	padding: 0.5em 1em 0.5em 1em;
-	margin: 0.5em 1em 0.5em 2em;
+	font-size: small;
+	background-color: #FFF5EE;
+	border-color:#FFE4E1;
+	border-style: solid;
+	border-width: 1px 1px 1px 25px;
+	padding: 2px;
+	margin-left: 0em;
+	margin-bottom: 0;
 }
 
 /*
@@ -344,6 +348,11 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
+
+img {
+	border-style: none;
+}
+
 /*
 Calendar2の設定
 */

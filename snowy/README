@@ -8,6 +8,9 @@ Comment: ゆきだるまん
         Validated by W3C
 
 ChangeLog
+	2003-01-12 Nana <mpc@mikan.sakura.ne.jp>
+	* div.commntshort p margin-top:0.2em-> 12px;
+	
 	2002-12-15 Nana <mpc@mikan.sakura.ne.jp>
 	* add Snowy Theme.
 

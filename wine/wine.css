@@ -2,21 +2,15 @@
 Title: Wine
 Revision: 
 Author: Nana
-Access: <http://moo.boo.jp>
+Access: <clorets@estyle.ne.jp>
 Comment: ワイン色
  */
-
-/* ChangeLog
-2002-03-27 TADA Tadashi <sho@spc.gr.jp>
-	* fix textarea biyo--n problem.
-*/
-
 
 /*
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {	
-	font-size: small;
+	/*font-size: small;*/
 	color: #fff;
 	background-color: #800040;
 	margin: 3em 6em 1em 6em;
@@ -35,7 +29,7 @@ body {
 */
 div.adminmenu {
 	text-align: right;
-	font-size: small;
+	font-size: 90%;
 	margin-top: 0em;
 }
 
@@ -43,7 +37,7 @@ div.adminmenu {
 ページトップにある操作ボタン自体の設定
 */
 span.adminmenu {
-	font-size: 1em;
+	font-size: 90%;
 	background-color: #800040;
 	position: relative;
 	border-style: solid;
@@ -63,7 +57,7 @@ h1 {
 カレンダーの設定
 */
 div.calendar {
-	font-size: 1em;
+	font-size: 90%;
 	font-weight: bold;
 	background-color: #800040;
 	border-style: solid;
@@ -78,7 +72,7 @@ div.calendar {
 */
 div.day {
 	background-color: transparent;
-	font-size: small;
+	/*font-size: small;*/
 	border-style: solid;
 	border-color: #fff;
 	border-width: 0px 1px 1px 1px;
@@ -93,13 +87,14 @@ h2 {
 	border-style: solid;
 	border-color: #fff;
 	border-width: 5px 0px 0px 0px;
+	font-size: 120%;
 }
 
 /*
 日付の設定
 */
 h2 span.date {
-	font-size: 18px;
+	font-size: 120%;
 	font-family : Arial,"MS UI Gothic";
 	margin-left: 1em;
 }
@@ -115,7 +110,7 @@ h2 span.title {
 */
 div.body {
 	background-color: transparent;
-	font-size: 1em;
+	/*font-size: 1em;*/
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 24px;
@@ -126,7 +121,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -144,7 +139,7 @@ div.section p {
 ツッコミ欄全体の設定
 */
 div.comment {
-	font-size: 1em;
+	font-size: 90%;
 	background-color: #800040;
 	margin-left: 1em;
 	border-style: solid;
@@ -170,7 +165,7 @@ div.comment div.caption {
 div.referer {
 	margin: 0.4em 0.1em;
 	text-align: right;
-	font-size: 1em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 1px;
 	border-style: solid;
@@ -182,7 +177,7 @@ div.referer {
 リンク元リスト(全体一覧)の設定
 */
 div.refererlist {
-	font-size: 1em;
+	font-size: 90%;
 	background-color: #800040;
 	padding: 0px;
 	padding-bottom: 1px;
@@ -229,7 +224,7 @@ hr.sep {
 フッタの設定
 */
 div.footer {
-	font-size: 1em;
+	font-size: 90%;
 	text-align: right;
 	margin-top: 0px;
 }
@@ -291,7 +286,7 @@ p.message {
 整形済みテキスト(preタグ)の設定
 */
 pre {
-	font-size: 1em;
+	/*font-size: 1em;*/
 	background-color: #fff;
 	color: #800040;
 	margin-left: 0.5em;
@@ -339,7 +334,7 @@ p.strong {
 
 /* calendar2 */
 table.calendar {
-        font-size: small;
+        font-size: 90%;
         line-height: 100%;
         border-width: 1px;
         border-color: #fff;
@@ -369,7 +364,7 @@ div.body blockquote {
         color: #fff;
         font-style:italic;
         padding: 2px;
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 /*
@@ -394,13 +389,14 @@ div.commentbody {
 /*
 ツッコミした人の情報
 */
-div.commentator {
-	border-style: solid;
+span.commentator {
+	/*border-style: solid;
 	border-color: #aaa;
 	border-width: 1px 0px 0px 0px;
-	display: inline;
+	display: inline;*/
         margin-top: 0.5em;
 	padding: 3px;
+	font-weight: bold;
 }
 
 /*
@@ -449,7 +445,7 @@ form.comment textarea {
         display: block;
         background-color: #800040;
         color: #fff;
-        margin-left: 3em;
+        /*margin-left: 3em;*/
         width: 30em;
         height: 5em;
 }
@@ -496,7 +492,7 @@ form.update textarea {
         display: block;
         margin-left: 0em;
         margin-bottom: 1em;
-        width: 35em;
+        width: 30em;
         height: 15em;
 }
 
@@ -509,4 +505,72 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+サイドバー関連
+*/
+div.main {
+	margin-left: 18%;
+}
+div.sidebar {
+	width: 18%;
+	font-size: 90%;
+	margin: 0em 4px 0em 0em;
+	padding: 0.5em 2px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.sidebar p{
+	line-height: 120%;
+	text-align: center;
+	margin: 2px 4px 2px 4px;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 0.7em;
+}
+
+div.footnote {
+	font-size: 90%;
+	padding: 0em;
+	margin-left: 6em;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+/* calendar3 */
+.calendar-popup {
+	display: none;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0 1ex 0 1ex;
+	font-size: 90%;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+.calendar-todo {
+	border: 1px dashed blue;
 }

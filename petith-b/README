@@ -1,0 +1,17 @@
+Title: Petith Black
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+Comment: Petithの黒バック版
+License: GPL
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	validated by W3C
+ChangeLog
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

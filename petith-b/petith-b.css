@@ -48,7 +48,7 @@ p.strong {
 	color: #ffc0cb;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: 13px;
 }
@@ -74,7 +74,7 @@ h1 {
 	text-align: center;
 }
 
-p.calendar {
+div.calendar {
 	background-color: transparent;
 	border-style: none;
 	padding-top: 0.5em;
@@ -107,14 +107,14 @@ h.
     */
 }
 
-span.date {
+h2 span.date {
 	font-size: 13px;
 	margin-left: 0.5em;
 }
-span.date a{
+h2 span.date {
 	color: #94CECE;
 }
-span.date a:visited{
+h2 span.date {
 	color: #ffc0cb;
 }
 a:hover, a:focus {
@@ -141,20 +141,20 @@ div.body p {
 	margin-top: 0.3em;
 }
 
-p {
+div.section p {
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
 	line-height: 140%;
 }
 
-h3.subtitle {
+h3 {
 	margin: 0em;
 	padding: 0em;
 	font-weight: bold;
 	font-size: medium;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	background-image: url(petith-b_panchor.gif);
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -192,29 +192,23 @@ div.comment {
   	margin: 0em;
 	margin-right: auto;
 	margin-left: 6px;
-	margin-right: 50px;
 }
 
 div.comment p {
 	padding-left: 1em;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	text-align: right;
 }
 
-span.commentator {
-	position: relative;
-	left: -1em;
-}
-
-p.referertitle {
+div.refererlist div.caption {
 	border-style: solid;
 	border-color: #aaa;
 	border-width: 0px 0px 1px 0px;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: 13px;
 	background-color: transparent;
@@ -234,7 +228,7 @@ div.refererlist {
 	clear: both;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -248,7 +242,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	font-size: 13px;
 	text-align: right;
 	height: 32px;
@@ -283,16 +277,154 @@ textarea {
 	width: 80%;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 0em;
+}
+
+form.comment input {
+        background-color: white;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+	text-align: right;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        width: 25em;
+        height: 5em;
+	margin-left: auto;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	text-align: left;
+}
+
+div.day.update div.form {
+	margin-left: 0em;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

@@ -1,6 +1,6 @@
 /*
 Title: blackbox
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -63,7 +63,7 @@ em {
 div.adminmenu {
 	text-align: right;
 	font-size: small;
-	float: right;
+/*	float: right;*/
 }
 
 p.antenna {
@@ -102,7 +102,7 @@ div.calendar {
 	background-color: transparent;
 	border-style: none;
 	padding-top: 0.5em;
-	float: right;
+/*	float: right;*/
 }
 
 div.rank {
@@ -462,4 +462,8 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+div.body {
+   clear: both;
 }

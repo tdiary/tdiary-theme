@@ -1,0 +1,367 @@
+/*
+Title: Iris
+Revision: $Revision: 1.1 $
+Author: ゆ
+Access: <http://landscape.tdiary.net/>
+License: GPL
+Comment: 端午の節句ちなみ
+        
+Copyright 2002 (C) by ゆ <http://landscape.tdiary.net>
+Validated by W3C.
+*/
+
+a:link {
+	text-decoration: none;
+	color: #CC0066;
+}
+a:visited {
+	text-decoration: none;
+	color: #F7007B;
+}
+a:active {
+	color: #FF60AF;
+ 	text-decoration: none;
+}
+a:hover {
+	color: #FF60AF;
+ 	text-decoration: none;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #800040;
+	margin: 0px
+}
+
+p.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+span.adminmenu {}
+
+h1 {
+	border-bottom: #008000 5px solid;
+	margin: 0%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Tempus Sans ITC", sans-serif;
+}
+
+p.calendar {
+	font-size: 90%;
+	margin: 3% 5% 1% 5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left;
+}
+
+.headline {
+	border-bottom: #008000 0px solid;
+	border-left: #008000 0px solid;
+	border-right: #008000 0px solid;
+	border-top: #008000 0px solid;
+	font-size: 90%;
+	margin: 1% 1% 1% 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: right
+}
+
+div.intro{
+	margin-left: 40%;
+	margin-right: 5%;
+}
+
+div.day {
+	border-bottom: #004000 20px solid;
+	border-left: #004000 15px solid;
+	border-right: #004000 15px solid;
+	border-top: #004000 20px solid;
+	margin: 2% 20% 2% 20%;
+	padding: 1% 1% 1% 1%;
+}
+
+h2 {
+	font-size: 100%;
+	background-color: #FFEEF7;
+	border-top: #800040 5px solid;
+	border-right: #800040 5px solid;
+	border-bottom: #800040 5px solid;
+	border-left: #800040 5px solid;
+	margin-top: 3%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+span.date {
+	font-style: normal;
+	margin-left: 0.5%
+}
+
+span.title {
+	font-size: 100%
+}
+
+div.body {
+	border-bottom: #008000 20px solid;
+	border-left: #008000 15px solid;
+	border-right: #008000 15px solid;
+	border-top: #008000 20px solid;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 1% 1% 1% 1%;
+}
+
+h3.subtitle {
+	font-size: 90%;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 0.1%
+}
+
+div.day p {
+	line-height: 1.5;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+p {
+	font-size: 90%;
+}
+div.comment {
+	font-size: 90%;
+}
+
+
+
+
+p.commenttitle {
+	padding-left: 0.2%;
+	border-top: #008000 2px solid;
+	border-right: #008000 0px solid;
+	border-bottom: #008000 2px solid;
+	border-left: #008000 0px solid;
+}
+
+span.commentator {
+	border-top: #008000 2px solid;
+	border-right: #008000 0px solid;
+	border-bottom: #008000 2px solid;
+	border-left: #008000 0px solid;
+	color: #800040;
+	padding: 1% 1% 1% 1%;
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+p.referer {
+	font-size: 90%;
+	border-top: #008000 2px solid;
+	border-right: #008000 0px solid;
+	border-bottom: #008000 2px solid;
+	border-left: #008000 0px solid;
+	padding-top: 0.2%;
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+	text-align: right
+}
+
+div.refererlist {
+	border-top: #008000 2px solid;
+	border-right: #008000 0px solid;
+	border-bottom: #008000 2px solid;
+	border-left: #008000 0px solid;
+	font-size: 90%;
+	padding-top: 0.2%; 
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%
+}
+
+p.referertitle {
+	border-top: #008000 0px solid;
+	border-right: #008000 0px solid;
+	border-bottom: #008000 2px solid;
+	border-left: #008000 0px solid;
+}
+
+ul{
+	font-size: 90%
+}
+ul.referer {
+	margin-top: 0em;
+}
+ol{
+	font-size: 90%
+}
+
+hr {
+	border-top: #008000 1px solid;
+	border-right: #008000 1px solid;
+	border-bottom: #008000 1px solid;
+	border-left: #008000 1px solid;
+}
+
+hr.sep {
+	display: none
+}
+
+.sfooter {}
+
+p.footer {
+	font-family: "Tempus Sans ITC", sans-serif;
+	font-size: 85%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	text-align: right
+}
+
+div.form {
+	padding-top: 0.5%;
+	padding-right: 1%;
+	padding-bottom: 0.5%;
+	padding-left: 1%;
+}
+div.form form {
+	width: 90%;
+}
+
+input.field {
+	background-color: #ffffff;
+	border-right: 2px solid #008000;
+	border-left: 2px solid #008000;
+	border-top: 2px solid #008000;
+	border-bottom: 2px solid #008000;
+        text-indent: 0em ! important;
+        color: #000000;
+}
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	background-color: #ffffff;
+	border-right: 2px solid #008000;
+	border-left: 2px solid #008000;
+	border-top: 2px solid #008000;
+	border-bottom: 2px solid #008000;
+        text-indent: 0em ! important;
+        width: 90%;
+        color: #000;
+}
+
+p.message {
+	background-color: #ffffff;
+	color: #F7007B;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-align: center
+}
+
+pre {
+	background-color: #FFEEF7;
+	border-top: #800040 2px solid;
+	border-right: #800040 2px solid;
+	border-bottom: #800040 2px solid;
+	border-left: #800040 2px solid;
+	color: #800040;
+	margin-right: 2%;
+	margin-left: 1%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+dl {
+	margin-left: 2em;
+	font-size: 90%
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	line-height: 1.5
+}
+
+blockquote {
+	color: #008000;
+	background-color: #D0FFD0;
+	border-top: #004000 2px solid;
+	border-right: #004000 2px solid;
+	border-bottom: #004000 2px solid;
+	border-left: #004000 2px solid;
+	margin: 1% 2%;
+	padding-top: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 0.5%;
+}
+
+div.section blockquote p {
+	margin-top : 0em;
+	text-indent: 0em
+}
+
+em {
+	background-color: #FFEEF7;
+	color: #800040;
+	font-style: normal;
+	font-weight: normal
+}
+
+strong {
+	background: #FFEEF7;
+	color: #800040
+}
+
+.hide {
+	background-color: #ffffff
+}
+
+/* calendar2 */
+table.calendar {
+        font-size: 0.9em;
+        line-height: 100%;
+        border-width: 2px;
+        border-color: #800040;
+        border-style: solid;
+        background-color: #FFEEF7;
+        padding: 1px;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left: 5%
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+

@@ -1,5 +1,5 @@
 /*
-	double.css: Double Style Sheet of tDiary $Revision: 1.1 $
+	double.css: Double Style Sheet of tDiary $Revision: 1.2 $
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
@@ -92,9 +92,13 @@ div.body {
 	text-align: left;
 	padding: 0.1em;
 }
+/* This ">" selector does not affects IE */
+div.day div.section > * {
+	margin-left: 100px;
+}
 
 h3.subtitle {
-	margin: 0em;
+	margin: 0em ! important;
 	padding: 0em;
 	font-weight: bold;
 	font-size: medium;
@@ -170,7 +174,7 @@ div.refererlist {
 	margin-top: 0.5em;
 }
 
-ul.referer {
+ul {
 	margin-top: 0em;
 	margin-left: 100px;
 }

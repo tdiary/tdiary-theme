@@ -1,5 +1,5 @@
 /*
-	bistro_menu.css: Style Sheet of tDiary $Revision: 1.2 $
+	bistro_menu.css: Style Sheet of tDiary $Revision: 1.3 $
 	created by Shinchan <http://nga.jp/>
 	validated by W3C.
  */
@@ -26,7 +26,7 @@ a:hover, a:focus {
 }
 
 body {
-	background-image: url(bistro_menu__back.gif);
+	background-image: url(bistro_menu_back.gif);
 	background-color: #f4d9a9;
 	color: #696969;
 }

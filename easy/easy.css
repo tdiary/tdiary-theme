@@ -1,0 +1,335 @@
+/*
+        easy.css Easy Style Sheet of tDiary 
+        created by アビー <http://www2.justnet.ne.jp/~inlet/>
+        Modified by Nana
+        Validated by W3C.
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	color: #4b0082; /* indigo */
+	background-color: #fffafa; /*snow */
+	font-family: Verdana,Arial,Helvetica,serif;
+}
+
+a:link {
+	color: #66c;
+	background-color: snow;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #099;
+	background-color: snow;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active {
+	color: #660;
+	background-color: snow;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #ffd700; /* gold */
+	background-color: snow;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+
+p.adminmenu {
+	font-size: small;
+	text-align: right;
+}
+
+p.message {
+	color: white;
+	background-color: black;
+	font-size: small;
+	text-align: center;
+	padding: 8px;
+}
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	color: #4b0082; /* indigo */
+	background-color: #f5f5f5; /* whitesmoke */
+	font-size: small;
+	padding: 2px;
+}
+/*
+日記タイトルの設定
+*/
+h1 {
+	font-size: small;
+	text-align: right;
+	border-style: solid double;
+	border-color: slategray;
+	border-width: 1px 10px 0px 0px;
+	padding: 5px 10px 5px 10px;
+}
+/*
+カレンダーの設定
+*/
+p.calendar {
+	margin-bottom: 0.5em;
+	border-style: none;
+	border-color: darkslategray #eee #eee darkslategray;
+	border-width: 1px;
+	padding: 2px;
+}
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	text-align: left;
+	margin: 3em 10% 3em 10%;
+	padding: 0px 10px 0px 10px;
+	clear: both;
+}
+/*
+タイトル行全体の設定
+*/
+h2 {
+	text-align: right;
+	margin: 0.5em auto 0em 0em;
+	border-style: solid double;
+	border-color: slategray;
+	border-width: 1px 15px 0px 0px;
+	padding: 10px 10px 10px 0px;
+}
+/*
+日付の設定
+*/
+span.date {
+	color: #4b0082; /* indigo */
+	background-color: #f5f5f5; /* whitesmoke */	
+	text-align: center;
+
+}
+/*
+タイトルの設定
+*/
+span.title {
+}
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	text-align: left;
+	margin: 0px auto 0px auto;
+	border-style: solid;
+	border-color: slategray;
+	border-width: 0px 0px 1px 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	color: #7b68ee; /* mediumslateblue */
+	background-color: snow;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0em;
+}
+
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+	text-align: center;
+}
+pre {
+	color: #f5f5f5; /* whitesmoke */
+	background-color: #4682b4; /* steelblue */
+	margin-left: 2em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	margin-right: 3em;
+	padding: 8px;
+	line-height: 1.3;
+}
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	text-align: left;
+	font-size: 13px;
+	margin: auto 5px;
+	border-style: solid;
+	border-color: slategray;
+	border-width: 0px 0px 1px 0px;
+	padding-left: 0.5em;
+	clear: both;
+}
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: slategray;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+p.comment {
+	text-align: left;
+}
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	color: #4b0082;/* indigo */
+	background-color: #f5f5f5; /* whitesmoke */
+	text-align: left;
+	border-style: solid;
+	border-color: slategray;
+	border-width: 1px;
+	padding: 2px;
+}
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	margin-left: 24px;
+	margin-right: 12px;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	color: gray;
+	background-color: snow;
+	text-align: right;
+	margin-top: 1em;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px 0px 0px 0px;
+	padding-bottom: 1px;
+}
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	text-align: left;
+	margin-top: 0em;
+}
+/*
+罫線の設定
+*/
+hr {
+	border-style: dotted;
+	border-color: #4682b4; /* steelblue */
+	border-width: 1px;
+}
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	border-style: solid double;
+	border-color: slategray;
+	border-width: 0px 0px 1px 10px;
+	clear: both;
+}
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	color: #4682b4; /* steelblue */
+	background-color: #f5f5f5; /* whitesmoke */
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+
+input.field {
+	color: #4682b4; /* steelblue */
+	background-color: white;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	color:#4682b4; /* steelblue */
+	background-color: white;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* plugin */
+span.footnote {
+              color: #4b0082;
+	      font-size: 0.6em;
+}
+div.footnote {
+	     background-color: #f5f5f5;
+}
+p.footnote {
+	   font-size: 0.8em;
+}
+
+

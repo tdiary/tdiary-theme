@@ -8,6 +8,9 @@ Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 validated by W3C.
 
 ChangeLog
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+	* change span.panchor -> span.sanchor. But not using.
+
 2002-09-27 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
         * first release
 

@@ -1,6 +1,6 @@
 /*
 Title: Autumn
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -154,8 +154,8 @@ h3 {
   - colorに背景色と同じ色を指定(文字を見えなくするため)
 */
 /*
-div.day h3 span.panchor {
-	background-image: url(calendar_may.png);
+div.day h3 span.sanchor {
+	background-image: url(sanchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	padding: 0px 0px 120px 120px;
@@ -166,7 +166,7 @@ div.day h3 span.panchor {
 }
 
 div.day span.canchor {
-	background-image: url(double_canchor.png);
+	background-image: url(canchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	padding: 14px 12px 0px 0px;

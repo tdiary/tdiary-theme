@@ -1,13 +1,24 @@
 Title: Stripe
 Author: Nana
-Access: http://moo.boo.jp
+Access: <clorets@estyle.ne.jp>
 License: GPL
-Comment: none
+Comment: 
 
-	Copyright by (C) Nana http://moo.boo.jp
+	Copyright by (C) Nana <clorets@estyle.ne.jp>
 	Modified by TADA Tadashi
 
 ChangeLog
+2003-02-07 Nana <clorets@estyle.ne.jp>
+	* remove body font-size:1em,p.message,p.body,div.body:fon-size:small
+	* h3 font-size:small->120%
+	* p.referer,div.referlist font-size:small->90%
+	* h2,span.date,span.title font-size 100%,h1 font-size:small->130%
+	* remove div.day,div.form {-moz-opacity:0.7;filter:Alpha(opacity=70);background-color :#D2FFFF;}
+	* add div.day,div.form {background-image:url(stripe.png);}
+	* add calendar2,footnote,recent_list
+	* remove div.calendar font-weight:bold,width:90%, font-size:medium->90%
+	* remove p.message font-size: small
+
 2002-10-13 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

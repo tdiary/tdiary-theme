@@ -1,0 +1,320 @@
+/*
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.1 $
+ */
+a:link, a:visited {
+	color: #24f;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #4af;
+	text-decoration: none;
+}
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-color: #fff;
+	color: black;
+	margin: 0em 0.5em 1em 1em;
+	background-image: url(sky.png);
+	background-repeat: repeat-x;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+}
+
+/*
+カレンダーの設定
+*/
+p.calendar {
+	border-style: none;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 2px;
+	margin-bottom: 0.5em;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	border-style: none none none dotted;
+	border-color: #008;
+	border-width: 0px 0px 0px 1px;
+	padding-bottom: 0em;
+	padding-left: 1em;
+	margin-bottom: 0em;
+	margin-left: 8em;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+/*
+日付の設定
+*/
+span.date {
+	font-size: large;
+	margin-left: 0.5em;
+}
+
+/*
+タイトルの設定
+*/
+span.date a:link, span.date a:visited {
+	color: #4af;
+	text-decoration: none;
+}
+
+span.date a:hover ,span.date a:focus {
+	color: #24f;
+	text-decoration: none;
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	font-size: 1em;
+	margin: 0em;
+	font-weight: bold;
+}
+
+h3.subtitle a:link, h3.subtitle a:visited {
+	color: #2a4;
+	text-decoration: none;
+}
+h3.subtitle a:hover, h3.subtitle a:focus {
+	color: #4e8;
+	text-decoration: none;
+}
+/*
+日記の本文(段落)の設定
+*/
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	font-size: small;
+	background-color: #fff;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+}
+
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+	text-align: right;
+	font-size: small;
+	background-color: #eef;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+	font-size: small;
+	background-color: #eee;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-right: 30px;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	background-color: transparent;
+	border-style: none none none dotted;
+	border-color: #008;
+	border-width: 0px 0px 1px 1px;
+	padding: 0.5em 1em 0.5em 24px;
+	margin-bottom: 0.5em;
+	margin-left: 8em;
+}}
+
+/*
+入力フィールドの設定
+*/
+input.field {
+	background-color: white;
+}
+input[type="submit"] {
+	background-color: transparent
+}
+
+
+/*
+複数行入力フィールドの設定
+*/
+textarea {
+	background-color: white;
+	margin-left: 1em;
+}
+textarea:hover, textarea:focus, textarea:active {
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background-color: #ddf;
+	color: #0080ff;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+

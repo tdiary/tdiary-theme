@@ -1,0 +1,266 @@
+body {
+    background-image: url(orange_namazu.gif);
+	color: maroon;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+a:link {
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+a:visited {
+        text-decoration: none;
+        color: green;
+        font-weight: bold;
+	
+}
+a:hover,a:active {
+	text-decoration: underline;
+	color: mediumspringgreen;
+    font-weight: bold;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: 13px;
+}
+
+p.message {
+	text-align: center;
+	font-size: 13px;
+	background-color: red;
+	color: white;
+	margin: 0px;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.calendar {
+    font-family :Georgia;
+    color: darkgreen;
+    font-size: 15px;
+	background-color: transparent;
+	padding: 2px;
+    margin-bottom: 0.5em;
+	
+}
+
+div.day {
+	margin-bottom: 0.5em;
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-family :Georgia;
+    font-size: 15px;
+}
+span.date {
+    font-family :Georgia;
+    font-weight: bold;
+	font-size: 15px;
+	padding: 2px;
+}
+span.date a:link, span.date a:visited {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+span.date a:hover ,span.date a:focus {
+	color: mediumspringgreen;
+	text-decoration: underline overline;
+}
+
+span.title {
+}
+
+div.body {
+    
+    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 0px;
+	margin-right: 6px;
+	width: 50%;
+	float: left;
+	border-style: none; 
+	border-color: #fff darkgray darkgray darkgray; 
+	border-width: 1px;
+	padding: 4px;
+    font-size: 13px;
+}
+
+p.body {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 1.2;
+	padding-left: 1em;
+	padding-top:0em;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+	width: 80%;
+}
+
+pre {
+	background-color: #ff0;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+    font-family :osaka,"Lucida Sans Unicode",Arial,sans-serif;
+    background-color: ;
+	font-size: 13px;
+	color: maroon;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-right: 0px;
+	margin-left: 50%;
+}
+p.commenttitle {
+	margin-left: 0em;
+	color: #E30000;
+    border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+	color: #E30000;
+}
+
+p.referertitle {
+	width: 100px;
+	margin-left: 4em;
+}
+
+p.referer {
+	text-align: right;
+	font-size: 13px;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 4em;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: 13px;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 30%;
+	margin-right: 12px;
+	width: 400px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+
+p.footer {
+	font-size: 13px;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+
+div.form {
+	background-color: transparent;
+	border-style: solid;
+	border-color: darkgray #eee #eee darkgray;
+	border-width: 1px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	width:80%;
+}
+
+input.field {
+	background-color: transparent;
+	color: #000;
+	border-color: mediumspringgreen;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, select, option {
+	background-color: transparent;
+	border-color: mediumspringgreen;
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	background-color: transparent;
+	margin-left: 1em;
+	color: #000;
+	border-color: mediumspringgreen;
+	border-style: solid;
+	border-width: 1px;
+    width:80%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+Å@Å@font-family:"Comic Sans MS","ÇlÇr UI ÉSÉVÉbÉN";
+    
+}

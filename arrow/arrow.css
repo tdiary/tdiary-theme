@@ -1,6 +1,6 @@
 /*
 Title: arrow
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: epi
 Access: <episode@104.net>
 License: GPL
@@ -121,8 +121,8 @@ h2 span.title {
 position:absolute;
 font-size: large;
 text-align:right;
-height: 60px;
-top: 50px;
+height: 40px;
+top: 42px;
 left: -67%;
 width: 100%;
 color:#FFFFFF;

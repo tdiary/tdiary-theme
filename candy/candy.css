@@ -1,9 +1,13 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.3 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.4 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
 /* CangeLog
+2002-03-14 TADA Tadashi <sho@spc.gr.jp>
+	* marge with the theme of Asumi Diary.
+	* add span.panchor and span.canchor.
+
 2002-03-03 TADA Tadahi <sho@spc.gr.jp>
 	* fix comment bug.
 
@@ -126,6 +130,29 @@ h3.subtitle {
 	font-weight: bold;
 }
 
+div.day span.panchor {
+	background-image: url(candy_red.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-right: 1em;
+}
+
+a:link span.panchor, a:visited span.panchor {
+	color: #900;
+}
+
+div.day span.canchor {
+	background-image: url(candy_blue.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-top: 6px;
+	padding-right: 1em;
+}
+
+a:link span.canchor, a:visited span.canchor {
+	color: #55f;
+}
+
 pre {
 	background-color: #8B0000;
 	color: white;
@@ -135,14 +162,17 @@ pre {
 }
 
 div.comment {
-	background-color: white;
+	background-color: #eceebe;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 2px;
 	color: black;
-	font-size: small;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
-	margin-left: 4em;
+	margin-left: 3em;
 	margin-right: 1em;
+	font-size: small;
 }
 
 p.commenttitle {
@@ -162,24 +192,28 @@ p.referertitle {
 }
 
 p.referer {
-	background-color: white;
-	color: #000000;
+	background-color: #eceebe;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 2px;
 	text-align: right;
 	font-size: small;
 	padding: 2px;
 	padding-bottom: 1px;
-	margin-left: 4em;
+	margin-left: 3em;
 	margin-right: 1em;
 }
 
 div.refererlist {
-	background-color: white;
-	color: #000000;
+	background-color: #eceebe;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 2px;
 	font-size: small;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
-	margin-left: 4em;
+	margin-left: 3em;
 	margin-right: 1em;
 }
 
@@ -204,12 +238,13 @@ p.footer {
 }
 
 div.form {
-	background-color: white;
-	color: #000000;
+	background-color: #eceebe;
+	border-style: inset;
+	border-color: #eceebe;
+	border-width: 2px;
 	padding: 0.5em 1em 0.5em 1em;
-	margin-left: 3em;
-	margin-right: 1em;
-	margin-bottom: 0.5em;
+	margin: 0.5em 1em 0.5em 3em;
+	font-size: small;
 }
 
 input.field {

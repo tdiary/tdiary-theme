@@ -1,10 +1,11 @@
 /*
-	haru.css: Default Style Sheet of tDiary $Revision: 1.1 $
+	haru.css: HARU Style Sheet of tDiary $Revision: 1.2 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+	validated by W3C
  */
 a:link, a:visited {
 	color: #0080ff;
 	text-decoration: none;
-    
 }
 
 a:active {
@@ -21,17 +22,18 @@ a:hover, a:focus{
 */
 body {
 	background-color: #fff;
-    font-size: 13px;
+	font-size: 13px;
 	color: black;
 	margin: 0em 0.5em 1em 1em;
 	background-image: url(haru_3.png);
 	background-attachment: fixed;
-    font-family :osaka, Arial,"MS UI Gothic";
+	font-family :osaka, Arial,"MS UI Gothic";
 }
 
 div.body p a{
 	background-image:url(haru.gif) ;
-	
+}
+
 /*
 ページトップにある操作ボタンの並ぶ行の設定
 */
@@ -44,8 +46,8 @@ p.adminmenu {
 ページトップにある操作ボタン自体の設定
 */
 span.adminmenu {
-    font-size: 13px;
-    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	font-size: 13px;
+	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
 	background-color: transparent;
 	border-style: solid;
 	border-color: #eee #aaa #aaa #eee;
@@ -63,10 +65,10 @@ h1 {
 /*
 カレンダーの設定
 */
-p.calendar {font-size: 13px;
-    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
-    
-    text-align: right;
+p.calendar {
+	font-size: 13px;
+	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	text-align: right;
 	border-style: none;
 	border-color: darkgray #eee #eee darkgray;
 	border-width: 1px;
@@ -78,7 +80,7 @@ p.calendar {font-size: 13px;
 1日の日記全体を囲む枠の設定
 */
 div.day {
-    font-family :osaka, Arial,"MS UI Gothic";
+	font-family :osaka, Arial,"MS UI Gothic";
 	border-style: none;
 	border-color: pink;
 	border-width: 1px;
@@ -100,8 +102,7 @@ h2 {
 日付の設定
 */
 span.date {
-    font-size: 15px;
-    
+	font-size: 15px;
 	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
 	margin-left: 0.5em;
 }
@@ -110,7 +111,7 @@ span.date {
 タイトルの設定
 */
 span.date a:link, span.date a:visited {
-	color: pink;
+	color: #ffc0cb;
 	text-decoration: none;
 }
 
@@ -134,7 +135,7 @@ div.body {
 サブタイトルの設定
 */
 h3.subtitle {
-    font-family :osaka,"Lucida Sans Unicode",Arial;
+	font-family :osaka,"Lucida Sans Unicode",Arial;
 	font-size: 13px;
 	margin: 0em;
 	font-weight: bold;
@@ -154,7 +155,7 @@ h3.subtitle a:hover, h3.subtitle a:focus {
 p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
-	line-height: 1.3;
+	line-height: 1.3em;
 }
 
 /*
@@ -162,7 +163,6 @@ p {
 */
 div.comment {
 	font-size: 13px;
-	background-color: ;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -175,9 +175,9 @@ div.comment {
 */
 p.commenttitle {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
-width: 90%;
+	width: 90%;
 }
 
 /*
@@ -185,7 +185,7 @@ width: 90%;
 */
 span.commentator {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
 	padding: 3px;
 }
@@ -196,7 +196,6 @@ span.commentator {
 p.referer {
 	text-align: right;
 	font-size: 13px;
-	background-color: ;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-left: 12px;
@@ -208,7 +207,6 @@ p.referer {
 */
 div.refererlist {
 	font-size: 13px;
-	background-color: ;
 	padding: 2px;
 	padding-bottom: 1px;
 	margin-top: 0.5em;
@@ -221,9 +219,9 @@ div.refererlist {
 */
 p.referertitle {
 	border-style: solid;
-	border-color: pink;
+	border-color: #ffc0cb;
 	border-width: 0px 0px 1px 0px;
-width: 90%;
+	width: 90%;
 }
 
 /*
@@ -239,8 +237,8 @@ ul.referer {
 hr {
 	border-style: solid;
 	border-width: 1px 0px 0px 0px;
-	border-color: pink;
-    width: 90%;
+	border-color: #ffc0cb;
+	width: 90%;
 }
 
 /*
@@ -254,8 +252,7 @@ hr.sep {
 フッタの設定
 */
 p.footer {
-    
-    font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
+	font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;
 	font-size: 13px;
 	text-align: right;
 	padding-bottom: 0px;
@@ -275,8 +272,7 @@ div.form {
 	padding: 0.5em 1em 0.5em 24px;
 	margin-bottom: 0.5em;
 	margin-left: 0em;
-    
-}}
+}
 
 /*
 入力フィールドの設定
@@ -293,7 +289,7 @@ input.field {
 textarea {
 	background-color: white;
 	margin-left: 1em;
-    width:80%
+	width:80%
 }
 
 /*
@@ -316,7 +312,7 @@ pre {
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 8px;
-    width: 90%
+	width: 90%
 }
 
 /*
@@ -339,6 +335,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-　　font-family:"Comic Sans MS","ＭＳ UI ゴシック";
-    color: #ff0;
+	font-family:"Comic Sans MS","ＭＳ UI ゴシック";
+	color: #ff0;
 }

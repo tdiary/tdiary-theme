@@ -1,6 +1,6 @@
 /*
 Title: Note
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -215,8 +215,8 @@ ul.referer li {
 	line-height: 24px;
 }
 
-div.day ol {
-	margin-top: 0em;
+div.section ol, div.section ul {
+	margin-top: 0px;
 	line-height: 24px;
 }
 

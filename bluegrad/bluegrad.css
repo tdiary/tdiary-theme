@@ -1,6 +1,7 @@
 /*
 	bluegrad.css: grad Style Sheet
 	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	validated by W3C
  */
 a:link {
 	text-decoration: none;
@@ -16,7 +17,7 @@ a:active {
 }
 
 a:hover, a:focus {
-	color: mediumblue;
+	color: #0000cd;
 }
 
 body {
@@ -115,19 +116,6 @@ div.day {
 	margin-top: 0.5em;
 }
 
-div.day:before {
-	white-space: pre;
-	background-color: transparent;
-	display: block;
-	text-align: left;
-}
-div.day:after {
-	white-space: pre;
-	background-color: transparent;
-	display: block;
-	text-align: left;
-}
-
 h2 {
 	margin-top: 0em;
 	margin-bottom: 0em;
@@ -169,7 +157,7 @@ div.body p {
 p {
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
-	line-height: 1.4;
+	line-height: 1.4em;
 }
 
 h3.subtitle {
@@ -180,17 +168,24 @@ h3.subtitle {
 	margin-top: 0.7em;
 }
 
-div.body a.anchor{
+div.day span.panchor {
 	background-image: url(bluegrad_anchor.png);
-	background-position: left top;
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	font-size: 1.4em;
+	padding: 20px 20px 0px 0px;
+	color: #c0ffff;
+	background-color: transparent;
+	font-size: 1px;
 }
 
-div.body p a.anchor{
-	background-image: url(bluegrad_commentanchor.png) ! important;
-	background-position: center center;
+div.day span.canchor {
+	background-image: url(bluegrad_commentanchor.png);
+	background-position: bottom right;
 	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #c0ffff;
+	background-color: transparent;
+	font-size: 1px;
 }
 
 pre {
@@ -211,19 +206,8 @@ div.comment {
 	padding-left: 2em;
 }
 
-div.comment a.anchor{
-	background-image: url(bluegrad_commentanchor.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-}
-
-
 p.commenttitle {
 	text-align: left;
-}
-
-p.commenttitle a {
-	background-image: none ! important;
 }
 
 span.commentator {
@@ -290,6 +274,7 @@ input.field {
 
 input {
 	clear: left;
+	line-height: 1em;
 }
 
 textarea {

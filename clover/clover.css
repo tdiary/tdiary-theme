@@ -1,10 +1,14 @@
 /*
-clover.css: クローバー $Revision: 1.2 $
+clover.css: クローバー $Revision: 1.3 $
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Distributed under the GPL.
 
 validated by W3C.
+*/
+/* ChangeLog
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
 */
 
 body {
@@ -211,6 +215,7 @@ div.day div.form {
 div.form form {
 	margin: 0;
 	padding: 4px 4px 4px 4px;
+	width: 100%;
 }
 
 div.form p {
@@ -221,7 +226,6 @@ div.form p {
 
 div.form textarea {
 	margin-left: 2em;
-	width: 90%;
 }
 
 p.referer {

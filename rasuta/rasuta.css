@@ -1,0 +1,382 @@
+/*
+	rasta.css: Line Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+	Modified by TADA Tadashi
+ */
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+    text-align : center;
+    font-family :osaka, Arial,"MS UI Gothic";
+    font-size: small;
+	background-image: url(rasuta_400.gif);
+    background-color: #840000;
+	color: #fff;
+    
+}
+
+div.all {
+	direction: ltr;
+	writing-mode: tb-rl;
+	height: 75%;
+	width: 90%;
+	overflow: auto;
+	margin: 0em;
+	clear: both;
+}
+
+
+a:link {
+        text-decoration: none;
+	    color: #fff;
+        font-weight:bold;
+}
+a:visited {
+        text-decoration: none;
+        font-weight:bold;
+        color: #fff;
+}
+a:hover,a:active {
+	    text-decoration: underline overline;
+        color: yellow;
+}
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: small;
+	background-color: #F879AA;
+	color: white;
+	padding: 8px;
+}
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background-color: transparent;
+	padding: 3px;
+    font-size: small;
+}
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: left;
+	font-size: small;
+}
+/*
+カレンダーの設定
+*/
+p.calendar {
+    
+	font-size: 14px;
+    font-weight: bold;
+	
+	text-align: center;
+	padding: 5px;
+    border-style: none;
+	border-color: #F879AA;
+	border-width: 0px 0px 3px 0px;
+    width:80%
+}
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+    -moz-opacity:0.8;
+    filter:Alpha(opacity=80);
+    background-color: orange;
+    color: #000;
+	margin: 3em auto 3em auto;
+	text-align: left;
+	clear: both;
+	width: 80%;
+	border-style: solid;
+	border-color: #008400;
+	border-width: 5px;
+	padding: 0px 8px 0px 8px;
+}
+/*
+タイトル行全体の設定
+*/
+h2 {
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	margin-left: auto;
+	margin-right: 0px;
+	font-size: small;
+    font-weight: bold;
+}
+/*
+日付の設定
+*/
+span.date {
+	font-weight: bold;
+	font-size: small;
+	text-align: center;
+	
+	
+}
+/*
+タイトルの設定
+*/
+span.title {
+	font-size: small;
+}
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+    
+    font-size: small;
+	margin: 0px auto 0px auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: left;
+	color: #000;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+p {font-size: small;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+p.sentence {
+	margin-left: 12px;
+	margin-right: 12px;
+	line-height: 1.2;
+	border-style: none;
+	border-color: #000;
+	border-width: 1px 0px 0px 0px;
+}
+/*
+サブタイトルの設定
+*/
+h3.subtitle {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+    font-size: small;
+	clear: both;
+}
+span.anchor {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-weight: bold;
+	font-size: small;
+	float: left;
+}
+
+pre {
+	border-style: none;
+	font-size: small;
+　　background-color: #fff;
+    color: #005AC9; 
+	border-color: #fcc;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 5px 5px 5px 5px;
+}
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+    -moz-opacity:0.8;
+    filter:Alpha(opacity=80);
+    background-color: #C6C600;
+	font-size: small;
+	clear: both;
+	text-align: left;
+	padding-bottom: 1px;
+	margin: auto 5px;
+	border-style: solid;
+	border-color: #008400;
+	border-width: 3px 3px 3px 3px;
+}
+/*
+ツッコミ欄タイトル行の設定
+*/
+p.commenttitle {
+	text-align: right;
+	position: relative;
+	font-size: small;
+	color: #000;
+	display: inline;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-style: none;
+	
+}
+/*
+ツッコミした人の名前の設定
+*/
+span.commentator {
+	padding-top: 0px;
+	margin-top: 0px;
+	display: block;
+	color: #000;
+	clear: both;
+}
+
+p.comment {
+	font-size: small;
+	text-align: left;
+	color: #000;
+	padding: 0px 0px 0px 0px;
+	margin-left: 26px;
+	margin-right: 12px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	line-height: 1.0;
+}
+/*
+リンク元リストタイトルの設定
+*/
+p.referertitle {
+	color: #000;
+	text-align: left;
+	background-color: #840000;
+	border-style: none;
+	border-color: #000;
+	border-width: 3px;
+    padding: 2px;
+}
+/*
+リンク元リスト(短い方)の設定
+*/
+p.referer {
+    background-color: #840000;
+	
+	text-align: center;
+	color: #fff;
+	
+	font-size: small;
+	padding: 2px;
+	border-style: none;
+	
+	border-width: 3px;
+}
+/*
+リンク元リスト(全体一覧)の設定
+*/
+div.refererlist {
+    
+	font-size: small;
+	text-align: right;
+	padding-bottom: 1px;
+	margin-top: 1em;
+	border-style: solid;
+	border-color: #000;
+	border-width: 3px 0px 0px 0px;
+}
+/*
+リンク元リスト一覧の設定
+*/
+ul.referer {
+	margin-top: 0em;
+	text-align: left;
+}
+/*
+罫線の設定
+*/
+hr {
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #AD5477;
+}
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+p.footer {
+	font-size: small;
+	text-align: right;
+	margin-top: 0px;
+	clear: both;
+}
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+    -moz-opacity:0.8;
+    filter:Alpha(opacity=80);
+	background-color: orange;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+    border-width: 5px;
+    width: 80%;
+    border-color: #008400;
+	border-style: solid;
+}
+form {
+    
+    color: #000;
+	background-color: transparent;
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+    
+}
+
+
+input.field {
+    
+	color: #000000;
+	border-color: #008400;
+	border-style: solid;
+	
+}
+
+input, select, option {
+	
+	color: #000;
+	border-color: #008400;
+	border-style: solid;
+	
+	clear: both;
+}
+
+textarea {
+    
+	color: #000;
+	border-color: #008400;
+	border-style: solid;
+	width: 90%;
+}
+/*
+項目リストの設定
+*/
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}

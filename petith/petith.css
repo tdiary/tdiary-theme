@@ -1,5 +1,5 @@
 /*
-	petith.css: Petith Style Sheet of tDiary $Revision: 1.4 $
+	petith.css: Petith Style Sheet of tDiary $Revision: 1.5 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	validated by W3C
         
@@ -8,24 +8,33 @@
         remove font-family,font-size:13px>>>1em
         changed pre-style
         div.day margin-left,right:12%>>>10%    
+        
+        2002-3-21 by Nana
+        validated by W3C >>> warned of is corrected. 
  */
 a:link {
 	text-decoration: none;
 	color: #4A8CAD;
+        background-color: #fff;
 }
+
 a:visited {
 	text-decoration: none;
 	color: #4A8CAD;
+        background-color: #fff;
 }
 
 a:active {
-	text-decoration: none;    
+        color: #ff0;
+	text-decoration: none;
+        background-color: #fff;    
 }
 
 a:hover, a:focus {
 	color: #ba55d3;
 	border-bottom:2pt double;
 	text-decoration: none;
+        background-color: #fff;
 }
 
 body {
@@ -40,6 +49,7 @@ p.strong {
 	font-weight: bold;
 	text-align: center;
        	color: #0080FF;
+        background-color: #fff;
 }
 
 p.adminmenu {
@@ -228,7 +238,7 @@ ul.referer {
 
 hr {
 	border-style: solid;
-	border-width: 2px 0px 0px 0px;
+	border-width: 1px 0px 0px 0px;
 	border-color: #ddd;
 }
 
@@ -246,12 +256,14 @@ div.form {
 	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
-	margin-left: 20%;
+	margin-left: 0%;
 	width: 80%;
+        text-align: left;
 }
 
 input.field {
-	background-color: white;
+	background-color: #fff;
+        color: #000;
 }
 
 input {
@@ -259,7 +271,8 @@ input {
 }
 
 textarea {
-	background-color: white;
+	background-color: #fff;
+        color: #000;
 	margin-left: 1em;
 	width: 90%;
 }
@@ -276,4 +289,8 @@ dt {
 dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+.hide {
+        color: #999;
+        background-color: #fff;
 }

@@ -1,5 +1,5 @@
 Title: Cat
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -9,6 +9,11 @@ Comment: ねこ雲に乗るノーマル版
 	validated by W3C.
 
 ChangeLog
+2003-09-09 zoe <poincare@ikezoe.net>
+	* add width property in div.section p.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.net/cgi-bin/rubbs/support?top=663
+	  
 2003-09-05 NT <nt@be.to>
 	* remove specification of font-family.
 	

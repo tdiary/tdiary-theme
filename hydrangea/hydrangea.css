@@ -1,6 +1,6 @@
 /*
 Title: Hydrangea
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
@@ -130,7 +130,7 @@ div.comment {
 }
 
 p.commenttitle {
-	padding-left: 0.2%;
+	padding-left: 0.2% ;
 	border-top: #8A7CD8 1px solid;
 	border-right: #8A7CD8 0px solid;
 	border-bottom: #8A7CD8 1px solid;
@@ -143,7 +143,7 @@ span.commentator {
 	border-bottom: #8A7CD8 1px solid;
 	border-left: #8A7CD8 0px solid;
 	color: #6A5ACD;
-	padding: 1% 1% 1% 1%;
+	padding: 2px 1% 2px 1%;
 }
 
 div.comment p {

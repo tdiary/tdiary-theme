@@ -10,6 +10,13 @@
        
         Modified by Nana <mpc@mikan.sakura.ne.jp>
         validated by W3C
+
+--Change Log---
+ 2002-05-16 epi
+        * add sidebar_left, sidebar_right, main_left, main_right
+                  if (sidebar == left) sidebar_left + main_right
+                  if (sidebar == right) sidebar_right +  main_left
+        * calendar2  margin modified
 */
        
 /*
@@ -408,4 +415,35 @@ ul {
  margin: 1em 2em;
 }
 
+/* sidebar */
+div.rightmain {
+margin-left: 20%;
+}
+div.leftmain {
+margin-right: 20%;
+}
+
+div.leftsidebar {
+background-color: transparent;
+float: left;
+width: 20%;
+height:100%;
+font-size: x-small;
+padding: 2px 2px 100% 2px;
+}
+
+div.sidebar p {
+line-height: 120%;
+text-align: center;
+margin: 2px 4px 2px 4px;
+}
+
+div.rightsidebar {
+background-color: transparent;
+float: right;
+width: 20%;
+height:100%;
+font-size: x-small;
+padding: 2px 2px 100% 2px;
+}
 

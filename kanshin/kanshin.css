@@ -1,6 +1,6 @@
 /*
 Title: kanshin
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: abbey
 Access: inlet@cello.no-ip.org
 License: GPL
@@ -44,7 +44,8 @@ body {
 	background-color: #fff;
 	background-position: center;
 	color: #333;
-	margin: 1em;
+	margin: 0px;
+	margin-bottom: 1em;
 }
 
 strong {
@@ -79,6 +80,12 @@ span.adminmenu {
 	border-color: #eee #aaa #aaa #eee;
 	border-width: 0px 0px 0px 0px;
 	padding: 3px;
+	font-size: 0.9em;
+}
+
+span.adminmenu a:link, span.adminmenu a:visited {
+	color: #fff;
+	background-color: #690;
 }
 
 h1 {

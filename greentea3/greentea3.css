@@ -1,6 +1,6 @@
 /*
 Title: GreenTea3
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: NT
 Access: nt@24i.net
 License: GPL
@@ -110,11 +110,8 @@ div.calendar {
 }
 
 div.day {
-        background-image: url(greentea3_back.jpg);
-        background-attachment: scroll;
-        background-repeat: repeat;
-        border-width: 1px;
-        padding-bottom: 0.5em;
+	background-color: transparent;
+        padding-bottom: 1ex;
         margin-bottom: 0.5em;
 }
 
@@ -391,6 +388,19 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day {
+	background-color: transparent;
+        border-style: dotted;
+        border-color: #96B34E;
+        border-width: 1px 1px 1px 1px;
+	padding: 5px;
+}
+
+div.update.day div.form {
+	border: none;
+	background-color: transparent;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

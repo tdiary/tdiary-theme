@@ -5,8 +5,10 @@ License: GPL
 Comment: 某 OS 風のテーマ
 
 validated by W3C.
-calendar2 プラグインに対応
 
 Changelog
+2002-10-06 NT <nt@24i.net>
+        * change some properties in update form.
+
 2002-09-12 NT <nt@24i.net>
         * convert for 1.5 series.

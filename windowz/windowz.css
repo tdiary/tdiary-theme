@@ -1,6 +1,6 @@
 /*
 	Title: Windowz
-	Rivision: $Revision: 1.7 $ 
+	Rivision: $Revision: 1.8 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -541,6 +541,10 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day {
+	border: none;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

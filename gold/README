@@ -4,11 +4,14 @@ Access: stakei@nga.jp
 License: GPL
 Comment: なんとなくゴールドっぽいテーマ 
 
+gold.css: Style Sheet of tDiary
 created by Shinchan <http://nga.jp/>
 validated by W3C.
-calendar2 プラグイン対応
 
 ChangeLog
+2002-10-06 NT <nt@24i.net>
+        * change some properties in update form.
+
 2002-09-23 NT <nt@24i.net>
         * convert for 1.5 series.
 

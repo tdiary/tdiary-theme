@@ -4,10 +4,29 @@ Access: nt@24i.net
 License: GPL
 Comment: 春らしい若葉色のテーマ、でも名前は緑茶
 
-このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで
-表示させることができます。
-日記を縦書きにするには、ヘッダに <div class="all">、フッタに </div> 
-と入れる必要があります。
-ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、
-縦書きになる範囲が変化します。div.all 内の height の数値をいじると
-スクロールする部分の高さが変化します。
+使用上の注意
+  このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで
+表示されます。日記を縦書きにするには、日記のヘッダに <div class="all">
+フッタに </div> と入れる必要があります。
+  ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、
+縦書きになる範囲が変化します。
+  div.all 内の height の数値をいじるとスクロールする部分の高さが変化します。
+
+ChangeLog
+2002-10-06 NT <nt@24i.net>
+        * change some properties in update form.
+
+2002-09-12 NT <nt@24i.net>
+	* convert for 1.5 series.
+
+2002-05-07 zoe <zoe@kasumi.sakura.ne.jp>
+	* fix overflow problem (scroll -> none).
+
+2002-05-07 NT <nt@24i.net>
+	* fix overflow problem.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

@@ -1,6 +1,6 @@
 /*
 Title: ハート
-Revision: $Revision: 1.8 $
+Revision: $Revision: 1.9 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 背景にハートマークがちりばめられています
@@ -9,7 +9,7 @@ Comment: 背景にハートマークがちりばめられています
  */
 /* ChangeLog
 2002-09-24 NT <nt@24i.net>
-        * convert for 1.5 series.
+	* convert for 1.5 series.
 
 2002-06-07 Nana
         * removed a:hover #fff, add text-decoration:underline
@@ -283,7 +283,7 @@ div.form {
 	padding: 0.5em 1em 0.5em 1em;
 	margin-bottom: 0.5em;
 	border-style: none;
-	width: 95%;
+	width: 80%;
 	border-color: #F879AA;
 	border-style: solid;
 }
@@ -417,6 +417,23 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day {
+	-moz-opacity:0.8;
+	filter:Alpha(opacity=85);
+	background-color: #FFCE00;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	border-style: none;
+	width: 80%;
+	border-color: #F879AA;
+	border-style: solid;
+}
+
+div.update.day div.form {
+	background-color: transparent;
+        border: none;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

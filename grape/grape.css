@@ -1,6 +1,6 @@
 /*
 Title: Grape
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
@@ -441,6 +441,11 @@ div.button {
 /*
 更新フォーム
 */
+div.update.day div.form {
+	border: none;
+	background-color: transparent;
+}
+
 form.update {
         padding-top: 0.5em;
         padding-bottom: 0.5em;

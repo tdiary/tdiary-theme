@@ -1,5 +1,5 @@
 /*
-clover.css: クローバー $Revision: 1.1 $
+clover.css: クローバー $Revision: 1.2 $
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Distributed under the GPL.
@@ -378,3 +378,11 @@ div.sidebar {
 	background-color: #cfd;
 }
 
+div.sidebar p {
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #3faf43;
+	border-width: 0px 0px 1px 0px;
+	margin: 2px 4px 2px 4px;
+}

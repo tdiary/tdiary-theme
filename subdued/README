@@ -1,5 +1,5 @@
 Title:  Subdued
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: http://moo.boo.jp
 Comment: 地味な落ちついたシャツなイメージ
@@ -9,5 +9,9 @@ License: GPL
         validated by W3C.
 
 Changelog
-	2002-12-01 
-        *  add Subdued Theme Nana <moo@xu.boo.jp>
+2003-09-22 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+	
+2002-12-01 Nana <moo@xu.boo.jp>
+        *  add Subdued Theme

@@ -6,6 +6,9 @@ Comment: 夏だ！海が呼んでいるーなテーマ
 validated by W3C.
 
 ChangeLog
+2003-09-22 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-17 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

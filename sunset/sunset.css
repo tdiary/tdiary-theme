@@ -1,6 +1,6 @@
 /*
         Title: Sunset
-        Revision: $Revision: 1.5 $
+        Revision: $Revision: 1.6 $
         Author: epi
         Access: <http://wind.prohosting.com/~episodee/>
         License: GPL
@@ -22,7 +22,6 @@ body {
 	min-width: 20em;
 	color:           #2F4F4F;
 	background-color:#FFFAFA;
-	font-family: osaka,'MS Gothic',sans-serif;
 /*	font-size:	small;*/
         text-align:     left;
 }
@@ -68,7 +67,6 @@ span.adminmenu {
 日記タイトルの設定
 */
 h1 {
-	font-family: Verdana,sans-serif;
 	text-align: center;
 	color: #800000;
 }
@@ -115,7 +113,6 @@ h2 {
 日付の設定
 */
 h2 span.date {
-	font-family: Verdana,sans-serif;
 	color: #FC8C00;
 	background-color: #FFFAFA;
 	font-size: 110%; 
@@ -290,7 +287,7 @@ hr.sep {
 フッタの設定
 */
 div.footer {
-	font-size: 0.8em;
+	font-size: 80%;
 	text-align: right;
 }
 
@@ -390,7 +387,6 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-family: Verdana,sans-serif;
 	font-size: x-small;
 	margin-top: 0px;
 	margin-bottom: 0px;

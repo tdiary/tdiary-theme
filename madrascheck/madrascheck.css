@@ -1,0 +1,576 @@
+/*
+Title: Madras check
+Revision: $Revision: 1.1 $
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: Madras check
+	
+Copyright 2002 (C) by Nana <mpc@mikan.sakura.ne.jp>
+validated by W3C.
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background-image: url(madras-blue.jpg);
+	color: #fff;
+	background-color: #000068;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+        text-align: center;
+}
+/*
+リンク文字列に関する設定
+*/
+a:link {
+	text-decoration: none;
+	color: #0038FF;
+}
+a:visited {
+	text-decoration: none;
+	color: #87CEFA;
+}
+a:hover,a:active {
+	text-decoration: underline;
+	color: #000080;
+	background-color:#fff
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+        padding: 2px;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+        margin-top: 5px;
+	padding: 2px;
+	background-color: #000068;
+	color: #fff;
+        
+}
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	text-align: center;
+	font-size: 130%;
+}
+
+div.calendar {
+	text-align: left;
+	font-size: small;
+	padding: 2px;
+	margin-top: 0.5em;
+	background-color: #000068;
+	color: #fff;
+}
+div.calendar div.year {
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	margin-top: 4em;
+	text-align: left;
+	padding: 0px 8px 0px 8px;
+	background-color: #fff;
+	color: #000068;
+	border: 1px solid #000068;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	text-align: left;
+	margin: 0.1em auto 0px auto;
+	font-weight: bold;
+}
+/*
+日付の設定
+*/
+h2 span.date {
+        font-family: "Times New Roman",Times,sans-serif;
+	font-size: medium;
+	font-style: italic;
+	padding: 1em;	
+}
+
+h2 span.date a:visited{
+	font-weight: normal;
+}
+/*
+タイトルの設定
+*/
+h2 span.title {
+	font-size: medium;
+	text-align: right;
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	margin: 0px auto 0px auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: left;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+div.section p {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 140%;
+	margin-left: 12px;
+}
+/*
+サブタイトルの設定
+*/
+h3 {
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+	font-size: medium;
+	border-bottom: 1px dashed #000068;
+	
+}
+
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.sanchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+
+div.day span.sanchor {
+	background-image: url(sanchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 20px 20px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+/*
+div.day span.canchor {
+	background-image: url(canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 12px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+*/
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	border: dashed 1px #ddd;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	text-align: left;
+}
+
+/*
+ツッコミ/フォーム/リンク元のキャプション設定
+*/
+div.comment {
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+div.comment div.caption {
+	text-align: left;
+	font-size: small;
+	margin-bottom: 1em;
+	padding: 1em;
+	background-image: url(madras.png);
+}
+div.comment div.caption a:link,a:visited {
+	color: #000080;
+}
+
+/* リンク元リスト(Month/Latestモード)の設定 */
+div.refererlist div.caption {
+	text-align: left;
+	padding: 1em;
+	font-size: small;
+}
+/*
+リンク元リスト(Month/Latestモード)の設定
+*/
+div.referer {
+	text-align: right;
+	font-size: small;
+	padding: 0.5em;
+}
+/* リンク元リスト(Dayモード)の設定 */
+div.refererlist {
+	font-size: small;
+	text-align: right;
+	padding-bottom: 1px;
+	margin-top: 0.2em;
+}
+/*
+リンク元リスト一覧の設定
+*/
+div.refererlist ul {
+	margin-top: 0em;
+	text-align: left;
+}
+/*
+罫線の設定
+*/
+hr {
+	border-bottom: solid 1px #ddd;
+}
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+div.footer {
+	font-size: small;
+}
+/*
+更新フォーム
+*/
+div.form form {
+	text-align: left;
+	padding: 0.5em 1em;
+	margin-bottom: 0.5em;
+	width: 95%;
+}
+
+input.field,input, select,textarea{
+	background-color: #000068;
+	color: #fff;
+	text-align: left;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        font-size: 0.9em;
+        margin-left: 0px;
+}
+
+span.commentator {
+        color: #000068;
+	font-weight: bold;
+	border-bottom: dotted 1px #000068;
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.3em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 130%;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0px;
+        padding-left: 1em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 1em;
+}
+
+div.form div.caption {
+        font-size: 0.9em;
+        border: solid 1px #000080;
+        margin: 1em;
+	padding: 0.5em;
+}
+
+div.form form.comment {
+        font-size: 0.9em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+        margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding: 0.5em 0px;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #000068;
+        color: #fff;
+}
+
+form.update span.field {
+        display: inline;
+        margin: 0em 0.5em 0px 0px;
+}
+
+form.update div.field.title {
+        display: block;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin: 0px 0px 1em 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}
+/*
+箇条書きの設定
+*/
+div.body ul, div.body ol {
+	margin: 0px auto 0px 3em;
+}
+
+/*
+項目リストの設定
+*/
+div.body dl {
+	margin-left: 3em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin: 0em 3em 0.5em 1em;
+}
+/*
+引用(blockquoteタグ)の設定
+*/
+blockquote {
+        padding: 5px;
+        border: solid 3px #000068;
+	background-color: #6495ED;
+}
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-top: 0em;
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
+}
+
+div.rank {
+        font-size: 90%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+}
+div.rank a:link,a:visited {
+	color: #00BFFF;
+}
+
+div.rank a:hover {
+	color: #000080;
+	background-color:#fff 
+}
+
+.search {
+	text-align: left;
+}
+
+/* footnote脚注プラグイン */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+div.body div.footnote {
+	font-size: small;
+        text-align: left;
+        padding: 1px;
+	margin-left: 20%;
+}
+p.strong {
+        font-size: 180%;
+	text-align: center;
+}
+
+/* calendar2 */
+table.calendar{
+	font-size: x-small;
+	line-height: 1.1em;
+	text-align: center;
+        margin: auto auto;
+}
+table.calendar td {
+	text-align: right;
+}
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+	background-color: white; color:#000068;
+	font-size: x-small;
+}
+.calendar-day a{
+	font-weight: normal;
+}
+.calendar-sunday {
+	color: #DA70D6;
+}
+.calendar-saturday {
+	color: #1E90FF;
+}
+.calendar-weekday {
+	color: #fff;
+}
+.calendar-todo {
+	background-color: white; color:#000068;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin: 0em;
+	text-align: center;
+	background-color: #B0C4DE;
+	border-top: 1px solid #000068;
+	border-bottom: 1px solid #000068;
+	padding: 0px;
+}
+div.recentsubtitles {
+	font-size: x-small;
+	margin: 0px 0px 5px 0px;
+	padding-left: 3px;
+        color: #000068;
+        text-align: left;
+	background-color: #fff;
+	border-bottom: 1px solid #000068;
+}
+
+/* counter */
+div.counter p{font-size: 13px;color: white;
+	font-family: "Courier New",Times,sans-serif;}
+span.counter,span.counter-today,span.counter-yesterday{
+	margin-top: 1em;padding: 2px;
+}
+span.counter-0, span.counter-1, span.counter-2, span.counter-3, span.counter-4{
+	margin: 0pt;padding: 1pt 2pt 1pt 2pt;
+	color: white;background-color: #000068;
+}

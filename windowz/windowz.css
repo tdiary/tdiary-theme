@@ -1,6 +1,6 @@
 /*
 	Title: Windowz
-	Rivision: $Revision: 1.8 $ 
+	Rivision: $Revision: 1.9 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
@@ -515,7 +515,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -527,7 +526,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
         width: 30em;
         height: 5em;
@@ -552,7 +550,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

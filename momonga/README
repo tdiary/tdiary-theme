@@ -17,6 +17,9 @@ colors:
    #F1EDEC almost white (background color of momo_bg.png)
 
 ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-12 NT <nt@24i.net>
         * convert for 1.5 series.
 

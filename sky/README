@@ -7,6 +7,9 @@ Comment: おお青い空白い雲
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
 ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove "color:".
+
 2002-10-18 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

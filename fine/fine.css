@@ -1,6 +1,6 @@
 /*
 Title: Fine
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -9,6 +9,9 @@ License: GPL
 	validated by W3C
  */
 /* ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-15 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -338,7 +341,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -352,7 +354,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -375,7 +376,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

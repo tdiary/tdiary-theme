@@ -1,6 +1,6 @@
 /*
 Title: HARU
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Comment: support calendar2
 Access: http://mikan.sakura.ne.jp/~mpc/
@@ -9,6 +9,9 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 	validated by W3C
  */
 /* ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-24 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -392,7 +395,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -404,7 +406,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
         width: 30em;
         height: 5em;
@@ -425,7 +426,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

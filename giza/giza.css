@@ -1,12 +1,15 @@
 /*
 Title: еое╢еое╢
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 
    Copyright (C)by Nana http://mikan.sakura.ne.jp/~mpc/
 */
 /* ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-23 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -330,7 +333,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -342,7 +344,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
         width: 30em;
         height: 5em;
@@ -363,7 +364,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

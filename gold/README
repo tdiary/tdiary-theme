@@ -9,6 +9,9 @@ created by Shinchan <http://nga.jp/>
 validated by W3C.
 
 ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-10-06 NT <nt@24i.net>
         * change some properties in update form.
 

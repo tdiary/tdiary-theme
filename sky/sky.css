@@ -3,7 +3,7 @@ Title: Sky
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 
-	sky.css: Sky Style Sheet of tDiary $Revision: 1.6 $
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.7 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
@@ -396,7 +396,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 

@@ -1,6 +1,6 @@
 /*
 Title: Easy
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: abbey
 Access: http://cello.no-ip.org/
 License: GPL
@@ -12,6 +12,9 @@ Comment: お気楽に作成したテーマ<br>4/15 calendar2とtitle_list対応
         Validated by W3C.
 */
 /* ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-15 NT <nt@24i.net>
         * convert for 1.5 series.
 
@@ -516,7 +519,6 @@ div.field {
 
 form.comment input {
         background-color: white;
-        color: 
         margin-left: 1em;
 }
 
@@ -528,7 +530,6 @@ div.textarea {
 form.comment textarea {
         display: block;
         background-color: white;
-        color: 
         margin-left: 3em;
         width: 30em;
         height: 5em;
@@ -549,7 +550,6 @@ form.update {
 
 form.update input, form.update textarea, form.commentstat input {
         background-color: white;
-        color: 
 }
 
 form.update span.field {

@@ -7,6 +7,9 @@ Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
 validated by W3C
 
 ChangeLog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
 2002-09-24 NT <nt@24i.net>
         * convert for 1.5 series.
 

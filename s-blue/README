@@ -1,0 +1,17 @@
+Title: S-BLUE
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+Comment: 淡いブルーベースのシンプル系
+
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
+	validated by W3C
+ChangeLog
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

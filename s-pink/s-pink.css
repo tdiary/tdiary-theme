@@ -1,6 +1,6 @@
 /*
 Title: S-PINK
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 淡いピンクベースのシンプル系
@@ -48,7 +48,7 @@ strong {
 	font-size: larger;
 }
 
-p.adminmenu {
+div.adminmenu {
 	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
 	text-align: right;
 	font-size: small;
@@ -83,7 +83,7 @@ h1 {
 	text-align: center;
 }
 
-p.calendar {
+div.calendar {
 	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	color: #000;
 	background-color: transparent;
@@ -111,16 +111,16 @@ h2 {
 	font-size: medium;
 }
 
-span.date {
+h2 span.date {
 	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	font-size: small;
 	margin-left: 0.5em;
 	margin-top: 3em;
 }
-span.date a {
+h2 span.date {
 	color: #FF4242;
 }
-span.title {
+h2 span.title {
 }
 
 div.body {
@@ -141,13 +141,13 @@ div.body p {
 
 
 
-p {
+div.section p {
 	margin-bottom: 0.5em;
 	margin-top: 0.3em;
 	line-height: 1.4;
 }
 
-h3.subtitle {
+h3 {
 	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
 	margin: 0em;
 	padding: 0em;
@@ -179,22 +179,18 @@ div.comment p {
 	padding-left: 1em;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	text-align: right;
 }
 
-span.commentator {
-	position: relative;
-	left: -1em;
-}
 
-p.referertitle {
+div.refererlist div.caption {
 	border-style: solid;
 	border-color: #aaa;
 	border-width: 0px 0px 1px 0px;
 }
 
-p.referer {
+div.referer {
 	text-align: right;
 	font-size: small;
 	color: #000;
@@ -215,7 +211,7 @@ div.refererlist {
 	clear: both;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 }
 
@@ -229,7 +225,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
+div.footer {
 	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	font-size: small;
 	text-align: right;
@@ -262,16 +258,16 @@ textarea {
 	margin-left: 1em;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -281,4 +277,139 @@ p.strong {
 	text-align: center;
 	/*font-family:"Comic Sans MS","ＭＳ UI ゴシック";*/
 	color: red;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: black;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: black;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	text-align: left;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: black;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

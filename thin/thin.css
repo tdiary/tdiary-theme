@@ -1,0 +1,337 @@
+/*
+	thin.css: Thin Style Sheet of tDiary $Revision: 1.1 $
+	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+        Only a few changed Theme Double.
+        Theme Double Copyright (C) by zoe http://www.kasumi.sakura.ne.jp/~zoe/
+        Validated by W3C
+ */
+
+div.rank {
+	font-size: 0.6em;
+	text-align: left;
+	margin: 0em;
+}
+
+a:link {
+	text-decoration: none;
+	color: #006699;
+}
+a:visited {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+a:active {
+	text-decoration: none;
+        color: #ff0;
+}
+
+a:hover, a:focus {
+	color: #000;
+        text-decoration: underline overline;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+        border-style: none;
+        border-color: #cccccc;
+        border-width: 8px;
+        margin: 2% 5% 2% 5%;
+     /* background-image: url(back.jpg); */
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-attachment: fixed;
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+        margin-top: 10%;
+        margin-left: 100px;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #000099;
+	width: 66%;
+	color: #999;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: none;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: left;
+        font-size: 1em;
+        color: #000;
+        font-weight: bold;
+}
+
+span.calendar {
+	border-style: solid;
+	border-color: #000;
+        text-align: right;
+	border-width: 2px;
+        background-color: transparent;
+        margin-left: 100px;
+        float: left;
+}
+
+div.day {
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin: 0em;
+	margin-bottom: 2em;
+	border-style: none;
+	border-color: #006699;
+	border-width: 3px;
+        background-color: transparent;
+        color: #000;
+}
+
+div.day span.panchor {
+     /* background-image: url(panchor.png); */
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        padding: 17px 17px 0px 0px;
+        color: #cccccc;
+        font-size: 0px;
+}
+
+div.day span.canchor {
+     /* background-image: url(canchor.png); */
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        padding: 13px 13px 1px 1px;
+        color: #cccccc;
+        font-size: 0px;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: auto;
+	padding: 3px;
+	text-align: right;
+        font-size: 1em;
+        background-color: transparent;
+        border-color: #99cccc;
+        border-width: 0px 2px 1px 0px;
+        border-style: solid;
+}
+
+span.date a {
+	color: #000033;
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+}
+/* This ">" selector does not affects IE */
+div.day div.section > * {
+	margin-left: 120px;
+}
+
+h3.subtitle {
+	margin: 0em ! important;
+	padding: 0em;
+	font-weight: bold;
+	font-size: 1em;
+	border-style: none;
+	border-color: #cccccc;
+	border-width: 1px 0px 0px 1px;
+}
+
+div.section p {
+	line-height: 1.3em;
+	margin-left: 120px;
+}
+div.section p a, a:visited{
+        color: #006699;
+}
+
+pre {
+	margin-left: 100px;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+	border-style: double solid double solid;
+	border-color: #cccccc;
+	border-width: 0px 0px 3px 1px;
+        background-color: transparent;
+        color: #000;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.comment p{
+	margin-left: 120px;
+}
+
+p.commenttitle {
+	text-align: left;
+	margin-left: 0em ! important;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0px 0px 1px 0px;
+}
+
+span.commentator {
+	margin-left: -100px;
+	display: block;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referertitle {
+        border-style: solid;
+	border-color: #cccccc;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	color: #000;
+        border-width: 1px 0px 1px 0px;
+	border-style: solid none solid none;
+	border-color: #cccccc;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+}
+
+ul {
+	margin-top: 0em;
+	margin-left: 100px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-left: 120px;
+        border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #cccccc;
+}
+
+input.field {
+        background-color: #fff;
+        color: #000;
+}
+
+input, select {
+        background-color: transparent;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+}
+
+form.sarch{
+        background-color: transparent;
+        color: #000;
+        border-style: none;
+	border-color: #cccccc;
+	border-width: 1px;
+}
+
+input.sarch{
+        border-style: solid;
+        margin-right: 0px;
+        padding: 2px;
+        background-color: transparent;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: solid solid solid solid;
+	border-color: #cccccc;
+	border-width: 1px 1px 1px 1px;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+li {
+	list-style-type: square;
+}
+
+p.strong{
+    font-size: 200%;
+    color: #000;
+}
+.memo{
+    background-color: #6495ed;
+    color: #fff;
+}
+
+.hide{
+    background-color: #000;
+}
+
+div.footnote p.footnote{
+	margin-left: 120px;
+        border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+	border-color: #cccccc;
+	background-color: transparent;
+        padding: 3px;
+	color: #000; 
+}
+

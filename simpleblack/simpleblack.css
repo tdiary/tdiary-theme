@@ -1,5 +1,5 @@
 /*
-	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.2 $
+	simpleblack.css: SimpleBlack Style Sheet of tDiary $Revision: 1.3 $
 	Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc
 	Modified by TADA Tadashi
         validated by W3C
@@ -74,7 +74,7 @@ h1 {
 p.calendar {
 	font-size: medium;
         font-weight: bold;
-       	text-align: center;
+       	text-align: left;
 	padding: 5px;
         border-style: none;
 	border-color: #000;
@@ -358,3 +358,5 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
+
+  

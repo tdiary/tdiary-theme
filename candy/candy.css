@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.4 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.5 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -132,25 +132,20 @@ h3.subtitle {
 
 div.day span.panchor {
 	background-image: url(candy_red.png);
-	background-position: center left;
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	padding-right: 1em;
-}
-
-a:link span.panchor, a:visited span.panchor {
-	color: #900;
+	padding: 16px 16px 0px 0px;
+	color: #fdffcf;
+	font-size: 0;
 }
 
 div.day span.canchor {
 	background-image: url(candy_blue.png);
-	background-position: center left;
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	padding-top: 6px;
-	padding-right: 1em;
-}
-
-a:link span.canchor, a:visited span.canchor {
-	color: #55f;
+	padding: 16px 16px 0px 0px;
+	color: #eceebe;
+	font-size: 0;
 }
 
 pre {

@@ -1,0 +1,600 @@
+/*
+Title: nenga
+Author: peco
+Access: <http://pe.cot.jp/tdiary/>
+License: GPL
+Comment: 年賀ハガキアンカー
+
+	Copyright 2002 (C) by peco <peco@momo.so-net.ne.jp>
+	validated by W3C.
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	background: #ffffff;
+	color: #663300;
+	font-family: Verdana,Arial,sans-serif;
+	margin: 1em 5em;
+}
+
+/*
+リンク文字列に関する設定
+*/
+a:link {
+	background: transparent;
+	color: #ff4500;
+	text-decoration: none;
+}
+
+a:visited {
+	background: transparent;
+	color: #800080;
+	text-decoration: none;
+}
+
+a:active {
+	background: transparent;
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	background: transparent;
+	color: #c0c0c0;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu {
+	background: #ffffcc url(nenga_back.png);
+	color:#663300;
+	border: #ffffff dotted 3px;
+	padding: 0.2em;
+}
+
+/*
+カレンダーの設定
+*/
+div.calendar {
+	background: transparent;
+	color: #663300;
+	text-align: left;
+	font-size: 100%;
+}
+div.calendar div.year {
+}
+/*
+日記タイトルの設定
+*/
+h1 {
+	background: transparent;
+	color: #663300;
+	text-align: center;
+	font-size: 200%;
+}
+
+/*
+1日の日記全体を囲む枠の設定
+*/
+div.day {
+	background: #ffff99 url(nenga_back.png);
+	color: #663300;
+	text-align: left;
+	margin: 2em 0em;
+	border: dotted #ffffff 3px;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2 {
+	background: transparent;
+	color: #800080;
+	font-size: 100%;
+	margin: 1em;
+	padding: 0em;
+}
+
+/*
+日付の設定
+*/
+h2 span.date {
+}
+
+/*
+タイトルの設定
+*/
+h2 span.title {
+	padding-left: 1em;
+}
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body {
+	background: #ffffff;
+	color:#663300;
+	text-align: left;
+	margin: 1em;
+	padding: 1em;
+}
+
+/*
+サブタイトルを含むセクションの設定
+*/
+div.section {
+	background: #ffffff;
+	color:#663300;
+	margin: 1em;
+}
+
+/*
+サブタイトルの設定
+*/
+h3 {
+	background: #ffffff;
+	color: #ff4500;
+	padding: 20px 0px 4px 4px;
+	margin-top: 0px;
+	font-weight: normal;
+	font-size: 100%;
+	border-bottom: #800080 dashed 1px;
+}
+
+/*
+イメージアンカーの設定
+ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.sanchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+
+div.day span.sanchor {
+	background-image: url(nenga_sanchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 30px 20px 0px 0px;
+	color: #ffffff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+
+div.day span.canchor {
+	background-image: url(nenga_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 12px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+/*
+日記の本文(段落)の設定
+*/
+div.section p {
+	line-height: 1.5em;
+	padding: 0em 1em;
+}
+
+/*
+ツッコミ/フォーム/リンク元のキャプション設定
+*/
+div.caption {
+	background: transparent;
+	color: #663300;
+	text-align: left;
+	margin: 0px 10px;
+	padding: 0.5em;
+	border-bottom: #800080 dashed 1px;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	background:#ffffff;
+	color: #663300;
+	font-size: 100%;
+	text-align: left;
+	margin: 1em;
+	padding: 1em;
+	line-height: 1.5em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+	font-size: 100%;
+	margin: 1em;
+}
+span.commentator {
+	font-weight: bold;
+}
+div.commentshort p {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	font-size: 100%;
+	line-height: 24px;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+	margin: 2px 8px;
+}
+
+/*
+ツッコミした人の情報
+*/
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+	background: transparent;
+	color: #663300 ;
+	margin-left: 2em;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	text-align: left;
+	padding: 4px;
+	margin: 0em;
+}
+
+div.form div.caption {
+	background: transparent;
+	color: #663300;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div.form div.caption a{
+	display: block;
+	padding: 2px;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+	margin: 0em 0em 0em 4px;
+}
+
+div.form form.comment {
+	font-size: 0.9em;
+}
+
+div.field {
+	display: inline;
+}
+form.comment input {
+	background-color: #ffffff;
+	color: #000;
+	margin-left: 1em;
+}
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+}
+
+form.comment textarea {
+	display: block;
+	background-color: #ffffff;
+	color: #000;
+	margin-left: 3em;
+	width: 25em;
+	height: 5em;
+}
+
+div.button {
+	display: block;
+}
+
+/*
+リンク元リスト(Month/Latestモード)の設定
+*/
+div.referer {
+	background: transparent;
+	color: #663300;
+	text-align: right;
+	font-size: 90%;
+	margin: 0.5em 1em;
+	padding: 0em;
+}
+
+/*
+リンク元リスト(Dayモード)の設定
+*/
+div.refererlist {
+	background: transparent;
+	color: #663300;
+	font-size: 90%;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+div.refererlist ul {
+	margin-top: 1em;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: none;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+div.footer {
+	background: transparent;
+	color:#663300;
+	font-size: 100%;
+	text-align: center;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	background-color: #eeeeee;
+	color: #663300;
+}
+
+div.day.update div.form div.caption {
+	background-color: transparent;
+	color: #663300;
+	margin: 0px;
+	border-style: none;
+	padding-left: 20px;
+}
+
+div.day.update div.form {
+	padding: 0px;
+}
+
+form.update div {
+	padding: 0px;
+	margin: 0px 1px;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+	background-color: #ffffff;
+	color: #000;
+}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+form.update div.field.title input {
+	margin-left: 0.5em;
+}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+}
+form.update textarea {
+	display: block;
+	margin-left: 3em;
+	margin-bottom: 1em;
+	width: 30em;
+	height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+	margin-top: 0em;
+}
+
+div.day.conf h2 span.title {
+	display: block;
+	text-align: left;
+	padding-left: 70px;
+}
+
+div.day.conf div.body {
+	padding: 8px;
+}
+div.conf.day textarea {
+	display: block;
+	margin-bottom: 1em;
+	width: 30em;
+	height: 15em;
+}
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)の設定
+*/
+pre {
+	background: #ffffcc;
+	color: #663300;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 1em;
+}
+
+/*
+引用(blockquoteタグ)の設定
+*/
+div.body blockquote {
+	background: #ffffcc url(nenga_back.png);
+	color: #663300;
+	margin-left: 2em;
+	padding: 1em;
+}
+
+div.body blockquote p {
+	margin: 0.5em 0em 0.5em 0em;
+}
+/*
+引用ソースの表示
+*/
+p.source{
+	margin-top: 0em;
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
+}
+/*
+箇条書きの設定
+*/
+div.body ul, div.body ol {
+	margin-left: 4em;
+	margin-right: 3em;
+}
+
+/*
+項目リストの設定
+*/
+div.body dl {
+	margin-left: 5em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin: 0em 3em 0.5em 1em;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+*/
+
+/* recent_list */
+p.recentitem {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 0px;
+        
+}
+
+div.recentsubtitles {
+	font-size: x-small;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+        padding-bottom: 0px;
+}
+/* calendar2 */
+table.calendar {
+	font-size: x-small;
+	line-height: 1.1em;
+	margin: 2px auto;
+}
+
+table.calendar td {
+	text-align: right;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+
+div.body div.footnote {
+	background: #ffffcc;
+	color: #663300;
+	font-size: small;
+	padding: 0px;
+	margin: 0px 10%;
+}
+
+/* calendar3 */
+.calendar-popup {
+        display: none;
+        position: absolute;
+	padding: 0 1ex 0 1ex;
+}
+
+.calendar-day a{
+	font-weight: normal;
+}
+
+.calendar-sunday {
+	background: transparent;
+	color: #ffa500;
+}
+
+.calendar-saturday {
+	background: transparent;
+	color: #800080;
+}
+
+.calendar-weekday {
+	background: transparent;
+	color: #663300;
+}
+.calendar-todo {
+	border-style: dashed;
+	border-color: #800080;
+	border-width: 1px;
+}
+div.rank {
+        font-size: small;
+}

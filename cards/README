@@ -6,3 +6,7 @@ Comment: メッセージカードを並べたようなテーマ
 
 validated by W3C.
 calendar2, calendar3 プラグインに対応
+
+Changelog
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".

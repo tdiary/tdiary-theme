@@ -8,6 +8,10 @@ validated by W3C.
 Copyright (C) Nana <http://mikan.sakura.ne.jp/~mpc/>
 
 Changelog
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+        * equalize indent size.
+	* add a:link etc. in h2 span.date sections.
+
 2002-10-18 NT <nt@24i.net>
         * remove some "color:".
 

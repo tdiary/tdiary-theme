@@ -19,22 +19,21 @@ Changelog
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-  background-color: #000;
-  color: #e6e6fa;
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-top: 0px;
-  
+	background-color: #000;
+	color: #e6e6fa;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-top: 0px;
 }
 h1 {
-  font-size: 0.8em;
+	font-size: 0.8em;
 }
 /*
   ページトップにある操作ボタンの並ぶ行の設定
   */
 div.adminmenu {
-  text-align: right;
-  font-size: small;
+	text-align: right;
+	font-size: small;
 }
 
 /*
@@ -47,109 +46,109 @@ span.adminmenu {
   日記タイトルの設定
   */
 h1 {
-  text-align: left;
+	text-align: left;
 }
 
 /*
   カレンダーの設定
   */
 div.calendar {
-  background-image: url(darkness-pop_calendar.png);
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 350px;
-  height: 40px;
-  color:#555;
-  text-align: center;
-  font-size: 0.8em;
-  padding-top: 5px;
-  padding-left: 4px;
+	background-image: url(darkness-pop_calendar.png);
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 350px;
+	height: 40px;
+	color:#555;
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 5px;
+	padding-left: 4px;
 }
 /*
   1日の日記全体を囲む枠の設定
   */
 div.day {
-  border: 1px solid #999;
-  margin-bottom: 2em;
+	border: 1px solid #999;
+	margin-bottom: 2em;
 }
 
 /*
   タイトル行全体の設定
   */
 h2 {
-  background-color: #AFC0DF;
-  font-size: 1em;
-  margin: 0px;
-  padding: 0.2em;
-  padding-left: 5px;
-  border-bottom: 1px solid #999;
+	background-color: #AFC0DF;
+	font-size: 1em;
+	margin: 0px;
+	padding: 0.2em;
+	padding-left: 5px;
+	border-bottom: 1px solid #999;
 }
 
 /*
   日付の設定
   */
 h2 span.date {
-  margin-right: 2em;
-  font-size: 15px;
-  text-align: right;
+	margin-right: 2em;
+	font-size: 15px;
+	text-align: right;
 }
 
 /*
   タイトルの設定
   */
 h2 span.title {
-  color: #e6e6fa;
+	color: #e6e6fa;
 }
 
 /*
   タイトルを除いた1日の日記本文全体の設定
   */
 div.body {
-  padding: 5px;
-  margin: 0.5em 1em 0.5em 1em;
+	padding: 5px;
+	margin: 0.5em 1em 0.5em 1em;
 }
 
 /*
   サブタイトルの設定
   */
 h3 {
-  color: #DDA0DD;
-  font-size: medium;
-  margin: 0em;
-  font-weight: bold;
-  border-bottom: 1px solid #555;
+	color: #DDA0DD;
+	font-size: medium;
+	margin: 0em;
+	font-weight: bold;
+	border-bottom: 1px solid #555;
 }
 
 /*
   日記の本文(段落)の設定
   */
 div.section p {
-  margin-top: 0.5em;
-  margin-bottom: 0.7em;
-  line-height: 1.4em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.4em;
 }
 
 /*
   ツッコミ欄全体の設定
   */
 div.comment {
-  text-align: left;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-top: 0.5em;
-  margin-left: 12px;
-  margin-right: 12px;
-  color: #B0E0E6;
+	text-align: left;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #B0E0E6;
 }
 
 /*
   ツッコミ欄タイトル行の設定
   */
 div.comment div.caption {
-  border-style: solid;
-  border-color: #555;
-  border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 0px 0px 1px 0px;
 }
 
 /*
@@ -160,182 +159,182 @@ div.comment div.caption {
   リンク元リスト(短い方)の設定
   */
 div.referer {
-  text-align: right;
-  font-size: small;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-left: 24px;
-  margin-right: 12px;
+	text-align: right;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 24px;
+	margin-right: 12px;
 }
 
 /*
   リンク元リスト(全体一覧)の設定
   */
 div.refererlist {
-  font-size: small;
-  background-color: transparent;
-  padding: 2px;
-  padding-bottom: 1px;
-  margin-top: 0.5em;
-  margin-left: 24px;
-  margin-right: 12px;
+	font-size: small;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 24px;
+	margin-right: 12px;
 }
 
 /*
   リンク元リストタイトルの設定
   */
 div.refererlist div.caption {
-  border-style: solid;
-  border-color: #555;
-  border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 0px 0px 1px 0px;
 }
 
 /*
   リンク元リスト一覧の設定
   */
 div.refererlist ul {
-  margin-top: 0em;
+	margin-top: 0em;
 }
 
 /*
   罫線の設定
   */
 hr {
-  border-style: solid;
-  border-width: 2px 0px 0px 0px;
-  border-color: #ddd;
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
 }
 
 /*
   日々の日記のセパレータに使われる罫線の設定
   */
 hr.sep {
-  display: none;
+	display: none;
 }
 
 /*
   フッタの設定
   */
 div.footer {
-  text-align: right;
-  margin-top: 0px;
+	text-align: right;
+	margin-top: 0px;
 }
 
 /*
   フォーム全体を囲む枠の設定
   */
 div.form {
-  background-color: transparent;
-  border-style: solid;
-  border-color: #999;
-  border-width: 1px 0px 1px 0px;
-  padding: 0.5em 1em 0.5em 1em;
-  margin-bottom: 0.5em;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #999;
+	border-width: 1px 0px 1px 0px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
 }
 
 /*
   入力フィールドの設定
   */
 input.field {
-  background-color: white;
+	background-color: white;
 }
 
 /*
   複数行入力フィールドの設定
   */
 textarea {
-  background-color: white;
-  margin-left: 1em;
+	background-color: white;
+	margin-left: 1em;
 }
 
 /*
   エラーメッセージ表示の設定
   */
 p.message {
-  text-align: center;
-  font-size: large;
-  background-color: red;
-  color: white;
-  padding: 8px;
+	text-align: center;
+	font-size: large;
+	background-color: red;
+	color: white;
+	padding: 8px;
 }
 
 pre {
-   background-image: url(darkness-pop_pre.png);
-   background-color: #fff;
-   border-style: solid;
-   border-color: #ccc;
-   border-width: 1px 3px 1px 3px;
-   color: #4169e1;
-   margin-left: 1em;
-   margin-right: 1em;
-   padding: 8px 8px 8px 8px;
+	background-image: url(darkness-pop_pre.png);
+	background-color: #fff;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px 3px 1px 3px;
+	color: #4169e1;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
 }
 
 /*
   項目リストの設定
   */
 div.body dl {
-  margin-left: 2em;
+	margin-left: 2em;
 }
 
 div.body dt {
-  margin-bottom: 0.2em;
-  font-weight: bold;
+	margin-bottom: 0.2em;
+	font-weight: bold;
 }
 
 div.body dd {
-  margin-left: 1em;
-  margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
 }
 
 a:link, a:visited {
-  color: #84C1FF;
-  text-decoration: none;
-  border-style: none;
-  border-width: 1px;
-        
+	color: #84C1FF;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
 }
 
 a:active {
-  text-decoration: none;
-  border-width: 1px;
-  color: #e6e6fa;
+	text-decoration: none;
+	border-width: 1px;
+	color: #e6e6fa;
 }
 
 a:hover, a:focus {
-  color: #9435B4;
+	color: #9435B4;
 }
 p.strong {
-  font-size: 200%;
-  font-weight: bold;
-  text-align: center;
-}
-h2 span.date {
-  color: #fff;
-  text-decoration: none;
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
 }
 
-h2 span.date {
-  color: #24f;
-  text-decoration: none;
+h2 span.date a:link, h2 span.date a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+h2 span.date a:hover, h2 span.date a:focus {
+	color: #24f;
+	text-decoration: none;
 }
 
 .sumi{
- color: #e6e6fa;
+	color: #e6e6fa;
 }
 
 .memo{
- background-color: #ffe4e1;
- color: #000;
+	background-color: #ffe4e1;
+	color: #000;
 }
 
 div.body blockquote {
- background-image: URL(darkness-pop_blockquote.png);
- color: #000;
- border-style: solid;
- border-color: #ccc;
- border-width: 3px 1px 3px 1px;
- padding: 5px;
+	background-image: URL(darkness-pop_blockquote.png);
+	color: #000;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 3px 1px 3px 1px;
+	padding: 5px;
 }
 
 /*

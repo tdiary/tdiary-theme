@@ -1,0 +1,19 @@
+Title: Mintblue
+Author: epi
+Access: <http://episode2.tdiary.net/>
+License: GPL
+Comment: なんとなく青っぽい感じ。
+
+Copyright by epi All Rights Reserved.
+        
+Modified by Nana 2002-04-29
+validated by W3C
+
+---Change Log---
+2002-10-19 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-05-10 Nana
+        * body remove max-width: 60em;min-width: 20em;
+        * div.day margin: 0 2em 2em 2em;
+        * h3 font-size:small -> medium

@@ -1,7 +1,11 @@
 /*
-	White-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.1 $
+	White-lingerie.css: Black-lingerie Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2000-2001.Sarsya. All Rights Reserved. 
 	Hanayashiki:http://vanilla.ath.cx/~Hanayashiki/
+ */
+/* ChangeLog
+2002-03-15 TADA Tadashi <sho@spc.gr.jp>
+	* support image anchor as span.panchor and span.canchor.
  */
 
 /*
@@ -296,5 +300,28 @@ dt {
 dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
+}
+
+/*
+ イメージアンカー
+ */
+div.day span.panchor {
+	background-image: url(white-lingerie_ppk.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 15px 15px 0px 0px;
+	color: #FFDECE;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(white-lingerie_pppk.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 10px 0px 0px;
+	color: #FFDECE;
+	background-color: transparent;
+	font-size: 1px;
 }
 

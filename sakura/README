@@ -1,0 +1,17 @@
+Title: sakura.css
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: 桜色なテーマ
+
+	Copyright by (C) nga <http://nga.jp/>
+
+ChangeLog
+2002-10-19 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: smaller -> 0.9em.
+
+2002-04-03 nga<stakei@nga.jp>
+	* add spec.

@@ -1,5 +1,5 @@
 /*
-	candy.css: Candy Style Sheet of tDiary $Revision: 1.8 $
+	candy.css: Candy Style Sheet of tDiary $Revision: 1.9 $
 	created by TADA Tadashi <sho@spc.gr.jp>
 	validated by W3C.
  */
@@ -325,17 +325,17 @@ div.recentsubtitles {
 }
 
 div.main {
+	border-style: solid;
+	border-color: #8B0000;
+	border-width: 0px 0px 0px 1px;
 	margin-left: 18%;
 }
 
 div.sidebar {
-	border-style: solid;
-	border-color: #8B0000;
-	border-width: 0px 1px 0px 0px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 18%;
+	width: 17%;
 	padding: 2px 2px 100% 2px;
 }
 

@@ -1,7 +1,11 @@
 /*
-  germany.css Germany Style Sheet of tDiary $Revision: 1.2 $
+  germany.css Germany Style Sheet of tDiary $Revision: 1.3 $
   Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc
   validated by W3C.
+*/
+/* ChangeLog
+2002-03-15 TADA Tadashi <sho@spc.gr.jp>
+	* support image anchor as span.panchor and span.canchor.
 */
 
 body {
@@ -110,6 +114,16 @@ div.body a.anchor{
   text-decoration: none;
 }
 
+div.body span.panchor {
+  background-image: url(germany_anchor.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding: 14px 16px 0px 0px;
+  font-size: 1px;
+  background-color: transparent;
+  color: #fff;
+}
+
 p {
   margin-left: 1em;
   line-height: 130%;
@@ -149,6 +163,17 @@ div.comment a.anchor{
   font-size: 1em;
   text-decoration: none;
 }
+
+div.comment span.canchor {
+  background-image: url(germany_comment_anchor.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding: 7px 8px 0px 0px;
+  font-size: 1px;
+  background-color: transparent;
+  color: #fff;
+}
+
 p.commenttitle {
   text-align: right;
   font-size:0.8em;

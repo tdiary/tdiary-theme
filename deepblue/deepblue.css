@@ -1,0 +1,435 @@
+/*
+Title: Deep Blue
+Revision: $Revision: 1.1 $
+Author: oyuu
+Access: oyuu@mocha.freemail.ne.jp
+License: GPL
+Comment: 海の中
+*/
+
+/*
+deepblue.css for tDiary
+Copyright 2002 (C) oyuu <oyuu@mocha.freemail.ne.jp>
+Validated by W3C.
+*/
+
+/* このテーマは、sidebarに対応しています。
+
+左側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="leftsidebar">
+	<%=title_list%>
+	</div>
+	<div class="rightmain">
+　　フッタに
+	</div>
+
+右側にsidebarを表示させたい場合は、
+　　ヘッダに
+	<div class="rightsidebar">
+	<%=title_list%>
+	</div>
+	<div class="leftmain">
+　　フッタに
+	</div>
+
+を書き加えてください。*/
+
+
+a:link{ 
+	color: #00CE9B;
+        text-decoration: none;
+}
+a:visited{ 
+	color: #00E3AB;
+        text-decoration: none;
+ }
+a:active{
+	color: #00F2B6;
+ 	text-decoration: none;
+}
+a:hover{
+	color: #53FFD5;
+ 	text-decoration: none;
+}
+
+body {
+	color: #BBDDFF;
+	font-family: "Book Antiqua", serif ;
+	background-color: #0074E8;
+	margin: 0px
+}
+
+p.adminmenu {
+	font-size: 100%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+p.adminmenu a:link, p.calendar a:link, p.footer a:link{ 
+	color: #54FE8F;
+        text-decoration: none;
+}
+p.adminmenu a:visited, p.calendar a:visited, p.footer a:visited{ 
+	color: #01F155;
+        text-decoration: none;
+ }
+
+p.adminmenu a:active, p.calendar a:active, p.footer a:active{
+	color: #00CE9B;
+ 	text-decoration: none;
+}
+p.adminmenu a:hover, p.calendar a:hover, p.footer a:hover{
+	color: #00DDA6;
+ 	text-decoration: none;
+}
+
+h1 {
+	color: #004080;
+	background-color: #F6F6F6;
+	margin: 0%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Book Antiqua", serif;
+	border: 2px solid #004993;
+}
+
+p.calendar {
+	font-size: 100%;
+	margin: 3% 5% 1% 5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left;
+}
+
+.headline {
+	font-size: 100%;
+	margin: 1% 1% 1% 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align: left
+}
+
+div.intro{
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+div.day {
+	background-color: #0060BF;
+	margin: 1% 1% 1% 1%;
+	padding: 1% 1% 1% 1%;
+	border: #0060BF 5px solid;
+}
+
+h2 {
+	font-size: 100%;
+	margin-top: 1%;
+	background-color: #004080;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+span.date {
+	font-size: 100%;
+	font-style: normal;
+	margin-left: 1%;
+	margin-right: 1%
+}
+
+span.title {
+	font-size: 100%;
+	font-style: normal
+}
+
+div.body {
+	background-color: #004080;
+	font-size: 100%;
+	margin-bottom: 3%;
+	padding: 1% 1% 1% 1%;
+	line-height: 1.5;
+	border: 10px solid #004993;
+}
+
+div.section {
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0.5%
+}
+
+div.day p {
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+p {
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+}
+
+div.comment {
+	width: 95%
+	font-size: 100%;
+	line-height: 1.5;
+	text-align: left;
+}
+
+p.commenttitle {
+	background-color: #004993;
+	font-size: 100%;
+	text-align: left;
+	padding-left: 1%
+}
+
+div.comment p{
+	margin-left: 0em! important;
+	text-indent: 0em;
+	text-align: left;
+	width: 95%;
+}
+
+span.commentator {
+	font-weight: bold;
+	padding: 1% ;
+}
+
+p.referer {
+	font-size: 100%;
+	border-top: #004080 2px solid;
+	border-bottom: #004080 2px solid;
+	padding-top: 0.2%;
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+	text-align: right
+}
+
+div.refererlist {
+	font-size: 100%;
+	padding-top: 1%; 
+	padding-right: 1%;
+	padding-bottom: 0.2%;
+	padding-left: 1%;
+}
+
+p.referertitle {
+
+	border-top: #004080 2px solid;
+	border-bottom: #004080 2px solid;
+}
+
+UL.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-top: #EEFFFF 1px solid;
+	border-right: #EEFFFF 1px solid;
+	border-bottom: #EEFFFF 1px solid;
+	border-left: #EEFFFF 1px solid;
+}
+
+hr.sep { display: none }
+
+.sfooter {}
+
+p.footer {
+	font-size: 85%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+div.form {
+	background-color: #0060BF;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 2%;
+	padding-top: 1%;
+}
+
+div.form form {
+	width: 100%;
+	text-align: center;
+	margin: 10px
+}
+
+input.field {
+	color: #BBDDFF;
+	background-color: #004080;
+	border: 3px solid #004080;
+        text-indent: 0em ! important;
+}
+
+input,select { 
+        text-indent: 0em ! important;
+}
+
+textarea {
+	color: #BBDDFF;
+	background-color: #004080;
+	font-size: 100%;
+	border: 10px solid #004993;
+        text-indent: 0em ! important;
+        width: 90%;
+}
+
+p.message {
+	color: #1EFF1E;
+	background-color: #007900;
+	font-size: 100%;
+	padding: 8px;
+	text-align: center;
+}
+
+pre {
+	background-color: #0060BF;
+	font-size: 100%;
+	padding: 0.5%
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+blockquote {
+	background-color: #004080;
+	border: #0074E8 2px solid;
+	margin: 1% 2%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	line-height: 1.5;
+}
+
+div.section blockquote p {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+em {
+	color: #004080;
+	background-color: #EEFFFF;
+	font-style: normal;
+	font-weight: normal
+}
+
+strong {
+	color: #000000;
+	background-color: #F6F6F6;
+}
+
+.hide {
+	color: #004993;
+	background-color: #EEFFFF
+}
+
+/* calendar2 */
+table.calendar {
+        background-color: #004993;
+        font-size: 0.9em;
+        line-height: 100%;
+        border-width: 2px;
+        border-color: #004080;
+        border-style: solid;
+	margin: 1%;
+        padding: 1px;
+}
+
+table.calendar td {
+        margin: 0px;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+        text-align: center;
+}
+
+/* for sidebar layout */
+
+div.rightmain {
+	margin-left: 25%;
+}
+
+div.leftsidebar {
+	color: #BBDDFF;
+	background-color: #004993;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	font-size: 0.8em;
+	margin: 1%;
+	padding: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: #0060BF;
+	border-width: 10px;
+}
+
+div.leftsidebar p {
+	background-color: #0060BF;
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #0060BF;
+	border-width: 2px;
+	margin: 4px 2px 4px 2px;
+}
+
+div.leftmain {
+	margin-right: 25%;
+}
+
+div.rightsidebar {
+	color: #BBDDFF;
+	background-color: #004993;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	font-size: 0.8em;
+	margin: 1%;
+	padding: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: #0060BF;
+	border-width: 10px;
+}
+
+div.rightsidebar p {
+	background-color: #0060BF;
+	line-height: 120%;
+	text-align: center;
+	border-style: solid;
+	border-color: #0060BF;
+	border-width: 2px;
+	margin: 4px 2px 4px 2px;
+}
+
+div.recentsubtitles{
+	margin: 2px 3px 2px 3px
+}

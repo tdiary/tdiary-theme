@@ -1,9 +1,9 @@
 /*
-	default.css: Default Style Sheet of tDiary $Revision: 1.1 $
+	default.css: Default Style Sheet of tDiary $Revision: 1.2 $
  */
 
 body {
-	background-image: url(lovely-back.jpg);
+	background-image: url(lovely_pink_back.jpg);
 	color: black;
 }
 
@@ -50,7 +50,7 @@ h1 {
 }
 
 p.calendar {
-	background-image: url(lovely-bodyback.png);
+	background-image: url(lovely_pink_bodyback.png);
 	border-style: solid;
 	border-color: darkgray lavenderblush lavenderblush darkgray;
 	border-width: 1px;

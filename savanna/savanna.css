@@ -1,6 +1,6 @@
 /*
 Title: savanna
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: abbey
 Access: inlet@sd6.so-net.ne.jp
 License: GPL
@@ -53,8 +53,7 @@ h1 {
 div.day {
 	text-align: left;
 	margin: 0px;
-	padding: 15px 0px 15px 15px;
-	border: 1px solid #fff;
+	padding: 15px 0px 0px 15px;
 	border-left: 10px double #ddd;
 }
 

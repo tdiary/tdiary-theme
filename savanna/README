@@ -8,6 +8,9 @@ Copyright 2003 (C) by abbey <inlet@sd6.so-net.ne.jp>
 validated by W3C.
 
 Changelog
+2003-03-22 abbey <inlet@sd6.so-net.ne.jp>
+	* div.day padding-right 15px -> 0px 
+
 2003-03-20 abbey <inlet@sd6.so-net.ne.jp>
 	* support sidebar
 	* bugfix for IE

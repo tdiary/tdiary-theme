@@ -1,0 +1,357 @@
+<%
+	# themebench.rhtml: $Revision: 1.1 $
+
+	require 'cgi'
+	cgi = CGI::new
+	theme, = cgi['theme']
+	theme = 'default.css' if !theme or theme.length == 1
+	theme = 'http://www.tdiary.net/theme/' + theme unless /^(http|file):/i =~ theme
+
+%><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja-JP">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+	<meta name="generator" content="tDiary 1.3.4.20020315">
+	<meta name="Author" content="TADA Tadashi">
+	<link rev="MADE" href="mailto:sho@spc.gr.jp">
+	<meta http-equiv="content-style-type" content="text/css" media="all">
+	<link rel="stylesheet" href="<%=theme%>" type="text/css" media="all">
+	<title>tDiaryテーマ・テストベンチ</title>
+</head>
+<body>
+
+<p class="adminmenu">
+<span class="adminmenu"><a href="/">トップ</a></span>
+<span class="adminmenu"><a href="./">最新</a></span>
+<span class="adminmenu"><a href="update.rb">更新</a></span>
+</p>
+
+<h1>tDiaryテーマ・テストベンチ</h1>
+<div style="margin-left: 10em; margin-right: 10em;">
+<p>これは、tDiaryテーマの妥当性を目視によってチェックするページです。作成したテーマを指定することで、実際にtDiary上でそのテーマを使ったときにどう見えるか確認することができます。</p>
+<p>このページのURL末尾に「?theme=テーマ名.css」を指定して実行します。単にファイル名を指定した場合は、tDiary.Net内のテーマが使われますが、URLを指定すれば任意のテーマのチェックができます。</p>
+</div>
+
+<p class="calendar">
+2001|<a href="/">01</a>|<a href="/">02</a>|<a href="/">03</a>|<a href="/">04</a>|<a href="/">05</a>|<a href="/">06</a>|<a href="/">07</a>|<a href="/">08</a>|<a href="/">09</a>|<a href="/">10</a>|<a href="/">11</a>|<a href="/">12</a>|<br>
+2002|<a href="/">01</a>|<a href="/">02</a>|<a href="/">03</a>|<br>
+</p>
+
+<hr class="sep">
+
+<div class="day">
+<h2><span class="date"><a href="./20020315.html">2002-03-15</a></span> <span class="title">必須サポートエレメント</span></h2>
+
+<div class="body">
+
+	<div class="section">
+		<h3 class="subtitle"><a href="./20020315.html#p01"><span class="panchor">・</span></a> サブタイトル付きセクション</h3>
+		<p>サブタイトルがある場合のセクションの見え方をチェックします。</p>
+<p>長文が折り返されたときにはこの段落のように見えます。行間隔が適度にあいているか、左右のマージンが適切かどうかを確認してください。</p>
+	</div>
+	<div class="section">
+		<p><a href="./20020315.html#p02"><span class="panchor">・</span></a>  サブタイトルがない場合のセクション。</p>
+<p>長文が折り返されたときにはこの段落のように見えます。行間隔が適度にあいているか、左右のマージンが適切かどうかを確認してください。</p>
+<p>よく使われる<strong>strongエレメントの見え方</strong>はどうでしょうか。</p>
+	</div>
+	<div class="section">
+		<h3 class="subtitle"><a href="./20020315.html#p01"><span class="panchor">・</span></a> pre</h3>
+	</div>
+	<div class="section">
+		<pre>
+よく使われるpreエレメントのテスト↓
+整形済みのテキストを改行も含めて意図したとおりに↓
+表示できているかどうかの確認です。特にこの行のように長い文が出てきても、他のセクションがつられて右にはみ出し、横スクロールを強いるようだとよくありません。↓
+</pre>
+	</div>
+
+</div>
+
+<div class="comment">
+		<p class="commenttitle">本日のツッコミ(全2件) [<a href="./20020314.html#c">ツッコミを入れる</a>]</p>
+		<p>
+				<a href="./20020314.html#c01"><span class="canchor">・</span></a>
+				権兵衛 『ここにツッコミ本文が入ります。』<br>
+				<a href="./20020314.html#c02"><span class="canchor">・</span></a>
+				名なし 『誰のツッコミかわかりやすく表示されていますか? 長いツッコミが折り返し表示されていても大丈夫ですか?...』<br>
+		</p>
+</div>
+
+		<p class="referer">本日のリンク元 | <a href="/" title="/">22</a> | <a href="/20020315.html" title="/20020315.html">19</a> | <a href="/update.rb" title="/update.rb">9</a> | <a href="/20020314.html" title="/20020314.html">8</a> | <a href="/" title="/">3</a> | <a href="/200203.html" title="/200203.html">2</a> | <a href="/20020313.html" title="/20020313.html">1</a> | </p>
+</div>
+
+
+	<hr class="sep">
+	
+<div class="day">
+<h2><span class="date"><a href="./20020316.html">2002-03-16</a></span> <span class="title">サポートされることが望ましいエレメント</span></h2>
+
+<div class="body">
+
+	<div class="section">
+		<p><a href="./20020316.html#p01"><span class="panchor">・</span></a>  標準でサポートされる必要はありませんが、サポートした方が好ましいエレメントです。</p>
+	</div>
+	<div class="section">
+		<h3 class="subtitle"><a href="./20020316.html#p01"><span class="panchor">・</span></a> blockquote</h3>
+	</div>
+	<div class="section">
+		<blockquote>
+<p>引用に使われるblockquoteエレメントのテスト。preエレメントと違って改行は意味を持ちません。一目で引用とわかるようにしましょう。</p>
+<p>なおこのセクションは、blockquote内部の段落を&lt;p&gt;〜&lt;/p&gt;で囲んであります。</p>
+</blockquote>
+	</div>
+	<div class="section">
+		<h3 class="subtitle"><a href="./20020316.html#p01"><span class="panchor">・</span></a> ul、olとli</h3>
+	</div>
+	<div class="section">
+		<ul>
+<li>箇条書き(ul)のテスト</li>
+<li>適度にインデントされているのが好ましいでしょう。
+</ul>
+	</div>
+	<div class="section">
+		<ol>
+<li>順序付き箇条書き(ol)のテスト</li>
+<li>適度にインデントされているのが好ましいでしょう。
+</ol>
+	</div>
+	<div class="section">
+		<h3 class="subtitle"><a href="./20020316.html#p01"><span class="panchor">・</span></a> dl、dt、dd</h3>
+	</div>
+	<div class="section">
+		<dl>
+<dt>辞書型リスト(dl)のテスト</dt>
+<dd>上の見出し行がはっきり区別がつきますか?　項目間に適度な空隙があり、区別がつきやすくなっていますか?</dd>
+<dt>項目2</dt>
+<dd>説明2</dd>
+</dl>
+	</div>
+
+</div>
+
+<div class="comment">
+
+	 <p class="commenttitle">[<a href="./20020316.html#c">ツッコミを入れる</a>]</p>
+</div>
+
+
+
+
+
+
+		
+</div>
+
+
+	<hr class="sep">
+
+<div class="day">
+<h2><span class="date"><a href="./20020317.html">2002-03-17</a></span> <span class="title">日別表示の確認</span></h2>
+
+<div class="body">
+
+	<div class="section">
+		<p><a href="./20020317.html#p02"><span class="panchor">・</span></a>  日別表示の確認をして下さい。</p>
+		<p>ツッコミのリストは正しく表示されていて、誰のツッコミかわかりやすくなっているかどうか。</p>
+		<p>投稿フォームの位置、textareaが適度な大きさになっているかどうか。</p>
+		<p>リンク元リストの表示は正しいか。</p>
+	</div>
+</div>
+
+<div class="comment">
+
+		<p class="commenttitle">本日のツッコミ(全2件) [<a href="./20020317.html#c">ツッコミを入れる</a>]</p>
+				<p><span class="commentator">
+					<a name="c01" href="./20020317.html#c01"><span class="canchor">・</span></a>
+					権兵衛
+					(2002-03-14日 20:17)
+				</span></p>
+				<p>ツッコミは正しく見えていますか?<br>
+ツッコミは複数行に渡る場合があります。</p>
+				<p><span class="commentator">
+					<a name="c02" href="./20020317.html#c02"><span class="canchor">・</span></a>
+					名なし
+					(2002-03-14日 21:57)
+				</span></p>
+				<p>2人目以降のツッコミが、きちんと分かれて見えますか?</p>
+</div>
+
+
+
+	<div class="form"><form method="post" action="./">
+	<input type="hidden" name="date" value="20020314">
+	<p><a name="c">ツッコミ・コメントがあればどうぞ! E-mailアドレスは公開されません。</a></p>
+	<p>お名前: <input class="field" name="name" value="ほげほげ">　E-mail: <input class="field" name="mail" value="hoge@example.com"><br></p>
+	<p>コメント:<br>
+	<textarea name="body" cols="60" rows="5">投稿フォームのフォントを小さくしすぎていませんか?
+背景色と文字色の区別がきちんとつきますか?</textarea></p>
+	<p><input type="submit" name="comment" value="投稿"></p>
+	</form></div>
+
+
+
+		<div class="refererlist"><p class="referertitle">本日のリンク元</p>
+<ul class="referer">
+<li>26 <a href="http://www.tdiary.net/">tDiary.Net</a></li>
+<li>17 <a href="http://sho.tdiary.net/">Asumi日記</a></li>
+<li>12 <a href="http://www.komainu.pos.to/">http://www.komainu.pos.to/</a></li>
+</ul></div>
+</div>
+</div>
+	<hr class="sep">
+
+<div class="day">
+<h2><span class="date"><a href="./20020318.html">2002年03月18日(月)</a></span> <span class="title">プラグイン</span></h2>
+
+<div class="body">
+
+	<div class="section">
+		<p><a name="p01" href="./20020318.html#p01"><span class="panchor">・</span></a>  比較的よく使われるプラグインの確認ができます。</p>
+	</div>
+	<div class="section">
+		<h3 class="subtitle"><a name="p02" href="./20020318.html#p02"><span class="panchor">・</span></a> footnote</h3>
+		<p>脚注プラグイン<span class="footnote"><a name="fm01" href="./20020318.html#f01">*1</a></span>のチェック。</p>
+	</div>
+<div class="footnote">
+  <p class="footnote"><a name="f01" href="./20020318.html#fm01">*1</a>&nbsp;footnote</p>
+</div>
+	<div class="section">
+		<h3 class="subtitle"><a name="p03" href="./20020318.html#p03"><span class="panchor">・</span></a> calendar2</h3>
+	</div>
+<table class="calendar" summary="calendar">
+<tr>
+ <td class="calendar-prev-month" colspan="2"><a href="./200202.html">前</a></td>
+ <td class="calendar-current-month" colspan="3"><a href="./200203.html">2002年<br>3月</a></td>
+ <td class="calendar-next-month" colspan="2">次</td>
+</tr>
+<tr> <td class="calendar-sunday">日</td>
+ <td class="calendar-weekday">月</td>
+ <td class="calendar-weekday">火</td>
+ <td class="calendar-weekday">水</td>
+ <td class="calendar-weekday">木</td>
+ <td class="calendar-weekday">金</td>
+ <td class="calendar-saturday">土</td>
+</tr>
+<tr>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day">1</td>
+ <td class="calendar-day">2</td>
+</tr>
+<tr>
+ <td class="calendar-day">3</td>
+ <td class="calendar-day">4</td>
+ <td class="calendar-day">5</td>
+ <td class="calendar-day">6</td>
+ <td class="calendar-day">7</td>
+ <td class="calendar-day">8</td>
+ <td class="calendar-day">9</td>
+</tr>
+<tr>
+ <td class="calendar-day">10</td>
+ <td class="calendar-day">11</td>
+ <td class="calendar-day">12</td>
+ <td class="calendar-day">13</td>
+ <td class="calendar-day">14</td>
+ <td class="calendar-day"><a href="./20020315.html" title="01. サブタイトルテスト">15</a></td>
+ <td class="calendar-day"><a href="./20020316.html" title="">16</a></td>
+</tr>
+<tr>
+ <td class="calendar-day">17</td>
+ <td class="calendar-day"><a href="./20020318.html" title="01. footnote&#13;&#10;02. calendar2&#13;&#10;03. dropdown_calendar&#13;&#10;04. recent_list">18</a></td>
+ <td class="calendar-day">19</td>
+ <td class="calendar-day">20</td>
+ <td class="calendar-day">21</td>
+ <td class="calendar-day">22</td>
+ <td class="calendar-day">23</td>
+</tr>
+<tr>
+ <td class="calendar-day">24</td>
+ <td class="calendar-day">25</td>
+ <td class="calendar-day">26</td>
+ <td class="calendar-day">27</td>
+ <td class="calendar-day">28</td>
+ <td class="calendar-day">29</td>
+ <td class="calendar-day">30</td>
+</tr>
+<tr>
+ <td class="calendar-day">31</td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+</tr>
+</table>
+	<div class="section">
+		<h3 class="subtitle"><a name="p04" href="./20020318.html#p04"><span class="panchor">・</span></a> dropdown_calendar</h3>
+	</div>
+<form method="get" action="./">
+<p class="calendar">過去の日記
+<select name="date">
+<option value="200203">2002-03</option>
+<option value="200202">2002-02</option>
+<option value="200201">2002-01</option>
+<option value="200112">2001-12</option>
+<option value="200111">2001-11</option>
+<option value="200110">2001-10</option>
+<option value="200109">2001-09</option>
+<option value="200108">2001-08</option>
+<option value="200107">2001-07</option>
+<option value="200106">2001-06</option>
+<option value="200105">2001-05</option>
+<option value="200104">2001-04</option>
+<option value="200103">2001-03</option>
+<option value="200102">2001-02</option>
+<option value="200101">2001-01</option>
+<option value="200012">2000-12</option>
+<option value="200011">2000-11</option>
+<option value="200010">2000-10</option>
+<option value="200009">2000-09</option>
+<option value="200008">2000-08</option>
+<option value="200007">2000-07</option>
+<option value="200006">2000-06</option>
+<option value="200005">2000-05</option>
+<option value="200004">2000-04</option>
+<option value="200003">2000-03</option>
+<option value="200002">2000-02</option>
+<option value="200001">2000-01</option>
+<option value="199912">1999-12</option>
+<option value="199911">1999-11</option>
+</select>
+<input type="submit" value="Go">
+</p>
+</form>
+	<div class="section">
+		<h3 class="subtitle"><a name="p05" href="./20020318.html#p05"><span class="panchor">・</span></a> recent_list</h3>
+	</div>
+		<p> <p class="recentitem"><a href="./?date=20020318">2002年03月18日(月)</a>
+</p>
+<div class="recentsubtitles">
+ <a href="./?date=20020318#p02">2</a>. footnote<br>
+ <a href="./?date=20020318#p03">3</a>. calendar2<br>
+ <a href="./?date=20020318#p04">4</a>. dropdown_calendar<br>
+ <a href="./?date=20020318#p05">5</a>. recent_list<br>
+</div>
+<p class="recentitem"><a href="./?date=20020316">2002年03月16日(土)</a>
+</p>
+<div class="recentsubtitles">
+</div>
+<p class="recentitem"><a href="./?date=20020315">2002年03月15日(金)</a>
+</p>
+<div class="recentsubtitles">
+ <a href="./?date=20020315#p01">1</a>. サブタイトルテスト<br>
+</div>
+
+</div>
+	<hr class="sep">
+
+<p class="footer">
+Generated by <a href="http://www.tdiary.net/">tDiary</a> version 1.4<br>
+Powered by <a href="http://www.ruby-lang.org/">Ruby</a> version 1.6.7</p>
+</body>
+</html>

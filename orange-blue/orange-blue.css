@@ -9,8 +9,9 @@ Access: http://mikan.sakura.ne.jp/~mpc/
  */
 /* ChangeLog
 2002-05-16 Nana 
+        * remove div.body font-size:14px
         * fixed pre sytle
-        * support footnote,blockquote,calendar2
+        * support footnote,blockquote,calendar2,recent_list
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 	* div.comment align left.
@@ -21,7 +22,7 @@ Access: http://mikan.sakura.ne.jp/~mpc/
 
 body {
 	text-align : center;
-	font-family :osaka, Arial,"MS UI Gothic";    
+	font-family :osaka, Arial,"MS UI Gothic", sans-serif;    
 	background-color: #FFCC33;
 	color: #00007F;
 }
@@ -29,14 +30,17 @@ body {
 a:link {
         text-decoration: none;
 	color: #FF8000;
+        background-color: transparent;
 }
 a:visited {
         text-decoration: none;
         color: #FF8000;
+        background-color: transparent;
 }
 a:hover,a:active {
 	text-decoration: none;
-        color: #FFf;
+        color: #fff;
+        background-color: transparent;
 }
 
 p.adminmenu {
@@ -72,7 +76,6 @@ p.calendar {
 }
 
 div.day {
-	font-size: 14px;
 	margin: 3em auto 3em auto;
 	clear: both;
 	width: 80%;

@@ -1,0 +1,270 @@
+/*
+	moo.css: Default Style Sheet of tDiary $Revision: 1.1 $
+ */
+a:link {
+	text-decoration: none;
+	color: #804040;
+    font-weight: bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #804040;
+    font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+    color: #9999FF;
+}
+
+a:hover, a:focus {
+	color: #fff;
+}
+
+body {
+    background-image:url("moo.gif");
+	background-color: #000;
+	color: #804040;
+    font-size: small;
+    
+    margin-left: 0em;
+    margin-right: 0em;
+    
+}
+
+p.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: none;
+	border-color: #000;
+	border-width: 2px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+    color: #804040;
+}
+
+p.calendar {
+	background-color: #000;
+	border-style: none;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+div.day {
+    background-color: #000;
+	border-style: none;
+	text-align: right;
+    color: #fff;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin-: 0em;
+    border-style: solid;
+	border-color: #fff;
+	border-width: 3px 3px 0px 3px;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	
+}
+
+span.date {
+	font-size: small;
+	margin-left: 0.5em;
+    
+    
+}
+span.date a {
+	color: #a62;
+}
+
+span.date a:link, {
+	color: orange;
+	text-decoration: none;
+}
+span.date a:hover, a:focus {
+	color: #4e8;
+	text-decoration: none;
+}
+span.title {
+}
+
+div.body {
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+	margin-left: auto;
+    font-size: small;
+
+	
+}
+
+p {
+	margin: 0em;
+	line-height: 1.4;
+    
+}
+
+h3.subtitle {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: small;
+    margin-bottom: 0.3em;
+    
+}
+
+pre {
+	background-color: orange;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 5px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+  	margin: 0.2em;
+	margin-right: auto;
+	margin-left: 2px;
+    border-style: solid;
+	border-color: #999;
+	border-width: 1px 0px 0px 0px;
+}
+
+div.comment p {
+	padding-left: 0em;
+}
+
+p.commenttitle {
+	text-align: right;
+	
+}
+
+span.commentator {
+	padding: 3px;
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	text-align: right;
+	font-size: small;
+	color: #fff;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	width: 70%;
+	margin-top: 0.5em;
+	clear: both;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #000;
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	font-size: small;
+	text-align: right;
+    color: #804040;
+    
+}
+
+div.form {
+	background-color: #000;
+	padding: 0.5em 1em 0.5em 1em;
+	color: #fff;
+	margin-bottom: 0.5em;
+    border-style: solid;
+	border-color: #fff;
+	border-width: 3px 3px 3px 3px;
+    
+    margin-right: 15%;
+	margin-left: 15%;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 80%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+    color: #FF8000;
+}

@@ -1,6 +1,6 @@
 /*
 Title: Bluegrad
-Revision: $Revision: 1.9 $
+Revision: $Revision: 1.10 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -132,6 +132,7 @@ div.day {
 	padding: 0em;
 	margin: 2em;
 	margin-top: 0.5em;
+	clear: both;
 }
 
 h2 {

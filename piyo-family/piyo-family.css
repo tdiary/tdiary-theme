@@ -1,6 +1,6 @@
 /*
 Title: Piyo-family
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -43,7 +43,7 @@ a:hover {
 */
 div.adminmenu {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 /*
@@ -68,7 +68,7 @@ div.calendar {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	line-height: 1.1em;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-image: url(piyo-line.png);
 	background-position: bottom center;
 	background-repeat: repeat-x;
@@ -180,7 +180,7 @@ div.section p {
 ツッコミ/フォーム/リンク元のキャプション設定
 */
 div.caption {
-	font-size: 0.9em;
+	font-size: 90%;
         padding-bottom: 1em;
 }
 
@@ -200,14 +200,14 @@ div.comment {
 ツッコミ省略版本文
 */
 div.commentshort {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-left: 0.5em;
 }
 span.commentator {
 	font-weight: bold;
 }
 div.commentshort p {
-	margin-top: 0.2em;
+	margin-top: 12px;
 	margin-bottom: 0.2em;
 	line-height: 130%;
 }
@@ -216,7 +216,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em;
 	line-height: 130%;
 }
@@ -233,7 +233,7 @@ div.commentator {
 */
 div.commentbody p {
 	margin: 0.5em;
-	margin-left: 2em;
+	margin-left: 3em;
 }
 
 /*
@@ -252,7 +252,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {
@@ -283,7 +283,7 @@ div.button {
 */
 div.referer {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 	padding: 2px;
 	padding-bottom: 8px;
 	margin: 0.5em 1em 0em 2em;
@@ -304,7 +304,7 @@ div.refererlist {
 リンク元リスト一覧の設定
 */
 div.refererlist ul {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em 1em 0.5em 3em;
 	line-height: 1.2em;
 }
@@ -327,7 +327,7 @@ hr.sep {
 フッタの設定
 */
 div.footer {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: right;
 	margin-top: 0px;
 }
@@ -481,13 +481,13 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
@@ -500,7 +500,7 @@ div.body span.footnote {
 }
 
 div.footnote {
-	font-size: 0.9em;
+	font-size: 90%;
 	border-style: solid;
 	border-color: #FFA500;
 	border-width: 1px 0px 0px 0px;

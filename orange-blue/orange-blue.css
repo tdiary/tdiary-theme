@@ -43,7 +43,7 @@ a:hover,a:active {
         background-color: transparent;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 	font-size: small;
 }
@@ -64,7 +64,7 @@ h1 {
 	text-align: left;
 }
 
-p.calendar {
+div.calendar {
 	font-weight: bold;
 	background-color: transparent;
 	text-align: left;
@@ -93,7 +93,7 @@ h2 {
 	font-weight: bold;
 }
 
-span.date {
+h2 span.date {
 	font-weight: bold;
 	position: relative;
 	text-align: right;
@@ -103,7 +103,7 @@ span.date {
 	padding-bottom: 0em;
 }
 
-span.title {
+h2 span.title {
 	
 }
 
@@ -122,7 +122,7 @@ p.body {
 	padding-left: 1em;
 	padding-top:0em;
 }
-p {
+div.section p {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
 	line-height: 1.3em;
@@ -136,7 +136,7 @@ p.sentence {
 	border-width: 1px 0px 0px 0px;
 }
 
-h3.subtitle {
+h3 {
 	margin-top: 0.2em;
 	margin-bottom: 0em;
 	margin-left: 2px;
@@ -174,7 +174,7 @@ div.comment {
 	border-width: 3px 0px 0px 0px;
 }
 
-p.commenttitle {
+div.comment div.caption {
 	text-align: right;
 	position: relative;
 	color: #FF8000;
@@ -184,13 +184,6 @@ p.commenttitle {
 	border-style: none;	
 }
 
-span.commentator {
-	padding-top: 0px;
-	margin-top: 0px;
-	display: block;
-	color: #FF8000;
-	clear: both;
-}
 
 p.comment {
 	text-align: left;
@@ -202,7 +195,7 @@ p.comment {
 	margin-bottom: 2px;
 	line-height: 1.0em;
 }
-p.referertitle {
+div.refererlist div.caption {
 	color: #FF8000;
 	background-color: #fff;
 	text-align: right;
@@ -216,7 +209,7 @@ p.referertitle {
 	padding: 4px;
 }
 
-p.referer {
+div.referer {
 	display: inline;
 	text-align: right;
 	color: #FF8000;
@@ -240,7 +233,7 @@ div.refererlist {
 	border-width: 1px 0px 0px 0px;
 }
 
-ul.referer {
+div.refererlist ul {
 	margin-top: 0em;
 	text-align: left;
 }
@@ -256,7 +249,7 @@ hr.sep {
 }
 
 
-p.footer {
+div.footer {
 	font-size: small;
 	text-align: right;
 	margin-top: 0px;
@@ -266,7 +259,7 @@ p.footer {
 div.form {
 	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
-	margin-bottom: 0.5em;
+	margin-bottom: 1.0em;
 	border-style: none;
 	width: 90%;
 }
@@ -302,16 +295,16 @@ textarea {
 	width: 90%;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -382,4 +375,138 @@ div.body blockquote {
          padding: 4px;
          font-size: 90%; 
          margin: 0em 3em 0em 3em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	border-style: none;
+	text-align; center;
+}
+
+div.day.update div.form form {
+	border-style: none;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

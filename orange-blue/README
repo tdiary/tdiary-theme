@@ -1,0 +1,22 @@
+Title: Orange-Blue
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc/
+License: GPL
+
+	Copyright (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	validated by W3C
+
+ChangeLog
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-05-16 Nana 
+        * remove div.body font-size:14px
+        * fixed pre sytle
+        * support footnote,blockquote,calendar2,recent_list
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* div.comment align left.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

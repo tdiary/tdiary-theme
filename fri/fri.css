@@ -1,6 +1,6 @@
 /*
 Title: Friday
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 License: GPL
@@ -75,10 +75,7 @@ div.day {
 }
 h2 {
 	text-align: right;
-	margin-top: 0.1em;
-	margin-bottom: 0em;
-	margin-left: auto;
-	margin-right: 0px;
+	margin: 0.1em 0em 0em auto;
 	font-weight: normal;
 }
 
@@ -133,19 +130,13 @@ div.body p {
 }
 
 h3 {
-	margin-top: 0.2em;
-	margin-bottom: 0em;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin: 0.2em 2px 0em 2px;
 	font-weight: bold;
 	font-size: medium;
 	clear: both;
 }
 span.anchor {
-	margin-top: 0em;
-	margin-bottom: 0em;
-	margin-left: 12px;
-	margin-right: 12px;
+	margin: 0em 12px;
 	font-weight: bold;
 	font-size: 24pt;
 	float: left;
@@ -193,10 +184,7 @@ div.comment p {
 	text-align: left;
 	color: #cff;
 	padding: 0px 0px 0px 0px;
-	margin-left: 24px;
-	margin-right: 12px;
-	margin-top: 0px;
-	margin-bottom: 2px;
+	margin: 0px 12px 2px 24px;
 	line-height: 1.2em;
 }
 div.refererlist div.caption {

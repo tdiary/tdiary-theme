@@ -1,6 +1,6 @@
 /*
 Title: S-PINK
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 Comment: 淡いピンクベースのシンプル系
@@ -39,8 +39,6 @@ body {
 	color: #000;
 	margin-right: 15%;
 	margin-left: 15%;
-	/*font-family :osaka,"MS UI ゴシック","Lucida Sans Unicode",Arial;*/
-	/*font-size: small;*/
 }
 
 strong {
@@ -49,7 +47,6 @@ strong {
 }
 
 div.adminmenu {
-	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
 	text-align: right;
 	font-size: small;
 	float: right;
@@ -84,14 +81,12 @@ h1 {
 }
 
 div.calendar {
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	color: #000;
 	background-color: transparent;
 	border-style: none;
 	padding-top: 0.5em;
 }
 div.day {
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	border-style: solid;
 	border-width: 1px 0px 0px 0px;
 	border-color: #000;
@@ -112,7 +107,6 @@ h2 {
 }
 
 h2 span.date {
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	font-size: small;
 	margin-left: 0.5em;
 	margin-top: 3em;
@@ -148,7 +142,6 @@ div.section p {
 }
 
 h3 {
-	/*font-family :osaka,"Lucida Sans Unicode",Arial;*/
 	margin: 0em;
 	padding: 0em;
 	font-weight: bold;
@@ -226,7 +219,6 @@ hr.sep {
 }
 
 div.footer {
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	font-size: small;
 	text-align: right;
 	height: 32px;
@@ -236,7 +228,6 @@ p.footline {
 }
 
 div.form {
-	/*font-family :osaka,"Tempus Sans ITC","Lucida Sans Unicode",Arial,sans-serif;*/
 	color: #000;
 	background-color: transparent;
 	padding: 0.5em 1em 0.5em 1em;
@@ -275,7 +266,6 @@ p.strong {
 	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
-	/*font-family:"Comic Sans MS","ＭＳ UI ゴシック";*/
 	color: red;
 }
 

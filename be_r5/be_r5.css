@@ -1,0 +1,602 @@
+/*
+Title: be_r5
+Revision: $Revision: 1.1 $
+Author: mitimasu
+Access: http://www.masuseki.com
+License: GPL
+Comment: BeOS R5 like theme
+
+validated by W3C.
+*/
+
+/*-- basic style ----------------------*/
+
+body {
+	margin: 0px;
+	color: white;
+	background-color: #336699;
+	background-image: url("ber5_deskbar.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	line-height: 130%;
+	}
+
+a:link {	color:aqua;}
+a:visited {	color:#FF99FF;}
+/* a:hover {	color:yellow;} */
+
+hr {
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #6699CC;
+	}
+	
+h1 { 
+	font-size:medium;
+	font-weight:normal;
+	margin: 2px 1ex;
+	padding:10px 40px;
+	border-bottom: 1px dotted #FFFFFF;
+	letter-spacing:2px;
+	background-image: url("ber5_volume.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	}
+
+h2 {
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 1em;
+	letter-spacing:2px;
+	}
+
+h3 {
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 1em;
+	letter-spacing:1px;
+	}
+
+/*-- float control --------------------*/
+
+img.left {
+	float: left;
+	vertical-align: top;
+	}
+
+img.right {
+	float: right;
+	vertical-align: top;
+	}
+
+div.section, div.comment { clear: both; }
+
+/*-- navi -----------------------------*/
+
+div.adminmenu {
+	margin: 0px;
+	padding: 4px 32px;
+	border-bottom: solid 1px #6699CC;
+	}
+
+span.adminmenu{
+	padding: 0px 4px;
+	border-right: groove 2px #336699;
+	}
+
+/*-- default calender -----------------*/
+
+div.calendar {
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+	border: none;
+	}
+
+div.calendar a {
+	color: aqua;
+	border-bottom: dotted 1px white;
+	}
+
+/*-- search form ----------------------*/
+
+div.search_form{
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+	}
+
+/*-- day_style ------------------------*/
+
+div.day {
+	margin: 1em;
+	border: none;
+}
+
+/*-- yellowtab --*/
+div.day h2{
+	width: 80%;
+	margin: 0px;
+	padding: 1px 2em 1px 32px;
+
+	color: black;
+	background-color: #FFCC00;;
+	background-image: url("ber5_button.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+
+	border-style: solid ;
+	border-width: 1px;
+	border-color: white #996600 #FFCC00 white;
+	}
+
+div.day h2 a{ 
+	color: blue;
+	}
+
+/*-- body part ------------------------*/
+
+div.body {
+	color: black;
+	background-color: silver;
+	margin: 0px;
+	padding: 0px;
+	border-style: solid solid solid solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: gray #333333 silver white ;
+	}
+
+div.body a:link { color: blue;}
+div.body a:visited { color:purple;}
+
+div.section {
+	color: black;
+	background-color: white;
+	margin: 4px;
+	padding: 0px 0px 2em 0px;
+	border-style: solid ;
+	border-width: 1px ;
+	border-color: #666666 #E0E0E0 #E0E0E0 #666666 ;
+	}
+
+div.section h3 {
+	margin: 0px;
+	padding: 5px 24px;
+
+	background-color: silver;
+	background-image: url("ber5_txt.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white #333333 #333333 white;
+	}
+	
+div.section a:link {color: blue;}
+div.section a:visited {	color:purple;}
+	
+/*-- <p> --------------------*/
+div.section p{ 
+	text-indent: 1ex;
+	margin-left: 1em;
+	margin-right: 1em;
+	 }
+
+/* -- <blockquote> ----------*/
+div.section blockquote { 
+	color: #003300;
+	background-color:#CCFFCC;
+	margin: 0em 3em;
+	padding: 1ex;
+	border: none;
+	}
+
+/*-- <pre> ------------------*/
+div.section pre { 
+	color: black;
+	background-color:#CCCCFF;
+	text-indent:0em;
+	margin: 0em 3em;
+	padding: 1ex;
+	border: none;
+	}
+
+/*-- <ul><ol> ---------------*/
+div.section ul, div.section ol { 
+	margin: 1ex 1em;
+	padding: 0ex 2em;
+	background-color: #E0E0E0 ;
+	}
+
+div.section ol ol {
+	list-style-type: upper-latin;
+	}
+	
+div.section ol ol ol {
+	list-style-type: katakana-iroha;
+	}
+
+/*-- <dl><dt> ---------------*/
+div.section dl { 
+	margin: 1ex 1em;
+	}
+
+div.section dt {
+	padding: 0em 1em;
+	background-color: #E0E0E0;
+	}
+div.section dd {
+	padding: 0em 1em 1em 1em ;
+	background-color: #F0F0F0;
+	}
+
+/*-- <strong> ---------------*/
+div.section strong{
+	letter-spacing: 2px;
+	padding: 2px 1ex;
+	color:#660000;
+	}
+
+/*-- <table> ----------------*/
+div.section table {
+	margin: 1ex 2em;
+	border: solid 1px #333333;
+	border-collapse: collapse;
+	}
+
+div.section th, div.section td {
+	text-align:center;
+	padding: 0.5ex 1ex;
+	border: solid 1px #333333;
+	}
+	
+/*-- <img> ------------------*/
+img.photo{
+	margin: 8px;
+	padding: 0px;
+	border: solid 1px #333333;
+	} 
+
+/* -- footnote plugin -----------------*/
+
+div.footnote { 
+	margin: 0px 0px 4px 0px ;
+	padding: 0px 1em ;
+	border-bottom: groove 2px #CCCCCC;
+}
+
+div.footnote a{ 
+	color: blue;
+	padding: 0px 1ex; 
+	border-bottom: dotted 1px blue;
+	}
+
+p.footnote {}
+
+span.footnote {}
+
+/* -- comment part --------------------*/
+
+div.comment {
+	color: black;
+	background-color: silver;
+	margin: 0px;
+	padding: 0em 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver #333333 #333333 white;
+	}
+
+div.comment p {}
+
+div.comment a {
+	color: blue;
+	padding: 0px 1ex; 
+	border-bottom: dotted 1px blue;
+	}
+
+div.caption{ padding: 1ex 2em; } 
+
+div.commentator {
+	color: navy;
+	margin-left: 2.5em;
+	} 
+
+div.commentbody {} 
+
+div.commentbody p {	margin-left: 3em; } 
+
+/* -- commentshort part ---------------*/
+
+div.commentshort { margin: 0px;	}
+
+span.commentator { }
+
+div.commentshort p { text-indent: 1ex; }
+
+
+/* -- input form ----------------------*/
+
+div.form {
+	color: black;
+	background-color: silver;
+	margin: 0em 0em 1em 0em;
+	padding: 1ex 1em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white #333333 #333333 white;
+	}
+
+div.form form { margin: 0em;	}
+
+div.form div.caption { margin: 1ex 0em; }
+
+div.form form.comment { }
+
+div.button { display: block; }
+
+/*-- update form ------------*/
+form.update {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+
+div.day.update div.form { 
+	background-color:silver;
+	border-style: groove outset outset groove;
+	border-width: 2px;
+	border-color: silver;
+	}
+
+form.update input, form.update textarea, form.commentstat input {}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 1em;
+	}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+	}
+
+form.update div.field.title input { 
+	margin-left: 0.5em;
+	}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+	}
+
+form.update textarea {
+	display: block;
+	margin-bottom: 1em;
+	}
+
+div.field {
+	display: inline;
+	margin: 0px 2em;
+	}
+
+form.comment input { margin-left: 1em; }
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+	}
+
+form.comment textarea {
+	display: block;
+	/*
+	width: 30em;
+	height: 5em;
+	*/
+	}
+
+/*-- change comment status --*/
+
+div.day.update div.comment {
+	background-color: #CCCCCC;
+	border-style: groove outset outset groove;
+	border-width: 2px;
+	border-color: silver;
+	}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+	}
+	
+div.comment form { margin: 1em; }
+
+/* -- error message -------------------*/
+
+p.message {
+	color: black;
+	background-color: white;
+	margin:0px;
+	padding: 1ex 1ex;
+	text-align:left;
+	}
+
+
+/* -- referer -------------------------*/
+
+div.referer {
+	color:white;
+	margin: 1em 0em 0em 4em;
+	padding: 1ex;
+	border-top: dotted 1px white;
+	}
+
+div.referer a { 
+	color:aqua; 
+	border-bottom: dotted 1px white;
+	}
+
+/* -- refererlist(day mode) -----------*/
+
+div.refererlist { 
+	color:white;
+	margin: 1em 0em 0em 4em;
+	padding: 1ex;
+	border-top: dotted 1px white;
+	}
+	
+div.refererlist a { 
+	color:aqua; 
+	border-bottom: dotted 1px white;
+	}
+
+div.refererlist ul {
+	line-height: 120%;
+	}
+
+
+/* -- footer --------------------------*/
+
+div.footer {
+	text-align: center;
+	text-decoration: none;
+	color: red;
+	background-color: white;
+	margin:1ex 1em;
+	padding: 4px;
+	border: solid 2px blue;
+	}
+	
+div.footer a {
+	text-decoration: underline;
+	color: blue;
+	}
+
+
+/* -- sidebar -------------------------*/
+
+div.main {
+	margin-right: 21%;
+	margin-bottom: 64px;
+	}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20%;
+	padding: 64px 4px 100% 1em;
+	
+	/*
+	background-image: url("deskbar.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	*/
+	
+	border: none;
+	}
+
+div.sidebar p {
+	line-height: 120%;
+	}
+
+/* -- calender2&calender3 plugin ------*/
+
+/* -- calender2 -------------*/
+
+.calendar {
+	color: white;
+	margin:4px;
+	padding:4px;
+	border: solid 2px white;
+	border-collapse: collapse;
+	}
+
+.calendar td {
+	padding: 1px 4px;
+	text-align: center;
+	}
+
+.calendar td.calendar-prev-month,
+.calendar td.calendar-current-month,
+.calendar td.calendar-next-month { 
+	color: white;
+	}
+
+.calendar td.calendar-prev-month a,
+.calendar td.calendar-current-month a,
+.calendar td.calendar-next-month a{
+	color: aqua;
+	border-bottom: dotted 1px white;
+	}
+
+.calendar td.calendar-sunday {
+	color: red;
+	background-color: white;
+	}
+
+.calendar td.calendar-weekday {
+	color: black;
+	background-color: #CCCCCC;
+	}
+
+.calendar td.calendar-saturday { 
+	color: blue;
+	background-color: white;
+	}
+
+.calendar td.image{
+	background-color:black;
+	}
+
+/* -- calender3 -------------*/
+div.calendar3 {
+	color: white;
+	margin:4px;
+	padding:4px;
+	border: solid 2px white;
+	border-collapse: collapse;
+}
+
+div.calendar3 a {
+	color: aqua;
+}
+
+div.calendar3 a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+span.calendar-prev-month {
+	font-weight: bold;
+}
+
+span.calendar-current-month {
+	font-size:larger;
+	font-weight: bolder;
+}
+
+/* -- recentsubtitles -----------------*/
+div.recentsubtitles {
+	margin: 2px; 
+	padding: 2px;
+	color: white;
+	line-height:150%;
+}
+
+div.recentsubtitles a { 
+	color: aqua;
+	border-bottom: dotted 1px white;
+}
+
+p.recentitem { 
+	color: white;
+	margin-left:1em;
+	font-weight: bold;
+    padding: 2px;
+	}
+
+p.recentitem a{
+	color: aqua;
+	border-bottom: dotted 1px white;
+	}
+

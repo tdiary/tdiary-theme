@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.12 $
+Revision: $Revision: 1.13 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -215,8 +215,6 @@ p.commenttitle {
 	border-style: solid;
 	border-color: #B22222;
 	border-width: 0px 0px 1px 0px;
-
-
 }
 
 span.commentator {
@@ -285,18 +283,25 @@ div.form {
 	margin-right: 1em;
 }
 
-input.field {
+div.form form {
+	margin: 0px;
+}
 
+div.form p {
+	margin-top: 0px;
+}
+
+input.field {
 	color: #000000;
 	background-color: white;
 }
 
 textarea {
-
 	color: #000000;
 	background-color: white;
 	margin-left: 1em;
 	margin-right: 1em;
+	width: 90%;
 }
 
 dl {

@@ -1,6 +1,6 @@
 /*
 Title: citrus
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -200,10 +200,6 @@ div.comment {
 	padding: 8px;
 	margin: 0px 1.5em;
 	font-size: 90%;
-}
-div.comment div.caption:before{
-	content: "♪ツッコミは、短く鋭く愛を込めてよろ。";
-	font-weight: normal;
 }
 /*
 ツッコミ省略版本文

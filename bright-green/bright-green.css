@@ -1,6 +1,6 @@
 /*
 Title: Bright-green
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
@@ -205,9 +205,6 @@ div.comment {
 	padding: 8px;
 	margin: 5px 2em 0px 2em;
 	font-size: 90%;
-}
-div.comment div.caption:before{
-	content: "♪ツッコミは、短く鋭く愛を込めてよろ。";
 }
 /*
 ツッコミ省略版本文

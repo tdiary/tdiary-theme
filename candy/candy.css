@@ -1,12 +1,16 @@
 /*
 Title: Candy
-Revision: $Revision: 1.12 $
+Revision: $Revision: 1.13 $
 Author: ただただし
 Access: sho@spc.gr.jp
 
 	validated by W3C.
  */
 /* ChangeLog
+2002-06-07 TADA Tadashi <sho@spc.gr.jp>
+	* change images to index colored (for mozilla/w32).
+	* set line-height of comments to 150%.
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 
@@ -199,6 +203,10 @@ p.commenttitle {
 	border-style: solid;
 	border-color: #8B0000;
 	border-width: 0px 0px 1px 0px;
+}
+
+div.comment p {
+	line-height: 150%;
 }
 
 span.commentator {

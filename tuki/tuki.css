@@ -1,0 +1,223 @@
+/*
+	tuki.css
+ */
+
+a:link, a:visited {
+	color: pink;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: none;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	color: red;
+}
+
+body {
+    background-color:#fff;
+	background-image: url(tuki.gif);
+    background-repeat: repeat-y;
+    color: #555;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	padding: 8px;
+	margin: 0px;
+}
+
+p.adminmenu {
+    text-align: right;
+	
+}
+
+span.adminmenu {
+	background-image:url("tuki_2.gif");
+    border-style: outset;
+    border-color: #fff;
+    border-width: 1px;
+    padding: 3px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h1 {
+	
+	padding: 4px;
+	text-align: center;
+}
+
+p.calendar {
+	background-image: url(tuki_2.gif);
+    background-repeat: repeat-x;
+	text-align: right;
+	padding: 2px;
+	font-weight: bold;
+    margin-left: 80px;
+    font-size:15px;
+}
+
+div.day {
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 80px;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	padding: 3px;
+}
+
+span.date {
+	font-size:15px;
+}
+
+span.title {
+	color: white;
+	margin-right: 1em;
+}
+
+div.body {
+    background-color: #fff;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3;
+}
+
+h3.subtitle {
+	border-style: solid;
+	color: #999;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+	margin: 0em;
+	font-weight: bold;
+}
+
+pre {
+	background-color: pink;
+	color: #999;
+	margin-left: 3em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	color: #555;
+    padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+p.commenttitle {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+    width:90%;
+    
+}
+
+span.commentator {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+	padding: 3px;
+    
+}
+
+p.referertitle {
+	border-style: solid;
+	border-color: pink;
+	border-width: 0px 0px 1px 0px;
+}
+
+p.referer {
+	background-color: white;
+	text-align: right;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 4em;
+}
+
+div.refererlist {
+	background-image: url(tuki_2.gif);
+    background-repeat: repeat-x;
+	color: pink;
+	
+    padding: 2px;
+	padding-bottom: 1px;
+}
+
+ul.referer {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: pink;
+	border-width: 1px;
+	
+}
+
+hr.sep {
+	display: none;
+}
+
+p.footer {
+	
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	
+	color: #555;
+	background-image: url(tuki_2.gif);
+    padding: 5px;
+	margin-bottom: 0.5em;
+	margin-left: 6em;
+    
+}
+
+input.field {
+	background-color: white;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 3em;
+    width: 80%;
+}
+
+dl {
+	margin-left: 2em;
+}
+
+dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+

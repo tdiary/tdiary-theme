@@ -1,0 +1,24 @@
+Title: bistro_menu
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: レストランのメニューのようなテーマ
+
+	Copyright (c) 2002 nga <http://nga.jp/>
+	validated by W3C.
+ChangeLog
+2002-10-22 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	* add top image in update form.
+	* add div.footnote.
+
+2002-05-10 Nana
+        * div.day margin-left,right -> auto
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* font-size: smaller -> 0.9em.
+
+2002-04-03 nga<stakei@nga.jp>
+	* add specification for Theme Gallery.
+
+2002-03-03 nga <stakei@nga.jp>
+	fix fontsize.

@@ -1,6 +1,6 @@
 /*
 Title: bistro_menu
-Revision: $Revision: 1.15 $
+Revision: $Revision: 1.16 $
 Author: しんちゃん
 Access: stakei@nga.jp
 License: GPL
@@ -56,7 +56,7 @@ p.message {
 	padding: 8px;
 }
 
-p.adminmenu {
+div.adminmenu {
 	text-align: right;
 }
 
@@ -80,7 +80,7 @@ h1 {
 	text-align: right;
 }
 
-p.calendar {
+div.calendar {
 	background-color: #ffffff;
 	background-color: transparent;
 	background-repeat: no-repeat;
@@ -101,7 +101,6 @@ div.day {
 	background-position: 0% 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5em;
 	border-style: ridge;
 	border-color: #b0aaa0;
 	border-width: 0px 0px 0px 0px;
@@ -109,7 +108,12 @@ div.day {
 	padding: 0px 0px 20px 0px;
 }
 
-span.title {
+div.day * {
+       	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 span.title {
 	color: #333333;
 	background-color: transparent;
 	margin-right: 1em;
@@ -130,7 +134,7 @@ h2 {
 	font-weight: normal;
 }
 
-span.date {
+h2 span.date {
 	font-weight: normal;
 	font-weight: bold;
 }
@@ -163,7 +167,7 @@ div.section p{
 	line-height: 140%;
 }
 
-p {
+div.section p {
 	background-color: transparent;
 	color: #000000;
 	margin-left: 2em;
@@ -172,7 +176,7 @@ p {
 	margin-bottom: 0;
 }
 
-h3.subtitle {
+h3 {
 	color: #696969;
 	background-color: transparent;
 	border-style: solid;
@@ -211,43 +215,35 @@ div.comment {
 div.comment p{
 	font-size: 0.9em;
 }
-p.commenttitle {
+div.comment div.caption {
 	background-color: transparent;
 	color: #000000;
 	text-align: left ;
 	margin-left:15px;
-	margin-top: 0;
+	margin-top: 0px;
 	padding-left: 1em;
 	border-style: solid;
 	border-color: #B22222;
 	border-width: 0px 0px 1px 0px;
 }
 
-span.commentator {
-	border-style: solid;
-	border-color: honeydew;
-	border-width: 0px 0px 1px 0px;
-	margin-top: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0;
-}
 
-p.referertitle {
+div.refererlist div.caption {
 	background-color: transparent;
 	color: #000000;
 	border-style: solid;
 	border-color: #B22222;
 	border-width: 0px 0px 1px 0px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0em 2em;
 }
 
-p.referer {
+div.referer {
 	background-color: transparent;
 	color: #000000;
 	text-align: right;
 	padding-top: 1em;
 	font-size: 0.9em;
+	margin-right: 1em;
 }
 
 div.refererlist {
@@ -259,7 +255,7 @@ div.refererlist {
 	margin-top: 0;
 }
 
-ul.referer {
+div.refererlist ul {
 
 }
 
@@ -273,8 +269,7 @@ hr.sep {
 	display: none;
 }
 
-p.footer {
-
+div.footer {
 	text-align: right;
 	margin-top: 0px;
 }
@@ -282,15 +277,12 @@ p.footer {
 div.form {
 	width: 631px;
 	background-image: url(bistro_menu_back_body.gif);
+	background-repeat: repeat-y;
 	background-color: transparent;
 	color: #000000;
 	font-size: small;
-	margin-left: 0px;
+	margin-left: 0em;
 	margin-right: 1em;
-}
-
-div.form form {
-	margin: 0px;
 }
 
 div.form p {
@@ -310,16 +302,16 @@ textarea {
 	width: 90%;
 }
 
-dl {
+div.body dl {
 	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	margin-bottom: 0.2em;
 	font-weight: bold;
 }
 
-dd {
+div.body dd {
 	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
@@ -329,7 +321,7 @@ li{
 	font-size: 0.9em;
 }
 
-blockquote {
+div.body blockquote {
 	color: #000000;
 	background-color: white;
 	margin-left: 2em;
@@ -413,4 +405,157 @@ td.calendar-day {
 	text-align: right;
 }
 
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
 
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+	border-color: honeydew;
+        border-width: 0px 0px 1px 0px;
+        line-height: 1.5em;
+	display: inline;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0em 2em;
+}
+
+div.form form.comment {
+	margin: 0em 2em;
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: #000000;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: #000000;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update div.form div.caption {
+	background-image: url(bistro_menu_back_h2.gif);
+	background-repeat:no-repeat ;
+	background-attachment:scroll;
+	background-color: transparent;
+	margin: 0px;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom:10px;
+}
+
+div.day.update div.form form {
+	padding: 1em 2em;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: #000000;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}
+
+div.footnote {
+	font-size: small;
+	margin-left: 4em;
+}

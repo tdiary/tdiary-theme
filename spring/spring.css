@@ -4,7 +4,9 @@
 */
 
 body {
-  background-color: #ffcccc;
+  background-color: #fff;
+  background-image: url(spring_back.png);
+  background-attachment: fixed;
   color: #000000;
   text-align: left;
   margin: 0% 5% 0% 5%;

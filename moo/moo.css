@@ -1,6 +1,7 @@
 /*
-	moo.css: Moo Style Sheet of tDiary $Revision: 1.2 $
+	moo.css: Moo Style Sheet of tDiary $Revision: 1.3 $
         Copyright by (C) Nana http://mikan.sakura.ne.jp/~mpc/
+	validated by W3C
 */
 
 a:link {
@@ -30,8 +31,7 @@ body {
 	color: #804040;
         font-size: small;
         margin-left: 0em;
-        margin-right: 0em;
-    
+        margin-right: 0em;    
 }
 
 p.adminmenu {
@@ -78,7 +78,7 @@ div.day {
 	padding: 0.5em;
 	padding-bottom: 0em;
 	padding-top: 0em;
-	margin-: 0em;
+	margin: 0em;
         border-style: solid;
 	border-color: #fff;
 	border-width: 3px 3px 0px 3px;
@@ -103,8 +103,8 @@ span.date a {
 	color: #a62;
 }
 
-span.date a:link, {
-	color: orange;
+span.date a:link {
+	color: #ffa500;
 	text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ div.body {
 
 p {
 	margin: 0em;
-	line-height: 1.4;  
+	line-height: 1.4em;
 }
 
 h3.subtitle {

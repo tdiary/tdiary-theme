@@ -1,6 +1,6 @@
 /*
 Title: Cherry
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -11,5 +11,8 @@ validated by W3C.
 */
 
 ChangeLog
+	* 2003-01-16 Nana <mpc@mikan.sakura.ne.jp>
+	  remove div.day span.canchor
+	  
 	* 2002-12-20 Nana <mpc@mikan.sakura.ne.jp>
 	  add Cherry Theme. 

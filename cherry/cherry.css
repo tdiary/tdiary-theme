@@ -1,6 +1,6 @@
 /*
 Title: Cherry
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: Nana
 Access: http://mikan.sakura.ne.jp/~mpc/
 License: GPL
@@ -148,7 +148,7 @@ div.day span.sanchor {
 	background-color: transparent;
 	font-size: 1px;
 }
-
+/*
 div.day span.canchor {
 	background-image: url(canchor.png);
 	background-position: bottom right;
@@ -157,7 +157,7 @@ div.day span.canchor {
 	color: #F8F6F0;
 	background-color: transparent;
 }
-
+*/
 pre {
 	margin: 14px 1em;
 	background-color: #fff;

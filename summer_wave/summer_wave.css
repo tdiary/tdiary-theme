@@ -1,6 +1,6 @@
 /*
 Title: Summer Wave
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: shimery
 Access: http://shimery.tdiary.net/
 License: GPL
@@ -14,42 +14,42 @@ div.rank   {
 	text-align: left;
 	margin-top: 2px;
 	margin-bottom: 2px;
-	margin-left: 10%
+	margin-left: 10%;
 }
 
 body  {
 	color: #000080;
 	font-size: 1em;
 	background-color: #fff;
-	margin: 2% 10%
+	margin: 2% 10%;
 }
 
 a:link  {
 	color: #4169e1;
-	text-decoration: none
+	text-decoration: none;
 }
 
 a:visited  {
 	color: #4169e1;
-	text-decoration: none
+	text-decoration: none;
 }
 
 a:hover,a:focus  {
 	color: #1e90ff;
-	text-decoration: none
+	text-decoration: none;
 }
 
-p.adminmenu   {
+div.adminmenu {
 	color: gray;
 	font-size: 1em;
-	text-align: right
+	text-align: right;
 }
 
 span.adminmenu   {
 	background-color: #d8e6f5;
 	/*margin-left: 10%;*/
 	padding: 5px;
-	border: none
+	border-style: none;
 }
 
 h1  {
@@ -64,10 +64,10 @@ h1  {
 	border-top: 0px none;
 	border-right: 0px none;
 	border-bottom: 8px solid #d8e7f6;
-	border-left: 0px none
+	border-left: 0px none;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	text-decoration: none;
 }
 
@@ -75,14 +75,14 @@ div.day span.canchor {
 	text-decoration: none;
 }
 
-p.calendar  {
+div.calendar {
 	color: #191970;
 	font-size: 9pt;
 	background-color: transparent;
 	text-align: left;
 	/*margin: 0% 0% 3% 10%;*/
 	padding: 3px;
-	border: none 1px #87cefa
+	border: none 1px #87cefa;
 }
 
 div.day    {
@@ -97,26 +97,26 @@ h2      {
 	font-weight: bold;
 	font-size: 11pt;
 	background: #d8e6f5 url(wave.png) repeat-x scroll 0% 100%;
-	padding-top: 40px
+	padding-top: 40px;
 }
 
-span.date {
-	margin-left: 1em
+h2 span.date {
+	margin-left: 1em;
 }
 
 div.body     {
 	color: #000080;
 	background-color: #d8e7f6;
-	padding: 0pt 6pt
+	padding: 0pt 6pt;
 }
 
-h3.subtitle   {
+h3 {
 	color: #000080;
 	font-weight: bold;
 	font-size: 10pt;
 	background-color: #f0f8ff;
 	padding: 3pt;
-	border: dashed 1px #96beff
+	border: dashed 1px #96beff;
 }
 
 div.day p {
@@ -130,10 +130,10 @@ div.comment  {
 	color: #333;
 	font-size: 9pt;
 	background-color: #d8e7f6;
-	padding: 2px 2px 1px 2em
+	padding: 2px 2px 1px 2em;
 }
 
-div.day span.panchor {
+div.day span.sanchor {
 	background-image: url(summer_wave_panchor.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -153,77 +153,70 @@ div.day span.canchor {
 	font-size: 1px;
 }
 
-p.commenttitle   {
+div.comment div.caption {
 	color: #000080;
 	border-style: none none solid none;
 	border-width: 0px 0px 1px 0px;
-	border-color: #000080
+	border-color: #000080;
 }
 
-span.commentator  {
-	color: #000080;
-	background-color: transparent;
-	padding: 3px;
-	border-style: solid;
-	border-width: 0px 0px 1px 0px;
-	border-color: #000080
-}
 
 div.comment p  {
 	margin-left: 0em;
-	text-indent: 0em
+	text-indent: 0em;
 }
 
-p.referer    {
+div.referer {
 	color: #000080;
 	font-size: 9pt;
 	background-color: #d8e7f6;
 	text-align: right;
-	padding: 4px
+	padding: 4px;
 }
 
 div.refererlist   {
 	font-size: 9pt;
 	background-color: #f0f8ff;
 	padding: 4px;
-	border: 2px
+	border: 2px;
 }
 
-p.referertitle {
+div.refererlist div.caption {
 	border-color: #f0f0f0;
 	border-style: solid;
 	border-width: 1px 0px 1px 0px;
+	margin: 0.5em 0em;
 }
 
 hr  {
-	border: none
+	border: none;
 }
 
 hr.sep {
-	display: none
+	display: none;
 }
 
-p.footer {
+div.footer {
         font-size: 9pt;
 	text-align: right;
 }
 
 div.form  {
 	margin-left: 0px;
-	padding: 0.5em 1em
+	padding: 0.5em 1em;
 }
 
 input.field  {
 	color: #000080;
 	background-color: white;
 	border: solid 1px #4169e1;
-	font-size: 1em
+	font-size: 1em;
 }
 
 textarea  {
 	color: #000080;
 	background-color: white;
-	border: solid 1px #4169e1
+	border: solid 1px #4169e1;
 }
 
 
@@ -232,7 +225,7 @@ p.message  {
 	font-size: large;
 	background-color: #d8e6f5;
 	text-align: center;
-	padding: 8px
+	padding: 8px;
 }
 
 pre  {
@@ -240,21 +233,21 @@ pre  {
 	font-size: 1em;
 	background-color: #4682b4;
 	margin-left: 3em;
-	padding: 8px
+	padding: 8px;
 }
 
-dl {
-	margin-left: 2em
+div.body dl {
+	margin-left: 2em;
 }
 
-dt {
+div.body dt {
 	font-weight: bold;
-	margin-bottom: 0.2em
+	margin-bottom: 0.2em;
 }
 
-dd {
+div.body dd {
 	margin-bottom: 0.5em;
-	margin-left: 1em
+	margin-left: 1em;
 }
 
 li {
@@ -263,17 +256,17 @@ li {
 
 ul,ol {
 	margin-top: 0em;
-	margin-left: 2em
+	margin-left: 2em;
 }
 
-blockquote   {
+div.body blockquote {
 	color: #666;
 	background-color: white;
 	margin-left: 3em;
 	padding: 0.5em;
 	border-style: solid;
 	border-width: 3px 1px 3px 1px;
-	border-color: #c0c0c0
+	border-color: #c0c0c0;
 }
 
 .hide {
@@ -322,13 +315,13 @@ p.strong {
 input     {
 	color: #666;
 	padding: 1px;
-	border: solid 1px #4169e1
+	border: solid 1px #4169e1;
 }
 
 select    {
 	color: #666;
 	padding: 2px;
-	border: solid 2px #4169e1
+	border: solid 2px #4169e1;
 }
 
 /* calendar2 */
@@ -360,12 +353,155 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 p.recentitem  {
 	font-size: small;
 	margin-top: 0px;
-	margin-bottom: 0px
+	margin-bottom: 0px;
 }
 
 div.recentsubtitles  {
 	font-size: small;
 	margin-top: 0px;
 	margin-bottom: 1em;
-	margin-left: 1em
+	margin-left: 1em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+	margin-top: 12px;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+	color: #000080;
+        border-bottom: solid 1px #000080;
+        line-height: 28px;
+	display: inline;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form {
+        margin-left: 2em;
+}
+
+div.form div.caption {
+        margin-bottom: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: #000080;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: #000080;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+        background-color: white;
+}
+
+div.day.update div.form {
+        background-color: white;
+	margin-left: 0em;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: #000080;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
 }

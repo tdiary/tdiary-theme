@@ -4,10 +4,13 @@ Access: moonwave@ba2.so-net.ne.jp
 License: GPL
 Comment: 横から光が当たった感じ‥かな？
 
-	Sidelight.css: Default Style Sheet of tDiary $Revision: 1.1 $
+	Sidelight.css: Default Style Sheet of tDiary $Revision: 1.2 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 
 Changelog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-19 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

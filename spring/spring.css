@@ -1,6 +1,6 @@
 /*
 Title: Spring
-Revision: $Revision: 1.11 $
+Revision: $Revision: 1.12 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 Comment:
@@ -168,7 +168,7 @@ hr.sep {
 }
 
 div.footer {
-	font-size: 0.8em;
+	font-size: 80%;
 	text-align: right;
 	color:#000000;
 }
@@ -419,7 +419,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

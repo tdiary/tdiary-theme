@@ -3,7 +3,7 @@ Title: Sky
 Author: zoe
 Access: http://www.kasumi.sakura.ne.jp/~zoe/
 
-	sky.css: Sky Style Sheet of tDiary $Revision: 1.7 $
+	sky.css: Sky Style Sheet of tDiary $Revision: 1.8 $
 	Copyright (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
 	validated by W3C.
  */
@@ -135,7 +135,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 }
@@ -378,7 +378,7 @@ div.form form {
 }
 
 div.form div.caption {
-        font-size: 0.9em;
+        font-size: 90%;
         border-style: solid;
         border-color: #aaa;
         border-width: 0px 0px 1px 0px;
@@ -386,7 +386,7 @@ div.form div.caption {
 }
 
 div.form form.comment {
-        font-size: 0.9em;
+        font-size: 90%;
 }
 
 div.field {

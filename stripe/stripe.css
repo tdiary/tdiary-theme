@@ -10,7 +10,7 @@ Access: <clorets@estyle.ne.jp>
 body {
         background-image: url(stripe_back.gif);
         /*text-align : center;*/
-        font-size: 1em;
+        font-size: 100%;
 	color: #000;
         margin: 0em 3em 0em 3em; 
 	padding: 1em; 
@@ -476,7 +476,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

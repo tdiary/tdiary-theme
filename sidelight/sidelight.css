@@ -1,6 +1,6 @@
 /*
 Title: Sidelight
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -8,7 +8,7 @@ Comment: 横から光が当たった感じ‥かな？
 */
 
 /*
-	Sidelight.css: Default Style Sheet of tDiary $Revision: 1.4 $
+	Sidelight.css: Default Style Sheet of tDiary $Revision: 1.5 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 
 Changelog
@@ -66,7 +66,7 @@ div.adminmenu {
 h1 {
 	color: #000;
 	text-align: left;
-	font-size:1.5em;
+	font-size:150%;
 	font-style:normal;
 	margin-left: -60px;
 	padding-left:60px;
@@ -108,7 +108,7 @@ div.day {
 タイトル行全体の設定
 */
 h2 {
-	font-size: 1.2em;
+	font-size: 120%;
 	font-style: normal;
 	border-width : 1px 0em 0em 1px;
 	border-style : solid;
@@ -144,7 +144,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin-top: 1em;
 	font-weight: bold;
 	border-color: #ccc;

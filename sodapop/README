@@ -10,6 +10,9 @@ License: GPL
    お好きな背景イメージを用意してください。
 
 ChengeLog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-02-16 Nana <clorets@estyle.ne.jp>
 	* remove body background-image
 	

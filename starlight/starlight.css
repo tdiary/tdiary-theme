@@ -1,6 +1,6 @@
 /*
 Title: Starlight
-Revision: $Revision: 1.6 $
+Revision: $Revision: 1.7 $
 Author: Nana
 Access: http://moo.boo.jp
 
@@ -254,7 +254,7 @@ p.strong {
 }
 
 div.calendar {
-    font-size: 1em;
+    font-size: 100%;
     text-align: right;
     margin-left: 0px;
 }

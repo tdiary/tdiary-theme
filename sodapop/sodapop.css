@@ -1,6 +1,6 @@
 /*
 Title: Sodapop
-Revision: $Revision: 1.10 $
+Revision: $Revision: 1.11 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
 Comment: blockquote,footnote,recent_list plugin対応
@@ -85,7 +85,7 @@ div.day {
   */
 h2 {
 	background-color: #9cc;
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0px;
 	padding: 0.2em 0.2em 0.2em 0.5em;
 	border-bottom: 1px solid #999;
@@ -116,7 +116,7 @@ div.body {
   サブタイトルの設定
   */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 0em;
 	font-weight: bold;
 	border-bottom: 1px solid #ccc;

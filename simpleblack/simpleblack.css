@@ -1,6 +1,6 @@
 /*
 Title: SimpleBlack
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: Nana
 Access: http://moo.boo.jp
 Comment: 思いっきりシンプル
@@ -28,7 +28,7 @@ Comment: 思いっきりシンプル
 */
 body {
         text-align : center;
-        font-size: 1em;
+        font-size: 100%;
 	background-color: #000;
 	color: #fff;
     

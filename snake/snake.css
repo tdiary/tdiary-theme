@@ -1,6 +1,6 @@
 /*
 Title: Snake
-Revision: $Revision: 1.7 $
+Revision: $Revision: 1.8 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -8,7 +8,7 @@ Comment: 名前とは裏腹にシンプルで大人しいテーマ
 */
 
 /*
-	snake.css: Style Sheet of tDiary $Revision: 1.7 $
+	snake.css: Style Sheet of tDiary $Revision: 1.8 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	validated by W3C
 */
@@ -101,7 +101,7 @@ div.day {
 タイトル行全体の設定
 */
 h2 {
-	font-size:1.2em;
+	font-size:120%;
 	font-style:normal;
 	margin: 0;
 	padding: 0.2em;
@@ -142,7 +142,7 @@ div.body {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1em;
+	font-size: 100%;
 	margin: 1.5em 0 1em 0;
 	font-weight: bold;
 	border-width: 0 0 1px 0;

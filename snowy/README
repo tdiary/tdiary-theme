@@ -8,6 +8,10 @@ Comment: ゆきだるまん
         Validated by W3C
 
 ChangeLog
+2003-09-16 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
 2003-01-18 TADA Tadashi <sho@spc.gr.jp>
 	* remove background image in calendar2.
 	

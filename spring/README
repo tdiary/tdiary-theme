@@ -6,6 +6,9 @@ License: GPL
   Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 
 ChangeLog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
 2003-03-16 Nana <clorets@estyle.ne.jp>
 	* remove h1 color
 	* support major plugin,blockquote

@@ -1,6 +1,6 @@
 /*
 Title: Snowy
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -15,7 +15,6 @@ Comment: ゆきだるまん
 */
 body {
 	background-image: url(snowy_bg.png);
-	font-family: Verdana,Arial,Helvetica,sans-serif;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
@@ -153,7 +152,7 @@ div.section {
 */
 h3 {
 	text-align: left;
-	font-size: 1em;
+	font-size: 100%;
 	margin-left: 0px;
 	padding: 5px;
 	border-bottom: 1px dashed #AA7C66;
@@ -535,7 +534,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 	text-align: left;
 }
 

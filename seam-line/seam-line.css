@@ -1,6 +1,6 @@
 /*
 Title: Seam-line
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Nana
 License: GPL
 Comment: À•§§Ã‹
@@ -37,7 +37,7 @@ a:hover {
 
 div.adminmenu {
 	text-align: left;
-	font-size: 0.8em;
+	font-size: 80%;
 }
 
 span.adminmenu{
@@ -46,7 +46,7 @@ span.adminmenu{
 
 h1 {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 120%;
 	color:#c875a5;
 	background-color: transparent;
 	border-width: 0px 0px 5px 0px;
@@ -63,7 +63,7 @@ div.calendar {
 	background-color:#fff;
 	margin-left: 15%;
 	margin-right: 15%;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 div.day {
@@ -139,7 +139,7 @@ pre {
 div.comment {
 	text-align: left;
 	margin-right: 1em;
-	font-size: 0.9em;
+	font-size: 90%;
 	border: 2px dashed; 
 	border-color:#fff;
 	background-color:#ffcccc;
@@ -163,7 +163,7 @@ div.comment a:visited{
 div.comment div.caption {
 	text-align: right;
 	color:#ffffff;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: transparent;
 }
 
@@ -173,19 +173,19 @@ div.refererlist div.caption {
 	color: #db7093;
 	background-color: transparent;
 	margin-left: 10%;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.referer {
 	margin-left: 10%;
 	margin-bottom: 1em;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.refererlist {
 	text-align: right;
 	color:#c875a5;
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-right: 1em;
 	background-color: transparent;
 }
@@ -214,7 +214,7 @@ textarea {
 }
 
 p.strong {
-	font-size: 2em;
+	font-size: 200%;
 	font-weight: bold;
 	text-align: center;
 	color:#ff3300;
@@ -222,7 +222,7 @@ p.strong {
 }
 
 div.rank {
-	font-size: 0.8em;
+	font-size: 80%;
 	color:#db7093;
 	text-align: left;
 	margin-right: 15%;
@@ -309,7 +309,7 @@ span.footnote{
 /* calendar2 */
 table.calendar {
         background-color: #fff;
-	font-size: 0.8em;
+	font-size: 80%;
 	border-style: solid dashed dashed dashed;
         border-width: 8px 2px 2px 2px;
         border-color: #c875a5 #c875a5 #c875a5 #c875a5;

@@ -1,6 +1,6 @@
 /*
 Title: Sagegreen
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
@@ -17,7 +17,6 @@ body {
 	background-color: #fff;
 	background-image: url(sagegreen-b.png);
 	color: #555555;
-	font-family: Arial,Helvetica,'MS UI Gothic',sans-serif;
 }
 
 /*
@@ -57,7 +56,6 @@ span.adminmenu {
 h1 {
 	text-align: center;
 	font-size: 180%;
-	font-family:Times,"Times new roman",sans-serif;
 }
 
 /*
@@ -509,7 +507,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {

@@ -8,7 +8,11 @@ Comment: グレー基調の落ち着いたテーマ／縦横のストライプがアクセント
 	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
 		 and zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
+
 ChangeLog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-18 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

@@ -7,6 +7,9 @@ Comment: 桜色なテーマ
 	Copyright by (C) nga <http://nga.jp/>
 
 ChangeLog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
 2002-10-19 zoe <zoe@kasumi.sakura.ne.jp>
 	* convert for 1.5 series.
 

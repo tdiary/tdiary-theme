@@ -6,3 +6,9 @@ Comment:
 
 Copyright (C) 2002 Nana http://moo.boo.jp
 validated by W3C.
+
+Changelog
+2003-09-16 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+

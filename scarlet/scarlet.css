@@ -14,7 +14,6 @@ validated by W3C.
 body{
 	background-color: #663333;
 	color: #CCCC99;
-        font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 
 /*
@@ -40,7 +39,7 @@ a:hover {
 */
 div.adminmenu {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 /*
@@ -155,7 +154,7 @@ div.section {
 サブタイトルの設定
 */
 h3 {
-	font-size: 1.1em;
+	font-size: 110%;
 	margin-top: 1em;
 	font-weight: bold;
         /*line-height: 30px;*/
@@ -204,7 +203,7 @@ div.section p {
 ツッコミ/フォーム/リンク元のキャプション設定
 */
 div.caption {
-	font-size: 0.9em;
+	font-size: 90%;
 	border-style: dotted;
 	border-color: #CCCC99;
 	border-width: 0px 0px 1px 0px;
@@ -232,7 +231,7 @@ div.comment {
 ツッコミ省略版本文
 */
 div.commentshort {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-left: 0.5em;
 }
 span.commentator {
@@ -248,7 +247,7 @@ div.commentshort p {
 ツッコミ本体
 */
 div.commentbody {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em;
 	line-height: 1.2em;
 }
@@ -304,7 +303,7 @@ div.form form {
 }
 
 div.form form.comment {
-	font-size: 0.9em;
+	font-size: 90%;
 }
 
 div.field {
@@ -346,7 +345,7 @@ div.button {
 */
 div.referer {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 90%;
 	background-color: #882131;
         color: #FEFEDE;
 	/*border-style: solid;
@@ -377,7 +376,7 @@ div.refererlist {
 リンク元リスト一覧の設定
 */
 div.refererlist ul {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin: 0.5em 1em 0.5em 3em;
 	line-height: 1.2em;
 }
@@ -402,7 +401,7 @@ hr.sep {
 フッタの設定
 */
 div.footer {
-	font-size: 0.9em;
+	font-size: 90%;
 	text-align: right;
 	margin-top: 0px;
 }
@@ -553,13 +552,13 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-	font-size: 0.9em;
+	font-size: 90%;
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
@@ -568,11 +567,11 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: 0.7em;
+	font-size: 70%;
 }
 
 div.footnote {
-	font-size: 0.9em;
+	font-size: 90%;
 	border-style: solid;
         border-width: 1px;
         border-color: #551121 #DD6181 #DD6181 #551121;
@@ -645,7 +644,7 @@ div.sidebar p {
 }
 
 div.rank {
-        font-size: 0.9em;
+        font-size: 90%;
         color: #CCCC99;
 }
 

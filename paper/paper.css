@@ -1,6 +1,6 @@
 /*
 Title: Ä¥¤ê»æ
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -74,7 +74,7 @@ div.day {
 	text-align: left;
 	font-size: small;
 	padding: 0em;
-	margin: 1.5em 20% 1em 20%;
+	margin: 1.5em 5% 1em 5%;
 }
 
 h2 {
@@ -320,27 +320,15 @@ div.img p.sentence {
 
 /* sidebar */
 
-div.leftsidebar {
+div.sidebar {
 	width: 18%;
 	font-size: x-small;
 	margin: 0em 4px 0em 0em;
 	padding: 0em;
-	float: left;
-/*	position: fixed; */
-}
-
-div.leftsidebar p{
-	margin: 0em;
-}
-
-div.rightsidebar {
-	width: 18%;
-	font-size: x-small;
 	float: right;
-	padding: 0em ! important;
 }
 
-div.rightsidebar p{
+div.sidebar p{
 	margin: 0em;
 }
 
@@ -438,4 +426,22 @@ table.calendar td {
 table.calendar td.calendar-prev-month, table.calendar
 td.calendar-current-month, table.calendar td.calendar-next-month {
 	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	background-color: #008;
+	margin: 0em;
+	text-align: center;
+	border-style: solid solid none solid;
+	border-width: 1px;
+	border-color: #bbb;
+	color: #111;
+}
+
+div.recentsubtitles {
+	background-color: #bbb;
+	border: solid 1px #bbb;
+	margin-bottom: 0.3em;
+	color: #111;
 }

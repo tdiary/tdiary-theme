@@ -1,6 +1,6 @@
 /*
 Title: ¾®±§Ãè
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
@@ -77,8 +77,8 @@ p.calendar {
 div.day {
 	text-align: left;
 	padding: 0em;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 2em;
 }
 
@@ -116,6 +116,15 @@ div.section {
 	background-repeat: no-repeat;
 	padding-top: 1px;
 	margin: 1em 0em 2em 0em;
+}
+
+div.section blockquote {
+	margin: 0.5em auto;
+	padding: 0.5em;
+	width: 75%;
+	border-style: groove;
+	border-color: #00f;
+	border-width: 4px 0px;
 }
 
 div.section p {
@@ -293,24 +302,14 @@ div.img p.sentence {
 
 /* sidebar */
 
-div.leftsidebar {
+div.sidebar {
 	width: 18%;
-	float: left;
+	float: right;
 	margin: 0em 8px 0em 0em;
 	padding: 0em;
 }
 
-div.leftsidebar p{
-	margin: 0em;
-}
-
-div.rightsidebar {
-	width: 18%;
-	float: right;
-	padding: 0em ! important;
-}
-
-div.rightsidebar p{
+div.sidebar p{
 	margin: 0em;
 }
 
@@ -381,6 +380,13 @@ table.calendar {
                border-style: solid;
                color: #fff;
                padding: 2px;
+}
+
+table.calendar td.image {
+        background-image: url(nobeyama.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 72px;
 }
 
 table.calendar td {

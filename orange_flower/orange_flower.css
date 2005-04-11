@@ -1,0 +1,494 @@
+@charset "euc-jp";
+/*
+Title: Orange Flower
+Revision: $Revision: 1.1 $
+Author: TADA Tadashi
+Access: sho@spc.gr.jp
+Comment: うちの君子蘭ですが
+License: GPL
+
+validated by W3C.
+*/
+
+body {
+	background-color: #f5f5f5;
+	background-image: url(body.jpg);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: #0a0a0a;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	background-color: transparent;
+	color: #3ab4c2;
+	text-align: right;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 1em;
+	padding-top: 80px;
+}
+
+a:link {
+	background-color: transparent;
+	color: #3ab4c2;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #f59200;
+}
+
+div.adminmenu {
+	font-size: 80%;
+	margin: 0.1em;
+	text-align: right;
+	font-weight: bold;
+}
+
+div.adminmenu a {
+	text-decoration: none;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	color: #000;
+	padding: 2px;
+}
+
+div.day {
+	background-color: #f5f5f5;
+	color: #000;
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 2px;
+	margin: 0px 1em 1em 1em;
+	padding: 0px;
+	padding-bottom: 1em;
+}
+
+h2 {
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 0px 0px 2px 0px;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+h2 span.date {
+	font-size: medium;
+	margin-left: 0.3em;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+h2 span.title {
+	font-size: large;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+div.body {
+	background-color: transparent;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+div.section {
+	margin-top: 0.5em;
+	margin-left: 0em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+h3 {
+	margin: 0em;
+	font-size: medium;
+	font-weight: bold;
+}
+
+h4 {
+	margin: 1em;
+	font-size: medium;
+	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+h5 {
+	margin: 2em;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+div.day span.sanchor, div.day span.canchor {
+	font-size: 70%;
+	margin-right: 0.5em;
+	text-decoration: none;
+}
+
+div.section p {
+	line-height: 150%;
+	margin: 0.5em 1em 0.7em 2em;
+}
+
+div.caption {
+	font-size: 90%;
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 0px 0px 2px 0px;
+	margin: 0em;
+	padding: 0.2em;
+	padding-left: 0.5em;
+}
+
+div.caption a {
+	text-decoration: none;
+}
+
+div.comment {
+	background-color: transparent;
+	color: #000;
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 2px;
+	margin: 0.5em 2em 0.5em 2em;
+}
+
+div.commentshort {
+	font-size: 90%;
+	margin-left: 0.5em;
+}
+
+div.commentator {
+	margin-left: 0.3em;
+}
+
+span.commentator {
+	font-weight: bold;
+}
+
+div.commentshort p {
+	line-height: 120%;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+div.commentbody {
+	font-size: 90%;
+	line-height: 120%;
+	margin: 0.5em;
+}
+
+div.commentbody p {
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+div.form {
+	background-color: transparent;
+	color: #000;
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 2px;
+	margin: 0.5em 2em 0.5em 2em;
+}
+
+div.form form {
+	margin: 0.5em 0em 0em 0.5em;
+}
+
+div.form form.comment {
+	font-size: 90%;
+	padding-bottom: 0.5em;
+}
+
+div.field {
+	display: inline;
+	margin-right: 2em;
+}
+
+form.comment input {
+	background-color: #f5f5f5;
+	color: #000;
+	margin-left: 0.5em;
+}
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+	margin-top: 0.7em;
+}
+
+form.comment textarea {
+	display: block;
+	background-color: #f5f5f5;
+	color: #000;
+	margin-left: 3.5em;
+	margin-bottom: 0.7em;
+	width: 25em;
+	height: 5em;
+}
+
+form.comment div.button {
+	display: block;
+	margin-left: 3em;
+}
+
+div.referer {
+	text-align: right;
+	font-size: 90%;
+	background-color: transparent;
+	color: #000;
+	margin: 0.5em 1em 0em 2em;
+}
+
+div.refererlist {
+	background-color: transparent;
+	color: #000;
+	border-style: dotted;
+	border-color: #9ca8ad;
+	border-width: 2px;
+	padding-bottom: 1px;
+	margin: 0.5em 2em 0.5em 2em;
+}
+
+div.refererlist ul {
+	font-size: 90%;
+	line-height: 120%;
+	margin: 0.5em 1em 0.5em 2em;
+	padding-left: 1em;
+}
+
+div.section hr {
+	border-style: dotted;
+	border-width: 2px 0px 0px 0px;
+	border-color: #9ca8ad;
+	margin-left: 4em;
+	width: 70%;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: 90%;
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 1em;
+}
+
+div.update {
+	padding-top: 1em;
+}
+
+form.update {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+form.update input, form.update textarea, form.commentstat input {
+	background-color: #f5f5f5;
+	color: #000;
+}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+form.update div.field.title input {
+	margin-left: 0.5em;
+}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+}
+form.update textarea {
+	display: block;
+	margin-left: 3em;
+	margin-bottom: 1em;
+	width: 35em;
+	height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+
+div.comment form {
+	margin-top: 0em;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: #d00;
+	color: #fff;
+	padding: 8px;
+}
+
+div.section pre {
+	background-color: #3ab4c2;
+	color: #b3f7ff;
+	font-weight: bold;
+	margin-left: 3em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.section blockquote {
+	border-style: solid;
+	border-color: #3ab4c2;
+	border-width: 0px 0px 0px 6px;
+	margin-left: 3em;
+	padding-left: 6px;
+}
+div.section blockquote p {
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+div.section ul, div.section ol {
+	margin-left: 7em;
+	margin-right: 3em;
+	padding-left: 0px;
+}
+div.section ul ul, div.section ol ol {
+	margin-left: 1.7em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.section dl {
+	margin-left: 4em;
+}
+
+div.section dt {
+	margin-bottom: 0em;
+	font-weight: bold;
+}
+
+div.section dd {
+	margin: -1em 0em 0.5em 3.5em;
+}
+
+div.section table {
+	margin: 0.5em 1em 0.5em 5em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9ca8ad;
+	border-collapse: collapse;
+}
+div.section th, div.section td {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9ca8ad;
+}
+
+/*
+ plugins
+ */
+/* amazon plugin */
+img.left {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: #fff;
+	float: left;
+	margin: 0.5em;
+}
+
+img.right, img.photo, img.amazon {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: #fff;
+	float: right;
+	margin: 0.5em;
+}
+
+span.blogmap {
+	font-size: 80%;
+}
+
+/*
+div.section, div.comment {
+	clear: both;
+}
+*/
+
+div.footnote {
+	margin-left: 5em;
+	margin-right: 2em;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #9ca8ad;
+}
+
+/*
+sidebar
+*/
+div.main {
+	margin-left: 200px;
+}
+
+div.sidebar {
+	font-size: 90%;
+	background-color: #f5f5f5;
+	color: #000;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 200px;
+	padding: 4px 0px 100% 0px;
+}
+
+div.sidebar a:link,
+div.sidebar a:visited,
+div.sidebar a:hover,
+div.footer a:link,
+div.footer a:visited,
+div.footer a:hover 
+{
+	background-color: transparent;
+	color: #000;
+	text-decoration: none;
+}
+
+div.calendar {
+	margin-left: 4px;
+}
+
+div.calendar select {
+	margin-left: 8px;
+}
+
+p.recentitem {
+	color: #000;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-bottom: 0.5em;
+}
+
+div.recentsubtitles {
+}
+
+div.sidebar hr {
+	border-style: dotted;
+	border-width: 2px 0px 0px 0px;
+	border-color: #000;
+	width: 80%;
+}
+

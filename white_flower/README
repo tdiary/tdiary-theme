@@ -1,0 +1,17 @@
+Title: White Flower
+Revision: $Revision: 1.1 $
+Author: TADA Tadashi
+Access: sho@spc.gr.jp
+License: GPL
+Comment: マーガレット
+
+validated by W3C.
+サイドバー推奨
+amazon プラグイン対応
+
+トップの画像を入れ替える場合、append-css.rbプラグインを使って以下のように
+指定すると無改造でいけます(画像の高さは100pxです)。
+
+body {
+   background-image: url(新しい画像のURL);
+}

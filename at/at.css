@@ -1,0 +1,402 @@
+@charset "euc-jp";
+/*
+Title: at
+Revision: $Revision: 1.1 $
+Author: sasasin
+Access: http://sasasin.sytes.net/
+License: GPL
+Comment: 寒色なのに暑苦しいテーマ。
+
+validated by W3C.
+サイドバー非対応。
+*/
+
+/*
+ページ全体の基本的な設定。背景色や文字色など
+*/
+body {
+	color: #000000;
+	background-color: #ffffff;
+	margin:0px;
+}
+p {
+	margin-left:1em;
+	margin-right:3em;
+}
+input {
+	margin-left:1em;
+}
+
+
+/*
+リンク文字列に関する設定
+*/
+a:link {
+	text-decoration: none;
+	color:#3333FF;
+	background-color: transparent;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #2323B1;
+	background-color: transparent;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+ページトップにある操作ボタンの並ぶ行の設定
+*/
+div.adminmenu {
+	color: #414183;
+	background-color: #a3a3d1;
+	text-align: right;
+	font-size: 90%;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding:5px 0px 3px 0px ;
+}
+
+/*
+ページトップにある操作ボタン自体の設定
+*/
+span.adminmenu ,span.adminmenu a:link,span.adminmenu a:visited ,span.adminmenu a:hover{
+	color: #414183;
+	background-color: transparent;
+}
+
+/*
+カレンダーの設定
+*/
+div.calendar {
+	color: #222;
+	background-color: transparent;
+	text-align: left;
+	letter-spacing: 0.1em;
+	padding: 2px;
+	line-height: 110%;
+	font-size: 90%;
+	margin-right: 1em;
+}
+
+div.calendar div.year {
+}
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	color: #414183;
+	background-color: #a3a3d1;
+	text-align:center;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding:10px 0px 10px 0px ;
+	height: 35px;
+}
+
+h1 a:link,h1 a:visited ,h1 a:hover {
+	text-decoration: none;
+	color: #414183;
+	background-color: transparent;
+}
+
+
+/*
+日付の設定
+*/
+h2 span.date {
+	margin-left:10px;
+}
+
+/*
+タイトル行全体の設定
+*/
+h2, h3, h4, h5 ,h6{
+	color: #FFFFFF;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 2px 0px;
+	width: 100%;
+}
+
+h2 {
+	background-color: #0B408D;
+}
+h3{
+	background-color: #3B5686;
+}
+h4{
+	background-color: #5A6683;
+}
+h5{
+	background-color: #686C75;
+}
+h6{
+	background-color: #595959;
+}
+
+
+h2 a:link,h2 a:visited ,h2 a:hover ,h3 a:link,h3 a:visited ,h3 a:hover ,h4 a:link,h4 a:visited ,h4 a:hover ,h5 a:link,h5 a:visited ,h5 a:hover ,h6 a:link,h6 a:visited ,h6 a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+/*
+タイトルの設定
+*/
+h2 span.title ,h2 span.date a,h2 span.title a{
+	background-color: transparent;
+}
+
+
+
+/*
+タイトルを除いた1日の日記本文全体の設定
+*/
+div.body{
+	margin:0;
+}
+
+/*
+サブタイトルを含むセクションの設定
+*/
+div.section {
+	line-height: 130%;
+}
+div.caption{
+	margin-left:1em;
+	font-size:90%;
+}
+
+/*
+ツッコミ欄全体の設定
+*/
+div.comment {
+	padding: 0.5em 1em;
+	margin-top: 0;
+	border-style: dashed;
+	border-width:	2px  0px;
+	border-color: #a3a3a6;
+}
+
+/*
+ツッコミ省略版
+*/
+div.commentshort {
+	font-size: 90%;
+	padding:4px;
+}
+div.commentshort p {
+	margin: 0.2em 0em;
+	line-height: 120%;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+	line-height: 120%;
+	margin: 0.5em;
+}
+span.commentator {
+	font-weight: bold;
+}
+div.commentator {
+	line-height: 150%;
+	border-style: dashed;
+	border-color: #a3a3a6;
+	border-width: 1px 0px 0px 0px;
+}
+div.commentbody p {
+	margin: 0.5em 0.5em 0.5em 2em;
+}
+
+/*
+フォーム全体を囲む枠の設定
+*/
+div.form {
+	margin:0;
+	padding:0;
+}
+
+
+/*
+リンク元リスト(Month/Latestモード)の設定
+*/
+div.referer {
+	text-align: right;
+	font-size: 90%;
+	padding: 10px;
+	margin: 0;
+}
+
+/*
+リンク元リスト(Dayモード)の設定
+*/
+div.refererlist {
+	padding: 2px;
+	padding-bottom: 1px;
+	margin: 0;
+}
+
+/*
+リンク元リスト一覧の設定
+*/
+div.refererlist ul {
+	font-size: 90%;
+	margin: 0.5em 1em 0.5em 3em;
+	line-height: 120%;
+}
+
+/*
+罫線の設定
+*/
+hr {
+	border-style: dashed;
+	border-width: 2px 0px 0px 0px;
+	border-color: #99CCCC;
+}
+
+/*
+日々の日記のセパレータに使われる罫線の設定
+*/
+hr.sep {
+	display: none;
+}
+
+/*
+フッタの設定
+*/
+div.footer {
+	font-size: 90%;
+	text-align: center;
+	margin: 8px;
+}
+
+/*
+更新フォームとツッコミフォーム
+*/
+
+form{
+	margin:  1em  0em;
+	padding: 0em 0em;
+}
+
+input, textarea{
+	background-color: #FFFFE1;
+	color: #000000;
+	border: solid 2px #a3a3a6;
+}
+
+
+form.update span.field , div.field {
+	display: inline;
+	margin: 0em 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+
+form.update textarea , form.comment textarea{
+	display: block;
+	margin: 1em 0em 1em 3em;
+	width: 50em;
+	height: 20em;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+div.button {
+	display: block;
+	margin-left: 3em;
+}
+
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+	margin-top: 0em;	
+}
+
+/*
+エラーメッセージ表示の設定
+*/
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: #d00;
+	color: #fff;
+	padding: 8px;
+}
+
+/*
+整形済みテキスト(preタグ)と引用(blockquoteタグ)の設定
+*/
+div.section blockquote, div.section pre {
+	color: #000000;
+	background-color: #ffe4ca;
+	padding: 8px 8px 8px 8px;
+	margin-left: 2em;
+	margin-right: 1em;
+	border: dashed 2px #999999;
+	line-height: 120%;
+}
+div.section blockquote p {
+	margin: 0.5em 0em;
+}
+
+/*
+箇条書きの設定
+*/
+div.section ul, div.section ol {
+	margin-left: 5em;
+	margin-right: 3em;
+	padding-left: 0px;
+	line-height: 120%;
+}
+div.section ul ul, div.section ol ol {
+	margin-left: 1.7em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+li{
+	margin-bottom:0.2em;
+}
+
+/*
+項目リストの設定
+*/
+div.section dl {
+	margin-left: 5em;
+}
+
+div.section dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.section dd {
+	margin: 0em 3em 0.5em 1em;
+}
+
+/*
+テーブルの設定
+*/
+div.section table {
+	margin: 0.5em 1em 0.5em 5em;
+	border: solid 2px #aaf;
+	border-collapse: collapse;
+}
+div.section th, div.section td {
+	padding: 5px;
+	border: solid 1px #aaf;
+}

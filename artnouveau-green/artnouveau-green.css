@@ -1,0 +1,244 @@
+@charset "euc-jp";
+
+html,body,table,th,td {
+	/*font-size: small;*/
+	margin: 0;
+	padding: 0;
+	/*font-family: serif,"ヒラギノ明朝proW6","ＭＳ Ｐ明朝","平成明朝";*/
+	line-height: 3ex;
+	color: #2b410d;
+}
+a { text-decoration: none; font-weight: bold; }
+a:link { color: #577ba1; }
+a:active { color: #8da25e; }
+a:visited { color: #a25e6b; }
+a:hover { color: #8da25e; }
+
+
+/*head*/
+h1 {
+	padding: 1em;
+	font-size: 160%;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+div.hatena-body {
+	position: relative;
+	padding-top: 12px;
+}
+
+/*body*/
+div.main {
+	margin-left: 30%;
+	margin-right: 20px;
+}
+div.main div.calendar {
+	margin-top: -1em;
+}
+div.day {
+	border: 3px solid #8da25e;
+	background: #edf2d9;
+	margin-bottom: 1.5em;
+	width: 100%;
+}
+h2 {
+	margin: -3px;
+	padding: 30px 50px;
+	background: url(Gframe-L.gif) no-repeat top left;
+	letter-spacing: 0.2em;
+	line-height: 100%;
+	font-size: 140%;
+}
+div.section {
+	padding: 0 10px
+	margin: 0;
+}
+div.section h3 {
+	letter-spacing: 0.2em;
+	font-size: 120%;
+	padding: 1em;
+}
+div.section h3 span.sanchor {}
+div.section h4 {
+	letter-spacing: 0.2em;
+	font-size: 100%;
+}
+div.section h5 {
+	letter-spacing: 0.2em;
+	font-size: 100%;
+}
+p {
+	text-indent: 1em;
+	margin: 0 2em;
+}
+img.photo {
+	float: right;
+	padding: 10px;
+}
+blockquote {
+	border-top: 2px solid #8da25e;
+	border-bottom: 2px solid #8da25e;
+	background: url(Gquote-L.gif) no-repeat;
+	margin: 0;
+	padding-top: 36px;
+}
+
+div.footnote {
+	border-top: 2px solid #8da25e;
+	background: url(Gfootnote-L.gif) no-repeat;
+	margin: 1em 0;
+	padding-top: 36px;
+}
+div.comment {
+	border-top: 2px solid #8da25e;
+	background: url(Gframe-R.gif) no-repeat bottom right;
+	margin: 1em -3px -4px 0;
+	padding-bottom: 50px;
+}
+div.commentshort {
+	background: url(Gcomment-L.gif) no-repeat;
+	margin: 0;
+	padding-top: 36px;
+}
+div.commentshort p {
+	border-top: 1px dotted #8da25e;
+	margin: 0.5em 2em 0 2em;
+}
+div.refererlist {
+	background: url(Gframe-R.gif) no-repeat bottom right;
+	margin: -4px -3px;
+	padding: 10px;
+}
+div.refererlist div.caption {
+	border-top: 2px solid #8da25e;
+	background: url(Greferer-L.gif) no-repeat;
+	margin: 0;
+	padding-top: 36px;
+}
+/*sidebar*/
+div.sidebar {
+	width: 25%;
+	position: absolute;
+	top: 1.5em;
+	padding-left: 30px;
+}
+div.hatena-module {
+	border: 3px solid #8da25e;
+	margin-bottom: 3em;
+	background: #edf2d9;
+}
+div.hatena-moduletitle {
+	background: url(Gside-R.gif) no-repeat right top;
+	margin: -6px -8px;
+	padding: 15px;
+	border: none;
+}
+div.hatena-modulebody {
+	background: url(Gside-L.gif) no-repeat left bottom;
+	margin: -6px -8px;
+	padding: 15px;
+}
+table.calendar {
+	font-size: 12px;
+	margin: auto;
+	padding: 0;
+	height: auto;
+	vertical-align: top;
+}
+html table.calendar {
+	width: 90%;
+}
+table.calendar * {
+	padding: 0;
+	border: 0;
+	font-weight: bold;
+	margin: auto;
+}
+table.calendar td.* {
+	background-repeat: no-repeat;
+	background-position: center middle;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+}
+td.calendar-sunday { color: #a25e6b; }
+td.calendar-saturday { color: #577ba1; }
+td.calendar-weekday { color: #8da25e; }
+td.calendar-prev-month { text-align: left; padding: 0; }
+td.calendar-current-month { text-align: center; padding: 0; }
+td.calendar-next-month { text-align: right; padding: 0; }
+table.calendar img { height: 1em; width: 1em; }
+
+ul.hatena-photo,ul.hatena-photo li { list-style-type: none; list-style-image: none; }
+img.hatena-photo { border: none; }
+
+/*list*/
+ol,ul,dl {
+	margin: 1em 50px;
+}
+ol ol,ol ul,ul ul,ul ol {
+	margin: 0;
+}
+li { border-bottom: 1px dotted #8da25e; }
+dd {
+	margin-left: 0;
+	padding: 0;
+	margin-bottom: 1em;
+}
+/*書影詳細*/
+div.hatena-asin-detail {
+	margin: 1em;
+	clear: left;
+}
+div.hatena-asin-detail img {
+	float: left;
+	padding: 0;
+	margin: 0 1em 1em 0;
+	border: 1px solid #2b410d;
+}
+div.hatena-asin-detail-info {
+}
+div.hatena-asin-detail-info p {
+	font-size: 120%;
+	letter-spacing: 4px;
+	font-weight: bold;
+	margin: 0.5em 0;
+	text-indent: 0;
+}
+div.hatena-asin-detail-info ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.hatena-asin-detail-info li {
+	border-bottom: 1px dotted #8da25e;
+	margin: 0;
+	padding: 0;
+}
+div.hatena-asin-detail-foot { clear: left; }
+
+/*table表記*/
+div.day table {
+	border-collapse: collapse;
+	margin: 1em 2em;
+}
+div.day th, div.day td {
+	border: 1px solid #8da25e;
+	padding: 0.2em;
+}
+div.day th {
+	background: #fff;
+}
+
+/*question表記*/
+img.hatena-question-image { border: none; }
+table.hatena-question-detail {
+	border-collapse: collapse;
+}
+table.hatena-question-detail th, table.hatena-question-detail td {
+	border-top: 1px dotted #8da25e;
+	border-bottom: 1px dotted #8da25e;
+	border-left: none;
+	border-right:none;
+}

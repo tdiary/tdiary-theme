@@ -1,0 +1,211 @@
+@charset "euc-jp";
+body {
+	background: #4b8bc1 url(aquaDesktop.jpg) no-repeat center fixed;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	/*font-family: •“•È•Æ•Œ≥—•¥ Pro W6,£Õ£” £–•¥•∑•√•Ø,Osaka;*/
+}
+a { text-decoration: none; }
+a:link { color: #339; }
+a:visited { color: #336; }
+a:hover {
+	background: url(aquaLine-dark.png);
+	color: #fff;
+}
+del { text-decoration: underline; color: #666; font-size: 90%; }
+ins { text-decoration: none; color: #666; font-size: 90%; }
+/*•ÿ•√•¿*/
+center table tbody tr td,div.adminmenu {
+	background: #fff url(aquaBar.png) repeat-x;
+	height: 23px;
+	vertical-align: middle;
+	text-align: right;
+	padding: 0;
+}
+center tbody tr td font,span.adminmenu {
+	color: #51516b;
+	font-size: 10px;
+}
+center table tbody tr td a:hover, div.adminmenu a:hover {
+	background: transparent;
+	color: #51516b;
+}
+h1 {
+	font-size: 150%;
+	color: #fff;
+	text-align: right;
+	background: url(HDD.gif) no-repeat right;
+	padding: 12px 36px;
+	margin-right: 36px;
+}
+div.hatena-body {
+	position: relative;
+}
+/*main*/
+div.main {
+	margin-right: 27.5%;
+}
+div.main div.calendar {
+	font-size: 80%;
+	text-align: right:
+	position: relative;
+	top: -1.5em;
+}
+div.day {
+	margin: 1ex;
+	padding: 0;
+}
+h2 {
+	background: url(metal.png);
+	padding: 0.5ex 1em;
+	margin: 0;
+	border: 1px solid #808080;
+	text-align: center;
+	font-size: 100%;
+	-moz-border-radius: 12px 12px 0 0;
+}
+h2 a span.title {
+	font-size: 100%;
+}
+h2 span.date {
+	float: left;
+	font-size: 50%;
+	color: #51516b;
+	padding-left: 16px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background: url(aquaBall.gif) no-repeat;
+}
+div.body {
+	background: #eee url(aquaLine.png);
+	padding-bottom: 1em;
+	border-left: 1px solid #51516b;
+	border-right: 1px solid #51516b;
+}
+div.section, div.footnote {
+	padding: 0 12px;
+}
+h3 {
+	background: #fff url(aquaBack.png) repeat-x bottom;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	padding: 0 1em;
+	margin: 0 -12px;
+	margin-bottom: 2ex;
+	z-index: 1;
+}
+h3 span.sanchor {}
+div.comment {
+	margin-top: -8px;
+	border-top: 1px solid #51516b;
+	background: url(aquaShadow.png) repeat-x top;
+	color: #fff;
+	font-size: 80%;
+	padding: 1em 2em;
+}
+div.footnote { border-top: 1px dotted #999; }
+img.photo {
+	border: 1px solid #51516b;
+	float: right;
+	margin: 1ex;
+	z-index: 100;
+}
+div.refererlist ul { list-style-image: url(aquaFolder2.gif); }
+div.refererlist ul li, div.refererlist ul a { color:#fff; }
+div.refererlist ul a:hover { background: transparent; }
+/*•Í•π•»*/
+ul { list-style-image: url(aquaFolder.gif); }
+ul li {
+	margin: 1ex 0.25em;
+	line-height: 1.5em;
+	
+}
+
+/*sidebar*/
+div.sidebar {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	width: 25%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+div.hatena-module {
+	background: url(aquaShadow.png) repeat-x bottom;
+	margin: 1ex;
+	padding: 0 0 6px 0;
+	position: relative;
+	right: 0;
+}
+div.hatena-moduletitle {
+	border-left: 1px solid #51516b;
+	border-right: 1px solid #51516b;
+	background: #fff url(aquaBar.png) repeat-x;
+	height: 23px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 1px;
+	-moz-border-radius: 15px;
+}
+div.hatena-modulebody {
+	margin: 0;
+	padding: 1em;
+	border-left: 1px solid #51516b;
+	border-right: 1px solid #51516b;
+	background: url(aquaLine.png);
+}
+table.calendar {
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	_width: 80%;
+	height: auto;
+	vertical-align: top;
+}
+table.calendar * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+table.calendar a{ width: 100%; height: 100%; }
+td.calendar-day { color: #666; background-color: #fff; width: 10%; padding-bottom: 1em;	text-align: right; }
+td.calendar-sunday { color: #c00; background-color: #c99; text-align: center; padding: 0; }
+td.calendar-weekday { color: #fff; background-color: #666; text-align: center; padding: 0; }
+td.calendar-saturday { color: #00c; background-color: #99c; text-align: center; padding: 0; }
+td.calendar-prev-month { background: transparent; text-align: left; padding: 0; }
+td.calendar-current-month { background: transparent; text-align: center; padding: 0; }
+td.calendar-next-month { background: transparent; text-align: right; padding: 0; }
+td.calendar-day a { color: #666; background-color: #ccc; }
+td.calendar-day
+td.calendar-day a:hover { color: #fff; background-color: #666; }
+table.calendar img { height: 1em; width: 1em; }
+
+ul.hatena-photo,ul.hatena-photo li { list-style-type: none; list-style-image: none; }
+img.hatena-photo { border: none; }
+
+/*§œ§∆§ •¢•Û•∆• Õ—*/
+div.antenna {
+	color: #fff;
+}
+div.antenna a {
+	color: #fff;
+	padding-left: 16px;
+	background: url(aquaFolder2.gif) no-repeat;
+}
+div.antenna ol a {
+	color: #fff;
+	background-color: #666;
+	background-image: none;
+}
+div.antenna ol a:hover {
+	color: #000;
+	background-color: #ccc;
+	border: 3px solid #aac;
+}
+

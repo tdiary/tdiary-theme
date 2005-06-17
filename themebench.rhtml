@@ -3,7 +3,7 @@
 	# customize
 	theme_uri = './theme'
 	theme_path = '/home/tdiary/public_html/theme'
-	# themebench.rhtml: $Revision: 1.13 $
+	# themebench.rhtml: $Revision: 1.14 $
 	require 'cgi'
 	ERuby.charset = 'EUC-JP'
 	cgi = CGI::new
@@ -17,7 +17,7 @@
 		n = t.split( /_/ ).collect{|s| s.capitalize}.join( ' ' )
 		theme_list << [t,n]
 	end
-	cgi_uri = ENV['SCRIPT_URI']
+	cgi_uri = ENV['SCRIPT_URI'] || ENV['SCRIPT_NAME']
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ja-JP">
 <head>

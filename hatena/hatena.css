@@ -17,12 +17,12 @@ Comment: はてなダイアリーのテーマ
 a.keyword {
 	color: black;
 	text-decoration: none;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #d0d0d0;
 }
 a.okeyword {
 	color: black;
 	text-decoration: none;
-	border-bottom: 1px dashed gray;
+	border-bottom: 1px dashed #d0d0d0;
 }
 
 span.highlight {
@@ -35,8 +35,10 @@ img.photo {
 	margin: 10px;
 	border: 0;
 }
-
-img.asin {
+img.hatena-fotolife {
+	border: 1px solid #606060;
+}
+img.asin, img.barcode {
 	border: 0;
 }
 
@@ -68,11 +70,120 @@ div.ad {
 	text-align: left;
 }
 
+img.aws {
+	padding: 3px;
+	margin-right: 2px;
+}
+
+a.aws img {
+	border: 1px solid white;
+}
+
+a.aws:hover img {
+	filter:none;
+	background-color: #ffcc66;
+	border-bottom: 1px solid #ffcc66;
+}
+
 div.recentitem_diary {
 	margin: 2% 5% 0 6%;
 	font-size: 10pt;
 }
 
+div.hatena-body {
+	position: relative;
+	width: auto;
+	_width: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.hatena-module {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h4.hatena-module, div.hatena-moduletitle {
+	margin: 1em 0 0.3em 0;
+	padding: 0;
+	font-size: 80%;
+	text-align: center;
+	font-weight: normal;
+	border-color: #adb2ff;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.hatena-modulebody ul, ul.hatena_antenna, ul.hatena_section, ul.hatena_groupantenna, ul.hatena_keyword, ul.hatena_hotkeyword, ul.hatena_hoturl, ul.hatena_hotasin {
+	display: block;
+	font-size: 80%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.hatena-modulebody dl {
+	display: block;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+}
+
+div.hatena-modulebody dd {
+	margin-left: 0;
+	margin-bottom: 0.2em;
+}
+
+ul.hatena-photo li {
+	display: inline;
+}
+
+ul.hatena-photo img {
+	border: none;
+	padding: 1px;
+}
+
+form.hatena-searchform {
+	padding: 0;
+	margin: 0;
+}
+
+div.hatena-profile {
+	font-size: 80%;
+}
+div.hatena-profile p {
+	margin: 0;
+	padding: 0;
+}
+div.hatena-profile p.hatena-profile-image {
+	text-align: center;
+}
+div.hatena-profile p.hatena-profile-image img {
+	border: 0;
+}
+table.hatena-question-detail {
+	width: 500px;
+	font-size:90%;
+}
+table.hatena-question-detail th {
+	text-align: left;
+}
+td.hatena-question-detail-label {
+	width: 200px;
+}
+td.hatena-question-detail-value {
+	width: 300px;
+}
+img.hatena-question-image {
+	border: 0;
+}
+img.hatena-profile-image {
+	border: 0;
+}
+div.hatena-clock {
+	text-align: center;
+}
 /*
 独自拡張おわり
 */
@@ -132,11 +243,17 @@ div.day {
 	padding: 4px;
 }
 
+td.main div.day div.body{
+	_width: auto;
+}
+
 h2 {
 	font-size: 100%;
 	background-color: #5279e7;
 	padding: 3px 0px 2px 10px;
 	margin: 5px 0 0 0;
+	width: auto;
+	_width: 100%;
 }
 
 h2 span.date {
@@ -160,6 +277,8 @@ div.body {
 	margin-bottom: 0px;
 	padding: 3px 10px 3px 10px;
 	line-height: 1.5;
+	width: auto;
+	_width: 100%;
 }
 
 div.section {
@@ -172,6 +291,19 @@ h3 {
 	font-weight: bold;
 	margin-top: 2%;
 	margin-bottom: 0.1%
+}
+
+h4 {
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0.6em 10% 0 0.4em;
+	border-left: 5px solid #5279E7;
+	border-bottom: 1px solid #5279E7;
+	padding: 0px 0.5em 0.1em 0.5em;
+}
+h5 {
+	font-size: 100%;
+	margin: 0.5em 0 0 0.7em;
 }
 
 div.day span.sanchor {
@@ -216,6 +348,8 @@ div.refererlist {
 	font-size: 90%;
 	margin: 0px;
 	padding: 0px;
+	width: auto;
+	_width: 100%;
 }
 
 div.refererlist ul {
@@ -280,13 +414,12 @@ input.select {
 }
 
 textarea {
-	width: 40em;
-	height: 50%;
 	font-size: 90%;
 	color: #06040F;
 	background-color: #ffffff;
 	border: 1px solid #5279e7;
-	text-indent: 0em ! important;
+	height: 30em;
+	width: 50em;
 }
 
 p.message {
@@ -335,16 +468,10 @@ div.section blockquote p {
 }
 
 em {
-	background-color: #ffffff;
-	color: #2c2400;
 	font-style: italic;
-	font-weight: normal
 }
 
 strong {
-	color: #2c2400;
-	background-color: #ffffff;
-	font-style: italic;
 	font-weight: bold
 }
 
@@ -433,11 +560,6 @@ div.field {
 	margin-right: 2em;
 }
 
-form.comment input {
-	background-color: #ffffff;
-	color: #06040F;
-}
-
 div.textarea {
 	display: block;
 	vertical-align: top;
@@ -445,13 +567,8 @@ div.textarea {
 }
 
 form.comment textarea {
-	display: block;
-	background-color: #ffffff;
-	color: #06040F;
-	width: 30em;
-	height: 5em;
-	margin-left: auto;
-	margin-right: auto;
+	width: 40em;
+	height: 3em;
 }
 
 div.button {
@@ -509,9 +626,6 @@ div.day.update div.comment {
 	text-align: center;
 }
 
-/*
-ツッコミ状態変更フォーム
-*/
 div.comment form{
 	margin-top: 0em;
 }
@@ -534,7 +648,7 @@ div.main {
 
 div.sidebar {
 	position: absolute;
-	top: 120px;
+	top: 0px;
 	left: 0px;
 	width: 15%;
 	margin-left: 5%;
@@ -557,11 +671,80 @@ div.recentsubtitles {
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 0em;
+	line-height: 110%;
 }
 
-strong {
-	color: #2c2400;
-	background-color: #ffffff;
-	font-style: italic;
-	font-weight: bold
+div.hatena-asin-detail {
+	margin: 10px;
+	padding-left: 10px;
+}
+
+div.hatena-asin-detail p {
+	text-indent: 0em ! important;
+	line-height: 150%;
+}
+
+div.hatena-asin-detail ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+}
+
+div.hatena-asin-detail-info {
+	margin-left: 10px;
+	float: left;
+	word-break: break-all;
+}
+
+p.hatena-asin-detail-title {
+	font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+div.section p.sectionfooter { 
+  font-size:90%;
+  text-align: right;
+  margin-top: 1em;
+}
+
+/*
+テーブル記法
+*/
+div.day table{
+margin:10px;
+}
+
+div.day table tr th{
+font-size:90%;
+padding:3px;
+background:#EEE;
+border-bottom:1px solid gray;
+}
+
+div.day table tr td{
+font-size:90%;
+padding:3px;
+}
+div.day table.plaintable{
+margin:0px;
+}
+
+div.day table.plaintable tr td{
+padding:0px;
+font-size:100%;
+}
+
+div.day table.plaintable tr th{
+padding:0px;
+background:none;
+border:none;
+font-size:100%;
 }

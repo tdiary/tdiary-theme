@@ -1,0 +1,24 @@
+Title: Britannian
+Revision: $Revision: 1.1 $
+Author: みーしぇる（ Meeshel ）
+Access: blackhat_darklight@hotmail.com
+License: GPL
+
+特殊spanタグの機能は以下の3つ:
+   手動見出し(span.midashi)
+	手動センター(span.center)
+	反転日記(span.hidden)
+
+
+# Rev 1.2:タグ全体の整形
+# Rev 1.3:テーブル生成の修正
+# Rev 1.4:リンクに関する訂正
+# Rev 1.5:テーブルのデザイン変更
+# Rev 1.6:ヘッダ部の訂正
+# Rev 1.7:キーワード訂正
+# Rev 1.71:テキストエリアに関するFix
+# Rev 1.72:引用部分の訂正
+# Rev 1.73:ソース抜けの訂正
+# Rev 1.8:反転機能の廃止
+Copyright 2004 (C) by Meeshel <blackhat_darklight@hotmail.com>
+validated by W3C.

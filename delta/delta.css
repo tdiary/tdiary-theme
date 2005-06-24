@@ -1,0 +1,851 @@
+@charset 'euc-jp';
+
+* {
+	box-sizing			:	border-box ;
+	-moz-box-sizing			:	border-box ;
+	word-break			:	break-all ;
+	word-wrap			:	break-word ;
+}
+
+html {}
+
+body {
+	margin				:	0px ;
+	padding				:	0px 5% ;
+	font-size			:	100% ;
+	background-color		:	#eee ;
+	color				:	#567 ;
+	width				:	auto ;
+}
+
+a:link, a:visited {
+	text-decoration			:	underline ;
+	word-break			:	break-all ;
+}
+a:link {
+	color				:	#039 ;
+}
+a:visited {
+	color				:	#936 ;
+}
+a:hover {
+	color				:	#f60 ;
+}
+
+table {
+	border-collapse			:	collapse ;
+	border-right			:	solid 1px #ddd ;
+	border-left			:	solid 1px #ddd ;
+}
+
+td {
+	font-size			:	90% ;
+	background-color		:	#fff ;
+}
+
+table table {
+	margin				:	0px ;
+	width				:	100% ;
+	background			:	url("./moduletitle.gif") 0 55% repeat-x scroll #e9e9e9 ;
+	border				:	solid ;
+	border-width			:	1px 0 ;
+	border-color			:	#eee #eee #ccc #eee ;
+}
+
+table table td {
+	padding				:	0px ;
+	background			:	transparent ;
+}
+
+table font {
+	color				:	#457 ;
+}
+
+table a:link font,
+table a:visited font {
+	padding				:	0.2em ;
+	text-align			:	center ;
+	color				:	#457 ;
+}
+table a:hover font {
+	color				:	#f90 ;
+}
+
+table font a:link font,
+table font a:visited font {
+	color				:	#f90 ;
+}
+table font a:hover font {
+	color				:	#f60 ;
+}
+
+h1 {
+	margin				:	5px 2px ;
+	padding				:	60px 0.2em ;
+	font-size			:	200% ;
+	/*font-family			:	"Verdana", "Osaka", sans-serif ;*/
+	letter-spacing			:	0.1em ;
+	background			:	url("./h1.gif") 100% 1px repeat-x scroll #ddd ;
+	color				:	#568 ;
+	border-top			:	solid 1px #bbb ;
+	border-right			:	solid 1px #fff ;
+	border-bottom			:	solid 1px #fff ;
+	border-left			:	solid 1px #bbb ;
+}
+
+h2 {
+	margin				:	0px ;
+	padding				:	0.4em 0.5em ;
+	font-size			:	1em ;
+	font-weight			:	normal ;
+	background			:	url("./h2.gif") 0 55% repeat-x scroll #eee ;
+	color				:	#457 ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+}
+h2 a:link,
+h2 a:visited {
+	text-decoration			:	none ;
+	color				:	#457 ;
+}
+h2 a:hover {
+	color				:	#f60 ;
+}
+
+h3 {
+	margin				:	1em 2% 2em 2% ;
+	padding				:	0 0.2em 0.2em 1.2em ;
+	font-size			:	1em ;
+	font-weight			:	normal ;
+	letter-spacing			:	0.1em ;
+	line-height			:	1.4 ;
+	text-indent			:	-1em ;
+	border-bottom			:	solid 1px #ccc ;
+}
+h3 a:link,
+h3 a:visited {
+	text-decoration			:	none ;
+	color				:	#346 ;
+}
+h3 a:hover {
+	color				:	#f90 ;
+}
+h4 {
+	margin				:	1.5em 2% 1em 2% ;
+	font-size			:	1em ;
+	color				:	#f90 ;
+}
+
+p {
+	margin				:	0.5em 5% ;
+	padding				:	0px ;
+	text-indent			:	1em ;
+	line-height			:	1.6 ;
+}
+
+ul {
+	margin				:	1em 5% 1em 3em ;
+	padding				:	0px ;
+}
+ul ul {
+	margin				:	0px 0px 0px 1.5em ;
+}
+
+ol {
+	margin				:	1em 5% 1em 4em ;
+	padding				:	0px ;
+}
+ol ol {
+	margin				:	0px 0px 0px 2em ;
+}
+
+li {
+	line-height			:	1.4 ;
+}
+
+dl {
+	margin				:	2em 5% ;
+}
+dt {
+	margin				:	1em 0px 0px 1.5em ;
+	padding				:	0.2em ;
+	border-bottom			:	solid 1px #666 ;
+	display				:	list-item ;
+	list-style			:	outside circle ;
+}
+dd {
+	margin				:	0.5em 0px 0px 3em ;
+	line-height			:	1.4 ;
+}
+
+blockquote {
+	margin				:	2em 7% ;
+	background			:	url("./blockquote.gif") 50% 50% repeat scroll #eee ;
+	color				:	#333 ;
+	border				:	solid 1px #679 ;
+}
+
+blockquote p {
+	margin				:	0.5em ;
+}
+blockquote ul {
+	margin				:	1em 0.5em 1em 2em ;
+}
+blockquote ol {
+	margin				:	1em 0.5em 1em 3em ;
+}
+blockquote p ol {
+}
+
+blockquote cite {
+	margin				:	1em 0px 0px 0px ;
+	padding				:	0.2em 0.5em ;
+	display				:	block ;
+	font-style			:	normal ;
+	text-align			:	right ;
+	border-top			:	dashed 1px #679 ;
+	background-color		:	#fff ;
+	color				:	#333 ;
+}
+
+blockquote p cite {
+	margin				:	0.5em -0.5em -0.5em -0.5em ;
+}
+
+q {
+	background-color		:	#fff ;
+}
+
+blockquote q cite {
+	margin				:	0 ;
+	padding				:	0 ;
+	display				:	inline ;
+	border				:	none ;
+	color				:	#333 ;
+}
+
+pre {
+	margin				:	1.5em 3% 1.5em 3% ;
+	padding				:	0.5em ;
+	background-color		:	#fff ;
+	color				:	#333 ;
+	border				:	solid 1px #ccc ;
+	white-space			:	-moz-pre-wrap ;
+	word-wrap			:	break-word ;
+}
+
+del {
+	color				:	#999 ;
+	text-decoration			:	line-through ;
+}
+del a.keyword:link,
+del a.keyword:visited,
+del a.okeyword:link,
+del a.okeyword:visited {
+	color				:	#999 ;
+}
+
+ins {
+	text-decoration			:	none ;
+	border-bottom			:	solid 1px #89b ;
+}
+
+form {
+	margin				:	0px ;
+}
+
+input {}
+
+option {
+	/*font-family			:	"Verdana", sans-serif ;*/
+}
+
+/*------------------------------------------------------------------------------*/
+/* Layout */
+
+div.hatena-body {
+	margin				:	0px ;
+	padding				:	0px ;
+	width				:	100% ;
+	max-width			:	auto ;
+	position			:	relative ;
+	top				:	0px ;
+	left				:	0px ;
+}
+
+
+/* AdminMenu */
+
+div.adminmenu {
+	margin-top			:	3px ;
+	padding				:	0.4em 0.2em ;
+	font-size			:	80% ;
+	text-align			:	right ;
+	background			:	url("./moduletitle.gif") 0px 55% repeat-x scroll #fff ;
+	border				:	solid 1px ;
+	border-color			:	#ccc #fff #fff #ccc ;
+}
+
+span.adminmenu {}
+
+div.adminmenu a:link,
+div.adminmenu a:visited {
+	text-decoration			:	none ;
+	color				:	#457 ;
+}
+div.adminmenu a:hover {
+	color				:	#f90 ;
+}
+
+
+/*------------------------------------------------------------------------------*/
+/* Main */
+
+div.main {
+	margin				:	0px 0px 0px 220px ;
+	position			:	relative ;
+	top				:	0px ;
+	left				:	0px ;
+}
+div.main2 {
+	margin				:	0px 220px 0px 220px ;
+	position			:	relative ;
+	top				:	0px ;
+	left				:	0px ;
+}
+div.main3 {
+	margin				:	0px 220px 0px 0px;
+	position			:	relative ;
+	top				:	0px ;
+	left				:	0px ;
+}
+
+.main div.adminmenu,
+.main2 div.adminmenu,
+.main3 div.adminmenu {
+	margin				:	0px 3px 5px 3px ;
+}
+
+div.calendar {
+	margin				:	0px 3px 3px 3px ;
+	padding				:	0.2em ;
+	text-align			:	right ;
+	color				:	#999 ;
+	background			:	#f3f3f3 ;
+	border				:	solid 1px ;
+	border-color			:	#ccc #fff #fff #ccc ;
+	font-size			:	80% ;
+}
+div.calendar a:link,
+div.calendar a:visited {
+	text-decoration			:	none ;
+}
+
+
+/*Day*/
+div.day {
+	margin				:	5px 2px 5px 3px ;
+	padding				:	0px ;
+	/*font-size			:	90% ;*/
+	background-color		:	#f3f3f3 ;
+	color				:	#333 ;
+	border				:	solid 1px ;
+	border-color			:	#ccc #fff #fff #ccc ;
+}
+
+a.keyword:link,
+a.okeyword:link {
+	text-decoration			:	none ;
+	color				:	#333 ;
+	border-bottom			:	solid 1px #999 ;
+}
+a.keyword:visited,
+a.okeyword:visited {
+	text-decoration			:	none ;
+	color				:	#333 ;
+	border-bottom			:	dashed 1px #999 ;
+}
+
+span.date {
+	margin-right			:	0.2em ;
+	/*font-family			:	"Verdana", "Osaka", sans-serif ;*/
+	font-weight			:	bold ;
+	letter-spacing			:	0.2em ;
+}
+
+
+/*Body*/
+div.body {
+	margin				:	0px ;
+	padding				:	1em 5px ;
+	width				:	100% ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+	background-color		:	#f9f9f9 ;
+}
+
+.main div.body,
+.main2 div.body,
+.main3 div.body {
+	padding				:	0px 5px ;
+	background-color		:	#eee ;
+	color				:	#333 ;
+}
+
+* > .main div.body {
+	width				:	auto ;
+}
+
+div.body img.photo {
+	margin				:	3px ;
+	float				:	right ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#ccc #fff #fff #ccc ;
+}
+
+div.section, div.footnote {
+	margin				:	3px 0px 3px 0px ;
+	padding				:	1em 0px 1.5em 0px ;
+	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
+	color				:	#222 ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#ddd ;
+}
+
+span.sanchor {
+	color				:	#679 ;
+}
+
+a.sectioncategory:link,
+a.sectioncategory:visited {
+	color				:	#888 ;
+}
+a.sectioncategory:hover {
+	color				:	#f60 ;
+}
+span.timestamp {
+	font-size			:	80% ;
+	color				:	#bbb ;
+}
+
+
+/*Footnote*/
+div.footnote {
+	font-size			:	90% ;
+}
+p.footnote {
+	text-indent			:	0px ;
+	color				:	#444 ;
+}
+p.footnote a.keyword:link
+p.footnote a.keyword:visited,
+p.footnote a.okeyword:link,
+p.footnote a.okeyword:visited {
+	color				:	#666 ;
+}
+span.footnote {
+	margin-right			:	0.2em ;
+	margin-left			:	0.1em ;
+	font-size			:	85% ;
+}
+span.footnote a:link,
+span.footnote a:visited {
+	color				:	#666 ;
+}
+span.footnote a:hover {
+	color				:	#900 ;
+}
+
+
+/*Comment*/
+div.comment, div.refererlist {
+	margin				:	0px ;
+	padding				:	0px ;
+	width				:	100% ;
+	background-color		:	#eee ;
+	color				:	#333 ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+}
+
+* > div.comment,
+* > div.refererlist {
+	width				:	auto ;
+}
+
+div.commentshort,
+div.refererlist ul {
+	margin				:	3px 5px ;
+	padding				:	0.5em 0px ;
+	font-size			:	95% ;
+	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
+	color				:	#333 ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#ddd ;
+}
+
+div.caption {
+	margin				:	3px 5px ;
+	padding				:	0.2em ;
+	background-color		:	#f9f9f9 ;
+	color				:	#333 ;
+	border-style			:	solid ;
+	border-width			:	1px 1px 1px 1px ;
+	border-color			:	#ddd ;
+}
+
+div.commentshort p {
+	margin				:	0.2em 1em 0.2em 2em ;
+	text-indent			:	0px ;
+}
+
+div.commentshort a:link,
+div.commentshort a:visited {
+	color				:	#346 ;
+}
+
+span.canchor {
+	color				:	#f90 ;
+}
+
+span.commentator {
+	color				:	#346 ;
+}
+
+div.refererlist ul {
+	padding-left			:	5% ;
+	list-style-type			:	square ;
+}
+
+div.refererlist ul li {
+	vertical-align			:	middle ;
+}
+
+/*------------------------------------------------------------------------------*/
+/* Sidebar */
+
+div.sidebar {
+	margin				:	0px ;
+	padding-bottom			:	200px ;
+	width				:	220px ;
+	position			:	absolute ;
+	top				:	0px ;
+	left				:	0px ;
+	z-index				:	5 ;
+}
+
+.sidebar2 {
+	margin				:	0px ;
+	padding-bottom			:	200px ;
+	width				:	220px ;
+	position			:	absolute ;
+	top				:	0px ;
+	right				:	0px ;
+	z-index				:	5 ;
+}
+
+div.hatena-module {
+	margin				:	0px 2px 5px 2px ;
+	border				:	solid 1px ;
+	border-color			:	#ccc #fff #fff #ccc ;
+	font-size			:	82.5% ;
+}
+div.hatena-moduletitle {
+	margin				:	0px 0px 0px 0px ;
+	padding				:	0.5em 0.2em 0.2em 0.2em ;
+	font-size			:	100% ;
+	background			:	url("./moduletitle.gif") 0 55% repeat-x scroll #e9e9e9 ;
+	color				:	#888 ;
+	border				:	solid 1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+}
+div.hatena-moduletitle a:link,
+div.hatena-moduletitle a:visited {
+	text-decoration			:	none ;
+	color				:	#888 ;
+}
+div.hatena-moduletitle a:hover {
+	color				:	#000 ;
+}
+
+div.hatena-modulebody {}
+div.hatena-modulebody ul {
+	margin				:	0px ;
+	padding				:	0px ;
+	width				:	100% ;
+	list-style-type			:	none ;
+}
+div.hatena-modulebody ul li {
+	margin				:	0px ;
+	padding				:	0pc 0px 0px 5px ;
+	border-style			:	solid ;
+	border-width			:	1px 1px 1px 1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+	background-color		:	#eee ;
+	color				:	#333 ;
+}
+div.hatena-modulebody ul li a {
+	margin				:	0px ;
+	padding				:	0.2em 0.2em 0.2em 0.2em ;
+	display				:	block ;
+	width				:	100% ;
+	height				:	auto ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+}
+
+* > div.hatena-modulebody ul li a {
+	width				:	auto ;
+}
+
+div.hatena-modulebody ul li a:link,
+div.hatena-modulebody ul li a:visited {
+	text-decoration			:	none ;
+	background-color		:	#f9f9f9 ;
+	color				:	#555 ;
+	border-color			:	#f9f9f9 #eee #eee #ccc ;
+}
+div.hatena-modulebody ul li a:hover {
+	background-color		:	#f0f0f0 ;
+	border-color			:	#f0f0f0 #e9e9e9 #e9e9e9 #f93 ;
+	color				:	#000 ;
+}
+
+/*----------------------------------------------------------*/
+/* Searchform Module */
+
+form.hatena-searchform {
+	margin				:	0px ;
+	padding				:	0.5em ;
+	text-align			:	center ;
+	border				:	solid 1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+	background-color		:	#f9f9f9 ;
+	color				:	#333 ;
+}
+
+input.hatena-searchform {
+	margin				:	0px 1px ;
+	height				:	1.5em ;
+	vertical-align			:	middle ;
+}
+
+/*----------------------------------------------------------*/
+/* Calendar2photo Module */
+
+table.calendar {
+	border-collapse			:	collapse ;
+	width				:	auto ;
+	background			:	#f9f9f9 ;
+	color				:	#333 ;
+	table-layout			:	fixed ;
+	empty-cell			:	hide ;
+	font-size			:	10px ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#fff #ccc #ccc #fff !important ;
+	position			:	relative ;
+	top				:	0px ;
+	left				:	0px ;
+	z-index				:	5 ;
+}
+
+* > table.calendar {
+	width				:	100% ;
+}
+
+table.calendar td {
+	text-align			:	center ;
+	border-style			:	solid ;
+	border-width			:	1px ;
+	border-color			:	#fff #ddd #ddd #fff ;
+	background			:	#f9f9f9 ;
+	color				:	#999 ;
+}
+
+table.calendar td.calendar-sunday,
+table.calendar td.calendar-weekday,
+table.calendar td.calendar-saturday {
+	color				:	#666 ;
+}
+
+table.calendar td.calendar-prev-month,
+table.calendar td.calendar-current-month,
+table.calendar td.calendar-next-month {
+	letter-spacing			:	2px ;
+}
+
+table.calendar td a {
+	display				:	block ;
+	margin				:	0px ;
+	padding				:	1px 0px ;
+	width				:	auto ;
+	height				:	100% ;
+}
+
+table.calendar td a:link,
+table.calendar td a:visited {
+	text-decoration			:	none ;
+	background-color		:	#eee ;
+	color				:	#000 ;
+}
+
+table.calendar td a:hover {
+	background-color		:	#fff ;
+	color				:	#069 ;
+	position			:	relative ;
+	z-index				:	10 ;
+	top				:	0px ;
+	left				:	0px ;
+}
+
+table.calendar td.calendar-prev-month a:link,
+table.calendar td.calendar-prev-month a:visited,
+table.calendar td.calendar-current-month a:link,
+table.calendar td.calendar-current-month a:visited,
+table.calendar td.calendar-next-month a:link,
+table.calendar td.calendar-next-month a:visited {
+	padding				:	5px 0px ;
+	background-color		:	#f6f6f6 ;
+}
+table.calendar td.calendar-prev-month a:hover,
+table.calendar td.calendar-current-month a:hover,
+table.calendar td.calendar-next-month a:hover {
+	background-color		:	#fff ;
+}
+
+table.calendar img {
+	width				:	12px ;
+	height				:	12px ;
+	border				:	none ;
+}
+
+table.calendar a:link img,
+table.calendar a:visited img {}
+table.calendar a:hover img {
+	position			:	absolute ;
+	top				:	-12px ;
+	left				:	-50% ;
+	width				:	auto ;
+	height				:	auto ;
+	z-index				:	100 ;
+}
+
+/*----------------------------------------------------------*/
+/* Photo Module */
+
+div.hatena-modulebody ul.hatena-photo {
+	padding				:	0.2em 0.2em 0.2em 0.2em ;
+	display				:	block ;
+	width				:	auto ;
+	height				:	auto ;
+	background-color		:	#f9f9f9 ;
+	border				:	solid 1px ;
+	border-color			:	#fff #ccc #ccc #fff ;
+	text-align			:	center ;
+}
+div.hatena-modulebody ul.hatena-photo li {
+	margin				:	0px ;
+	padding				:	0px ;
+	display				:	inline ;
+	width				:	65px ;
+	height				:	auto ;
+	line-height			:	1 ;
+	border				:	none ;
+	background-color		:	transparent ;
+}
+div.hatena-modulebody ul.hatena-photo li a:link,
+div.hatena-modulebody ul.hatena-photo li a:visited {
+	display				:	inline ;
+	margin				:	0px ;
+	padding				:	0px ;
+	width				:	auto ;
+	height				:	auto ;
+	line-height			:	1 ;
+	background-color		:	transparent ;
+	color				:	#000 ;
+	border				:	none ;
+}
+
+div.hatena-modulebody ul.hatena-photo li a:link img,
+div.hatena-modulebody ul.hatena-photo li a:visited img {
+	margin				:	2px 1px ;
+/*	width				:	60px ;*/
+	vertical-align			:	top ;
+	border				:	solid 1px #ccc ;
+	background-color		:	transparent ;
+	vertical-align			:	middle ;
+}
+div.hatena-modulebody ul.hatena-photo li a:hover img {
+/*	width				:	60px ;*/
+	border-color			:	#666 ;
+}
+
+/*------------------------------------------------------------------------------*/
+/* Config & Edit */
+
+div.day form {
+	width				:	100% ;
+	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
+}
+
+div.day input {
+	margin				:	1em ;
+}
+
+div.day textarea {
+	width				:	40em ;
+	height				:	20em ;
+}
+
+form.comment textarea {
+	width				:	30em;
+	height				:	5em;
+}
+
+div.day form h2 input,
+div.day form div.body input,
+div.day div.comment form input ,
+div.day form div.commentshort input ,
+div.day form div.refererlist input {
+	margin				:	0px ;
+}
+
+div.day table td {
+	background-color		:	transparent ;
+	border				:	solid 1px #ccc ;
+	padding				:	2px ;
+}
+
+form blockquote {
+	padding				:	0.5em ;
+}
+
+div.footer {
+	margin				:	3px ;
+	padding				:	0.2em ;
+	font-size			:	0.8em ;
+	text-align			:	right ;
+}
+
+div.day table {
+	border-collapse			:	separate ;
+	border				:	solid 1px #ccc ;
+}
+
+div.day td,
+div.day th {
+	font-size			:	1em ;
+	background-color		:	#fff ;
+	border				:	solid 1px #ccc ;
+}
+
+/*------------------------------------------------------------------------------*/
+/* Description */
+

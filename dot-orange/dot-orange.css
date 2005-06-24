@@ -1,0 +1,99 @@
+@charset 'euc-jp';
+@import url(./dot.css);
+
+html,body {
+	background-color: #fff;
+	color: #333;
+}
+a:link { color: #fa0; }
+a:visited { color: #c60; }
+
+/*head*/
+div.hatena-body {
+	position: relative;
+}
+h1 {
+	background-image: url(dot-h1_orange.png);
+}
+/*\*/
+h1:first-letter {
+	color: #fff;
+}
+/*\*/
+
+/*body*/
+div.day {
+	background-image: url(dot-border.png);
+}
+h2 {
+	 background-image: url(dot-orange.png);
+	color: #999; 
+}
+div.section {}
+div.section h3 { color: #666; }
+div.section h3 span.sanchor {
+	background-image: url(dot-lightgray.png);
+	color: #ccc;
+}
+div.section h4 {
+	color: #fa0;
+	background-image: url(dot-orange-mini.png);
+}
+div.section h5 {
+	color: #666;
+	background-image: url(dot-lightgray-mini.png);
+}
+img.photo {
+}
+div.comment,div.footnote {
+	border-color: #ccc;
+}
+/*sidebar*/
+div.sidebar {
+	background-image: url(dot-border.png);
+}
+div.hatena-module {
+}
+div.hatena-moduletitle {
+	 background-image: url(dot-orange.png);
+}
+/*\*/
+div.hatena-moduletitle:first-letter { color: #fff; }
+/*\*/
+td.calendar-day { color: #333; background-image: url(dot-lightgray.png); }
+td.calendar-day a:link { color: #c60; }
+td.calendar-day a:visited { color: #950; }
+td.calendar-sunday { color: #fff; background-image: url(dot-orange.png); }
+td.calendar-weekday { color: #333; background-image: url(dot-lightgray.png); }
+td.calendar-saturday { color: #fff; background-image: url(dot-darkgray.png); }
+
+/*list*/
+ul { list-style-image: url(dot-list.png); }
+li, dt { border-bottom: 1px dotted #ccc; }
+/*書影詳細*/
+div.hatena-asin-detail {
+}
+div.hatena-asin-detail img {}
+div.hatena-asin-detail-info {
+}
+div.hatena-asin-detail-info p {
+	border-bottom :1px dotted #fa0;
+}
+span.hatena-asin-detail-label {
+	color: #c60;
+	font-weight: bold;
+}
+
+/*table表記*/
+div.day th, div.day td {
+	border-color: #fa0;
+}
+div.day th, div.day th a:link, div.day th a:visited {
+	background: #eee;
+	color: #333;
+}
+
+/*question表記*/
+table.hatena-question-detail th, table.hatena-question-detail td {
+	border-color: #fa0;
+}

@@ -1,0 +1,190 @@
+@charset "euc-jp";
+
+html,body {
+	/*font-size: small;*/
+	margin: 0;
+	padding: 0;
+	/*font-family: sans-serif,"•“•È•Æ•Œ≥—•¥proW6","£Õ£” £–•¥•∑•√•Ø","Osaka";*/
+	line-height: 3ex;
+}
+a { text-decoration: none; font-weight: bold; }
+
+/*head*/
+h1 {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 18px;
+	font-size: 24px;
+	letter-spacing: 18px;
+	margin: 12px;
+}
+div.hatena-body {
+	position: relative;
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 12px;
+}
+
+/*body*/
+div.main {
+	margin-left: 280px;
+	margin-right: 20px;
+}
+div.day {
+	padding-bottom: 24px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+h2 {
+	padding: 12px 30px;
+	font-size: 16px;
+	letter-spacing: 8px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+div.section {
+	padding: 10px 0px;
+}
+div.section h3 {
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+div.section h3 span.sanchor {
+	padding: 8px;
+	font-size: 8px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div.section h4 {
+	letter-spacing: 3px;
+	font-size: 10px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 16px;
+	padding-bottom: 2px;
+}
+div.section h5 {
+	letter-spacing: 3px;
+	font-size: 10px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 16px;
+	padding-bottom: 2px;
+}
+p {
+	margin: 0;
+	text-indent: 1em;
+}
+img.photo {
+	float: right;
+	padding: 10px;
+}
+div.comment,div.footnote {
+	border-top: 1px dotted;
+	margin-top: 1ex;
+	padding-top: 1ex;
+}
+/*sidebar*/
+div.sidebar {
+	width: 250px;
+	position: absolute;
+	top: 0px;
+	margin: 20px;
+	background-repeat: repeat-y;
+	background-position: right center;
+}
+div.hatena-module {
+}
+div.hatena-moduletitle {
+	padding: 12px 6px;
+	font-size: 12px;
+	letter-spacing: 12px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+div.hatena-modulebody {
+	width: 210px;
+}
+table.calendar {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	width:210px;
+	height: auto;
+	vertical-align: top;
+}
+table.calendar * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	 font-weight: bold;
+}
+td.calendar-day,td.calendar-sunday,td.calendar-weekday,td.calendar-saturday {
+	background-repeat: no-repeat;
+	background-position: center middle;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+}
+td.calendar-prev-month { text-align: left; padding: 0; }
+td.calendar-current-month { text-align: center; padding: 0; }
+td.calendar-next-month { text-align: right; padding: 0; }
+table.calendar img { height: 1em; width: 1em; }
+
+ul.hatena-photo,ul.hatena-photo li { list-style-type: none; list-style-image: none; }
+img.hatena-photo { border: none; }
+
+/*list*/
+dd {
+	margin-left: 0;
+	padding: 0;
+	margin-bottom: 1em;
+}
+/*ΩÒ±∆æ‹∫Ÿ*/
+div.hatena-asin-detail {
+}
+div.hatena-asin-detail img {
+	float: left;
+	padding: 6px 24px 6px 6px;
+	
+}
+div.hatena-asin-detail-info {
+}
+div.hatena-asin-detail-info p {
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	text-align: right;
+}
+div.hatena-asin-detail-info ul {
+	text-align: right;
+}
+
+/*table…Ωµ≠*/
+div.day table {
+	border-collapse: collapse;
+	margin: 1em 2em;
+}
+div.day th, div.day td {
+	border-width: 1px;
+	border-style: dotted;
+	padding: 0.2em;
+}
+
+/*question…Ωµ≠*/
+img.hatena-question-image { border: none; }
+table.hatena-question-detail {
+	border-collapse: collapse;
+}
+table.hatena-question-detail th, table.hatena-question-detail td {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-left: none;
+	border-right: none;
+}

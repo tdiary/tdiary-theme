@@ -1,0 +1,27 @@
+Title: はてなダイアリー
+Author: Junya Kondo
+Access: jkondo@hatena.ne.jp
+License: GPL
+Comment: はてなダイアリーのテーマ
+
+	Copyright (c) 2002 Junya Kondo, Hatena Co.,Ltd.
+	validated by W3C.
+
+ChangeLog
+2004-07-01 Junya Kondo <jkondo@hatena.ne.jp>
+	* add classes for sidebar, hatena-* classes.
+
+2004-03-09 Junya Kondo <jkondo@hatena.ne.jp>
+	* add classes for img.asin
+
+2003-11-19 Junya Kondo <jkondo@hatena.ne.jp>
+	* add classes for calendar2photo
+
+2003-11-18 Junya Kondo <jkondo@hatena.ne.jp>
+	* add classes for calendar2
+
+2003-10-24 Junya Kondo <jkondo@hatena.ne.jp>
+	* add hatena_photo class
+
+2003-03-01 Junya Kondo <jkondo@hatena.ne.jp>
+	* created.

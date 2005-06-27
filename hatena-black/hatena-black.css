@@ -1,0 +1,757 @@
+@charset "euc-jp";
+
+/*
+Title: はてなダイアリー
+Author: hatena
+Access: info@hatena.ne.jp
+License: GPL
+Comment: はてなダイアリーのテーマ
+*/
+/*
+	Copyright (c) 2005 Takuji Ikeda, Junya Kondo, Hatena Co.,Ltd.
+*/
+
+
+a,a:link{color:#FFFFFF;}
+a:visited{color:#CCCCCC;}
+
+
+/*
+はてな独自拡張クラス
+*/
+a.keyword {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px solid #d0d0d0;
+}
+a.okeyword {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px dashed #d0d0d0;
+}
+
+span.highlight {
+	color: black;
+	background-color: yellow;
+}
+
+img.photo {
+	float: right;
+	margin: 10px;
+	border: 0;
+}
+img.hatena-fotolife {
+	border: 1px solid #606060;
+}
+img.asin, img.barcode {
+	border: 0;
+}
+
+h3 span.timestamp {
+	font-weight: normal;
+	font-size: 80%;
+}
+
+table.furigana {
+}
+
+ul.hatena_photo li {
+	display: inline;
+}
+
+img.hatena_photo {
+	border: 0px;
+}
+
+div.ad {
+	margin: 0% 5% 0% 5%;
+	padding: 4px;
+	text-align: left;
+}
+
+img.aws {
+	padding: 3px;
+	margin-right: 2px;
+}
+
+a.aws img {
+	border: 1px solid white;
+}
+
+a.aws:hover img {
+	filter:none;
+	background-color: #ffcc66;
+	border-bottom: 1px solid #ffcc66;
+}
+
+div.recentitem_diary {
+	margin: 2% 5% 0 6%;
+	font-size: 10pt;
+}
+
+div.hatena-body {
+	position: relative;
+	width: auto;
+	_width: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.hatena-module {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+div.hatena-modulebody ul, ul.hatena_antenna, ul.hatena_section, ul.hatena_groupantenna, ul.hatena_keyword, ul.hatena_hotkeyword, ul.hatena_hoturl, ul.hatena_hotasin {
+	display: block;
+	font-size: 80%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.hatena-modulebody dl {
+	display: block;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+}
+
+div.hatena-modulebody dd {
+	margin-left: 0;
+	margin-bottom: 0.2em;
+}
+
+ul.hatena-photo li {
+	display: inline;
+}
+
+ul.hatena-photo img {
+	border: none;
+	padding: 1px;
+}
+
+form.hatena-searchform {
+	padding: 0;
+	margin: 0;
+}
+
+div.hatena-profile {
+	font-size: 80%;
+}
+div.hatena-profile p {
+	margin: 0;
+	padding: 0;
+}
+div.hatena-profile p.hatena-profile-image {
+	text-align: center;
+}
+div.hatena-profile p.hatena-profile-image img {
+	border: 0;
+}
+table.hatena-question-detail {
+	width: 500px;
+	font-size:90%;
+}
+table.hatena-question-detail th {
+	text-align: left;
+}
+td.hatena-question-detail-label {
+	width: 200px;
+}
+td.hatena-question-detail-value {
+	width: 300px;
+}
+img.hatena-question-image {
+	border: 0;
+}
+img.hatena-profile-image {
+	border: 0;
+}
+div.hatena-clock {
+	text-align: center;
+}
+/*
+独自拡張おわり
+*/
+
+
+body {
+	color: #ffffff;
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.adminmenu {
+	font-size: 90%;
+	margin: 2% 5% 0% 0%;
+	text-align: right
+}
+
+span.adminmenu {}
+
+div.calendar {
+	font-size: 90%;
+	margin: 1% 5% 0 5%;
+	padding: 1%;
+	text-align: left;
+}
+
+.headline {
+	font-size: 90%;
+	margin: 0% 10% 0% 10%;
+	padding: 2%;
+	text-align: left;
+	background-color: #ffee99;
+}
+
+div.intro{
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+div.day {
+	margin: 0% 5% 0% 5%;
+	padding: 4px;
+}
+
+td.main div.day div.body{
+	_width: auto;
+}
+
+div.section {
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 0.1%
+}
+
+h5 {
+	font-size: 100%;
+	margin: 0.5em 0 0 0.7em;
+}
+
+div.day span.canchor {
+	color: black;
+}
+
+div.day p {
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
+	text-indent: 1em
+}
+
+div.section p {
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+}
+
+div.comment {
+	font-size: 90%;
+	line-height: 1.5;
+}
+
+div.comment p {
+	margin-left: 0em! important;
+	text-indent: 0em
+}
+
+div.refererlist {
+	font-size: 90%;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	_width: 100%;
+}
+
+hr {}
+
+hr.sep { display: none }
+
+.sfooter {}
+
+div.footer {
+	color: #cccccc;
+	margin: 5px;
+	font-size: 80%;
+	text-align: center;
+}
+
+div.footer a {
+	color: #cccccc;
+}
+
+div.form {
+	font-size: 90%;
+	line-height: 1.5;
+	margin: 1% 5% 1% 5%;
+	padding: 1%;
+	text-align: center;
+}
+
+div.form form {
+	width: 100%;
+}
+
+input.select { 
+	text-indent: 0em ! important;
+}
+
+p.message {
+	color: red;
+	background-color: #ffffff;
+	font-size: 100%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-align: center;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.section blockquote p {
+	margin-left: 0em;
+	text-indent: 0em
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold
+}
+
+.hide {
+	color: #000000;
+	background-color: #ffffff
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: 0.8em;
+	line-height: 100%;
+	background-color: transparent;
+	margin: 0;
+}
+
+table.calendar td {
+	margin: 0;
+	padding: 1px 2px 0px 2px;
+	text-align: right;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+table.calendar td.calendar-sunday {
+	color: red;
+}
+table.calendar td.calendar-saturday {
+	color: blue;
+}
+td.calendar-day img {
+	width: 15px;
+	height: 15px;
+	border: 0;
+}
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+	margin-bottom: 10px;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+	margin: 0.2em 0 0.2em 0;
+	line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+	margin: 0.5em;
+	line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+	margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+	margin: 0em;
+}
+
+div.field {
+	display: inline;
+	margin-right: 2em;
+}
+
+div.textarea {
+	display: block;
+	vertical-align: top;
+	text-align: center;
+}
+
+form.comment textarea {
+	width: 40em;
+	height: 3em;
+}
+
+div.button {
+	display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+	background-color: #ffffff;
+	color: #06040F;
+}
+
+form.update span.field {
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0.5em;
+}
+
+form.update div.field.title {
+	display: block;
+	margin-top: 1em;
+}
+
+form.update div.field.title input {
+	margin-left: 0.5em;
+}
+
+form.update div.textarea {
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+}
+
+form.update textarea {
+	display: block;
+	margin-bottom: 1em;
+	width: 35em;
+	height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form.update span.checkbox.hidediary {
+	margin-left: 1em;
+}
+
+div.day.update div.comment {
+	text-align: center;
+}
+
+div.comment form{
+	margin-top: 0em;
+}
+
+td.sidebar {
+	width: 120px;
+	padding: 10px 0px 0px 0px;
+	vertical-align: top;
+}
+
+td.main {
+	width: 100%;
+	padding: 0px;
+	vertical-align: top;
+}
+
+div.main {
+	margin-left: 18%;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15%;
+	margin-left: 5%;
+}
+
+/* recent_list, title_list */
+
+div.recentsubtitles {
+	font-size: 10pt;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	line-height: 110%;
+}
+
+div.hatena-asin-detail {
+	margin: 10px;
+	padding-left: 10px;
+}
+
+div.hatena-asin-detail p {
+	text-indent: 0em ! important;
+	line-height: 150%;
+}
+
+div.hatena-asin-detail ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+}
+
+div.hatena-asin-detail-info {
+	margin-left: 10px;
+	float: left;
+	word-break: break-all;
+}
+
+p.hatena-asin-detail-title {
+	font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+td.furigana {
+	border: #B5B5B5 1px solid;
+	text-align: center;
+	padding: 5px;
+}
+
+h4.hatena-module, div.hatena-moduletitle {
+	margin: 1em 0 0.3em 0;
+	padding: 0;
+	font-size: 80%;
+	text-align: center;
+	font-weight: normal;
+	border-color: #B5B5B5;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+h1 {
+	text-align: left;
+	font-size: 16pt;
+	font-weight: bold;
+	border-bottom: 1px dotted #B5B5B5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 4px 4px 4px 4px;
+}
+
+h2 {
+	font-size: 100%;
+	background-color: #999999;
+	padding: 3px 0px 2px 10px;
+	margin: 5px 0 0 0;
+	width: auto;
+	_width: 100%;
+}
+
+h2 span.date {
+	color: #000000;
+	font-size: 100%;
+	font-style: normal;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+h2 span.title {
+	color: #000000;
+	font-size: 100%;
+	font-style: normal
+}
+
+div.body {
+	/*font-size: 90%;*/
+	border: #999999 1px solid;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 3px 10px 3px 10px;
+	line-height: 1.5;
+	width: auto;
+	_width: 100%;
+}
+
+h4 {
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0.6em 10% 0 0.4em;
+	border-left: 5px solid #B5B5B5;
+	border-bottom: 1px solid #B5B5B5;
+	padding: 0px 0.5em 0.1em 0.5em;
+}
+
+div.day span.sanchor {
+	color: #B5B5B5;
+}
+
+div.referer {
+	font-size: 90%;
+	border-top: #B5B5B5 1px solid;
+	border-bottom: #B5B5B5 1px solid;
+	text-align: right;
+	line-height: 1.5;
+}
+
+div.refererlist ul {
+	background-color: #333333;
+	padding: 5px;
+	margin: 0;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+div.refererlist ul ul {
+	background-color: #333333;
+	padding: 0;
+	margin: 0 0 0 5%;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+div.caption {
+	margin: 8px 0 0 0;
+	border-bottom: #B5B5B5 1px solid;
+}
+
+input.field {
+	color: #06040F;
+	background-color: #ffffff;
+	border: 1px solid #B5B5B5;
+	text-indent: 0em ! important;
+}
+
+textarea {
+	font-size: 90%;
+	color: #06040F;
+	background-color: #ffffff;
+	border: 1px solid #B5B5B5;
+	height: 30em;
+	width: 50em;
+}
+
+pre {
+	background-color: #333333;
+	padding: 8px;
+}
+
+div.body blockquote {
+	color: #FFFFFF;
+	background-color: #000000;
+	border: #B5B5B5 1px solid;
+	margin: 1% 2%;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+p.recentitem {
+	padding: 1px;
+	font-size: 10pt;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	border-color: #B5B5B5;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.section p.sectionfooter { 
+  font-size: 90%;
+  text-align: right;
+  margin-top: 1em;
+}
+
+/*
+テーブル記法
+*/
+div.day table{
+margin:10px;
+}
+
+div.day table tr th{
+font-size:90%;
+padding:3px;
+background:#666;
+border-bottom:1px solid gray;
+}
+
+div.day table tr td{
+font-size:90%;
+padding:3px;
+}
+div.day table.plaintable{
+margin:0px;
+}
+
+div.day table.plaintable tr td{
+padding:0px;
+font-size:100%;
+}
+
+div.day table.plaintable tr th{
+padding:0px;
+background:none;
+border:none;
+font-size:100%;
+}

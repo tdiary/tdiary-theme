@@ -1,0 +1,455 @@
+@charset "euc-jp";
+
+/*== leaf ==*/
+/*==  大枠のレイアウト == */
+
+body{
+ margin:0px;
+ padding:0px;
+ text-align:center;
+ width:auto;
+ background:url(body.jpg) top center no-repeat;
+}
+
+table{
+margin:auto;
+width:760px;
+}
+
+table td table{
+width:100%;
+}
+
+h1{
+font-size:140%;
+width:750px;
+margin:0px auto;
+padding:40px 0px;
+text-indent:20px;
+color:#333333;
+text-align:left;
+
+}
+
+div.hatena-body{
+width:750px;
+margin:0px auto;
+padding:5px;
+text-align:left;
+}
+
+div.main {
+width:535px;
+margin:0px 5px 0px 0px;
+padding:0px;
+text-align:left;
+float:left;
+}
+
+div.sidebar {
+width:200px;
+margin:0px;
+padding:0px;
+float:right;
+}
+
+/*==  前の日次の日 == */
+
+div.calendar {
+ text-align:left;
+ padding:5px;
+ color:#CCCCCC;
+
+ font-size:90%;
+}
+
+div.calendar a {
+ color:#339900;
+}
+
+div.calendar a:hover {
+color:#66CC00;
+text-decoration:underline;
+}
+
+
+/*==  1日全体 == */
+
+div.day {
+ padding-bottom:1px ;
+ margin-bottom:10px;
+ background:#FFFFFF;
+ line-height:150%;
+ border:1px solid #b2cca6;
+}
+
+/*==  タイトルの行 == */
+h2 {
+ font-size:100%;
+ padding:3px 3px 3px 5px;
+ margin:0px;
+ color:#ffffff;
+ background:#339900 url(h2.jpg) right top no-repeat;
+}
+
+h2 a.date{
+ color:#c2e7b2;
+ padding-right:5px;
+}
+
+h2 a.edit{
+ font-size:90%;
+ text-decoration:underline;
+ color:#ffffff;
+}
+
+/*== タイトルを除いた1日の日記本文全体 ==*/
+div.body {
+ padding:0px;
+ margin:0px 0px 0px 3px;
+}
+
+
+
+/*== 1記事全体== */
+div.section{
+ padding:5px;
+ margin:5px;
+ /*font-size:90%;*/
+ line-height:150%;
+ color:#333333;
+}
+
+div.section p{
+ padding:0px;
+ margin:5px;
+}
+
+.footnote{
+ font-size:90%;
+ margin-left:5px;
+}
+
+div.section p.sectionfooter { 
+  text-align: right;
+  margin-top: 1em;
+}
+
+/*== コメント全体==*/
+div.comment{
+ padding:5px;
+ background:#eeffcc;
+ border:1px dotted #b2cca6;
+ margin:5px;
+ font-size:90%;
+}
+
+/*== トラックバック全体==*/
+div.refererlist{
+ padding:5px;
+ margin:5px;
+ background:#eeffcc;
+ border:1px dotted #b2cca6;
+ font-size:90%;
+}
+
+/*== コメント・トラバタイトル部分==*/
+div.caption{
+ padding:0px;
+ margin:0px;
+}
+
+/*== コメント内容部分== */
+div.commentshort{
+ padding:0px;
+ margin:0px;
+}
+
+/*== コメント1つ== */
+div.commentshort p{
+ padding:0px;
+ margin:1px 5px;
+}
+
+/*==コメントのテキストボックス==*/
+div.commentshort textarea{
+ width:350px;
+}
+
+/*== はてなモジュールの大枠 ==*/
+
+div.hatena-module {
+ padding:0px;
+ border-bottom: 1px solid #333333;
+ margin:0px 0px 10px 0px;
+ background:#FFFFFF;
+ border:1px solid #b2cca6;
+}
+
+div.hatena-moduletitle{
+ font-size:90%;
+ padding:5px 2px 5px 5px;
+ margin:0px;
+ background:#339900;
+ color:#ffffff;
+}
+
+div.hatena-moduletitle a{
+ color:#ffffff;
+}
+
+div.hatena-moduletitle a:visited{
+ color:#ffffff;
+}
+
+
+.hatena-modulebody {
+ padding:5px;
+ font-size:90%;
+}
+
+/*== はてなモジュールカレンダー ==*/
+
+table.calendar{
+text-align:center;
+width:185px;
+font-size:90%;
+}
+
+td.calendar-sunday{
+color:red;
+}
+
+td.calendar-saturday{
+color:blue;
+}
+
+td.calendar-day img{
+ width:15px;
+ height:15px;
+ border:1px solid #CCCCCC;
+}
+
+/*== はてなモジュールリスト関連 ==*/
+
+.hatena-modulebody ul {
+ padding:0px;
+ margin:0px;
+ list-style-type:none;
+}
+
+.hatena-modulebody ul li {
+ padding:5px 5px 5px 25px;
+ margin:0px;
+ border-bottom:1px dotted #b2cca6;
+ background:url(li.jpg) no-repeat;
+}
+
+.hatena-modulebody ul li a {
+ text-decoration:underline;
+}
+
+/*== 見出しの設定  ==*/
+
+h3 {
+font-size:100%;
+margin:10px 10px 5px 0px;
+
+}
+
+div.day span.sanchor{
+ padding:15px 0px 10px 35px;
+ font-size:1px;
+ color:#FFFFFF;
+background:left no-repeat url(h3.jpg);
+
+}
+
+h4{
+font-size:100%;
+padding:2px 5px 2px 7px;
+border-left:5px solid #339900
+}
+
+/* ==リンク色== */
+a{
+color:#339900;
+text-decoration:none;
+}
+
+a:link{
+color:#339900;
+text-decoration:none;
+}
+
+a:visited {
+color:#339900;
+text-decoration:none;
+}
+
+a:hover {
+color:#66CC00;
+text-decoration:underline;
+}
+
+a, a:link, a:visited, a:hover, {
+word-break:break-all ;
+word-wrap:break-word ;
+}
+
+/*== キーワード部分 ==*/
+
+a.keyword {
+}
+
+a.keyword:link {
+}
+
+a.keyword:visited {
+}
+
+a.keyword:hover {
+}
+
+a.okeyword {
+}
+
+
+/*== 記事内の細かい部分 == */
+
+div.section pre{
+ padding:3px;
+ border:1px solid #b2cca6;
+
+}
+
+div.section blockquote{
+ padding:3px;
+ border:1px solid #b2cca6;
+ background:#eeffcc;
+}
+
+div.section ul li{
+}
+
+div.day img.photo{
+ float:right;
+ margin:5px;
+}
+
+img{
+ border:0px;
+}
+
+/*== 以下はてなモジュールの細かい部分 ==*/
+
+ul.hatena-photo li {
+ margin:3px;
+ background:#FFFFFF;
+ padding:1px;
+ margin:0px;
+}
+
+img.hatena-fotolife {
+}
+
+.hatena-searchform {
+ margin:5px;
+ padding:0px;
+}
+
+div.adminmenu{
+text-align:right;
+font-size:90%;
+margin:3px 0px 3px 0px;
+}
+
+span.adminmenu a{
+padding-left:10px;
+padding-right:7px;
+border-left:1px solid #CCCCCC;
+}
+
+/*== はまぞうリンク ==*/
+
+div.hatena-asin-detail{
+ margin:3px;
+ padding:3px;
+ border:1px solid #b2cca6;
+}
+
+.hatena-asin-detail-info{
+ margin:5px;
+}
+
+.hatena-asin-detail-info ul{
+list-style:none;
+}
+
+.hatena-asin-detail-image{
+ float:left;
+ margin-right:5px;
+}
+
+.hatena-asin-detail-title{
+ margin:5px;
+ font-weight:bold;
+}
+
+.hatena-asin-detail-foot{
+ clear:both;
+}
+
+/*== フッター ==*/
+
+.footer{
+ clear:both;
+ margin:5px;
+ font-size:90%;
+}
+/*== Adsense ==*/
+.ad{
+}
+
+/*== Clock ==*/
+.hatena-clock{
+}
+
+/*== アンケートモジュール ==*/
+.hatena-question-detail{
+width:90%;
+text-align:left;
+border:1px solid #CCCCCC;
+font-size:90%;
+}
+
+.hatena-question-detail-title{
+padding:5px;
+
+}
+
+.hatena-question-detail-label{
+width:30%;
+padding:5px;
+border-top:1px dashed #CCCCCC;
+}
+
+.hatena-question-detail-value{
+width:65%;
+padding:5px;
+border-top:1px dashed #CCCCCC;
+}
+
+/*== プロフィール ==*/
+.hatena-profile{
+}
+
+.hatena-profile-image{
+}
+
+.hatena-profile-id{
+}
+
+.hatena-profile-body{
+}
+

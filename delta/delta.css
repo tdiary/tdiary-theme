@@ -83,7 +83,7 @@ h1 {
 	margin				:	5px 2px ;
 	padding				:	60px 0.2em ;
 	font-size			:	200% ;
-	/*font-family			:	"Verdana", "Osaka", sans-serif ;*/
+	font-family			:	"Verdana", "Osaka", sans-serif ;
 	letter-spacing			:	0.1em ;
 	background			:	url("./h1.gif") 100% 1px repeat-x scroll #ddd ;
 	color				:	#568 ;
@@ -258,13 +258,13 @@ form {
 input {}
 
 option {
-	/*font-family			:	"Verdana", sans-serif ;*/
+	font-family			:	"Verdana", sans-serif ;
 }
 
 /*------------------------------------------------------------------------------*/
 /* Layout */
 
-div.hatena-body {
+body {
 	margin				:	0px ;
 	padding				:	0px ;
 	width				:	100% ;
@@ -369,7 +369,7 @@ a.okeyword:visited {
 
 span.date {
 	margin-right			:	0.2em ;
-	/*font-family			:	"Verdana", "Osaka", sans-serif ;*/
+	font-family			:	"Verdana", "Osaka", sans-serif ;
 	font-weight			:	bold ;
 	letter-spacing			:	0.2em ;
 }
@@ -535,7 +535,7 @@ div.sidebar {
 	padding-bottom			:	200px ;
 	width				:	220px ;
 	position			:	absolute ;
-	top				:	0px ;
+	top				:	200px ;
 	left				:	0px ;
 	z-index				:	5 ;
 }
@@ -844,6 +844,10 @@ div.day th {
 	font-size			:	1em ;
 	background-color		:	#fff ;
 	border				:	solid 1px #ccc ;
+}
+
+hr.sep {
+	display				:	none;
 }
 
 /*------------------------------------------------------------------------------*/

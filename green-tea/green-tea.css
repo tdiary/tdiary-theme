@@ -30,7 +30,7 @@ body         {
 
 }
 
-.hatena-body{
+body{
 	position: relative ;
 	width: 735px ;
 	max-width: auto ;
@@ -745,7 +745,7 @@ div.adminmenu a{
 	color: #ffffff;
 }
 
-div.hatena-body div.adminmenu{
+div.adminmenu{
 	text-align: right;
 	margin: 0.5em 1em;
 	font-size:80%;

@@ -209,3 +209,6 @@ div.antenna ol a:hover {
 	border: 3px solid #aac;
 }
 
+hr.sep {
+	display: none;
+}

@@ -16,7 +16,7 @@ body         {
 	/* MacIE5 \*/ 
 	letter-spacing: 1px;
 	/*  */
-	/*font-family: Verdana, Osaka, sans-serif; */
+	font-family: Verdana, Osaka, sans-serif;
 	line-height: 1.5; 
 	color: #333333; 
 	background-color: #ffffff;
@@ -29,7 +29,7 @@ body         {
 }
 
 
-.hatena-body{
+body{
 	position: relative ;
 	width: 85%;
 	margin: 0 auto;
@@ -45,7 +45,7 @@ body         {
 
 h1 {	
 	width: 85%;
-	/*font-family: "Trebuchet MS",osaka,sans-serif;*/
+	font-family: "Trebuchet MS",osaka,sans-serif;
 	text-align: left;
 	line-height: 1.2;
 	font-size: 200%;
@@ -92,7 +92,7 @@ span.date{
 span.title{
 	font-size: 100%;
 	letter-spacing: 1px;
-	/*font-family: Verdana, Osaka, sans-serif; */
+	font-family: Verdana, Osaka, sans-serif;
 	font-weight: bold;
 	margin-left: 15px;
 }
@@ -782,7 +782,7 @@ div.adminmenu a{
 	color: #333333;
 }
 
-div.hatena-body div.adminmenu{
+div.adminmenu{
 	text-align: right;
 	margin: 0;
 	padding: 0.5em 1em;

@@ -134,13 +134,13 @@ a.okeyword:visited {
 
 /*------------------------------------------------------------------------------*/
 
-div.hatena-body {
+body {
 	position		:	relative ;
 	top			:	0px ;
 	left			:	0px ;
 	width			:	750px ;
 	margin			:	0px auto ;
-	font-size		:	90% ;
+	/*font-size		:	90% ;*/
 }
 
 div.main {

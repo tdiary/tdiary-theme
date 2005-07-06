@@ -43,7 +43,7 @@ h1 {
 	color: #FFCADC;
 }
 
-.hatena-body{
+body{
 	position: relative ;
 	margin: 0 7% 0 0;
 	padding: 0;
@@ -818,7 +818,7 @@ div.adminmenu a{
 	color: #000000;
 }
 
-div.hatena-body div.adminmenu{
+div.adminmenu{
 	text-align: right;
 	margin: 0;
 	padding: 0.5em 1em;
@@ -849,3 +849,6 @@ div.body {
 	clear: both;
 }
 
+hr.sep {
+	display: none;
+}

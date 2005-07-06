@@ -30,7 +30,7 @@ body         {
 
 }
 
-.hatena-body{
+body{
 	position: relative ;
 	width: 730px ;
 	max-width: auto ;
@@ -646,8 +646,8 @@ table table{
 	background-color : transparent;
 }
 
-.hatena-body table,
-.hatena-body table table{
+table,
+table table{
 	margin: 0;
 	padding:0;
 	border: 0;
@@ -738,7 +738,7 @@ div.adminmenu a{
 	color: #ffffff;
 }
 
-div.hatena-body div.adminmenu{
+div.adminmenu{
 	text-align: right;
 	margin: 0.5em 1em;
 	font-size:80%;

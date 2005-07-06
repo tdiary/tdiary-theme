@@ -1,0 +1,587 @@
+@charset "euc-jp";
+
+/*
+###########################################
+#                                         #
+# はてなダイアリー用テーマセット"jungler" #
+#                                         #
+###########################################
+
+
+このテーマはGPLライセンスでの配布を認めます。
+著作権者：cQue 2005. http://cque.mine.nu/
+
+*/
+
+
+
+
+/* ページ要素 */
+
+body {
+color:#333;
+background: #e6e6e6 url(backlight.png) repeat;
+margin: 0px 0px 0px 191px;
+padding: 0px;
+border-left: 1px solid #000000;
+border-bottom: 1px solid #000000;
+word-wrap: break-word;
+}
+
+span.title {
+font-size: 110%;
+color:#008;
+margin: 0em 0.3em 0em 0.3em;
+}
+
+h1 {
+margin:0.5em;
+font-weight: bold;
+font-size: 17pt;
+text-align: left;
+color:#A75;
+background:transparent;
+}
+
+h1:first-letter {
+color:#F00;
+background:transparent;
+}
+
+h2 {
+color:#A75;
+border-width: 0px 0px 2px 2px;
+border-color: #922;
+border-style: solid;
+padding: 0.4em;
+font-size: 14pt;
+vertical-align: middle;
+margin: 1.1em 0.7em 2em 0.7em;
+}
+
+span.title {
+font-size: 14pt;
+color:#000;
+}
+
+h3 {
+font-size: 110%;
+color: #FFF;
+margin: 0em;
+font-weight: bold;
+border-bottom: 1px #000 solid;
+padding: 0.3em;
+background: #99AABB url(section.png) repeat-x;
+}
+
+
+table {
+
+padding: 0px;
+border-collapse: collapse;
+border-color:transparent;
+align: center;
+}
+th, tr, td {
+padding: 0px;
+margin-bottom:2em;
+}
+
+/* pre,quateに関する設定 */
+pre {
+
+margin: 0.2em 3em 0.2em 3em;
+padding:5px;
+border:1px inset #333;
+color:#007;
+background:#fafafa;
+overflow:auto;
+}
+
+
+/* 項目リストの設定 */
+div.body dl {
+margin-left: 2em;
+}
+
+div.body dt {
+margin-bottom: 0.2em;
+font-weight: bold;
+}
+
+div.body dd {
+margin-left: 1em;
+margin-bottom: 0.5em;
+}
+
+div.body ul, div.body ol {
+margin-left: 3em;
+margin-right: 3em;
+}
+
+
+
+/* リンク文字列に関する設定 */
+
+a:link {
+color: #0000FF;
+background-color: transparent;
+font-weight:bold;
+text-decoration: underline;
+line-height:100%;
+}
+
+a:visited {
+color: #6600A9;
+background-color: transparent;
+text-decoration: none;
+font-weight:bold;
+
+}
+
+a[href]:hover {/*for Mozilla*/
+color: #f00;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.hover {
+color: #f00;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.keyword {
+	text-decoration: none;
+}
+
+a.keyword:visited {
+	text-decoration: none;
+font-color: #6600A9;
+}
+
+/* 注釈 */
+div.body span.footnote {
+vertical-align: super;
+font-size: xx-small;
+}
+
+div.footnote {
+background: #E4E4E4 url(tyu.png) no-repeat;
+border-style: solid;
+border-color: #000;
+border-width: 1 1 1 2px;
+margin: 2.5em;
+padding: 1.6em;
+font-size: 9pt;
+}
+
+/* 引用の設定 */
+blockquote {
+margin-: 0.7em 3em 0.7em 3em;
+padding:1.5em 0.5em 0.5em 0.5em;
+border-width:1 1 1 2px;
+border-style:solid;
+border-color:#000;
+color:#007;
+background:#fafafa url(inyou.png) no-repeat;
+}
+
+blockquote p {
+margin: 0.5em 0em 0.5em 0em;
+}
+
+
+/* ここからdivの編集 */
+
+div.body {
+font-size: 100%;
+padding: 0px 5px 0px 5px;
+}
+
+div.category0 {
+font-weight: bold;
+text-align:right;
+margin: 1.5em 0.7em 0.7em 0.7em;
+}
+
+div.main {
+margin-top:0;
+}
+
+div.section {
+/* font-size: 10pt; */
+border: 1px #000 solid;
+background: #e6e6e6 url(left.png) repeat-y 4px;
+margin:0.7em 0.5em 0.7em 0.5em;
+
+}
+
+
+div.section p {
+margin: 0.5em 1em 0.7em 2em;
+line-height: 150%;
+text-indent: 1em;
+/*padding-bottom:1.5em;*/
+
+}
+
+div.section ul {
+padding-left:1.2em;
+}
+
+div.section H4 {
+padding-left:1em;
+}
+
+div.section H5 {
+padding-left:1.4em;
+}
+
+/* イメージアンカーの設定 */
+/* ただしDefaultテーマではイメージアンカーは使っていないのでコメントにしてある
+指定のコツは以下の通り
+  - span.sanchorはセクションアンカー、span.canchorはツッコミアンカー
+  - background-imageにアンカー画像を指定
+  - paddingのtop(最初)とright(2番目)に画像の縦横サイズを指定
+  - colorに背景色と同じ色を指定(文字を見えなくするため)
+*/
+
+@media screen{
+/**[accesskey]:after{
+content: "<" attr(accesskey) ">";
+font-size: 80%;
+vertical-align:super;
+}*/
+/*h3 span[class^="sanchor"]:before {
+content: "\00A7";
+color:#f05000;
+background:transparent;
+}
+p span[class^="canchor"]:before {
+content: "\00A7";
+color:#f05000;
+background:transparent;
+}*/
+}
+
+
+
+/*
+span.sanchor,span.canchor {
+color:#f05000;
+}
+*/
+
+
+/* 複数行入力フィールドの設定 */
+div.textarea {
+display: block;
+vertical-align: top;
+}
+
+textarea {
+width: 490px;
+height: 540px;
+}
+
+/* ここからコメント欄の設定 */
+
+div.comment {
+border-style: dotted;
+border-color: #333;
+border-width: 1px 0;
+color: #333;
+background-color: #fff;
+margin: 1em 2em 0.5em 2em;
+padding: 4px;
+}
+
+div.update div.comment {
+margin-left: 0;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+div.caption {
+text-align:right;
+font-size:90%;
+margin: 0.5em;
+}
+
+
+/*
+Latest時のコメント表示
+*/
+div.commentshort {
+font-size: 90%;
+margin-left: 2em;
+}
+div.commentshort p {
+margin-top: 0.2em;
+margin-bottom: 0.2em;
+line-height: 1.2em;
+}
+
+/*
+コメント本文の設定
+*/
+div.commentbody {
+font-size: 90%;
+margin: 0.5em;
+line-height: 1.2em;
+}
+
+div.commentbody p {
+margin: 0.5em;
+margin-left: 2em;
+}
+
+div.commentator {
+border-style: solid;
+border-color: #c0c0c0;
+border-width: 0px 0px 1px 0px;
+line-height: 1.5em;
+}
+
+span.commentator {
+font-weight:bold;
+}
+
+
+/* サイドバー */
+
+div.sidebar {
+width:190px;
+position:absolute;
+top:0;
+left:0;
+margin:0;
+font-size:10pt;
+background: #FFF url(backlight.png) repeat;
+border-right: 1px solid #121212;
+border-bottom: 1px solid #000000;
+}
+
+
+
+div.sidebar ul {
+line-height: 16pt;
+margin: 10px;
+padding-top:0;
+list-style-type: none;
+}
+
+div.sidebar li {
+margin: 0.4em;
+}
+
+ul.hatena-section {
+
+}
+
+ul.hatena-recentcomment {
+
+}
+
+ul.hatena-hotkeyword {
+
+}
+
+/*プラグインの設定*/
+
+div.hatena-module {
+font-size: 10pt;
+border: 1px solid #313131;
+background: #e6e6e6 url(bottom.png) repeat-x bottom;
+margin:0.5em 0.7em 0.5em 0.7em;
+padding:0;
+}
+
+div.hatena-moduletitle {
+font-size: 11pt;
+font-weight: bold;
+background: #99AABB url(section.png) repeat-x;
+border-bottom: 1px solid #000000;
+margin: 0em;
+padding: 0.3em;
+text-decoration: none;
+}
+
+div.hatena-moduletitle:first-letter {
+color:#F0E600;
+background:transparent;
+}
+
+a.hatena-module:first-letter {
+color: #FF1122;
+background:transparent;
+}
+
+
+div.hatena-module p {
+padding: 0.2em 0.2em 0.6em 0.2em;
+}
+
+div.calendar {
+font-size:90%;
+}
+
+/*
+th, tr, td.calender {
+border-style: solid;
+border-color: #ccc;
+border-width: 1px;
+padding-top: 4px;
+padding-left: 4px;
+}
+*/
+
+table.calendar {
+}
+
+table.calendar td {
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+text-align: center;
+}
+
+hatena.profile p {
+margin:1em;
+padding:0;
+}
+
+ul.hatena-section a {
+text-decoration: none;
+}
+
+ul.hatena-hoturl a {
+text-decoration: none;
+}
+
+
+/* リンク元リスト(短い方)の設定 */
+div.referer {
+text-align:right;
+font-size:80%;
+color: #f05000;
+background-color: transparent;
+margin: 0em;
+}
+div.referer a:link {
+color: #f05000;
+background-color: transparent;
+}
+div.referer a:visited {
+color: #d06000;
+background-color: transparent;
+}
+
+
+/* リンク元リスト(全体一覧)の設定 */
+div.refererlist {
+background-color: transparent;
+color: #f05000;
+border-style: solid;
+border-color: #c0c0c0;
+border-width: 1px 0px 0px 0px;
+padding: 2px;
+padding-bottom: 1px;
+}
+
+div.refererlist a:link {
+color: #f05000;
+background-color: transparent;
+}
+div.refererlist a:visited {
+color: #d06000;
+background-color: transparent;
+}
+
+/* リンク元リスト一覧の設定 */
+div.refererlist ul {
+font-size: 80%;
+margin: 0.5em 1em 0.5em 3em;
+line-height: 1.2em;
+}
+
+
+div.s_counter {
+color:e6e6e6;
+}
+
+
+/* デフォルトの設定値 */
+
+ul.hatena_photo {list-style-type:none;}
+ul.hatena_photo li{display:inline;}
+
+
+span.highlight {
+	color: black;
+	background-color: yellow;
+}
+img.photo {
+	float: right;
+	margin: 10px;
+	border: 0;
+}
+
+div.hatena-asin-detail {
+margin: 10px;
+padding-left: 10px;
+}
+
+div.hatena-asin-detail p {
+text-indent: 0em ! important;
+line-height: 150%;
+}
+
+div.hatena-asin-detail ul {
+list-style-type: none;
+margin: 0;
+margin-top: 10px;
+padding: 0;
+}
+
+img.hatena-asin-detail-image {
+float: left;
+border: 0;
+}
+
+div.hatena-asin-detail-info {
+margin-left: 10px;
+float: left;
+word-break: break-all;
+}
+
+p.hatena-asin-detail-title {
+font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+clear: left;
+}
+
+
+span.mincho {
+/* font-family: "MS Mincho","Kochi Mincho",Serif; */
+font-size:100%;
+}
+
+div.sidemenu {
+margin: 0em,1.5em,1.5em,1.5em;
+}
+
+div.sidemenu a{
+text-decoration: none;
+}
+
+div.sidemenu img {
+margin:0;
+padding:0;
+border:0;
+}
+

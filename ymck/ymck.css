@@ -1,0 +1,837 @@
+@charset "euc-jp";
+
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html *{
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body         { 
+	/* font-size: 80%; */
+	/* font-family: Verdana, Osaka, sans-serif; */
+	line-height: 1.5; 
+	color: #000000; 
+	background-color: #FF6699;
+
+	background-image: url("wall.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	margin: 0; 
+	padding: 0;
+	word-break: break-all;
+	word-wrap: break-word;
+
+	width: 500px ;
+	margin: 0 0 0 50px;
+	padding: 0;
+}
+
+.main{
+
+}
+
+h1 {	
+	width: 500px;
+	padding: 90px 30px 120px 30px;
+	margin: 0 0 0 50px;
+	text-align: left;
+	font-size: 150%;
+	font-weight: normal;
+	color: #FFE76B;
+	background-image: url("h1.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+h1:first-letter{
+	color: #FF6699;
+}
+
+
+div.day {
+	margin: 0 15px 15px 15px;
+	width: 470px;
+	padding: 0;
+
+}
+
+h2,
+h2 a{
+	text-decoration: none;
+	border: none;
+	color: #000000;
+
+}
+
+h2 {
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	padding: 10px 0 ;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+
+
+span.date{
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	background-color: #FF6699;
+	color: #FFE76B;
+	border: solid 8px #FFE76B;
+}
+
+
+span.title{
+	margin: 0;
+	padding: 5px 10px;
+	background-color: #FFE76B;
+}
+
+a.edit{
+	
+}
+
+div.body {
+	
+	padding: 0 ;
+	margin: 0;
+	text-align: left;
+	_width: 100%;
+}
+
+div.section{
+	margin: 0 0 15px 0;
+	padding: 5px;
+	background-color: #FFE76B;
+	border: solid 8px #FF6699;
+}
+
+div.section p {	
+	margin: 10px;
+	padding: 0;
+}
+
+h3 {	
+	color: #000000;
+	font-size: 100%;
+   	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+}
+
+
+h3 a{
+    border: none;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #8AB6F8;
+}
+
+span.timestamp{
+	font-size: 70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+
+/************* decoration ******************************/
+
+
+a{
+	text-decoration: none;
+	color: #000000;
+	border-bottom: solid 1px #FF6699;
+}
+
+a.keyword, 
+a.okeyword{
+	text-decoration: none;
+	border-bottom: dashed 1px #FF6699;
+}
+
+a img{
+	border: none;
+}
+
+a:link{ }
+
+a:visited{ } 
+
+a:hover{ 
+	color: #FF6699;
+}
+  
+a:active{  } 
+
+
+h4 {	
+	color: #000000;
+   	font-size: 100%;
+   	font-weight: normal;
+	margin: 0 5px;
+	padding: 0 0 0 10px;
+	text-align:left;
+	word-break:break-all;
+	border-left: solid 8px #FF6699;
+}
+
+h5{
+	color: #000000;
+   	font-size: 100%;
+   	font-weight: normal;
+	margin: 0 5px;
+	padding: 0 0 0 10px;
+	text-align:left;
+	word-break:break-all;
+	border-left: solid 8px #8AB6F8;
+}
+
+p.seemore{
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+p.seemore a{
+	border: solid 1px #FF6699;;
+	padding: 2px;
+}
+
+blockquote{
+	background-color: #8AB6F8;
+	border: solid 8px #FF6699;
+	margin: 10px;
+	padding: 5px;
+}
+
+.section blockquote p{
+	margin: 5px;
+	padding: 0;
+}
+
+cite a{
+	border: none;
+}
+
+cite{
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+pre	{
+	background-color: #8AB6F8;
+	border: solid 8px #FF6699;
+	margin: 10px;
+	padding: 5px;
+}
+
+font{
+	line-height: 1.2;
+}
+
+em a{
+	border: none;
+}
+
+em,
+{
+	font-weight: normal;
+	font-style: normal;
+	background-color: #FF6699;
+}
+
+
+ins,
+ins a{
+	text-decoration: none;
+	border: none;
+	color: #666666;
+}
+
+/************************* list **********************/
+
+.section ul{
+
+}
+
+.section ul li {
+
+}
+
+.section ul ul{
+
+}
+
+.section ol {
+
+}
+
+.section dl{
+	margin: 1em;
+}
+
+.section dt{
+	font-weight: normal;
+}
+
+
+/********************** img ***************************/
+
+img.photo{
+	float: right;
+	margin: 15px 15px 10px 10px;
+}
+
+img.asin{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+img.hatena-fotolife {
+	border: none;
+}
+
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+div.footnote{
+	margin: 0 0 10px 0;
+	padding: 10px;
+
+	background-color: #FFE76B;
+	border: solid 8px #FF6699;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 100%;
+}
+
+/********************** comment ***********************/
+
+div.comment{
+	text-align: left;
+	padding: 0;
+	margin: 0 0 10px 30px;
+	background-color: #FFE76B;
+	border: solid 8px #FF6699;
+}
+
+div.refererlist{
+	text-align: left;
+	padding: 0;
+	margin: 0 0 10px 60px;
+	background-color: #FFE76B;
+	border: solid 8px #FF6699;
+}
+
+div.comment div.caption{
+	font-size: 80%;
+	padding: 5px;
+	margin: 0;
+}
+
+div.refererlist div.caption{
+	font-size: 80%;
+	padding: 5px;
+	margin: 0;
+}
+
+div.caption a{
+	border: none;
+}
+
+
+div.refererlist ul{
+	margin: 0;
+	padding: 0px 10px 10px 30px;
+	list-style-type: square;
+	font-size: 80%;
+	letter-spacing: 0px;
+	background-color: #FFE76B;
+}
+
+div.commentshort{
+	margin: 0;
+	padding: 5px 10px 10px 10px;
+	background-color: #FFE76B;
+	/* display: none; */
+}
+
+form div.commentshort{
+	/* display: block */
+}
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+span.commentator{
+	font-weight: normal;
+	display:block;
+	margin: 0 0 0 -1em;
+}
+
+span.commentator,
+span.commentator a{
+	color: #000000;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 5px 0 0 1em;
+	font-size: 100%;
+	letter-spacing: 0px; 
+}
+
+
+/****************** asin detail ***********************/
+
+div.hatena-asin-detail {
+	margin: 1em;
+	padding: 5px;
+	background-color: #8AB6F8;
+	border: solid 8px #FF6699;
+	_width: 100%;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info{
+	float: left;
+	margin: 0;
+	word-break: break-all;
+}
+
+.section p.hatena-asin-detail-title{
+	font-weight: normal;
+	_width: 100%;
+	margin: 0;
+}
+
+div.hatena-asin-detail-info ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail-info li {
+	margin: 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+form.hatena-searchform{
+	margin: 5px 0;
+}
+
+div.day textarea{
+	width: 100%;
+}
+
+textarea,
+input{
+	letter-spacing: 0px;
+}
+
+
+/********************** sidebar ***********************/
+
+.sidebar {
+	position: absolute;
+	top: 230px; 
+	left: 550px;
+	width: 200px;
+	padding: 0;
+	margin: 0 ;
+	text-align: left;
+	border: none;
+}
+
+.hatena-module{
+	margin: 0 0 15px 0;
+	padding: 12px 0;
+	text-align: left;
+	width: 200px;
+	background-color: #8AB6F8;
+	background-image: url("module.gif");
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+	border: none;
+	color: #000000;
+	font-weight: normal;
+
+}
+
+.hatena-moduletitle{
+	font-size: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0 42px -8px 0px;
+	z-index: 3;
+	_width: 100%;
+	position: relative;
+	text-align: left;
+	letter-spacing: 1px;
+	background-color: #FF6699;
+
+	border-top: solid 8px #FFE76B;
+	border-left: solid 8px #FFE76B;
+	border-right: solid 8px #FFE76B;
+}
+
+.hatena-modulebody{
+	padding: 5px;
+	margin: 0 12px 0 0px;
+	_width:100%;
+	z-index: 0;
+	background-color: #FF6699;
+	border: solid 8px #FFE76B;
+
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: disc;
+	
+}
+
+.hatena-modulebody li {
+	display: block;
+}
+
+.hatena-modulebody li a{
+}
+
+.hatena-modulebody li a:hover {
+	border: 0;
+	background-color: #FFE76B;
+	color: #000000;
+}
+
+/**************** profile module *********************/
+
+div.hatena-profile{
+
+}
+
+p.hatena-profile-image{
+
+}
+p.hatena-profile-id{
+
+}
+
+p.hatena-profile-body{
+
+}
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 0;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-image: none;
+	background-color: transparent;
+}
+
+ul.hatena-photo li a img{
+	filter: none;
+	border: 1px solid #FF6699;
+}
+
+ul.hatena-photo li a:hover img{
+	filter: none;
+	border: 1px solid #8AB6F8;
+}
+
+
+
+/********************** calender **********************/
+
+
+div.calendar a{
+	border: none;
+	color: #000000;
+}
+
+
+div.calendar{
+	font-size: 80%;
+	color: #000000;
+	margin: 5 15px;
+	_width: 100%;
+	padding: 0;
+	text-align: left;
+}
+
+
+
+
+/********************** header **********************/
+
+table        { 
+	margin: 0 0 0 50px;
+	width: 500px; 
+	padding: 0;
+
+	background-color: #8AB6F8;
+}
+
+.hatena-body table{
+	margin: 0 ;
+	width: auto; 
+	padding: 0;
+	background-color: transparent;
+}
+
+td 
+{
+ 	background-color : transparent;
+}
+
+table table td{
+ 	background-color : transparent;
+}
+
+table table{
+	margin: 0;
+	padding:0;
+	border: none;
+	width: 100%;
+	background-image: none;
+	background-color : transparent;
+}
+
+table table td font, 
+table table td a{
+	border:none;
+	color: #000000;
+}
+
+table a{
+	border: none;
+}
+
+table input{
+	border: 1px solid #ffffff;
+	background-color : #ffffff;
+	color: #000000;
+}
+
+/********************** calendar2 **********************/
+
+div.calendar2{
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+table.calendar{
+	font-size: 80%;
+	letter-spacing: 0px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FF6699;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+td.calendar-current-month{
+	font-weight: normal;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align:center;
+}
+
+td.calendar-day {
+
+	background-color: #FFE76B;
+}
+td.calendar-day a{
+	display: block;
+	_width: 100%;
+	background-color: #8AB6F8;
+}
+
+td.calendar-day a:hover{
+	background-color: #FF6699;
+	color: #000000;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day img {
+	width: 12px;
+	height: 12px;
+	border: 0;
+}
+
+
+/************************ other ****************************/
+
+span.highlight {
+	background-color: yellow;
+	padding: 1px;
+}
+
+div.body {
+	clear: both;
+}
+
+.body textarea{
+	height: 400px;
+}
+
+/*************** adminmenu **************************/
+
+div.adminmenu{
+	text-align: right;
+	margin: 0 0 0 50px;
+	width: 500px;
+	padding: 5px;
+	background-color: #8AB6F8;
+}
+
+.main div.adminmenu{
+	width: 100%;
+	margin: 0;
+	background-color: transparent;
+}
+
+.sidebar div.adminmenu{
+	width: 100%;
+	background-color: transparent;
+	margin: 0;
+}
+
+span.adminmenu{
+	margin: 0 5px;
+}
+
+span.adminmenu a{
+	border: none;
+}
+
+/*************** other ******************************/
+
+span.highlight {
+	background-color: #8AB6F8;
+	padding: 1px;
+}
+
+div.footer{
+	padding: 10px;
+	text-align: center;
+}
+
+.footer,
+.footer a{
+	color: #000000;
+	border: none;
+}

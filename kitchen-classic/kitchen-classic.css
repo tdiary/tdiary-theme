@@ -1,0 +1,613 @@
+@charset "euc-jp";
+
+/*
+Title:kitchen-natural
+Revision:1.1
+Author:Nishioka Yuji
+Access:http://d.hatena.ne.jp/n-yuji/
+License:GPL
+Comment:キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-classic」は、クラシックなテイスト。
+*/
+
+/* ページ全体の基本的な設定。背景色や文字色など */
+
+body {
+ background-color:#FFFFFF;
+ background-image:url('tile03.gif');
+ background-repeat:repeat;
+ color:#6F533D;
+ font-size:100%;
+ line-height:150%;
+ margin:0px;
+ padding:0px;
+ /* font-family:"ＭＳ Ｐゴシック",sans-serif; */
+}
+
+/* はてなボディ */
+
+.hatena-body{
+ position:absolute;
+ padding:0;
+ margin-top:20px;
+ width:100%;
+}
+
+/* リンク文字列に関する設定 */
+
+a:link {
+ text-decoration:none;
+ color:#8B4F48;
+}
+
+a:visited {
+ background-color:transparent;
+ color:#755447;
+ text-decoration:none;
+}
+
+a:hover {
+ color:#801B6D;
+}
+
+/* はてなキーワードリンクに関する設定 */
+
+a.keyword {
+ text-decoration:none;
+ border-bottom-style:solid;
+ border-width:1px;
+ border-color:#B9956B;
+}
+
+a.keyword:link {
+
+}
+
+a.keyword:visited {
+ color:#755447;
+}
+
+a.keyword:hover {
+ background-color:#E0CE81;
+}
+
+/* 日記タイトルの設定 */
+
+h1 {
+ background-image:url('wood03a.gif');
+ background-repeat:repeat;
+ text-align:left;
+ font-weight:normal;
+ /* font-family:Verdana,"ＭＳ Ｐゴシック",sans-serif; */
+ letter-spacing:0.25em;
+ color:#CAB388;
+ margin-top:1em;
+ margin-bottom:0em;
+ margin-left:90px;
+ margin-right:90px;
+ padding:12px 10px 12px 10px;
+ font-size:170%;
+ border-style:solid;
+ border-width:4px;
+ border-left-color:#886858;
+ border-top-color:#B28D73;
+ border-bottom-color:#7A5D50;
+ border-right-color:#6E5242;
+}
+
+/* タイトル下の説明文の設定 */
+div.hatena-description {
+ line-height:140%;
+ font-size:80%;
+ margin-left:90px;
+ margin-right:90px;
+}
+
+/* カレンダーの設定 */
+
+div.calendar {
+ text-align:right;
+ line-height:110%;
+ font-size:80%;
+ margin-top:0;
+ margin-bottom:0.5em;
+ margin-left:90px;
+ margin-right:90px;
+}
+
+div.calendar div.year {
+}
+
+/* 1日の日記全体を囲む枠の設定 */
+
+div.day {
+ background-color:#FFFFFF;
+ background-image:url('cloth03.gif');
+ background-repeat:repeat;
+ border-style:solid;
+ border-width:0 1px 1px 0;
+ border-color:#95775C;
+ padding-bottom:0.5em;
+ margin-top:0;
+ margin-left:90px;
+ margin-right:90px;
+ margin-bottom:1.5em;
+}
+
+/* タイトル行全体の設定 */
+
+h2 {
+ background-image:url('wood03b.gif');
+ background-repeat:repeat;
+ font-size:100%;
+ font-weight:normal;
+ margin-top:0px;
+ padding:6px;
+ border-style:solid;
+ border-width:4px;
+ border-left-color:#AB865F;
+ border-top-color:#C9AF77;
+ border-bottom-color:#91735E;
+ border-right-color:#826646;
+}
+
+/* 日付の設定 */
+
+h2 span.date {
+ font-size:120%;
+ /* font-family:Verdana,sans-serif; */
+ border-style:solid;
+ border-color:#91735E;
+ border-width:0 2px 0 0;
+ padding:0em 0.5em 0em 0.25em;
+}
+
+/* タイトルの設定 */
+
+h2 span.title {
+ font-size:120%;
+ font-weight:bold;
+ color:#755447;
+ padding:0 1em 0 0.25em;
+}
+
+/* タイトルを除いた1日の日記本文全体の設定 */
+
+div.body {
+ margin:1.5em 0.5em 0em 1em;
+ /* font-size:90%; */
+ line-height:165%;
+}
+
+/* サブタイトルを含むセクションの設定 */
+
+div.section {
+ margin-top:0.75em;
+ margin-left:0em;
+ margin-bottom:0em;
+}
+
+/* サブタイトルの設定 */
+
+h3 {
+ font-size:100%;
+ margin-top:1em;
+ margin-bottom:0.25em;
+}
+
+div.day span.sanchor {
+ background-image:url('maru03.gif');
+ background-position:bottom right;
+ background-repeat:no-repeat;
+ padding:16px 16px 0 0;
+ color:#E7E2D5;
+ background-color:transparent;
+ font-size:1px;
+}
+
+/* その他の見出し(必要なら) */
+
+h4 {
+ font-weight:bold;
+ margin-bottom:0em;
+}
+
+/* 日記の本文(段落)の設定 */
+
+div.section p {
+	margin:0em 0em 0em 0em;
+}
+
+/* コメント/フォーム/リンク元のキャプション設定 */
+
+div.caption {
+ font-size:80%;
+ line-height:150%;
+ border-style:dotted;
+ border-color:#6F533D;
+ border-width:2px 0px 0px 0px;
+}
+
+/* コメント欄全体の設定 */
+
+div.comment {
+ padding:0px;
+ padding-bottom:2px;
+ margin-top:1em;
+ margin-left:5em;
+ margin-right:1em;
+}
+
+/* コメント欄本文 */
+
+div.commentshort {
+ font-size:80%;
+}
+span.commentator {
+ font-style:italic;
+ font-size:120%;
+ margin-right:0.5em;
+}
+div.commentshort p {
+ margin-top:0.2em;
+ margin-bottom:0.2em;
+ line-height:150%;
+}
+
+span.canchor {
+ background-image:url('maru-s03.gif');
+ background-position:bottom right;
+ background-repeat:no-repeat;
+ padding:10px 10px 0 0;
+ color:#FFFFFF;
+ background-color:transparent;
+ font-size:1px;
+}
+
+/* フォーム全体を囲む枠の設定 */
+
+div.form {
+ font-size:90%;
+ line-height:1.5;
+ margin:1% 5% 1% 5%;
+ padding:1%;
+ text-align:center;
+}
+
+/* リンク元リストの設定 */
+
+div.refererlist {
+ padding:2px;
+ padding-bottom:1px;
+ margin-top:0.5em;
+ margin-left:0.5em;
+ margin-right:1em;
+}
+
+/* リンク元リスト一覧の設定 */
+
+div.refererlist ul {
+ font-size:90%;
+ margin:0.5em 1em 0.5em 3em;
+ line-height:120%;
+}
+
+/* 罫線の設定 */
+
+hr {
+ border-style:dotted;
+ border-width:2px;
+ border-color:#6F533D;
+}
+
+/* 日々の日記のセパレータに使われる罫線の設定 */
+
+hr.sep {
+ display:none;
+}
+
+/* ヘッダ・フッタの設定 */
+
+div.footer {
+ text-align:left;
+ font-size:80%;
+ line-height:120%;
+ margin-top:0px;
+ margin-right:90px;
+ margin-left:90px;
+}
+
+/* エラーメッセージ表示の設定 */
+
+p.message {
+ text-align:center;
+ font-size:large;
+ background-color:#d00;
+ color:#fff;
+ padding:8px;
+}
+
+/* 整形済みテキスト(preタグ)の設定 */
+
+div.section pre {
+ font-size:90%;
+ line-height:120%;
+ margin:0.5em 0.5em 0.5em 0;
+ padding:0 1em 0 1em;
+ background-color:#FFFFFF;
+}
+
+/* 引用(blockquoteタグ)の設定 */
+
+div.section blockquote {
+ border-style:dotted;
+ border-color:#6F533D;
+ border-width:0px 0px 0px 2px;
+ margin-top:0.5em;
+ margin-bottom:0.5em;
+ margin-left:2em;
+ margin-right:1em;
+ padding:0em 1em 0em 0.5em;
+}
+div.section blockquote p {
+ margin:0em 0em 0em 0em;
+}
+
+/* 箇条書きの設定 */
+
+div.section ul, div.section ol {
+ margin-top:0.5em;
+ margin-bottom:0.5em;
+ font-size:90%;
+ line-height:130%;
+}
+
+/* 項目リストの設定 */
+
+div.section dl {
+ margin-top:0.5em;
+ margin-bottom:0.5em;
+ font-size:90%;
+ line-height:130%;
+}
+
+div.section dt {
+ margin-bottom:0.2em;
+ font-weight:bold;
+}
+
+div.section dd {
+ margin:0em 3em 0.5em 1em;
+}
+
+/* カレンダー2の設定 */
+
+table.calendar {
+ font-size:1em;
+ line-height:100%;
+ text-align:center;
+ background-color:transparent;
+ margin:0 0 1em 0;
+ width:100%;
+}
+
+table.calendar td {
+	margin:0;
+	padding:1px 2px 2px 2px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+
+}
+
+table.calendar td.calendar-sunday {
+ color:#BE002C;
+ font-weight:bold;
+}
+table.calendar td.calendar-saturday {
+ color:#095C9A;
+ font-weight:bold;
+}
+td.calendar-day img {
+ width:15px;
+ height:15px;
+ border:0;
+}
+/*
+
+/* 脚注の設定 */
+
+div.body span.footnote {
+ vertical-align:super;
+ font-size:70%;
+}
+
+div.footnote {
+ font-size:70%;
+ line-height:130%;
+ padding:0em;
+ margin-top:1.75em;
+ margin-left:8em;
+ margin-right:1em;
+}
+
+p.footnote {
+ margin:0.5em;
+ padding:0em;
+}
+
+/* amazonの書影リンクの設定 */
+
+img.asin {
+ float:right;
+ border:0;
+ margin:0 0.5em 4px 1em;
+}
+
+/* photoの設定 */
+
+img.photo {
+ float:right;
+ margin:0 0.5em 4px 1em;
+ border-style:solid;
+ border-width:4px;
+ border-left-color:#AB865F;
+ border-top-color:#C9AF77;
+ border-bottom-color:#91735E;
+ border-right-color:#826646;
+}
+
+/* 検索時のハイライトの設定 */
+
+span.highlight {
+ color:#ffffff;
+ background-color:#977A5A;
+}
+
+/* サイドバー関連の設定 */
+
+div.main {
+ padding:0px;
+ margin-right:220px;
+}
+
+div.sidebar {
+ background-image:url('wood03b.gif');
+ background-repeat:repeat;
+ position:absolute;
+ top:0px;
+ width:180px;
+ right:90px;
+ padding:6px 6px 6px 6px;
+ font-size:100%;
+ text-align:center;
+ border-style:solid;
+ border-width:4px;
+ border-left-color:#AB865F;
+ border-top-color:#C9AF77;
+ border-bottom-color:#91735E;
+ border-right-color:#826646;
+}
+
+div.sidebar p {
+ padding:0 ;
+ margin:0;
+}
+
+/* モジュールの設定 */
+
+p.recentitem {
+ font-size:75%;
+ font-weight:bold;
+ line-height:160%;
+ padding:2px 2px 2px 2px;
+ margin:0 0 0.5em 0;
+ color:#6F533D;
+ border-style:solid;
+ border-width:2px;
+ border-left-color:#AB865F;
+ border-top-color:#C9AF77;
+ border-bottom-color:#91735E;
+ border-right-color:#826646;
+}
+
+div.recentsubtitles {
+ font-size:75%;
+ line-height:150%;
+}
+
+/* はてなモジュールの設定 */
+
+.hatena-module{
+ margin:0;
+ padding:0;
+ width:100%;
+ text-align:center;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+ border:none;
+}
+
+.hatena-moduletitle{
+ font-size:75%;
+ font-weight:bold;
+ line-height:160%;
+ padding:2px 2px 2px 2px;
+ margin:0 0 0.5em 0;
+ color:#6F533D;
+ border-style:solid;
+ border-width:2px;
+ border-left-color:#AB865F;
+ border-top-color:#C9AF77;
+ border-bottom-color:#91735E;
+ border-right-color:#826646;
+}
+
+.hatena-modulebody{
+ font-size:75%;
+ line-height:150%;
+}
+
+.hatena-modulebody a{
+ border:none;
+}
+
+.hatena-modulebody ul{
+ padding:0;
+ margin:0 0 1em 0;
+ list-style-type:none;
+}
+
+.hatena-modulebody li {
+}
+
+ul.hatena-photo{
+ list-style-type:none;
+}
+
+ul.hatena-photo li{
+}
+
+ul.hatena-photo li img{
+}
+
+ul.hatena-photo li a{
+ display:inline;
+}
+
+ul.hatena-photo li a img{
+ border:none;
+ padding:2px;
+}
+
+form.hatena-searchform{
+ padding:0;
+ margin:0.5em 0 1em 0;
+}
+/* メニューの設定 */
+
+div.adminmenu {
+ font-size:80%;
+ margin:0;
+ text-align:center;
+}
+
+div.adminmenu a:link {
+ text-decoration:none;
+ color:#8B4F48;
+}
+
+
+div.adminmenu a:visited {
+ text-decoration:none;
+ color:#8B4F48;
+}
+
+div.adminmenu a:hover {
+ color:#801B6D;
+}
+
+span.adminmenu {
+ padding:0 1em 0 0;

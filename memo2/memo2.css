@@ -1,0 +1,830 @@
+@charset "euc-jp";
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html * {
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body         { 
+	/* font-size: 80%; */
+	letter-spacing: 1px;
+	/* font-family: Verdana, Osaka, sans-serif; */
+	line-height: 1.5; 
+	color: #000000; 
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0; 
+	padding: 0;
+
+	word-break: break-all ;
+	word-wrap: break-word ;
+}
+h1 {	
+	width: 85%;
+	/* font-family: "Trebuchet MS",osaka,sans-serif; */
+	text-align: left;
+	line-height: 1.2;
+	font-size: 200%;
+	margin: 25px auto;
+	letter-spacing: 0.2em;
+	padding: 0 10px;
+	color: #630031;
+}
+
+.hatena-body{
+	position: relative ;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+.main{
+	padding: 0px;
+	margin: 0 0 0 26%;
+}
+
+
+
+.day {
+	margin: 0 0 15px 0;
+	padding: 0;
+	width: auto;
+	_width: 100% ;
+	
+	border-right: solid 2px #e5e5e5;
+	border-bottom: solid 2px #e5e5e5;
+	text-align:left;
+	background-color: #FFF7D6;
+}
+
+h2,
+h2 a{
+	text-decoration: none;
+	border: none;
+	color: #ffffff;
+
+}
+
+h2 {
+	font-size: 100%;
+	font-weight: bold;
+	text-decoration:none;
+	margin: 0;
+	padding: 0.5em 1em;
+	text-align: left;
+	background-color: #630031;
+	border-top: solid 1px #630031;
+	border-left: solid 1px #630031;
+	border-right: solid 1px #630031;	
+	border-bottom: solid 1px #630031;
+
+}
+
+span.date{
+	letter-spacing: 0px;
+
+}
+
+span.title{
+	font-size: 100%;
+	letter-spacing: 1px;
+	/* font-family: Verdana, Osaka, sans-serif; */
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.body {
+	padding: 1.5em 0 0 0;
+	margin: 0 0 0 0;
+	width: auto;
+	_width: 100% ;
+	border-left: solid 1px #630031;
+	border-bottom: solid 1px #630031;
+	border-right: solid 1px #630031;
+}
+
+.section{
+	padding: 0 0.5em;
+	margin: 0 0 1em 0;
+	border-bottom: solid 1px #FFF7D6;
+}
+
+
+h3 a{
+	border: none;
+}
+
+h3 {	
+	color: #000000;
+	font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding: 0 1em;
+	text-align:left;
+
+}
+
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #ffffff;
+	font-size: 1px;
+	border: none;
+	background-image: url("hall.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 9px 7px 5px 7px;
+
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+.section P {	
+	margin: 1em 2em;
+	text-align:left;
+	padding: 0;
+}
+
+
+/**************** decoration *************************/
+
+a{
+	text-decoration: none;
+	color: #000000;
+	border-bottom:solid 1px #000000;
+}
+
+a.keyword,
+a.okeyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #FFE168;
+}
+
+a img{
+	border: none;
+}
+
+a:link    { }
+
+a:visited { } 
+
+a:hover   { 
+	color: #ff0000;
+}
+  
+a:active  { 
+	
+} 
+
+h4 {	
+	color: #000000;
+	font-size:100%;
+   	font-weight: bold;
+	margin: 5px 1em;
+	padding: 0;
+}
+
+h5{
+	color: #000000;
+	font-size:100%;
+   	font-weight: normal;
+	margin: 5px 1em;
+	padding: 0;
+}
+
+blockquote{
+	border: solid 1px #630031;
+	margin: 1em 2em;
+	padding: 0.5em;
+}
+
+.section blockquote p{
+	margin: 0.5em;
+	padding: 0;
+}
+
+cite{
+	font-weight: bold;
+	font-style: normal;
+}
+
+cite a{
+	border: none;
+}
+
+pre	{
+	border: solid 1px #630031;
+	margin: 1em 2em;
+	padding: 0.5em;
+}
+
+font{
+	line-height: 1.2em;
+}
+
+em,
+em a{
+	font-weight: normal;
+	font-style: normal;
+	border: none;
+	background-color: #FFE168;
+}
+
+ins,
+ins a{
+	text-decoration: none;
+	border: none;
+	color: #666666;
+}
+
+
+/************************* list **********************/
+
+.section ul{
+	margin: 1em 2em 1em 3em;
+	padding: 0;
+}
+
+.section ol{
+	margin: 1em 2em 1em 3.5em;
+	padding: 0;
+}
+
+.section ul li,
+.section ol li,
+.section ol ul,
+.section ol ol,
+.section ul ul,
+.section li li {
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+
+
+.section dl{
+	margin: 1em 2em;
+}
+
+.section dt{
+	font-weight: bold;
+}
+
+.section dd{
+}
+
+
+/********************** img ***************************/
+
+img.photo{
+	float: right;
+	padding: 0;
+	border: solid 1px #630031;
+	margin: 0 2em 10px 10px;
+}
+
+img.asin{
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 0;
+	border: solid 1px #630031;
+}
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+div.footnote{
+	margin: 0 1em 1em 1em;
+	padding: 1em;
+	border: dotted 1px #630031;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+/********************** comment ***********************/
+
+div.comment,
+div.refererlist{
+	_width: 100% ;
+	padding: 1em 2em;
+	margin:  0;
+	border-left: solid 1px #630031;
+	border-bottom: solid 1px #630031;
+	border-right: solid 1px #630031;
+}
+
+
+div.refererlist ul,
+div.comment ul{
+	margin: 0 2em;
+	padding: 0;
+	list-style-type: square;
+	font-size: 80%;
+	letter-spacing: 0px;
+}
+
+form div.refererlist ul,
+form div.comment ul{
+	font-size: 100%;
+	letter-spacing: 1px;
+}
+
+
+div.caption{
+	font-size: 80%;
+	padding: 0;
+	margin: 0;
+}
+
+div.refererlist div.caption{
+	font-size: 80%;
+	border-bottom: solid 1px #630031;
+	padding: 0;
+	margin: 0 0 0.5em 0;
+}
+
+form div.refererlist div.caption{
+	font-size: 100%;
+	padding: 0 0.5em;
+	margin: 0.5em 0;
+	border-bottom: solid 1px #630031;
+}
+
+
+
+div.caption a{
+        border: none;
+}
+
+div.commentshort{
+	margin: 0;
+
+}
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+
+span.commentator{
+	font-weight: bold;
+	display:block;
+	margin: 0 0 0 -1em;
+	padding: 3px 0 0 0;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 1em;
+	font-size: 90%;
+	letter-spacing: 0px; 
+}
+
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+/********************** sidebar ***********************/
+
+.sidebar {
+	position: absolute;
+	top: 19px; 
+	left: 0px;
+	width: 24% ;
+	padding: 0;
+	margin: 0 ;
+	font-size: 90%;
+	text-align: left;
+	border: none;
+}
+
+.hatena-module{
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
+	width: 100% ;
+	position: relative;
+	border-right: solid 2px #e5e5e5;
+	border-bottom: solid 2px #e5e5e5;
+	background-color: #FFF7D6;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+	border: none;
+	color: #ffffff;
+	background-color: #630031;
+}
+
+.hatena-moduletitle{
+	font-size: 100%;
+	letter-spacing: 0px;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	margin: 0;
+	border-top: solid 1px #630031;
+	border-left: solid 1px #630031;
+	border-right: solid 1px #630031;	
+	border-bottom: solid 1px #630031;
+	text-align: left;
+	letter-spacing: 0px;
+
+}
+
+.hatena-modulebody{
+	padding: 10px 1em;
+	margin: 0;
+	font-size: 90%;
+
+	border-left: solid 1px #630031;
+	border-bottom: solid 1px #630031;
+	border-right: solid 1px #630031;
+	_width:100%;
+
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.hatena-modulebody li {
+
+}
+
+.hatena-modulebody li a{
+	display: block;
+	width: auto;
+	_width: 100%;
+	padding: 1px 3px;
+	letter-spacing: 1.2;
+	margin: 0;
+	border: solid 1px #FFF7D6;
+}
+
+.hatena-modulebody li a:hover {
+	
+	color: #000000;
+	border: 0;
+	width: auto;
+	_width: 100%;
+	border: solid 1px #F0C000;
+	background-color: #FFE168;
+}
+
+
+/*************** trackback/comment module ****************/
+
+.hatena-modulebody ul.hatena-recentcomment li a{
+	display: inline;
+	width: auto;
+	padding: 0;
+}
+
+.hatena-modulebody ul.hatena-recentcomment li a:hover{
+	width: auto;
+}
+
+
+/******************asin detail***********************/
+
+div.hatena-asin-detail {
+	margin: 1em 2em;
+	padding: 10px;
+	border: solid 1px #F0C000;
+	_width: 100%;
+}
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info{
+	float: left;
+	margin: 0;
+	word-break: break-all;
+}
+
+p.hatena-asin-detail-title{
+	font-weight: bold;
+	width: 100%;
+	margin: 0;
+}
+
+div.hatena-asin-detail-info ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail-info li {
+	margin: 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+
+
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+form.hatena-searchform{
+	margin: 5px 0;
+}
+
+
+
+div.day div.comment form{
+	margin: 0;
+	padding: 0;
+}
+
+div.day form div.body{
+	margin: 0;
+	padding: 1em 2em;
+}
+
+form h3{
+	margin: 0.5em 0;
+	padding: 0;
+	border-bottom: dotted 1px #999999;
+	font-size: 100%;
+}
+
+
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 5px 5px;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+	border: none;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-color: transparent;
+	border: none;
+}
+
+ul.hatena-photo li a img{
+	filter: none;
+	border: 1px solid #d0d0d0;
+}
+
+ul.hatena-photo li a:hover img{
+	filter: none;
+	border: 1px solid #ff0000;
+}
+
+
+/********************** calender **********************/
+
+div.calendar {
+	font-size:80%;
+	color: #000000;
+	margin: 0 ;
+	padding: 0;
+	text-align: right;
+}
+
+div.calendar a{
+	border: none;
+	color: #000000;
+}
+
+
+
+
+/********************** header **********************/
+
+table
+{ 
+	margin: 0 auto; 
+	padding: 0; 
+}
+
+td 
+{
+ 	background-color : transparent;
+}
+
+table table td{
+ 	background-color : transparent;
+}
+
+table table{
+	margin: 0;
+	padding:0;
+	border: none;
+	width: 100%;
+	border: 0;
+	background-image: none;
+	background-color : transparent;
+}
+
+table table td font, 
+table table td a{
+	border:none;
+	color: #000000;
+}
+
+td a{
+	border: 0;
+}
+
+table input{
+	border: solid 1px #630031;
+	color: #000000;
+}
+
+
+
+div.body table{
+	width: auto;
+	border: 0;
+}
+
+/********************** calendar2 **********************/
+
+div.calendar2{
+	padding: 0;
+}
+
+table.calendar{
+	font-size: 100%;
+	letter-spacing: 0px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFF7D6;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+}
+
+td.calendar-current-month{
+	font-weight: bold;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align:center;
+}
+
+td.calendar-day {
+
+}
+
+td.calendar-day a{
+	border-bottom: 1px solid #000000;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day a img {
+	width: 12px;
+	height: 12px;
+	border: solid 1px #d0d0d0;
+}
+
+td.calendar-day a:hover img{
+	border: solid 1px #ff0000;
+}
+
+/************************ adminmenu ****************************/
+
+div.adminmenu{
+	text-align: right;
+	width: 85%;
+	padding: 1em 0;
+	margin: 0 auto;
+	font-size: 80%;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+div.adminmenu a{
+	border: none;
+	color: #000000;
+}
+
+div.hatena-body div.adminmenu{
+	text-align: right;
+	margin: 0;
+	padding: 0.5em 1em;
+	width: auto;
+	border: 0;
+}
+
+/*********************/
+
+span.highlight {
+	background-color: yellow;
+	padding: 1px;
+}
+
+.footer{
+	border: solid 1px #630031;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer,
+.footer a{
+	color: #630031;
+	border: none;
+}
+
+div.body {
+	clear: both;
+}
+

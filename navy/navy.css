@@ -1,0 +1,761 @@
+@charset "euc-jp";
+
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html *{
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body { 
+	/*font-size: 90%;*/
+	/* MacIE5 \*/ 
+	letter-spacing: 1px;
+	/*  */
+	/*font-family: Verdana, Osaka, sans-serif;*/
+	line-height: 1.5; 
+	color: #000000; 
+	background-color: #ffffff; 
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+
+	word-break: break-all ;
+	word-wrap: break-word ;
+/*}
+
+.hatena-body{ */
+	position: relative ;
+	width: 85% ;
+	max-width:	auto ;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+div.title{
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.main{
+	padding: 0px;
+	margin: 0 0 0 26%;
+}
+
+
+
+h1 {	
+	width: 80%;
+	margin: 40px auto;
+	padding: 0;
+	font-size: 200%;
+	text-align: left;
+	line-height: 1.2;
+	/*font-family: "Trebuchet MS",osaka,sans-serif;*/
+	letter-spacing: 0.2em;
+	color: #2f3a51;
+}
+
+div.day {
+	background-image: url(kado1.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 0 0 15px 0px;
+	padding: 0;
+	width: 100% ;
+	text-align:left;
+	background-color: #2f3a51;
+
+}
+
+
+h2 {
+	background-image: url(kado2.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	font-size: 100%;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	letter-spacing: 0px;
+	margin: 0;
+	padding: 4px 7px;
+	text-align:center;
+}
+
+span.date{
+	letter-spacing: 0px;
+}
+
+span.title{
+	margin-left: 5px;
+}
+
+h2 a{
+	text-decoration: none;
+	border: none;
+	color: #ffffff;
+
+}
+div.body {
+	padding: 1.5em 0 0.5em 0;
+	margin: 0;
+	border-left: solid 2px #2f3a51;
+	border-bottom: solid 2px #2f3a51;
+	border-right: solid 2px #2f3a51;
+	background-color: #ffffff;
+	width: 100% ;
+}
+
+div.section{
+	margin: 0 1.5em 1em 1.5em ;
+	border-bottom: solid 1px #ffffff;
+}
+
+div.section P {	
+	margin: 1em;
+	text-align:left;
+
+}
+
+h3 {	
+	color: #000000;
+	font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding: 0;
+	text-align:left;
+
+}
+
+h3 a{
+    border: none;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #2f3a51;
+	margin: 0;
+
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+
+/***************  decoration  ********************/
+
+
+a{
+	text-decoration: none;
+	color: #000000;
+	border-bottom:solid 1px #000000;
+}
+
+a.keyword,
+a.okeyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #d0d0d0;
+}
+
+a img{
+	border: none;
+}
+
+a:link{}
+
+a:visited{} 
+
+a:hover   { 
+	color: #ff0000;
+}
+  
+a:active  {  } 
+
+
+h4 {	
+	color: #000000;
+	font-size:100%;
+   	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+h5{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+blockquote{
+	border: solid 2px #2f3a51;
+	margin: 1em;
+	padding: 7px;
+}
+
+.section blockquote p{
+	margin: 7px;
+	padding: 0;
+}
+
+cite{
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+cite a{
+	border: none;
+}
+
+pre	{
+	border: solid 2px #2f3a51;
+	margin: 1em;
+	padding: 10px;
+	
+}
+
+font{
+	line-height: 1.2em;
+}
+
+em,
+em a{
+	font-weight: bold;
+	font-style: normal;
+	border: none;
+	background-color: #ffffff;
+}
+
+ins,
+ins a{
+	text-decoration: none;
+	border: none;
+	color: #666666;
+}
+
+span.highlight {
+	color: black;
+	background-color: yellow;
+	padding: 1px;
+}
+
+
+/************************* list **********************/
+
+.section ul{
+
+}
+
+.section ul li {
+
+}
+
+.section ul ul{
+
+}
+
+.section ol {
+
+}
+
+.section dl{
+	margin: 1em;
+}
+
+.section dt{
+	font-weight: bold;
+}
+
+/********************** img ***************************/
+
+img.photo{
+	float: right;
+	margin: 0 2em 10px 10px;
+	border: 0;
+}
+
+img.asin{
+	float: right;
+	margin: 0 0 10px 10px;
+	border: 0;
+}
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+div.footnote{
+	margin: 1em 2em;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+/********************** comment ***********************/
+
+div.comment,
+div.refererlist{
+	background-color: #ffffff; 
+	width: 100% ;
+	padding: 1em;
+	margin: 0;
+}
+
+div.refererlist{
+	padding: 0 1em 1em 1em;
+}
+
+div.refererlist ul,
+div.comment ul{
+	margin: 0 2em;
+	padding: 0;
+	list-style-type: square;
+	font-size: 80%;
+	letter-spacing: 0px;
+}
+
+form div.refererlist ul,
+form div.comment ul{
+	font-size: 100%;
+	letter-spacing: 1px;
+}
+
+
+div.caption{
+	font-size: 80%;
+	padding: 0;
+	margin: 0;
+}
+
+
+div.caption a{
+	border: none;
+}
+
+div.refererlist div.caption{
+	font-size: 80%;
+	border-bottom: dotted 1px #d0d0d0;
+	padding: 0;
+	margin: 0 0 0.5em 0;
+}
+
+
+form div.refererlist div.caption{
+	font-size: 100%;
+	padding: 0 0.5em;
+	margin: 0.5em 0;
+	border-bottom: dotted 1px #d0d0d0;
+}
+
+div.caption a{
+        border: none;
+}
+
+div.commentshort{
+	margin: 0 0.5em;
+
+}
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+span.commentator{
+	font-weight: bold;
+	display:block;
+	margin: 0 0 0 -1em;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 5px 0 0 1em;
+	font-size: 90%;
+	letter-spacing: 0px; 
+}
+
+/********************** sidebar ***********************/
+
+.sidebar{
+	position: absolute;
+	top: 10px; 
+	left: 0px;
+	width: 24%;
+	padding: 0;
+	margin: 0 ;
+	text-align: left;
+}
+
+
+
+.recentitem{
+	display:none;
+}
+
+.hatena-module{
+	margin:0 0 15px 0;
+	background-color: #2f3a51;
+	background-image: url(kado1.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+
+}
+
+.hatena-moduletitle{
+	background-image: url(kado2.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	letter-spacing: 0px;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: 0px;
+	padding: 4px 7px;
+	margin: 0px;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.hatena-moduletitle a{
+	border: none;
+	color: #ffffff;
+}
+
+.hatena-modulebody{
+	padding: 1em;
+	margin: 0;
+	background-color: #ffffff;
+	border-left: solid 2px #2f3a51;
+	border-bottom: solid 2px #2f3a51;
+	border-right: solid 2px #2f3a51;
+	font-size: 80%;
+	width: auto;
+	_width: 100%;
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+
+
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.hatena-modulebody li {
+
+}
+
+.hatena-modulebody li a{
+	display: block;
+	padding: 3px 5px;
+	margin: 0;
+	line-height: 1.2;
+	_width: 100%;
+}
+
+.hatena-modulebody li a:hover {
+	color: #ff0000;
+	border: 0;
+	_width: 100%;
+}
+
+/*************** trackback/comment module ****************/
+
+.hatena-modulebody ul.hatena-recentcomment li a{
+	display: inline;
+	width: auto;
+	padding: 0;
+}
+
+.hatena-modulebody ul.hatena-recentcomment li a:hover{
+	width: auto;
+}
+
+
+/******************asin detail***********************/
+
+div.hatena-asin-detail {
+	margin: 1em;
+	padding: 5px;
+	border: solid 2px #2f3a51;
+	_width: 100%;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info{
+	float: left;
+	margin: 0;
+	word-break: break-all;
+}
+
+div.section p.hatena-asin-detail-title{
+	font-weight: bold;
+	width: 100%;
+	margin: 0;
+}
+
+div.hatena-asin-detail-info ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail-info li {
+	margin: 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+form.hatena-searchform{
+	margin: 5px 0;
+}
+
+div.day form{
+	margin: 0;
+	padding: 0;
+}
+
+div.day form div.body{
+	margin: 0;
+	padding: 0 15px;
+}
+
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 5px 0;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-color : transparent;
+	background-image: none;
+}
+
+ul.hatena-photo li a img{
+	filter: none;
+	border: 1px solid #999999;
+}
+
+ul.hatena-photo li a:hover img{
+	filter: none;
+	border: 1px solid #ff0000;
+}
+
+
+/********************** calender **********************/
+
+div.calendar {
+	font-size:80%;
+	margin: 0 ;
+	padding: 0;
+	text-align: right;
+}
+
+div.calendar a{
+	border: none;
+}
+
+
+/********************** calendar2 **********************/
+
+table.calendar{
+	font-size: 90%;
+	letter-spacing: 0px;
+	margin: 0;
+	width: 100%;
+	padding:0;
+	background-color: #ffffff;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+td.calendar-current-month{
+	font-weight: bold;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align:center;
+}
+
+
+td.calendar-day a{
+	border-bottom: 1px solid #000000;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day a img {
+	width: 12px;
+	height: 12px;
+	border: solid 1px #f0f0f0;
+}
+
+td.calendar-day a:hover img{
+	border: solid 1px #ff0000;
+}
+
+/************************* header **************************/
+
+table {
+	margin: 0;
+	padding: 0;
+}
+
+td 
+{
+	background-color : transparent;
+}
+
+table table td{
+	background-color: transparent;
+}
+
+table table{
+	margin: 0;
+	padding:0;
+	border: none;
+	background-color: transparent;
+}
+
+table table td font, table table td a{
+	border:none;
+	color: #000000;
+}
+
+table a{
+	border: none;
+}
+
+
+table input{
+	border: solid 1px #999999;
+	background-color : transparent;
+}
+
+/************************ other ****************************/
+
+div.adminmenu{
+	text-align: right;
+	width: 85%;
+	padding: 1em 0;
+	margin: 0 auto;
+	font-size: 80%;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+div.adminmenu a{
+	border: none;
+	color: #000000;
+}
+
+div.hatena-body div.adminmenu{
+	text-align: right;
+	margin: 0;
+	padding: 0.5em 0;
+	width: auto;
+	border: 0;
+}
+
+
+div.refererlist{
+	background-color: #ffffff;
+}
+

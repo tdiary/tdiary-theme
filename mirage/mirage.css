@@ -1,0 +1,767 @@
+@charset "euc-jp";
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html *{
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body{ 
+	/*font-size: 80%;*/
+	/* MacIE5 \*/ 
+	letter-spacing: 1px;
+	/*  */
+	/*font-family: Verdana, Osaka, sans-serif;*/
+	line-height: 1.5; 
+	color: #333333; 
+	background-color: #f9f9f9; 
+	text-align: center;
+	margin: 0; 
+	padding: 0;
+
+	word-break: break-all ;
+	word-wrap: break-word ;
+/*
+}
+
+.hatena-body{ */
+	position: relative;
+	width: 85%;
+	max-width: auto ;
+	margin: 0 auto;
+	padding: 0;
+
+	border-left: solid 1px #e0e0e0;
+	border-right: solid 1px #e0e0e0;
+	background-color: #ffffff; 
+	text-align: left;
+
+}
+
+.main{
+	padding: 0px;
+	margin: 0 0 0 28%;
+}
+
+
+h1 {	
+	width: 85%;
+	text-align: left;
+	line-height: 1.2;
+	letter-spacing: 0.2em;
+	font-size: 250%;
+
+	/*font-family: "Trebuchet MS",osaka,sans-serif;*/
+	margin: 0 auto;
+	padding: 60px 35px;
+	color: #606060;
+	border-left: solid 1px #e0e0e0;
+	border-right: solid 1px #e0e0e0;
+	background-color: #ffffff; 
+}
+
+
+div.day {
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	_width: 100% ;
+	z-index: 0;
+	text-align:left;
+
+}
+
+h2,
+h2 a{
+	text-decoration: none;
+	border: none;
+
+}
+h2 a{
+	
+}
+
+h2 {
+	
+	/*font-family: verdana,osaka,sans-serif;*/
+	font-size: 200%;
+	color: #333333;
+	font-weight: bold;
+	text-decoration:none;
+	margin: 0 0 10px 0;
+    	padding: 0;
+    	line-height: 1.2;
+    	text-align: left;
+	z-index: 0;
+    
+}
+
+div.day form h2 span{
+	position: static;
+}
+
+h2 a{
+	display: block;	
+	text-align: right;
+}
+
+span.date{
+	letter-spacing: 0px;
+	position: absolute;
+	font-weight: bold;
+	top: 0px;
+	left: 10px;
+	color: #e5e5e5;
+	z-index: -1 ;
+	text-align: left;
+	font-size: 150%;
+}
+
+span.title{
+	font-size: 150%;
+	color: #e5e5e5;
+	display: block;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+	top: 1.2em;
+	left: 10px;
+	z-index: -1 ;
+	text-align: left;
+}
+
+div.body {
+	padding: 20px 0 0 0;
+	margin:  0;
+	z-index: 2;
+	width: 100%;
+	position: relative ;
+}
+
+div.section{
+	margin: 0em 1em 2em 1em;
+	z-index: 0;
+}
+
+div.section P {	
+	margin: 1em;
+	text-align:left;
+
+}
+
+h3 {	
+	color: #333333;
+	font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding: 0;
+	text-align:left;
+}
+
+h3 a{
+    border: none;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	margin:0;
+	color: #e0e0e0;
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+
+/******************* decoration *********************/
+
+
+a{
+	text-decoration: none;
+	color: #333333;
+	border-bottom:solid 1px #333333;
+}
+
+a.keyword,
+a.okeyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #e0e0e0;
+}
+
+a img{
+	border: none;
+}
+
+A:LINK    { }
+
+A:VISITED { } 
+
+A:HOVER   { 
+	color: #ff6600;
+}
+  
+A:ACTIVE  {  } 
+
+h4 {	
+	color: #333333;
+	font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding-left:1em;
+	text-align:left;
+	word-break:break-all;
+}
+
+blockquote{
+	border: solid 1px #e0e0e0;
+	margin: 1em;
+	padding: 1em;
+}
+
+.section blockquote p{
+	margin: 0.5em;
+	padding: 0;
+}
+
+cite{
+	font-weight: bold;
+	font-style: normal;
+}
+
+pre	{
+	border: dotted 1px #e0e0e0;
+	margin: 1em;
+	padding: 1em;
+	
+}
+
+font{
+	line-height: 1.2;
+}
+
+em,
+em a{
+	font-weight: normal;
+	font-style: normal;
+	border: none;
+	background-color: #ffff00;
+}
+
+ins,
+ins a{
+	text-decoration: none;
+	border: none;
+	color: #666666;
+}
+
+/************************* list **********************/
+
+.section ul{
+
+}
+
+.section ul li {
+
+}
+
+.section ul ul{
+
+}
+
+.section ol {
+
+}
+
+.section dl{
+	margin: 1em;
+}
+
+.section dt{
+	font-weight: bold;
+}
+
+/********************** img ***************************/
+
+img.photo{
+	float: right;
+	position: relative;
+	margin: 0 2em 10px 10px;
+}
+
+img.asin{
+	float: right;
+	position: relative;
+	margin: 0 0 10px 10px;
+}
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+div.footnote{
+	margin: 1em 2em;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+/********************** comment ***********************/
+
+div.comment,
+div.refererlist{
+
+	width: 95% ;
+	padding: 5px;
+	border: solid 1px #ebebeb;
+	margin: 0 0 1em 25px;
+}
+
+div.commentbody {
+	margin: 0 0 0 1em;
+}
+
+div.caption{
+	font-size: 80%;
+	margin: 0;
+}
+
+div.refererlist ul{
+	margin: 0 2em;
+	font-size: 80%;
+	list-style: disc;
+}
+
+div.refererlist li{
+	letter-spacing: 0;
+}
+
+div.caption a{
+        border: none;
+}
+
+div.commentshort{
+	margin: 0;
+
+}
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+
+span.commentator{
+	font-weight: bold;
+	display:block;
+	margin: 0 0 0 -1em;
+	padding: 3px 0 0 0;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 1em;
+	font-size: 90%;
+	letter-spacing: 0px; 
+}
+
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+/******************asin detail***********************/
+
+div.hatena-asin-detail {
+	margin: 1em 1em;
+	padding: 10px;
+	border: solid 1px #e0e0e0;
+	_width: 100%;
+}
+
+div.hatena-asin-detail p {
+	margin: 0 ;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info {
+	margin: 0;
+	word-break: break-all;
+}
+
+p.hatena-asin-detail-title {
+	font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+
+}
+
+/********************** sidebar ***********************/
+
+.sidebar {
+	position: absolute;
+	top: 19px; 
+	left: 1%;
+	width: 26%;
+	padding: 0;
+	margin: 0 ;
+	font-size: 90%;
+	text-align: left;
+	border-right: solid 1px #e9e9e9;
+	background-color: #ffffff;
+}
+
+
+.hatena-module{
+	margin: 0 0 10px 0;
+	padding:  0;
+	position: relative ;
+	z-index: 0;
+	width: 100% ;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+	border: none;
+	color: #e5e5e5;
+
+}
+
+.hatena-moduletitle{
+	position: absolute ;
+	top: 0px;
+	z-index: -1;
+	/*font-family: verdana,osaka,sans-serif;*/
+	font-size: 200%;
+	font-weight: bold;
+	padding: 0px 5px;
+	margin: 0px;
+	color: #e5e5e5;
+	text-align: left;
+	letter-spacing: 0px;
+	line-height: 1.2;
+
+}
+
+.hatena-modulebody{
+	padding: 15px 5px;
+	margin: 0;
+	font-size: 90%;
+	width:100%;
+	position: relative ;
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+.hatena-modulebody li {
+
+}
+
+.hatena-modulebody li a{
+	display: block;
+	padding: 3px 5px;
+	line-height: 1.2;
+	margin: 0;
+	_width: 100%;
+}
+
+.hatena-modulebody li a:hover {
+	color: #ff6600;
+	_width: 100%;
+}
+
+
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+form.hatena-searchform{
+	margin: 5px 10px;
+	width: auto;
+}
+
+form.hatena-searchform input{
+	background-color: transparent;
+	border: 1px solid e0e0e0;
+}
+
+form div.day,
+div.day form{
+	_width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0 2em;
+}
+
+form span.title{
+	position: static;
+	color: #333333;
+	font-size: 100%;
+}
+
+form h3{
+	border-bottom: solid 1px #606060;
+}
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 5px 10px;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-image: none;
+}
+
+ul.hatena-photo li a img{
+	filter: none;
+	border: 1px solid #999999;
+}
+
+ul.hatena-photo li a:hover img{
+	filter: none;
+	border: 1px solid #ff6600;
+}
+
+/********************** calender **********************/
+
+div.calendar {
+	font-size:80%;
+	color: #333333;
+	margin: 0 ;
+	padding: 0;
+	text-align: right;
+}
+
+div.calendar a{
+	border: none;
+	color: #333333;
+}
+
+/********************** header **********************/
+
+table        { 
+	background-color : #ffffff;
+	margin: 0 auto; 
+	padding: 0; 
+	width: 85%;
+	border-left: solid 1px #e0e0e0;
+	border-right: solid 1px #e0e0e0;
+}
+
+td 
+{
+ 	background-color : transparent;
+}
+
+table table td{
+ 	background-color : transparent;
+}
+
+table table{
+	margin: 0;
+	padding:0;
+	border: none;
+	width: 100%;
+	border: 0;
+	background-image: none;
+	background-color : transparent;
+}
+
+td a{
+	border: none;
+}
+
+table table td font, 
+table table td a{
+	border:none;
+	color: #333333;
+}
+
+table input{
+	border: solid 1px #e0e0e0;
+	background-color : #ffffff;
+	color: #333333;
+}
+
+/********************** calendar2 **********************/
+
+table.calendar{
+	font-size: 100%;
+	letter-spacing: 0px;
+	width: auto;
+	_width: 100%;
+	margin: 0%;
+	padding:0;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	text-align: center;
+	
+}
+
+td.calendar-current-month{
+	font-weight: bold;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align:center;
+}
+
+td.calendar-day {
+
+}
+td.calendar-day a{
+	border-bottom: 1px solid #333333;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day img {
+	width: 12px;
+	height: 12px;
+	border: 0;
+}
+
+
+/************************ adminmenu ****************************/
+
+div.adminmenu{
+	text-align: right;
+	width: 85%;
+	padding: 1em 0;
+	margin: 0 auto;
+	font-size: 80%;
+	color: #333333;
+	border-left: solid 1px #e0e0e0;
+	border-right: solid 1px #e0e0e0;
+	background-color: #ffffff;
+}
+
+div.adminmenu a{
+	border: none;
+	color: #333333;
+}
+
+div.hatena-body div.adminmenu{
+	text-align: right;
+	margin: 0;
+	padding: 0.5em 0;
+	width: 100%;
+	font-size:80%;
+	border: 0;
+}
+
+/*************** other *****************/
+
+.footer,
+.footer a{
+	color: 999999;
+	border: 0;
+}
+
+.footer{
+	text-align: center;
+	padding: 5px;
+	border-top: solid 1px #e0e0e0;
+	border-bottom: solid 1px #e0e0e0;
+}
+
+span.highlight {
+	background-color: yellow;
+	padding: 1px;
+}
+
+div.body {
+	clear: both;
+}

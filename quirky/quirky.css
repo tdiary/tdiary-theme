@@ -1,0 +1,351 @@
+@charset "euc-jp";
+
+/*
+Title: quirky
+Author: 186
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://186.bz/
+License: GPL
+Comment: ¤Á¤ç¤Ã¤È´ñÌ¯¤Ê¥¹¥¿¥¤¥ë¡£¼Â¤Ïhatena-asin-detail¤¬åºÎï¤Ç¤¹¡£
+*/
+
+/* ==================== block ==================== */
+body {
+ line-height: 1.4;
+ margin: 20px;
+ padding: 0px;
+ background-color: white;
+ color: black;
+ /*font-family: 'Georgia', '£Í£Ó £ÐÌÀÄ«', '¥Ò¥é¥®¥ÎÌÀÄ«', serif;*/
+ /*_font-family : '£Í£Ó £ÐÌÀÄ«';*/
+ word-break: break-all; /* IE only */
+ word-wrap: break-word; /* IE only */
+ /* background: url('back.png'); */
+}
+
+body * {
+ font-size: 100%;
+ margin: 0px;
+ padding: 0px;
+ text-decoration: none;
+}
+
+h1 {
+ text-align: left;
+ font-size: 300%;
+ margin: 1% 1%;
+}
+
+h2 {
+ font-size: 160%;
+}
+h3 {
+ font-size: 130%;
+}
+h4 {
+ font-size: 120%;
+ margin-top: 5px;
+}
+h5 {
+ font-size: 115%;
+ margin-top: 5px;
+}
+h6 {
+ font-size: 110%;
+ margin-top: 5px;
+}
+
+p {
+ text-indent: 1em;
+ margin-top: 0.4em;
+ margin-bottom: 0.5em;
+}
+
+blockquote {
+ margin: 1em;
+ padding: 10px 10px 5px 10px;
+ border-left: 5px dotted silver;
+ border-bottom: 1px solid white; /* for WinIE5.5+ bug */
+}
+
+q {
+ border-bottom: 1px dashed silver;
+}
+
+blockquote cite {
+ display: block;
+ text-align: right;
+ padding: 5px 5px 0px 5px;
+ border-top: 1px dashed silver;
+}
+
+blockquote cite:after {
+ content: "¤è¤ê";
+}
+
+pre {
+ margin: 1em;
+ padding: 10px;
+ /*font-family: monospace;*/
+ background-color: silver;
+ white-space: -moz-pre-wrap; /* Mozilla */
+ white-space: -pre-wrap;     /* Opera 4-6 */
+ white-space: -o-pre-wrap;   /* Opera 7 */
+ white-space: pre-wrap;      /* CSS3 */
+ word-wrap: break-word;      /* IE 5.5+ */
+}
+
+dl,ol,ul {
+ margin-left: 2em;
+}
+
+dt {
+ margin-left: 0em;
+}
+
+dd {
+ margin-left: 2em;
+}
+
+img {
+ border: 0px;
+}
+
+img.photo {
+ float:right;
+ margin: 10px;
+}
+
+.aa { /* for AsciiArt */
+ /*font-family: '£Í£Ó £Ð¥´¥·¥Ã¥¯';*/
+}
+
+ins {text-decoration: underline;}
+ins:after {content: "(inserted at " attr(datetime) ")";}
+del {text-decoration: line-through;}
+del:after {content: "(deleted at " attr(datetime) ")";}
+
+/* ==================== a ==================== */
+a {color:#fa0000;}
+a:link {color:#fa0000;}
+a:visited {color:#af0000;}
+a:hover {color:#af0000; text-decoration: underline;}
+a:active {color:#af0000;}
+
+a.keyword , a.okeyword {
+ color: black;
+ border-bottom: 1px dashed silver;
+}
+
+/* ==================== table ==================== */
+td font {font-size: 80%;}
+td font font {font-size: 100%;}
+
+/* ==================== day ==================== */
+.day {
+ margin-bottom: 3em;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ margin: 0px 15px 3em 15px;
+ padding: 0px 0px 10px 0px;
+}
+
+.day h2 {
+ border-bottom:1px solid black;
+ margin: 0px -15px 0px -15px;
+ padding: 0px 20px 0px 20px;
+}
+
+.date , .timestamp {
+ /*font-family: 'Georgia', '£Í£Ó £ÐÌÀÄ«', '¥Ò¥é¥®¥ÎÌÀÄ«', serif;*/
+ /* for WinIE */
+}
+
+.timestamp {
+ margin-left: 1em;
+ font-size:90%;
+}
+
+.body {
+ margin: 10px -20px 5px -20px;
+ padding: 0px 25px 0px 25px;
+ border-bottom: 1px solid black;
+}
+
+.section {
+ /*font-size: 95%;*/
+ margin: 0px 10px 1em 10px;
+}
+
+span.footnote {
+ font-size:80%;
+ vertical-align: top;
+}
+
+div.footnote {
+ margin: 5px -20px 0px -20px;
+ padding: 5px 25px 0px 45px;
+ border-top: 1px solid black;
+ font-size: 80%;
+ clear: both;
+}
+
+p.footnote {
+ text-indent: -1.6em;
+}
+
+.comment {
+ margin: 5px -20px 5px -20px;
+ padding: 5px 25px 5px 25px;
+ border-bottom: 1px solid black;
+ clear: both;
+}
+
+form .comment {
+ border-bottom: 0px;
+}
+
+.commentshort p {
+ text-indent: 0em;
+ font-size: 95%;
+}
+
+.refererlist {
+ font-size: 90%;
+ margin: 0px -20px 10px -20px;
+ padding: 5px 25px 5px 25px;
+ border-bottom: 1px solid black;
+}
+.refererlist ul li {
+ list-style-type: none;
+}
+
+a#tb {
+ color: black;
+}
+
+div.calender {
+ font-size: 90%;
+}
+
+div.day img.photo,
+div.day img.hatena-fotolife {
+ float: right;
+}
+
+div.section {
+ clear: both;
+ _clear: none;
+}
+div.body div.section:first-child {
+ clear: none;
+}
+img.photo+div.section{
+ clear: none;
+}
+div.footnote,
+div.comment,
+div.refererlist,
+div.day {
+ clear: both;
+}
+
+/* ==================== main and sidebar ==================== */
+/*.hatena-body {
+ margin: 0px; padding: 0px;
+ position: relative;
+ top: 0px; left: 0px;
+ width: auto;
+}
+
+* html .hatena-body {
+ width: 100%;
+ padding: 0px 1%;
+}*/
+
+/*.hatena-body*/ .main {
+ width: 80%;
+ margin: 0px 0px 0px 0px;
+}
+
+/*.hatena-body*/ .sidebar {
+ width: 18%;
+ position: absolute;
+ top: 0px; left: 82%;
+}
+
+/* ==================== edit ==================== */
+form p.footnote {text-indent: 0em;}
+
+/* ==================== module ==================== */
+/* -------------------- calendar -------------------- */
+table.calendar {
+ color: black;
+ background: transparent;
+ margin-bottom: 20px;
+}
+table.calendar td {text-align: center;}
+td.calendar-sunday {color: red;}
+td.calendar-saturday {color: blue;}
+table.calendar td a img {
+ width: 13px;
+ height: 13px;
+}
+
+/* -------------------- module misc -------------------- */
+.sidebar ul {
+ padding: 0em;
+ margin: 0em;
+ padding-left: 10px;
+}
+
+.sidebar ul li {
+ list-style-type: none;
+}
+
+.hatena-module {
+ margin-bottom: 20px;
+}
+.hatena-moduletitle {}
+ .hatena-moduletitle a {
+  color: black;
+}
+.hatena-modulebody {
+ font-size: 90%;
+}
+
+.hatena-profile-image img {
+ max-width: 100%;
+ _width: 90%;
+}
+
+/* -------------------- asin-detail -------------------- */
+div.hatena-asin-detail {
+ border:1px solid black;
+ width: 100%;
+}
+
+img.hatena-asin-detail-image {
+ float: left;
+ margin: 5px;
+}
+
+div.hatena-asin-detail-info {
+ float: left;
+ margin-right: 5px;
+ margin-left:5px;
+}
+
+p.hatena-asin-detail-title {
+ text-indent: 0em;
+}
+
+div.hatena-asin-detail-info ul {
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+}
+
+div.hatena-asin-detail-foot {
+ clear: both;
+}

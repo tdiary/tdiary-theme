@@ -1,0 +1,430 @@
+@charset "euc-jp";
+
+/*------------------------------------------------------------------------------*/
+/*----*
+  約束
+ *----*/
+
+body {
+	margin			:	0% 0% 10px 0% ;
+	padding			:	0% ;
+	/*font-family		:	"Verdana Bold", "Verdana", "Osaka", "MS UI Gothic", sans-serif ;*/
+	word-break		:	break-all ;
+	word-wrap		:	break-word ;
+}
+
+pre {
+	white-space		:	-moz-pre-wrap ;
+	white-space		:	-pre-wrap ;
+	white-space		:	-o-pre-wrap ;
+	white-space		:	pre-wrap ;
+}
+
+/*------------------------------------------------------------------------------*/
+/*----*
+  基本
+ *----*/
+
+body {
+	/*font-size		:	84% ;*/
+	background-color	:	#f9f9f9 ;
+	color			:	#555 ;
+}
+a:link {
+	color			:	#333 ;
+}
+a:visited {
+	color			:	#999 ;
+}
+a:hover {
+	color			:	#f60 ;
+	text-decoration		:	none ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size		:	1em ;
+	font-weight		:	normal ;
+	margin			:	0em ;
+	padding			:	0em ;
+}
+
+p {
+	margin			:	0.5em 1em ;
+}
+
+dl {
+	margin			:	1em ;
+}
+dt {
+	font-weight		:	bold ;
+}
+
+blockquote {
+	border			:	solid 1px #ddd ;
+}
+
+pre {
+	background-color	:	#f9f9f9 ;
+}
+
+del, ins {
+	color			:	#888 ;
+}
+
+form {
+	margin			:	0px ;
+}
+
+/*------------------------------------------------------------------------------*/
+/*--------------------------*
+  テーブルヘッダとその打消し
+ *--------------------------*/
+
+table {}
+
+table td table {}
+
+table td table td {
+	background		:	url("header.gif") 0% 100% repeat-x scroll #fff ;
+	padding-bottom		:	5px ;
+}
+
+table font {
+	color			:	#999 ;
+}
+
+div.day table {
+	margin			:	1em 2em ;
+	font-size		:	1em ;
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------*
+  今回のテーマの肝
+ *----------------*/
+
+h1 {
+	background		:	url("h1.gif") 12px 50% no-repeat scroll #fff ;
+	color			:	#ccc ;
+	border			:	solid 1px #f90 ;
+	border-bottom		:	solid 1px #f90 ;
+}
+
+.day,
+.hatena-module {
+	background		:	#fff ;
+}
+h2,
+div.hatena-moduletitle {
+	margin			:	6px ;
+	padding			:	12px 10px 12px 24px ;
+	letter-spacing		:	0.3em ;
+	background		:	url("h2.gif") 4px 50% no-repeat scroll #fff ;
+	color			:	#999 ;
+	border			:	solid 1px ;
+	border-color		:	#fa3 ;
+}
+
+h2 a:link,
+h2 a:visited,
+.hatena-moduletitle a:link,
+.hatena-moduletitle a:visited {
+	color			:	#999 ;
+	text-decoration		:	none ;
+}
+h2 a:hover,
+.hatena-moduletitle a:hover {
+	color			:	#f90 ;
+}
+
+.body,
+.hatena-modulebody {
+	padding			:	12px 2em 36px 2em ;
+	background		:	transparent ;
+}
+
+/*------------------------------------------------------------------------------*/
+/*--------------------------*
+  おおまかなレイアウトを制御
+ *--------------------------*/
+
+h1 {
+	margin			:	2em 36px ;
+	padding			:	10px 0px 10px 54px ;
+	font-size		:	2em ;
+	letter-spacing		:	0.4em ;
+}
+
+.hatena-body {
+	position		:	relative ;
+	width			:	100% ;
+	top			:	0% ;
+	left			:	0% ;
+}
+.hatena-description {
+	margin			:	0px 36px 12px 36px ;
+	border			:	solid 1px #eee ;
+	background-color	:	#fff ;
+}
+.sidebar .hatena-description {
+	margin-left		:	0px ;
+}
+.day .hatena-description,
+.hatena-module .hatena-description {
+	border			:	none ;
+	background-color	:	transparent ;
+}
+
+.main {
+	margin-right		:	250px ;
+	width			:	auto ;
+	_width			:	100% ;
+}
+div.calendar {
+	margin			:	0px 36px ;
+}
+div.calendar a:link,
+div.calendar a:visited {
+	font-size		:	84% ;
+	text-decoration		:	none ;
+	color			:	#aaa ;
+}
+div.calendar a:hover {
+	color			:	#666 ;
+}
+
+.sidebar {
+	position		:	absolute ;
+	top			:	0px ;
+	right			:	0px ;
+	width			:	250px ;
+}
+
+/*----------------*
+  メニュー・フッタ
+ *----------------*/
+
+div.adminmenu {
+	margin			:	12px 36px ;
+	text-align		:	right ;
+}
+div.adminmenu a:link,
+div.adminmenu a:visited {
+	text-decoration		:	none ;
+	color			:	#999 ;
+	margin-left		:	1em ;
+}
+div.adminmenu a:hover {
+	color			:	#333 ;
+}
+
+div.footer {
+	margin			:	12px 36px ;
+	text-align		:	right ;
+}
+
+/*------------------------------------------------------------------------------*/
+/*----*
+  日記
+ *----*/
+
+div.day {
+	margin			:	12px 36px 12px 36px ;
+	width			:	auto ;
+	_width			:	100% ;
+	border			:	solid 1px ;
+	border-color		:	#eee #eee ;
+}
+h2 {}
+span.title {
+	margin-left		:	1em ;
+}
+
+div.body {
+	line-height		:	1.4 ;
+}
+
+img.photo {
+	float			:	right ;
+}
+
+div.section {
+	margin			:	1em 0em 2em 0em ;
+}
+h3 {
+	margin-bottom		:	2em ;
+	padding-bottom		:	0.2em ;
+	letter-spacing		:	0.1em ;
+	word-spacing		:	-0.1em ;
+	border-bottom		:	double 3px #fc6 ;
+}
+h3 a:link,
+h3 a:visited {
+	text-decoration		:	none ;
+}
+span.sanchor,
+a.sectioncategory {
+	color			:	#f90 ;
+}
+
+div.footnote {
+	margin			:	1em 0em 1em 2em ;
+	border-left		:	double 6px #fd8 ;
+}
+
+/*----------------------------------*
+  コメント・リンク元・トラックバック
+ *----------------------------------*/
+
+div.comment,
+div.refererlist {
+	background		:	transparent ;
+	line-height		:	1.4 ;
+	padding			:	0px 24px ;
+}
+
+div.caption {
+	padding			:	0.2em ;
+	background-color	:	#fff ;
+	border-top		:	dashed 1px #fd8 ;
+}
+
+div.commentshort,
+div.refererlist ul {
+	background		:	transparent ;
+	padding			:	12px 0px 36px 0px ;
+	border-top		:	dashed 1px #fd8 ;
+}
+div.commentshort p {
+	margin			:	0em 2em ;
+}
+span.canchor {
+	display			:	none ;
+}
+
+div.refererlist ul {
+	margin			:	0 ;
+	list-style-type		:	none ;
+	line-height	:	1.2 ;
+}
+div.refererlist ul li {
+	margin		:	1px 0px 0px 1em ;
+	padding		:	1px 0px 1px 12px ;
+	background	:	url("arrow.gif") left top no-repeat scroll transparent ;
+}
+
+/*----------*
+  キーワード
+ *----------*/
+
+a.keyword:link,
+a.okeyword:link {
+	color			:	#444 ;
+	text-decoration		:	none ;
+	border-bottom		:	solid 1px #999 ;
+}
+a.keyword:visited,
+a.okeyword:visited {
+	color			:	#444 ;
+	text-decoration		:	none ;
+	border-bottom		:	dashed 1px #999 ;
+}
+
+/*------------------------------------------------------------------------------*/
+/*--------------*
+  サイドバー周り
+ *--------------*/
+
+div.hatena-module * {
+	margin			:	0px ;
+}
+
+div.hatena-module {
+	margin			:	0px 36px 12px 0px ;
+	font-size		:	12px ;
+	border-style		:	solid ;
+	border-color		:	#eee #eee ;
+	border-width		:	1px ;
+}
+
+div.hatena-moduletitle {
+	margin			:	6px ;
+}
+
+div.hatena-modulebody {
+	padding			:	12px 6px 24px 6px ;
+	line-height		:	1.4 ;
+}
+div.hatena-modulebody ul {
+	margin-left		:	6px ;
+	padding			:	0px ;
+	list-style-type		:	none ;
+}
+div.hatena-module li {
+	margin			:	1px 0px ;
+	padding			:	1px 0px 1px 12px ;
+	background		:	url("arrow.gif") left top no-repeat scroll transparent ;
+	line-height		:	1.4 ;
+}
+
+div.hateba-module img {
+	vertical-align		:	middle ;
+}
+
+/*------------*
+  各モジュール
+ *------------*/
+
+form.hatena-searchform {
+	margin			:	1em 0em ;
+}
+
+input.hatena-searchform {
+	border			:	solid 1px #ccc ;
+	background-color	:	#ececec ;
+	margin-left		:	1px ;
+}
+
+table.calendar {
+	margin			:	1em 0em 0em 0em ;
+	width			:	100% ;
+	_width			:	auto ;
+	font-size		:	12px ;
+	table-layout		:	fixed ;
+	text-align		:	center ;
+}
+
+table.calendar td {
+	border			:	solid 1px #e9e9e9 ;
+	min-height		:	20px ;
+	color			:	#aaa ;
+}
+
+table.calendar a:link img,
+table.calendar a:visited img {
+	width			:	1em ;
+	height			:	1em ;
+	border			:	solid 1px #e9e9e9 ;
+}
+table.calendar a:hover img {
+	border-color		:	#fc6 ;
+}
+
+ul.hatena-photo {
+	text-align		:	center ;
+}
+
+ul.hatena-photo li {
+	display			:	inline ;
+	background-image	:	none ;
+	padding			:	0px ;
+}
+
+ul.hatena-photo li img {
+	border			:	solid 2px #bbb ;
+}
+ul.hatena-photo a:hover img {
+	border-color		:	#fc6 ;
+}
+

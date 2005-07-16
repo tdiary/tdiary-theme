@@ -1,0 +1,10 @@
+Title: smoking_gray
+Author: 186
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://186.bz/
+License: GPL
+Comment:色の交錯を楽しむcss
+	span.aaがなぜかある
+	smoking_gray.css 構造
+	color.css 色と背景
+	quirk.css IE後方互換モード用 標準モードなら削除すること。

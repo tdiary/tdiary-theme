@@ -1,0 +1,64 @@
+@charset "euc-jp";
+
+/*
+Title: smoking_gray
+Author: 186
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://186.bz/
+License: GPL
+Comment:色の交錯を楽しむcss
+	span.aaがなぜかある
+	smoking_gray.css 構造
+	color.css	色と背景
+	quirk.css	IE後方互換モード用 DOCTYPE等によっては削除すること。
+*/
+
+/* ==================== block ==================== */
+h2 {
+	_width: 100%;
+}
+
+h3 {
+	_top:0px; _left:0px;
+
+
+h2 , h3 , .body , .section , .comment {
+	_position:relative;
+}
+
+/* ==================== hatena-body only ==================== */
+
+.day {
+	_position: relative;
+	_width: 100%;
+	_margin: 0px;
+}
+
+.body {
+	_width: 100%;
+}
+
+.section {
+	_top:0px; _left:0px;
+	_width: 100%;
+}
+
+.section h3 {
+	_margin-top: -3px;
+}
+
+/* -------------------- comment ------------------------- */
+.comment {
+	_top:0px; _left:0px;
+	_width: 100%;
+}
+
+/* ==================== hatena-body + main + sidebar ==================== */
+.main {
+	_width: 100%;
+}
+
+/* menu */
+div.adminmenu {
+	_width: 100%;
+}

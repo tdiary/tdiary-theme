@@ -1,0 +1,379 @@
+@charset "euc-jp";
+@import url("color.css");
+@import url("quirk.css");
+
+/*
+Title: smoking_gray
+Author: 186
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://186.bz/
+License: GPL
+Comment:色の交錯を楽しむcss
+	span.aaがなぜかある
+	smoking_gray.css 構造
+	color.css	色と背景
+	quirk.css	IE 後方互換モード用 DOCTYPE等によっては削除すること。
+*/
+
+/* ==================== block ==================== */
+body {
+	line-height: 1.4;
+	margin: 20px;
+	padding: 5px;
+	/*font-family: 'Lucida console','arial',sans-serif;*/
+	word-break: break-all; /* IE only */
+	word-wrap: break-word; /* IE only */
+}
+
+body * {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 3px;
+}
+
+p {
+	text-indent: 1em;
+	margin: 0.5em auto 0.5em auto;
+	line-height: 1.5;
+}
+
+ul,ol,dl {
+	margin: 1em 1em 1em 2.5em;
+}
+
+ul ul,ul ol,ul dl,ol ul,ol ol,ol dl,dl ul,dl ol,dl dl {
+	margin: 0em 0em 0em 2em;
+}
+
+dt {margin-left: 0em;}
+dd {margin-left: 2em;}
+
+img {border:none;}
+
+blockquote {
+	margin: 2em;
+	border-width: 5px 0px 5px 0px;
+	border-style: solid;
+}
+
+blockquote cite {
+	border-top-width: 1px;
+	border-top-style: dashed;
+}
+
+blockquote * cite {
+	display: inline;
+	border:0px;
+}
+
+pre {
+	margin: 2em;
+	padding: 10px;
+	/*font-family:monospace;*/
+}
+
+.section ins {
+	display: block;
+	border-width :2px;
+	border-style: solid;
+	margin: 1em;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.section ins:before {
+ 	display: block;
+	content: "ins at " attr(datetime);
+	text-align: right;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+.section p ins ,
+.section ul ins ,
+.section ol ins ,
+.section dl ins ,
+.section table ins ,
+.section q ins ,
+.section pre ins {
+	display: inline;
+	border: 0px;
+	text-decoration:underline;
+}
+
+.section p ins:before ,
+.section ul ins:before ,
+.section ol ins:before ,
+.section dl ins:before ,
+.section table ins:before ,
+.section q ins:before ,
+.section pre ins:before {
+	display: none;
+}
+
+.section p ins:after ,
+.section ul ins:after ,
+.section ol ins:after ,
+.section dl ins:after ,
+.section table ins:after ,
+.section q ins:after ,
+.section pre ins:after {
+	display: inline;
+	content: "(ins at " attr(datetime) ")";
+}
+
+.section del:after {
+	display: inline;
+	content: "(del at " attr(datetime) ")";
+}
+
+.aa {
+	/*font-family:'ＭＳ Ｐゴシック';*/
+}
+
+h1 {
+	height: 50px;
+	text-align: right;
+	font-size: 44px;
+}
+
+h2 {
+	padding-right:45px;
+}
+
+h3 {
+	margin:0px;
+	padding-right:45px;
+}
+
+/* ==================== hatena-body only ==================== */
+.hatena-body {
+	position: relative;
+	margin: 0px; padding:0px;
+	width:100%;
+}
+
+.day {
+	margin: -1px 0px 0px 0px;
+	padding: 0px;
+}
+
+div.calendar {
+	margin: 0px;
+	padding: 3px;
+}
+
+.body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body img.photo {
+	float: right;
+	margin: 0px;
+}
+
+.body > img.photo {
+	margin: 10px;
+}
+
+
+.section {
+	width: auto;
+	margin: 0px;
+	padding: 0px 45px 0px 5px;
+}
+
+.section h3 {
+	margin: 0px -45px 0px -5px;
+	padding-top: 3px;
+}
+
+.sanchor {}
+.timestamp {}
+
+.section h4 ,
+.section h5 ,
+.section h6 {
+	margin: 0px -5px 0px -5px;
+	border-left-style: solid;
+	border-left-width: 40px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+/* -------------------- footnote -------------------- */
+span.footnote {}
+
+div.footnote {
+	margin: 0px;
+	padding: 0px;
+}
+
+p.footnote {
+	text-indent: 0em;
+	margin: 0px;
+	padding: 5px;
+}
+
+/* -------------------- comment ------------------------- */
+.comment {
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.caption {
+	margin: 0px;
+	padding: 3px 45px 3px 5px;
+}
+
+.commentshort {
+	margin: -6px 0px 0px 0px; padding: 0px;
+}
+
+.commentshort p {
+	text-indent: 0em;
+	margin: 0px;
+	padding: 5px 45px 5px 5px;
+}
+
+.canchor {
+	display: none;
+}
+
+.commentator {
+	display: block;
+	margin: 0px -45px 5px -5px;
+	padding: 0px 45px 0px 5px;
+}
+
+/* ==================== hatena-body + main + sidebar ==================== */
+.main {
+	position: relative;
+	margin: 0px 240px 0px 0px;
+	padding: 0px;
+}
+
+.sidebar {
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 135px; right: 25px;
+	font-size: 90%;
+}
+
+.hatena-body .sidebar {
+	top: 0px;
+	right: 0px;
+}
+
+/* menu */
+/* case 1  in body */
+div.adminmenu {
+	width: auto;
+	margin: 0px; padding: 3px;
+	text-align: right;
+}
+
+/* case 2  in hatena-body */
+/* case 1 と同様 */
+
+/* case 3  in main */
+.main div.adminmenu {
+	margin: 0px; padding: 3px;}
+
+/* case 4  in sidebar */
+.sidebar div.adminmenu {
+	text-align: left;
+	margin: 0px 45px 0px 0px;
+	padding: 5px;}
+
+/* -------------------- sidebar - hatena-module -------------------- */
+div.hatena-module {margin: 0px;}
+h4.hatena-module ,
+div.hatena-moduletitle {
+	margin: 0px;
+	padding: 3px 3px 3px 5px;}
+
+div.hatena-modulebody {
+	text-align: center;
+	margin: 0px 45px 0px 0px;
+	padding: 5px;
+}
+
+.hatena-modulebody ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+.hatena-modulebody form {
+	text-align: left;
+}
+
+.hatena-modulebody ul li {
+	list-style-type: none;
+}
+
+/* calendar */
+table.calendar {margin:auto;}
+table.calendar td {text-align:center;}
+table.calendar a img {width:10px; height:10px;}
+
+
+/* hatena-searchform */
+form.hatena-searchform {}
+
+/* hatena-photo */
+.hatena-photo {}
+
+/* hatena-antenna */
+.hatena-antenna {}
+
+/* hatean-hotkeyword */
+.hatena-hotkeyword {}
+
+/* hatena-url */
+.hatena-url {}
+
+/* hatena-hotasin */
+.hatena-hotasin {}
+
+
+/* ==================== edit ==================== */
+.footer {
+	margin: 0px;
+	padding: 3px;
+}
+
+.refererlist {
+	margin: 0px;
+	padding: 0px;
+}
+
+.refererlist .caption {
+	margin: 0px;
+	padding-right: 45px;
+}
+
+/* ==================== for tDiary ==================== */
+div.search_form {
+	width: auto;
+	margin: 0px; padding: 3px;
+	text-align: right;
+}
+
+div.commentator {
+	margin:0px;
+}
+
+div.commentator span.canchor ,
+div.commentator span.commentator {
+	display:inline;
+}

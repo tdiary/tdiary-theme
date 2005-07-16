@@ -1,0 +1,654 @@
+@charset "euc-jp";
+
+/*
+Title: Pict!!
+Author: 186
+Access: http://d.hatena.ne.jp/smoking186/
+	  http://186.bz/
+License: GPL
+Comment: Pict!!
+	IEは互換モード用です。Gecko,Opera等は標準モード用になっています。
+	IEに標準モードで読み込ませる場合は、挙動を確認しながら * htmlで始まる指定を削って下さい。
+
+	通常.hatena-descriptionにはピクトグラムが表れません。
+	ピクトグラムを表示したい場合は	.hatena-description の先頭に<h2>description</h2>とでも書いて下さい。
+	ピクトグラムが表れます。
+*/
+
+/* ==================== block ==================== */
+body {
+	line-height: 1.4;
+	margin: 20px;
+	padding: 5px;
+	background-color: #ffffff;
+	color: #000000;
+	/*font-family: 'Futura','Trebuchet MS',sans-serif;*/
+	word-break: break-all; /* IE only */
+	word-wrap: break-word; /* IE only */
+}
+
+body * {
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ==================== a ==================== */
+a {color: #ff8800;}
+a: link {color: #ff8800;}
+a: hover {color: #ff8800;}
+a: visited {color: #cc6600;}
+a: active {color: #ff8800;}
+a.keyword {color: #000000; text-decoration: none; border-bottom: 1px dashed #cccccc;}
+
+/* ==================== block ==================== */
+h1 {
+	font-size: 250%;
+	margin: 25px 0px 10px 0px;
+	text-align: right;
+	vertical-align: center;
+	letter-spacing: 0.4ex;
+}
+
+h2 {
+	font-size: 130%;
+	margin: 0px 0px 25px 10px;
+	padding: 0px;
+	text-align: left;
+	float:left;
+}
+
+.date {display:block;}
+
+h3 {
+	font-size: 120%;
+}
+
+h4,h5,h6 {
+	font-size: 100%;
+}
+
+p {
+	text-indent: 1em;
+	margin: 0.5em auto 0.5em auto;
+	line-height: 1.5;
+}
+
+ul,ol,dl {
+	margin: 1em 1em 1em 2em;
+}
+
+ul ul,ul ol,ul dl,ol ul,ol ol,ol dl,dl ul,dl ol,dl dl {
+	margin: auto auto auto 2em;
+}
+
+dt {
+	font-weight:bold;
+}
+
+dd {
+	margin: auto auto auto 2em;
+}
+
+img {
+	border: none;
+}
+
+img.photo {
+	float:right;
+	text-align:right;
+	position:relative;
+	z-index:5;
+	margin: -8ex 10px 10px 10px;
+}
+
+pre {
+	margin: 2em 1em;
+	padding: 10px;
+	background-color: #ffefbc;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+}
+
+pre a ,
+pre a: link,
+pre a: hover,
+pre a: visited,
+pre a: active {
+	color: #000000;
+}
+
+blockquote {
+	margin: 2em 1em;
+	padding: 35px 10px 10px 10px;
+	border: 2px dashed #cccccc;
+	position: relative;
+	top: 0px; left: 0px;
+	z-index: 3;
+}
+
+blockquote cite {
+	display: block;
+	margin: 0px;
+	padding: 16px 5px 0px 40px;
+	position: absolute;
+	top: -13px; left: -18px;
+	z-index: 4;
+	background: transparent url("cite.png") no-repeat 3px 3px;
+}
+
+* html blockquote cite {	/* for IE */
+	left: -44px;
+}
+
+blockquote * cite {
+	display: inline;
+	margin: 0px; padding: 0px;
+	border: 0px;
+	position: static;
+	background: none;
+}
+
+.section ins {
+	display: block;
+	border: 2px solid #cccccc;
+	margin: 1em;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.section ins: before {
+ 	display: block;
+	margin: 0px -5px 0px -5px;
+	padding: 0px 5px 0px 5px;
+	content: "ins at " attr(datetime);
+	text-align: right;
+	border-bottom: 1px dashed #cccccc;
+}
+
+.section * ins {
+	display: inline;
+	border: 0px;
+	text-decoration: underline;
+}
+
+.section * ins: before {
+	display: none;
+}
+
+.section * ins: after {
+	display: inline;
+	content: "(ins at " attr(datetime) ")";
+}
+
+.section del: after {
+	display: inline;
+	content: "(del at " attr(datetime) ")";
+}
+
+/* ==================== table ==================== */
+.hatena-body table {
+	background-color: #000000;
+}
+
+.hatena-body table th,
+.hatena-body table td {
+	background-color: #f0f0f0;
+	color: #000000;
+	padding: 3px;
+}
+
+.hatena-body table thead ,
+.hatena-body table tfoot {
+	background-color: #cccccc;
+	color: #000000;
+}
+
+.hatena-body table tbody {
+	background-color: #f0f0f0;
+	color: #000000;
+}
+
+.hatena-body table th {
+	font-weight: bold;
+}
+
+/* ==================== inline ==================== */
+.aa {
+	/*font-family: 'ＭＳ Ｐゴシック','Mona Font';*/
+	line-height: 1.05;
+}
+
+.highlight {
+	background-color: yellow;
+	padding: 2px;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+	font-style: normal;
+	border-bottom: 3px dashed #ff8800;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	border-bottom: 1px dashed #ff3300;
+}
+
+/* ==================== hatena-head ==================== */
+table td font {
+	font-size: 80%;
+}
+
+table td font font {
+	font-size: 100%;
+}
+
+/* ==================== hatena-body only ==================== */
+.hatena-body {
+	position: relative;
+	width: auto;
+}
+
+* html .hatena-body {
+	width: 100%;
+}
+
+div.calendar {
+	text-align: right;
+	font-size: small;
+	margin: 40px 0px 20px 0px;
+}
+
+* html div.calendar {	/* for IE */
+	margin: 20px 0px 20px 0px;
+}
+
+.day {
+	position: relative;
+	margin: 0px 0px 25px 0px;
+}
+
+.body {
+}
+
+.section ,
+.comment ,
+.refererlist {
+	position: relative;
+	z-index: 1;
+	border: 2px solid #cccccc;
+	margin: 0px 0px 25px 13px;
+	padding: 10px;
+}
+
+.section h3 {
+	position: relative;
+	z-index: 2;
+	top: -20px;
+	left: -25px;
+	padding: 25px 0px 0px 25px;
+	background-color: transparent;
+}
+
+* html .section h3 {	/* for IE */
+	top: -33px;
+}
+
+.section h3 a,
+.section h3 a: link,
+.section h3 a: visited,
+.section h3 a: hover,
+.section h3 a: active {
+	text-decoration: none;
+}
+
+.sanchor {
+	margin: -25px 0px 0px -25px;
+	padding: 35px 35px 0px 0px;
+	background: transparent url("sanchor.png") no-repeat 3px 3px;
+	font-size: 0px !important;
+	color: #ffffff;
+}
+
+div.footnote {
+	margin: 0px 0px 25px 13px;
+	padding: 0px 5px 0px 5px;
+	border: 1px solid #cccccc;
+}
+
+span.footnote {
+	font-size: 70%;
+	vertical-align: top;
+}
+
+p.footenote {text-indent: 0em;}
+
+.comment .caption {
+	position: relative;
+	z-index: 2;
+	top: -25px;
+	left: -25px;
+	background: transparent url("comment.png") no-repeat 3px 3px;
+	padding: 25px 0px 0px 40px;
+}
+
+.comment {
+	margin: 1em 0px 25px 13px;
+}
+
+.comment p {
+	text-indent: 0px;
+}
+
+.canchor {
+	display: none;
+}
+
+.refererlist {
+	margin: 1em 0px 25px 13px;
+}
+
+.refererlist .caption {
+	position: relative;
+	z-index: 2;
+	top: -25px;
+	left: -25px;
+	background: transparent url("referer.png") no-repeat 3px 3px;
+	padding: 25px 0px 0px 38px;
+}
+
+
+/* ==================== hatena-body + main + sidebar ==================== */
+.main {
+	position: relative;
+	top: 0px; left: 0px;
+	margin: 0px 250px 0px 0px;
+	width: auto;
+}
+
+.sidebar {
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 135px; right: 25px;
+	font-size: 90%;
+}
+
+.hatena-body .sidebar {
+	top: 0px;
+	right: 0px;
+}
+
+/* -------------------- .adminmenu -------------------- */
+div.adminmenu {
+	text-align: right;
+	font-size: 80%;
+}
+
+.hatena-body div.adminmenu {
+	position: relative;
+	text-align: left;
+	top: 0px; left: 0px;
+	margin: 0px 250px 0px 10px;
+	width: auto;
+}
+
+.hatena-body .main div.adminmenu {
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	width: auto;
+}
+
+.hatena-body .sidebar div.adminmenu {
+	margin:0px 0px 0px 20px;
+	padding: 5px;
+	font-size: 100%;
+	border: 2px solid #cccccc;
+}
+
+.hatena-body .sidebar span.adminmenu {
+	display: list-item;
+	list-style-type: none;
+}
+
+/* -------------------- sidebar - hatena-module -------------------- */
+div.hatena-module a {
+	text-decoration: none;
+}
+
+div.hatena-module {
+	position: relative;
+	top: 0px; left: 0px;
+	_width: 100%;
+	margin: 20px 0px 25px 20px;
+}
+
+h4.hatena-module ,
+div.hatena-moduletitle {
+	position: absolute;
+	top: 5px; left: 30px;
+	z-index: 3;
+	font-size: 16px;
+}
+
+.hatena-modulebody {
+	position: relative;
+	top: 0px; left: 0px;
+	z-index: 2;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid #cccccc;
+}
+
+.hatena-modulebody ul,
+.hatena-modulebody table,
+.hatena-modulebody form {
+	position: relative;
+	z-index: 3;
+	margin: -15px 0px 0px -15px;
+	padding: 40px 5px 5px 20px;
+	font-size: 14px;
+	text-align: left;
+}
+
+* html .hatena-modulebody ul,
+* html .hatena-modulebody table,
+* html .hatena-modulebody form {	/* for IE */
+	margin: 0px; padding: 40px 5px 0px 20px;
+	position: relative;
+	top: -15px; left: -15px;
+}
+
+.hatena-modulebody table.calendar {
+	background: transparent url("calendar.png") no-repeat 3px 3px;
+}
+
+.hatena-photo {
+	background: transparent url("photo.png") no-repeat 3px 3px;
+}
+
+.hatena-antenna {
+	background: transparent url("antenna.png") no-repeat 3px 3px;
+}
+
+.hatena-section {
+	background: transparent url("section.png") no-repeat 3px 3px;
+}
+
+.hatena-question {
+	background: transparent url("question.png") no-repeat 3px 3px;
+}
+
+.hatena-keyword {
+	background: transparent url("keyword.png") no-repeat 3px 3px;
+}
+
+.hatena-hotkeyword {
+	background: transparent url("k_hot.png") no-repeat 3px 3px;
+}
+
+.hatena-hoturl {
+	background: transparent url("u_hot.png") no-repeat 3px 3px;
+}
+
+.hatena-hotasin {
+	background: transparent url("a_hot.png") no-repeat 3px 3px;
+}
+
+.hatena-hotean {
+	background: transparent url("e_hot.png") no-repeat 3px 3px;
+}
+
+form.hatena-searchform {
+	background: transparent url("search.png") no-repeat 3px 3px;
+}
+
+.hatena-adsense {
+	background: transparent url("adsense.png") no-repeat 3px 3px;
+}
+
+.hatena-ean {
+	background: transparent url("ean.png") no-repeat 3px 3px;
+}
+
+.hatena-asinlog {
+	background: transparent url("a_log.png") no-repeat 3px 3px;
+}
+
+.hatena-urllog {
+	background: transparent url("u_log.png") no-repeat 3px 3px;
+}
+
+.hatena-eanlog {
+	background: transparent url("e_log.png") no-repeat 3px 3px;
+}
+
+.hatena-modulebody table.calendar {
+	padding-left: 60px;
+}
+
+.hatena-modulebody table.calendar tr {
+}
+
+* html .hatena-modulebody table.calendar {
+	top: 0px; left: 0px;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.hatena-modulebody form {
+	text-align: left;
+}
+
+.hatena-modulebody ul li {
+	list-style-type: none;
+}
+
+/* table.calendar */
+table.calendar {
+	border-collapse: separate;
+	border-spacing: 1px 0px;
+}
+
+table.calendar td {
+	text-align: center;
+	font-size: 14px;
+	padding:0px 1px 0px 1px;
+}
+
+td.calendar-sunday {
+	color:#ff0000;
+}
+
+td.calendar-saturday {
+	color:#0000ff;
+}
+
+* html .hatena-modulebody table.calendar td.calendar-prev-month,
+* html .hatena-modulebody table.calendar td.calendar-current-month,
+* html .hatena-modulebody table.calendar td.calendar-next-month {
+	height: 40px;
+	vertical-align: bottom;
+}
+
+table.calendar a img {
+	width: 10px;
+	height: 10px;
+}
+
+/* ul.hatena-photo */
+ul.hatena-photo li {
+	display: inline;
+}
+
+/* ==================== hatena-description ==================== */
+.hatena-description {
+	position: relative;
+	z-index: 1;
+	border: 2px solid #cccccc;
+	margin: 20px 0px 25px 13px;
+	padding: 10px;
+}
+
+.main .hatena-description {
+	top: 20px;
+}
+
+* html .main .hatena-description {
+	top: 0px;
+}
+
+.hatena-description * {
+	position: relative;
+	z-index: 3;
+}
+
+.hatena-description h2 {
+	font-size: 0px !important;
+	color: #ffffff;
+	position: absolute;
+	z-index: 2;
+	top: -15px;
+	left: -15px;
+	background: transparent url("description.png") no-repeat 3px 3px;
+	padding: 35px 0px 0px 38px;
+}
+
+* html .main .hatena-description {
+	top: 0px;
+}
+
+* html .hatena-description h2 {
+	left: -25px;
+}
+
+/* ==================== tDiary ==================== */
+div.search_form {text-align: right;}
+
+div.footer {text-align: center;}
+
+p.recentitem {
+	margin: 0px;
+	padding: 3px;
+	text-indent: 0em;
+	border-top: 2px solid #cccccc;
+	border-right: 2px solid #cccccc;
+	border-left: 2px solid #cccccc;
+}
+
+div.recentsubtitles {
+	margin: 0px;
+	padding: 0px 3px 3px 3px;
+	text-indent: 0em;
+	border-right:  2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	border-left:  2px solid #cccccc;
+}

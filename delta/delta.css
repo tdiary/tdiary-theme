@@ -1,855 +1,1718 @@
 @charset 'euc-jp';
 
-* {
-	box-sizing			:	border-box ;
-	-moz-box-sizing			:	border-box ;
-	word-break			:	break-all ;
-	word-wrap			:	break-word ;
+/*========================================================================================
+@themeinfo {
+	#author {
+		テーマ名: Delta;
+		作成者: id: kamioka(http: //d.hatena.ne.jp/kamioka/);
+		最終更新日時:  2005-07-13(WED);
+	}
+	#note {
+		注意事項: "ほぼ、はてなダイアリー専用となっています。";
+		推奨ヘッダ色（はてなダイアリー）: "白";
+	}
 }
+==========================================================================================*/
 
-html {}
+* {
+	margin: 0px;
+	padding: 0px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
 
 body {
-	margin				:	0px ;
-	padding				:	0px 5% ;
-	font-size			:	100% ;
-	background-color		:	#eee ;
-	color				:	#567 ;
-	width				:	auto ;
+	margin: 0em 2% 1em 2%;
+	padding: 0px;
+	font: 100%/1.6 "Helvetica", "Arial", sans-serif;
+	font-size: 100%;
+	background-color: #eeeeee;
+	color: #556677;
 }
 
-a:link, a:visited {
-	text-decoration			:	underline ;
-	word-break			:	break-all ;
-}
 a:link {
-	color				:	#039 ;
+	color: #334499;
+	text-decoration: underline;
 }
+
 a:visited {
-	color				:	#936 ;
+	color: #993366;
+	text-decoration: underline;
 }
+
 a:hover {
-	color				:	#f60 ;
+	color: #ff9900;
+	text-decoration: none;
 }
+
+/*========================================================================================*/
+/* Headers */
 
 table {
-	border-collapse			:	collapse ;
-	border-right			:	solid 1px #ddd ;
-	border-left			:	solid 1px #ddd ;
+	margin-bottom: 5px;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-right: solid 1px #dddddd;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #dddddd;
 }
 
 td {
-	font-size			:	90% ;
-	background-color		:	#fff ;
+	background-color: #ffffff;
 }
 
 table table {
-	margin				:	0px ;
-	width				:	100% ;
-	background			:	url("./moduletitle.gif") 0 55% repeat-x scroll #e9e9e9 ;
-	border				:	solid ;
-	border-width			:	1px 0 ;
-	border-color			:	#eee #eee #ccc #eee ;
+	margin: 0px 0px -1px 0px;
+	width: 100%;
+	background: url("./h2.gif") 0 55% repeat-x scroll #e9e9e9;
+	border: solid;
+	border-width: 1px 0px;
+	border-color: #eeeeee #eeeeee #cccccc #eeeeee;
+	position: relative;
+	z-index: 5;
 }
 
 table table td {
-	padding				:	0px ;
-	background			:	transparent ;
+	padding: 0.3em 0px 0.2em 0px;
+	background: transparent;
 }
 
 table font {
-	color				:	#457 ;
+	color: #445577;
 }
 
 table a:link font,
 table a:visited font {
-	padding				:	0.2em ;
-	text-align			:	center ;
-	color				:	#457 ;
+	padding: 0.2em;
+	color: #445577;
+	text-align: center;
 }
 table a:hover font {
-	color				:	#f90 ;
+	color: #ff9900;
 }
 
 table font a:link font,
 table font a:visited font {
-	color				:	#f90 ;
+	color: #ff9900;
 }
 table font a:hover font {
-	color				:	#f60 ;
+	color: #ff6600;
 }
 
-h1 {
-	margin				:	5px 2px ;
-	padding				:	60px 0.2em ;
-	font-size			:	200% ;
-	font-family			:	"Verdana", "Osaka", sans-serif ;
-	letter-spacing			:	0.1em ;
-	background			:	url("./h1.gif") 100% 1px repeat-x scroll #ddd ;
-	color				:	#568 ;
-	border-top			:	solid 1px #bbb ;
-	border-right			:	solid 1px #fff ;
-	border-bottom			:	solid 1px #fff ;
-	border-left			:	solid 1px #bbb ;
-}
-
-h2 {
-	margin				:	0px ;
-	padding				:	0.4em 0.5em ;
-	font-size			:	1em ;
-	font-weight			:	normal ;
-	background			:	url("./h2.gif") 0 55% repeat-x scroll #eee ;
-	color				:	#457 ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
-}
-h2 a:link,
-h2 a:visited {
-	text-decoration			:	none ;
-	color				:	#457 ;
-}
-h2 a:hover {
-	color				:	#f60 ;
-}
-
-h3 {
-	margin				:	1em 2% 2em 2% ;
-	padding				:	0 0.2em 0.2em 1.2em ;
-	font-size			:	1em ;
-	font-weight			:	normal ;
-	letter-spacing			:	0.1em ;
-	line-height			:	1.4 ;
-	text-indent			:	-1em ;
-	border-bottom			:	solid 1px #ccc ;
-}
-h3 a:link,
-h3 a:visited {
-	text-decoration			:	none ;
-	color				:	#346 ;
-}
-h3 a:hover {
-	color				:	#f90 ;
-}
-h4 {
-	margin				:	1.5em 2% 1em 2% ;
-	font-size			:	1em ;
-	color				:	#f90 ;
-}
-
-p {
-	margin				:	0.5em 5% ;
-	padding				:	0px ;
-	text-indent			:	1em ;
-	line-height			:	1.6 ;
-}
-
-ul {
-	margin				:	1em 5% 1em 3em ;
-	padding				:	0px ;
-}
-ul ul {
-	margin				:	0px 0px 0px 1.5em ;
-}
-
-ol {
-	margin				:	1em 5% 1em 4em ;
-	padding				:	0px ;
-}
-ol ol {
-	margin				:	0px 0px 0px 2em ;
-}
-
-li {
-	line-height			:	1.4 ;
-}
-
-dl {
-	margin				:	2em 5% ;
-}
-dt {
-	margin				:	1em 0px 0px 1.5em ;
-	padding				:	0.2em ;
-	border-bottom			:	solid 1px #666 ;
-	display				:	list-item ;
-	list-style			:	outside circle ;
-}
-dd {
-	margin				:	0.5em 0px 0px 3em ;
-	line-height			:	1.4 ;
-}
-
-blockquote {
-	margin				:	2em 7% ;
-	background			:	url("./blockquote.gif") 50% 50% repeat scroll #eee ;
-	color				:	#333 ;
-	border				:	solid 1px #679 ;
-}
-
-blockquote p {
-	margin				:	0.5em ;
-}
-blockquote ul {
-	margin				:	1em 0.5em 1em 2em ;
-}
-blockquote ol {
-	margin				:	1em 0.5em 1em 3em ;
-}
-blockquote p ol {
-}
-
-blockquote cite {
-	margin				:	1em 0px 0px 0px ;
-	padding				:	0.2em 0.5em ;
-	display				:	block ;
-	font-style			:	normal ;
-	text-align			:	right ;
-	border-top			:	dashed 1px #679 ;
-	background-color		:	#fff ;
-	color				:	#333 ;
-}
-
-blockquote p cite {
-	margin				:	0.5em -0.5em -0.5em -0.5em ;
-}
-
-q {
-	background-color		:	#fff ;
-}
-
-blockquote q cite {
-	margin				:	0 ;
-	padding				:	0 ;
-	display				:	inline ;
-	border				:	none ;
-	color				:	#333 ;
-}
-
-pre {
-	margin				:	1.5em 3% 1.5em 3% ;
-	padding				:	0.5em ;
-	background-color		:	#fff ;
-	color				:	#333 ;
-	border				:	solid 1px #ccc ;
-	white-space			:	-moz-pre-wrap ;
-	word-wrap			:	break-word ;
-}
-
-del {
-	color				:	#999 ;
-	text-decoration			:	line-through ;
-}
-del a.keyword:link,
-del a.keyword:visited,
-del a.okeyword:link,
-del a.okeyword:visited {
-	color				:	#999 ;
-}
-
-ins {
-	text-decoration			:	none ;
-	border-bottom			:	solid 1px #89b ;
-}
-
-form {
-	margin				:	0px ;
-}
-
-input {}
-
-option {
-	font-family			:	"Verdana", sans-serif ;
-}
-
-/*------------------------------------------------------------------------------*/
-/* Layout */
-
-body {
-	margin				:	0px ;
-	padding				:	0px ;
-	width				:	100% ;
-	max-width			:	auto ;
-	position			:	relative ;
-	top				:	0px ;
-	left				:	0px ;
-}
-
-
+/*========================================================================================*/
 /* AdminMenu */
 
 div.adminmenu {
-	margin-top			:	3px ;
-	padding				:	0.4em 0.2em ;
-	font-size			:	80% ;
-	text-align			:	right ;
-	background			:	url("./moduletitle.gif") 0px 55% repeat-x scroll #fff ;
-	border				:	solid 1px ;
-	border-color			:	#ccc #fff #fff #ccc ;
+	margin: 1px 0px 0px 0px;
+	padding: 0.4em 0.2em 0.2em 0.2em;
+	font-size: 80%;
+	text-align: right;
+	background: url("./h2.gif") 0px 60% repeat-x scroll #ffffff;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
 }
 
-span.adminmenu {}
+span.adminmenu {
+	margin: 0px 0.2em;
+}
 
 div.adminmenu a:link,
 div.adminmenu a:visited {
-	text-decoration			:	none ;
-	color				:	#457 ;
+	text-decoration: none;
+	color: #445577;
 }
+
 div.adminmenu a:hover {
-	color				:	#f90 ;
+	color: #ff9900;
 }
 
+/*========================================================================================*/
+/* Pagetitle */
 
-/*------------------------------------------------------------------------------*/
+h1 {
+	margin: 0px 0px 5px 0px;
+	padding: 1.8em 0.5em;
+	font-size: 160%;
+	font-family: "Verdana", sans-serif;
+	background: url("./h1.gif") 100% 10% repeat-x scroll #dddddd;
+	color: #556688;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #cccccc;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+}
+
+h1 a:link,
+h1 a:visited {
+	color: #556688;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	text-decoration: underline;
+	color: #334466;
+}
+
+/*========================================================================================*/
+/* Layout for Hatena::Diary */
+
+div.hatena-body {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	_width: 100%;
+}
+
+head+body div.hatena-body {
+	width: auto;
+}
+
+/*==========================================================*/
 /* Main */
 
 div.main {
-	margin				:	0px 0px 0px 220px ;
-	position			:	relative ;
-	top				:	0px ;
-	left				:	0px ;
+	margin: 0px 0px 0px 224px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
+
 div.main2 {
-	margin				:	0px 220px 0px 220px ;
-	position			:	relative ;
-	top				:	0px ;
-	left				:	0px ;
+	margin: 0px 224px 0px 224px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
+
 div.main3 {
-	margin				:	0px 220px 0px 0px;
-	position			:	relative ;
-	top				:	0px ;
-	left				:	0px ;
+	margin: 0px 224px 0px 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 .main div.adminmenu,
 .main2 div.adminmenu,
 .main3 div.adminmenu {
-	margin				:	0px 3px 5px 3px ;
+	margin: 0px 0px 5px 0px;
+}
+
+/*==========================================================*/
+/* Sidebar */
+
+div.sidebar {
+	margin: 0px;
+	padding-bottom: 200px;
+	width: 220px;
+	position: absolute;
+	top: 13.4em;
+	z-index: 5;
+}
+
+div.sidebar {
+	left: 2%;
+}
+
+.sidebar2 {
+	right: 2%;
+}
+
+.hatena-clock {
+	display: none;
+}
+
+/* Hatena::Diary */
+.hatena-body .sidebar {
+	top: 0px;
+	left: 0px;
+}
+
+.hatena-body .sidebar2 {
+	top: 0px;
+	right: 0px;
+}
+
+/*========================================================================================*/
+/* Navigations */
+
+div.breadcrumbs {
+	margin: 0px 1px 5px 0px;
+	padding: 0.4em;
+	font-size: 80%;
+	font-family: "Verdana", sans-serif;
+	background: url("./h2.gif") 0px 55% repeat-x scroll #ffffff;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+	_width: 100%;
 }
 
 div.calendar {
-	margin				:	0px 3px 3px 3px ;
-	padding				:	0.2em ;
-	text-align			:	right ;
-	color				:	#999 ;
-	background			:	#f3f3f3 ;
-	border				:	solid 1px ;
-	border-color			:	#ccc #fff #fff #ccc ;
-	font-size			:	80% ;
+	margin: 5px 1px 5px 0px;
+	text-align: right;
+	color: #999999;
+	font-size: 80%;
+	border-bottom: solid 1px #cccccc;
 }
+
+
 div.calendar a:link,
 div.calendar a:visited {
-	text-decoration			:	none ;
+	color: #000000;
+	text-decoration: none;
 }
 
+div.calendar a:hover {
+	color: #ff9900;
+	text-decoration: underline;
+}
 
-/*Day*/
+div.calendar b {
+	color: #000000;
+}
+
+/*========================================================================================*/
+/* Diary */
+
 div.day {
-	margin				:	5px 2px 5px 3px ;
-	padding				:	0px ;
-	/*font-size			:	90% ;*/
-	background-color		:	#f3f3f3 ;
-	color				:	#333 ;
-	border				:	solid 1px ;
-	border-color			:	#ccc #fff #fff #ccc ;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+	/*font-size: 90%;*/
+	background-color: #f3f3f3;
+	color: #333333;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
 }
 
-a.keyword:link,
-a.okeyword:link {
-	text-decoration			:	none ;
-	color				:	#333 ;
-	border-bottom			:	solid 1px #999 ;
+h2 {
+	margin: 0px;
+	padding: 0.8em 0.5em 0.4em 0.5em;
+	background: url("./h2.gif") 0px 56% repeat-x scroll #eeeeee;
+	color: #445577;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
-a.keyword:visited,
-a.okeyword:visited {
-	text-decoration			:	none ;
-	color				:	#333 ;
-	border-bottom			:	dashed 1px #999 ;
+
+h2 a:link,
+h2 a:visited {
+	color: #445577;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #ff9900;
+	text-decoration: underline;
 }
 
 span.date {
-	margin-right			:	0.2em ;
-	font-family			:	"Verdana", "Osaka", sans-serif ;
-	font-weight			:	bold ;
-	letter-spacing			:	0.2em ;
+	margin-right: 0.2em;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.2em;
 }
 
+h2 span.title {
+	color: #445577;
+}
+
+a.edit:link,
+a.edit:visited {
+	color: #666666;
+	font-size: 90%;
+	text-decoration: underline;
+}
+
+a.edit:hover {
+	color: #000000;
+	text-decoration: none;
+}
 
 /*Body*/
 div.body {
-	margin				:	0px ;
-	padding				:	1em 5px ;
-	width				:	100% ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
-	background-color		:	#f9f9f9 ;
+	margin: 0px;
+	padding: 0px;
+	_width: 100%;
+	background: #f9f9f9;
+	color: #222222;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	border-top: none;
 }
 
 .main div.body,
 .main2 div.body,
 .main3 div.body {
-	padding				:	0px 5px ;
-	background-color		:	#eee ;
-	color				:	#333 ;
+	padding: 0px;
+	background-color: #eeeeee;
+	color: #333333;
+	_width: 100%;
 }
 
-* > .main div.body {
-	width				:	auto ;
+head+body .main div.body {
+	width: auto;
 }
 
 div.body img.photo {
-	margin				:	3px ;
-	float				:	right ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#ccc #fff #fff #ccc ;
+	margin: 10px 10px;
+	float: right;
+	border: solid 1px #cccccc;
 }
 
-div.section, div.footnote {
-	margin				:	3px 0px 3px 0px ;
-	padding				:	1em 0px 1.5em 0px ;
-	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
-	color				:	#222 ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#ddd ;
+/*==========================================================*/
+/* Section */
+
+div.section {
+	margin: 0px;
+	padding: 0px 0px 1em 0px;
+	background: #f9f9f9;
+	color: #222222;
 }
 
+div.section:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+h3 {
+	margin: 0px 0px 1.4em 0px;
+	padding: 1.5em 0.5em 0.4em 2.4em;
+	font: normal bold 100%/1.6 "Verdana", sans-serif;
+	background: url("./h3.gif") 0px 0px repeat-x scroll #f6f6f6;
+	color: #666666;
+	border-bottom: double 3px #dddddd;
+	text-indent: -1.7em;
+}
+
+h3 a:first-child,
 span.sanchor {
-	color				:	#679 ;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:link span.sanchor,
+a:visited span.sanchor {
+	color: #cccccc;
+}
+
+a:hover span.sanchor {
+	color: #ff9900;
+}
+
+a.sectioncategory {
+	font-weight: bold;
+	font-family: "Verdana", sans-serif;
+	font-size: 90%;
 }
 
 a.sectioncategory:link,
 a.sectioncategory:visited {
-	color				:	#888 ;
+	color: #000000;
 }
+
 a.sectioncategory:hover {
-	color				:	#f60 ;
+	color: #99cc33;
 }
+
 span.timestamp {
-	font-size			:	80% ;
-	color				:	#bbb ;
+	font-size: 80%;
+
+	color: #bbb;
+}
+
+p.sectionfooter {
+	margin: 1em 1em 0em 1em;
+	padding-top: 0.2em;
+	border-top: dashed 1px #cccccc;
+	text-align: right;
+	color: #999999;
+}
+
+p.sectionfooter a:link,
+p.sectionfooter a:visited {
+	color: #000000;
 }
 
 
-/*Footnote*/
+/*======================================*/
+/* Footnote */
+
 div.footnote {
-	font-size			:	90% ;
+	margin: 0px;
+	padding: 1px;
+	background: url("./ad.gif") 0px 0px repeat-x scroll #f6f6f6;
+	border-top: solid 1px #dddddd;
+	color: #222222;
+	font-size: 90%;
 }
+
+head+body div.footnote {
+	background-position: 0px -1px;
+}
+
 p.footnote {
-	text-indent			:	0px ;
-	color				:	#444 ;
+	margin: 0.5em 2em;
+	text-indent: 0px;
+	color: #444;
 }
 p.footnote a.keyword:link
 p.footnote a.keyword:visited,
 p.footnote a.okeyword:link,
 p.footnote a.okeyword:visited {
-	color				:	#666 ;
+	color: #666;
 }
 span.footnote {
-	margin-right			:	0.2em ;
-	margin-left			:	0.1em ;
-	font-size			:	85% ;
+	margin-right: 0.2em;
+	margin-left: 0.1em;
+	font-size: 85%;
 }
 span.footnote a:link,
 span.footnote a:visited {
-	color				:	#666 ;
+	color: #666;
 }
 span.footnote a:hover {
-	color				:	#900 ;
+	color: #900;
 }
 
 
-/*Comment*/
-div.comment, div.refererlist {
-	margin				:	0px ;
-	padding				:	0px ;
-	width				:	100% ;
-	background-color		:	#eee ;
-	color				:	#333 ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
+/*==========================================================*/
+/* Comment & Refererlist */
+
+div.comment, div.refererlist, div.referer {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #eeeeee;
+	color: #333333;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
 }
 
-* > div.comment,
-* > div.refererlist {
-	width				:	auto ;
+head+body div.comment,
+head+body div.refererlist {
+	width: auto;
 }
 
 div.commentshort,
 div.refererlist ul {
-	margin				:	3px 5px ;
-	padding				:	0.5em 0px ;
-	font-size			:	95% ;
-	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
-	color				:	#333 ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#ddd ;
+	margin: 5px;
+	padding: 0.5em 0px;
+	background: url("./section.gif") right top repeat-y scroll #f9f9f9;
+	color: #333333;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
 
 div.caption {
-	margin				:	3px 5px ;
-	padding				:	0.2em ;
-	background-color		:	#f9f9f9 ;
-	color				:	#333 ;
-	border-style			:	solid ;
-	border-width			:	1px 1px 1px 1px ;
-	border-color			:	#ddd ;
+	margin: 5px;
+	padding: 0.4em;
+	background-color: #f9f9f9;
+	color: #333333;
+	border: solid 1px #dddddd;
+	line-height: 1;
 }
 
 div.commentshort p {
-	margin				:	0.2em 1em 0.2em 2em ;
-	text-indent			:	0px ;
+	margin: 0.5em 1em 0.5em 1em;
+	text-indent: 0px;
 }
+
 
 div.commentshort a:link,
 div.commentshort a:visited {
-	color				:	#346 ;
+	color: #334466;
 }
 
 span.canchor {
-	color				:	#f90 ;
+	color: #ff9900;
 }
 
 span.commentator {
-	color				:	#346 ;
+	color: #334466;
+	font-family: "Verdana", sans-serif;
+}
+
+div.comment textarea {
+	height: 10em;
+	margin-bottom: 0.4em;
+	font-size: 1em;
 }
 
 div.refererlist ul {
-	padding-left			:	5% ;
-	list-style-type			:	square ;
+	padding-left: 2em;
+	list-style-type: square;
+	color: #999999;
 }
 
 div.refererlist ul li {
-	vertical-align			:	middle ;
+	vertical-align: middle;
 }
 
-/*------------------------------------------------------------------------------*/
-/* Sidebar */
+/*========================================================================================*/
+/*  Block lebel Elements */
 
-div.sidebar {
-	margin				:	0px ;
-	padding-bottom			:	200px ;
-	width				:	220px ;
-	position			:	absolute ;
-	top				:	200px ;
-	left				:	0px ;
-	z-index				:	5 ;
+h4 {
+	margin: 1.5em 1em 1em 0.6em;
+	padding: 0.7em 0.4em 0em 0.4em;
+	font-size: 110%;
+	border-left: solid 0.4em #ff9900;
 }
 
-.sidebar2 {
-	margin				:	0px ;
-	padding-bottom			:	200px ;
-	width				:	220px ;
-	position			:	absolute ;
-	top				:	0px ;
-	right				:	0px ;
-	z-index				:	5 ;
+h5 {
+	margin: 1em 1em 1em 1em;
+	padding: 0.7em 0.4em 0em 0.4em;
+	font-size: 105%;
+	border-left: solid 0.4em #6699cc;
 }
+
+h6 {
+	margin: 1em 1em 1em 1.4em;
+	padding: 0.5em 0.4em 0em 0.4em;
+	font-size: 100%;
+	border-left: solid 0.4em #aacc77;
+}
+
+p {
+	margin: 1em 2em;
+	padding: 0px;
+	text-indent: 1em;
+}
+
+pre {
+	margin: 1.5em 2em;
+	padding: 0.5em;
+	background-color: #ffffff;
+	color: #222222;
+	border: solid 1px #eeeeee;
+	white-space: -moz-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/* !MacIE5 \*/
+pre {
+	overflow: auto;
+	max-height: 45em;
+}
+/* */
+
+ul {
+	margin: 1em 1.5em 1em 3em;
+	padding: 0px;
+	line-height: 1.5;
+}
+
+ul ul,
+ul ol {
+	margin: 0px 0px 0px 1.5em;
+}
+
+ol {
+	margin: 1em 1.5em 1em 3.5em;
+	padding: 0px;
+	line-height: 1.5;
+}
+
+ol ol,
+ol ul {
+	margin: 0px 0px 0px 2em;
+}
+
+dl {
+	margin: 2em;
+}
+
+dt {
+	margin: 0.5em 0em 0.2em 0em;
+	padding: 0.4em 0.2em 0em 0.2em;
+
+	border-left: solid 0.3em #dddddd;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0.2em 0em 0em 0px;
+	padding: 0.2em 0em 0em 1em;
+	border-left: solid 0.3em #e9e9e9;
+}
+
+blockquote {
+	margin: 2em 3em;
+	background: url("./blockquote.gif") 50% 50% repeat scroll #eeeeee;
+	color: #333333;
+	border: solid 1px #667799;
+}
+
+blockquote p {
+	margin: 0.5em;
+}
+blockquote ul {
+	margin: 1em 0.5em 1em 2em;
+}
+blockquote ol {
+	margin: 1em 0.5em 1em 3em;
+}
+
+blockquote cite {
+	margin: 1em 0px 0px 0px;
+	padding: 0.2em 0.4em;
+	display: block;
+	font-style: normal;
+	text-align: right;
+	border-top: dashed 1px #667799;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+blockquote * cite {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	font-style: italic;
+}
+
+q {
+	background-color: #ffffff;
+}
+
+blockquote q cite {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	border: none;
+	color: #333333;
+}
+
+/* table element in div.day */
+
+.day table {
+	margin: 1em 2em;
+	width: auto;
+	background: transparent;
+	border: none;
+	font-size: 100%;
+}
+
+.day td {
+	padding: 0.4em;
+	background: #fcfcfc;
+	color: #222222;
+	border: solid 1px #aaaaaa;
+	line-height: 1.4;
+	/*font-size: 90%;*/
+}
+
+.day th {
+	padding: 1em 0.4em 0.2em 0.4em;
+	background-color: #f6f6f6;
+	color: #222222;
+	border: solid 1px #aaaaaa;
+	font-weight: bold;
+	/*font-size: 90%;*/
+}
+
+
+/*==========================================================*/
+/* Formitem */
+
+form {
+	margin: 0px;
+}
+
+input {}
+
+head+body textarea {
+	width: 90%;
+}
+
+option {
+	font-family: "Verdana", sans-serif;
+}
+
+textarea, input {
+	font-family : "ヒラギノ角ゴ Pro W3", "Osaka", sans-serif;
+}
+
+/* MacIE5 \*/
+input {
+	font-family: "Verdana", sans-serif;
+}
+
+textarea {
+	font-family: "ＭＳ ゴシック", monospace;
+}
+/*  */
+
+/*==========================================================*/
+/* Inline lebel elements */
+
+del {
+	/*font-size: 80%;*/
+	color: #999999;
+	text-decoration: line-through;
+}
+
+div.section del:after {
+	content: "(削除日時：" attr(datetime) ")";
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: solid 1px #8899bb;
+}
+
+div.section ins:before {
+	content: "追記：";
+	color: #000000;
+	font-weight: bold;
+}
+
+div.section ins:after {
+	content: "(追記日時：" attr(datetime) ")";
+	color: #999999;
+}
+
+/*======================================*/
+/* Images */
+
+img.hatena-fotolife,
+img.hatena-question-image,
+img.ean,
+img.barcode {
+	background-color: #ffffff;
+	border: solid 1px #000000;
+}
+
+/*========================================================================================*/
+/* Keywords */
+
+a.keyword:link,
+a.okeyword:link {
+	text-decoration: none;
+	color: #333333;
+	border-bottom: solid 1px #dddddd;
+}
+
+a.keyword:visited,
+a.okeyword:visited {
+	text-decoration: none;
+	color: #333333;
+	border-bottom: dashed 1px #dddddd;
+}
+
+a.keyword:hover,
+a.okeyword:hover {
+	border-bottom-color: #ff9900;
+}
+
+/*========================================================================================*/
+/* ASIN Detail */
+
+div.hatena-asin-detail {
+	margin: 1em 2em;
+	background-color: #ffffff;
+	border: solid 1px #dddddd;
+}
+
+img.hatena-asin-detail-image {
+	margin: 5px 0.5em 5px 5px;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #eeeeee #cccccc #cccccc #eeeeee;
+	float: left;
+}
+
+div.hatena-asin-detail-info {
+	margin: 0px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+
+p.hatena-asin-detail-title {
+	margin: 0px 0px 0px 0px;
+	padding: 1em 0.5em 0.2em 0em;
+	text-indent: 0em;
+	line-height: 1;
+	font-weight: bold;
+}
+
+p.hatena-asin-detail-title a:link,
+p.hatena-asin-detail-title a:visited {
+	color: #334466;
+	text-decoration: none;
+}
+
+p.hatena-asin-detail-title a:hover {
+	color: #ff9900;
+	text-decoration: underline;
+}
+
+.hatena-asin-detail-info ul {
+	margin: 0px;
+	padding: 0.4em 0px 1em 0.5em;
+	list-style-type: none;
+	font-size: 90%;
+}
+
+.hatena-asin-detail-info li {
+	margin: 0.5em 0em;
+}
+
+span.hatena-asin-detail-label {
+	font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+	clear: both;
+}
+
+/*========================================================================================*/
+/* Question Detail */
+
+table.hatena-question-detail {
+	table-layout: auto;
+}
+
+th.hatena-question-detail-title {
+	font-size: 80%;
+}
+
+th.hatena-question-detail-title a:link,
+th.hatena-question-detail-title a:visited {
+	color: #222222;
+	text-decoration: none;
+}
+
+th.hatena-question-detail-title a:hover {
+	color: #ff9900;
+}
+
+td.hatena-question-detail-label {
+	font-size: 90%;
+	width: 35%;
+}
+
+td.hatena-question-detail-value {
+	padding-right: 1em;
+	white-space: nowrap;
+	font-size: 80%;
+}
+
+/*========================================================================================*/
+/* About */
+
+ul.hatena-profile-list {
+	margin: 1em 2em;
+}
+
+ul.hatena-profile-list li {
+	display: inline;
+}
+
+ul.hatena-profile-list img.hatena-profile-image {
+	border: solid 1px #000000;
+}
+
+ul.hatena-profile-keyword {}
+
+/*========================================================================================*/
+/* Antenna plain */
+
+p.recentitem {
+	margin: 0px 0px 5px 0px;
+	text-align: right;
+	color: #999999;
+	font-size: 80%;
+	border-bottom: solid 1px #cccccc;
+	text-indent: 0em;
+}
+
+p.recentitem a:link,
+p.recentitem a:visited {
+	color: #666666;
+}
+
+p.recentitem a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+div.recentsubtitles {
+	margin: 0px 0px 5px 0px;
+	padding: 0em 0.2em;
+	color: #aaaaaa;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+	font-size: 80%;
+	line-height: 1.26;
+	text-align: right;
+}
+
+div.recentsubtitles strong {
+	display: block;
+	margin: 0em -0.2em;
+	padding: 8px 0.2em 2px 0.2em;
+	background: url("./h2.gif") 0 45% repeat-x scroll #eeeeee;
+	color: #666666;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	text-align: left;
+}
+
+div.recentsubtitles br {
+	display: none;
+}
+
+div.recentsubtitles a:link,
+div.recentsubtitles a:visited {
+	display: block;
+	margin: 0em -0.2em;
+	padding: 5px 0.4em;
+	background-color: #f3f3f3;
+	color: #333333;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	text-align: right;
+	text-decoration: none;
+}
+
+div.recentsubtitles a:hover {
+	background-color: #f9f9f9;
+	color: #ff9900;
+}
+
+/*========================================================================================*/
+/* Hatena Modules */
 
 div.hatena-module {
-	margin				:	0px 2px 5px 2px ;
-	border				:	solid 1px ;
-	border-color			:	#ccc #fff #fff #ccc ;
-	font-size			:	82.5% ;
+	margin: 0px 0px 5px 0px;
+	background-color: #eeeeee;
+	color: #222222;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+	font-size: 80%;
+	line-height: 1;
 }
+
+div.hatena-modulebody {
+	margin: 0px;
+	padding: 5px;
+	background-color: #f9f9f9;
+	color: #222222;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	line-height: 1.4;
+}
+
 div.hatena-moduletitle {
-	margin				:	0px 0px 0px 0px ;
-	padding				:	0.5em 0.2em 0.2em 0.2em ;
-	font-size			:	100% ;
-	background			:	url("./moduletitle.gif") 0 55% repeat-x scroll #e9e9e9 ;
-	color				:	#888 ;
-	border				:	solid 1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
+	margin: 0px;
+	padding: 10px 0.2em 5px 0.4em;
+	background: url("./h2.gif") 0 45% repeat-x scroll #e9e9e9;
+	color: #666669;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	line-height: 1;
 }
+
 div.hatena-moduletitle a:link,
 div.hatena-moduletitle a:visited {
-	text-decoration			:	none ;
-	color				:	#888 ;
+	color: #666669;
+	text-decoration: none;
+	overflow: hidden;
 }
+
 div.hatena-moduletitle a:hover {
-	color				:	#000 ;
+	color: #000000;
+	text-decoration: underline;
 }
 
-div.hatena-modulebody {}
-div.hatena-modulebody ul {
-	margin				:	0px ;
-	padding				:	0px ;
-	width				:	100% ;
-	list-style-type			:	none ;
-}
-div.hatena-modulebody ul li {
-	margin				:	0px ;
-	padding				:	0pc 0px 0px 5px ;
-	border-style			:	solid ;
-	border-width			:	1px 1px 1px 1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
-	background-color		:	#eee ;
-	color				:	#333 ;
-}
-div.hatena-modulebody ul li a {
-	margin				:	0px ;
-	padding				:	0.2em 0.2em 0.2em 0.2em ;
-	display				:	block ;
-	width				:	100% ;
-	height				:	auto ;
-	border-style			:	solid ;
-	border-width			:	1px ;
+/*==========================================================*/
+/* Modulelist */
+
+.hatena-modulebody ul,
+.hatena-modulebody dl {
+	margin: -6px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 1;
 }
 
-* > div.hatena-modulebody ul li a {
-	width				:	auto ;
+.hatena-modulebody li,
+.hatena-modulebody dt {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	background-color: #eeeeee;
+	color: #222222;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
 }
 
-div.hatena-modulebody ul li a:link,
-div.hatena-modulebody ul li a:visited {
-	text-decoration			:	none ;
-	background-color		:	#f9f9f9 ;
-	color				:	#555 ;
-	border-color			:	#f9f9f9 #eee #eee #ccc ;
-}
-div.hatena-modulebody ul li a:hover {
-	background-color		:	#f0f0f0 ;
-	border-color			:	#f0f0f0 #e9e9e9 #e9e9e9 #f93 ;
-	color				:	#000 ;
-}
-
-/*----------------------------------------------------------*/
-/* Searchform Module */
-
-form.hatena-searchform {
-	margin				:	0px ;
-	padding				:	0.5em ;
-	text-align			:	center ;
-	border				:	solid 1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
-	background-color		:	#f9f9f9 ;
-	color				:	#333 ;
+.hatena-modulebody li a:link,
+.hatena-modulebody li a:visited,
+.hatena-modulebody dt a:link,
+.hatena-modulebody dt a:visited {
+	display: block;
+	margin: 0px;
+	padding: 4px 0.4em;
+	background-color: #f9f9f9;
+	color: #555555;
+	border-left: solid 1px #cccccc;
+	text-decoration: none;
+	line-height: 126%;
+	overflow: hidden;
 }
 
-input.hatena-searchform {
-	margin				:	0px 1px ;
-	height				:	1.5em ;
-	vertical-align			:	middle ;
+.hatena-modulebody li a:hover,
+.hatena-modulebody dt a:hover {
+	background-color: #f0f0f0;
+	border-left-color: #ff9933;
+	color: #000000;
 }
 
-/*----------------------------------------------------------*/
-/* Calendar2photo Module */
+.hatena-modulebody li img {
+	padding: 2px;
+	background-color: #ffffff;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+}
+
+/*======================================*/
+
+dl.hatena-rss {}
+
+.hatena-rss dt {
+	display: block;
+	font-weight: normal;
+}
+
+.hatena-rss dd {
+	margin: 0px;
+	padding: 2px 0.2em 2px 1em;
+	color: #88888b;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	line-height: 126%;
+	overflow: hidden;
+}
+
+/*======================================*/
+
+ul.hatena-photo {
+	margin: -1px 0px 0px -1px;
+	padding: 5px 0px 5px 0px;
+	background-color: #f3f3f3;
+	border: solid 1px #eeeeee;
+	text-align: center;
+	line-height: 65px;
+	font-size: 10px;
+}
+
+ul.hatena-photo li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul.hatena-photo li a:link,
+ul.hatena-photo li a:visited {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul.hatena-photo li a:link img,
+ul.hatena-photo li a:visited img {
+	padding: 0px;
+	vertical-align: bottom;
+}
+
+ul.hatena-photo li a:hover img {
+	border-color: #ffffff #999999 #999999 #ffffff;
+}
+
+/*======================================*/
+
+ul.hatena-recentcomment {
+	margin: 0.4em -4px;
+	padding: 0px 0px 0px 2em;
+}
+
+ul.hatena-recentcomment li {
+	display: list-item;
+	list-style-type: square;
+	margin: 0px;
+	background-color: #f9f9f9;
+	color: #99999c;
+	border: none;
+}
+
+ul.hatena-recentcomment li a:link,
+ul.hatena-recentcomment li a:visited {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	color: #666669;
+	border: none;
+}
+
+ul.hatena-recentcomment li a:hover {
+	color: #000003;
+	text-decoration: underline;
+}
+
+/*======================================*/
 
 table.calendar {
-	border-collapse			:	collapse ;
-	width				:	auto ;
-	background			:	#f9f9f9 ;
-	color				:	#333 ;
-	table-layout			:	fixed ;
-	empty-cell			:	hide ;
-	font-size			:	10px ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#fff #ccc #ccc #fff !important ;
-	position			:	relative ;
-	top				:	0px ;
-	left				:	0px ;
-	z-index				:	5 ;
+	margin: 0px;
+	background-color: #f3f3f3;
+	border: solid 1px;
+	border-color: #dddddd #ffffff #ffffff #dddddd;
+	text-align: center;
+	table-layout: fixed;
+	font-size: 1em;
+	border-collapse: collapse;
 }
 
-* > table.calendar {
-	width				:	100% ;
+head+body table.calendar {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
 }
 
-table.calendar td {
-	text-align			:	center ;
-	border-style			:	solid ;
-	border-width			:	1px ;
-	border-color			:	#fff #ddd #ddd #fff ;
-	background			:	#f9f9f9 ;
-	color				:	#999 ;
+head+body table.calendar td {
+	border: none;
 }
 
-table.calendar td.calendar-sunday,
-table.calendar td.calendar-weekday,
-table.calendar td.calendar-saturday {
-	color				:	#666 ;
+.calendar td {
+	padding: 0px;
+	background-color: #f3f3f3;
+	border: solid 1px #f3f3f3;
+	line-height: 2;
 }
 
-table.calendar td.calendar-prev-month,
-table.calendar td.calendar-current-month,
-table.calendar td.calendar-next-month {
-	letter-spacing			:	2px ;
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month {
+	font-weight: bold;
+	line-height: 1;
 }
 
-table.calendar td a {
-	display				:	block ;
-	margin				:	0px ;
-	padding				:	1px 0px ;
-	width				:	auto ;
-	height				:	100% ;
+td.calendar-sunday,
+td.calendar-saturday,
+td.calendar-weekday {
+	color: #999999;
 }
 
-table.calendar td a:link,
-table.calendar td a:visited {
-	text-decoration			:	none ;
-	background-color		:	#eee ;
-	color				:	#000 ;
+td.calendar-day {
+	height: 22px;
+	color: #cccccc;
+	font-size: 10px;
+	line-height: 20px;
 }
 
-table.calendar td a:hover {
-	background-color		:	#fff ;
-	color				:	#069 ;
-	position			:	relative ;
-	z-index				:	10 ;
-	top				:	0px ;
-	left				:	0px ;
+.calendar td a:link,
+.calendar td a:visited {
+	display: block;
+	margin: 0px;
+	padding: 1px 0px;
+	height: 20px;
+	background-color: #f6f6f6;
+	color: #666666;
+	border: solid 1px;
+	border-color: #ffffff #dddddd #dddddd #ffffff;
+	text-decoration: none;
 }
 
-table.calendar td.calendar-prev-month a:link,
-table.calendar td.calendar-prev-month a:visited,
-table.calendar td.calendar-current-month a:link,
-table.calendar td.calendar-current-month a:visited,
-table.calendar td.calendar-next-month a:link,
-table.calendar td.calendar-next-month a:visited {
-	padding				:	5px 0px ;
-	background-color		:	#f6f6f6 ;
-}
-table.calendar td.calendar-prev-month a:hover,
-table.calendar td.calendar-current-month a:hover,
-table.calendar td.calendar-next-month a:hover {
-	background-color		:	#fff ;
+td.calendar-day a:link img,
+td.calendar-day a:visited img {
+
+	border: solid 1px #999999;
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: 4px;
+	left: 0px;
 }
 
-table.calendar img {
-	width				:	12px ;
-	height				:	12px ;
-	border				:	none ;
+.calendar td a:hover {
+	background-color: #fcfcfc;
+	color: #ff9900;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
 }
 
-table.calendar a:link img,
-table.calendar a:visited img {}
-table.calendar a:hover img {
-	position			:	absolute ;
-	top				:	-12px ;
-	left				:	-50% ;
-	width				:	auto ;
-	height				:	auto ;
-	z-index				:	100 ;
+td.calendar-day a:hover img {
+	border-color: #ff9900;
 }
 
-/*----------------------------------------------------------*/
-/* Photo Module */
-
-div.hatena-modulebody ul.hatena-photo {
-	padding				:	0.2em 0.2em 0.2em 0.2em ;
-	display				:	block ;
-	width				:	auto ;
-	height				:	auto ;
-	background-color		:	#f9f9f9 ;
-	border				:	solid 1px ;
-	border-color			:	#fff #ccc #ccc #fff ;
-	text-align			:	center ;
-}
-div.hatena-modulebody ul.hatena-photo li {
-	margin				:	0px ;
-	padding				:	0px ;
-	display				:	inline ;
-	width				:	65px ;
-	height				:	auto ;
-	line-height			:	1 ;
-	border				:	none ;
-	background-color		:	transparent ;
-}
-div.hatena-modulebody ul.hatena-photo li a:link,
-div.hatena-modulebody ul.hatena-photo li a:visited {
-	display				:	inline ;
-	margin				:	0px ;
-	padding				:	0px ;
-	width				:	auto ;
-	height				:	auto ;
-	line-height			:	1 ;
-	background-color		:	transparent ;
-	color				:	#000 ;
-	border				:	none ;
+td.calendar-prev-month a:link,
+td.calendar-prev-month a:visited,
+td.calendar-current-month a:link,
+td.calendar-current-month a:visited,
+td.calendar-next-month a:link,
+td.calendar-next-month a:visited {
+	padding: 4px 0em;
+	height: auto;
+	color: #999999;
+	line-height: 2;
 }
 
-div.hatena-modulebody ul.hatena-photo li a:link img,
-div.hatena-modulebody ul.hatena-photo li a:visited img {
-	margin				:	2px 1px ;
-/*	width				:	60px ;*/
-	vertical-align			:	top ;
-	border				:	solid 1px #ccc ;
-	background-color		:	transparent ;
-	vertical-align			:	middle ;
-}
-div.hatena-modulebody ul.hatena-photo li a:hover img {
-/*	width				:	60px ;*/
-	border-color			:	#666 ;
+td.calendar-current-month a:link,
+td.calendar-current-month a:visited {
+	color: #333333;
 }
 
-/*------------------------------------------------------------------------------*/
-/* Config & Edit */
-
-div.day form {
-	width				:	100% ;
-	background			:	url("./section.gif") right top repeat-y scroll #f9f9f9 ;
+td.calendar-prev-month a:hover,
+td.calendar-current-month a:hover,
+td.calendar-next-month a:hover {
+	color: #ff9900;
 }
 
-div.day input {
-	margin				:	1em ;
+/*======================================*/
+
+form.hatena-searchform,
+form.hatena-sectioncateogry {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f9f9f9;
+	border: none;
+	line-height: 1.5;
 }
 
-div.day textarea {
-	width				:	40em ;
-	height				:	20em ;
+input.hatena-searchform,
+input.hatena-sectioncategory,
+select.hatena-sectioncategory {
+	margin: 0px 0.2em 0.2em 0px;
+	background-color: #f3f3f3;
+	color: #444444;
+	border-width: 1px;
+	border-color: #ffffff;
+	font-size: 1em;
 }
 
-form.comment textarea {
-	width				:	30em;
-	height				:	5em;
+/*======================================*/
+
+div.hatena-profile {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f3f3f3;
+	border: solid 1px #eeeeee;
 }
 
-div.day form h2 input,
-div.day form div.body input,
-div.day div.comment form input ,
-div.day form div.commentshort input ,
-div.day form div.refererlist input {
-	margin				:	0px ;
+.hatena-profile p {
+	margin: 0px;
+	text-indent: 0px;
+	text-align: center;
 }
 
-div.day table td {
-	background-color		:	transparent ;
-	border				:	solid 1px #ccc ;
-	padding				:	2px ;
+p.hatena-profile-image {
+	padding: 5px;
 }
 
-form blockquote {
-	padding				:	0.5em ;
+p.hatena-profile-image a:link img,
+p.hatena-profile-image a:visited img {
+	border: solid 1px #000000;
 }
+
+p.hatena-profile-image a:hover img {}
+
+p.hatena-profile-ID {
+	margin: 0px;
+	background-color: #f9f9f9;
+	font-weight: 600;
+	border-top: solid 1px #eeeeee;
+	border-bottom: solid 1px #eeeeee;
+}
+
+p.hatena-profile-ID a:link,
+p.hatena-profile-ID a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+p.hatena-profile-ID a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+p.hatena-profile-body {
+	padding: 0.5em;
+	line-height: 1.26;
+	text-align: left;
+}
+
+/*======================================*/
+
+div.hatena-clock {
+	text-align: center;
+}
+
+#clock {}
+
+/*======================================*/
+
+span.hatena-counter {
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+/*========================================================================================*/
+/* Adsense */
+
+.body div.ad {
+	margin: 0px;
+	padding: 5px;
+	background: url("./ad.gif") 0px 0px repeat-x scroll #f3f3f3;
+	border-top: solid 1px #dddddd;
+}
+
+head+body .body div.ad {
+	background-position: 0px -1px;
+}
+
+.body div.ad iframe {
+	border: solid 1px #dddddd;
+}
+
+.sidebar div.ad,
+.sidebar2 div.ad {
+	margin: 5px;
+	text-align: center;
+}
+
+/*========================================================================================*/
+/* Footer */
 
 div.footer {
-	margin				:	3px ;
-	padding				:	0.2em ;
-	font-size			:	0.8em ;
-	text-align			:	right ;
+	margin: 1em 225px;
+	padding: 0.4em 0.4em 0.2em 0.4em;
+	color: #aaaaaa;
+	border-left: solid 0.4em #999999;
+	line-height: 1.2;
+	font-size: 90%;
 }
 
-div.day table {
-	border-collapse			:	separate ;
-	border				:	solid 1px #ccc ;
+div.footer a:link,
+div.footer a:visited {
+	color: #666666;
 }
 
-div.day td,
-div.day th {
-	font-size			:	1em ;
-	background-color		:	#fff ;
-	border				:	solid 1px #ccc ;
+div.footer a:hover {
+	color: #000000;
 }
+
+/*========================================================================================*/
+/* Highlight */
+
+span.highlight {
+	background-color: #ccff00;
+	color: #000000;
+}
+
+/*========================================================================================*/
+/* tDiary */
 
 hr.sep {
-	display				:	none;
+	display: none;
 }
 
-/*------------------------------------------------------------------------------*/
-/* Description */
+/*========================================================================================*/
+/* Hatena::Group || Hatena::Diary::Classic */
 
+form h2 input {
+	background-color: #f9f9f9;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+h3.subtitle:before {
+
+	content: "■ ";
+	color: #cccccc;
+	font-weight: normal;
+}
+
+p.message {
+	padding: 0.4em;
+	background-color: #ffffff;
+	color: #ff3300;
+	border: solid 1px #cccccc;
+	text-align: center;
+}
+
+form .body {
+	padding-bottom: 0.5em;
+}
+
+form .body textarea {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+form .body p textarea {
+	margin: 0em;
+}
+
+form .body input {
+	margin-left: 0.5em;
+}
+
+form .body td {
+	background-color: #f3f3f3;
+	text-align: center;
+}
+
+form .body td a:link img,
+form .body td a:visited img {
+	border: solid 1px #cccccc;
+}
+
+form .body td a:link img[src="/theme/delta/delta.jpg"],
+form .body td a:visited img[src="/theme/delta/delta.jpg"] {
+	border: solid 1px #000000;
+}
+
+form .body td a:hover img,
+form .body td a:hover img[src="/theme/delta/delta.jpg"] {
+	border: solid 1px #ff6600;
+}
+
+div.themelabel {
+	margin-top: 0.5em;
+}
+
+form div.refererlist ul {
+	padding-left: 1em;
+	list-style-type: none;
+}
+
+textarea.uheader,
+textarea.ufooter,
+textarea.style {
+	width: 40em;
+	height: 30em;
+}
+
+#clockflash {
+	margin: 1em 2em;
+}
+
+/*========================================================================================*/
+/*Hatena::Group::BBS*/
+
+
+/*タイトル上部のパンくずリスト*/
+div#breadcrumbs {}
+
+div#breadcrumbs a:link,
+div#breadcrumbs a:visited {}
+
+/*BBSヘッダ*/
+body div#bbsheader {}
+
+/* リスト表示 | ツリー表示 */
+div div.bbsmode {}
+
+/*BBSのアドセンス*/
+div#bbsheader div.bbsad {}
+
+div#bbsheader div.bbsad iframe {}
+
+
+/*BBS本体*/
+div#bbs {}
+
+/*スレッド一覧*/
+div#bbs h2#bbsthread {}
+
+/*記事*/
+div#bbs div.day {}
+
+div#bbs div.day h2 {}
+
+div#bbs div.day h2 a {}
+
+div#bbs div.day h2 .title {}
+
+div#bbs div.day h2 .title a {}
+
+/*削除アイコン*/
+div#bbs h2 form input {}
+
+
+div#bbs div.body{}
+
+div#bbs div.body div.bbsfooter {}
+
+div#bbs div.body div.bbsfooter2 {}
+
+div#bbs .resicon {}
+
+/*前の1件＆次の1件*/
+body div.bbspager {}
+
+body div.bbspager:after {}
+
+/* !MacIE \*/
+body div.bbspager {}
+/* */
+
+div.bbsentryback {}
+div.bbsentrynext {}
+
+/*ツリー表示*/
+div.body div.articlelist {}
+
+div.body div.articlelist ul {}
+
+div.body div.articlelist ul ul {}
+
+div.articlelist span.date {}
+
+/*==========================================================*/
+/*投稿フォーム*/
+
+div.day form div.body {}
+
+div.day form h2 {}
+
+div.day form {}
+
+
+/*BBS記事の削除*/
+div.body form {}
+
+/*========================================================================================*/
+/*Hatena::Group::Calendar*/
+
+div div.group-calendar {
+	margin: 0px;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+	font-size: 100%;
+}
+div.group-calendar table.group-calendar {
+	margin: 0px;
+	width: 100%;
+	_width: auto;
+	border-collapse: separate;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	font-size: 80%;
+	table-layout: fixed;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+div.group-calendar table.group-calendar th {
+	padding: 1em 0px 0px 0px;
+	background-color: transparent;
+	color: #999999;
+	border: none;
+}
+div.group-calendar table.group-calendar td {
+	padding: 0px;
+	height: 5em;
+	background-color: transparent;
+	border: solid 1px;
+	border-color: #cccccc #ffffff #ffffff #cccccc;
+}
+div.group-calendar table.group-calendar td.pagerprev,
+div.group-calendar table.group-calendar td.pagernext,
+div.group-calendar table.group-calendar td.pagertoday {
+	padding: 0.5em;
+	height: auto;
+	border: none;
+}
+
+div.group-calendar table.group-calendar td.pagerprev a:link,
+div.group-calendar table.group-calendar td.pagerprev a:visited,
+div.group-calendar table.group-calendar td.pagernext a:link,
+div.group-calendar table.group-calendar td.pagernext a:visited,
+div.group-calendar table.group-calendar td.pagertoday a:link,
+div.group-calendar table.group-calendar td.pagertoday a:visited {}
+
+div.group-calendar table.group-calendar td.pagerprev a:hover,
+div.group-calendar table.group-calendar td.pagernext a:hover,
+div.group-calendar table.group-calendar td.pagertoday a:hover {
+
+}
+
+div.group-calendar table.group-calendar td.pagernext {}
+div.group-calendar table.group-calendar td.pagertoday {}
+div.group-calendar table.group-calendar td.today {}
+
+div.group-calendar table.group-calendar td h2 {
+	padding: 8px 0.2em 4px 0.2em;
+	background-color: transparent;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+	font-size: 90%;
+}
+
+div.group-calendar table.group-calendar td.today h2 {
+	background-color: transparent;
+}
+
+div.group-calendar table.group-calendar th.calendar-sunday {
+	color: #996666;
+}
+div.group-calendar table.group-calendar th.calendar-saturday {
+	color: #666699;
+}
+
+div.group-calendar table.group-calendar td h2.sunday {
+	background-color: transparent;
+}
+div.group-calendar table.group-calendar td h2.saturday {
+	background-color: transparent;
+}
+div.group-calendar table.group-calendar td h2 span.date {
+	letter-spacing: 0px;
+	font-weight: normal;
+}
+
+div.group-calendar table.group-calendar td h2 a:hover span.date {}
+
+div.group-calendar div.day {
+	margin: 0px;
+	height: 100%;
+	background-color: #f3f3f3;
+	border: solid 1px;
+	border-color: #ffffff #cccccc #cccccc #ffffff;
+}
+
+div.group-calendar td.today div.day {
+	background-color: #f9f9f9;
+}
+
+div.group-calendar div.day h3 {
+	margin: 0.4em;
+	background: transparent;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+div.group-calendar div.day a:link span.sanchor,
+	div.group-calendar div.day a:visited span.sanchor {
+	color: #ff9900;
+}
+
+
+/*END OF THEME*/

@@ -1,21 +1,16 @@
 @charset "euc-jp";
 /*
 Title: なんでやねん
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: Junichiro KITA
-Access: kita@a1.mbn.or.jp
+Access: kita@kitaj.no-ip.com
+License: GPL
 Comment: 「今日のなんでやねん」のテーマ
-
-Copyright (c) 2000-2001 Junichiro KITA <kita@a1.mbn.or.jp>
-
-Permission is granted to copy, distribute and/or modify this document
-under the terms of the GNU Free Documentation License, Version 1.1 or
-any later version published by the Free Software Foundation;
-A copy of the license is included in the section entitled "GNU Free
-Documentation License".
-
 */
 /* ChanaegLog
+2005-07-31 Junichiro Kita <kita@kitaj.no-ip.com>
+	* change license from GFDL to GPL.
+
 2002-04-05 TADA Tadashi <sho@spc.gr.jp>
 	* add spec.
 	* font-size: smaller -> 0.9em.

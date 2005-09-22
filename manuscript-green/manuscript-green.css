@@ -1,0 +1,211 @@
+@charset "euc-jp";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tt,"ＭＳ ゴシック","Osaka-等幅",monospace;
+	background: #fff;
+}
+a { text-decoration: none; }
+a:link { color: #c00; }
+a:visited { color: #600; }
+
+div.hatena-body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: #98b37d;
+	font-size: 24px;
+	letter-spacing: 1em;
+	margin: 0;
+	padding: 0 18px;
+	border: 2px solid #98b37d;
+	text-align: center;
+}
+h1:before { content: "【"; }
+h1:after { content: "】"; }
+
+/*main*/
+div.main {
+	margin-left: 25%;
+	border: 1px solid #ccc;
+}
+div.day {
+	border: 1px solid #98b37d;
+	background: #fff url("manuscript.gif");
+	color: #333;
+	padding: 6px;
+	margin: 30px;
+	line-height: 35px;
+}
+div.day h2 {
+	font-size: 18px;
+	letter-spacing: 7px;
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+}
+div.day h3 {
+	font-size: 14px;
+	letter-spacing: 11px;
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+}
+div.day span.sanchor {
+ background-image:url("toru.gif");
+ background-position:bottom right;
+ background-repeat:no-repeat;
+ padding:15px 20px 0 0;
+ color:#FFFFFF;
+ background-color:transparent;
+ font-size:1px;
+}
+div.day p, div.day li, div.day dt, div.day dd {
+	font-size: 12px;
+	letter-spacing: 13px;
+	margin: -1px 0 0 0;
+	text-indent: 25px;
+}
+div.day ul, div.day ol, div.day dl {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+	text-indent: 16px;
+}
+/*脚注*/
+div.footnote,div.footnote p {
+	margin: 0;
+	padding: 0;
+	font-size: 9px;
+	letter-spacing: 16px;
+	margin: 0;
+	text-indent: 15px;
+}
+/*コメント*/
+div.comment,div.comment p {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-size:11px;
+	letter-spacing: 1px;
+	line-height: 17px;
+}
+div.comment p {
+	border-top: 1px solid #c00;
+	text-indent: none;
+	margin: 17px 0;
+}
+div.comment div.caption {
+	text-align: right;
+	padding: 3px;
+	margin: 0;
+}
+div.commentshort {
+	padding: 0;
+	margin: 0;
+}
+div.comment span.canchor {
+	border-right: 1px solid #c00;
+	background: #fff;
+	color: #fff;
+	padding: 3px;
+	margin: 0;
+}
+div.comment span.commentator {
+	border-bottom: 1px solid #c00;
+	border-right: 1px solid #c00;
+	background: #fff;
+	padding: 3px;
+	margin: 0;
+}
+/*リファラ*/
+div.refererlist {
+}
+div.refererlist div.caption {
+	text-align: right;
+	padding: 3px;
+	margin: 0;
+}
+div.refererlist ul li{
+	letter-spacing: 0;
+}
+
+/*その他*/
+a { color: #c00; }
+img.photo { float: right; }
+del { text-decoration: line-through underline; color: #666; } 
+ol,ul,dl {
+	margin: 0;
+	padding: 0;
+}
+li {
+	margin: 0;
+	padding-left: 30px;
+}
+dt {
+	font-weight: bold;
+	text-indent: 30px;
+}
+dd {
+	font-weight: bold;
+	text-indent: 75px;
+}
+/*サイドバー*/
+
+div.sidebar {
+	width: 25%;
+	position: absolute;
+	top: 0;
+	border-bottom: 1px solid #98b37d;
+}
+div.hatena-module {
+}
+div.hatena-moduletitle {
+	border: 1px solid #98b37d;
+	background: #fff url("manuscript.gif");
+	color: #333;
+	padding: 6px 6px 0px 6px;
+	line-height: 35px;
+	font-size: 15px;
+	letter-spacing: 9px;
+}
+div.hatena-modulebody {
+	border-left: 1px solid #98b37d;
+	border-right: 1px solid #98b37d;
+	padding: 0.5em;
+}
+div.hatena-modulebody li {
+	line-height: 125%;
+	padding: 0.5ex 0;
+}
+/*カレンダー*/
+table.calendar {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	vertical-align: top;
+}
+table.calendar * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: bold;
+}
+td.calendar-day,td.calendar-sunday,td.calendar-weekday,td.calendar-saturday {
+	background-repeat: no-repeat;
+	background-position: center middle;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.5ex;
+	border: 1px solid #98b37d;
+}
+td.calendar-sunday {
+	color: #c00;
+}
+td.calendar-prev-month { text-align: left; padding: 0; }
+td.calendar-current-month { text-align: center; padding: 0; }
+td.calendar-next-month { text-align: right; padding: 0; }
+table.calendar img { height: 1em; width: 1em; }

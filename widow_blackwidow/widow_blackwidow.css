@@ -117,7 +117,7 @@ div.sidebar {
 	padding: 0px 0px 10px 0px;
 	width: 200px;
 	position: absolute;
-	top: 0px;
+	top: 200px;
 	right: 0px;
 }
 
@@ -1095,4 +1095,8 @@ dl.hatena-rss {
 
 img.banner {
 	border: none;
+}
+
+hr.sep {
+	display: none;
 }

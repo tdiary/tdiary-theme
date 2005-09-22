@@ -24,6 +24,7 @@ body {
 	color: #000000;
 	word-break: break-all;
 	word-wrap: break-word;
+	float: left;
 }
 
 a:link {
@@ -100,26 +101,28 @@ body {
 	font-size: 100%;
 	text-align: left;
 	line-height: 1.4;
-	position: relative;
 }
 
 .hatena-body div[style="margin-top: 20px;"] {
 	margin: 0px !important;
 }
 
+div.section, div.comment {
+	clear: right;
+}
+
 div.main {
 	margin: 0px;
 	width: 549px;
 	background-color: #transparent;
+	float: left;
 }
 
 div.sidebar {
 	margin: 0px;
 	padding: 0px 0px 10px 0px;
 	width: 200px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	float: left;
 }
 
 /*----------------------------------------------------------------------------------------*/
@@ -257,7 +260,7 @@ p.sectionfooter a:visited {
 div.section:after {
 	content: "";
 	display: block;
-	clear: both;
+	/*clear: both;*/
 }
 
 div.section {
@@ -316,9 +319,6 @@ span.canchor {
 span.commentator {
 	padding-right: 18px;
 	background: url("./canchor.gif") 100% 70% no-repeat scroll transparent;
-	position: absolute;
-	top: 0px;
-	left: 0px;
 }
 
 form.comment textarea {
@@ -1092,4 +1092,8 @@ dl.hatena-rss {
 
 img.banner {
 	border: none;
+}
+
+hr.sep {
+	display: none;
 }

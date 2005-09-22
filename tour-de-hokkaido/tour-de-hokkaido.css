@@ -1,0 +1,499 @@
+@charset 'euc-jp';
+
+body {
+	margin			:	0px ;
+	padding			:	0px ;
+	font-family		:	"Verdana", "Osaka", "MS UI Gothic", sans-serif ;
+	text-align		:	center ;
+	background		:	url("./back.gif") 50% 0px repeat-y scroll #98AD99 ;
+	color			:	#343 ;
+}
+
+div.adminmenu {
+	background: url("./title2004.jpg") no-repeat 0 0;
+	width: 750px;
+	padding: 335px 0 0 0;
+	margin: 0 auto 0 auto ;
+	text-align: right ;
+	font-size: 80% ;
+}
+
+div.adminmenu a:link,
+div.adminmenu a:visited {
+	text-decoration		:	none ;
+	color			:	#999 ;
+}
+div.main div.adminmenu {
+	font-size		:	100% ;
+	width			:	auto ;
+}
+
+h1 {
+	width: 750px;
+	text-align: center;
+	margin: 30px auto 15px auto ;
+	font-size: 150% ;
+	color: #888 ;
+}
+
+table {
+	width			:	730px ;
+	margin			:	10px auto ;
+	border			:	solid 1px #eee ;
+}
+td {
+	padding			:	1px 0px 0px 0px ;
+	background-color	:	#fff ;
+}
+table td table {
+	width			:	100% ;
+	background		:	url("./back.gif") 50% 0px repeat-y scroll #transparent ;
+	border-width		:	1px 0px ;
+}
+table td table td {
+	padding			:	0px ;
+	background-color	:	transparent ;
+}
+table td img {
+	border			:	none ;
+}
+
+h2 {
+	font-size		:	150% ;
+	font-weight		:	normal ;
+	margin			:	0px ;
+}
+h3 {
+	font-size		:	1em ;
+	margin			:	1em 0px ;
+}
+
+p {
+	margin			:	0px ;
+	text-indent		:	1em ;
+}
+
+blockquote {
+	margin			:	1em ;
+	border-right		:	solid 2px #aba ;
+	border-left		:	solid 2px #aba ;
+	background-color	:	#ded ;
+}
+
+pre {
+	background-color	:	#ded ;
+	word-break		:	break-all ; /* IE */
+	word-wrap		:	break-word ; /* IE */
+	white-space		:	-moz-pre-wrap ; /* Mozilla */
+	white-space		:	-o-pre-wrap ; /* Opera6 */
+	white-space		:	-pre-wrap ; /* Opera7 */
+	white-space		:	pre-wrap ; /* CSS2.1 */
+}
+
+form {
+	margin			:	0px ;
+}
+input {
+	/*font-size		:	12px ;*/
+	border-width		:	1px ;
+	border-color		:	#ddd ;
+	background-color	:	#fff ;
+	margin			:	0px 1px ;
+}
+textarea {
+	border-width		:	1px ;
+	border-color		:	#ccc ;
+	margin			:	5px ;
+	width			:	480px ;
+	height			:	300px ;
+	/*font-size		:	12px ;*/
+}
+
+form.comment textarea {
+	width			:	30em;
+	height			:	5em;
+}
+
+blockquote textarea {
+	width			:	400px ;
+}
+
+del {
+	color			:	#888 ;
+}
+ins {}
+
+q {
+	background-color	:	#ded ;
+}
+cite {}
+
+/*------------------------------------------------------------------------------*/
+a:link {
+	color			:	#064 ;
+}
+a:visited {
+	color			:	#693 ;
+}
+a:hover {
+	color			:	#a00 ;
+	text-decoration		:	none ;
+}
+
+a.keyword:link,
+a.okeyword:link {
+	color			:	#343 ;
+	border-bottom		:	solid 1px #693 ;
+	text-decoration		:	none ;
+}
+a.keyword:visited,
+a.okeyword:visited {
+	color			:	#343 ;
+	border-bottom		:	dashed 1px #693 ;
+	text-decoration		:	none ;
+}
+
+/*------------------------------------------------------------------------------*/
+
+body {
+	width			:	750px ;
+	margin			:	0px auto ;
+	font-size		:	100% ;
+}
+
+div.main {
+	margin-left		:	230px ;
+	text-align		:	left ;
+}
+
+div.sidebar {
+	position		:	absolute ;
+	top			:	55px ;
+	left			:	0px ;
+	width			:	222px ;
+	text-align		:	left ;
+}
+
+div.calendar {
+	margin			:	15px ;
+}
+
+div.footer {
+	text-align		:	center ;
+	margin			:	15px ;
+	font-size		:	90% ;
+}
+
+/*------------------------------------------------------------------------------*/
+
+div.day {
+	margin			:	0 auto ;
+	padding-bottom		:	30px ;
+	width			:	510px ;
+	line-height		:	1.6 ;
+	word-break		:	break-all ;
+	word-wrap		:	break-word ;
+	background		:	url("./foot.gif") 0px 100% no-repeat scroll transparent ;
+}
+.main div.day {
+	margin			:	0px 0px 3em 0px ;
+	padding-bottom		:	0px ;
+	width			:	510px ;
+	background		:	url("./body_main.gif") 0px 0px repeat-y scroll transparent ;
+}
+
+div.day h2 {
+	text-align		:	left ;
+	padding			:	15px 15px 15px 15px ;
+	border-bottom		:	solid 1px #ddd ;
+	background		:	url("./head.gif") 0px 0px no-repeat scroll transparent ;
+	text-align		:	center ;
+	letter-spacing		:	1px ;
+}
+.main div.day h2 {
+	margin			:	0px 0px 10px 0px ;
+	background		:	url("./head_main.gif") 0px 0px no-repeat scroll transparent ;
+}
+
+div.day h2 a:link,
+div.day h2 a:visited {
+	color			:	#260 ;
+	text-decoration		:	none ;
+}
+
+span.title {
+	margin			:	0px 2px ;
+}
+
+div.body {
+	background		:	url("./body.gif") 0px 0px repeat-y scroll transparent ;
+	padding			:	15px 0px 15px 0px ;
+	text-align		:	left ;
+	width			:	auto ;
+	_width			:	100% ;
+}
+.main div.body {
+	padding			:	0px 5px 1em 5px ;
+	background		:	url("./foot_main.gif") 0px 100% no-repeat scroll transparent ;
+}
+
+img.photo {
+	float: right ;
+	margin: 5px;
+}
+
+div.section {
+	margin			:	5px 15px 10px 15px ;
+}
+.main div.section {
+	margin-right		:	0px ;
+	margin-left		:	0px ;
+}
+
+div.section h3 {}
+
+h3 a {
+	text-decoration		:	none ;
+}
+
+span.sanchor {
+	margin-right		:	2px ;
+	width			:	20px ;
+	height			:	20px ;
+	display			:	block ;
+	font-size		:	1px ;
+	float			:	left ;
+	clear			:	left ;
+	cursor			:	pointer ;
+	background		:	url("./sanchor.gif") 0px 0px no-repeat scroll transparent ;
+	color			:	#fff ;
+}
+
+span.timestamp {
+
+	font-size		:	80% ;
+	font-weight		:	normal ;
+	color			:	#999 ;
+}
+
+div.section p {
+	margin			:	5px 15px ;
+}
+div.section dl,
+div.section pre,
+div.section blockquote {
+	margin			:	15px ;
+}
+
+div.footnote {
+	font-size		:	90% ;
+	margin			:	15px ;
+}
+p.footnote {
+	text-indent		:	0px ;
+}
+span.footnote {
+	margin-right		:	0.5em ;
+}
+
+
+div.comment {
+	background		:	url("./body.gif") 0px 0px repeat-y scroll transparent ;
+	text-align		:	left ;
+}
+.main div.comment {
+	padding			:	0px 0px 20px 0px ;
+	background		:	url("./foot_main.gif") 0px 100% no-repeat scroll transparent ;
+}
+
+div.caption {
+	font-size		:	90% ;
+	text-align		:	left ;
+	padding			:	15px ;
+	border-top		:	solid 1px #ddd ;
+	border-bottom		:	solid 1px #ddd ;
+	background		:	url("./body.gif") 0px 0px repeat-y scroll transparent ;
+}
+.main div.caption {
+	padding			:	10px 15px ;
+	border-top		:	none ;
+	background		:	url("./head_main.gif") 0px 0px no-repeat scroll transparent ;
+}
+
+div.commentshort {
+	padding			:	15px 15px 10px 15px ;
+	font-size		:	100% ;
+}
+div.commentshort p {
+	padding-left		:	0.5em ;
+	position		:	relative ;
+	top			:	0px ;
+	left			:	0px ;
+	text-indent		:	0px ;
+	border-top		:	solid 1px #fff ;
+}
+
+span.canchor {
+	color			:	#000 ;
+}
+
+a span.commentator {
+	cursor			:	pointer ;
+}
+
+div.refererlist {
+	text-align		:	left ;
+	padding			:	15px 0px ;
+	background		:	url("./body.gif") 0px 0px repeat-y scroll transparent ;
+}
+
+.main div.refererlist {
+	padding			:	0px 0px 15px 0px ;
+	background		:	url("./foot_main.gif") 0px 100% no-repeat scroll transparent ;
+}
+div.refererlist ul {
+	margin			:	0px 15px 15px 15px ;
+	padding			:	15px ;
+}
+div.refererlist ul li {
+	margin-left		:	1em ;
+	list-style		:	circle ;
+	color			:	#000 ;
+}
+
+/*------------------------------------------------------------------------------*/
+
+div.hatena-module {
+	margin			:	0px 0px 25px 10px ;
+	width			:	210px ;
+	background		:	url("./module.gif") 0px 0px repeat-y scroll transparent ;
+}
+
+div.hatena-moduletitle {
+	margin			:	0px 0px 1em 0px ;
+	padding			:	15px 0px ;
+	background		:	url("./moduletitle.gif") 0px 0px no-repeat scroll transparent ;
+	border-bottom		:	solid 1px #ddd ;
+	text-align		:	center ;
+}
+
+div.hatena-modulebody {
+	padding			:	0px 5px 15px 5px ;
+	text-align		:	center ;
+	background		:	url("./modulebody.gif") 0px 100% no-repeat scroll transparent ;
+
+}
+
+div.hatena-modulebody ul {
+	list-style-type		:	circle ;
+	margin			:	0px 0px 0px 20px ;
+	padding			:	0px ;
+	text-align		:	left ;
+	line-height		:	1.5 ;
+	color			:	#000 ;
+}
+div.hatena-modulebody ul li {}
+
+div.hatena-modulebody ul li img {
+	margin			:	0px 0px 1px 0px ;
+	border-style		:	solid ;
+	border-color		:	#272 ;
+	border-width		:	1px ;
+	vertical-align		:	middle ;
+}
+
+table.calendar {
+	width			:	auto ;
+	margin			:	0px auto ;
+	font-size		:	12px ;
+	border			:	none ;
+	background-color	:	transparent ;
+}
+table.calendar td {
+	background-color	:	transparent ;
+	text-align		:	center ;
+	padding			:	2px ;
+}
+table.calendar img {
+	width			:	1em ;
+	height			:	1em ;
+	border			:	solid 1px #272 ;
+}
+
+div.hatena-modulebody ul.hatena-photo {
+	margin			:	0px 5px ;
+	text-align		:	center ;
+}
+div.hatena-modulebody ul.hatena-photo li {
+	display			:	inline ;
+}
+
+/*------------------------------------------------------------------------------*/
+
+div.day form {
+	margin			:	0px ;
+	background		:	url("./foot.gif") 0px 0px repeat-y scroll transparent ;
+}
+
+form div.section {
+	margin-right		:	0px ;
+	margin-left		:	0px ;
+}
+
+h3.subtitle {
+	padding			:	5px ;
+	border-top		:	dashed 1px #ddd ;
+	border-bottom		:	dashed 1px #ddd ;
+}
+
+div.day h3.subtitle {
+	background-image	:	none ;
+}
+
+div.day div.comment form div.commentshort {
+	text-align		:	left ;
+	padding			:	15px ;
+	background		:	url("./body.gif") 50% 0% repeat-y scroll transparent ;
+}
+
+div.comment form {
+	background		:	none transparent ;
+}
+
+div.day form table {
+	margin			:	0px auto ;
+	_margin			:	0px 5px ;
+	width			:	auto ;
+	_width			:	500px ;
+	font-size		:	12px ;
+	border-collapse		:	collapse ;
+	border			:	none ;
+	background-color	:	transparent ;
+}
+div.day form table input {
+	margin			:	0px ;
+}
+
+div.day input,
+div.day select {
+	margin			:	0px 5px ;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+p, dl, ul, ol, table, blockquote, pre, form, del, ins {
+	clear			:	left ;
+}
+
+div.day table {
+	width			:	auto ;
+	font-size		:	100% ;
+	border			:	solid 1px #396 ;
+	background-color	:	transparent ;
+	margin			:	15px ;
+}
+div.day th,
+div.day td {
+	border			:	solid 1px #6c9 ;
+}

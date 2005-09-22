@@ -1,0 +1,529 @@
+@charset "euc-jp";
+
+body {
+color: #888;
+background: #000 url(cross-mini.png) repeat;
+font-size:100%;
+font-family: Osaka,MS P Gothic,Sans-Serif;
+/*
+margin: 0px 0px 0px 188px;
+*/
+padding: 0px;
+word-wrap: break-word;
+}
+
+/* リンク文字列に関する設定 */
+
+a:link {
+color: #99F;
+background-color: transparent;
+font-weight:bold;
+text-decoration: underline;
+line-height:100%;
+}
+
+a:visited {
+color: #ff4822;
+background-color: transparent;
+text-decoration: none;
+font-weight:bold;
+
+}
+
+a[href]:hover {/*for Mozilla*/
+color: #f00;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.hover {
+color: #f00;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.keyword {
+text-decoration: none;
+font-weight:normal;
+}
+
+a.keyword:visited {
+text-decoration: none;
+font-color: #6600A9;
+}
+
+
+
+H1 {
+color: #ffe244;
+background: #444;
+font-size: 125%;
+padding: 0.2em;
+text-align: right;
+line-height:100%;
+margin-bottom:2em;
+margin-left:10em;
+margin-right:1.5em;
+border: 3px double #779;
+}
+
+H1:first-letter {
+color:#4f4;
+}
+
+H2 {
+color:#ffe244;
+font-size:110%;
+border: 3px double #779;
+margin: 1em;
+padding: 1em;
+background: #aaa;
+}
+
+H3 {
+color: #ffe244;
+font-weight: bold;
+font-size: 85%;
+margin:0 0 0.8em 0;
+padding: 0.2em;
+border-bottom: 3px double #779;
+background: #444 ;
+}
+
+H3:first-letter {
+color: #4f4;
+}
+
+H4 {
+color: #ffe244;
+margin:1.8em 2em 0.8em 0.5em;
+padding: 0.2em 0.2em 0.2em 1.5em;
+border: 3px double #799;
+font-weight:bold;
+font-size:85%;
+background: #444;
+}
+
+H4:first-letter {
+color:#4f4;
+}
+
+H5 {
+color: #ffe244;
+background: #444;
+margin:1.8em 7em 0.8em 0.9em;
+padding: 0.2em 0.2em 0.2em 2em;
+border: 3px double #799;
+font-weight:bold;
+font-size:85%;
+}
+
+H5:first-letter {
+color:#4f4;
+}
+
+span.title {
+
+}
+
+/* 引用の設定 */
+blockquote {
+font-size:90%;
+margin: 0.7em 3em 1em 3em;
+padding: 0.8em 1.2em 0.8em 1.5em;
+border: 3px double #ccc;
+color:#0f0;
+background: #000 url(cross-mini.png) repeat;
+}
+
+blockquote p {
+margin: 0.5em 0em 0.5em 0em;
+}
+
+/* pre,quateに関する設定 */
+pre {
+font-size: 100%;
+margin: 0.7em 3em 1em 3em;
+padding: 0.8em 1.2em 0.8em 1.5em;
+border: 3px double #ccc;
+color:#0F0;
+background: #000 url(cross-mini.png) repeat;
+overflow:auto;
+}
+
+
+/* 項目リストの設定 */
+div.body dl {
+font-size: 100%;
+margin-left: 2em;
+}
+
+div.body dt {
+font-size: 100%;
+margin-bottom: 0.2em;
+font-weight: bold;
+}
+
+div.body dd {
+font-size: 100%;
+margin-left: 1em;
+margin-bottom: 0.5em;
+}
+
+div.body ul, div.body ol {
+margin-left: 3em;
+margin-right: 3em;
+font-size: 100%;
+}
+
+/* ここからdivの編集 */
+div.body {
+
+}
+
+
+div.day {
+padding:0.3em 0.3em 0 0.3em;
+border-bottom:3px dotted #779;
+margin-bottom:2.5em;
+background:transparent ;
+
+}
+
+div.section {
+padding:0.7em;
+color:#0f0;
+background: #000 ;
+border: 3px double #779;
+padding:0 0 1.5em 0;
+margin: 1em 0.3em 1.9em 0.3em;
+}
+
+div.section p {
+font-size:100%;
+line-height:150%;
+margin: 0.3em 2em 0.3em 1.6em;
+}
+
+/* 特殊div */
+body {
+margin: 0px 0px 0px 188px;
+}
+
+div.category0 {
+font-weight: bold;
+text-align:right;
+margin: 1.5em 0.7em 0.7em 0.7em;
+}
+
+div.hatena-module {
+font-size: 90%;
+border: 3px double #779;
+padding:0;
+line-height: 150%;
+background: #000 ;
+margin-bottom:0.5em;
+}
+
+div.hatena-module p {
+margin:0;
+padding: 0.3em 1.3em 0.3em 1.3em;
+
+}
+
+div.hatena-moduletitle {
+color: #ffe244;
+font-size: 100%;
+font-weight: bold;
+background: #444;
+border-bottom: 3px double #779;
+margin:0 0 0.8em 0;
+padding: 0.1em 0.3em 0.1em 1.3em;
+text-decoration: none;
+}
+
+div.hatena-moduletitle:first-letter {
+color: #4f4;
+}
+
+/* 注釈 */
+div.body span.footnote {
+vertical-align: super;
+font-size: xx-small;
+}
+
+div.footnote {
+background: #E4E4E4 url(tyu.png) no-repeat;
+border-style: solid;
+border-color: #000;
+border-width: 1 1 1 2px;
+margin: 2.5em;
+padding: 1.6em;
+font-size: 9pt;
+}
+
+/* 複数行入力フィールドの設定 */
+div.textarea {
+display: block;
+vertical-align: top;
+}
+
+textarea {
+width: 90%;
+height: 50%;
+}
+
+/* ここからコメント欄の設定 */
+
+div.comment {
+font-size: 100%;
+border-top: 1px solid #bbb;
+border-right: 1px solid #ddd;
+border-left: 1px solid #444;
+border-bottom: 1px solid #555;
+margin:0.5em 0.7em 1.5em 0.7em;
+padding:0;
+line-height: 180%;
+}
+
+div.update div.comment {
+margin-left: 0;
+}
+
+/*
+ツッコミ欄タイトル行の設定
+*/
+div.caption {
+text-align:right;
+font-size:90%;
+margin: 0.5em;
+}
+
+
+/*
+Latest時のコメント表示
+*/
+div.commentshort {
+font-size: 90%;
+margin-left: 2em;
+}
+div.commentshort p {
+margin-top: 0.2em;
+margin-bottom: 0.2em;
+line-height: 1.2em;
+}
+
+/*
+コメント本文の設定
+*/
+div.commentbody {
+font-size: 90%;
+margin: 0.5em;
+line-height: 150%;
+}
+
+div.commentbody p {
+margin: 0.5em;
+margin-left: 2em;
+padding-bottom:0.3em;
+}
+
+div.commentator {
+border-style: solid;
+border-color: #c0c0c0;
+border-width: 0px 0px 1px 0px;
+line-height: 1.5em;
+}
+
+span.commentator {
+font-weight:bold;
+}
+
+/* サイドバー */
+
+div.sidebar {
+width:180px;
+position:absolute;
+top:80;
+left:0;
+margin:0;
+font-size:100%;
+
+
+}
+
+div.sidebar ul {
+font-size:90%;
+line-height: 180%;
+margin: 0.6em 0.2em 0.6em 0.2em;
+padding-top:0;
+padding-bottom: 0.3em;
+list-style-type: none;
+}
+
+div.sidebar li {
+line-height: 180%;
+margin: 0.6em 0.2em 0.6em 0.2em;
+padding-bottom: 0.3em;
+}
+
+ul.hatena-section {
+line-height: 180%;
+margin: 0.6em 0.2em 0.6em 0.2em;
+padding-bottom: 0.3em;
+}
+
+ul.hatena-recentcomment {
+line-height: 180%;
+margin: 0.6em 0.2em 0.6em 0.2em;
+padding-bottom: 0.3em;
+}
+
+ul.hatena-hotkeyword {
+margin: 0.6em 0.2em 0.6em 0.2em;
+padding-bottom: 0.3em;
+}
+
+/*        spanとか         */
+span.title {
+
+}
+
+span.title:first-letter {
+color: #f00;
+}
+
+
+/* hatena */
+calendar {
+margin-left: 3em;
+padding: 1em;
+}
+
+
+
+
+/* リンク元リスト(短い方)の設定 */
+div.referer {
+text-align:right;
+font-size:80%;
+color: #f05000;
+background-color: transparent;
+margin: 0em;
+}
+div.referer a:link {
+color: #f05000;
+background-color: transparent;
+}
+div.referer a:visited {
+color: #d06000;
+background-color: transparent;
+}
+
+
+/* リンク元リスト(全体一覧)の設定 */
+div.refererlist {
+background-color: transparent;
+color: #f05000;
+border-style: solid;
+border-color: #c0c0c0;
+border-width: 1px 0px 0px 0px;
+padding: 2px;
+padding-bottom: 1px;
+}
+
+div.refererlist a:link {
+color: #f05000;
+background-color: transparent;
+}
+div.refererlist a:visited {
+color: #d06000;
+background-color: transparent;
+}
+
+/* リンク元リスト一覧の設定 */
+div.refererlist ul {
+font-size: 80%;
+margin: 0.5em 1em 0.5em 3em;
+line-height: 1.2em;
+}
+
+
+div.s_counter {
+color:e6e6e6;
+}
+
+
+/* デフォルトの設定値 */
+
+ul.hatena_photo {list-style-type:none;}
+ul.hatena_photo li{display:inline;}
+
+
+span.highlight {
+color: black;
+background-color: yellow;
+}
+img.photo {
+float: right;
+margin: 10px;
+border: 0;
+}
+
+div.hatena-asin-detail {
+margin: 10px;
+padding-left: 10px;
+}
+
+div.hatena-asin-detail p {
+text-indent: 0em ! important;
+line-height: 150%;
+}
+
+div.hatena-asin-detail ul {
+list-style-type: none;
+margin: 0;
+margin-top: 10px;
+padding: 0;
+}
+
+img.hatena-asin-detail-image {
+float: left;
+border: 0;
+}
+
+div.hatena-asin-detail-info {
+margin-left: 10px;
+float: left;
+word-break: break-all;
+}
+
+p.hatena-asin-detail-title {
+font-weight: bold;
+}
+
+div.hatena-asin-detail-foot {
+clear: left;
+}
+
+
+span.mincho {
+font-family: "MS Mincho","Kochi Mincho",Serif;
+font-size:100%;
+}
+
+div.sidemenu {
+margin: 0em,1.5em,1.5em,1.5em;
+}
+
+div.sidemenu a{
+text-decoration: none;
+}
+
+div.sidemenu img {
+margin:0;
+padding:0;
+border:0;
+}
+
+

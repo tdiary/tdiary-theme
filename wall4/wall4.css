@@ -1,0 +1,577 @@
+@charset 'euc-jp';
+@import url(./base.css);
+
+
+
+/***** ***** ***** ***** Basic Elements ****** ***** ***** *****/
+/*---------------[ Universal Selector ]---------------*/
+
+* {}
+
+
+
+/*---------------[ Basic Elements ]---------------*/
+/*-----[ HTML & BODY ]-----*/
+
+html {}
+body {
+	background-color	:	#fff ;
+	color			:	#000 ;
+}
+
+
+
+/*-----[ Table -Hatena Table Header- ]-----*/
+
+table {}
+td {}
+table table {}
+td td {
+	background-color	:	#fff ;
+}
+td font {
+	color			:	#f66 ;
+}
+td a:link font {}
+td a:visited font {}
+td a:active font {}
+td a:hover font {}
+
+
+
+/*-----[ Hn ]-----*/
+
+h1 {
+	background-image	:	url(./wall4_h1.gif) ;
+	background-color	:	#f99 ;
+	color			:	#fee ;
+}
+
+h2, h3 {}
+h2 {}
+h3 {}
+
+p {}
+
+ul {}
+ul li {}
+ol {}
+ol li {}
+li {}
+
+dl {}
+dt {
+	border-bottom-color	:	#fcc ;
+}
+dd {}
+
+blockquote {
+	border-color		:	#f99 ;
+}
+blockquote p {}
+blockquote ul,
+blockquote ol,
+blockquote dl,
+blockquote pre {}
+blockquote ul {}
+blockquote ol {}
+blockquote dl {}
+blockquote pre {}
+blockquote cite {
+	border-top-color	:	#fcc ;
+}
+
+pre {
+	border-color		:	#f66 ;
+	background-color	:	#fee ;
+	color			:	#222 ;
+}
+
+del {
+	color			:	#999 ;
+}
+ins {
+	border-bottom-color	:	#99f ;
+}
+
+form {}
+input {}
+textarea {}
+
+img {}
+
+
+
+/*---------------[ Pseudo Elements -Basic- ]---------------*/
+
+a:link {
+	color			:	#000 ;
+}
+a:visited {
+	color			:	#666 ;
+}
+a:active {}
+a:hover {
+	color			:	#f30 ;
+}
+
+
+
+
+
+/***** ***** ***** ***** Hatena-Diary Classes ***** ***** ***** *****/
+/*---------------[ Layout Classes // Huge Box ]---------------*/
+
+
+
+/*----------[ Commons ]----------*/
+
+table, div.adminmenu, h1, div.hatena-body,
+div.main, div.sidebar,div.calendar,div.footer {
+	border-color		:	#f66 ;
+}
+table {}
+table table {}
+div.adminmenu, h1, div.hatena-body {}
+
+
+
+/*----------[ Div.hatena-body ]----------*/
+div.hatena-body {}
+
+
+
+/*----------[ Div.main ]----------*/
+
+div.main {}
+
+/*----------[ Div.sidebar ]----------*/
+
+div.sidebar {}
+
+
+
+/*----------[ Div.adminmenu ]----------*/
+
+div.adminmenu {
+	background-color	:	#fff ;
+	color			:	#333 ;
+}
+span.adminmenu {}
+
+span.adminmenu a:link,
+span.adminmenu a:visited {
+	color			:	#f66 ;
+}
+span.adminmenu a:hover {
+	color			:	#000 ;
+}
+
+
+
+/*[ CASE1: Child of div.hatena-body ]*/
+
+div.hatena-body div.adminmenu {}
+
+
+/*[ CASE2: Child of div.main ]*/
+
+div.main div.adminmenu {}
+
+
+/*[ CASE3: Child of div.sidebar ]*/
+
+div.sidebar div.adminmenu {}
+div.sidebar span.adminmenu {
+	border-bottom-color	:	#f66 ;
+}
+div.sidebar span.adminmenu a {}
+div.sidebar span.adminmenu a:link,
+div.sidebar span.adminmenu a:visited {
+	background-color	:	#fff ;
+	color			:	#333 ;
+}
+div.sidebar span.adminmenu a:hover {
+	background-color	:	#fff ;
+	color			:	#f60 ;
+}
+
+
+
+
+/*----------[ Others ]----------*/
+div.calendar {
+	background-color	:	#fee ;
+	color			:	#fcc ;
+}
+div.main div.calendar {}
+div.calendar a:link,
+div.calendar a:visited {
+	color			:	#f66 ;
+}
+div.calendar a:hover {
+	color			:	#000 ;
+}
+div.footer {}
+
+.hatena-description {
+	border-color		:	#f66 ;
+	background-color	:	#fdd ;
+	color			:	#433 ;
+}
+
+
+
+
+
+/***** ***** ***** Hatena Diary Classes ***** ***** *****/
+/*---------------[ Commons ]---------------*/
+div.day h2,
+div.body,
+div.comment,
+div.refererlist {}
+
+div.day, div.day h2 {
+	border-color		:	#f66 ;
+}
+
+div.section,
+div.footnote,
+div.comment,
+div.refererlist {
+	border-color		:	#f66 ;
+	background-color	:	#fff ;
+	color			:	#333 ;
+}
+
+
+/*-----[ Keyword ]-----*/
+
+a.keyword:link,
+a.okeyword:link {
+	color			:	#333 ;
+	border-bottom-color	:	#fbb ;
+}
+a.keyword:visited,
+a.okeyword:visited {
+	color			:	#333 ;
+	border-bottom-color	:	#fbb ;
+}
+
+
+
+/*---------------[ Div.day ]---------------*/
+
+div.day {
+	background-color	:	#fff ;
+	color			:	#333 ;
+}
+.main div.day {
+	background-color	:	#fcc ;
+	color			:	#333 ;
+}
+
+div.day h2 {
+	background-color	:	#fbb ;
+	color			:	#000 ;
+}
+.main div.day h2 {
+	background-color	:	#faa ;
+	color			:	#000 ;
+}
+
+div.day h2 a:link,
+div.day h2 a:visited {
+	color			:	#fff ;
+}
+
+div.day h2 a:hover {
+	color			:	#f66 ;
+}
+
+span.date {
+	border-color		:	#f66 ;
+}
+
+a:link span.date,
+a:visited span.date {
+	background-color	:	#fcc ;
+	color			:	#faa ;
+}
+a:hover span.date {
+	background-color	:	#fff ;
+	color			:	#f99 ;
+}
+
+span.title {}
+
+
+
+/*----------[ Div.body ]----------*/
+div.body {}
+img.photo {
+	border-color		:	#f66 ;
+}
+
+
+
+/*----------[ Div.section ]----------*/
+div.section {}
+div.section h3 {
+	border-bottom-color	:	#fbb ;
+}
+
+div.section h3 a:link,
+div.section h3 a:visited {}
+span.sanchor {}
+a:link span.sanchor,
+a:visited span.sanchor {
+	color			:	#f66 ;
+}
+a:hover span.sanchor {
+	color			:	#f99 ;
+}
+a.sectioncategory:link,
+a.sectioncategory:visited {
+	color			:	#f66 ;
+}
+a.sectioncategory:hover {
+	color			:	#f33 ;
+}
+
+span.timestamp {
+	color			:	#ccc ;
+}
+
+
+/*----------[ Div.footnote ]----------*/
+div.footnote {}
+p.footnote {}
+span.footnote {}
+
+
+
+/*----------[ Div.comment & Div.refererlist ]----------*/
+div.comment {}
+div.commentshort {
+	border-top-color	:	#fbb ;
+}
+div.commentshort p {}
+span.canchor {
+	color			:	#f66 ;
+}
+a.commentator {}
+div.refererlist {}
+div.refererlist ul {
+	border-top-color	:	#fbb ;
+}
+div.caption {}
+
+
+
+
+
+/***** ***** ***** Hatena Module Classes (Inner Sidebar Classes) ***** ***** *****/
+/*---------------[ Commons ]---------------*/
+form.hatena-searchform,
+ul.hatena-photo,
+div.hatena-modulebody ul li {
+	border-bottom-color	:	#f66 ;
+}
+
+form.hatena-searchform,
+table.calendar,
+ul.hatena-photo,
+div.hatena-modulebody ul li a:link,
+div.hatena-modulebody ul li a:visited {
+	background-color	:	transparent ;
+	color			:	#933 ;
+}
+
+/*---------------[ Div.hatena-module ]---------------*/
+
+div.hatena-module {
+	background-color	:	#fdd ;
+	color			:	#333 ;
+}
+
+div.hatena-moduletitle {
+	border-bottom-color	:	#f66 ;
+	background-color	:	#f88 ;
+}
+div.hatena-moduletitle,
+div.hatena-moduletitle a:link,
+div.hatena-moduletitle a:visited {
+	color			:	#fcc ;
+}
+div.hatena-moduletitle a:hover {
+	color			:	#fff ;
+}
+
+div.hatena-modulebody {}
+div.hatena-modulebody ul {}
+div.hatena-modulebody ul li {}
+div.hatena-modulebody ul li a {}
+div.hatena-modulebody ul li a:link,
+div.hatena-modulebody ul li a:visited {}
+div.hatena-modulebody ul li a:hover {
+	background-color	:	#fff ;
+	color			:	#f55 ;
+}
+
+
+
+/*---------------[ Searchform Module ]---------------*/
+
+form.hatena-searchform {}
+
+input.hatena-searchform {
+	background-color	:	#fff ;
+	color			:	#333 ;
+	border-color		:	#f66 ;
+}
+span.highlight {
+	background-color	:	#f66 ;
+	color			:	#fff ;
+}
+
+
+
+/*---------------[ Calendar2photo Module ]---------------*/
+
+table.calendar {
+	color			:	#f99 ;
+}
+table.calendar td {
+	border-color		:	#f99 ;
+}
+
+td.calendar-prev-month {}
+td.calendar-current-month {}
+td.calendar-next-month {}
+
+td.calendar-sunday,
+td.calendar-weekday,
+td.calendar-saturday {
+}
+td.calendar-sunday {
+	color			:	#f66 ;
+}
+td.calendar-weekday {
+	color			:	#f99 ;
+}
+td.calendar-saturday {
+	color			:	#66f ;
+}
+td.calendar-day {}
+
+table.calendar td img {
+	border-color		:	#f66 ;
+}
+
+table.calendar a {}
+table.calendar td > img{}
+table.calendar a:link,
+table.calendar a:visited {
+	background-color	:	#faa ;
+	color			:	#f44 ;
+}
+table.calendar a:hover {
+	background-color	:	#fff ;
+	color			:	#f44 ;
+}
+table.calendar a:link img,
+table.calendar a:visited img {
+	border-color		:	#f99 ;
+}
+table.calendar a:hover img {
+	border-color		:	#f44 ;
+}
+
+
+
+/*---------------[ Photo Module ]---------------*/
+
+div.hatena-modulebody ul.hatena-photo li,
+div.hatena-modulebody ul.hatena-photo li a {}
+
+ul.hatena-photo {}
+div.hatena-modulebody ul.hatena-photo li {}
+img.hatena-photo {}
+a:link img.hatena-photo,
+a:visited img.hatena-photo {
+	border-color		:	#f66 ;
+}
+a:hover img.hatena-photo {
+	border-color		:	#f99 ;
+}
+
+
+
+/*---------------[ Section Module ]---------------*/
+ul.hatena-section {}
+
+/*---------------[ Antenna Module ]---------------*/
+ul.hatena-antenna {}
+
+/*---------------[ Question Module ]---------------*/
+ul.hatena-question {}
+
+/*---------------[ Keyword Module ]---------------*/
+ul.hatena-keyword {}
+
+/*---------------[ Hotkeyword Module ]---------------*/
+ul.hatena-hotkeyword {}
+
+/*---------------[ Hoturl Module ]---------------*/
+ul.hatena-hoturl {}
+
+/*---------------[ Hotasin Module ]---------------*/
+ul.hatena-hotasin {}
+
+
+
+
+
+/***** ***** ***** Editor's Classes ***** ***** *****/
+
+form div.day h2,
+div.day form h2 {}
+div.day form h2 {}
+
+div.day form h2 span.date {}
+div.day form h2 input {}
+
+div.day form div.body {
+	border-color		:	#f66 ;
+	background-color	:	#fff ;
+	color			:	#333 ;
+}
+div.day form div.body h3 {
+	border-top-color	:	#f99 ;
+	border-bottom-color	:	#fcc ;
+	background-color	:	#fee ;
+}
+div.day form div.body p {}
+div.day form div.body blockquote {}
+
+div.day input {}
+
+div.day form input,
+div.day form div.body input {}
+div.day form div.body p input,
+div.day form div.body dd input,
+div.day form div.body blockquote input,
+div.day form div.commentshort input,
+div.day div.commentshort form input,
+div.day form div.refererlist input {}
+
+div.day form textarea {}
+div.day form div.body p textarea,
+div.day form div.body blockquote textarea {}
+
+div.day form p table {}
+div.day form div.refererlist {}
+
+
+/***** ***** ***** ***** EOT ***** ***** ***** *****/

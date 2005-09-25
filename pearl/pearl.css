@@ -1,0 +1,861 @@
+@charset "euc-jp";
+
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+html *{
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body         { 
+	/*font-size: 80%;*/
+	/* MacIE5 \*/ 
+	letter-spacing: 1px;
+	/*  */
+	/*font-family: Verdana, Osaka, sans-serif;*/
+	line-height: 1.5; 
+	color: #333333; 
+	background-color: #ffffff; 
+	text-align: center;
+	margin: 0 5px 0 5px; 
+	padding: 0;
+
+	word-break: break-all ;
+	word-wrap: break-word ;
+
+	position: relative ;
+	width: 750px ;
+	max-width: auto ;
+}
+
+
+h1 {	
+	width: 750px;
+	height: 120px;
+	/*font-family: "Trebuchet MS",osaka,sans-serif;*/
+	text-align: left;
+	padding: 40px 40px;
+	margin: 20px auto 0 auto;
+	font-size: 200%;
+	line-height: 1.5;
+	letter-spacing: 0.2em;
+	color: #333333;
+	background-image: url("banner.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.hatena-body{
+	position: relative ;
+	width: 750px ;
+	max-width: auto ;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.main{
+	padding: 0px;
+	margin: 0 0 0 200px;
+}
+
+div.day{
+	margin: 0 auto 10px auto;
+	width: 550px ;
+
+	background-image: url("waku_03.gif");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding:  0 0 15px 0;
+}
+
+.main div.day {
+	padding: 0;
+	background-image: none;
+}
+
+h2,
+h2 a{
+	text-decoration: none;
+	border: none;
+	color: #333333;
+
+}
+
+h2 {
+	font-size: 100%;
+	font-weight:bold;
+	margin: 0;
+	padding: 18px 15px 5px 15px;
+	text-align: center;
+
+	background-image: url("waku_01.gif");
+	background-position: top left;
+	background-repeat: no-repeat; 
+}
+
+span.date{
+	letter-spacing: 0px;
+
+}
+
+span.title{
+	font-size: 100%;
+	letter-spacing: 1px;
+	/*font-family: Verdana, Osaka, sans-serif;*/
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+div.body{
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+	padding: 0 2em;
+	margin: 0;
+	text-align:left;
+	width: auto;
+	_width: 100% ;
+}
+
+.main div.body {
+	
+	background-image: url("waku_03.gif");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding:  0 0 15px 0;
+	margin: 0;
+}
+
+
+
+
+.main div.section{
+	margin: 0;
+	padding: 1em 2em;
+
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+}
+
+
+h3 {	
+	color: #333333;
+	font-size:100%;
+   	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 0 0.5em;
+	text-align:left;
+}
+
+h3 a{
+    border: none;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #ffffff;
+	margin: 0;
+	font-size: 1px;
+	padding: 13px 9px 7px 9px;
+	background-image: url("cl_sanchor.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+span.timestamp{
+	font-size:70%;
+	font-weight: normal;
+	letter-spacing: 0px; 
+}
+
+
+div.section P {	
+	margin: 1em;
+}
+
+
+/**************** decoration *************************/
+
+a{
+	text-decoration: none;
+	color: #333333;
+	border-bottom:solid 1px #333333;
+}
+
+a.keyword,
+a.okeyword {
+	text-decoration: none;
+	border-bottom: dotted 1px #d0d0d0;
+}
+
+a img{
+	border: none;
+}
+
+a:link    { }
+
+a:visited { } 
+
+a:hover   { 
+	background-color: #eeeeee;
+}
+  
+a:active  { 
+	color: #ff0000;
+} 
+
+h4 {	
+	color: #000000;
+	font-size:100%;
+   	font-weight: bold;
+	margin:0;
+	padding: 1em;
+	text-align:left;
+	word-break:break-all;
+}
+
+blockquote{
+	border: solid 1px #cccccc;
+	margin: 1em;
+	padding: 7px;
+}
+
+.section blockquote p{
+	margin: 7px;
+	padding: 0;
+}
+
+cite{
+	font-weight: bold;
+	font-style: normal;
+}
+
+cite a{
+	border: none;
+}
+
+pre	{
+	border: solid 1px #cccccc;
+	margin: 1em;
+	padding: 10px;
+}
+
+font{
+	line-height: 1.2em;
+}
+
+em,
+em a{
+	font-weight: normal;
+	font-style: normal;
+	border: none;
+	background-color: yellow;
+}
+
+ins,
+ins a{
+	text-decoration: none;
+	border: none;
+	color: #333333;
+}
+
+
+/************************* list **********************/
+
+
+.section ul{
+	margin: 1em 2em 1em 3em;
+	padding: 0;
+}
+
+
+.section ol{
+	margin: 1em 2em 1em 3.5em;
+	padding: 0;
+}
+
+.section ul li,
+.section ol li,
+.section ol ul,
+.section ol ol,
+.section ul ul,
+.section li li {
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+
+
+.section dl{
+	margin: 1em 2em;
+}
+
+.section dt{
+	font-weight: bold;
+}
+
+.section dd{
+}
+
+/********************** img ***************************/
+
+img.photo{
+	float: right;
+
+	position: relative;
+	margin: 0 2em 10px 10px;
+	border: 0;
+}
+
+img.asin{
+	float: right;
+	position: relative;
+	margin: 0 0 10px 10px;
+	border: 0;
+}
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+.main div.footnote{
+	padding: 1em 2em;
+
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 90%;
+}
+
+/********************** comment ***********************/
+
+div.comment,
+div.refererlist{
+	padding: 1em 0;
+	text-align: left;
+	_width: 100% ;
+
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+}
+
+.main div.comment,
+.main div.refererlist{
+	background-image: url("waku_03b.gif");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	padding: 0 0 15px 0;
+	margin: 0;
+}
+
+
+div.refererlist ul,
+div.comment ul{
+	margin: 0;
+	padding: 0 45px;
+	list-style-type: square;
+	font-size: 80%;
+	letter-spacing: 0px;
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+}
+
+form div.refererlist ul,
+form div.comment ul{
+	font-size: 100%;
+	letter-spacing: 1px;
+}
+
+div.caption{
+	background-image: none;
+	font-size: 100%;
+	_width:100%;
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+	padding: 0.5em 2em;
+}
+
+.main div.caption{
+	font-size: 80%;
+
+	background-image: url("waku_01.gif");
+	background-position: top left;
+	background-repeat: no-repeat; 
+	padding: 15px 20px 0 20px;
+	margin: 0;
+}
+
+
+
+div.caption a{
+        border: none;
+}
+
+div.commentshort{
+	margin: 0;
+	padding: 0 2em;
+	background-image: url("waku_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: transparent;
+
+}
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+
+span.commentator{
+	font-weight: bold;
+	display:block;
+	margin: 0 0 0 -1em;
+	padding: 5px 0 0 0;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 1em;
+	font-size: 90%;
+	letter-spacing: 0px; 
+	border-bottom: solid 1px #ffffff;
+}
+
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+
+/******************asin detail***********************/
+
+div.hatena-asin-detail {
+	margin: 1em;
+	padding: 7px;
+	border: solid 1px #cccccc;
+	_width: 100%;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info{
+	float: left;
+	margin: 0;
+	word-break: break-all;
+}
+
+.section p.hatena-asin-detail-title{
+	font-weight: normal;
+	_width: 100%;
+	margin: 0;
+}
+
+div.hatena-asin-detail-info ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail-info li {
+	margin: 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+form.hatena-searchform{
+	margin: 5px 10px;
+	padding: 0;
+	width: auto;
+}
+
+div.day form{
+	width: 550px;
+	margin: 0;
+	padding: 0;
+}
+
+div.day form{
+}
+
+div.day form div.body {
+
+}
+
+
+form h3{
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 1px #d0d0d0;
+	font-size: 100%;
+}
+
+div.day textarea{
+	width: 100%;
+}
+
+textarea,
+input{
+	letter-spacing: 0px;
+}
+
+/********************** sidebar ***********************/
+
+.sidebar {
+	position: absolute;
+	top: 250px; 
+	left: 10px;
+	width: 190px;
+	padding: 0;
+	margin: 0 ;
+	font-size: 90%;
+	text-align: left;
+	border: none;
+}
+
+.hatena-module{
+	margin:0 0 10px 0;
+	padding: 0 0 25px 0;
+	background-image: url("wakus_03.gif");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	text-align: left;
+	width: 100% ;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+	border: none;
+	color: #333333;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+
+.hatena-moduletitle{
+	font-size: 100%;
+	padding: 15px 1em 10px 1em;
+	margin: 0px;
+	text-align: center;
+	background-image: url("wakus_01.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+
+}
+
+.hatena-modulebody{
+	padding: 0 1.5em;
+	margin: 0;
+	font-size: 90%;
+	width: auto;
+	_width:100%;
+	background-image: url("wakus_02.gif");
+	background-position: top left;
+	background-repeat: repeat-y;
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.hatena-modulebody li {
+
+}
+
+.hatena-modulebody li a{
+	display: block;
+	padding: 3px 5px;
+	line-height: 1.1;
+	margin: 0;
+	border: solid 1px #ffffff;
+	width: 100%;
+}
+
+.hatena-modulebody li a:hover {
+	color: #333333;
+
+	border-top: solid 1px #aaaaaa;
+	border-left: solid 1px #aaaaaa;
+	border-right: solid 1px #e5e5e5;
+	border-bottom: solid 1px #e5e5e5;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+/*************** trackback/comment module ****************/
+
+.hatena-modulebody ul.hatena-recentcomment li a{
+	display: inline;
+	width: auto;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.hatena-modulebody ul.hatena-recentcomment li a:hover{
+	width: auto;
+	border: none;
+	background-color: #eeeeee;
+}
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 5px 10px;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-image: none;
+	border: 0;
+}
+
+ul.hatena-photo li a img{
+	filter: none;
+	border: 1px solid #999999;
+}
+
+ul.hatena-photo li a:hover img{
+	filter: none;
+	border: 1px solid #ff0000;
+}
+
+
+/********************** calender **********************/
+
+div.calendar {
+	font-size:80%;
+	color: #999999;
+	margin: 0 ;
+	width: 550px;
+	padding: 0;
+	text-align: right;
+}
+
+div.calendar a{
+	border: none;
+	color: #999999;
+}
+
+
+
+
+/********************** header **********************/
+
+table        { 
+	background-color : transparent;
+	margin: 0; 
+	padding: 0; 
+}
+
+td 
+{
+ 	background-color : transparent;
+}
+
+table table td{
+ 	background-color : transparent;
+}
+
+table table{
+	margin: 0;
+	padding:0;
+	border: none;
+	width: 100%;
+	border: 0;
+	background-image: none;
+	background-color : transparent;
+}
+
+table table td font, 
+table table td a{
+	border:none;
+	color: #999999;
+}
+
+table a{
+	border: none;
+}
+
+table input{
+	border: 1px solid #d0d0d0;
+	background-color : #ffffff;
+	color: #333333;
+}
+
+/********************** calendar2 **********************/
+
+div.calendar2{
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+table.calendar{
+	font-size: 100%;
+	letter-spacing: 0px;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	background-color: #ffffff;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	text-align: right;
+	
+}
+
+td.calendar-current-month{
+	font-weight: bold;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align:center;
+}
+
+td.calendar-day {
+
+}
+td.calendar-day a{
+	border-bottom: 1px solid #333333;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day img {
+	width: 12px;
+	height: 12px;
+	border: 0;
+}
+
+
+/************************ other ****************************/
+
+div.adminmenu{
+	text-align: right;
+	width: 710px;
+	padding: 0;
+	margin: 1em auto;
+	font-size: 80%;
+	color: #999999;
+}
+
+div.adminmenu a{
+	border: none;
+	color: #999999;
+}
+
+div.hatena-body div.adminmenu{
+	text-align: right;
+	margin: 0.5em 1em;
+	font-size:80%;
+}
+
+
+span.highlight {
+	background-color: yellow;
+	padding: 1px;
+}
+
+div.body {
+	clear: both;
+}

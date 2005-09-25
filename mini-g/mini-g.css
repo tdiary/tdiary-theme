@@ -1,0 +1,821 @@
+@charset "euc-jp";
+
+
+html {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+body         { 
+	/*font-size: 80%;*/
+	/*font-family: Verdana, Osaka, sans-serif;*/
+	line-height: 1.5; 
+	color: #333333;
+	background-color: #ffffff; 
+	text-align: center;
+	background-image: url("minig_background.gif");
+	/*background-position: top center;*/
+	background-repeat: repeat-y;
+
+	margin: 0; 
+	padding: 0;
+	word-break: break-all;
+	word-wrap: break-word;
+
+	position: relative;
+	width: 725px;
+}
+
+
+/* はてなダイアリーのタイトル */
+h1 {
+	width: 640px;
+	padding: 80px 0;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 150%;
+	font-weight: bold;
+	/*font-family: Myriad, Helvetica, Arial, sans-serif;*/
+}
+
+div.title a{
+	border: none;
+}
+
+/* h1以降にくくられる */
+.hatena-body{
+	position: relative;
+	width: 725px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* 記事部 */
+.main{
+	margin: 0 215px 0 30px;
+}
+
+/* 日付ごと */
+div.day {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	_width: 100%;
+
+}
+
+h2,
+h2 a{
+	text-decoration: none;
+	border: none;
+
+}
+
+h2 {
+	font-size: 120%;
+	/*font-family: Myriad, Helvetica, Arial, sans-serif;*/
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	text-align: left;
+	width: 470px;
+	_width: 480px;
+	
+}
+
+span.date{
+	margin: 0 5px;
+}
+
+span.title{
+	margin: 0 5px;
+}
+
+a.edit{
+	font-size: 80%;
+	font-weight: normal;
+}
+
+div.body {
+	
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 480px;
+}
+
+div.section{
+	margin: 0 0 20px 0;
+	padding: 0 0 5px 0;
+	text-align: left;
+	background-image: url("minig_section.gif");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-color: #F8F9FA;
+	color: #333333;
+}
+
+div.section p {	
+	margin: 10px 15px;
+	padding: 0;
+}
+
+h3 {	
+	font-size: 100%;
+   	font-weight: normal;
+	margin: 0;
+	padding: 9px 12px 0 12px;
+	text-align: left;
+	background-image: url("minig_h3.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+
+}
+
+.section h3 a{
+	border: none;
+}
+
+a.sectioncategory{
+	
+}
+
+span.sanchor{
+	color: #D7D8DA;
+	font-size: 1px;
+	padding: 10px 5px 3px 6px;
+	background-image: url("minig_sanchor.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+span.timestamp{
+	font-size: 70%;
+	font-weight: normal;
+	letter-spacing: 0; 
+}
+
+
+/********************** 装飾部 ************************/
+
+
+a{
+	text-decoration: none;
+	color: #333333;
+	border-bottom: solid 1px #333333;
+}
+
+
+a.keyword, 
+a.okeyword{
+	border-bottom: solid 1px #e3e3e3;
+}
+
+
+a:link{ }
+
+a:visited{ } 
+
+a:hover{ 
+	color: #ff0000;
+	border-color: #ff0000;
+}
+  
+a:active{  } 
+
+
+h4 {	
+   	font-size: 100%;
+   	font-weight: normal;
+	margin: 5px 10px;
+	padding: 0;
+	text-align: left;
+	word-break: break-all;
+	border-bottom: solid 1px #D3D4D6;
+}
+
+h5{
+   	font-size: 100%;
+   	font-weight: normal;
+	margin: 5px 10px;
+	padding: 0;
+	text-align:left;
+	word-break: break-all;
+}
+
+p.seemore{
+
+}
+
+p.seemore a{
+
+}
+
+p.message{
+	color: #ff0000;
+}
+
+blockquote{
+	margin: 10px 15px;
+	padding: 0;
+	border: solid 1px #D3D4D6;
+}
+
+.section blockquote p{
+	margin: 5px 8px;
+	padding: 0;
+}
+
+cite a{
+	border: none;
+}
+
+cite{
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	width: 98%;
+	_width: 100%;
+	padding: 3px 1%;
+	border-top: solid 1px #D3D4D6;
+}
+
+
+pre	{
+	margin: 10px 15px;
+	padding: 5px;
+	border: solid 1px #D3D4D6;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em
+{
+	font-weight: normal;
+	font-style: normal;
+	background-color: #D3D4D6;
+	color: #000000;
+}
+
+
+ins{
+	text-decoration: none;
+	color: #808080;
+}
+
+/************************* リスト **********************/
+
+.section ul{
+	margin: 7px 2em 7px 2em;
+	padding: 0;
+}
+
+.section ol{
+	margin: 7px 2em 7px 2.5em;
+	padding: 0;
+}
+
+.section ul li,
+.section ol li,
+.section ol ul,
+.section ol ol,
+.section ul ul,
+.section li li {
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+.section dl{
+	margin: 1em 2em;
+}
+
+.section dl{
+	margin: 10px 20px;
+}
+
+.section dt{
+	font-weight: normal;
+}
+
+
+/********************** 画像 ***************************/
+
+a img{
+	border: none;
+}
+
+img.photo{
+	float: right;
+	margin: 10px;
+}
+
+img.asin{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+img.hatena-fotolife {
+	border: none;
+}
+
+
+/********************* footnote **********************/
+
+span.footnote{
+	font-size: 70%;
+}
+
+span.footnote a{
+	border: 0;
+}
+
+div.footnote{
+	margin: 0 0 0 20px;
+	text-align: left;
+}
+
+p.footnote{
+	margin: 0;
+	font-size: 80%;
+}
+
+/********************** comment ***********************/
+
+div.comment,
+div.refererlist{
+	text-align: left;
+	padding: 0;
+	margin: 0 0 5px 20px;
+}
+
+div.caption{
+	font-size: 80%;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+div.caption a{
+	border: none;
+}
+
+form div.caption{
+	text-align: left;
+}
+
+div.refererlist ul{
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+	font-size: 80%;
+	letter-spacing: 0;
+}
+
+form div.refererlist ul{
+
+	text-align: left;
+
+}
+
+div.commentshort{
+	margin: 0 0 0 10px;
+	padding: 5px;
+	border-left: solid 1px #F8F9FA;
+
+}
+
+
+span.canchor{
+	display: none;
+}
+
+div.commentshort a{
+	border: none;
+}
+
+span.commentator{
+	display:block;
+	margin: 0 0 0 -1em;
+}
+
+span.commentator,
+span.commentator a{
+	color: #000000;
+}
+
+form span.commentator{
+	display: inline;
+	margin: 0;
+}
+
+div.commentshort P
+{
+	margin: 0 0 0 1em;
+	font-size: 100%;
+	letter-spacing: 0; 
+}
+
+
+div.commentshort textarea{
+	width: 90%;
+}
+
+
+/****************** asin detail ***********************/
+
+div.hatena-asin-detail {
+	margin: 10px 15px;
+	padding: 5px;
+	border: solid 1px #D3D4D6;
+	_width: 100%;
+}
+
+img.hatena-asin-detail-image {
+	float: left;
+	border: 0;
+	margin: 0 10px 0 0 ;
+}
+
+div.hatena-asin-detail-info{
+	float: left;
+	margin: 0;
+	word-break: break-all;
+}
+
+.section p.hatena-asin-detail-title{
+	font-weight: normal;
+	width: 100%;
+	border-bottom: solid 1px #D3D4D6;
+	margin: 0;
+}
+
+div.hatena-asin-detail-info ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail-info li {
+	margin: 0;
+	padding: 0;
+}
+
+
+div.hatena-asin-detail p a{
+	border: 0;
+}
+
+div.hatena-asin-detail-foot {
+	clear: left;
+}
+
+
+/************************ form **********************/
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+textarea,
+input{
+	letter-spacing: 0;
+	/*font-family: sans-serif;*/
+	/*_font-family: auto;*/
+}
+
+
+/********************** sidebar ***********************/
+
+.sidebar {
+	position: absolute;
+	top: 34px; 
+	right: 30px;
+	width: 165px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 80%;
+}
+
+.hatena-module{
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	text-align: left;
+	_width: 100%;
+}
+
+.hatena-moduletitle,
+.hatena-moduletitle a{
+	border: none;
+	color: #333333;
+
+}
+
+.hatena-moduletitle{
+	font-size: 150%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-weight: bold;
+	/*font-family: Myriad, Helvetica, Arial, sans-serif;*/
+}
+
+.hatena-modulebody{
+	padding: 0;
+	margin:  0;
+	_width:100%;
+
+}
+
+.hatena-modulebody a{
+	border: none;
+}
+
+/********************** sideber li **********************/
+
+
+.hatena-modulebody ul{
+	padding: 0 0 0 5px;
+	margin: 0;
+	list-style-type: none;
+	
+}
+
+.hatena-modulebody li {
+	display: block;
+}
+
+.hatena-modulebody li a{
+	color: #333333;
+}
+
+.hatena-modulebody li a:hover {
+	border: 0;
+}
+
+/**************** profile module *********************/
+
+div.hatena-profile{
+
+}
+
+div.hatena-profile p{
+	margin: 0;
+	padding: 0;
+}
+
+p.hatena-profile-image{
+
+}
+
+p.hatena-profile-id{
+	font-weight: bold;
+}
+
+p.hatena-profile-body{
+
+}
+
+/****************** rss module ********************/
+
+.hatena-modulebody dt{
+	margin: 0;
+	padding: 0;
+}
+
+.hatena-modulebody dd{
+	margin: 0 0 0 7px;
+	padding: 0;
+	color: #666666;
+}
+
+/******************* photo module *******************/
+
+
+ul.hatena-photo{
+	padding: 0;
+	margin: 0;
+	width: auto;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.hatena-photo li{
+	margin: 0;
+	display: inline;
+	width: none;
+	
+}
+
+ul.hatena-photo li img{
+	
+}
+
+ul.hatena-photo li a{
+	display: inline;
+	width: 48%;
+	margin: 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.hatena-photo li a:hover{
+	width: 48%;
+	background-image: none;
+}
+
+ul.hatena-photo li a img{
+}
+
+ul.hatena-photo li a:hover img{
+}
+
+
+
+/********************** calender **********************/
+
+
+div.calendar a{
+	border: none;
+}
+
+
+div.calendar{
+	font-size: 80%;
+	margin: 0 0 0 0;
+	_width: 100%;
+	padding: 0;
+	text-align: right;
+}
+
+
+
+
+/********************** header **********************/
+
+table        { 
+	background-color : transparent;
+	margin: 0 auto; 
+	padding: 0 6px;
+	width: 665px;
+	background-image: url("minig_head.gif");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+
+.hatena-body table{
+	margin: 0 ;
+	width: auto; 
+	padding: 0;
+	background-color: transparent;
+}
+
+
+td 
+{
+ 	background-color : transparent;
+}
+
+table table td{
+ 	background-color : transparent;
+}
+
+table table{
+	margin: 5px 0 0 0;
+	padding:0;
+	border: none;
+	width: 100%;
+	background-image: none;
+	background-color : transparent;
+}
+
+.hatena-body table table{
+	margin: 0;
+}
+
+
+table font, 
+table a{
+	border:none;
+	color: #333333;
+	font-size: 80%;
+}
+
+table font font{
+	font-size: 100%;
+}
+
+.hatena-body table a,
+.hatena-body table font{
+	font-size: 100%;
+}
+
+table a{
+	border: none;
+}
+
+table input{
+	border: 1px solid #D8D8D5;
+	background-color : transparent;
+	color: #333333;
+}
+
+/********************** calendar2 **********************/
+
+table.calendar{
+	font-size: 100%;
+	letter-spacing: 0;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	background-image : none;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #333333;
+}
+
+table.calendar td{
+
+}
+
+td.calendar-current-month{
+	font-weight: normal;
+}
+
+td.calendar-prev-month,
+td.calendar-current-month,
+td.calendar-next-month{
+	text-align: center;
+}
+
+td.calendar-day {
+
+}
+td.calendar-day a{
+	border-bottom: 1px solid #000000;
+}
+
+td.calendar-weekday,
+td.calendar-sunday,
+td.calendar-saturday{
+	display:none;
+}
+
+td.calendar-day img {
+	width: 12px;
+	height: 12px;
+	border: 0;
+}
+
+
+/*************** adminmenu **************************/
+
+div.adminmenu{
+	text-align: right;
+	width: 660px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.main div.adminmenu{
+	width: 100%;
+}
+
+.sidebar div.adminmenu{
+	width: 100%;
+	text-align: left;
+}
+
+.sidebar span.adminmenu{
+	display: block;
+}
+
+span.adminmenu a{
+	border: none;
+}
+
+/*************** other ******************************/
+
+span.highlight {
+	background-color: yellow;
+	padding: 1px;
+}
+
+div.footer{
+	padding: 10px;
+	text-align: center;
+}
+
+.footer,
+.footer a{
+	color: #000000;
+	border: none;
+}
+

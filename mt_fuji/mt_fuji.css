@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Mt.Fuji
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 License: GPL
@@ -79,7 +79,7 @@ div.day				{ background-color: #fff; }
 div.section pre	{ background-color: #aad; }
 
 /* background-image */
-body					{ background-image: url(h1.jpg); background-position: left top; background-repeat: repeat-x; }
+body					{ background-image: url(summer.jpg); background-position: left top; background-repeat: repeat-x; }
 
 /* float */
 div.main				{ float: left; }

@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Mt.Fuji
-Revision: $Revision: 1.3 $
+Revision: $Revision: 1.4 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 License: GPL
@@ -98,6 +98,8 @@ div.footer			{ clear: both; }
 
 /* font-size */
 div.adminmenu		{ font-size: 80%; }
+span.sanchor		{ font-size: 70%; }
+span.canchor		{ font-size: 70%; }
 div.footer			{ font-size: 80%; }
 div.sidebar			{ font-size: 90%; }
 

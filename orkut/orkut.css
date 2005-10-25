@@ -1,0 +1,346 @@
+@charset "euc-jp";
+/*
+Title: Orkut
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: Orkut
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+*/
+
+body {
+	background: #d6defe;
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+}
+
+hr.sep {
+	display:none;
+}
+
+a:link,a:visited {
+	color:#01a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.main {
+	margin-left: 210px;
+}
+
+div.sidebar {
+	position: absolute;
+	top : 10px;
+	left: 10px;
+	width:200px;
+	color:#296dc6;
+	font-size:80%;
+}
+
+div.sidebar ul {
+	margin-top:5px;
+	margin-left:0;
+}
+
+div.sidebar p {
+	margin-top:0.5em;
+}
+
+li.rss{
+	margin-bottom:0.5em;
+	margin-right :1em;
+}
+
+h1{
+	color:#296dc6;
+	text-align:right;
+	font-size:130%;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	font-weight:normal;
+}
+
+h2{
+	padding:4px 0 15px 0;
+	margin :0 0 0 10px;
+	color:#296dc6;
+	font-size:80%;
+	line-height:1em;
+}
+
+span.nyear {
+	font-weight:normal;
+}
+
+h3{
+	margin-top:2em;
+}
+
+h4{
+	border-bottom: solid 1px #a5b6e7;
+	color:#296dc6;
+	line-height:1em;
+	padding-bottom:5px;
+	margin-bottom:0.5em;
+}
+
+span.sanchor {
+	background-image: url(cube01.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 14px 15px 0px 0px;
+	margin-right:3px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+span.canchor , span.anchor {
+	background-image: url(aicon_137.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 10px 0px 0px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day {
+	background: #fffff0 url(tb2.gif) repeat-x top;
+	border: solid #a5b6e7;
+	border-width:0 1px 0 1px;
+	margin:1em 0 1em 0;
+}
+
+
+div.body {
+	padding-left:2em;
+	padding-right:1em;
+	padding-bottom:2em;
+}
+
+div.body p{
+	line-height: 1.7em;
+}
+
+div.section{
+	margin:1em 1em 0 1em;
+}
+
+div.section p {
+	margin:1em 0 0 1.5em;
+	text-indent:1em;
+}
+
+div.caption {
+	border-bottom: solid 1px #a5b6e7;
+	margin:0 1em 5px 3em;
+	padding-bottom:3px;
+	font-size:80%;
+}
+
+div.form div.caption {
+	margin-left:0;
+}
+
+div.commentshort p{
+	line-height: 1.5em;
+	margin :0 1em 0 4em;
+	font-size:80%;
+}
+
+div.commentshort{
+	margin :0.5em 0 0.5em 0;
+}
+
+div.commentator {
+	color:#296dc6;
+	font-weight:bold;
+}
+
+div.form {
+	margin-left:3em;
+}
+
+div.commentbody {
+	margin:1em 0 0 3em;
+}
+
+div.commentbody p{
+	margin:0 1em 1em 1em;
+	line-height: 1.7em;
+}
+
+div.refererlist {
+	margin:1em 0 1em 0;
+	padding-bottom:1em;
+	background: #fffff0 url(tb8.gif) repeat-x bottom;
+}
+
+div.refererlist ul {
+	font-size:80%;
+	line-height:1.2em;
+	margin-bottom:1em;
+	margin-left:3em;
+}
+
+div.refererlist li {
+	margin-left:3em;
+}
+
+div.adminmenu{
+	text-align:right;
+	font-size:80%;
+	color:#296dc6;
+}
+
+div.referer{
+	text-align:right;
+	font-size:80%;
+	background: #fffff0 url(tb8.gif) repeat-x bottom;
+	padding:0 10px 15px 0;
+}
+
+div.section pre,div.section blockquote {
+	background-color:#E7EFF7;
+	margin-left:2em;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+
+img {
+	border:1px #000 solid;
+}
+
+div.body img{
+	margin:0 5px 5px 5px;
+	line-height:1em;
+}
+
+img.right {
+	float:right;
+}
+
+img.bk1{
+	margin-right:10px;
+}
+
+img.amazon {
+	float:right;
+}
+
+div.sidebar img{
+	margin-top:5px;
+	margin-right:0;
+	margin-left:0;
+}
+
+span.blogmap {
+	font-weight:normal;
+	font-size:80%;
+	margin-left:0.4em;
+}
+
+div.footnote {
+	border-top: solid 1px #a5b6e7;
+	margin-top:2em;
+	margin-left:4em;
+	margin-right:3em;
+}
+
+span.footnote {
+	font-size: 80%;
+	margin : 0 2px 0 1px;
+	vertical-align: super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+div.footer {
+	margin-top:1em;
+	text-align:right;
+}
+
+span.inputtime {
+	color:#296dc6;
+	font-weight:normal;
+	font-size:80%;
+	margin-bottom:0;
+	margin-left:1em;
+}
+
+div.body li {
+	margin-bottom:0.4em;
+}
+
+div.calendar {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	font-size:80%;
+	text-align:right;
+}
+
+table.calendar {
+	width:150px;
+	margin-bottom:1em;
+}
+
+td.calendar-day a{
+	font-weight:bold;
+}
+
+div.keywordlist{
+	margin-top:1em;
+}
+
+span.keywordlist{
+	font-size:80%;
+	margin-left:4em;
+}
+
+
+ul.mm_footer {
+	font-size: 100%;
+	list-style-type: none;
+}
+
+ul.mm_footer span.url {
+	font-size: 70%;
+	color:#666;
+	margin-left: 1.5em;
+	margin-bottom:0;
+}
+
+ul.mm_footer span.info_link {
+	font-size: 80%;
+}
+
+ul.mm_footer span.kind {
+	font-size: 80%;
+}
+
+ul.mm_footer span.genre {
+	font-size: 80%;
+}
+
+ul.mm_footer span.eval {
+	font-size: 80%;
+}
+
+ul.mm_footer p {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-size: 90%;
+	margin-left: 1em;
+}
+

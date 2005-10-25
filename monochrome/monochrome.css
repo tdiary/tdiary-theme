@@ -1,0 +1,346 @@
+@charset "euc-jp";
+/*
+Title: Monochrome
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: 白黒タイル
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body{
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	background-color: #313031;
+	margin:0;
+}
+
+hr.sep{
+	display:none;
+}
+
+/* ----- link ----- */
+a:link,a:visited {
+	color: #666;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.section a:link,div.section a:visited {
+	color:#333;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+div.sidebar a:link, div.sidebar a:visited {
+	color: #ccc;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+div.sidebar a:hover {
+	text-decoration: underline;
+}
+
+div.adminmenu a:link, div.adminmenu a:visited {
+	color: #ccc;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+div.adminmenu a:hover {
+	text-decoration: underline;
+}
+
+/* ----- sidebar ----- */
+div.main {
+	margin-left: 220px;
+}
+
+div.main form,div.update form {
+	margin-left:2em;
+}
+
+div.sidebar {
+	position: absolute;
+	top : 140px;
+	left: 10px;
+	width:200px;
+	font-size:80%;
+	color:#ccc;
+}
+
+div.sidebar form {
+	margin:0 0 5px 0;
+}
+
+input.box {
+	background-color:#666;
+	color:#ccc;
+}
+
+div.sidebar li {
+	line-height:1.3em;
+}
+
+div.sidebar p{
+	margin:1em 0 0 0;
+	line-height: 1.4em;
+}
+
+div.footer {
+	color:#fff;
+	text-align: right;
+	line-height: 1.2em;
+	padding-bottom:0.5em;
+	padding-right:0.5em;
+}
+
+div.footer a:link,div.footer a:visited{
+	color:#fff;
+	text-decoration: underline;
+}
+
+div.footer a:hover{
+	color:#ff0;
+	text-decoration: underline;
+}
+
+/* ----- h1-h3 ----- */
+h1{
+	background-image: url(monochrome_kado.png) ;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color:#eee;
+	background-color: #5f5f5f;
+	margin:0;
+	padding:1em 0 0 2em;
+	height:70px;
+	font-size:130%;
+}
+
+h1 a:link , h1 a:visited{
+	color:#eee;
+	text-decoration: underline;
+}
+
+h1 a:hover{
+	text-decoration: underline;
+}
+
+
+h2{
+	font-size:100%;
+	border-bottom:solid 1px;
+	margin:5px 0 0 1em;
+	padding-bottom:2px;
+}
+
+div.weather {
+	font-size:80%;
+	text-align:right;
+}
+
+h3{
+	color:#333;
+	font-size:110%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+h4{
+	font-size:120%;
+	margin-top:1em;
+	margin-bottom:0.5em;
+}
+
+span.sanchor {
+	background-image: url(monochrome_sanchor.gif);
+	background-position:bottom right;
+	background-repeat: no-repeat;
+	padding: 13px 13px 0px 0px;
+	background-color: transparent;
+	font-size:0px;
+	color:#eee;
+}
+
+span.canchor {
+	background-image: url(monochrome_canchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 10px 0px 0px;
+	font-size:0px;
+	color:#eee;
+}
+
+
+span.sanchor a:link,span.sanchor a:visited {
+	color:#eee;
+	text-decoration: none;
+}
+
+
+/* ----- navi ----- */
+
+div.adminmenu{
+	color:#fff;
+	margin:5px 0 5px 0;
+	text-align:right;
+	font-size:80%;
+}
+/* ----- calendar ----- */
+
+div.calendar {
+	line-height: 1.2em;
+	margin:0px;
+	text-align:right;
+}
+
+/* ----- day ----- */
+
+div.day{
+	background-image: url(kado.png) ;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	padding: 10px 10px 0px 0px;
+	margin : 0px 0px 1em  0px;
+}
+
+div.body{
+	margin-left:2em;
+	padding-bottom:1em;
+}
+
+div.section {
+	margin-top:1em;
+	margin-bottom:1.5em;
+	margin-left:1em;
+}
+
+div.section p {
+	line-height:175%;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+
+/* ----- comment ----- */
+
+div.comment {
+	font-size:90%;
+	margin: 0px;
+}
+
+div.caption {
+	border-bottom:solid 1px;
+	padding :5px;
+	margin-left:1em;
+}
+
+div.commentshort, div.commentbody {
+	line-height:140%;
+	padding : 5px 0em  5px 2em;
+}
+
+div.commentbody p{
+	padding:0 0 1em 1em;
+}
+
+div.comment p{
+	margin : 0px 0px 1px 0px;
+}
+
+span.commentator {
+	color:#333;
+	font-weight:bold;
+}
+
+span.commenttime{
+	font-size:80%;
+}
+/* ----- referer ----- */
+div.referer {
+	font-size:80%;
+	text-align: right;
+	margin:0px;
+	padding : 5px 5px 10px 0;
+	background-image: url(kado_bottom.png) ;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+
+div.refererlist {
+	font-size:80%;
+	padding-bottom:1em;
+	background-image: url(kado_bottom.png) ;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+div.refererlist ul{
+	color:#666;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/* ----- pre & blockquote ----- */
+
+pre,blockquote {
+	line-height:175%;
+	margin : 1.0em 0px 1.0em 0px;
+	padding: 1.0em;
+	border-style: dashed;
+	border-width: 1px 1px 1px 1px;
+}
+
+blockquote {
+	font-style :italic;
+}
+
+/* ----- img ----- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+/* ----- footnote ----- */
+
+div.footnote{
+	font-size:80%;
+	margin : 0px 0px 0.0em 0px;
+}
+
+div.footnote p{
+	margin : 3px;
+}
+
+span.footnote {
+	font-size:90%;
+	vertical-align: super;
+}
+span.blogmap {
+	font-weight:normal;
+	font-size:80%;
+	margin-left:5px;
+}

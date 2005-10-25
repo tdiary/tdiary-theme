@@ -1,0 +1,300 @@
+@charset "euc-jp";
+/*
+Title: Leaf Green
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: ½Õ
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body{
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	color:#030;
+	background-color:#ffe;
+}
+
+hr.sep{
+	display:none;
+}
+
+/* ----- link ----- */
+
+a:link,a:visited {
+	color:#090;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#f39;
+	text-decoration: none;
+}
+
+/* ----- sidebar ----- */
+
+div.main {
+	float:right;
+	width:80%;
+}
+
+div.sidebar {
+	float:left;
+	width:16%;
+	font-size: small;
+}
+
+/* ----- h1-h3 ----- */
+
+h1{
+	color:#999;
+	margin:1em 0 1em 0;
+}
+
+h2 {
+	margin:0.3em 0 0.3em 0;
+	font-size: medium;
+	text-align:right;
+}
+
+h2 span.nyear {
+	font-size: small;
+	font-weight:normal;
+}
+
+h3{
+	margin-top:0em;
+	font-size: medium;
+	border-bottom:solid 1px #eca;
+	color:#050;
+}
+
+/* ----- navi ----- */
+
+span.adminmenu{
+	padding-right:0.3em;
+	font-size: small;
+}
+
+div.adminmenu{
+	text-align: right;
+	margin-bottom:0.5em;
+}
+
+/* ----- day ----- */
+div.day{
+	margin:0 0 3em 0;
+	padding:0.2em 1em 1em 1em;
+	background-color:#ffd;
+	border:solid 1px #ff9;
+}
+
+div.body{
+	padding:0 1em 0 1em;
+	background-color:#fef;
+	border:solid 1px #eca;
+}
+
+div.section {
+	color:#000;
+	margin :0 0 1em 0;
+	line-height: 1.6em;
+	background-color:#ffd;
+	border:solid 1px #eca;
+	padding:1em;
+}
+
+div.section p{
+	margin-bottom:0em;
+}
+
+/* ----- comment ----- */
+
+div.comment {
+	font-size:small;
+	padding-left:1em;
+}
+
+div.caption {
+	margin:1em 0 0.5em 0;
+}
+
+div.commentbody {
+	padding : 0 0 0.5em 0;
+}
+
+div.commentbody p{
+	margin:0;
+	padding: 0 0 0 1em;
+	line-height: 1em;
+}
+
+div.comment p{
+	margin:0;
+	line-height:1.4em;
+}
+
+div.commentator {
+	color:#090;
+	font-weight:bold;
+	margin: 0.5em 0 0 0;
+}
+
+span.commentator {
+	color:#090;
+	font-weight:bold;
+	margin:0 0.4em 0 0;
+	line-height: 1.1em;
+}
+
+
+/* ----- referer ----- */
+
+div.referer {
+	font-size:small;
+	text-align:right;
+	margin:0.5em 0 0 0;
+}
+
+/* ----- footer ----- */
+div.footer{
+	text-align:right;
+}
+
+/* ----- pre & blockquote ----- */
+
+pre {
+	padding: 0.5em;
+	background-color:#efefef;
+	border:solid 1px #ccc;
+	font-size:small;
+	line-height: 1.3em;
+	margin:1em 0 1em 0;
+}
+
+blockquote {
+	padding: 0.5em;
+	font-style :italic;
+	background-color:#efefef;
+	border:solid 1px #ccc;
+	font-size:small;
+	line-height: 1.3em;
+	margin:1em 0 1em 0;
+}
+
+/* ----- img ----- */
+
+img {
+	margin:0 0 0 0;
+	border:0;
+}
+
+img.right{
+	margin:0 0 0.5em 0.5em;
+	float:right;
+	border:0;
+}
+
+h3 img{
+	margin :0 0 0.2em 0;
+	border:0;
+}
+
+/* ----- footnote ----- */
+
+div.footnote{
+	font-size:80%;
+	margin:0 0 2em 0;
+	border-top: 1px #ccc solid;
+}
+
+div.footnote p{
+	margin : 3px;
+}
+
+span.footnote {
+	font-size: small;
+	margin : 0 0.1em 0 0 ;
+	vertical-align: super;
+}
+
+/* ----- bq ----- */
+p.source {
+   margin-top: 0.3em;
+   text-align: right;
+}
+
+/* ----- Category ----- */
+
+div.conf h2{
+	margin-top:0.5em;
+	font-size  : medium;
+	text-align :left;
+}
+
+
+div.conf {
+	margin:2em 0 2em 0;
+	line-height: 1.4em;
+	font-family:"£Í£Ó ¥´¥·¥Ã¥¯";
+}
+
+div.conf a{
+	margin-right:0.7em;
+}
+
+ul,ol{
+	line-height: 1.4em;
+}
+
+/* ----- Calendar2 ----- */
+table.calendar {
+}
+
+td.calendar-current-month {
+	text-align: center;
+}
+
+td.calendar-next-month {
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+}
+
+td.calendar-weekday {
+	background-color: #ddd;
+}
+
+td.calendar-day {
+	text-align: right;
+}
+
+td.calendar-day a:link,td.calendar-day a:visited{
+	font-weight:bold;
+}
+
+/* ----- Wiki Style ----- */
+em {
+	font-style:normal;
+	font-weight:bold;
+	margin: 0 0.3em 0 0.3em;
+}
+
+strong {
+	margin: 0 0.3em 0 0.3em;
+}
+

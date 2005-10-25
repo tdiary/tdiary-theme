@@ -1,0 +1,315 @@
+@charset "euc-jp";
+/*
+Title: Blue-dash
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: •Ë°º•Ì•√•—¡ı√˙
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body{
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+}
+
+hr.sep{
+	display:none;
+}
+
+/* ----- Sidebar ----- */
+div.main {
+	margin-left: 200px;
+}
+
+div.main form {
+	margin:0 0 0 2em;
+}
+
+div.sidebar {
+	position: absolute;
+	top : 0.5em;
+	left: 0.5em;
+	width:200px;
+	font-size:80%;
+}
+
+div.sidebar form {
+	margin:0 0 5px 0;
+}
+
+div.sidebar li {
+	line-height:1.3em;
+	color: #06c;
+}
+
+div.sidebar p{
+	margin:1em 0 0 0;
+	line-height: 1.4em;
+}
+/* ----- link ----- */
+
+a:link,a:visited {
+	text-decoration: none;
+	color: #01c;
+}
+
+a:hover {
+	background-color: #9f9;
+}
+
+/* ----- h1-h3 ----- */
+h1{
+	text-align:right;
+	color:#aaa;
+	font-size:130%;
+}
+
+h2{
+	font-size:120%;
+	line-height: 1em;
+	margin-top : 1em;
+	margin-bottom:0;
+	color: #06c;
+}
+
+h2 span.nyear {
+	font-size:80%;
+	font-weight:normal;
+}
+
+
+h3 {
+	font-size:100%;
+	font-weight:normal;
+	color: #06c;
+	margin-bottom:0.5em;
+}
+
+span.sanchor, span.canchor {
+	color: #f33;
+}
+
+/* ----- weather ----- */
+
+div.weather {
+	text-align:right;
+}
+
+/* ----- moshi ----- */
+div.body-enter {
+	margin-bottom:0.2em;
+	text-align:right;
+	font-size:80%;
+	color: #06c;
+}
+
+/* ----- navi ----- */
+
+div.adminmenu {
+	text-align:right;
+	font-size:80%;
+}
+
+/* ----- day ----- */
+div.day{
+	margin:3em 0 3em 0;
+}
+
+div.body{
+	margin-bottom:2em;
+}
+
+div.section {
+	margin:0 0 2em 0.5em;
+	padding-left:1em;
+	background-image: url(ha_b.png);
+	background-repeat: repeat-y;
+}
+
+div.section p {
+	margin:0 50px 1em 50px;
+	line-height: 1.7em;
+}
+
+div.section ul {
+	margin:0 0 1em 70px;
+	line-height: 1.7em;
+}
+
+/* ----- comment ----- */
+
+div.caption {
+	border-bottom: solid #06c 1px;
+	padding-bottom:5px;
+	margin-top: 1em;
+	font-size:80%;
+}
+
+div.commentshort {
+	margin-top   :0.5em;
+	margin-bottom:0.5em;
+	font-size:80%;
+}
+
+div.commentshort p {
+	line-height: 1.5em;
+	margin: 0 0 0 5em;
+	text-indent:-4em;
+}
+
+/* ----- comment (day) ----- */
+div.commentbody{
+	line-height: 1.2em;
+	margin: 1em 0 0 50px;
+}
+
+div.commentator {
+	line-height: 1.5em;
+	background-color:#fff;
+	color:#0ac;
+}
+
+div.commentbody p{
+	margin: 0.1em 0.5em 0.5em 1em;
+}
+
+/* ----- referer ----- */
+
+div.referer {
+	margin-top: 0.3em;
+	text-align:right;
+	font-size:80%;
+}
+
+div.refererlist ul{
+	line-height: 1.2em;
+	margin-top:5px;
+	color: #09c;
+	font-size:80%;
+}
+
+/* ----- pre & blockquote ----- */
+
+div.section pre ,div.section blockquote{
+	border: dashed #06c 1px;
+	margin: 0.5em 50px 1em 40px;
+	padding: 10px;
+	line-height: 1.5em;
+	font-size:80%;
+	background-color:#ffe;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+div.section blockquote p {
+	margin: 0.5em;
+}
+
+
+/* ----- img ----- */
+img {
+	margin:0;
+	border-width:0;
+}
+
+img.right{
+	margin:0 0 5px 5px;
+	float:right;
+}
+
+/* ----- footnote ----- */
+
+div.footnote{
+	border-top: solid #666 1px;
+	margin:1em 50px 0 60px;
+	padding: 8px;
+	background-color:#fff;
+}
+
+div.footnote p{
+	margin:0.2em 0 0.2em 1em;
+}
+
+span.footnote {
+	font-size:80%;
+	margin : 0 0.1em 0 2px;
+	vertical-align: super;
+}
+
+/* ----- bq ----- */
+p.source {
+	margin-top: 0.3em;
+	text-align: right;
+}
+
+/* ----- footer ---- */
+div.footer{
+	text-align:right;
+	margin-top:1em;
+}
+
+/* ----- Wiki Style ----- */
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+/* ----- calendar ----- */
+div.calendar {
+	margin-top:1em;
+	margin-bottom:1em;
+	text-align:right;
+}
+
+/* ----- calendar2 ----- */
+table.calendar {
+	margin:0 0 0 1.5em;
+	width:70%;
+	color:#aaa;
+}
+
+td.calendar-current-month {
+	text-align: center;
+	line-height: 1.4em;
+}
+
+td.calendar-next-month {
+	text-align: right;
+}
+
+td.calendar-prev-month {
+	text-align: left;
+}
+
+td.calendar-sunday {
+	color: red;
+	background-color: #fbb;
+}
+
+td.calendar-saturday {
+	color: blue;
+	background-color: #bbf;
+}
+
+td.calendar-weekday {
+	color: #000;
+	background-color: #ddd;
+}
+
+td.calendar-day {
+	text-align: right;
+}
+
+/* ----- recent_list ----- */
+p.recentitem {
+	padding:1em 0 0 0;
+}
+
+div.recentsubtitles {
+	margin-left:0.5em;
+}

@@ -1,0 +1,237 @@
+@charset "euc-jp";
+/*
+Title: Black-Green
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: 黒バック緑文字
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body{
+	margin:10px;
+	color:#0c0;
+	background-color:#000;
+	background-image: url(black-green_back.png);
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+}
+
+a:link,a:visited {
+	color: #009900;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {color:#00FF00;}
+
+
+hr.sep{
+	display: none;
+	margin:0px;
+}
+
+div.adminmenu {
+	text-align:right;
+}
+
+span.adminmenu{
+	padding: 3px;
+}
+
+h1{
+	text-align:right;
+	color:#00cc00;
+	padding: 3px;
+	margin:0px;
+	font-size :150%;
+}
+
+h2 {
+	font-size :100%;
+	margin:0px;
+}
+
+h3 {
+	font-size :120%;
+	margin-bottom: 0.5em;
+}
+
+div.day span.canchor {
+	background-image: url(black-green_anchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 8px 8px 0px 0px;
+	color:#000;
+	font-size: 0px;
+}
+
+div.day{
+	margin-top:40px;
+	margin-bottom:0px;
+}
+
+
+pre {
+	margin: 0px;
+	padding: 10px;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #009900;
+	line-height: 1.3em;
+	background-color: #000;
+	font-size:90%;
+}
+
+input,textarea,select {
+	color:#00cc00;
+	background-color:#000;
+	border-style:solid;
+	border-color:#009900;
+	border-width:1px;
+}
+div.body{
+	background-color:#fff;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #00cc00;
+	background-color: #000;
+}
+
+div.section {
+	margin-bottom: 30px;
+	line-height: 1.7em;
+}
+
+div.section p{
+	margin-top   :0;
+	margin-bottom:0;
+}
+
+div.comment {
+	background-color:#000;
+	margin-top: 10px;
+	font-size :80%;
+	line-height: 1.5em;
+	border-style: solid;
+	border-color: #00cc00;
+	border-width: 1px;
+	padding: 5px;
+}
+div.shortcomment{
+	margin: 0px;
+}
+
+div.comment p {
+	margin : 0px;
+}
+
+div.form {
+	margin: 10px;
+	line-height: 1.2em;
+}
+
+form{
+	margin-top   :10px;
+	margin-bottom:10px;
+}
+
+span.commentator  {
+	font-weight: bold;
+	background-color: transparent;
+}
+
+div.referer {
+	text-align: right;
+	margin-right : 5px;
+	margin-top   : 5px;
+	margin-bottom: 10px;
+	font-size :90%;
+}
+
+div.refererlist {
+	margin: 10px;
+	font-size :90%;
+}
+
+
+p.recentitem {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size :90%;
+}
+
+div.recentsubtitles {
+	margin-bottom:10px;
+	margin-left  :10px;
+	line-height: 1.2em;
+	font-size :90%;
+}
+
+img.right{
+	float:right;
+	margin: 5px 5px 5px 5px;
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+img{
+	margin-top: 2px;
+}
+
+textarea {
+	font-size :100%; 
+}
+
+div.footer {
+	text-align: right;
+	line-height: 1.2em;
+}
+
+div.calendar{
+	color:#5f5f5f;
+	background-color: transparent;
+	padding: 3px;
+	margin-bottom:0px;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size:80%;
+	margin-right: 0.2em;
+}
+
+div.footnote {
+	margin-bottom: 10px;
+	font-size:80%;
+	line-height: 0.8em;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #009900;
+}
+
+p.footnote {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div.sidebar {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 180px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0c0;
+	font-size :90%;
+	background-color: #000;
+}
+
+div.main {
+	margin-left: 220px;
+}

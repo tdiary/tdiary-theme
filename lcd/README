@@ -1,0 +1,31 @@
+Title: LCD
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: i-Tunes
+
+validated by W3C.
+
+<h1>要素に背景画像を使用しているため、ヘッダの一番上に<h1>ほげ</h1>を設定。
+sidebarの下に<br clear="all">を入れておく
+sidebar、main外の要素は、<div class="calendar"></div>で囲む
+
+
+サイドバー推奨
+
+設定例
+
+ヘッダ
+ <h1>ほげ</h1>
+ <div class="main>
+
+フッタ
+ </div>
+ 
+ <div class="sidebar">
+ もろもろ
+ </div>
+ <br clear="all">
+ <div class="calendar">
+ ほげ
+ </div>

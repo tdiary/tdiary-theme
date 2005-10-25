@@ -1,0 +1,310 @@
+@charset "euc-jp";
+/*
+Title: LCD
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: i-Tunes
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+*/
+
+/* ---------- Body ---------- */
+body {
+	background-image: url(main.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color:#E5E5E5;
+	width:760px;
+	margin:0 auto 0 auto;
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+}
+
+hr.sep {
+	display:none;
+}
+
+/* ---------- Link ---------- */
+a:link,a:visited {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+div.section p a:link, div.section p a:visited {
+	text-decoration:underline;
+}
+/* ---------- H1-H4 ---------- */
+h1 {
+	background-image: url(header.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin:0;
+	text-align:center;
+	padding-top:40px;
+	height:45px;
+	font-size:120%;
+	letter-spacing:3px;
+	font-weight:normal;
+}
+
+h2 {
+	margin:0 0 3px 0;
+	font-size:100%;
+	border-bottom:1px #333 solid;
+}
+
+h3 {
+	font-size:100%;
+}
+
+span.sanchor,span.canchor {
+	font-size:90%;
+}
+
+h4 {
+	font-size:100%;
+	margin:0;
+}
+
+/* ---------- sidebar ---------- */
+div.main {
+	width:550px;
+	float:left;
+	margin-top:0;
+}
+
+div.sidebar {
+	width:190px;
+	float:right;
+	font-size:80%;
+}
+
+div.sidemenu {
+	background-color:#EEF2DB;
+	padding-top:2px;
+	padding-right:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+	line-height:130%;
+	margin:0 20px 10px 0;
+}
+
+div.sidebar form{
+	margin-top:0;
+	margin-bottom:0.5em;
+}
+
+div.rss-recent li{
+	margin-bottom:5px;
+}
+
+div.calendar {
+	margin:0;
+	text-align:center;
+	padding-bottom:1.5em;
+	line-height:1.1em;
+	font-size:90%;
+}
+
+div.footer {
+	background-image: url(footer.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	margin:0;
+	text-align:center;
+	padding-bottom:1.5em;
+	line-height:1.1em;
+	font-size:90%;
+}
+
+/* ---------- adminmenu ---------- */
+div.adminmenu {
+	text-align:right;
+	font-size:90%;
+	margin:1em 1.5em 1em 0;
+}
+
+span.nyear {
+	font-weight:normal;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	margin:0 0 3em 0.5em;
+	padding:0 0 0 1.5em;
+}
+
+div.body {        
+	margin-bottom:1.5em;
+	margin-left:1em;
+}
+
+div.section {
+	margin-bottom:1em;
+}
+
+div.section p {
+	line-height:175%;
+	text-indent:1em;
+}
+
+div.section li{
+	line-height:1.5em;
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+
+div.section blockquote {
+	font-style:italic;
+}
+
+/* ---------- Caption ---------- */
+div.caption {
+	font-size:90%;
+	margin:0 0 5px 0;
+	padding-bottom:5px;
+	border-bottom:1px #333 solid;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:175%;
+	font-size:90%;
+	margin:0 0 5px 1em;
+}
+div.commentbody {
+	margin:1em 0 0 0;
+}
+
+div.commentbody p  {
+	line-height: 175%;
+	margin:0.5em 0 1em 1em;
+}
+
+span.commentator {
+	font-weight:bold;
+}
+
+span.commenttime{
+	font-size:90%;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	margin:1em 0 1em 0;
+	font-size:90%;
+}
+
+div.refererlist ul {
+	line-height:1.5em;
+}
+
+div.referer {
+	text-align:right;
+	font-size:90%;
+}
+
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	font-size:90%;
+	margin-left:5px;
+}
+
+div.footnote {
+	border-top: solid 1px #999;
+	margin-top:3em;
+	margin-left:2em;
+	font-size:90%;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+blockquote,pre {
+	margin-right:0;
+	line-height:1.5em;
+	background-color:#FF9;
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+	padding:1em;
+}
+
+.highlight {
+	font-weight:bold;
+	background-color:#ff6;
+}
+
+
+/* ---------- Calendar2 ---------- */
+
+div.calendar2 {
+	margin-bottom:2em;
+	text-align:center;
+}
+
+table.calendar {
+	width:90%;
+	text-align:left;
+	font-size:small;
+}
+
+table.calendar tr{
+	margin:0;
+}
+
+table.calendar td.calendar-day {
+	margin:0;
+	text-align:center;
+}
+
+table.calendar td.calendar-sunday,table.calendar td.calendar-weekday,table.calendar td.calendar-saturday{
+	background-color:#FFF4E0;
+}
+
+table.calendar td.calendar-prev-month,table.calendar td.calendar-current-month,table.calendar td.calendar-next-month{
+	background:#fff url(calendar.gif);
+	font-weight:bold;
+	color:#605048;
+	font-weight:normal;
+}

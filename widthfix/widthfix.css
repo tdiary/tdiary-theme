@@ -1,0 +1,190 @@
+@charset "euc-jp";
+/*
+Title: WidthFix
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: ¸ÇÄêÉýÃæ±û´ó¤»
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body {
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(main.png) center repeat-y #E5E5E5;
+}
+
+/* ---------- link ---------- */
+
+a:link,a:visited {
+	text-decoration:none;
+}
+
+div.section p a:link,
+div.section p a:visited {
+	text-decoration:underline;
+}
+
+/* ---------- h1-h4 ---------- */
+h1 {
+	font-size:130%;
+	text-align:right;
+	color:#666;
+}
+
+h2 {
+	color:#666;
+	font-size:100%;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px #333 solid;
+}
+span.nyear {
+	font-weight:normal;
+}
+
+h3{
+	color:#333;
+	font-size:110%;
+}
+
+span.sanchor{
+	font-size:80%;
+	font-weight:normal;
+}
+
+/* ---------- adminmenu ---------- */
+div.adminmenu {
+	text-align:right;
+	line-height:175%;
+	font-size:80%;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	margin-bottom:3em;
+}
+
+div.section {
+	margin-bottom:1em;
+	margin-left:1em;
+}
+
+div.section p {
+	line-height:175%;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+div.section blockquote,pre {
+	line-height:175%;
+	background-color:#FF9;
+	padding:1em;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+/* ---------- Caption ---------- */
+div.caption {
+	font-size:80%;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px #333 solid;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:175%;
+	margin:0 0 0 1em;
+	font-size:80%;
+}
+
+div.commentbody {
+	margin-top:1em;
+	margin-left:1em;
+}
+
+div.commentbody p  {
+	line-height: 175%;
+	margin-top:0.5em;
+	margin-bottom:1em;
+	margin-left:1em;
+}
+
+span.commentator {
+	color:#333;
+	font-weight:bold;
+}
+
+span.commenttime{
+	font-size:80%;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	margin:1em 0 1em 0;
+	font-size:80%;
+}
+
+div.refererlist ul {
+	line-height:150%;
+}
+
+div.referer {
+	text-align:right;
+	font-size:80%;
+}
+
+/* ---------- footer ---------- */
+div.footer {
+	text-align:right;
+	font-size:80%;
+}
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+	margin-right:5px;
+}
+
+img.right{
+	float:right;
+	margin-left:5px;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	font-size:80%;
+	margin-left:5px;
+}
+
+div.footnote {
+	border-top: solid 1px #999;
+	margin-top:3em;
+	margin-left:2em;
+	font-size:80%;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}

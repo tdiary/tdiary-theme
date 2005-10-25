@@ -1,0 +1,342 @@
+@charset "euc-jp";
+/*
+Title: Halloween
+Revision: $Revision: 1.3 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: ハロウィン
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+*/
+
+/* ---------- Body ---------- */
+body {
+	background-image: url(main.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color:#E5E5E5;
+	width:760px;
+	margin:0 auto 0 auto;
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+}
+hr.sep {
+	display:none;
+}
+
+
+/* ---------- Link ---------- */
+
+a:link,a:visited {
+	color:#C60;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/* ---------- H1-H4 ---------- */
+h1 {
+	color:#333;
+	height:90px;
+	background-image: url(header.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin:0;
+	padding-top :3em;
+	padding-left:1.5em;
+	font-size:150%;
+	letter-spacing:3px;
+	font-weight:normal;
+}
+
+h2 {
+	color:#960;
+	padding-bottom:3px;
+	margin-left:0.5em;
+	margin-bottom:3px;
+	margin-top:0;
+	font-size:90%;
+}
+
+h3 {
+	color:#960;
+	font-size:120%;
+	margin-top:1em;
+	margi-bottom:1em;
+}
+
+span.sanchor,span.canchor {
+	font-size:80%;
+}
+
+h4 {
+	background-image: url(h4.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-size:100%;
+	color:#960;
+	margin-top:0;
+	margin-right:10px;
+	margin-bottom:0;
+	padding:3px 0 3px 15px;
+	font-weight:normal;
+	height:20px;
+}
+
+/* ---------- sidebar ---------- */
+div.main {
+	width:545px;
+	float:left;
+	margin-top:0;
+}
+
+div.sidebar {
+	color:#960;
+	width:200px;
+	float:right;
+	font-size:80%;
+	padding-right:5px;
+	padding-top:0;
+	margin-top:0;
+}
+
+div.sidebar p{
+	margin:0 0 1em 0;
+	text-align:center;
+}
+
+div.tag {
+	margin:5px 10px 1.5em 1.5em;
+}
+
+div.sidebar form {
+	margin:5px 0 1.5em 0;
+}
+
+div.sidebar ul{
+	margin-bottom:15px;
+	list-style-type:none;
+}
+
+div.rss-recent ul{
+	margin-top:5px;
+	margin-right:0px;
+}
+
+div.rss-recent li{
+	line-height:1.1em;
+	margin:10px 0 0 0;
+}
+
+div.rss-recent-title {
+	background-image: url(h4.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-size:100%;
+	color:#960;
+	margin-top:0;
+	margin-right:10px;
+	margin-bottom:0;
+	padding:3px 0 3px 15px;
+	font-weight:normal;
+	height:20px;
+}
+
+div.calendar {
+	margin:0;
+	text-align:center;
+	padding-bottom:1.5em;
+	padding-right:2em;
+	line-height:1.1em;
+	font-size:80%;
+}
+
+
+div.footer {
+	background-image: url(footer.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	margin:0;
+	clear:both;
+	text-align:center;
+	padding-bottom:1.5em;
+	padding-right:2em;
+	line-height:1.1em;
+	font-size:80%;
+}
+
+/* ---------- adminmenu ---------- */
+div.adminmenu {
+	background-image: url(admin.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin:0 0 0.5em 0;
+	text-align:right;
+	font-size:80%;
+	padding-right:1em;
+	margin-right:1.5em;
+	margin-top:0.5em;
+	height:20px;
+}
+
+span.nyear {
+	font-weight:normal;
+}
+
+div.weather {
+	color:#960;
+	margin:0 5px 0 0;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	margin-top:0;
+	margin-bottom:1em;
+	margin-left:0.5em;
+	padding:0.5em 10px 1em 1.3em;
+}
+
+div.body {
+	margin-left:0.7em;
+}
+
+div.section p {
+	line-height:175%;
+	margin-left:1em;
+}
+
+div.section li{
+	line-height:1.5em;
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+
+div.section blockquote {
+	font-style:italic;
+}
+
+/* ---------- Caption ---------- */
+div.caption {
+	font-size:80%;
+	margin-left:1em;
+	margin-bottom :5px;
+	padding-bottom:5px;
+	border-bottom:1px #960 solid;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:175%;
+	font-size:90%;
+	margin:0 0 3px 1.5em;
+}
+div.commentbody {
+	margin:1em 0 0 1em;
+}
+
+div.commentbody p  {
+	line-height: 175%;
+	margin:0.5em 0 1em 1em;
+}
+
+span.commentator {
+	color:#960;
+	font-weight:bold;
+}
+
+span.commenttime{
+	font-size:80%;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	color:#960;
+	margin:1em 0 1em 0;
+	font-size:80%;
+}
+
+div.refererlist ul {
+	color:#960;
+	line-height:1.5em;
+}
+
+div.referer {
+	color:#960;
+	text-align:right;
+	font-size:80%;
+}
+
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	font-size:80%;
+	margin-left:5px;
+}
+
+div.footnote {
+	border-top: solid 1px #999;
+	margin-top:3em;
+	margin-left:2em;
+	font-size:80%;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+select {
+	margin-left:2em;
+}
+
+blockquote,pre {
+	margin-left:1.5em;
+	margin-right:0;
+	line-height:1.5em;
+	background-color:#FF9;
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+.highlight {
+	font-weight:bold;
+	color:#960;
+	background-color:#ff3;
+}
+

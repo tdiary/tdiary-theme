@@ -1,0 +1,279 @@
+@charset "euc-jp";
+/*
+Title: Nut-brown
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: ·ª¿§
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+/* ---------- Body ---------- */
+hr.sep {
+	display:none;
+}
+
+
+body {
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	background-color:#CCC;color:#333;
+	width:790px;
+	margin:5px auto 5px auto;
+}
+
+/* ---------- link ---------- */
+a:link,a:visited {
+	text-decoration:none;
+	color:#C60;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h1 a:link, h1 a:visited {
+	color:#FFF;
+}
+div.adminmenu a:link, div.adminmenu a:visited {
+	color:#FFF;
+}
+
+div.footer a:link, div.footer a:visited {
+	color:#FFF;
+}
+
+/* ---------- sidebar ---------- */
+div.main {
+	width:570px;
+	padding:0 5px 0 0;
+	float:left;
+}
+
+div.sidebar {
+	width:200px;
+	padding:0 5px 5px 5px;
+	float:right;
+	font-size:small;
+	background-color:#FFFFF0;
+	border:solid 1px;
+	border-color: #FFFFF0 #999 #999 #FFFFF0;
+}
+
+div.sidebar p{
+	margin:5px 0 15px 0;
+	text-align:center;
+}
+
+div.sidebar form {
+	margin:5px 0 0 5px;
+}
+
+div.sidebar ul   {
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
+div.rss_recent ul   {
+	margin-top:5px;
+	margin-right:10px;
+}
+
+div.rss_recent li{
+	line-height:1.1em;
+	margin-bottom:7px;
+}
+
+div.footer {
+	line-height:1.2em;
+	clear:both;
+	padding:5px 1em;
+	text-align:right;
+	margin-top:1em;
+}
+
+/* ---------- h1-h4 ---------- */
+h1 {
+	background-color:#C60;color:#FFF;
+	border:solid ;
+	border-color: #FFFFF0 #999 #999 #FFFFF0;
+	border-width:1px 1px 0 1px;
+	font-size:large;
+	margin:0 0 0 0;
+	padding:1em 1em 2em 1em;
+}
+
+h2 {
+	font-size:large;
+	border-bottom:1px #960 solid;
+	padding-bottom:3px;
+	margin-bottom:3px;margin-top:0;
+}
+
+h4 {
+	font-size:medium;
+}
+
+span.sanchor {
+	font-size:small;
+}
+
+/* ---------- adminmenu ---------- */
+span.nyear {
+	font-weight:normal;
+}
+
+div.weather {
+	margin:0 5px 0 0;
+}
+
+div.adminmenu,div.footer {
+	background-color:#F90;
+	color:#FFF;
+	font-size:small;
+}
+
+div.adminmenu {
+	border:solid ;
+	border-color: #FFFFF0 #999 #999 #FFFFF0;
+	border-width:0   1px 1px 1px;
+	margin:0;
+	padding:2px 1em 2px 1em;
+	text-align:right;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	background-color:#FFFFF0;
+	border:solid 1px;
+	border-color: #FFFFF0 #999 #999 #FFFFF0;
+	padding:1em;margin-bottom:5px;
+}
+
+div.body {
+	margin-bottom:1em;
+	margin-left:1em;
+}
+
+div.section {
+	margin-bottom:1em;
+}
+
+div.section p {
+	line-height:1.7em;
+}
+
+div.section li{
+	line-height:1.5em;
+}
+
+div.section pre, div.section blockquote {
+	margin:0;
+	padding:5px;
+	line-height:1.5em;
+	background-color:#FF9;
+	margin-left:1.5em;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+div.footer {
+	border:solid 1px;
+	border-color: #FFFFF0 #999 #999 #FFFFF0;
+}
+/* ---------- Caption ---------- */
+div.caption {
+	font-size:small;
+	margin-bottom :5px;
+	padding-bottom:5px;
+	border-bottom:1px #960 solid;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:1.5em;
+	font-size:small;
+	margin:0 2em 2px 1.5em;
+}
+
+div.commentbody {
+	margin:1em 0 0 1em;
+}
+
+div.commentbody p  {
+	line-height: 1.5em;
+	margin:0.5em 1em 1em 2em;
+}
+
+div.commentator {
+	font-weight:bold;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	margin:1em 0 1em 0;
+	font-size:small;
+}
+
+div.refererlist ul {
+	line-height:1.5em;
+}
+
+div.referer {
+	text-align:right;
+	font-size:small;
+}
+
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	font-size:small;
+	margin-left:5px;
+}
+
+div.footnote {
+	border-top: solid 1px #999;
+	margin-top:3em;
+	margin-left:2em;
+	font-size:small;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+div.calendar {
+	font-size:small;
+	margin-top:0.5em;
+}

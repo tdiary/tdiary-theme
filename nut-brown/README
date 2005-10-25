@@ -1,0 +1,24 @@
+Title: Nut Brown
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: 栗色
+
+validated by W3C.
+
+<h1>要素をタイトルにしているため、ヘッダの一番上に<h1>ほげ</h1>を設定。
+
+サイドバー推奨
+
+設定例
+
+ヘッダ
+ <h1>ほげ</h1>
+ <div class="main>
+
+フッタ
+ </div>
+ 
+ <div class="sidebar">
+ もろもろ
+ </div>

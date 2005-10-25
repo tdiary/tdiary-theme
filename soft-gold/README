@@ -1,0 +1,21 @@
+Title: Soft Gold
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: やわい金色
+
+validated by W3C.
+
+サイドバー推奨
+
+設定例
+
+ヘッダ
+ <div class="main>
+
+フッタ
+ </div>
+ 
+ <div class="sidebar">
+ もろもろ
+ </div>

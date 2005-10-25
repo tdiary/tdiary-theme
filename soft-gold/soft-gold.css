@@ -1,0 +1,234 @@
+@charset "euc-jp";
+/*
+Title: Soft-gold
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: やわい金色
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body {
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	background-color:#ffc;
+}
+
+hr.sep {
+	display:none;
+}
+
+/* ---------- link ---------- */
+a:link,a:visited {
+	text-decoration:none;
+	color:#960;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+/* ----- Sidebar ----- */
+div.main {
+	margin-left: 200px;
+}
+
+div.main form {
+	margin:0 0 0 2em;
+}
+
+div.sidebar {
+	color:#960;
+	position: absolute;
+	top : 0.5em;
+	left: 0.5em;
+	width:200px;
+	font-size:80%;
+}
+
+
+/* ---------- h1-h4 ---------- */
+h1 {
+	color:#960;
+	text-align:right;
+	font-size:130%;
+}
+
+h2 {
+	color:#960;
+	border-bottom:1px #960 solid;
+	padding-bottom:3px;
+	margin:0;
+	font-size:100%;
+}
+
+h3 {
+	color:#960;
+	font-size:110%;
+}
+
+span.canchor {
+	font-size:80%;
+}
+
+span.sanchor {
+	background-image: url(aicon_138.gif);
+	background-position:bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 10px 0px 0px;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.weather {
+	text-align:right;
+	font-size:80%;
+	padding-top:3px;
+}
+
+/* ---------- adminmenu ---------- */
+span.nyear {
+	font-weight:normal;
+}
+
+div.weather {
+	margin:0 5px 0 0;
+}
+
+div.adminmenu{
+	text-align:right;
+	font-size:90%;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	background-color:#FFFFF0;
+	padding:1em;
+	margin:1em 0 1em 0;
+	border: #960 solid 1px;
+}
+
+div.body {
+	margin-bottom:1em;
+}
+
+div.section {
+	margin:0 2em 1em 1em;
+}
+
+div.section p {
+	line-height:1.7em;
+	margin-left:1.3em;
+}
+
+div.section li{
+	line-height:1.5em;
+}
+
+div.section pre, div.section blockquote {
+	margin:0;
+	padding:5px;
+	line-height:1.5em;
+	background-color:#FF9;
+	margin-left:1.5em;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+/* ---------- Caption ---------- */
+div.caption {
+	font-size:90%;
+	margin-bottom :5px;
+	padding-bottom:3px;
+	border-bottom:1px #960 solid;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:1.5em;
+	margin:0 0 2px 1.8em;
+	font-size:90%;
+}
+
+div.commentbody  {
+	margin:1em 0 0 1em;
+}
+
+div.commentbody p  {
+	line-height: 1.5em;
+	margin:0.5em 0 1em 1.5em;
+}
+
+div.commentator {
+	color:#960;
+	font-weight:bold;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	font-size:90%;
+	margin:1em 0 1em 0;
+}
+
+div.refererlist ul {
+	line-height:1.5em;
+}
+
+div.referer {
+	font-size:90%;
+	text-align:right;
+}
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	margin-left:5px;
+}
+
+div.footnote {
+	margin:3em 2em 3em 2em;
+	text-align:right;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+.highlight {
+	background-color:#ff9;
+	font-weight:bold;
+	color:#960;
+}
+
+div.footer {
+	font-size:90%;
+}

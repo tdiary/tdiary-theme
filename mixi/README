@@ -1,0 +1,25 @@
+Title: mixi
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: mixi
+
+validated by W3C.
+
+サイドバー推奨
+設定例
+
+小見出しは<h4>ほげ<h4>
+<p>ほげほげ</p>で枠囲み
+
+[ヘッダ]
+ <div class="main>
+
+[フッタ]
+ </div>
+ 
+ <div class="sidebar">
+ <h4>ほげ</h4>
+ <p>ほげほげ1</p>
+ <p>ほげほげ2</p>
+ </div>

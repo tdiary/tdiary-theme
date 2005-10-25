@@ -1,0 +1,231 @@
+@charset "euc-jp";
+/*
+Title: Te
+Revision: $Revision: 1.1 $
+Author: kosaka
+Access: kosaka@tnat.net
+License: GPL
+Comment: techno.de
+
+Copyright 2005 (C) by KOSAKA Takashi <kosaka@tnat.net>
+validated by W3C.
+*/
+
+body{
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	margin: 0px;
+	color:#ccc;
+	background-color:#666699;
+}
+
+a:link,a:visited {
+	color:#fff;
+	text-decoration:underline;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+div.main {
+	margin-top:0;
+	margin-left: 160px;
+	margin-right:160px;
+	background-color:#333366;
+}
+
+div.sidebar {
+	color:#ddd;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 155px;
+	padding: 2px;
+	font-size:80%;
+}
+
+
+hr.sep{
+	display: none;
+	margin:0px;
+}
+
+div.adminmenu {
+	text-align:right;
+	color:#fff;
+	background-color: #999;
+	padding: 3px;
+	margin:0px;
+}
+
+span.adminmenu{
+	padding-right:0.5em;
+}
+
+h1{
+	text-align:right;
+	color:#fff;
+	background-color: #999;
+	padding:0.5em;
+	margin:0px;
+	font-size:150%;
+}
+
+h2 {
+	font-size:100%;
+	text-align:right;
+	margin:0;
+}
+
+span.sanchor {
+	background-image: url(te_anchor.gif);
+	background-position:bottom right;
+	background-repeat: no-repeat;
+	padding: 10px 10px 0px 0px;
+	background-color: transparent;
+	font-size: 1px;
+	color:#000033;
+}
+
+
+h3 {
+	font-size:120%;
+	margin-bottom: 0.5em;
+	background-color:#000033;
+	padding-left:1em;
+}
+
+div.weather {
+	text-align:right;
+	font-size:80%;
+}
+
+div.day{
+	margin:0;
+	padding-top:2em;
+}
+
+pre,blockquote {
+	margin: 0px;
+	padding: 10px;
+	line-height: 1.3em;
+	color:#333366;
+	background-color:#999;
+	font-size:90%;
+}
+
+div.section {
+	margin-bottom: 30px;
+	line-height: 1.7em;
+}
+
+div.section p{
+	padding:  0px 10px 0px 2em;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+div.comment {
+	border-style: dotted;
+	border-width: 1px 0px 0px 0px;
+	border-color: #999;
+	background-color: transparent;
+	color:#ccc;
+	margin-top: 30px;
+	font-size:80%;
+	line-height: 1.6em;
+	padding: 5px;
+}
+div.shortcomment{
+	margin: 0px;
+}
+
+div.comment p {
+	margin : 0px;
+}
+
+div.form {
+	margin: 10px;
+	line-height: 1.2em;
+}
+
+form{
+	margin-top   :10px;
+	margin-bottom:10px;
+}
+
+span.commentator  {
+	font-weight: bold;
+	color: #999;
+	background-color: transparent;
+}
+
+div.referer {
+	text-align: right;
+	margin-right : 0.5em;
+	margin-top   : 0.5em;
+	margin-bottom: 1.0em;
+	font-size:80%;
+}
+
+
+
+p.recentitem {
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+div.recentsubtitles {
+	margin-bottom:5px;
+	margin-left  :5px;
+	line-height: 1.2em;
+}
+
+img.right{
+	float:right;
+	margin: 5px 5px 5px 5px;
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+img{
+	margin-top: 2px;
+}
+
+div.footer {
+	text-align:right;
+	color:#fff;
+	background-color: #999;
+	padding: 3px;
+	margin:0px;
+}
+
+div.calendar{
+	color:#fff;
+	background-color: #999;
+	padding-left:0.5em;
+	margin:0em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size:80%;
+	margin-right: 0.2em;
+}
+
+div.footnote {
+	margin: 10px;
+	margin-bottom: 10px;
+	line-height: 0.8em;
+}
+
+p.footnote {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+img{
+	border-width: 1px;
+	border-color: #000033;
+}

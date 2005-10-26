@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Monochrome
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
@@ -125,6 +125,7 @@ div.footer a:hover{
 
 /* ----- h1-h3 ----- */
 h1{
+	font-family: Arial,Verdana,Helvetica,'MS UI Gothic',sans-serif;
 	background-image: url(monochrome_kado.png) ;
 	background-position: left top;
 	background-repeat: no-repeat;

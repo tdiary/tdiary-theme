@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Monochrome
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
@@ -80,7 +80,7 @@ div.sidebar form {
 	margin:0 0 5px 0;
 }
 
-input.box {
+input.box,select {
 	background-color:#666;
 	color:#ccc;
 }
@@ -90,9 +90,20 @@ div.sidebar li {
 }
 
 div.sidebar p{
-	margin:1em 0 0 0;
+	margin:2em 0 0 0;
 	line-height: 1.4em;
 }
+
+div.rss-recent ul{
+	margin-top:5px;
+	margin-right:0px;
+}
+
+div.rss-recent li{
+	line-height:1.1em;
+	margin:10px 0 0 0;
+}
+
 
 div.footer {
 	color:#fff;
@@ -156,7 +167,7 @@ h3{
 
 h4{
 	font-size:120%;
-	margin-top:1em;
+	margin-top:2em;
 	margin-bottom:0.5em;
 }
 
@@ -194,13 +205,6 @@ div.adminmenu{
 	text-align:right;
 	font-size:80%;
 }
-/* ----- calendar ----- */
-
-div.calendar {
-	line-height: 1.2em;
-	margin:0px;
-	text-align:right;
-}
 
 /* ----- day ----- */
 
@@ -228,6 +232,10 @@ div.section p {
 	line-height:175%;
 	margin-left:1em;
 	margin-bottom:1em;
+}
+
+div.section ul,div.section ol {
+	line-height:175%;
 }
 
 /* ----- comment ----- */
@@ -278,6 +286,7 @@ div.referer {
 
 div.refererlist {
 	font-size:80%;
+	padding-left:2em;
 	padding-bottom:1em;
 	background-image: url(kado_bottom.png) ;
 	background-position: left bottom;
@@ -287,20 +296,34 @@ div.refererlist {
 div.refererlist ul{
 	color:#666;
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom:1em;
 }
 
 /* ----- pre & blockquote ----- */
-
 pre,blockquote {
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+pre {
 	line-height:175%;
-	margin : 1.0em 0px 1.0em 0px;
-	padding: 1.0em;
-	border-style: dashed;
-	border-width: 1px 1px 1px 1px;
+	border:dashed 1px #666;
+	background:#fff;
+	padding:0.5em 0 0.5em 1em;
+	margin-left:2em;
+	margin-right:2em;
+	font-size:100%;
 }
 
 blockquote {
+	line-height:175%;
+	border:dashed 1px #666;
+	background:url(blockquote.png) left top no-repeat #fff;
+	padding:0.5em 0 0.5em 1em;
+	font-size:100%;
 	font-style :italic;
 }
 
@@ -343,4 +366,9 @@ span.blogmap {
 	font-weight:normal;
 	font-size:80%;
 	margin-left:5px;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
 }

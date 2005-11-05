@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Mt.Fuji
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 License: GPL
@@ -71,6 +71,7 @@ div.adminmenu a	{ color: #fff; }
 div.adminmenu a:visited	{ color: #fff; }
 h1						{ color: #fff; }
 h1	a					{ color: #fff; }
+h1	a:visited		{ color: #fff; }
 a:link				{ color: #e00; }
 a:visited			{ color: #b00; }
 div.day				{ color: #000; }

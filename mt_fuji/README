@@ -1,5 +1,5 @@
 Title: Mt.Fuji
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 License: GPL
@@ -8,4 +8,5 @@ Comment: 富士山、四季折々。右サイドバーのための習作
 Copyright 2005 (C) TADA Tadashi <sho@spc.gr.jp>
 
 
+2005-12-07 dl要素の設定を追加
 2005-10-23 autumn.jpgを追加。body要素のbackground-imageを替えると秋になります

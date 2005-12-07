@@ -1,5 +1,5 @@
 Title: もみじ
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: ただただし
 Access: http://sho.tdiary.net/
 License: GPL
@@ -7,4 +7,5 @@ Comment: 紅葉
 
 Copyright 2005 (C) TADA Tadashi <sho@spc.gr.jp>
 
+2005-12-07 dl要素の設定を追加
 

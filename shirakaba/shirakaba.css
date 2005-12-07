@@ -1,0 +1,158 @@
+@charset "euc-jp";
+/*
+Title: Mt.Fuji
+Revision: $Revision: 1.1 $
+Author: ただただし
+Access: http://sho.tdiary.net/
+License: GPL
+Comment: 富士山、四季折々(にする予定)。右サイドバーのための習作
+
+Copyright 2005 (C) TADA Tadashi <sho@spc.gr.jp>
+*/
+
+/* width */
+div.section			{ width: 100%; }
+div.main				{ width: 70%; }
+div.sidebar			{ width: 23%; }
+div.title input	{ width: 50%; }
+div.update textarea { width: 90%; }
+
+/* height */
+h1						{ height: 130px; }
+div.update textarea { height: 30em; }
+
+/* margin */
+body					{ margin: 0px; }
+div.adminmenu		{ margin-top: 0px; margin-right: 0.5em; }
+span.adminmenu		{ margin-left: 0.5em; }
+h1						{ margin: 0px; margin-top: 0.1em; margin-bottom: 0.5em; }
+div.day				{ margin: 0px; margin-bottom: 1em; }
+div.day h2			{ margin: 0px; }
+div.section			{ margin: 0.2em 0.5em 0.2em 0.2em; }
+div.section h3		{ margin-top: 0.5em; margin-bottom: 0.2em; }
+div.section h4		{ margin-top: 0.5em; margin-bottom: 0.2em; }
+div.section p		{ margin-left: 1em; margin-top: 0.2em; }
+div.section pre	{ margin-left: 2em; margin-right: 0.5em; }
+div.section blockquote { margin: 1em 0.5em 1em 2em; }
+div.section blockquote p { margin: 0em; }
+div.section ul		{ margin-left: 0em; }
+div.section ol		{ margin-left: 0em; }
+div.section li		{ margin-left: 3em; }
+div.section table	{ margin-left: 2em; margin-right: 1em; }
+div.section img	{ margin: 0.5em; }
+div.section dl		{ margin-left: 2em; }
+div.caption			{ margin-top: 0.2em; margin-bottom: 0.5em; }
+div.commentbody p	{ margin-top: 0.2em; margin-left: 1em; }
+div.refererlist	{ margin: 1em; }
+div.main				{ margin-left: 0.5em; }
+div.sidebar			{ margin-left: -1px; }
+div.update			{ margin: 0.5em; }
+div.update div.form { margin-bottom: 0.5em; }
+div.update div.title { margin-top: 0.5em; }
+div.update div.textarea { margin-top: 0.5em; }
+
+/* padding */
+body					{ padding: 0px; }
+div.adminmenu		{ padding: 0px; }
+h1						{ padding-left: 1em; }
+div.day h2			{ padding: 0.2em; }
+div.section			{ padding-bottom: 1em; }
+div.comment			{ padding: 1em; }
+div.referer			{ padding: 1em; }
+div.day div.form	{ padding: 1em; }
+div.main				{ padding: 0em; }
+div.sidebar			{ padding: 0.5em; padding-left: 1em; }
+div.section pre	{ padding: 0.5em; }
+div.section blockquote	{ padding-left: 0.5em; }
+
+/* color */
+body					{ color: #000; }
+div.adminmenu		{ color: #fff; }
+div.adminmenu a	{ color: #fff; }
+div.adminmenu a:visited	{ color: #fff; }
+h1						{ color: #fff; }
+h1	a					{ color: #fff; }
+h1	a:visited		{ color: #fff; }
+a:link				{ color: #00e; }
+a:visited			{ color: #808; }
+div.day				{ color: #000; }
+div.section pre	{ color: #000; }
+
+/* background-color */
+body					{ background-color: #ddd; }
+h1						{ background-color: transparent; }
+h1	a					{ background-color: transparent; }
+div.day				{ background-color: #fff; }
+div.section pre	{ background-color: #88d; }
+
+/* background-image */
+body					{ background-image: url(body.jpg); background-position: left top; background-repeat: repeat-x; }
+
+/* float */
+div.main				{ float: left; }
+div.sidebar			{ float: left; }
+img.left				{ float: left; }
+img.right			{ float: right; }
+img.photo			{ float: right; }
+img.amazon			{ float: right; }
+
+/* clear */
+div.section			{ clear: right; }
+div.section h4		{ clear: right; }
+div.comment			{ clear: right; }
+div.adminmenu		{ clear: both; }
+div.footer			{ clear: both; }
+
+/* font-size */
+div.adminmenu		{ font-size: 80%; }
+span.sanchor		{ font-size: 70%; }
+span.canchor		{ font-size: 70%; }
+div.footer			{ font-size: 80%; }
+div.sidebar			{ font-size: 90%; }
+
+/* text-align */
+div.adminmenu		{ text-align: right; }
+div.referer			{ text-align: right; }
+div.footer			{ text-align: right; }
+
+/* line-height */
+div.section			{ line-height: 150%; }
+div.section	pre	{ line-height: 120%; }
+div.update textarea { line-height: 150%; }
+
+/* text-decoration */
+h1	a					{ text-decoration: none; }
+div.adminmenu a	{ text-decoration: none; }
+div.day h2 a		{ text-decoration: none; }
+span.sanchor		{ text-decoration: none; }
+span.canchor		{ text-decoration: none; }
+div.referer a		{ text-decoration: none; }
+div.refererlist a	{ text-decoration: none; }
+div.sidebar a		{ text-decoration: none; }
+
+/* text-weight */
+div.caption			{ font-weight: bold; }
+
+/* border */
+div.day				{ border-style: solid; border-color: #88d; border-width: 1px; }
+div.day div.body	{ border-style: solid; border-color: #88d; border-width: 0px 0px 1px 0px; }
+div.comment			{ border-style: solid; border-color: #88d; border-width: 0px 0px 1px 0px; }
+div.day div.form	{ border-style: solid; border-color: #88d; border-width: 0px 0px 1px 0px; }
+div.trackbacks		{ border-style: solid; border-color: #88d; border-width: 0px 0px 1px 0px; }
+div.day h2			{ border-style: solid; border-color: #88d; border-width: 0px 0px 1px 0px; }
+div.day blockquote{ border-style: solid; border-color: #88d; border-width: 0px 0px 0px 4px; }
+img					{ border-color: #88d; }
+img.left				{ border-width: 1px; }
+img.right			{ border-width: 1px; }
+img.photo			{ border-width: 1px; }
+img.amazon			{ border-width: 1px; }
+
+/* display */
+div.update textarea { display: block; }
+div.day textarea { display: block; }
+hr.sep				{ display: none; }
+div.rss-recent-title { display: none; }
+
+/* white-space */
+pre					{ white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; white-space: pre-wrap; word-wrap: break-word; }
+

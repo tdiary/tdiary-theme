@@ -1,17 +1,17 @@
 @charset "euc-jp";
 /*
-Title: お花見
-Revision: $Revision: 1.2 $
+Title: お花見(右サイドバー版)
+Revision: $Revision: 1.1 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
-Comment: 2005年、等々力緑地の桜
+Comment: 2005年、等々力緑地の桜。cherry_brossomの右サイドバー版
 
-validated by W3C.
+Copyright 2006 (C) TADA Tadashi <sho@spc.gr.jp>
 */
 
 body {
-	background-color: #d2e3fd;
+	background-color: #cfdbeb;
 	background-image: url(body.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -28,6 +28,12 @@ h1 {
 	padding: 0px;
 	padding-left: 1em;
 	padding-top: 0px;
+}
+h1	a,
+h1	a:visited {
+	background-color: transparent;
+	color: #000;
+	text-decoration: none;
 }
 
 a:link {
@@ -286,6 +292,7 @@ div.footer {
 	text-align: right;
 	margin-top: 0px;
 	margin-right: 1em;
+	clear: both;
 }
 
 div.update {
@@ -323,8 +330,8 @@ form.update textarea {
 	display: block;
 	margin-left: 3em;
 	margin-bottom: 1em;
-	width: 35em;
-	height: 15em;
+	width: 90%;
+	height: 20em;
 }
 
 form.update span.checkbox.hidediary {
@@ -344,11 +351,16 @@ p.message {
 }
 
 div.section pre {
-	background-color: #d2e3fd;
+	background-color: #cfdbeb;
 	color: #929eb0;
 	margin-left: 3em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 div.section blockquote {
@@ -442,18 +454,22 @@ div.footnote {
 sidebar
 */
 div.main {
-	margin-left: 200px;
+	width: 70%;
+	margin-left: 0.5em;
+	padding: 0px;
+	float: left;
 }
 
 div.sidebar {
 	font-size: 90%;
-	background-color: #d2e3fd;
+	background-color: transparent;
 	color: #000;
 	position: absolute;
-	top: 200px;
-	left: 0px;
-	width: 200px;
-	padding: 4px 0px 100% 0px;
+	width: 23%;
+	margin-left: -1px;
+	padding: 0.5em;
+	padding-left: 1em;
+	float: left;
 }
 
 div.sidebar a:link,

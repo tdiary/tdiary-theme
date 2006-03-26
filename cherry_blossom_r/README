@@ -1,0 +1,17 @@
+Title: お花見(右サイドバー版)
+Revision: $Revision: 1.1 $
+Author: TADA Tadashi
+Access: sho@spc.gr.jp
+License: GPL
+Comment: 2005年、等々力緑地の桜。cherry_blossomを右サイドバーにしたもの
+
+validated by W3C.
+サイドバー推奨
+amazon プラグイン対応
+
+トップの画像を入れ替える場合、append-css.rbプラグインを使って以下のように
+指定すると無改造でいけます。
+
+body {
+   background-image: url(新しい画像のURL);
+}

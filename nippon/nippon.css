@@ -1,26 +1,22 @@
 @charset "euc-jp";
 /*
 Title: 日本ちゃちゃちゃ
-Revision: $Revision: 1.4 $
+Revision: $Revision: 1.5 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
-Comment: 終わっちゃったので公開
+Comment: サッカー日本代表ユニ
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
 */
-/* ChangeLog
-2002-06-06 TADA Tadashi <sho@spc.gr.jp>
-	* created.
-*/
 
 body {
 	background-image: url(nippon_back.png);
+	background-position: 75%;
 	background-repeat: repeat-y;
 	background-color: #007;
 	color: #fff;
-	margin-left: 210px;
 }
 
 a:link {
@@ -38,10 +34,12 @@ a:visited {
 div.adminmenu {
 	text-align: right;
 	margin-top: 0px;
+	margin-right: 30%;
+	clear: both;
 }
 
 div.adminmenu {
-	font-size: x-small;
+	font-size: 80%;
 	color: #ff0;
 	background-color: transparent;
 	border-style: none;
@@ -56,8 +54,13 @@ h1 {
 	border-style: solid;
 	border-color: #c00;
 	border-width: 2px 24px 2px 24px;
+	width: 60%;
 	padding: 8px;
 	text-align: center;
+}
+
+h1 a, h1 a:visited {
+	color: #000;
 }
 
 div.day h2 {
@@ -122,6 +125,11 @@ div.body pre {
 	border-color: #fff;
 	padding: 8px;
 	margin-left: 3em;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 div.body blockquote {
@@ -169,7 +177,7 @@ div.comment {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 	padding: 4px;
-	font-size: small;
+	font-size: 90%;
 	margin-left: 3em;
 }
 
@@ -204,7 +212,8 @@ div.form {
 div.day div.form {
 	margin-top: 0px;
 	margin-bottom: 0.5em;
-	font-size: small;
+	margin-right: 0.5em;
+	font-size: 90%;
 }
 
 div.form form {
@@ -225,7 +234,7 @@ div.form textarea {
 
 div.referer {
 	text-align: right;
-	font-size: x-small;
+	font-size: 80%;
 	margin-top: 0px;
 }
 
@@ -238,7 +247,7 @@ div.refererlist {
 	margin-top: 0px;
 	margin-bottom: 0.5em;
 	margin-left: 3em;
-	font-size: small;
+	font-size: 90%;
 }
 div.day div.refererlist {
 	margin-left: 3em;
@@ -272,7 +281,9 @@ hr.sep {
 
 div.footer {
 	text-align: right;
-	font-size: x-small;
+	font-size: 80%;
+	margin-right: 30%;
+	clear: both;
 }
 
 form div.body {
@@ -291,12 +302,12 @@ div.calendar {
 	color: #fff;
 	background-color: transparent;
 	text-align: right;
-	font-size: x-small;
+	font-size: 80%;
 }
 
 /* calendar2 */
 table.calendar {
-	font-size: x-small;
+	font-size: 80%;
 	line-height: 100%;
 	border-width: 0px;
 }
@@ -314,13 +325,13 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 
 /* recent_list */
 p.recentitem {
-	font-size: x-small;
+	font-size: 80%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 div.recentsubtitles {
-	font-size: x-small;
+	font-size: 80%;
 	margin-top: 0px;
 	margin-bottom: 1em;
 	margin-left: 1em;
@@ -329,7 +340,7 @@ div.recentsubtitles {
 /* footnote */
 div.body span.footnote {
 	vertical-align: super;
-	font-size: xx-small;
+	font-size: 80%;
 }
 
 div.footnote {
@@ -337,7 +348,7 @@ div.footnote {
 	border-color: #fff;
 	border-width: 1px 0px 0px 0px;
 	margin-left: 3em;
-	font-size: small;
+	font-size: 90%;
 }
 
 /* amazon plugin */
@@ -353,25 +364,31 @@ img.right {
 	float: right;
 }
 
+/*
 div.section, div.comment {
 	clear: both;
 }
+*/
 
 /*
  for Asumi Diary layout
  */
 div.main {
+	width: 70%;
+	margin-left: 0.5em;
+	padding: 0px;
+	float: left;
 }
 
 div.sidebar {
-	position: absolute;
-	top: 120px;
-	left: 0px;
-	width: 160px;
-	font-size: x-small;
-	padding: 2px 2px 100% 2px;
-	color: #fff;
+	font-size: 90%;
 	background-color: transparent;
+	color: #fff;
+	width: 20%;
+	margin-left: 25px;
+	padding: 0.5em;
+	padding-left: 1em;
+	float: left;
 }
 
 div.sidebar p {

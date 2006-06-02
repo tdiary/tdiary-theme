@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: 日本ちゃちゃちゃ
-Revision: $Revision: 1.5 $
+Revision: $Revision: 1.6 $
 Author: ただただし
 Access: sho@spc.gr.jp
 License: GPL
@@ -301,7 +301,6 @@ form div.body {
 div.calendar {
 	color: #fff;
 	background-color: transparent;
-	text-align: right;
 	font-size: 80%;
 }
 
@@ -358,7 +357,7 @@ img.left {
 	float: left;
 }
 
-img.right {
+img.right, img.amazon {
 	border-width: 1px;
 	border-color: #fff;
 	float: right;
@@ -385,9 +384,8 @@ div.sidebar {
 	background-color: transparent;
 	color: #fff;
 	width: 20%;
-	margin-left: 25px;
-	padding: 0.5em;
-	padding-left: 1em;
+	margin-left: 35px;
+	padding-left: 1.5em;
 	float: left;
 }
 
@@ -520,4 +518,12 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+ハイライトプラグイン
+*/
+.highlight {
+	color: #000;
+	background: #ff6666;
 }

@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Mixi-blue
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
@@ -27,11 +27,6 @@ a:link,a:visited {
 	color:#960;
 	text-decoration: none;
 }
-
-a:hover {
-	background-color:#FF0;
-}
-
 /* ----- Side Bar ----- */
 div.main {
 	margin-left: 160px;

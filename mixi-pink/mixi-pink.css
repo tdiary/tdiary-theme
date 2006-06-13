@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Mixi-pink
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
@@ -27,11 +27,6 @@ hr.sep {
 a:link,a:visited {
 	color:#399;
 	text-decoration: none;
-}
-
-a:hover {
-	color:#960;
-	background-color:#FFF4E0;
 }
 
 /* ----- Side Bar ----- */

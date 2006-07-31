@@ -1,0 +1,75 @@
+Title: Glass Green
+Author: YAMAGUCHI Takayuki
+Access: http://i-yt.info/
+License: GPL
+Comment: http://www.squaregear.net/gimptips/を参考にして作りました。
+
+
+sidebar、sidebar2に対応。
+div.mainとdiv.sidebarを使うとサイドバーは右側、
+div.main2とdiv.sidebar2を使うとサイドバーは左側。
+<%= navi %>と<h1>タグは<div class="main">の前に置いて下さい。
+下の例のようにするとプラグインも含めて大体うまく表示される。
+ヘッダのサンプル-------------------------------------
+<%= navi %>
+<h1>タイトル</h1>
+<div class="main">
+-----------------------------------------------------
+
+フッタのサンプル-------------------------------------
+</div>
+<div class="sidebar">
+
+<%= counter 5%>
+
+<h2>カレンダー</h2>
+<%=calendar%>
+<%=calendar2%>
+
+<h2>最近の記事</h2>
+<%=recent_list%>
+<h2>最近のツッコミ</h2>
+<%= recent_comment 5, '<br>' %>
+</div>
+------------------------------------------------------
+
+
+counter.rbの<%= counter 5%>などのようなテキスト表示
+に対して背景画像を設定するCSSは初め有効になっていません。
+使う場合はCSSファイルのコメントアウトされている部分を有効にしてください
+（CSSファイルを開いて「counter」という単語で検索すると良いでしょう）。
+カウンターが途中で改行されてしまうときは
+<div style="width:140px"><%= counter 5%></div>
+などのようにwidthを指定して見て下さい。
+カウンターの1文字の幅は20pxなので
+（カウンターの桁数） * 20px + おまけの数ピクセル
+をwidthに指定すると良いでしょう。
+
+
+<div class="sidebar">の中のh2タグには背景画像がつきます。
+
+
+<div class="footer">と<div class="adminmenu">が2個以上あると
+あまり見栄えが良くありません。
+設定-カテゴリのページでは
+「ヘッダ1：ナビゲーションボタンのすぐ下に表示されます．」
+の欄をすべて消し「ヘッダ2：H1のすぐ下に表示されます．」を
+次のようにすることをおすすめします。
+-------------------------------------------------------
+<div class="day">
+<p>
+<%= category_navi %>
+</p>
+<p>カテゴリ |
+<%= category_list %>
+</p>
+</div>
+-------------------------------------------------------
+
+
+表示確認はIE6、Firefox1.5、Opera9.0でしています。
+見出しなどの文字数が多くなるとレイアウトが崩れるかもしれません。
+あまり望ましくないのですがフォントサイズをpxで指定しています。
+glass_blue、glass_green、glass_orange、glass_purple、glass_yellow
+glass_emerald、glass_light_blue、glass_pink、glass_red
+のCSSはファイル名が違うだけで中身は同じです。

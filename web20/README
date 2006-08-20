@@ -1,0 +1,25 @@
+Title: web20
+Author: こさか
+Access: takosaka at gmail.com
+License: GPL
+Comment: Web2.0っぽいテーマ
+
+validated by W3C.
+
+Web2.0っぽいロゴを作れるメーカー
+http://msig.info/web2.php
+ここで作ったイメージを<h1>で指定する。
+
+サイドバー推奨
+[設定例]
+---------ヘッダに記入---------
+<div class="main>
+
+---------フッタに記入---------
+</div>
+
+<div class="sidebar">
+<h3>見出し</h3>
+<p>もろもろ</p>
+</div>
+

@@ -1,0 +1,321 @@
+body {
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	background:url(header.gif) top repeat-x #fff;
+	margin:0;
+	color:#333;
+	padding-left:25px;
+}
+
+hr.sep {
+	display:none;
+}
+
+/* ---------- link ---------- */
+div.sidebar a:active, div.sidebar a:hover,
+div.section a:active, div.section a:hover {
+	text-decoration:underline;
+}
+
+/* ---------- Blue ---------- */
+a:link,a:visited {
+	color:#0079BB;
+	text-decoration:none;
+}
+
+/* ---------- Pink ---------- */
+div.recent-rss-title a:link, div.recent-rss-title a:visited ,
+div.footnote a:link, div.footnote a:visited ,
+div.adminmenu a:link, div.adminmenu a:visited ,
+span.nyear a:link, span.nyear a:visited {
+	color:#f08;
+}
+
+/* ---------- Orange ---------- */
+div.tags a:link,div.tags a:visited ,
+div.weather a:link,div.wether a:visited {
+	color:#f82;
+}
+
+/* ---------- Green ---------- */
+div.footer a:link, div.footer a:visited,
+div.tagcloud a:link, div.tagcloud a:visited {
+	color:#1a3;
+}
+
+/* ----- Sidebar ----- */
+div.main {
+	width: 70%;
+	float: left;
+	border-right:1px dashed #BFE6FB;
+	margin:30px 20px 0 0;
+	padding-right:20px;
+}
+
+div.sidebar {
+	position: static;
+	float: left;
+	width: 20%;
+	margin-top:30px;
+	font-size:80%;
+	color:#999;
+}
+
+div.main form {
+	margin:0 0 0 2em;
+}
+
+div.sidebar form {
+	margin:0 0 2em 0;
+}
+
+div.sidebar ul{
+	margin-bottom:2em;
+}
+
+div.sidebar p{
+	margin:0 0 30px 0;
+	line-height:1.5em;
+}
+
+span.bm {
+	margin-right:3px;
+}
+
+/* ---------- h1-h4 ---------- */
+h1 {
+	font-family:trebuchet ms,arial,tahoma,verdana,sans-serif;
+	color:#BFE6FB;
+	margin:0 0 20px 0;
+}
+
+h2 {
+	border-bottom:1px #BFE6FB solid;
+	padding-bottom:5px;
+	font-size:120%;
+	margin:0;
+	font-family: Georgia, sans-serif;
+}
+
+h3 {
+	margin-top:2em;
+	font-size:110%;
+}
+
+div.sidebar h3 {
+	margin:0 0 10px 0;
+	color:#666;
+	font-family: Georgia, sans-serif;
+	font-weight:normal;
+	font-size:150%
+}
+
+/* ---------- Anchor ---------- */
+span.canchor {
+	font-size:70%;
+}
+
+span.sanchor {
+	font-size: 70%;
+}
+
+/* ---------- Adminmenu ---------- */
+span.nyear {
+	font-weight:normal;
+	margin-left:5px;
+	color:#999;
+}
+
+h2 span.nyear {
+	font-size:60%;
+}
+
+div.adminmenu{
+	color:#999;
+	font-size:90%;
+	line-height:150%;
+	text-align:right;
+	margin:10px;
+}
+
+span.adminmenu {
+	margin-left:5px;
+}
+
+/* ---------- Section ---------- */
+div.day {
+	margin:0 0 4em 0;
+}
+
+div.body {
+	margin-bottom:1em;
+}
+
+div.section {
+	margin:0 1em 3em 1em;
+}
+
+div.section p {
+	line-height:175%;
+	margin-left:1.3em;
+}
+
+div.section li{
+	line-height:175%;
+}
+
+div.section pre, div.section blockquote {
+	font-family:Verdana,Geneva,Arial,Sans-serif;
+	border-left:5px #ccc solid;
+	margin:0;
+	padding-left:15px;
+	line-height:175%;
+	margin-left:3em;
+	font-size:85%;
+}
+
+div.section blockquote {
+	font-style:italic;
+}
+
+div.footer {
+	background:url(footer.gif) bottom repeat-x;
+	margin:1em 0 0 0;
+	line-height:1.5em;
+	padding:0 20px 10px 0;
+	color:#999;
+	text-align:center;
+	font-size:80%;
+}
+
+/* ---------- Caption ---------- */
+div.caption {
+	margin-left:1em;
+	font-size:80%;
+	margin-bottom :5px;
+	padding-bottom:3px;
+	color:#999;
+}
+
+/* ---------- Comment ---------- */
+div.commentshort p {
+	line-height:1.5em;
+	margin:0 0 2px 1.8em;
+	font-size:90%;
+}
+
+div.commentbody  {
+	margin:1em 0 0 1em;
+}
+
+div.commentbody p  {
+	line-height: 1.5em;
+	margin:0.5em 0 1em 1.5em;
+}
+
+div.commentator {
+	color:#1a3;
+}
+
+/* ---------- Referer ---------- */
+div.refererlist {
+	font-size:90%;
+	margin:1em 1em 1em 0;
+	color:#999;
+}
+
+div.refererlist ul {
+	line-height:1.5em;
+}
+
+div.referer {
+	font-size:90%;
+	color:#999;
+}
+
+/* ---------- Image ---------- */
+img {
+	border:0;
+}
+
+img.right{
+	float:right;
+	margin-left:10px;
+}
+
+img.amazon{
+	float:right;
+	margin-top:1em;
+	margin-left:5px;
+}
+
+img.bk1 {
+	margin-right:10px;
+}
+
+/* ---------- Plugin ---------- */
+span.blogmap {
+	font-weight:normal;
+	margin-left:5px;
+	font-size:80%;
+}
+
+div.footnote {
+	margin:3em 2em 3em 2em;
+}
+
+span.footnote {
+	margin: 0 2px 0 1px;
+	vertical-align:super;
+}
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+.highlight {
+	background-color:#ff9;
+}
+
+div.tags {
+	color:#999;
+}
+
+div.tagcloud {
+   margin:0 0 30px 0;
+}
+
+div.recent-rss {
+	margin-bottom:40px;
+}
+
+div.recent-rss-title{
+	margin-bottom:1em;
+	margin-left:1em;
+	font-size:80%;
+}
+
+div.recent-rss li{
+	line-height:1.2em;
+	margin:10px 0 10px 0;
+}
+
+div.alpslab-slide{
+	margin-left:1.5em;
+}
+
+div.weather {
+	text-align:right;
+	font-size:80%;
+	padding-top:3px;
+	color:#999;
+}
+
+div.weather,div.lwws {
+	font-size:small;
+	text-align:right;
+}
+
+div.lwws img{
+	margin-top:5px;
+}

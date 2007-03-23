@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Ç½ÅÐ¤Î³¤
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -49,6 +49,7 @@ a:visited {
 div.adminmenu {
 	font-size: 70%;
 	margin: 0.1em;
+	margin-right: 1em;
 	text-align: right;
 	font-weight: bold;
 	clear: both;
@@ -58,7 +59,7 @@ div.adminmenu a:link, div.adminmenu a:visited {
 	text-decoration: none;
 	height: 20px;
 	background-color: transparent;
-	color: #fff;
+	color: #005;
 }
 
 span.adminmenu {
@@ -294,6 +295,7 @@ div.footer {
 	margin-top: 0px;
 	margin-right: 1em;
 	clear: both;
+	color: #005;
 }
 
 div.update {

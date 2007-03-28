@@ -617,7 +617,7 @@ div.sidebar div.recentsubtitles, div.sidebar2 div.recentsubtitles
   line-height:120%;
 }
 
-div.sidebar h2, div.sidebar2 h2{
+div.sidebar h2, div.sidebar2 h2, div.sidebar h3{
   background:#666666 url("bg_side_h2.jpg") 0 0 no-repeat;
   width:180px;
   height:40px;

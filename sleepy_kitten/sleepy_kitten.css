@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: Sleepy Kitten
-Revision: $Revision: 1.1 $
+Revision: $Revision: 1.2 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -379,7 +379,7 @@ div.section dt {
 }
 
 div.section dd {
-	margin: -1em 0em 0.5em 3.5em;
+	margin: 0.2em 0em 0.5em 2em;
 }
 
 div.section table {

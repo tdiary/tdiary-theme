@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /*
 Title: ¤ª²Ö¸«
-Revision: $Revision: 1.2 $
+Revision: $Revision: 1.3 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
 License: GPL
@@ -383,7 +383,7 @@ div.section dt {
 }
 
 div.section dd {
-	margin: -1em 0em 0.5em 3.5em;
+	margin: 0.2em 0em 0.5em 2em;
 }
 
 div.section table {

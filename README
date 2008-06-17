@@ -9,14 +9,14 @@ it can be distoributed by GPL2, and it has a copyright below:
 
 
 -- Japanese Information -- 
-���Υѥå������ϡ�tDiary <http://www.tdiary.org>�Υǥ�����ƥ�ץ졼
-�ȤǤ���֥ơ��ޡפ򽸤᤿��ΤǤ���tDiary���󥹥ȡ���ǥ��쥯�ȥ���
-���ˤ���theme�ǥ��쥯�ȥ�β��ˡ��ƥơ��ޤΥǥ��쥯�ȥꤴ�ȥ��ԡ���
-�Ƥ��Ȥ�����������
+このパッケージは、tDiary <http://www.tdiary.org>のデザインテンプレー
+トである「テーマ」を集めたものです。tDiaryインストールディレクトリ配
+下にあるthemeディレクトリの下に、各テーマのディレクトリごとコピーし
+てお使いください。
  
-�������ӥ饤���󥹤ϳƥơ��ޤΥե�����˵��Ҥ��Ƥ����Τ˽�����
-�������ä���������Ƥ��ʤ���硢���۾���GPL2������ϰʲ��ˤʤ��
-����
+著作権およびライセンスは各テーマのファイルに記述してあるものに従いま
+すが、特に明記されていない場合、配布条件はGPL2、著作権は以下になりま
+す。
  
    Copyright (c) 2005 TADA Tadashi <sho@spc.gr.jp> 
  

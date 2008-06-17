@@ -21,7 +21,7 @@
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ja-JP">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="generator" content="tDiary 2.2.0">
 	<meta name="Author" content="hogefuga">
 	<link rev="MADE" href="mailto:foo@example.com">
@@ -29,7 +29,7 @@
 	<meta http-equiv="content-style-type" content="text/css">
 	<link rel="stylesheet" href="<%=theme_uri%>/base.css" type="text/css" media="all">
 	<link rel="stylesheet" href="<%=theme%>" type="text/css" media="all">
-	<title>tDiary 2.2 ���ѥơ��ޥ٥��</title>
+	<title>tDiary 2.2 系用テーマベンチ</title>
   <script type="text/javascript"><!--
   // http://www.din.or.jp/~hagi3/JavaScript/JSTips/Mozilla/
   // _dom : kind of DOM.
@@ -123,39 +123,39 @@
 <body>
 <form method="get" action="<%= cgi_uri %>">
 <p>
-���󥹥ȡ���ѥơ��ޢ�
+インストール済テーマ→
 <select name="theme" onchange="location=document.URL.replace(/\?.*/,'')+'?theme='+this.options[this.selectedIndex].value">
 <% theme_list.each do |t|
 	puts %Q|<option value="#{t[0]}"#{if (cgi['theme'] == '' and t[0] == 'default') or t[0] == cgi['theme'] then " selected" end}>#{t[1]}</option>|
 end %>
 </select>
-<input type="submit" value="�ѹ�">
+<input type="submit" value="変更">
 </p>
 </form>
 <form method="get" action="<%= cgi_uri %>">
 <p>
-CSS �� URI ����ꢪ 
+CSS の URI を指定→ 
 <input name="theme" size="50" value="http://">
-<input type="submit" value="�ѹ�">
+<input type="submit" value="変更">
 </p>
 </form>
 <hr class="sep">
-<!-- �ʥӥ��������ܥ��� -->
+<!-- ナビゲーションボタン -->
 <div class="adminmenu">
-	<span class="adminmenu"><a href="http://www.tdiary.net/">�ȥå�</a></span>
-	<span class="adminmenu"><a href="...">�ġİʲ�ʣ��³��</a></span>
+	<span class="adminmenu"><a href="http://www.tdiary.net/">トップ</a></span>
+	<span class="adminmenu"><a href="...">……以下複数続く</a></span>
 </div>
 
-<h1>tDiary 2.2 ���ѥơ��ޥ٥��</h1>
+<h1>tDiary 2.2 系用テーマベンチ</h1>
 
-<!-- �������� -->
+<!-- カレンダー -->
 <div class="calendar">
 	<div class="year">2001 | <a href="...">01</a> | ...</div>
 	<div class="year">2002 | <a href="...">01</a> | ...</div>
 </div>
 
 <div class="search_form">
-<!-- �����ե����� -->
+<!-- 検索フォーム -->
 	<form class="search" method="post" action="<%= cgi_uri %>">
 	
 		<input class="search" type="text" name="query" size="20" value="">
@@ -165,111 +165,111 @@ CSS �� URI ����ꢪ
 </div>
 
 <hr class="sep">
-<!-- 1��ʬ������(Day�⡼��) -->
+<!-- 1日分の日記(Dayモード) -->
 <div class="day">
 
 	<h2>
 		<span class="date"><a href="...">2002-05-16</a></span>
-		<span class="title">1���Υ����ȥ�</span>
+		<span class="title">1日のタイトル</span>
 	</h2>
 
-	<!-- ��ʸ�ѡ��� -->
+	<!-- 本文パート -->
 	<div class="body">
-		<!-- ���������(���֥����ȥ뤢��) -->
+		<!-- セクション(サブタイトルあり) -->
 		<div class="section">
-			<!-- ���֥����ȥ�(span.sanchor�Ͼ�ά���줦��) -->
+			<!-- サブタイトル(span.sanchorは省略されうる) -->
 			<h3>
 				<a name="p01" href="..."><span class="sanchor">_</span></a>
-				���֥����ȥ�
+				サブタイトル
 			</h3>
 
-			<!-- ��ʸ -->
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��</p>
-			<pre>�񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ�
-�񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ�
-�񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ޽񤤤��ޤ�</pre>
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��<strong>strong �������</strong></p>
-			<blockquote>���Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ��Ѱ���</blockquote>
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ<span class="footnote"><a href="./?date=20020914#f01" title="���������">*1</a></span>��</p>
+			<!-- 本文 -->
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文。</p>
+			<pre>書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま
+書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま
+書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま</pre>
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文。<strong>strong エレメント</strong></p>
+			<blockquote>引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用引用</blockquote>
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文<span class="footnote"><a href="./?date=20020914#f01" title="脚注を指定">*1</a></span>。</p>
 		</div>
 
-		<!-- ���������(���֥����ȥ�ʤ�) -->
+		<!-- セクション(サブタイトルなし) -->
 		<div class="section">
-			<!-- ��ʸ(span.sanchor�Ͼ�ά���줦��) -->
+			<!-- 本文(span.sanchorは省略されうる) -->
 			<p><a name="p02" href="..."><span class="sanchor">_</span></a>
-			���֥����ȥ�ʤ��Υ��������</p>
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��</p>
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��</p>
+			サブタイトルなしのセクション</p>
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文。</p>
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文。</p>
 		</div>
 		<div class="footnote">
-			<p class="footnote"><a href="./?date=20020914#fm01">*1</a>&nbsp;���������</p>
+			<p class="footnote"><a href="./?date=20020914#fm01">*1</a>&nbsp;脚注を指定</p>
 		</div>
 	</div>
 
-	<!-- �ĥå��ߥѡ��� -->
+	<!-- ツッコミパート -->
 	<div class="comment">
-		<!-- �ĥå��ߥ֥��å��Υ����ȥ� -->
+		<!-- ツッコミブロックのタイトル -->
 		<div class="caption">
-			�����Υĥå���(��n��)
-			[<a href="...">�ĥå��ߤ������</a>]
+			本日のツッコミ(全n件)
+			[<a href="...">ツッコミを入れる</a>]
 		</div>
 
-		<!-- �ĥå�������(�ĥå��ߤο����������֤�) -->
+		<!-- ツッコミ本体(ツッコミの数だけ繰り返し) -->
 		<div class="commentbody">
-			<!-- �ġ��Υĥå�����ͤξ���(span.canchor�Ͼ�ά���줦��) -->
+			<!-- 個々のツッコんだ人の情報(span.canchorは省略されうる) -->
 			<div class="commentator">
 				<a name="c01" href="..."><span class="canchor">_</span></a>
 				<span class="commentator">hoge</span>
 				<span class="commenttime">(2002-05-16:00:99)</span>
 			</div>
-			<!-- �ĥå�����ʸ -->
-			<p>�ۤ��ۤ�</p>
-			<p>�ۤ��ۤ�</p>
+			<!-- ツッコミ本文 -->
+			<p>ほげほげ</p>
+			<p>ほげほげ</p>
 
-			<!-- �ġ��Υĥå�����ͤξ���(span.canchor�Ͼ�ά���줦��) -->
+			<!-- 個々のツッコんだ人の情報(span.canchorは省略されうる) -->
 			<div class="commentator">
 				<a name="c02" href="..."><span class="canchor">_</span></a>
 				<span class="commentator">fuga</span>
 				<span class="commenttime">(2002-05-16:09:99)</span>
 			</div>
-			<!-- �ĥå�����ʸ -->
-			<p>�֥饦����ɽ��ʸ���������򾮤������Ƥ⡢���᡼�����󥫡�����Υĥå��ߤ˽Ťʤ�ޤ��󤫡�</p>
-			<p>�ե��ե�</p>
+			<!-- ツッコミ本文 -->
+			<p>ブラウザで表示文字サイズを小さくしても、イメージアンカーが上のツッコミに重なりませんか。</p>
+			<p>フガフガ</p>
 		</div>
 	</div>
 
-	<!-- �ĥå��ߥե����� -->
+	<!-- ツッコミフォーム -->
 	<div class="form">
-		<!-- �ĥå��ߥե�����Υ����ȥ� -->
+		<!-- ツッコミフォームのタイトル -->
 		<div class="caption">
-		<a name="c">�ĥå��ߡ������Ȥ�����Фɤ���!!</a>
+		<a name="c">ツッコミ・コメントがあればどうぞ!!</a>
 		</div>
 		<form class="comment" method="post" action="<%= cgi_uri %>"><div>
 			<input type="hidden" name="date" value="20020516">
 			<div class="field name">
-				��̾��:<input class="field" name="name" value="�ۤ��ۤ�">
+				お名前:<input class="field" name="name" value="ほげほげ">
 			</div>
 			<div class="field mail">
 				E-mail:<input class="field" name="mail" value="hoge@example.com">
 			</div>
 			<div class="textarea">
-				������:<textarea name="body" cols="60" rows="5">��ƥե�����Υե���Ȥ򾮤����������Ƥ��ޤ���?
-�طʿ���ʸ�����ζ��̤�������ȤĤ��ޤ��� ?</textarea>
+				コメント:<textarea name="body" cols="60" rows="5">投稿フォームのフォントを小さくしすぎていませんか?
+背景色と文字色の区別がきちんとつきますか ?</textarea>
 			</div>
 			<div class="button">
-				<input type="submit" name="comment" value="���">
+				<input type="submit" name="comment" value="投稿">
 			</div>
 		</div></form>
 	</div>
 
-	<!-- ��󥯸��ѡ��� -->
+	<!-- リンク元パート -->
 	<div class="refererlist">
-		<!-- ��󥯸��֥��å��Υ����ȥ� -->
+		<!-- リンク元ブロックのタイトル -->
 		<div class="caption">
-			�����Υ�󥯸�
+			本日のリンク元
 		</div>
 
-		<!-- ��󥯸����� -->
+		<!-- リンク元一覧 -->
 		<ul>
 			<li><a href="...">http://sho.tdiary.net/</a></li>
 			<li><a href="...">http://sho.tdiary.net/200205.html</a></li>
@@ -280,48 +280,48 @@ CSS �� URI ����ꢪ
 
 <hr class="sep">
 
-<!-- 1��ʬ������(Month/Latest�⡼��) -->
+<!-- 1日分の日記(Month/Latestモード) -->
 <div class="day">
 	<h2>
 		<span class="date"><a href="...">2002-05-16</a></span>
-		<span class="title">1���Υ����ȥ�</span>
+		<span class="title">1日のタイトル</span>
 	</h2>
 	<div class="body">
 		<div class="section">
-			<!-- ���֥����ȥ�(span.sanchor�Ͼ�ά���줦��) -->
+			<!-- サブタイトル(span.sanchorは省略されうる) -->
 			<h3>
 				<a href="..."><span class="sanchor">_</span></a>
-				���֥����ȥ�
+				サブタイトル
 			</h3>
-			<p>��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��ʸ��<span class="footnote"><a href="./?date=20020516#f01" title="���������">*1</a></span></p>
+			<p>本文本文本文本文本文本文本文本文本文本文本文本文。<span class="footnote"><a href="./?date=20020516#f01" title="脚注を指定">*1</a></span></p>
 		</div>
 		<div class="footnote">
-			<p class="footnote"><a href="./?date=20020516#fm01">*1</a>&nbsp;���������</p>
+			<p class="footnote"><a href="./?date=20020516#fm01">*1</a>&nbsp;脚注を指定</p>
 		</div>
 	</div>
 
-	<!-- �ĥå��ߥѡ��� -->
+	<!-- ツッコミパート -->
 	<div class="comment">
-		<!-- �ĥå��ߥ֥��å��Υ����ȥ� -->
+		<!-- ツッコミブロックのタイトル -->
 		<div class="caption">
-			�����Υĥå���(��n��)
-			[<a href="...">�ĥå��ߤ������</a>]
+			本日のツッコミ(全n件)
+			[<a href="...">ツッコミを入れる</a>]
 		</div>
 
-		<!-- �ĥå������ξ�ά��(�ĥå��ߤο����������֤�) -->
+		<!-- ツッコミ本体省略版(ツッコミの数だけ繰り返し) -->
 		<div class="commentshort">
 			<p><a href="..."><span class="canchor">_</span></a>
 			<span class="commentator">hoge</span>
-			�ĥå��ߤ�û�������򤳤�ơ�</p>
+			ツッコミは短く、愛をこめて。</p>
 			<p><a href="..."><span class="canchor">_</span></a>
 			<span class="commentator">fuga</span>
-			�֥饦����ɽ��ʸ���������򾮤������Ƥ⡢���᡼�����󥫡�����Υĥå��ߤ˽Ťʤ�ޤ��󤫡�</p>
+			ブラウザで表示文字サイズを小さくしても、イメージアンカーが上のツッコミに重なりませんか。</p>
 		</div>
 	</div>
 
-	<!-- ��󥯸��ѡ��� -->
+	<!-- リンク元パート -->
 	<div class="referer">
-		�����Υ�󥯸�
+		本日のリンク元
 		| <a href="...">100</a> | <a href="...">10</a> |
 	</div>
 
@@ -329,7 +329,7 @@ CSS �� URI ����ꢪ
 
 <hr class="sep">
 
-<!-- Copyrightɽ���ʤ� -->
+<!-- Copyright表示など -->
 <div class="footer">
 Generated by <a href="http://www.tdiary.net/">tDiary</a> version 2.2<br>
 Powered by Ruby version <%= RUBY_VERSION %>
@@ -337,55 +337,55 @@ Powered by Ruby version <%= RUBY_VERSION %>
 
 <hr>
 
-<h1>�ۤ��ۤ�����[�ɲ�]</h1>
+<h1>ほげほげ日記[追加]</h1>
 
 <div class="update day">
-	<!-- �����ե����� -->
+	<!-- 更新フォーム -->
 	<div class="form">
 		<div class="caption">
-			�����ե�����
+			更新フォーム
 		</div>
 		<form class="update" method="post" action="<%= cgi_uri %>"><div>
 			<input type="hidden" name="old" value="20020516">
 			<span class="field year">
-				<input class="field" name="year" size="4" value="2002">ǯ
+				<input class="field" name="year" size="4" value="2002">年
 			</span>
 			<span class="field month">
-				<input class="field" name="month" size="2" value="05">��
+				<input class="field" name="month" size="2" value="05">月
 			</span>
 			<span class="field day">
-				<input class="field" name="day" size="2" value="16">��
+				<input class="field" name="day" size="2" value="16">日
 			</span>
 			<span class="button edit">
-				<input type="submit" name="edit" value="�������դ��������Խ�">
+				<input type="submit" name="edit" value="この日付の日記を編集">
 			</span>
 			<div class="field title">
-				�����ȥ�:<input class="field" name="title" size="40" value="�����ȥ�">
+				タイトル:<input class="field" name="title" size="40" value="タイトル">
 			</div>
 			<div class="textarea">
-				��ʸ:<textarea name="body" cols="70" rows="15">��ƥե�����Υե���Ȥ򾮤����������Ƥ��ޤ���?
-�طʿ���ʸ�����ζ��̤�������ȤĤ��ޤ��� ?</textarea>
+				本文:<textarea name="body" cols="70" rows="15">投稿フォームのフォントを小さくしすぎていませんか?
+背景色と文字色の区別がきちんとつきますか ?</textarea>
 			</div>
 			<span class="button append">
-				<input type="submit" name="append" value="�ɲ�">
+				<input type="submit" name="append" value="追加">
 			</span>
 			<span class="checkbox hidediary">
-				�������������򱣤�<input type="checkbox" name="hide" value="true">
+				この日の日記を隠す<input type="checkbox" name="hide" value="true">
 			</span>
 		</div></form>
 	</div>
 
 	<hr class="sep">
 
-	<!-- �ĥå��߾����ѹ� -->
+	<!-- ツッコミ状態変更 -->
 	<div class="comment">
-		<div class="caption">�����Υĥå���</div>
+		<div class="caption">本日のツッコミ</div>
 		<form class="commentstat" method="post" action="<%= cgi_uri %>"><div>
 			<input type="hidden" name="year" value="2002">
 			<input type="hidden" name="month" value="5">
 			<input type="hidden" name="day" value="16">
 			<div class="commentbody">
-				<!-- �ġ��Υĥå�����ͤξ���(span.canchor�Ͼ�ά���줦��) -->
+				<!-- 個々のツッコんだ人の情報(span.canchorは省略されうる) -->
 				<div class="commentator">
 					<span class="checkbox">
 						<input class="checkbox" type="checkbox" name="1" value="true" checked>
@@ -393,26 +393,26 @@ Powered by Ruby version <%= RUBY_VERSION %>
 					<span class="commentator">hoge</span>
 					<span class="commenttime">(2002-05-16 00:99)</span>
 				</div>
-				<!-- �ĥå�����ʸ -->
-				<p>�ۤ��ۤ�</p>
-				<p>�ۤ��ۤ�</p>
+				<!-- ツッコミ本文 -->
+				<p>ほげほげ</p>
+				<p>ほげほげ</p>
 			</div>
 			<div class="button">
-				<input type="submit" name="comment" value="�ĥå���ɽ�������ѹ�">
+				<input type="submit" name="comment" value="ツッコミ表示状態変更">
 			</div>
 		</div></form>
 	</div>
 
 	<hr class="sep">
 
-	<!-- ������󥯸� -->
+	<!-- 本日リンク元 -->
 	<div class="refererlist">
-		<!-- ��󥯸��֥��å��Υ����ȥ� -->
+		<!-- リンク元ブロックのタイトル -->
 		<div class="caption">
-			�����Υ�󥯸�
+			本日のリンク元
 		</div>
 
-		<!-- ��󥯸����� -->
+		<!-- リンク元一覧 -->
 		<ul>
 			<li><a href="...">http://sho.tdiary.net/</a></li>
 			<li><a href="...">http://sho.tdiary.net/200205.html</a></li>
@@ -421,23 +421,23 @@ Powered by Ruby version <%= RUBY_VERSION %>
 </div>
 
 <!-- cached version of calender2 starts here -->
-<p>calendar2 �ץ饰����</p>
+<p>calendar2 プラグイン</p>
 <table class="calendar" summary="calendar">
 <tr>
 <td class="image" colspan="7" valign="bottom"></td>
 </tr>
 <tr>
-<td class="calendar-prev-month" colspan="2"><a href="./?date=200205">��</a></td>
-<td class="calendar-current-month" colspan="3"><a href="./?date=200206">2002ǯ<br>6��</a></td>
-<td class="calendar-next-month" colspan="2">��</td>
+<td class="calendar-prev-month" colspan="2"><a href="./?date=200205">前</a></td>
+<td class="calendar-current-month" colspan="3"><a href="./?date=200206">2002年<br>6月</a></td>
+<td class="calendar-next-month" colspan="2">次</td>
 </tr>
-<tr> <td class="calendar-sunday">��</td>
-<td class="calendar-weekday">��</td>
-<td class="calendar-weekday">��</td>
-<td class="calendar-weekday">��</td>
-<td class="calendar-weekday">��</td>
-<td class="calendar-weekday">��</td>
-<td class="calendar-saturday">��</td>
+<tr> <td class="calendar-sunday">日</td>
+<td class="calendar-weekday">月</td>
+<td class="calendar-weekday">火</td>
+<td class="calendar-weekday">水</td>
+<td class="calendar-weekday">木</td>
+<td class="calendar-weekday">金</td>
+<td class="calendar-saturday">土</td>
 </tr>
 <tr>
 <td class="calendar-day"></td>
@@ -496,16 +496,16 @@ Powered by Ruby version <%= RUBY_VERSION %>
 </table>
 <!-- cached version of calender2 ends here -->
 
-<p>calendar3 �ץ饰����</p>
+<p>calendar3 プラグイン</p>
 <div class="calendar3">
 <!-- calendar3 -->
 <span class="calendar-prev-month"><a href="./200311.html">&lt;&lt;</a></span>
 <span class="calendar-current-month"><a href="./200312.html">2003/12</a>/</span>
 <span class="calendar-normal"><a class="calendar-weekday">1</a></span>
 <span class="calendar-day" id="target-2" onmouseover="popup(document.getElementById('target-2'),document.getElementById('popup-2'), document.getElementById('title-2'));" onmouseout="popdown(document.getElementById('popup-2'));">
-<a class="calendar-weekday" id="title-2" title="1. �����Υ磻��" href="./20031202.html">2</a>
+<a class="calendar-weekday" id="title-2" title="1. 本日のワイン" href="./20031202.html">2</a>
 <span class="calendar-popup" id="popup-2">
-<a href="./20031202.html#p01" title="�⤦̲����Ǥ����ɡ��񤫤��ˤϤ����ʤ��ΤǤ���äȤ����� Cotes D'Auvergne cepage pinot 2001 / Domaine Vincent Tricot ..">1</a>. �����Υ磻��<br>
+<a href="./20031202.html#p01" title="もう眠いんですけど、書かずにはいられないのでちょっとだけ。 Cotes D'Auvergne cepage pinot 2001 / Domaine Vincent Tricot ..">1</a>. 本日のワイン<br>
 <span class="calendar-normal"><a class="calendar-weekday">3</a></span>
 <span class="calendar-normal"><a class="calendar-weekday">4</a></span>
 <span class="calendar-normal"><a class="calendar-weekday">5</a></span>
@@ -536,7 +536,7 @@ Powered by Ruby version <%= RUBY_VERSION %>
 <span class="calendar-normal"><a class="calendar-weekday">30</a></span>
 <span class="calendar-normal"><a class="calendar-weekday">31</a></span>
 <span class="calendar-next-month"><a href="./200401.html">&gt;&gt;</a></span>
-<!-- calendar3 �����ޤ� -->
+<!-- calendar3 ここまで -->
 </div>
 
 </body>

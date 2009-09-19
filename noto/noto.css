@@ -289,6 +289,8 @@ div.section hr {
 	border-style: dotted;
 	border-color: #d6ceb2;
 	border-width: 2px 0px 0px 0px;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	margin-left: 4em;
 	width: 70%;
 }

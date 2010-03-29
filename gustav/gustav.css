@@ -1,0 +1,408 @@
+@charset "euc-jp";
+/*
+Title: Gustav
+Revision: $Revision: 1.0 $
+Author: TADA Tadashi
+Access: t@tdtds.jp
+License: GPL
+Comment: Gustav the cat.
+
+Copyright 2010 (C) TADA Tadashi <t@tdtds.jp>
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(gustav_back.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #222;
+}
+
+div.adminmenu {
+	text-align: right;
+	color: #fff;
+	background-color: #000;
+	filter: alpha(opacity=60);
+	opacity:0.60;
+	padding: 4px;
+}
+
+/*
+ for insert dropdown calendar into adminmenu
+ */
+div.adminmenu div,
+div.adminmenu form,
+div.adminmenu select {
+	display: inline;
+}
+
+span.adminmenu,
+div.adminmenu form {
+	font-size: 80%;
+	background-color: #000;
+	color: #fff;
+	filter: alpha(opacity=100);
+	opacity:1.00;
+	padding-left: 0.5em;
+}
+
+span.adminmenu a,
+span.adminmenu a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+div.content {
+	text-align: left;
+	margin: 0px auto;
+	width: 900px;
+}
+
+h1 {
+	height: 90px;
+	padding-top: 200px;
+	padding-left: 16px;
+	color: #fff;
+	background-color: transparent;
+	text-align: left;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.main {
+	float: left;
+	width: 680px;
+}
+
+div.day {
+	line-height: 150%;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+	color: #000;
+	background-color: #eee;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+}
+
+div.day h2 {
+	text-align: right;
+	font-size: small;
+	background-color: #aaa;
+   border-radius: 8px 8px 0px 0px;
+   -moz-border-radius: 8px 8px 0px 0px;
+	padding: 8px;
+}
+
+div.body,
+div.comment,
+div.day div.form,
+div.referer,
+div.refererlist {
+	margin: 16px;
+}
+
+div.section {
+	margin-top: 30px;
+}
+
+div.section h3 {
+	margin-left: 16px;
+	text-indent: -16px;
+}
+
+.sanchor {
+	color: #00e;
+	background-color: #00e;
+	padding: 0.8em 0.2em 0px 0.2em;
+	font-size: 1px;
+}
+
+div.section h4 {
+	margin-top: 2em;
+	margin-left: 10px;
+}
+
+div.section p {
+	margin: 1em 0px 1em 10px;
+}
+
+div.section pre {
+	margin: 1em 10px 1em 30px;
+	padding: 8px;
+	background-color: #fff;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+}
+
+div.section blockquote {
+	margin: 1em 10px 1em 30px;
+	padding: 2px;
+	background-color: #fff;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #555;
+}
+
+div.section ul,
+div.section ol {
+	margin-left: 50px;
+}
+
+div.section dl {
+	margin: 1em 0px 1em 30px;
+}
+
+div.section dt {
+	float: left;
+	clear: left;
+	font-weight: bold;
+	width: 5em;
+}
+
+div.section dd {
+	overflow: auto;
+}
+
+div.section table {
+	margin: 1em 0px 1em 30px;
+	width: 90%;
+	border-top: 1px solid #444;
+	border-left: 1px solid #444;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: #fff;
+	empty-cells: show;
+}
+
+div.section th {
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	color: #fff;
+	background-color: #555;
+	padding: 0.3em 0.5em;
+	text-align: left;
+}
+
+div.section td {
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	padding: 0.3em 1em;
+}
+
+img.left, img.amazon {
+	float: right;
+	border-stype: solid;
+	border-color: #888;
+	border-width: 1px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+div.amazon-detail {
+	margin: 1em 10px 1em 30px;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+	background-color: #fff;
+	padding: 8px;
+}
+
+div.amazon-detail img {
+	float: left;
+	margin-right: 10px;
+}
+
+div.amazon-detail-desc {
+	overflow: auto;
+}
+
+div.commentbody .commentator {
+	margin-top: 10px;
+}
+
+div.comment .caption,
+div.refererlist .caption,
+div.day div.form .caption {
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+div.comment .caption a {
+	font-weight: normal;
+}
+
+.canchor {
+	color: #888;
+	background-color: #888;
+	padding: 0.5em 0.2em 0px 0.2em;
+	font-size: 1px;
+}
+
+div.commentbody p {
+	margin-left: 10px;
+}
+
+div.day div.form div.title input {
+	display: block;
+}
+
+div.day div.form div {
+	margin-bottom: 10px;
+}
+
+div.day div.form div.name {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+div.day div.form div.name input {
+	width: 100%;
+}
+
+div.day div.form div.mail {
+	overflow: auto;
+}
+div.day div.form div.mail input {
+	width: 98%;
+}
+
+div.day div.form div.textarea {
+	width: 100%;
+	clear: left;
+}
+div.day div.form div.textarea textarea {
+	width: 100%;
+}
+
+div.day div.form input,
+div.day div.form textarea {
+	padding-top: 4px;
+	padding-bottom: 4px;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+}
+
+div.day div.form .button input {
+	display: inline;
+	padding: 8px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+div.day div.form .button {
+	text-align: right;
+}
+
+div.refererlist ul,
+div.refererlist li {
+	margin-left: 20px;
+}
+
+div.sidebar {
+	overflow: auto;
+	zoom: 1;
+}
+
+div.sidebar-item {
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+	color: #000;
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 90%;
+}
+
+div.sidebar-item h3 {
+	background-color: #aaa;
+   border-radius: 8px 8px 0px 0px;
+   -moz-border-radius: 8px 8px 0px 0px;
+	padding: 5px 8px;
+	margin: -10px -10px 10px -10px;
+}
+
+div.sidebar-item img.amazon {
+	display: none;
+}
+
+div.footer {
+	margin-top: 10px;
+	clear: both;
+	color: #eee;
+	font-size: small;
+}
+div.footer a,
+div.footer a:visited,
+div.footer a:hover {
+	color: #88e;
+}
+
+body.update {
+	background-image: none;
+	background-color: #222;
+}
+
+body.update h1 {
+	display: table-cell;
+	vertical-align: middle;
+	height: 80px;
+	padding: 0px;
+	padding-left: 260px;
+	color: #fff;
+	background-image: url(gustav_update.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	text-align: left;
+}
+
+body.update div.autopagerize_page_element {
+	width: 900px;
+	margin: 10px auto 10px auto;
+	text-align: left;
+}
+
+div.update {
+	text-align: left;
+	margin: 10px auto 0px auto;
+	width: 900px;
+}
+
+div.update div.caption {
+	font-size: large;
+	padding-top: 10px;
+}
+
+div.update h3.subtitle {
+	font-size: medium;
+}
+
+span.year input,
+span.month input,
+span.day input {
+	text-align: center;
+}
+
+form.update div.title {
+	margin-top: 10px;
+}
+form.update div.title input {
+	pagging-left: 10px;
+	width: 100%;
+}
+
+div.update div.form .button input {
+	padding: 2px;
+}
+

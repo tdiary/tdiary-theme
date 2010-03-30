@@ -74,6 +74,11 @@ h1 {
 	text-align: left;
 }
 
+h1 a, h1 a:visited, h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 hr.sep {
 	display: none;
 }
@@ -230,6 +235,25 @@ div.amazon-detail-desc {
 div.sequel {
 	font-size: small;
 	text-align: right;
+}
+
+div.profile {
+	text-align: center;
+	border: none;
+	width: 70%;
+	margin: 0px auto;
+}
+
+div.profile img {
+	border: none;
+}
+
+div.profile span {
+	display: block;
+}
+
+div.profile span.profile-description {
+	text-align: justify;
 }
 
 div.commentbody .commentator {
@@ -415,4 +439,3 @@ form.update div.title input {
 div.update div.form .button input {
 	padding: 2px;
 }
-

@@ -256,6 +256,10 @@ div.profile span {
 	display: block;
 }
 
+div.profile span.profile-name {
+	font-weight: bold;
+}
+
 div.profile span.profile-description {
 	text-align: justify;
 }

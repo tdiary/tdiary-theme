@@ -227,6 +227,11 @@ div.amazon-detail-desc {
 	overflow: auto;
 }
 
+div.sequel {
+	font-size: small;
+	text-align: right;
+}
+
 div.commentbody .commentator {
 	margin-top: 10px;
 }
@@ -332,6 +337,11 @@ div.sidebar-item h3 {
 	margin: -10px -10px 10px -10px;
 }
 
+div.sidebar-item ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
 div.sidebar-item img.amazon {
 	display: none;
 }
@@ -358,7 +368,7 @@ body.update h1 {
 	vertical-align: middle;
 	height: 80px;
 	padding: 0px;
-	padding-left: 260px;
+	padding-left: 280px;
 	color: #fff;
 	background-image: url(gustav_update.jpg);
 	background-position: left center;

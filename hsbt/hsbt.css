@@ -363,13 +363,13 @@ pre {
 
 div.body blockquote {
 	border: #ddf 2px solid;
-	margin-left:3em;
-	margin-right:1em;
+	margin-left:2em;
+	margin-right:2em;
 	padding:2px;
 }
 
 div.body blockquote p {
-	margin:0.5em 0;
+	margin: 0.5em 1em 0.5em 1em;
 }
 
 div.body ul,div.body ol {

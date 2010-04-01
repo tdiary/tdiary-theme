@@ -273,11 +273,11 @@ div.refererlist {
     font-size:small;
     background-color:#fff;
     color:#000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
     padding:2px;
     padding-bottom:1px;
-    margin-top:0.5em;
-    margin-left:2em;
-    margin-right:1em;
+    margin: 0.5em;
     border:#DEF 1px solid;
 }
 

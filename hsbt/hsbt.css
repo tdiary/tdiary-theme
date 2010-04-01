@@ -362,12 +362,10 @@ pre {
 }
 
 div.body blockquote {
-    border-style:solid;
-    border-color:#ddf;
-    border-width:2px;
-    margin-left:5em;
-    margin-right:3em;
-    padding:4px;
+    border: #ddf 2px solid;
+    margin-left:3em;
+    margin-right:1em;
+    padding:2px;
 }
 
 div.body blockquote p {
@@ -439,9 +437,7 @@ p.footnote {
 }
 
 img.flickr {
-    border-width:1px;
-    border-color:#BCD;
-    border-style:dashed;
+    border: #BCD 1px dashed;
     float:right;
     margin:0.5em;
     vertical-align:top;

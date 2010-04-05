@@ -518,7 +518,6 @@ p.message {
 	body {
 		background-image: url(gustav_back_iphone.jpg);
 		background-position: left top;
-		background-repeat: repeat;
 	}
 
 	div.adminmenu {
@@ -528,8 +527,8 @@ p.message {
 	}
 
 	h1 {
-		padding-top: 0px;
-		height: 141px;
+		padding-top: 80px;
+		height: 50px;
 	}
 
 	div.content {

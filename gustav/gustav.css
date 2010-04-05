@@ -32,6 +32,7 @@ div.adminmenu {
 	filter: alpha(opacity=60);
 	opacity:0.60;
 	padding: 4px;
+	clear: both;
 }
 
 /*
@@ -62,7 +63,6 @@ span.adminmenu a:visited {
 div.content {
 	text-align: left;
 	margin: 0px auto;
-	width: auto;
 	max-width: 900px;
 }
 
@@ -86,7 +86,6 @@ hr.sep {
 
 div.main {
 	float: left;
-	width: auto;
 	max-width: 680px;
 }
 
@@ -216,7 +215,7 @@ div.section td {
 
 div.section img.right, img.amazon, img.photo {
 	float: right;
-	border-stype: solid;
+	border-style: solid;
 	border-color: #888;
 	border-width: 1px;
 	margin-left: 10px;
@@ -225,7 +224,7 @@ div.section img.right, img.amazon, img.photo {
 
 div.section img.left {
 	float: none;
-	border-stype: solid;
+	border-style: solid;
 	border-color: #888;
 	border-width: 1px;
 	margin: 0px auto;
@@ -297,6 +296,20 @@ div.section object.ustream {
 	display: block;
 	text-align: center;
 	margin: 10px auto;
+}
+
+form.search div {
+	width: 100%;
+}
+
+form.search input.text {
+	font-size: medium;
+	width: 160px;
+	max-width: 80%;
+}
+
+form.search input.button {
+	width: 32px;
 }
 
 div.commentbody .commentator {
@@ -449,7 +462,7 @@ body.update h1 {
 }
 
 body.update div.autopagerize_page_element {
-	width: 900px;
+	max-width: 900px;
 	margin: 10px auto 10px auto;
 	text-align: left;
 }
@@ -457,7 +470,7 @@ body.update div.autopagerize_page_element {
 div.update {
 	text-align: left;
 	margin: 10px auto 0px auto;
-	width: 900px;
+	max-width: 900px;
 }
 
 div.update div.caption {
@@ -479,7 +492,7 @@ form.update div.title {
 	margin-top: 10px;
 }
 form.update div.title input {
-	pagging-left: 10px;
+	padding-left: 10px;
 	width: 100%;
 }
 
@@ -502,9 +515,21 @@ p.message {
  design for iPhone and other smart phones
  */
 @media screen and (max-device-width: 480px) {
+	body {
+		background-image: url(gustav_back_iphone.jpg);
+		background-position: left top;
+		background-repeat: repeat;
+	}
+
 	div.adminmenu {
+		font-size: x-small;
 		margin: 0px;
 		width: 100%;
+	}
+
+	h1 {
+		padding-top: 0px;
+		height: 141px;
 	}
 
 	div.content {
@@ -512,6 +537,11 @@ p.message {
 	}
 
 	div.main {
+		width: 100%;
+	}
+
+	div.day {
+		margin-right: 0px;
 		width: 100%;
 	}
 
@@ -526,6 +556,25 @@ p.message {
 
 	div.section img {
 		max-width: 320px;
+	}
+
+	body.update h1 {
+		background-image: none;
+		height: auto;
+		display: block;
+		padding: 0px;
+	}
+
+	body.update div.autopagerize_page_element {
+		width: 100%;
+	}
+
+	div.update {
+		width: 100%;
+	}
+
+	textarea {
+		font-size: 110%;
 	}
 }
 

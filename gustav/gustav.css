@@ -567,8 +567,17 @@ p.message {
 		text-indent: 0px;
 	}
 
-	div.section img {
-		max-width: 320px;
+	div.section img.left,
+	div.section img.right,
+	div.section img.photo {
+		display: block;
+		float: none;
+		margin: 10px auto;
+		max-width: 300px !important;
+	}
+
+	div.section img.amazon {
+		max-width: 150px !important;
 	}
 
 	body.update h1 {

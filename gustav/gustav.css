@@ -525,6 +525,29 @@ p.message {
 	font-weight: bold;
 }
 
+dl.search-result dt {
+	margin-top: 1em;
+}
+
+dl.search-result dd {
+	margin-left: 2em;
+}
+
+div.search-navi {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+div.category {
+	text-align: left;
+	margin: 0px auto;
+	width: 900px;
+}
+
+div.category ul {
+	list-style-type: none;
+}
+
 /*
  design for iPhone and other smart phones
  */

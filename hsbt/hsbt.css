@@ -14,6 +14,7 @@ body {
 	color: #000;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	margin-top: 0.5em;
 }
 
@@ -68,6 +69,7 @@ span.adminmenu {
 	background-color:#F0F8FF;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	color:#000;
 	padding:2px;
 	vertical-align:middle;
@@ -79,6 +81,7 @@ h1 {
 	background-color:#def;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	padding:0.2em;
 	margin-top:0.2em;
 	margin-bottom:0.2em;
@@ -100,6 +103,7 @@ div.day {
 	color:#000;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	border:#aaf 1px solid;
@@ -130,6 +134,7 @@ h3 {
 	border-left: #DEF 5px solid;
 	border-radius: 0px 0px 0px 8px;
 	-moz-border-radius: 0px 0px 0px 8px;
+	-webkit-border-radius: 0px 0px 0px 8px;
 }
 
 div.section p {
@@ -159,6 +164,7 @@ div.body {
 	border: #def 1px solid;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 }
@@ -170,6 +176,7 @@ div.comment {
 	border:#def 1px solid;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	margin: 0.5em;
 }
 
@@ -218,6 +225,7 @@ div.form {
 	color:#000;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	border:#aaf 1px solid;
 	margin:0.5em;
 }
@@ -239,11 +247,17 @@ form.comment input {
 	background-color:#eef;
 	color:#000;
 	margin-left:1em;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 div.textarea {
 	display:block;
 	vertical-align:top;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 form.comment textarea {
@@ -253,6 +267,9 @@ form.comment textarea {
 	margin-left:3em;
 	width:30em;
 	height:5em;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 div.button {
@@ -275,6 +292,7 @@ div.refererlist {
 	color:#000;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	padding:2px;
 	padding-bottom:1px;
 	margin: 0.5em;
@@ -312,6 +330,9 @@ form.update {
 form.update input,form.update textarea,form.commentstat input {
 	background-color:#eef;
 	color:#000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 form.update span.field {
@@ -321,6 +342,9 @@ form.update span.field {
 }
 
 form.update div.field.title input {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	margin-left:0.5em;
 }
 
@@ -468,6 +492,9 @@ div.sidebar {
 
 div.sidebar form{
 	text-align:center;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 div.sidebar p {
@@ -488,6 +515,7 @@ div.contents {
 	padding: 5px;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 
 div.strong {

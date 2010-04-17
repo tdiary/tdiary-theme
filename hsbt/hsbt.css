@@ -9,6 +9,11 @@ Comment: Pukiwiki based theme.
 Copyright 2010 (C) SHIBATA Hiroshi <shibata.hiroshi@gmail.com>
 */
 
+div.diary {
+	margin: 0px auto;
+	max-width: 1024px
+}
+
 body {
 	background-color: #fff;
 	color: #000;
@@ -62,6 +67,7 @@ div.adminmenu {
 	font-size:0.9em;
 	margin-top:0.2em;
 	margin-bottom:0.2em;
+	clear: both;
 }
 
 span.adminmenu {

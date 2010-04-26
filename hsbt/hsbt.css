@@ -229,9 +229,9 @@ p.referer {
 div.form {
 	background-color:#fff;
 	color:#000;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	border:#aaf 1px solid;
 	margin:0.5em;
 }
@@ -253,17 +253,17 @@ form.comment input {
 	background-color:#eef;
 	color:#000;
 	margin-left:1em;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 div.textarea {
 	display:block;
 	vertical-align:top;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 form.comment textarea {
@@ -273,9 +273,9 @@ form.comment textarea {
 	margin-left:3em;
 	width:30em;
 	height:5em;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 div.button {
@@ -323,7 +323,7 @@ hr.sep {
 
 div.footer {
 	font-size:0.9em;
-	text-align:right;
+	text-align:center;
 	margin-top:0em;
 	clear: both;
 }
@@ -336,9 +336,9 @@ form.update {
 form.update input,form.update textarea,form.commentstat input {
 	background-color:#eef;
 	color:#000;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 form.update span.field {
@@ -348,9 +348,9 @@ form.update span.field {
 }
 
 form.update div.field.title input {
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	margin-left:0.5em;
 }
 
@@ -498,9 +498,9 @@ div.sidebar {
 
 div.sidebar form{
 	text-align:center;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 div.sidebar p {

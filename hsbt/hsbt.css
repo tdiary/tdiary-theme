@@ -70,6 +70,12 @@ div.adminmenu {
 	clear: both;
 }
 
+div.adminmenu div,
+div.adminmenu form,
+div.adminmenu select {
+   display: inline;
+}
+
 span.adminmenu {
 	border:#DEF 1px solid;
 	background-color:#F0F8FF;

@@ -131,6 +131,7 @@ div.section {
 }
 
 div.section h3 {
+	margin-bottom: 1em;
 	margin-left: 16px;
 	text-indent: -16px;
 }
@@ -145,6 +146,8 @@ div.section h3 {
 div.section h4 {
 	margin-top: 2em;
 	margin-left: 10px;
+	margin-bottom: 1em;
+	clear: both;
 }
 
 div.section p {
@@ -249,6 +252,13 @@ div.section div.footnote {
 	margin-left: 20px;
 }
 
+div.section hr {
+	border-style: outset;
+	width: 80%;
+	color: #555;
+	margin: 3em auto 3em 10%;
+}
+
 a.amazon-detail,
 a.amazon-detail:visited,
 a.amazon-detail:hover {
@@ -308,6 +318,12 @@ div.profile span.profile-description {
 }
 
 div.section div.everytrail {
+	text-align: center;
+}
+
+div.section object.youtube {
+	display: block;
+	margin: 10px auto;
 	text-align: center;
 }
 
@@ -438,12 +454,19 @@ div.sidebar-item h3 {
 	-webkit-border-top-left-radius: 8px;
 	-webkit-border-top-right-radius: 8px;
 	padding: 10px;
+	padding-bottom: 8px;
 	margin: -10px -10px 10px -10px;
 }
 
 div.sidebar-item ul {
 	list-style-type: none;
 	margin: 0px;
+}
+
+div.sidebar-item a,
+div.sidebar-item a:visited,
+div.sidebar-item a:hover {
+	text-decoration: none;
 }
 
 div.sidebar-item img.amazon {

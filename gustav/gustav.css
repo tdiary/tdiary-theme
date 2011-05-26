@@ -136,6 +136,12 @@ div.section h3 {
 	text-indent: -16px;
 }
 
+div.section h3 a,
+div.section h3 a:visited,
+div.section h3 a:hover {
+	text-decoration :none;
+}
+
 .sanchor {
 	color: #00e;
 	background-color: #00e;
@@ -360,6 +366,12 @@ div.day div.form .caption {
 
 div.comment .caption a {
 	font-weight: normal;
+}
+
+div.comment a,
+div.comment a:visited,
+div.comment a:hover {
+	text-decoration :none;
 }
 
 .canchor {

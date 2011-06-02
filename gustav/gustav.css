@@ -272,7 +272,7 @@ a.amazon-detail:hover {
 	text-decoration: none;
 }
 
-div.amazon-detail {
+span.amazon-detail {
 	margin: 1em 10px 1em 30px;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -287,7 +287,7 @@ img.amazon-detail {
 	border: none !important;
 }
 
-div.amazon-detail-desc {
+span.amazon-detail-desc {
 	overflow: auto;
 }
 

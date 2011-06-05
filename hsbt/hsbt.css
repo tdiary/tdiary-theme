@@ -451,10 +451,10 @@ p.footnote {
 
 img.flickr {
 	border: #BCD 1px dashed;
-	float:right;
-	margin:0.5em;
-	vertical-align:top;
-	clear:both;
+	display: block;
+	float: none;
+	margin: 0px auto;
+	margin-bottom: 10px;
 }
 
 div.main {

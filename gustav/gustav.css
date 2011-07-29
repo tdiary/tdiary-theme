@@ -25,6 +25,12 @@ body {
 	background-color: #222;
 }
 
+div.whole-content {
+	text-align: left;
+	margin: 0px auto;
+	max-width: 900px;
+}
+
 div.adminmenu {
 	text-align: right;
 	color: #fff;
@@ -60,15 +66,9 @@ span.adminmenu a:visited {
 	text-decoration: none;
 }
 
-div.content {
-	text-align: left;
-	margin: 0px auto;
-	max-width: 900px;
-}
-
 h1 {
-	height: 90px;
-	padding-top: 200px;
+	padding-top: 188px;
+	padding-bottom: 20px;
 	padding-left: 16px;
 	color: #fff;
 	background-color: transparent;
@@ -476,6 +476,7 @@ div.footer {
 	clear: both;
 	color: #eee;
 	font-size: small;
+	text-align: center;
 }
 div.footer a,
 div.footer a:visited,
@@ -593,7 +594,7 @@ div.category ul {
 		height: 50px;
 	}
 
-	div.content {
+	div.whole-content {
 		width: 100%;
 	}
 

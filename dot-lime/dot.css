@@ -1,10 +1,10 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 html,body {
 	/*font-size: small;*/
 	margin: 0;
 	padding: 0;
-	/*font-family: sans-serif,"¥Ò¥é¥®¥Î³Ñ¥´proW6","£Í£Ó £Ð¥´¥·¥Ã¥¯","Osaka";*/
+	/*font-family: sans-serif,"ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´proW6","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Osaka";*/
 	line-height: 3ex;
 }
 a { text-decoration: none; font-weight: bold; }
@@ -144,7 +144,7 @@ dd {
 	padding: 0;
 	margin-bottom: 1em;
 }
-/*½ñ±Æ¾ÜºÙ*/
+/*æ›¸å½±è©³ç´°*/
 div.hatena-asin-detail {
 }
 div.hatena-asin-detail img {
@@ -164,7 +164,7 @@ div.hatena-asin-detail-info ul {
 	text-align: right;
 }
 
-/*tableÉ½µ­*/
+/*tableè¡¨è¨˜*/
 div.day table {
 	border-collapse: collapse;
 	margin: 1em 2em;
@@ -175,7 +175,7 @@ div.day th, div.day td {
 	padding: 0.2em;
 }
 
-/*questionÉ½µ­*/
+/*questionè¡¨è¨˜*/
 img.hatena-question-image { border: none; }
 table.hatena-question-detail {
 	border-collapse: collapse;

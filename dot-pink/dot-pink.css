@@ -1,4 +1,4 @@
-@charset 'euc-jp';
+@charset 'utf-8';
 @import url(./dot.css);
 
 html,body {
@@ -70,7 +70,7 @@ td.calendar-saturday { color: #fff; background-image: url(dot-darkgray.png); }
 /*list*/
 ul { list-style-image: url(dot-list.png); }
 li, dt { border-bottom: 1px dotted #ccc; }
-/*½ñ±Æ¾ÜºÙ*/
+/*æ›¸å½±è©³ç´°*/
 div.hatena-asin-detail {
 }
 div.hatena-asin-detail img {}
@@ -84,7 +84,7 @@ span.hatena-asin-detail-label {
 	font-weight: bold;
 }
 
-/*tableÉ½µ­*/
+/*tableè¡¨è¨˜*/
 div.day th, div.day td {
 	border-color: #f9b;
 }
@@ -93,7 +93,7 @@ div.day th, div.day th a:link, div.day th a:visited {
 	color: #333;
 }
 
-/*questionÉ½µ­*/
+/*questionè¡¨è¨˜*/
 table.hatena-question-detail th, table.hatena-question-detail td {
 	border-color: #f9b;
 }

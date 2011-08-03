@@ -1,24 +1,24 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: plum
 Revision: $Revision: 1.6 $
 Author: epi
 Access: <episode@104.net>
 License: GPL
-Comment: ¹ç³Êµ§´ê
-ÊÑ¹¹¥Ù¡¼¥¹¤Ë¤·¤¿¥Æ¡¼¥Ş¤Ï"default"¡£
+Comment: åˆæ ¼ç¥ˆé¡˜
+å¤‰æ›´ãƒ™ãƒ¼ã‚¹ã«ã—ãŸãƒ†ãƒ¼ãƒã¯"default"ã€‚
 validated by W3C.
 */
 
 /*
-¥Ú¡¼¥¸Á´ÂÎ¤Î´ğËÜÅª¤ÊÀßÄê¡£ÇØ·Ê¿§¤äÊ¸»ú¿§¤Ê¤É
+ãƒšãƒ¼ã‚¸å…¨ä½“ã®åŸºæœ¬çš„ãªè¨­å®šã€‚èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ãªã©
 */
 body {
 background-color: #FFFFFF;
 color: #000;
 }
 /*
-¥ê¥ó¥¯Ê¸»úÎó¤Ë´Ø¤¹¤ëÀßÄê
+ãƒªãƒ³ã‚¯æ–‡å­—åˆ—ã«é–¢ã™ã‚‹è¨­å®š
 */
 a:link {
 text-decoration: none;
@@ -33,14 +33,14 @@ a:hover {
 text-decoration: underline;
 }
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¤ÎÊÂ¤Ö¹Ô¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³ã®ä¸¦ã¶è¡Œã®è¨­å®š
 */
 div.adminmenu {
 text-align: right;
 font-size: small;
 }
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¼«ÂÎ¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³è‡ªä½“ã®è¨­å®š
 */
 span.adminmenu {
 background-color: #FFEEEE;
@@ -51,7 +51,7 @@ border-width: 1px;
 padding: 2px;
 }
 /*
-Æüµ­¥¿¥¤¥È¥ë¤ÎÀßÄê
+æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h1 {
 text-align: right;
@@ -59,7 +59,7 @@ background-color: #fff;
 color: #FFCCCC;
 }
 /*
-¥«¥ì¥ó¥À¡¼¤ÎÀßÄê
+ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã®è¨­å®š
 */
 div.calendar {
 background-color: #fff;
@@ -76,7 +76,7 @@ font-size: small;
 div.calendar div.year {
 }
 /*
-1Æü¤ÎÆüµ­Á´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+1æ—¥ã®æ—¥è¨˜å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 div.day {
 background-color: #FFE1E1;
@@ -87,7 +87,7 @@ color: #000;
 margin-bottom: 1em;
 }
 /*
-¥¿¥¤¥È¥ë¹ÔÁ´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«è¡Œå…¨ä½“ã®è¨­å®š
 */
 h2 {
 margin: 0em;
@@ -98,7 +98,7 @@ background-repeat: no-repeat;
 text-align: center;
 }
 /*
-ÆüÉÕ¤ÎÀßÄê
+æ—¥ä»˜ã®è¨­å®š
 */
 h2 span.date {
 font-size: medium;
@@ -110,7 +110,7 @@ height:50px;
 display:block;
 }
 /*
-¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h2 span.title {
 position:relative;
@@ -120,7 +120,7 @@ color: #990033;
 background-color:transparent;
 }
 /*
-¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ã®è¨­å®š
 */
 div.body {
 color: #000;
@@ -130,14 +130,14 @@ margin-left: 1em;
 margin-right: 1em;
 }
 /*
-¥µ¥Ö¥¿¥¤¥È¥ë¤ò´Ş¤à¥»¥¯¥·¥ç¥ó¤ÎÀßÄê
+ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã‚’å«ã‚€ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã®è¨­å®š
 */
 div.section {
 margin-top: 0.7em;
 margin-bottom: 0.7em;
 }
 /*
-¥µ¥Ö¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h3 {
 font-size: medium;
@@ -145,14 +145,14 @@ margin: 0em;
 font-weight: bold;
 }
 /*
-Æüµ­¤ÎËÜÊ¸(ÃÊÍî)¤ÎÀßÄê
+æ—¥è¨˜ã®æœ¬æ–‡(æ®µè½)ã®è¨­å®š
 */
 div.section p {
 margin: 0.5em 1em 0.7em 3em;
 line-height: 1.5;
 }
 /*
-¥Ä¥Ã¥³¥ß/¥Õ¥©¡¼¥à/¥ê¥ó¥¯¸µ¤Î¥­¥ã¥×¥·¥ç¥óÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸ/ãƒ•ã‚©ãƒ¼ãƒ /ãƒªãƒ³ã‚¯å…ƒã®ã‚­ãƒ£ãƒ—ã‚·ãƒ§ãƒ³è¨­å®š
 */
 div.caption {
 font-size: small;
@@ -162,7 +162,7 @@ border-width: 0px 0px 1px 0px;
 margin: 0.5em;
 }
 /*
-¥Ä¥Ã¥³¥ßÍóÁ´ÂÎ¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸæ¬„å…¨ä½“ã®è¨­å®š
 */
 div.comment {
 background-color: #fff;
@@ -177,7 +177,7 @@ margin-left: 2em;
 margin-right: 1em;
 }
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
 font-size: small;
@@ -192,7 +192,7 @@ margin-bottom: 0.2em;
 line-height: 1.2em;
 }
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
 font-size: small;
@@ -200,7 +200,7 @@ margin: 0.5em;
 line-height: 1.2em;
 }
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
 border-style: solid;
@@ -209,14 +209,14 @@ border-width: 0px 0px 1px 0px;
 line-height: 1.5em;
 }
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
 margin: 0.5em;
 margin-left: 2em;
 }
 /*
-¥Õ¥©¡¼¥àÁ´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 div.form {
 background-color: #fff;
@@ -228,7 +228,7 @@ padding: 2px;
 margin: 0.5em 1em 0.5em 2em;
 }
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
 margin: 0em 0em 0em 2em;
@@ -262,7 +262,7 @@ display: block;
 margin-left: 3em;
 }
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Month/Latest¥â¡¼¥É)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(Month/Latestãƒ¢ãƒ¼ãƒ‰)ã®è¨­å®š
 */
 div.referer {
 text-align: right;
@@ -276,7 +276,7 @@ margin: 0.5em 1em 0em 0em;
 padding: 5px 50px 50px 50px;
 }
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Day¥â¡¼¥É)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(Dayãƒ¢ãƒ¼ãƒ‰)ã®è¨­å®š
 */
 div.refererlist {
 background-color: transparent;
@@ -288,7 +288,7 @@ margin:0.5em 1em 0em 0em;
 padding: 5px 50px 50px 50px;
 }
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È°ìÍ÷¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆä¸€è¦§ã®è¨­å®š
 */
 div.refererlist ul {
 font-size: small;
@@ -296,7 +296,7 @@ margin: 0.5em 1em 0.5em 3em;
 line-height: 1.2em;
 }
 /*
-·ÓÀş¤ÎÀßÄê
+ç½«ç·šã®è¨­å®š
 */
 hr {
 border-style: solid;
@@ -304,13 +304,13 @@ border-width: 2px 0px 0px 0px;
 border-color: #ddf;
 }
 /*
-Æü¡¹¤ÎÆüµ­¤Î¥»¥Ñ¥ì¡¼¥¿¤Ë»È¤ï¤ì¤ë·ÓÀş¤ÎÀßÄê
+æ—¥ã€…ã®æ—¥è¨˜ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã«ä½¿ã‚ã‚Œã‚‹ç½«ç·šã®è¨­å®š
 */
 hr.sep {
 display: none;
 }
 /*
-¥Õ¥Ã¥¿¤ÎÀßÄê
+ãƒ•ãƒƒã‚¿ã®è¨­å®š
 */
 div.footer {
 font-size: small;
@@ -318,7 +318,7 @@ text-align: right;
 margin-top: 0px;
 }
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
 padding-top: 0.5em;
@@ -355,13 +355,13 @@ form.update span.checkbox.hidediary {
 margin-left: 1em;
 }
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
 margin-top: 0em;
 }
 /*
-¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸É½¼¨¤ÎÀßÄê
+ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®è¨­å®š
 */
 p.message {
 text-align: center;
@@ -371,7 +371,7 @@ color: #fff;
 padding: 8px;
 }
 /*
-À°·ÁºÑ¤ß¥Æ¥­¥¹¥È(pre¥¿¥°)¤ÎÀßÄê
+æ•´å½¢æ¸ˆã¿ãƒ†ã‚­ã‚¹ãƒˆ(preã‚¿ã‚°)ã®è¨­å®š
 */
 pre {
 background-color: #eef;
@@ -381,7 +381,7 @@ margin-right: 1em;
 padding: 8px 8px 8px 8px;
 }
 /*
-°úÍÑ(blockquote¥¿¥°)¤ÎÀßÄê
+å¼•ç”¨(blockquoteã‚¿ã‚°)ã®è¨­å®š
 */
 div.body blockquote {
 border-style: solid;
@@ -395,14 +395,14 @@ div.body blockquote p {
 margin: 0.5em 0em 0.5em 0em;
 }
 /*
-²Õ¾ò½ñ¤­¤ÎÀßÄê
+ç®‡æ¡æ›¸ãã®è¨­å®š
 */
 div.body ul, div.body ol {
 margin-left: 6em;
 margin-right: 3em;
 }
 /*
-¹àÌÜ¥ê¥¹¥È¤ÎÀßÄê
+é …ç›®ãƒªã‚¹ãƒˆã®è¨­å®š
 */
 div.body dl {
 margin-left: 5em;
@@ -415,7 +415,7 @@ div.body dd {
 margin: 0em 3em 0.5em 1em;
 }
 /*
- ¤¤¤¯¤Ä¤«¤Î¥á¥¸¥ã¡¼¤Ê¥×¥é¥°¥¤¥óÂĞ±ş
+ ã„ãã¤ã‹ã®ãƒ¡ã‚¸ãƒ£ãƒ¼ãªãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
  */
 /* calendar2 */
 table.calendar {
@@ -482,7 +482,7 @@ div.section, div.comment {
 clear: both;
 }
 /*
-¥µ¥¤¥É¥Ğ¡¼´ØÏ¢
+ã‚µã‚¤ãƒ‰ãƒãƒ¼é–¢é€£
 */
 div.main {
 /*

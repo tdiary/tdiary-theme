@@ -1,7 +1,7 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*== Japanese ==*/
-/*==  ÂçÏÈ¤Î¥ì¥¤¥¢¥¦¥È == */
+/*==  å¤§æ ã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ == */
 
 body{
  margin:0px;
@@ -57,7 +57,7 @@ img{
  border:0px;
 }
 
-/*==  Á°¤ÎÆü¼¡¤ÎÆü == */
+/*==  å‰ã®æ—¥æ¬¡ã®æ—¥ == */
 
 div.calendar {
  text-align:left;
@@ -75,7 +75,7 @@ div.calendar a:hover {
 color:#F22C05;
 text-decoration:underline;
 }
-/*==  1ÆüÁ´ÂÎ == */
+/*==  1æ—¥å…¨ä½“ == */
 
 div.day {
  padding-bottom:1px ;
@@ -84,7 +84,7 @@ div.day {
  line-height:150%;
  border:1px solid #CCCCCC;
 }
-/*==  ¥¿¥¤¥È¥ë¤Î¹Ô == */
+/*==  ã‚¿ã‚¤ãƒˆãƒ«ã®è¡Œ == */
 h2 {
  font-size:100%;
  padding:5px;
@@ -115,7 +115,7 @@ h2 a.edit{
  text-decoration:underline;
 }
 
-/*== ¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ ==*/
+/*== ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ ==*/
 div.body {
  padding:0px;
  margin:0px 0px 0px 3px;
@@ -123,7 +123,7 @@ div.body {
 
 
 
-/*== 1µ­»öÁ´ÂÎ== */
+/*== 1è¨˜äº‹å…¨ä½“== */
 div.section{
  padding:10px;
  margin:3px;
@@ -147,7 +147,7 @@ div.section p.sectionfooter {
   margin-top: 1em;
 }
 
-/*== ¥³¥á¥ó¥ÈÁ´ÂÎ==*/
+/*== ã‚³ãƒ¡ãƒ³ãƒˆå…¨ä½“==*/
 div.comment{
  padding:5px;
  background:#F2E7DC;
@@ -156,7 +156,7 @@ div.comment{
  font-size:90%;
 }
 
-/*== ¥È¥é¥Ã¥¯¥Ğ¥Ã¥¯Á´ÂÎ==*/
+/*== ãƒˆãƒ©ãƒƒã‚¯ãƒãƒƒã‚¯å…¨ä½“==*/
 div.refererlist{
  padding:5px;
  margin:5px;
@@ -165,30 +165,30 @@ div.refererlist{
  font-size:90%;
 }
 
-/*== ¥³¥á¥ó¥È¡¦¥È¥é¥Ğ¥¿¥¤¥È¥ëÉôÊ¬==*/
+/*== ã‚³ãƒ¡ãƒ³ãƒˆãƒ»ãƒˆãƒ©ãƒã‚¿ã‚¤ãƒˆãƒ«éƒ¨åˆ†==*/
 div.caption{
  padding:0px;
  margin:0px;
 }
 
-/*== ¥³¥á¥ó¥ÈÆâÍÆÉôÊ¬== */
+/*== ã‚³ãƒ¡ãƒ³ãƒˆå†…å®¹éƒ¨åˆ†== */
 div.commentshort{
  padding:0px;
  margin:0px;
 }
 
-/*== ¥³¥á¥ó¥È1¤Ä== */
+/*== ã‚³ãƒ¡ãƒ³ãƒˆ1ã¤== */
 div.commentshort p{
  padding:0px;
  margin:1px 5px;
 }
 
-/*==¥³¥á¥ó¥È¤Î¥Æ¥­¥¹¥È¥Ü¥Ã¥¯¥¹==*/
+/*==ã‚³ãƒ¡ãƒ³ãƒˆã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹==*/
 div.commentshort textarea{
  width:350px;
 }
 
-/*== ¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë¤ÎÂçÏÈ ==*/
+/*== ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®å¤§æ  ==*/
 
 div.hatena-module {
  padding:0px;
@@ -220,7 +220,7 @@ div.hatena-moduletitle a:visited{
  background:#FFFFFF url(body.jpg);
 }
 
-/*== ¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë¥«¥ì¥ó¥À¡¼ ==*/
+/*== ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ ==*/
 
 table.calendar{
 text-align:center;
@@ -242,7 +242,7 @@ td.calendar-day img{
  border:1px solid #CCCCCC;
 }
 
-/*== ¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë¥ê¥¹¥È´ØÏ¢ ==*/
+/*== ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ãƒªã‚¹ãƒˆé–¢é€£ ==*/
 
 .hatena-modulebody ul {
  padding:0px;
@@ -261,7 +261,7 @@ td.calendar-day img{
  text-decoration:underline;
 }
 
-/*== ¸«½Ğ¤·¤ÎÀßÄê  ==*/
+/*== è¦‹å‡ºã—ã®è¨­å®š  ==*/
 
 h3 {
 font-size:100%;
@@ -284,7 +284,7 @@ padding:2px 5px 2px 7px;
 border-left:5px solid #511206;
 }
 
-/* ==¥ê¥ó¥¯¿§== */
+/* ==ãƒªãƒ³ã‚¯è‰²== */
 a{
 color:#915609;
 text-decoration:none;
@@ -310,7 +310,7 @@ word-break:break-all ;
 word-wrap:break-word ;
 }
 
-/*== ¥­¡¼¥ï¡¼¥ÉÉôÊ¬ ==*/
+/*== ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰éƒ¨åˆ† ==*/
 a.keyword {
 }
 
@@ -327,7 +327,7 @@ a.okeyword {
 }
 
 
-/*== µ­»öÆâ¤ÎºÙ¤«¤¤ÉôÊ¬ == */
+/*== è¨˜äº‹å†…ã®ç´°ã‹ã„éƒ¨åˆ† == */
 div.section pre{
  padding:5px;
  border:1px solid #511206;
@@ -350,7 +350,7 @@ div.day img.photo{
 
 
 
-/*== °Ê²¼¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë¤ÎºÙ¤«¤¤ÉôÊ¬ ==*/
+/*== ä»¥ä¸‹ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®ç´°ã‹ã„éƒ¨åˆ† ==*/
 ul.hatena-photo li {
  margin:3px;
  background:#FFFFFF;
@@ -381,7 +381,7 @@ border-left:1px solid #CCCCCC;
 .hatena-rss{
 }
 
-/*== ¤Ï¤Ş¤¾¤¦¥ê¥ó¥¯ ==*/
+/*== ã¯ã¾ãã†ãƒªãƒ³ã‚¯ ==*/
 div.hatena-asin-detail{
  margin:3px;
  padding:3px;
@@ -411,7 +411,7 @@ list-style:none;
  clear:both;
 }
 
-/*== ¥Õ¥Ã¥¿¡¼ ==*/
+/*== ãƒ•ãƒƒã‚¿ãƒ¼ ==*/
 
 .footer{
  clear:both;
@@ -427,7 +427,7 @@ list-style:none;
 .hatena-clock{
 }
 
-/*== ¥¢¥ó¥±¡¼¥È¥â¥¸¥å¡¼¥ë ==*/
+/*== ã‚¢ãƒ³ã‚±ãƒ¼ãƒˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« ==*/
 .hatena-question-detail{
 width:90%;
 text-align:left;
@@ -452,7 +452,7 @@ padding:5px;
 border-top:1px dashed #CCCCCC;
 }
 
-/*== ¥×¥í¥Õ¥£¡¼¥ë ==*/
+/*== ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ« ==*/
 .hatena-profile{
 }
 

@@ -3,7 +3,7 @@ Revision: $Revision: 1.2 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
-Comment: ±«¤Ä¤Ö
+Comment: é›¨ã¤ã¶
 
 Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
@@ -18,7 +18,7 @@ ChangeLog
 
 Memo 
 2003-03-06 Nana <clorets@estyle.ne.jp>
-	* ¤³¤Î¥Æ¡¼¥Þ¤ÏÀßÄê²èÌÌ¤Î¥Ø¥Ã¥À¤Ë<%=navi%>¤è¤êÁ°¤ËÆüµ­¥¿¥¤¥È¥ë<h1>¤òÆþ¤ì¤ë»ö¤ò¤ª´«¤á¤·¤Þ¤¹¡£
-	<h1>Æüµ­¥¿¥¤¥È¥ë</h1><%=navi%>¤Ê´¶¤¸¤Ë¡£
+	* ã“ã®ãƒ†ãƒ¼ãƒžã¯è¨­å®šç”»é¢ã®ãƒ˜ãƒƒãƒ€ã«<%=navi%>ã‚ˆã‚Šå‰ã«æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«<h1>ã‚’å…¥ã‚Œã‚‹äº‹ã‚’ãŠå‹§ã‚ã—ã¾ã™ã€‚
+	<h1>æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«</h1><%=navi%>ãªæ„Ÿã˜ã«ã€‚
 	
 	

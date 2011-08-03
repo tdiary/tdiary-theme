@@ -3,5 +3,5 @@ Revision: 1.5
 Author: Nishioka Yuji
 Access: http://d.hatena.ne.jp/n-yuji/
 License: GPL
-Comment: Ĺʸ�β��������θ���������Ҥդ��Υǥ�����
-�ϤƤʤξ�硢�إå�����ʬ�ϡ�<div class="footer">�ġ�</div>�ǰϤ���ɤ��Ǥ���
+Comment: 長文の可読性を考慮した、書籍ふうのデザイン。
+はてなの場合、ヘッダー部分は、<div class="footer">……</div>で囲むと良いです。

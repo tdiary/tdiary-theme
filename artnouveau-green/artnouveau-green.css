@@ -1,10 +1,10 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 html,body,table,th,td {
 	/*font-size: small;*/
 	margin: 0;
 	padding: 0;
-	/*font-family: serif,"¥Ò¥é¥®¥ÎÌÀÄ«proW6","£Í£Ó £ĞÌÀÄ«","Ê¿À®ÌÀÄ«";*/
+	/*font-family: serif,"ãƒ’ãƒ©ã‚®ãƒæ˜æœproW6","ï¼­ï¼³ ï¼°æ˜æœ","å¹³æˆæ˜æœ";*/
 	line-height: 3ex;
 	color: #2b410d;
 }
@@ -186,7 +186,7 @@ dd {
 	padding: 0;
 	margin-bottom: 1em;
 }
-/*½ñ±Æ¾ÜºÙ*/
+/*æ›¸å½±è©³ç´°*/
 div.hatena-asin-detail {
 	margin: 1em;
 	clear: left;
@@ -218,7 +218,7 @@ div.hatena-asin-detail-info li {
 }
 div.hatena-asin-detail-foot { clear: left; }
 
-/*tableÉ½µ­*/
+/*tableè¡¨è¨˜*/
 div.day table {
 	border-collapse: collapse;
 	margin: 1em 2em;
@@ -231,7 +231,7 @@ div.day th {
 	background: #fff;
 }
 
-/*questionÉ½µ­*/
+/*questionè¡¨è¨˜*/
 img.hatena-question-image { border: none; }
 table.hatena-question-detail {
 	border-collapse: collapse;

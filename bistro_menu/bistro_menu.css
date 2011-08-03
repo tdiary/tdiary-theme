@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: bistro_menu
 Revision: $Revision: 1.20 $
-Author: ¤·¤ó¤Á¤ã¤ó
+Author: ã—ã‚“ã¡ã‚ƒã‚“
 Access: stakei@nga.jp
 License: GPL
-Comment: ¥ì¥¹¥È¥é¥ó¤Î¥á¥Ë¥å¡¼¤Î¤è¤¦¤Ê¥Æ¡¼¥Ş
+Comment: ãƒ¬ã‚¹ãƒˆãƒ©ãƒ³ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ã‚ˆã†ãªãƒ†ãƒ¼ãƒ
 
 	Copyright (c) 2002 nga <http://nga.jp/>
 	validated by W3C.
@@ -438,7 +438,7 @@ td.calendar-day {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
 	margin-left: 2em;
@@ -454,7 +454,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
 	margin: 0.5em 0.5em 0.5em 2em;
@@ -462,7 +462,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
 	border-style: solid;
@@ -473,14 +473,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
 	margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
 	margin: 0em;
@@ -524,7 +524,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.day.update div.form div.caption {
 	background-image: url(bistro_menu_back_h2.gif);
@@ -585,7 +585,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
 	margin-top: 0em;

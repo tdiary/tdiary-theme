@@ -1,8 +1,8 @@
-@charset "euc-jp";
+@charset "utf-8";
 body {
 	margin: 0;
 	padding: 0;
-	font-family: tt,"£Í£Ó ¥´¥·¥Ã¥¯","Osaka-ÅùÉı",monospace;
+	font-family: tt,"ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","Osaka-ç­‰å¹…",monospace;
 	background: #fff;
 }
 a { text-decoration: none; }
@@ -23,8 +23,8 @@ h1 {
 	border: 2px solid #98b37d;
 	text-align: center;
 }
-h1:before { content: "¡Ú"; }
-h1:after { content: "¡Û"; }
+h1:before { content: "ã€"; }
+h1:after { content: "ã€‘"; }
 
 /*main*/
 div.main {
@@ -74,7 +74,7 @@ div.day ul, div.day ol, div.day dl {
 	list-style-position: inside;
 	text-indent: 16px;
 }
-/*µÓÃí*/
+/*è„šæ³¨*/
 div.footnote,div.footnote p {
 	margin: 0;
 	padding: 0;
@@ -83,7 +83,7 @@ div.footnote,div.footnote p {
 	margin: 0;
 	text-indent: 15px;
 }
-/*¥³¥á¥ó¥È*/
+/*ã‚³ãƒ¡ãƒ³ãƒˆ*/
 div.comment,div.comment p {
 	margin: 0;
 	padding: 0;
@@ -120,7 +120,7 @@ div.comment span.commentator {
 	padding: 3px;
 	margin: 0;
 }
-/*¥ê¥Õ¥¡¥é*/
+/*ãƒªãƒ•ã‚¡ãƒ©*/
 div.refererlist {
 }
 div.refererlist div.caption {
@@ -132,7 +132,7 @@ div.refererlist ul li{
 	letter-spacing: 0;
 }
 
-/*¤½¤ÎÂ¾*/
+/*ãã®ä»–*/
 a { color: #c00; }
 img.photo { float: right; }
 del { text-decoration: line-through underline; color: #666; } 
@@ -152,7 +152,7 @@ dd {
 	font-weight: bold;
 	text-indent: 75px;
 }
-/*¥µ¥¤¥É¥Ğ¡¼*/
+/*ã‚µã‚¤ãƒ‰ãƒãƒ¼*/
 
 div.sidebar {
 	width: 25%;
@@ -180,7 +180,7 @@ div.hatena-modulebody li {
 	line-height: 125%;
 	padding: 0.5ex 0;
 }
-/*¥«¥ì¥ó¥À¡¼*/
+/*ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼*/
 table.calendar {
 	font-size: 12px;
 	margin: 0;

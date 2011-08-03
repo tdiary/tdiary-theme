@@ -1,6 +1,6 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
-Title: ¤Ï¤Ã¤Ñ
+Title: ã¯ã£ã±
 Revision: $Revision: 1.13 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
@@ -280,7 +280,7 @@ p.strong {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -298,7 +298,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -307,7 +307,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         /*border-style: solid;
@@ -317,7 +317,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -325,7 +325,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -372,7 +372,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -421,7 +421,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;
@@ -438,7 +438,7 @@ div.body ul,ol {
 }
 
 /*
-¥µ¥¤¥É¥Ğ¡¼´ØÏ¢
+ã‚µã‚¤ãƒ‰ãƒãƒ¼é–¢é€£
 */
 div.sidebar {
 	width: 18%;
@@ -467,7 +467,7 @@ div.recentsubtitles {
 }
 
 /*
- ¤¤¤¯¤Ä¤«¤Î¥á¥¸¥ã¡¼¤Ê¥×¥é¥°¥¤¥óÂĞ±ş
+ ã„ãã¤ã‹ã®ãƒ¡ã‚¸ãƒ£ãƒ¼ãªãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
  */
 
 /* calendar2 */
@@ -486,7 +486,7 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 	text-align: center;
 }
 
-/* calendar3ÍÑ */
+/* calendar3ç”¨ */
 .calendar-popup {
 	display: none;
 	text-align: left;

@@ -1,10 +1,10 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Seam-line
 Revision: $Revision: 1.7 $
 Author: Nana
 License: GPL
-Comment: Ë¥¤¤ÌÜ
+Comment: ç¸«ã„ç›®
 
 Copyright (C) 2002 Nana http://mikan.sakura.ne.jp/~mpc
 
@@ -266,7 +266,7 @@ div.body dd {
 	margin-left: 2em;
 }
 /*
-µÓÃíÈÖ¹æ
+è„šæ³¨ç•ªå·
 */
 span.footnote ,span.footnote a{
         font-size:xx-small;
@@ -274,7 +274,7 @@ span.footnote ,span.footnote a{
         background-color: transparent;
 }
 /*
-µÓÃíËÜÊ¸Á´ÂÎ
+è„šæ³¨æœ¬æ–‡å…¨ä½“
 */
 div.footnote {
        border-color:#ffffff;
@@ -293,7 +293,7 @@ div.footnote a{
        background-color: transparent;
 }
 /*
-¤½¤ì¤¾¤ì¤ÎµÓÃíËÜÊ¸
+ãã‚Œãã‚Œã®è„šæ³¨æœ¬æ–‡
 */
 span.footnote{
        vertical-align: super;
@@ -301,7 +301,7 @@ span.footnote{
        font-size:x-small;
 }
 /*
-¥¹¥ß¾Ã¤·¥×¥é¥°¥¤¥óÍÑ
+ã‚¹ãƒŸæ¶ˆã—ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ç”¨
 */
 .hide{
        background-color:#fff;
@@ -354,7 +354,7 @@ div.recentsubtitles {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -370,7 +370,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0.5em;
@@ -378,7 +378,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         line-height: 1.5em;
@@ -386,14 +386,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 1em;
@@ -433,7 +433,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.day.update {
 	border-style: none;
@@ -487,7 +487,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

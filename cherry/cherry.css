@@ -1,18 +1,18 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Cherry
 Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
-Comment: ¤µ¤¯¤é¤ó¤Ü¥¤¥á¡¼¥¸
+Comment: ã•ãã‚‰ã‚“ã¼ã‚¤ãƒ¡ãƒ¼ã‚¸
 
 Copyright 2002 (C) by Nana <moo@xu.boo.jp>
 validated by W3C.
  */
 
 /*
-¥ê¥ó¥¯Ê¸»úÎó¤Ë´Ø¤¹¤ëÀßÄê
+ãƒªãƒ³ã‚¯æ–‡å­—åˆ—ã«é–¢ã™ã‚‹è¨­å®š
 */
 a:link {
 	text-decoration: none;
@@ -90,7 +90,7 @@ h2 {
 	font-style: italic;
 }
 /*
-ÆüÉÕ¤ÎÀßÄê
+æ—¥ä»˜ã®è¨­å®š
 */
 h2 span.date {
 	margin-left: 0.5em;
@@ -100,7 +100,7 @@ span.date a:link{
 	background-color: transparent;
 }
 /*
-¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h2 span.title {
 }
@@ -178,14 +178,14 @@ div.comment {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0px;
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 span.commentator {
 	font-weight: bold;
@@ -193,7 +193,7 @@ span.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0px;
@@ -321,7 +321,7 @@ em {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0px;
@@ -333,7 +333,7 @@ div.commentshort p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em;
@@ -374,7 +374,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -416,13 +416,13 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;
 }
 /*
-°úÍÑ¥½¡¼¥¹¤ÎÉ½¼¨
+å¼•ç”¨ã‚½ãƒ¼ã‚¹ã®è¡¨ç¤º
 */
 p.source{
 	margin-right: 1.5em;

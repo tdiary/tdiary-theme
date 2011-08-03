@@ -2,23 +2,23 @@ Title: Nut Brown
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
-Comment: ����
+Comment: 栗色
 
 validated by W3C.
 
-<h1>���Ǥ򥿥��ȥ�ˤ��Ƥ��뤿�ᡢ�إå��ΰ��־��<h1>�ۤ�</h1>�����ꡣ
+<h1>要素をタイトルにしているため、ヘッダの一番上に<h1>ほげ</h1>を設定。
 
-�����ɥС��侩
+サイドバー推奨
 
-������
+設定例
 
-�إå�
- <h1>�ۤ�</h1>
+ヘッダ
+ <h1>ほげ</h1>
  <div class="main>
 
-�եå�
+フッタ
  </div>
  
  <div class="sidebar">
- ������
+ もろもろ
  </div>

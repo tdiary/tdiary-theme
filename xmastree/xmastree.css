@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Xmastree
 Revision: $Revision: 1.4 $
 Author: ati
 Access: http://member.nifty.ne.jp/ati
 License: GPL
-Comment: Xmas¤Êµ¨Àá¤Ë
+Comment: Xmasãªå­£ç¯€ã«
 
 Copyright 2002 (C) by ati All right reserved.
 validated by W3C.
@@ -106,13 +106,13 @@ div.section {
 	margin: 1em 0.5em;
 }
 /*
-¥¤¥á¡¼¥¸¥¢¥ó¥«¡¼¤ÎÀßÄê
-¤¿¤À¤·Default¥Æ¡¼¥Ş¤Ç¤Ï¥¤¥á¡¼¥¸¥¢¥ó¥«¡¼¤Ï»È¤Ã¤Æ¤¤¤Ê¤¤¤Î¤Ç¥³¥á¥ó¥È¤Ë¤·¤Æ¤¢¤ë
-»ØÄê¤Î¥³¥Ä¤Ï°Ê²¼¤ÎÄÌ¤ê
-  - span.sanchor¤Ï¥»¥¯¥·¥ç¥ó¥¢¥ó¥«¡¼¡¢span.canchor¤Ï¥Ä¥Ã¥³¥ß¥¢¥ó¥«¡¼
-  - background-image¤Ë¥¢¥ó¥«¡¼²èÁü¤ò»ØÄê
-  - padding¤Îtop(ºÇ½é)¤Èright(2ÈÖÌÜ)¤Ë²èÁü¤Î½Ä²£¥µ¥¤¥º¤ò»ØÄê
-  - color¤ËÇØ·Ê¿§¤ÈÆ±¤¸¿§¤ò»ØÄê(Ê¸»ú¤ò¸«¤¨¤Ê¤¯¤¹¤ë¤¿¤á)
+ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚¢ãƒ³ã‚«ãƒ¼ã®è¨­å®š
+ãŸã ã—Defaultãƒ†ãƒ¼ãƒã§ã¯ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚¢ãƒ³ã‚«ãƒ¼ã¯ä½¿ã£ã¦ã„ãªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã«ã—ã¦ã‚ã‚‹
+æŒ‡å®šã®ã‚³ãƒ„ã¯ä»¥ä¸‹ã®é€šã‚Š
+  - span.sanchorã¯ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚¢ãƒ³ã‚«ãƒ¼ã€span.canchorã¯ãƒ„ãƒƒã‚³ãƒŸã‚¢ãƒ³ã‚«ãƒ¼
+  - background-imageã«ã‚¢ãƒ³ã‚«ãƒ¼ç”»åƒã‚’æŒ‡å®š
+  - paddingã®top(æœ€åˆ)ã¨right(2ç•ªç›®)ã«ç”»åƒã®ç¸¦æ¨ªã‚µã‚¤ã‚ºã‚’æŒ‡å®š
+  - colorã«èƒŒæ™¯è‰²ã¨åŒã˜è‰²ã‚’æŒ‡å®š(æ–‡å­—ã‚’è¦‹ãˆãªãã™ã‚‹ãŸã‚)
 */
 
 div.day h3 span.sanchor {
@@ -310,7 +310,7 @@ div.recentsubtitles {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -328,7 +328,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -337,7 +337,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         border-style: solid;
@@ -347,7 +347,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -355,7 +355,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -404,7 +404,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.update.day div.form {
         border: none;
@@ -453,7 +453,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

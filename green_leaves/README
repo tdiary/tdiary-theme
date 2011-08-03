@@ -2,16 +2,16 @@ Title: Green Leaves
 Revision: $Revision: 1.1 $
 Author: TADA Tadashi
 Access: sho@spc.gr.jp
-Comment: ¥¢¥¸¥µ¥¤¤ÎÍÕ
+Comment: ã‚¢ã‚¸ã‚µã‚¤ã®è‘‰
 License: GPL
 
 validated by W3C.
-¥µ¥¤¥É¥Ğ¡¼¿ä¾©
-amazon ¥×¥é¥°¥¤¥óÂĞ±ş
+ã‚µã‚¤ãƒ‰ãƒãƒ¼æ¨å¥¨
+amazon ãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
 
-¥È¥Ã¥×¤Î²èÁü¤òÆş¤ìÂØ¤¨¤ë¾ì¹ç¡¢append-css.rb¥×¥é¥°¥¤¥ó¤ò»È¤Ã¤Æ°Ê²¼¤Î¤è¤¦¤Ë
-»ØÄê¤¹¤ë¤ÈÌµ²şÂ¤¤Ç¤¤¤±¤Ş¤¹¡£
+ãƒˆãƒƒãƒ—ã®ç”»åƒã‚’å…¥ã‚Œæ›¿ãˆã‚‹å ´åˆã€append-css.rbãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’ä½¿ã£ã¦ä»¥ä¸‹ã®ã‚ˆã†ã«
+æŒ‡å®šã™ã‚‹ã¨ç„¡æ”¹é€ ã§ã„ã‘ã¾ã™ã€‚
 
 body {
-   background-image: url(¿·¤·¤¤²èÁü¤ÎURL);
+   background-image: url(æ–°ã—ã„ç”»åƒã®URL);
 }

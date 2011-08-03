@@ -1,22 +1,22 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: husen
 Revision: $Revision: 1.7 $
 Author: kosaka <kosaka@tnat.net>
 Access: http://ko.cot.jp/
 License: GPL
-Comment: ¥Î¡¼¥È¤ËÉÕäµ º¸sidebar¤ËÂĞ±ş
+Comment: ãƒãƒ¼ãƒˆã«ä»˜ç®‹ å·¦sidebarã«å¯¾å¿œ
 
 validated by W3C.
 
---sidebar¤ËÂĞ±ş¤·¤Æ¤¤¤Ş¤¹¡£ÀßÄê¤Ç°Ê²¼¤òÄÉ²Ã¤·¤Æ¤¯¤À¤µ¤¤¡£--
- ¥Ø¥Ã¥À
+--sidebarã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚è¨­å®šã§ä»¥ä¸‹ã‚’è¿½åŠ ã—ã¦ãã ã•ã„ã€‚--
+ ãƒ˜ãƒƒãƒ€
     <div class="rightmain">
- ¥Õ¥Ã¥¿
+ ãƒ•ãƒƒã‚¿
    </div>
    <div class="leftsidebar">
    <%=calendar%>
-   <%=recent_list day=10 %> ¢«recent_list¤òÆş¤ì¤ë¾ì¹ç¤À¤±µ­½Ò¤¹¤ë¡£
+   <%=recent_list day=10 %> â†recent_listã‚’å…¥ã‚Œã‚‹å ´åˆã ã‘è¨˜è¿°ã™ã‚‹ã€‚
 </div>
  
  Changelog
@@ -118,13 +118,13 @@ span.title{
 }
 
 /*
-¥¤¥á¡¼¥¸¥¢¥ó¥«¡¼¤ÎÀßÄê
-¤¿¤À¤·Default¥Æ¡¼¥Ş¤Ç¤Ï¥¤¥á¡¼¥¸¥¢¥ó¥«¡¼¤Ï»È¤Ã¤Æ¤¤¤Ê¤¤¤Î¤Ç¥³¥á¥ó¥È¤Ë¤·¤Æ¤¢¤ë
-»ØÄê¤Î¥³¥Ä¤Ï°Ê²¼¤ÎÄÌ¤ê
-  - span.sanchor¤Ï¥»¥¯¥·¥ç¥ó¥¢¥ó¥«¡¼¡¢span.canchor¤Ï¥Ä¥Ã¥³¥ß¥¢¥ó¥«¡¼
-  - background-image¤Ë¥¢¥ó¥«¡¼²èÁü¤ò»ØÄê
-  - padding¤Îtop(ºÇ½é)¤Èright(2ÈÖÌÜ)¤Ë²èÁü¤Î½Ä²£¥µ¥¤¥º¤ò»ØÄê
-  - color¤ËÇØ·Ê¿§¤ÈÆ±¤¸¿§¤ò»ØÄê(Ê¸»ú¤ò¸«¤¨¤Ê¤¯¤¹¤ë¤¿¤á)
+ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚¢ãƒ³ã‚«ãƒ¼ã®è¨­å®š
+ãŸã ã—Defaultãƒ†ãƒ¼ãƒã§ã¯ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚¢ãƒ³ã‚«ãƒ¼ã¯ä½¿ã£ã¦ã„ãªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã«ã—ã¦ã‚ã‚‹
+æŒ‡å®šã®ã‚³ãƒ„ã¯ä»¥ä¸‹ã®é€šã‚Š
+  - span.sanchorã¯ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚¢ãƒ³ã‚«ãƒ¼ã€span.canchorã¯ãƒ„ãƒƒã‚³ãƒŸã‚¢ãƒ³ã‚«ãƒ¼
+  - background-imageã«ã‚¢ãƒ³ã‚«ãƒ¼ç”»åƒã‚’æŒ‡å®š
+  - paddingã®top(æœ€åˆ)ã¨right(2ç•ªç›®)ã«ç”»åƒã®ç¸¦æ¨ªã‚µã‚¤ã‚ºã‚’æŒ‡å®š
+  - colorã«èƒŒæ™¯è‰²ã¨åŒã˜è‰²ã‚’æŒ‡å®š(æ–‡å­—ã‚’è¦‹ãˆãªãã™ã‚‹ãŸã‚)
 */
 
 div.day span.sanchor {
@@ -332,7 +332,7 @@ p.source{
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -348,7 +348,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0.5em;
@@ -356,7 +356,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
 	font-weight: bold;
@@ -366,14 +366,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em;
@@ -410,7 +410,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -452,7 +452,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
-Title: ÆüËÜ¤Á¤ã¤Á¤ã¤Á¤ã
+Title: æ—¥æœ¬ã¡ã‚ƒã¡ã‚ƒã¡ã‚ƒ
 Revision: $Revision: 1.6 $
-Author: ¤¿¤À¤¿¤À¤·
+Author: ãŸã ãŸã ã—
 Access: sho@spc.gr.jp
 License: GPL
-Comment: ¥µ¥Ã¥«¡¼ÆüËÜÂåÉ½¥æ¥Ë
+Comment: ã‚µãƒƒã‚«ãƒ¼æ—¥æœ¬ä»£è¡¨ãƒ¦ãƒ‹
 
 Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
 Validated by W3C.
@@ -396,7 +396,7 @@ div.sidebar p {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -412,7 +412,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0.5em;
@@ -420,21 +420,21 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         line-height: 1.5em;
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em;
@@ -472,7 +472,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -514,14 +514,14 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;
 }
 
 /*
-¥Ï¥¤¥é¥¤¥È¥×¥é¥°¥¤¥ó
+ãƒã‚¤ãƒ©ã‚¤ãƒˆãƒ—ãƒ©ã‚°ã‚¤ãƒ³
 */
 .highlight {
 	color: #000;

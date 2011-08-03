@@ -1,16 +1,16 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title:redgrid
-Author:¥Ê¥«¥¬¥­
+Author:ãƒŠã‚«ã‚¬ã‚­
 Access:http://d.hatena.ne.jp/calmzone/
        http://park18.wakwak.com/~calmzone/
 License:GPL
-Comment:ÆÈ¼«¥¯¥é¥¹¤ÎSPAN.spoiler¤òÍÑ°Õ¤·¤Ş¤·¤¿¡£<SPAN CLASS="spoiler"></SPAN>¤ÇÊ¸»ú¤ò°Ï¤à¤È¡¢Ê¸»ú¤ÈÇØ·Ê¤¬Æ±¿§¤Ë¤Ê¤ê¡¢¥Í¥¿¤Ğ¤ìËÉ»ßÅù¤Ë»È¤¨¤Ş¤¹¡£
+Comment:ç‹¬è‡ªã‚¯ãƒ©ã‚¹ã®SPAN.spoilerã‚’ç”¨æ„ã—ã¾ã—ãŸã€‚<SPAN CLASS="spoiler"></SPAN>ã§æ–‡å­—ã‚’å›²ã‚€ã¨ã€æ–‡å­—ã¨èƒŒæ™¯ãŒåŒè‰²ã«ãªã‚Šã€ãƒã‚¿ã°ã‚Œé˜²æ­¢ç­‰ã«ä½¿ãˆã¾ã™ã€‚
 */
 
 
 
-/*¥¢¥ó¥«¡¼*/
+/*ã‚¢ãƒ³ã‚«ãƒ¼*/
 A{
 	text-decoration:none;
 }
@@ -169,7 +169,7 @@ DL{
 }
 
 
-/*IMG´ØÏ¢*/
+/*IMGé–¢é€£*/
 IMG.photo{
 	float:right;
 	border:solid #990000;
@@ -192,7 +192,7 @@ A:visited IMG.asin{
 }
 
 
-/*¥¤¥ó¥é¥¤¥óÍ×ÁÇ*/
+/*ã‚¤ãƒ³ãƒ©ã‚¤ãƒ³è¦ç´ */
 Q{
 	background-color:#000040;
 	border:dashed #990000 1px;
@@ -213,7 +213,7 @@ INS{
 	font-size:90%;
 }
 INS:before{
-	content:"(ÄÉµ­)";
+	content:"(è¿½è¨˜)";
 }
 DEL,DEL A.keyword,DEL A.keyword:link,DEL A.keyword:visited{
 	color:#708090;
@@ -235,8 +235,8 @@ SPAN.spoiler A.keyword{
 }
 
 
-/*¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë´ØÏ¢*/
-/*photo¥â¥¸¥å¡¼¥ë*/
+/*ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«é–¢é€£*/
+/*photoãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«*/
 UL.hatena_photo{
 	padding:0;
 	list-style-type:none;
@@ -259,7 +259,7 @@ UL.hatena_photo LI IMG{
 	padding:4px;
 	background-color:#000040;
 }
-/*calendar2¥â¥¸¥å¡¼¥ë*/
+/*calendar2ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«*/
 TABLE.calendar{
 	border:solid 1px #990000;
 	background-color:#000040;
@@ -297,7 +297,7 @@ TABLE.calendar TD{
 TABLE.calendar A:link,TABLE.calendar A:visited{
 	border-style:none;
 }
-/*section¥â¥¸¥å¡¼¥ëÅù*/
+/*sectionãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ç­‰*/
 P.recentitem{
 	font-size:95%;
 	font-weight:bold;
@@ -309,7 +309,7 @@ DIV.recentsubtitles{
 P.recentitem A:link,DIV.recentsubtitles A:link,P.recentitem A:visited,DIV.recentsubtitles A:visited{
 	border:none;
 }
-/*¥µ¥¤¥É¥Ğ¡¼*/
+/*ã‚µã‚¤ãƒ‰ãƒãƒ¼*/
 DIV.main{
 	margin-right:20%;
 	padding:0;
@@ -324,7 +324,7 @@ DIV.sidebar{
 }
 
 
-/*¤½¤ÎÂ¾*/
+/*ãã®ä»–*/
 FORM.hatena-searchform{
 }
 SPAN.hatena-counter{

@@ -1,4 +1,4 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*
 Title: quirky
@@ -6,7 +6,7 @@ Author: 186
 Access: http://d.hatena.ne.jp/smoking186/
 	  http://186.bz/
 License: GPL
-Comment: ¤Á¤ç¤Ã¤È´ñÌ¯¤Ê¥¹¥¿¥¤¥ë¡£¼Â¤Ïhatena-asin-detail¤¬åºÎï¤Ç¤¹¡£
+Comment: ã¡ã‚‡ã£ã¨å¥‡å¦™ãªã‚¹ã‚¿ã‚¤ãƒ«ã€‚å®Ÿã¯hatena-asin-detailãŒç¶ºéº—ã§ã™ã€‚
 */
 
 /* ==================== block ==================== */
@@ -16,8 +16,8 @@ body {
  padding: 0px;
  background-color: white;
  color: black;
- /*font-family: 'Georgia', '£Í£Ó £ĞÌÀÄ«', '¥Ò¥é¥®¥ÎÌÀÄ«', serif;*/
- /*_font-family : '£Í£Ó £ĞÌÀÄ«';*/
+ /*font-family: 'Georgia', 'ï¼­ï¼³ ï¼°æ˜æœ', 'ãƒ’ãƒ©ã‚®ãƒæ˜æœ', serif;*/
+ /*_font-family : 'ï¼­ï¼³ ï¼°æ˜æœ';*/
  word-break: break-all; /* IE only */
  word-wrap: break-word; /* IE only */
  /* background: url('back.png'); */
@@ -80,7 +80,7 @@ blockquote cite {
 }
 
 blockquote cite:after {
- content: "¤è¤ê";
+ content: "ã‚ˆã‚Š";
 }
 
 pre {
@@ -117,7 +117,7 @@ img.photo {
 }
 
 .aa { /* for AsciiArt */
- /*font-family: '£Í£Ó £Ğ¥´¥·¥Ã¥¯';*/
+ /*font-family: 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯';*/
 }
 
 ins {text-decoration: underline;}
@@ -157,7 +157,7 @@ td font font {font-size: 100%;}
 }
 
 .date , .timestamp {
- /*font-family: 'Georgia', '£Í£Ó £ĞÌÀÄ«', '¥Ò¥é¥®¥ÎÌÀÄ«', serif;*/
+ /*font-family: 'Georgia', 'ï¼­ï¼³ ï¼°æ˜æœ', 'ãƒ’ãƒ©ã‚®ãƒæ˜æœ', serif;*/
  /* for WinIE */
 }
 

@@ -2,7 +2,7 @@ Title: Pink-border
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
-Comment: sidebar¤Ë¤ÏÉÔ¸ş¤­¤Ç¤¹¡£
+Comment: sidebarã«ã¯ä¸å‘ãã§ã™ã€‚
        
        Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
        validated by W3C.
@@ -21,5 +21,5 @@ ChangeLog
 
 Comment 
 2003-03-01 Nana <clorets@estyle.ne.jp>
-	* bodyÆâ¤ËÊ¸¾Ï¤òÆş¤ì¤Æ¤¤¤ëÊı¤¬Â¿¤¯
-	  ²èÁü¤ËÊ¸»ú¤¬Èï¤ë¤Î¤Çbody¤Ë¥Ş¡¼¥¸¥ó¤ò¼è¤ë¤è¤¦¤ËÊÑ¹¹¤·¤Ş¤·¤¿¡£
+	* bodyå†…ã«æ–‡ç« ã‚’å…¥ã‚Œã¦ã„ã‚‹æ–¹ãŒå¤šã
+	  ç”»åƒã«æ–‡å­—ãŒè¢«ã‚‹ã®ã§bodyã«ãƒãƒ¼ã‚¸ãƒ³ã‚’å–ã‚‹ã‚ˆã†ã«å¤‰æ›´ã—ã¾ã—ãŸã€‚

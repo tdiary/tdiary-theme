@@ -2,19 +2,19 @@ Title: Black-Green
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
-Comment: ���Хå���ʸ��
+Comment: 黒バック緑文字
 
 validated by W3C.
 
-�����ɥС��侩
-������̤ǲ������ͤ�����
+サイドバー推奨
+設定画面で下記の様に設定
 
-�إå�
+ヘッダ
  <div class="main>
 
-�եå�
+フッタ
  </div>
  
  <div class="sidebar">
- ������
+ もろもろ
  </div>

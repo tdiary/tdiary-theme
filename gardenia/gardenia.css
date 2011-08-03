@@ -1,37 +1,37 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Gardenia
 Revision: $Revision: 1.6 $
 Author: oyuu
 Access: <http://landscape.tdiary.net/>
 License: GPL
-Comment: ¥¯¥Á¥Ê¥·(Gardenia jasminoides Ellis) ¥¢¥«¥Í²Ê
+Comment: ã‚¯ãƒãƒŠã‚·(Gardenia jasminoides Ellis) ã‚¢ã‚«ãƒç§‘
         
 Copyright 2002 (C) by oyuu <oyuu@mocha.freemail.ne.jp>
 Validated by W3C.
 */
 
-/* ¤³¤Î¥Æ¡¼¥Ş¤Ï¡¢sidebar¤ËÂĞ±ş¤·¤Æ¤¤¤Ş¤¹¡£
+/* ã“ã®ãƒ†ãƒ¼ãƒã¯ã€sidebarã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚
 
-º¸Â¦¤Ësidebar¤òÉ½¼¨¤µ¤»¤¿¤¤¾ì¹ç¤Ï¡¢
-¡¡¡¡¥Ø¥Ã¥À¤Ë
+å·¦å´ã«sidebarã‚’è¡¨ç¤ºã•ã›ãŸã„å ´åˆã¯ã€
+ã€€ã€€ãƒ˜ãƒƒãƒ€ã«
 	<div class="leftsidebar">
 	<%=title_list%>
 	</div>
 	<div class="rightmain">
-¡¡¡¡¥Õ¥Ã¥¿¤Ë
+ã€€ã€€ãƒ•ãƒƒã‚¿ã«
 	</div>
 
-±¦Â¦¤Ësidebar¤òÉ½¼¨¤µ¤»¤¿¤¤¾ì¹ç¤Ï¡¢
-¡¡¡¡¥Ø¥Ã¥À¤Ë
+å³å´ã«sidebarã‚’è¡¨ç¤ºã•ã›ãŸã„å ´åˆã¯ã€
+ã€€ã€€ãƒ˜ãƒƒãƒ€ã«
 	<div class="rightsidebar">
 	<%=title_list%>
 	</div>
 	<div class="leftmain">
-¡¡¡¡¥Õ¥Ã¥¿¤Ë
+ã€€ã€€ãƒ•ãƒƒã‚¿ã«
 	</div>
 
-¤ò½ñ¤­²Ã¤¨¤Æ¤¯¤À¤µ¤¤¡£
+ã‚’æ›¸ãåŠ ãˆã¦ãã ã•ã„ã€‚
 
 Changelog
 2002-09-16 NT <nt@24i.net>
@@ -452,7 +452,7 @@ div.recentsubtitles{
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -470,7 +470,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -479,14 +479,14 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         line-height: 1.5em;
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -494,7 +494,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -540,7 +540,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -585,7 +585,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

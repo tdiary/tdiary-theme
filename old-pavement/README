@@ -3,35 +3,35 @@ Revision: $Revision: 1.4 $
 Author: NOB 
 Access: nob@ivyvalley.net
 License: GPL
-Comment: ���������Ť��������ͤʥơ���
+Comment: 色あせた古い舗装の様なテーマ
 
 Validated by w3c.
 
 
-�����ɥС��б�(���ѡ�)
-calendar2 recent_item footnote todo �ץ饰�����б���
+サイドバー対応(専用？)
+calendar2 recent_item footnote todo プラグイン対応。
 
-���Υե�����ˤ�
-old-pavement.css	theme���ΤǤ�
-old-pavement_back.png	�����ɥС��Ѥ��طʲ���
-old-pavement_quote.png	blockquote�ǻȤäƤ������
-README			���Υե�����
-�����äƤ��ޤ���
+このフォルダには
+old-pavement.css	theme本体です
+old-pavement_back.png	サイドバー用の背景画像
+old-pavement_quote.png	blockquoteで使っている画像
+README			このファイル
+が入っています。
 
-���ä����ä��ѥ���ν����ΤʤΤ�����ϼ�ĥ���ޤ��󤬡�
-�Զ��ʤɤˤ��н褷�ޤ���
-��ʬ���Ȥ��Τ˺�ä���Τǡ������ɥС��Ѥ˽���Ƥ��ޤ���
-�����ɡ��С�̵���ǻȤäƤ⥵���ɥС�������褦��ɽ����
-�ʤäƤ��ޤ��ޤ����ɤ����Ƥⵤ�ˤʤ�ͤϼ����������
-�Ƥ���������
+あっちこっちパクリの集合体なので著作権は主張しませんが、
+不具合などには対処します。
+自分が使うのに作ったもので、サイドバー用に出来ています。
+サイドーバー無しで使ってもサイドバーがあるような表示に
+なってしまいます。どうしても気になる人は次の設定を試み
+てください。
 
-1.�ץ饰���������append_css.rb��ͭ���ˤ��ޤ���
-2.������̤�CSS���ɲäˤ�
+1.プラグイン選択でappend_css.rbを有効にします。
+2.設定画面のCSSの追加にて
 	body { background-image:none; margin-left:25px; }
 	div.main { margin-left:170px; }
-	�ʾ��2�Ԥ�ä��ޤ���
+	以上の2行を加えます。
 
-����ǥ����ɥС��Τʤ������ʤ�(��)ɽ�����Ѥ��Ϥ��Ǥ���
+これでサイドバーのない殺風景な(笑)表示に変わるはずです。
 
 Changelog
 2004-06-24 NOB <nob@ivyvalley.net>

@@ -2,30 +2,30 @@ Title: Halloween
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
-Comment: �ϥ�������
+Comment: ハロウィン
 
 validated by W3C.
 
-<h1>���Ǥ��طʲ�������Ѥ��Ƥ��뤿�ᡢ�إå��ΰ��־��<h1>�ۤ�</h1>�����ꡣ
-sidebar�β���<br clear="all">������Ƥ���
-sidebar��main�������Ǥϡ�<div class="calendar"></div>�ǰϤ�
+<h1>要素に背景画像を使用しているため、ヘッダの一番上に<h1>ほげ</h1>を設定。
+sidebarの下に<br clear="all">を入れておく
+sidebar、main外の要素は、<div class="calendar"></div>で囲む
 
 
-�����ɥС��侩
+サイドバー推奨
 
-������
+設定例
 
-�إå�
- <h1>�ۤ�</h1>
+ヘッダ
+ <h1>ほげ</h1>
  <div class="main>
 
-�եå�
+フッタ
  </div>
  
  <div class="sidebar">
- ������
+ もろもろ
  </div>
  <br clear="all">
  <div class="calendar">
- �ۤ�
+ ほげ
  </div>

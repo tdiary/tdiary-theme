@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
-Title: ¤Ê¤ó¤Ç¤ä¤Í¤ó
+Title: ãªã‚“ã§ã‚„ã­ã‚“
 Revision: $Revision: 1.6 $
 Author: Junichiro KITA
 Access: kita@kitaj.no-ip.com
 License: GPL
-Comment: ¡Öº£Æü¤Î¤Ê¤ó¤Ç¤ä¤Í¤ó¡×¤Î¥Æ¡¼¥Ş
+Comment: ã€Œä»Šæ—¥ã®ãªã‚“ã§ã‚„ã­ã‚“ã€ã®ãƒ†ãƒ¼ãƒ
 */
 /* ChanaegLog
 2005-07-31 Junichiro Kita <kita@kitaj.no-ip.com>
@@ -273,7 +273,7 @@ div.body blockquote {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -291,7 +291,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -300,7 +300,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         border-style: solid;
@@ -310,7 +310,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -318,7 +318,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -367,7 +367,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.update.day {
 	background-color: #bff;
@@ -425,7 +425,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

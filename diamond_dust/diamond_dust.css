@@ -1,18 +1,18 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Diamond_dust
 Revision: $Revision: 1.6 $
 Author: Nana
 Access: http://moo.boo.jp
 License: GPL
-Comment: Åß¤İ¤Ã¤¯
+Comment: å†¬ã½ã£ã
 
 Copyright 2002 (C) by Nana <moo@xu.boo.jp>
 validated by W3C.
  */
 
 /*
-¥ê¥ó¥¯Ê¸»úÎó¤Ë´Ø¤¹¤ëÀßÄê
+ãƒªãƒ³ã‚¯æ–‡å­—åˆ—ã«é–¢ã™ã‚‹è¨­å®š
 */
 a:link {
 	text-decoration: none;
@@ -92,7 +92,7 @@ h2 {
 	border-width: 0px 0px 1px 0px;
 }
 /*
-ÆüÉÕ¤ÎÀßÄê
+æ—¥ä»˜ã®è¨­å®š
 */
 h2 span.date {
 	margin-left: 0.5em;
@@ -106,7 +106,7 @@ span.date a:hover{
 	color: #fff;
 }
 /*
-¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h2 span.title {
 	color: #4169E1;
@@ -170,7 +170,7 @@ div.day span.canchor {
 	background-color: transparent;
 }
 */
-/* ¥Ê¥ó¥Ğ¥ê¥ó¥°¥¢¥ó¥«¡¼ÍÑ*/
+/* ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚¢ãƒ³ã‚«ãƒ¼ç”¨*/
 div.day a.p01 span.sanchor {
 	background-image: url(p01.png);
 }
@@ -382,7 +382,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -394,14 +394,14 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0em 0.5em;
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 span.commentator {
 	font-weight: bold;
@@ -409,14 +409,14 @@ span.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0em 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em;
@@ -457,7 +457,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -499,13 +499,13 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;
 }
 /*
-°úÍÑ¥½¡¼¥¹¤ÎÉ½¼¨
+å¼•ç”¨ã‚½ãƒ¼ã‚¹ã®è¡¨ç¤º
 */
 p.source{
 	margin-right: 1.5em;

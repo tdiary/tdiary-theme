@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: pudding
 Revision: $Revision: 1.5 $
 Author: oyuu
 Access: oyuu@mocha.freemail.ne.jp
 License: GPL
-Comment: ¥×¥ê¥ó¿§¤Î¥Æ¡¼¥Ş
+Comment: ãƒ—ãƒªãƒ³è‰²ã®ãƒ†ãƒ¼ãƒ
 
         Pudding Style Sheet of tDiary 
 	Copyright (c) 2002 oyuu
@@ -13,7 +13,7 @@ Comment: ¥×¥ê¥ó¿§¤Î¥Æ¡¼¥Ş
 */
 
 
-/* ¥ê¥ó¥¯¿§»ØÄê */
+/* ãƒªãƒ³ã‚¯è‰²æŒ‡å®š */
 a:link{ 
 	color: #a22e00;
         text-decoration: none;
@@ -30,7 +30,7 @@ a:active, a:hover {
 	background-color: transparent;
 }
 
-/* h2¤Ècalendar2¤Î¥ê¥ó¥¯¿§»ØÄê*/
+/* h2ã¨calendar2ã®ãƒªãƒ³ã‚¯è‰²æŒ‡å®š*/
 h2 a:link,table.calendar a:link {
 	color: #FFE600;
 }
@@ -48,14 +48,14 @@ h2 a:hover,table.calendar a:hover {
 }
 
 
-/* Á´ÂÎ¤Î»ØÄê */
+/* å…¨ä½“ã®æŒ‡å®š */
 body {
 	color: #471400;
 	background-color: #FFFF9B;
 	margin: 0px;
 }
 
-/* ¥Ê¥Ó¥²¡¼¥·¥ç¥ó¥Ü¥¿¥ó */
+/* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ãƒœã‚¿ãƒ³ */
 div.adminmenu {
 	font-size: 100%;
 	margin: 2% 5% 0% 0%;
@@ -64,7 +64,7 @@ div.adminmenu {
 
 span.adminmenu {}
 
-/* Æüµ­¥¿¥¤¥È¥ë */
+/* æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ« */
 h1 {
 	color: #471400;
 	background-color: #FFFF9B;
@@ -74,7 +74,7 @@ h1 {
 	text-align: center;
 }
 
-/* ¥«¥ì¥ó¥À¡¼ */
+/* ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ */
 div.calendar {
 	font-size: 90%;
 	margin: 1% 5% 1% 5%;
@@ -85,7 +85,7 @@ div.calendar {
 	text-align: left;
 }
 
-/* ¥«¥ì¥ó¥À¡¼2 */
+/* ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼2 */
 table.calendar {
         font-size: 90%;
         line-height: 100%;
@@ -110,7 +110,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
         text-align: center;
 }
 
-/* ¥Ø¥Ã¥É¥é¥¤¥ó */
+/* ãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ */
 .headline {
 	font-size: 90%;
 	margin: 1% 1% 1% 1%;
@@ -124,13 +124,13 @@ div.intro{
 }
 
 
-/* £±ÆüÊ¬¤ÎÆüµ­ */
+/* ï¼‘æ—¥åˆ†ã®æ—¥è¨˜ */
 div.day {
 	margin: 5% 15% 8% 15%;
 	padding: 1% 1% 1% 1%;
 }
 
-/* ÆüÉÕ¡¦¥¿¥¤¥È¥ëÉôÊ¬ */
+/* æ—¥ä»˜ãƒ»ã‚¿ã‚¤ãƒˆãƒ«éƒ¨åˆ† */
 h2 {
 	color: #FFFF9B;
 	background-color: #471400;
@@ -151,7 +151,7 @@ h2 span.title {
 	font-style: normal
 }
 
-/* ËÜÊ¸¥Ñ¡¼¥È */
+/* æœ¬æ–‡ãƒ‘ãƒ¼ãƒˆ */
 div.body {
 	font-size: 100%;
 	margin-bottom: 3%;
@@ -159,13 +159,13 @@ div.body {
 	line-height: 1.5;
 }
 
-/* ¥»¥¯¥·¥ç¥ó */
+/* ã‚»ã‚¯ã‚·ãƒ§ãƒ³ */
 div.section {
 	margin-top: 1%;
 	margin-bottom: 2%
 }
 
-/* ¥µ¥Ö¥¿¥¤¥È¥ë */
+/* ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ« */
 h3 {
 	font-size: 120%;
 	font-weight: bold;
@@ -357,7 +357,7 @@ strong {
 
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -373,7 +373,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0.5em;
@@ -381,7 +381,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         line-height: 1.5em;
@@ -389,14 +389,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em;
@@ -438,7 +438,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.day.update div.form form {
 	text-align: left;
@@ -490,7 +490,7 @@ div.day.update div.comment div.caption {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

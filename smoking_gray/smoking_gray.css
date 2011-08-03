@@ -1,4 +1,4 @@
-@charset "euc-jp";
+@charset "utf-8";
 @import url("color.css");
 @import url("quirk.css");
 
@@ -8,11 +8,11 @@ Author: 186
 Access: http://d.hatena.ne.jp/smoking186/
 	  http://186.bz/
 License: GPL
-Comment:¿§¤Î¸òºø¤ò³Ú¤·¤àcss
-	span.aa¤¬¤Ê¤¼¤«¤¢¤ë
-	smoking_gray.css ¹½Â¤
-	color.css	¿§¤ÈÇØ·Ê
-	quirk.css	IE ¸åÊı¸ß´¹¥â¡¼¥ÉÍÑ DOCTYPEÅù¤Ë¤è¤Ã¤Æ¤Ïºï½ü¤¹¤ë¤³¤È¡£
+Comment:è‰²ã®äº¤éŒ¯ã‚’æ¥½ã—ã‚€css
+	span.aaãŒãªãœã‹ã‚ã‚‹
+	smoking_gray.css æ§‹é€ 
+	color.css	è‰²ã¨èƒŒæ™¯
+	quirk.css	IE å¾Œæ–¹äº’æ›ãƒ¢ãƒ¼ãƒ‰ç”¨ DOCTYPEç­‰ã«ã‚ˆã£ã¦ã¯å‰Šé™¤ã™ã‚‹ã“ã¨ã€‚
 */
 
 /* ==================== block ==================== */
@@ -132,7 +132,7 @@ pre {
 }
 
 .aa {
-	/*font-family:'£Í£Ó £Ğ¥´¥·¥Ã¥¯';*/
+	/*font-family:'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯';*/
 }
 
 h1 {
@@ -282,7 +282,7 @@ div.adminmenu {
 }
 
 /* case 2  in hatena-body */
-/* case 1 ¤ÈÆ±ÍÍ */
+/* case 1 ã¨åŒæ§˜ */
 
 /* case 3  in main */
 .main div.adminmenu {

@@ -2,7 +2,7 @@ Title: Babypink
 Author: epi
 Access: <http://330mg.bufferin.jp/diary/>
 License: GPL
-Comment: theme mintblue¤Îpink¥Ğ¡¼¥¸¥ç¥ó
+Comment: theme mintblueã®pinkãƒãƒ¼ã‚¸ãƒ§ãƒ³
 
 Copyright by epi All Rights Reserved.
        
@@ -29,5 +29,5 @@ validated by W3C
                   if (sidebar == right) rightsidebar +  leftmain
         * calendar2  margin modified
 
-¥µ¥¤¥É¥Ğ¡¼ÂĞ±ş
-calendar2, recent_list, footnote ¥×¥é¥°¥¤¥óÂĞ±ş
+ã‚µã‚¤ãƒ‰ãƒãƒ¼å¯¾å¿œ
+calendar2, recent_list, footnote ãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ

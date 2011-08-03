@@ -2,15 +2,15 @@ Title: GreenTea3
 Author: NT
 Access: nt@24i.net
 License: GPL
-Comment: �դ餷�����տ��Υơ��ޡ��Ǥ�̾��������
+Comment: 春らしい若葉色のテーマ、でも名前は緑茶
 
-���Ѿ������
-  ���Υ������륷���Ȥ�Ȥ��� Internet Explorer 5.5 �ʾ�ǤϽĽ񤭤�
-ɽ������ޤ���������Ľ񤭤ˤ���ˤϡ������Υإå��� <div class="all">
-�եå��� </div> �������ɬ�פ�����ޤ���
-  �إå��⡢�եå���ˤ����뵭�����֤Ϥ����ߤǤɤ������������֤ˤ�äơ�
-�Ľ񤭤ˤʤ��ϰϤ��Ѳ����ޤ���
-  div.all ��� height �ο��ͤ򤤤���ȥ��������뤹����ʬ�ι⤵���Ѳ����ޤ���
+使用上の注意
+  このスタイルシートを使うと Internet Explorer 5.5 以上では縦書きで
+表示されます。日記を縦書きにするには、日記のヘッダに <div class="all">
+フッタに </div> と入れる必要があります。
+  ヘッダ内、フッタ内における記入位置はお好みでどうぞ。記入位置によって、
+縦書きになる範囲が変化します。
+  div.all 内の height の数値をいじるとスクロールする部分の高さが変化します。
 
 ChangeLog
 2003-09-08 NT <nt@be.to>

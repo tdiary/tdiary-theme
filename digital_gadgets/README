@@ -6,12 +6,12 @@ License: GPL
 Comment: Panasonic CF-R3F, iPod shuffle, PalmOne Tungsten|E, au W31SA, CONTAX SL300R T*
 
 validated by W3C.
-�����ɥС��侩
-amazon �ץ饰�����б�
+サイドバー推奨
+amazon プラグイン対応
 
-�ȥåפβ����������ؤ����硢append-css.rb�ץ饰�����Ȥäưʲ��Τ褦��
-���ꤹ���̵��¤�Ǥ����ޤ�(�����ι⤵��200px�ʾ�ɬ�פǤ����ºݤ˻ȤäƤ���Τ�300px)��
+トップの画像を入れ替える場合、append-css.rbプラグインを使って以下のように
+指定すると無改造でいけます(画像の高さは200px以上必要です。実際に使っているのは300px)。
 
 body {
-   background-image: url(������������URL);
+   background-image: url(新しい画像のURL);
 }

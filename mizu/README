@@ -1,20 +1,20 @@
-Title: ��
+Title: 水
 Revision: $Revision: 1.2 $
 Author: NOB 
 Access: nob@ivyvalley.net
 License: GPL
-Comment: ����ä������᡼���Ǻ��ޤ�����
+Comment: 水の涼しいイメージで作りました。
 
 Validated by w3c.
 
-�����ɥС��б�
-calendar2 recent_item footnote todo title_list �ץ饰�����б���
-�����ɥС����ѻ��θ��Ф���h3,h4�����ꤷ�Ƥ��ޤ���
+サイドバー対応
+calendar2 recent_item footnote todo title_list プラグイン対応。
+サイドバー使用時の見出しはh3,h4を想定しています。
 
-���Υե�����ˤ�
-mizu.css	theme���ΤǤ�
-README		���Υե�����
-�����äƤ��ޤ���
+このフォルダには
+mizu.css	theme本体です
+README		このファイル
+が入っています。
 
 Changelog
 2004-06-24 NOB <nob@ivyvalley.net>

@@ -2,34 +2,34 @@ Title: arrow
 Author: epi
 Access: <http://330mg.bufferin.jp/diary/>
 License: GPL
-Comment: ����å����ʥơ���
+Comment: キャッチーなテーマ
 
 Copyright by epi All Rights Reserved.
 validated by W3C
 
-�����ɥС��б�
-�ʥ����ɥС������Ѥ���Ȥ��ˤϤ��Ȥ��Хإå��κǽ��Ԥ�
+サイドバー対応
+（サイドバーを利用するときにはたとえばヘッダの最終行に
 	<div class="main">
-���եå���
+　フッタに
 	</div>
 	<div class="sidebar">
-	  ... �����ɥС���ɽ����������...
+	  ... サイドバーに表示する内容...
 	</div>
-���ʤɤΤ褦�˵��Ҥ�����������Ȼפ��ޤ�����
+　などのように記述すると便利かと思われます．）
 	
-calendar2, calendar3, recent_list, footnote �ץ饰�����б�
-calendar3��Ȥ����ˤϡ�
-��<div class="calendar3"><%=calendar3%></div>
-�ʤɤΤ褦�ˤ��Ƥ��������Ȥʤ�Ȥʤ����󥿥�󥰤���ޤ���
+calendar2, calendar3, recent_list, footnote プラグイン対応
+calendar3を使う場合には、
+　<div class="calendar3"><%=calendar3%></div>
+などのようにしていただくとなんとなくセンタリングされます．
 
-Opera(6,7),IE(5.5,6)�ˤ�ɽ����ǧ���Ƥ��ޤ���
-�ɤ���ɽ���������������Ȥ������ˤ�
-�����ѤΥ֥饦���������ξ� http://330mg.bufferin.jp/diary/ �ˤ�
-�ĥå���Ǥ��äƤ��������ޤ����б��Ǥ���¤��б��������Ȼפ��ޤ���
+Opera(6,7),IE(5.5,6)にて表示確認しています．
+どうも表示がおかしい、という場合には
+ご利用のブラウザを明記の上 http://330mg.bufferin.jp/diary/ にて
+ツッコんでいってくださいませ．対応できる限り対応したいと思います．
 
 --Change Log---
 2004-01-21 epi
-	* h2 span.title height/top ���ͤ��ѹ� thanks to Mr.Kazutoshi Uehara.
+	* h2 span.title height/top の値を変更 thanks to Mr.Kazutoshi Uehara.
 2003-02-24 epi
 	* add arrow theme
 

@@ -4,15 +4,15 @@ Revision: $Revision: 1.6 $
 Author: Nana
 Access: <clorets@estyle.ne.jp>
 License: GPL
-Comment: Åß¤Ã¤İ¤¯
+Comment: å†¬ã£ã½ã
 
 Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
 */
 
-* ¥Ê¥ó¥Ğ¥ê¥ó¥°¥¢¥ó¥«¡¼¤ËÂĞ±ş¤·¤Æ¤¤¤Ş¤¹¡£
-  number_anchor.rb¤òplugin¥Ç¥£¥ì¥¯¥È¥ê¤ËUP¤·¤ÆÀßÄê²èÌÌ¥Ø¥Ã¥À¤Ë<%= use_number_anchor(10) %>
-  ¤Èµ­Æş¤·¤Æ¤¯¤À¤µ¤¤¡£
+* ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚¢ãƒ³ã‚«ãƒ¼ã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚
+  number_anchor.rbã‚’pluginãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«UPã—ã¦è¨­å®šç”»é¢ãƒ˜ãƒƒãƒ€ã«<%= use_number_anchor(10) %>
+  ã¨è¨˜å…¥ã—ã¦ãã ã•ã„ã€‚
 
 Chagelog
 2003-09-03 NT <nt@be.to>

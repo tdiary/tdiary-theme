@@ -1,4 +1,4 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*
 Title: smoking_gray
@@ -6,11 +6,11 @@ Author: 186
 Access: http://d.hatena.ne.jp/smoking186/
 	  http://186.bz/
 License: GPL
-Comment:¿§¤Î¸òºø¤ò³Ú¤·¤àcss
-	span.aa¤¬¤Ê¤¼¤«¤¢¤ë
-	smoking_gray.css ¹½Â¤
-	color.css	¿§¤ÈÇØ·Ê
-	quirk.css	IE¸åÊı¸ß´¹ÍÑ DOCTYPEÅù¤Ë¤è¤Ã¤Æ¤Ïºï½ü¤¹¤ë¤³¤È¡£
+Comment:è‰²ã®äº¤éŒ¯ã‚’æ¥½ã—ã‚€css
+	span.aaãŒãªãœã‹ã‚ã‚‹
+	smoking_gray.css æ§‹é€ 
+	color.css	è‰²ã¨èƒŒæ™¯
+	quirk.css	IEå¾Œæ–¹äº’æ›ç”¨ DOCTYPEç­‰ã«ã‚ˆã£ã¦ã¯å‰Šé™¤ã™ã‚‹ã“ã¨ã€‚
 */
 
 body {

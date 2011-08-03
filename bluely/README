@@ -3,29 +3,29 @@ Revision: $Revision: 1.1 $
 Author: epi
 Access: http://330mg.bufferin.jp/diary/
 License: GPL
-Comment: �Ĥ��ߤ�����
+Comment: 青いみたい．
 modified from "default"
 validated by W3C.
 
 Copyright by epi All Rights Reserved.
 validated by W3C
 
-�����ɥС��б�
-�ʥ����ɥС������Ѥ���Ȥ��ˤϤ��Ȥ��Хإå��κǽ��Ԥ�
+サイドバー対応
+（サイドバーを利用するときにはたとえばヘッダの最終行に
 	<div class="main">
-���եå���
+　フッタに
 	</div>
 	<div class="sidebar">
-	  ... �����ɥС���ɽ����������...
+	  ... サイドバーに表示する内容...
 	</div>
-���ʤɤΤ褦�˵��Ҥ�����������Ȼפ��ޤ�����
+　などのように記述すると便利かと思われます．）
 	
-calendar2, recent_list, footnote �ץ饰�����б�
+calendar2, recent_list, footnote プラグイン対応
 
-Opera(6),IE(6)�ˤ�ɽ����ǧ���Ƥ��ޤ���
-�ɤ���ɽ���������������Ȥ������ˤ�
-�����ѤΥ֥饦���������ξ� http://330mg.bufferin.jp/diary/ �ˤ�
-�ĥå���Ǥ��äƤ��������ޤ����б��Ǥ���¤��б��������Ȼפ��ޤ���
+Opera(6),IE(6)にて表示確認しています．
+どうも表示がおかしい、という場合には
+ご利用のブラウザを明記の上 http://330mg.bufferin.jp/diary/ にて
+ツッコんでいってくださいませ．対応できる限り対応したいと思います．
 
 --Change Log---
 2003-01-26 epi

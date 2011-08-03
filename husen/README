@@ -2,18 +2,18 @@ Title: husen
 Author: kosaka <kosaka@tnat.net>
 Access: http://ko.cot.jp/
 License: GPL
-Comment: ¥Î¡¼¥È¤ËÉÕäµ º¸sidebar¤ËÂĞ±ş
+Comment: ãƒãƒ¼ãƒˆã«ä»˜ç®‹ å·¦sidebarã«å¯¾å¿œ
 
 validated by W3C.
 
---sidebar¤ËÂĞ±ş¤·¤Æ¤¤¤Ş¤¹¡£ÀßÄê¤Ç°Ê²¼¤òÄÉ²Ã¤·¤Æ¤¯¤À¤µ¤¤¡£--
- ¥Ø¥Ã¥À
+--sidebarã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚è¨­å®šã§ä»¥ä¸‹ã‚’è¿½åŠ ã—ã¦ãã ã•ã„ã€‚--
+ ãƒ˜ãƒƒãƒ€
     <div class="rightmain">
- ¥Õ¥Ã¥¿
+ ãƒ•ãƒƒã‚¿
    </div>
    <div class="leftsidebar">
    <%=calendar%>
-   <%=recent_list day=10 %> ¢«recent_list¤òÆş¤ì¤ë¾ì¹ç¤À¤±µ­½Ò¤¹¤ë¡£
+   <%=recent_list day=10 %> â†recent_listã‚’å…¥ã‚Œã‚‹å ´åˆã ã‘è¨˜è¿°ã™ã‚‹ã€‚
 </div>
  
 Changelog

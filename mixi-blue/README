@@ -2,24 +2,24 @@ Title: mixi-blue
 Author: kosaka
 Access: kosaka@tnat.net
 License: GPL
-Comment: �Ĥ�mixi
+Comment: 青いmixi
 
 validated by W3C.
 
-�����ɥС��侩
-������
+サイドバー推奨
+設定例
 
-�����Ф���<h4>�ۤ�<h4>
-<p>�ۤ��ۤ�</p>���ȰϤ�
+小見出しは<h4>ほげ<h4>
+<p>ほげほげ</p>で枠囲み
 
-[�إå�]
+[ヘッダ]
  <div class="main>
 
-[�եå�]
+[フッタ]
  </div>
  
  <div class="sidebar">
- <h4>�ۤ�</h4>
- <p>�ۤ��ۤ�1</p>
- <p>�ۤ��ۤ�2</p>
+ <h4>ほげ</h4>
+ <p>ほげほげ1</p>
+ <p>ほげほげ2</p>
  </div>

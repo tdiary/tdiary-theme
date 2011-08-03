@@ -1,4 +1,4 @@
-@charset 'euc-jp';
+@charset 'utf-8';
 
 /*
 Title:asterisk-orange
@@ -6,10 +6,10 @@ Revision:1.3
 Author:Nishioka Yuji
 Access:http://d.hatena.ne.jp/n-yuji/
 License:GPL
-Comment:¸«½Ğ¤·¤Ë¥¢¥¹¥Æ¥ê¥¹¥¯¡Ê¡ö¡Ë¤¬Æş¤ë¥Æ¡¼¥Ş¡£¿§¤Ï¥ª¥ì¥ó¥¸¡£
+Comment:è¦‹å‡ºã—ã«ã‚¢ã‚¹ãƒ†ãƒªã‚¹ã‚¯ï¼ˆï¼Šï¼‰ãŒå…¥ã‚‹ãƒ†ãƒ¼ãƒã€‚è‰²ã¯ã‚ªãƒ¬ãƒ³ã‚¸ã€‚
 */
 
-/* ¥Ú¡¼¥¸Á´ÂÎ¤Î´ğËÜÅª¤ÊÀßÄê¡£ÇØ·Ê¿§¤äÊ¸»ú¿§¤Ê¤É */
+/* ãƒšãƒ¼ã‚¸å…¨ä½“ã®åŸºæœ¬çš„ãªè¨­å®šã€‚èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ãªã© */
 
 body {
  background-color:#D4E27F;
@@ -18,13 +18,13 @@ body {
  color:#000000;
  font-size:100%;
  line-height:150%;
- /*font-family:"£Í£Ó £Ğ¥´¥·¥Ã¥¯",sans-serif;*/
+ /*font-family:"ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",sans-serif;*/
  padding:0 8% 0 8%;
  margin:0;
  width:auto;
 }
 
-/* ¤Ï¤Æ¤Ê¥Ü¥Ç¥£ */
+/* ã¯ã¦ãªãƒœãƒ‡ã‚£ */
 
 .hatena-body {
  background-color:#FFFFFF;
@@ -34,7 +34,7 @@ body {
  max-width:auto;
 }
 
-/* ¥ê¥ó¥¯Ê¸»úÎó¤Ë´Ø¤¹¤ëÀßÄê */
+/* ãƒªãƒ³ã‚¯æ–‡å­—åˆ—ã«é–¢ã™ã‚‹è¨­å®š */
 
 a:link {
  text-decoration:none;
@@ -50,7 +50,7 @@ a:hover {
  color:#8CBC1F;
 }
 
-/* ¤Ï¤Æ¤Ê¥­¡¼¥ï¡¼¥É¥ê¥ó¥¯¤Ë´Ø¤¹¤ëÀßÄê */
+/* ã¯ã¦ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒªãƒ³ã‚¯ã«é–¢ã™ã‚‹è¨­å®š */
 
 a.keyword {
  background-color:#F3F3F3;
@@ -70,14 +70,14 @@ a.keyword:hover {
  background-color:#FBF0DB;
 }
 
-/* Æüµ­¤Î¥¿¥¤¥È¥ë¤ÎÀßÄê */
+/* æ—¥è¨˜ã®ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š */
 
 h1 {
  font-size:170%;
  background-color:#F79B00;
  text-align:right;
  font-weight:normal;
- /*font-family:"Arial","Helvetica","£Í£Ó £Ğ¥´¥·¥Ã¥¯",sans-serif;*/
+ /*font-family:"Arial","Helvetica","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",sans-serif;*/
  letter-spacing:0.25em;
  color:#FFFFFF;
  padding:70px 3px 6px 0px;
@@ -85,7 +85,7 @@ h1 {
  width:auto;
 }
 
-/* ¥¿¥¤¥È¥ë²¼¤ÎÀâÌÀÊ¸¤ÎÀßÄê */
+/* ã‚¿ã‚¤ãƒˆãƒ«ä¸‹ã®èª¬æ˜æ–‡ã®è¨­å®š */
 div.hatena-description {
  background-color:#FFFFFF;
  color:#797979;
@@ -96,7 +96,7 @@ div.hatena-description {
  width:auto;
 }
 
-/* ¥«¥ì¥ó¥À¡¼¤ÎÀßÄê */
+/* ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã®è¨­å®š */
 
 div.calendar {
  background-color:#FFFFFF;
@@ -111,7 +111,7 @@ div.calendar {
 div.calendar div.year {
 }
 
-/* 1Æü¤ÎÆüµ­Á´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê */
+/* 1æ—¥ã®æ—¥è¨˜å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š */
 
 div.day {
  background-color:#FFFFFF;
@@ -120,7 +120,7 @@ div.day {
  width:auto;
 }
 
-/* ¥¿¥¤¥È¥ë¹ÔÁ´ÂÎ¤ÎÀßÄê */
+/* ã‚¿ã‚¤ãƒˆãƒ«è¡Œå…¨ä½“ã®è¨­å®š */
 
 h2 {
  background-color:transparent;
@@ -134,7 +134,7 @@ h2 {
  width:100%;
 }
 
-/* ÆüÉÕ¤ÎÀßÄê */
+/* æ—¥ä»˜ã®è¨­å®š */
 
 h2 span.date {
  font-size:130%;
@@ -142,7 +142,7 @@ h2 span.date {
  margin:0 0.75em 0 0;
 }
 
-/* ¤½¤ÎÆü¤Î¥¿¥¤¥È¥ë¤ÎÀßÄê */
+/* ãã®æ—¥ã®ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š */
 
 h2 span.title {
  font-size:100%;
@@ -152,7 +152,7 @@ h2 span.title {
  color:#797979;
 }
 
-/* ¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ¤ÎÀßÄê */
+/* ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ã®è¨­å®š */
 
 div.body {
  margin:0 0 0 28px;
@@ -163,13 +163,13 @@ div.body {
  word-wrap:break-word;
 }
 
-/* ¸«½Ğ¤·¤ò´Ş¤à¥»¥¯¥·¥ç¥ó¤ÎÀßÄê */
+/* è¦‹å‡ºã—ã‚’å«ã‚€ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã®è¨­å®š */
 
 div.section {
  margin:0.5em 0 0.5em 0;
 }
 
-/* ¸«½Ğ¤·¤ÎÀßÄê */
+/* è¦‹å‡ºã—ã®è¨­å®š */
 
 h3 {
  font-size:110%;
@@ -201,7 +201,7 @@ h3 a.keyword:hover {
  background-color:#FBF0DB;
 }
 
-/* ¾®¸«½Ğ¤·¤ÎÀßÄê */
+/* å°è¦‹å‡ºã—ã®è¨­å®š */
 
 h4 {
  font-size:100%;
@@ -215,20 +215,20 @@ h5 {
  margin:0.5em 0 0 22px;
 }
 
-/* Æüµ­¤ÎËÜÊ¸(ÃÊÍî)¤ÎÀßÄê */
+/* æ—¥è¨˜ã®æœ¬æ–‡(æ®µè½)ã®è¨­å®š */
 
 div.section p {
  margin:0 0 0 22px;
 }
 
-/* ¥³¥á¥ó¥È/¥Õ¥©¡¼¥à/¥ê¥ó¥¯¸µ¤Î¥­¥ã¥×¥·¥ç¥óÀßÄê */
+/* ã‚³ãƒ¡ãƒ³ãƒˆ/ãƒ•ã‚©ãƒ¼ãƒ /ãƒªãƒ³ã‚¯å…ƒã®ã‚­ãƒ£ãƒ—ã‚·ãƒ§ãƒ³è¨­å®š */
 
 div.caption {
  font-size:80%;
  line-height:150%;
 }
 
-/* ¥³¥á¥ó¥ÈÍóÁ´ÂÎ¤ÎÀßÄê */
+/* ã‚³ãƒ¡ãƒ³ãƒˆæ¬„å…¨ä½“ã®è¨­å®š */
 
 div.comment {
  padding:2px 0 2px 0;
@@ -236,7 +236,7 @@ div.comment {
  width:auto;
 }
 
-/* ¥³¥á¥ó¥ÈÍóËÜÊ¸ */
+/* ã‚³ãƒ¡ãƒ³ãƒˆæ¬„æœ¬æ–‡ */
 
 div.commentshort {
  font-size:80%;
@@ -259,7 +259,7 @@ div.commentshort p {
  line-height:140%;
 }
 
-/* ¥Õ¥©¡¼¥àÁ´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê */
+/* ãƒ•ã‚©ãƒ¼ãƒ å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š */
 
 div.form {
  font-size:90%;
@@ -269,14 +269,14 @@ div.form {
  text-align:center;
 }
 
-/* ¥ê¥ó¥¯¸µ¥ê¥¹¥È¤ÎÀßÄê */
+/* ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆã®è¨­å®š */
 
 div.refererlist {
  padding:0;
  margin:0.5em 0 0.5em 0;
 }
 
-/* ¥ê¥ó¥¯¸µ¥ê¥¹¥È°ìÍ÷¤ÎÀßÄê */
+/* ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆä¸€è¦§ã®è¨­å®š */
 
 div.refererlist ul {
  font-size:90%;
@@ -284,7 +284,7 @@ div.refererlist ul {
  line-height:120%;
 }
 
-/* ·ÓÀş¤ÎÀßÄê */
+/* ç½«ç·šã®è¨­å®š */
 
 hr {
  border-style:dotted;
@@ -292,13 +292,13 @@ hr {
  border-color:#000000;
 }
 
-/* Æü¡¹¤ÎÆüµ­¤Î¥»¥Ñ¥ì¡¼¥¿¤Ë»È¤ï¤ì¤ë·ÓÀş¤ÎÀßÄê */
+/* æ—¥ã€…ã®æ—¥è¨˜ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã«ä½¿ã‚ã‚Œã‚‹ç½«ç·šã®è¨­å®š */
 
 hr.sep {
  display:none;
 }
 
-/* ¥Õ¥Ã¥¿¤ÎÀßÄê */
+/* ãƒ•ãƒƒã‚¿ã®è¨­å®š */
 
 div.footer {
  text-align:left;
@@ -309,7 +309,7 @@ div.footer {
  width:auto;
 }
 
-/* ¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸É½¼¨¤ÎÀßÄê */
+/* ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®è¨­å®š */
 
 p.message {
  text-align:center;
@@ -319,7 +319,7 @@ p.message {
  padding:8px;
 }
 
-/* À°·ÁºÑ¤ß¥Æ¥­¥¹¥È(pre¥¿¥°)¤ÎÀßÄê */
+/* æ•´å½¢æ¸ˆã¿ãƒ†ã‚­ã‚¹ãƒˆ(preã‚¿ã‚°)ã®è¨­å®š */
 
 div.section pre {
  word-break:break-all;
@@ -332,7 +332,7 @@ div.section pre {
  _width:100%;
 }
 
-/* °úÍÑ(blockquote¥¿¥°)¤ÎÀßÄê */
+/* å¼•ç”¨(blockquoteã‚¿ã‚°)ã®è¨­å®š */
 
 div.section blockquote {
  /*font-size:85%;*/
@@ -350,7 +350,7 @@ div.section blockquote p {
  padding:0;
 }
 
-/* ²Õ¾ò½ñ¤­¤ÎÀßÄê */
+/* ç®‡æ¡æ›¸ãã®è¨­å®š */
 
 div.section ul, div.section ol {
  margin:0.5em 1em 0.5em 50px;
@@ -358,7 +358,7 @@ div.section ul, div.section ol {
  line-height:130%;
 }
 
-/* ¹àÌÜ¥ê¥¹¥È¤ÎÀßÄê */
+/* é …ç›®ãƒªã‚¹ãƒˆã®è¨­å®š */
 
 div.section dl {
  margin:0.5em 1em 0.5em 40px;
@@ -375,7 +375,7 @@ div.section dd {
  margin:0em 3em 0.5em 1em;
 }
 
-/* ¥«¥ì¥ó¥À¡¼2¤ÎÀßÄê */
+/* ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼2ã®è¨­å®š */
 
 table.calendar {
  font-size:1em;
@@ -410,7 +410,7 @@ td.calendar-day img {
  border:0;
 }
 
-/* µÓÃí¤ÎÀßÄê */
+/* è„šæ³¨ã®è¨­å®š */
 
 div.body span.footnote {
  vertical-align:baseline;
@@ -430,7 +430,7 @@ p.footnote {
  padding:0;
 }
 
-/* amazon¤Î½ñ±Æ¥ê¥ó¥¯¤ÎÀßÄê */
+/* amazonã®æ›¸å½±ãƒªãƒ³ã‚¯ã®è¨­å®š */
 
 img.asin {
  float:right;
@@ -438,7 +438,7 @@ img.asin {
  margin:0 0.5em 2px 0.25em;
 }
 
-/* photo¤ÎÀßÄê */
+/* photoã®è¨­å®š */
 
 img.photo {
  float:right;
@@ -446,14 +446,14 @@ img.photo {
  margin:0 0.5em 2px 0.25em;
 }
 
-/* ¸¡º÷»ş¤Î¥Ï¥¤¥é¥¤¥È¤ÎÀßÄê */
+/* æ¤œç´¢æ™‚ã®ãƒã‚¤ãƒ©ã‚¤ãƒˆã®è¨­å®š */
 
 span.highlight {
  color:#FFFFFF;
  background-color:#DD0000;
 }
 
-/* ¥µ¥¤¥É¥Ğ¡¼´ØÏ¢¤ÎÀßÄê */
+/* ã‚µã‚¤ãƒ‰ãƒãƒ¼é–¢é€£ã®è¨­å®š */
 
 div.main {
  background-color:#FFFFFF;
@@ -480,7 +480,7 @@ div.sidebar p {
  margin:0;
 }
 
-/* ¥â¥¸¥å¡¼¥ë¤ÎÀßÄê */
+/* ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š */
 
 p.recentitem {
  font-size:75%;
@@ -501,7 +501,7 @@ div.recentsubtitles {
 }
 
 
-/* ¤Ï¤Æ¤Ê¥â¥¸¥å¡¼¥ë¤ÎÀßÄê */
+/* ã¯ã¦ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š */
 
 a img {
  border:none;
@@ -576,7 +576,7 @@ img.hatena-fotolife {
  margin:2px 0 2px 0;
 }
 
-/* asin/isbnµ­Ë¡¤Î¾ÜºÙ */
+/* asin/isbnè¨˜æ³•ã®è©³ç´° */
 
 div.hatena-asin-detail {
  margin:1em 0 1em 22px;
@@ -618,7 +618,7 @@ div.hatena-asin-detail-foot {
  clear:left;
 }
 
-/* ¥á¥Ë¥å¡¼¤ÎÀßÄê */
+/* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®è¨­å®š */
 
 div.adminmenu {
  background-color:#FFFFFF;

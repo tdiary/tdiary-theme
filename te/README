@@ -6,16 +6,16 @@ Comment: techno.de
 
 validated by W3C.
 
-�����ɥС��侩
+サイドバー推奨
 
-������
+設定例
 
-�إå�
+ヘッダ
  <div class="main>
 
-�եå�
+フッタ
  </div>
  
  <div class="sidebar">
- ������
+ もろもろ
  </div>

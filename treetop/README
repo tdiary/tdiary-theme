@@ -5,13 +5,13 @@ Access: sho@spc.gr.jp
 License: GPL
 
 validated by W3C.
-�����ɥС��侩
-amazon �ץ饰�����б�
+サイドバー推奨
+amazon プラグイン対応
 
-�ȥåפβ����������ؤ����硢append-css.rb�ץ饰�����Ȥäưʲ��Τ褦��
-���ꤹ���̵��¤�Ǥ����ޤ�(�����ι⤵��200px)���ʤ���ɸ���body.jpg��¾�ˡ�
-��������ʷ�ϵ������뤤body2.jpg����°���Ƥ��ޤ���
+トップの画像を入れ替える場合、append-css.rbプラグインを使って以下のように
+指定すると無改造でいけます(画像の高さは200px)。なお、標準のbody.jpgの他に、
+少しだけ雰囲気の明るいbody2.jpgも付属しています。
 
 body {
-   background-image: url(������������URL);
+   background-image: url(新しい画像のURL);
 }

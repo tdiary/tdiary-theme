@@ -4,9 +4,9 @@ Access: http://d.hatena.ne.jp/smoking186/
 	  http://186.bz/
 License: GPL
 Comment: Pict!!
-	IE�ϸߴ��⡼���ѤǤ���Gecko,Opera����ɸ��⡼���ѤˤʤäƤ��ޤ���
-	IE��ɸ��⡼�ɤ��ɤ߹��ޤ�����ϡ���ư���ǧ���ʤ��� * html�ǻϤޤ������äƲ�������
+	IEは互換モード用です。Gecko,Opera等は標準モード用になっています。
+	IEに標準モードで読み込ませる場合は、挙動を確認しながら * htmlで始まる指定を削って下さい。
 
-	�̾�.hatena-description�ˤϥԥ��ȥ���बɽ��ޤ���
-	�ԥ��ȥ�����ɽ������������	.hatena-description ����Ƭ��<h2>description</h2>�ȤǤ�񤤤Ʋ�������
-	�ԥ��ȥ���बɽ��ޤ���
+	通常.hatena-descriptionにはピクトグラムが表れません。
+	ピクトグラムを表示したい場合は	.hatena-description の先頭に<h2>description</h2>とでも書いて下さい。
+	ピクトグラムが表れます。

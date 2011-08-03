@@ -3,7 +3,7 @@ Revision: $Revision: 1.3 $
 Author: Nana
 Access: clorets@estyle.ne.jp
 License: GPL
-Comment: ¤Ê¤ó¤È¤Ê¤¯¢£ÀÕ¤á
+Comment: ãªã‚“ã¨ãªãâ– è²¬ã‚
 
 Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
@@ -24,8 +24,8 @@ ChangeLog
 
 Memo 
 	2003-03-06 Nana <clorets@estyle.ne.jp>
-	* ¤³¤Î¥Æ¡¼¥Ş¤ÏºÇ¿·É½¼¨¤Ë¥ê¥ó¥¯¸µ¤òÉ½¼¨¤·¤Ê¤¤¤Û¤¦¤¬¤¹¤Ã¤­¤ê¤·¤Ş¤¹¡£(¤¢¤¯¤Ş¤Ç¤â»ä´¶¤Ç¤¹¤¬)
-	rectangle.css¤ò³«¤¤¤Æ/*¥ê¥ó¥¯¸µ¥ê¥¹¥È(Month/Latest¥â¡¼¥É)¤ÎÀßÄê*/ÉôÊ¬¤òÃµ¤·
+	* ã“ã®ãƒ†ãƒ¼ãƒã¯æœ€æ–°è¡¨ç¤ºã«ãƒªãƒ³ã‚¯å…ƒã‚’è¡¨ç¤ºã—ãªã„ã»ã†ãŒã™ã£ãã‚Šã—ã¾ã™ã€‚(ã‚ãã¾ã§ã‚‚ç§æ„Ÿã§ã™ãŒ)
+	rectangle.cssã‚’é–‹ã„ã¦/*ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(Month/Latestãƒ¢ãƒ¼ãƒ‰)ã®è¨­å®š*/éƒ¨åˆ†ã‚’æ¢ã—
 div.referer {
        /*display: none;*/
 	font-size: 90%;
@@ -37,8 +37,8 @@ div.referer {
 	background-color: #6675a3;
 	color: #eee;
 }
-	¢¬¤Î¤è¤¦¤Ë¤Ê¤Ã¤Æ¤¤¤ëÉôÊ¬¤ò°Ê²¼¤Î¤è¤¦¤Ë½ñ¤­´¹¤¨¤ë¤³¤È¤Ç
-	Month/Latest¥â¡¼¥É¤Î¥ê¥ó¥¯¸µ¤ÏÉ½¼¨¤µ¤ì¤Ê¤¯¤Ê¤ê¤Ş¤¹¡£
+	â†‘ã®ã‚ˆã†ã«ãªã£ã¦ã„ã‚‹éƒ¨åˆ†ã‚’ä»¥ä¸‹ã®ã‚ˆã†ã«æ›¸ãæ›ãˆã‚‹ã“ã¨ã§
+	Month/Latestãƒ¢ãƒ¼ãƒ‰ã®ãƒªãƒ³ã‚¯å…ƒã¯è¡¨ç¤ºã•ã‚Œãªããªã‚Šã¾ã™ã€‚
 div.referer {
 	display: none;
        /*font-size: 90%;

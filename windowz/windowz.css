@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 	Title: Windowz
 	Rivision: $Revision: 1.12 $ 
 	Author: NT
 	Access: nt@24i.net
 	License: GPL
-	Comment: Ë¿ OS É÷¤Î¥Æ¡¼¥Ş
+	Comment: æŸ OS é¢¨ã®ãƒ†ãƒ¼ãƒ
 
 	validated by W3C.
 
@@ -16,7 +16,7 @@ Changelog
 */
 
 /*
-link ¤ÎÀßÄê
+link ã®è¨­å®š
 */
 a:link, a:visited {
         color: #339;
@@ -38,7 +38,7 @@ a:hover, a:focus {
 }
 
 /*
-¥Ú¡¼¥¸Á´ÂÎ¤Î´ğËÜÅª¤ÊÀßÄê¡£ÇØ·Ê¿§¤äÊ¸»ú¿§¤Ê¤É
+ãƒšãƒ¼ã‚¸å…¨ä½“ã®åŸºæœ¬çš„ãªè¨­å®šã€‚èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ãªã©
 */
 body {
 	background-color: #0073aa;
@@ -48,7 +48,7 @@ body {
 }
 
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¤ÎÊÂ¤Ö¹Ô¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³ã®ä¸¦ã¶è¡Œã®è¨­å®š
 */
 div.adminmenu {
 	text-align: right;
@@ -56,7 +56,7 @@ div.adminmenu {
 }
 
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¼«ÂÎ¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³è‡ªä½“ã®è¨­å®š
 */
 span.adminmenu {
 	background-color: #ddd;
@@ -67,14 +67,14 @@ span.adminmenu {
 }
 
 /*
-Æüµ­¥¿¥¤¥È¥ë¤ÎÀßÄê
+æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h1 {
 	text-align: center;
 }
 
 /*
-¥«¥ì¥ó¥À¡¼¤ÎÀßÄê
+ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã®è¨­å®š
 */
 div.calendar {
 	color: white;
@@ -89,7 +89,7 @@ div.calendar {
 }
 
 /*
-1Æü¤ÎÆüµ­Á´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+1æ—¥ã®æ—¥è¨˜å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 div.day {
 	background-color: #0073aa;
@@ -102,7 +102,7 @@ div.day {
 }
 
 /*
-¥¿¥¤¥È¥ë¹ÔÁ´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«è¡Œå…¨ä½“ã®è¨­å®š
 */
 h2 {
 	margin-top: 0.5em;
@@ -110,7 +110,7 @@ h2 {
 }
 
 /*
-ÆüÉÕ¤ÎÀßÄê
+æ—¥ä»˜ã®è¨­å®š
 */
 h2 span.date {
 	font-size: large;
@@ -118,13 +118,13 @@ h2 span.date {
 }
 
 /*
-¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h2 span.title {
 }
 
 /*
-¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ã®è¨­å®š
 */
 div.body {
 	background-color: #333;
@@ -139,7 +139,7 @@ div.body {
 }
 
 /*
-¥µ¥Ö¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h3 {
 	margin-top: 5px;
@@ -147,7 +147,7 @@ h3 {
 }
 
 /*
-section ¤ÎÀßÄê
+section ã®è¨­å®š
 */
 div.section {
 	background: #fbfbff;
@@ -168,7 +168,7 @@ div.section {
 }
 
 /* 
-[»î¸³Åª]³Ñ¤ò´İ¤á¤ëÀßÄê
+[è©¦é¨“çš„]è§’ã‚’ä¸¸ã‚ã‚‹è¨­å®š
 border-radius is not a CSS property, but a proposal for CSS3.
 Mozilla has implemented it in an experimental fashion, which is used
 here to show the expected effect in the future.
@@ -184,7 +184,7 @@ div.day {
 */
 
 /*
-Æüµ­¤ÎËÜÊ¸(ÃÊÍî)¤ÎÀßÄê
+æ—¥è¨˜ã®æœ¬æ–‡(æ®µè½)ã®è¨­å®š
 */
 div.section p {
 	margin-left: 0.5em;
@@ -194,7 +194,7 @@ div.section p {
 }
 
 /*
-¥»¥¯¥·¥ç¥ó¥¢¥ó¥«¡¼¤ÎÀßÄê
+ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚¢ãƒ³ã‚«ãƒ¼ã®è¨­å®š
 */
 div.day span.sanchor {
 	background-image: url(windowz_p.png);
@@ -207,7 +207,7 @@ div.day span.sanchor {
 }
 
 /*
-¥Ä¥Ã¥³¥ßÍóÁ´ÂÎ¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸæ¬„å…¨ä½“ã®è¨­å®š
 */
 div.comment {
 	font-size: small;
@@ -224,7 +224,7 @@ div.comment {
 }
 
 /*
-¥Ä¥Ã¥³¥ßÍó¥¿¥¤¥È¥ë¹Ô¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸæ¬„ã‚¿ã‚¤ãƒˆãƒ«è¡Œã®è¨­å®š
 */
 div.comment div.caption {
 	border-style: solid;
@@ -233,11 +233,11 @@ div.comment div.caption {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤ÎÌ¾Á°¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®åå‰ã®è¨­å®š
 */
 
 /*
-¥Ä¥Ã¥³¥ß¥¢¥ó¥«¡¼¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸã‚¢ãƒ³ã‚«ãƒ¼ã®è¨­å®š
 */
 div.day span.canchor {
 	background-image: url(windowz_c.png);
@@ -251,7 +251,7 @@ div.day span.canchor {
 
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Ã»¤¤Êı)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(çŸ­ã„æ–¹)ã®è¨­å®š
 */
 div.referer {
 	text-align: right;
@@ -264,7 +264,7 @@ div.referer {
 }
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Á´ÂÎ°ìÍ÷)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(å…¨ä½“ä¸€è¦§)ã®è¨­å®š
 */
 div.refererlist {
 	font-size: small;
@@ -277,7 +277,7 @@ div.refererlist {
 }
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È¥¿¥¤¥È¥ë¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 div.refererlist div.caption {
 	border-style: solid;
@@ -286,14 +286,14 @@ div.refererlist div.caption {
 }
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È°ìÍ÷¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆä¸€è¦§ã®è¨­å®š
 */
 div.refererlist ul {
 	margin-top: 0em;
 }
 
 /*
-·ÓÀş¤ÎÀßÄê
+ç½«ç·šã®è¨­å®š
 */
 hr {
 	border-style: solid;
@@ -302,14 +302,14 @@ hr {
 }
 
 /*
-Æü¡¹¤ÎÆüµ­¤Î¥»¥Ñ¥ì¡¼¥¿¤Ë»È¤ï¤ì¤ë·ÓÀş¤ÎÀßÄê
+æ—¥ã€…ã®æ—¥è¨˜ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã«ä½¿ã‚ã‚Œã‚‹ç½«ç·šã®è¨­å®š
 */
 hr.sep {
 	display: none;
 }
 
 /*
-¥Õ¥Ã¥¿¤ÎÀßÄê
+ãƒ•ãƒƒã‚¿ã®è¨­å®š
 */
 div.footer {
 	font-size: small;
@@ -318,7 +318,7 @@ div.footer {
 }
 
 /*
-¥Õ¥©¡¼¥àÁ´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 div.form {
 	background-color: #fbfbff;
@@ -330,14 +330,14 @@ div.form {
 }
 
 /*
-ÆşÎÏ¥Õ¥£¡¼¥ë¥É¤ÎÀßÄê
+å…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®è¨­å®š
 */
 input.field {
 	background-color: white;
 }
 
 /*
-Ê£¿ô¹ÔÆşÎÏ¥Õ¥£¡¼¥ë¥É¤ÎÀßÄê
+è¤‡æ•°è¡Œå…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®è¨­å®š
 */
 textarea {
 	background-color: white;
@@ -346,7 +346,7 @@ textarea {
 }
 
 /*
-¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸É½¼¨¤ÎÀßÄê
+ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®è¨­å®š
 */
 p.message {
 	text-align: center;
@@ -357,7 +357,7 @@ p.message {
 }
 
 /*
-À°·ÁºÑ¤ß¥Æ¥­¥¹¥È(pre¥¿¥°)¤ÎÀßÄê
+æ•´å½¢æ¸ˆã¿ãƒ†ã‚­ã‚¹ãƒˆ(preã‚¿ã‚°)ã®è¨­å®š
 */
 pre {
 	background-color: black;
@@ -369,7 +369,7 @@ pre {
 }
 
 /*
-¹àÌÜ¥ê¥¹¥È¤ÎÀßÄê
+é …ç›®ãƒªã‚¹ãƒˆã®è¨­å®š
 */
 div.body dl {
 	margin-left: 2em;
@@ -387,11 +387,11 @@ div.body dd {
 }
 
 /*
-calendar2.rbÍÑ
+calendar2.rbç”¨
 */
 
 /*
-Á´ÂÎ¤Î³°ÏÈ¤Î¿§¤òÊÑ¤¨¤ë¤È¤­¤Ïborder-color:¤òÊÑ¹¹¤¹¤ë
+å…¨ä½“ã®å¤–æ ã®è‰²ã‚’å¤‰ãˆã‚‹ã¨ãã¯border-color:ã‚’å¤‰æ›´ã™ã‚‹
  */
 table.calendar {
 	text-align: center;
@@ -446,7 +446,7 @@ td.calendar-day {
 
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -464,7 +464,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -473,7 +473,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         border-style: solid;
@@ -483,7 +483,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -491,7 +491,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -538,7 +538,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.update.day {
 	border: none;
@@ -586,7 +586,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

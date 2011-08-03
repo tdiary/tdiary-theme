@@ -1,8 +1,8 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: momonga
 Revision: $Revision: 1.11 $
-Author: ¤º¤ó¤À¤¢¤ó ¤«¤º¤Ò¤³
+Author: ãšã‚“ã ã‚ã‚“ ã‹ãšã²ã“
 Access: zunda@momonga-linux.org kazuhiko@fdiary.net
 License: GPL
 Comment: mo?
@@ -38,7 +38,7 @@ colors:
  */
 
 /*
-¥Ú¡¼¥¸Á´ÂÎ¤Î´ğËÜÅª¤ÊÀßÄê¡£ÇØ·Ê¿§¤äÊ¸»ú¿§¤Ê¤É
+ãƒšãƒ¼ã‚¸å…¨ä½“ã®åŸºæœ¬çš„ãªè¨­å®šã€‚èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ãªã©
 */
 body {
 	background-color: #F0F0E0;
@@ -46,7 +46,7 @@ body {
 }
 
 /*
-¥ê¥ó¥¯Ê¸»úÎó¤Ë´Ø¤¹¤ëÀßÄê
+ãƒªãƒ³ã‚¯æ–‡å­—åˆ—ã«é–¢ã™ã‚‹è¨­å®š
 */
 a:link, a:visited {
 	color: #ED7332;
@@ -58,7 +58,7 @@ a:hover, a:focus, a:active {
 }
 
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¤ÎÊÂ¤Ö¹Ô¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³ã®ä¸¦ã¶è¡Œã®è¨­å®š
 */
 div.adminmenu {
 	text-align: right;
@@ -75,7 +75,7 @@ div.adminmenu a:hover, div.adminmenu a:focus, div.adminmenu a:active {
 }
 
 /*
-¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¼«ÂÎ¤ÎÀßÄê
+ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³è‡ªä½“ã®è¨­å®š
 */
 span.adminmenu {
 	background-color: #D2C1B8;
@@ -85,7 +85,7 @@ span.adminmenu {
 }
 
 /*
-Æüµ­¥¿¥¤¥È¥ë¤ÎÀßÄê
+æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h1 {
 	background-color: #50B44C;
@@ -106,7 +106,7 @@ h1 a:hover, h1 a:focus, h1 a:active {
 }
 
 /*
-¥«¥ì¥ó¥À¡¼¤ÎÀßÄê
+ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã®è¨­å®š
 */
 div.calendar {
 	text-align: right;
@@ -121,13 +121,13 @@ div.calendar div.year {
 }
 
 /*
-1Æü¤ÎÆüµ­Á´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+1æ—¥ã®æ—¥è¨˜å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 div.day {
 }
 
 /*
-¥¿¥¤¥È¥ë¹ÔÁ´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«è¡Œå…¨ä½“ã®è¨­å®š
 */
 h2 {
 	background-color: #745247;
@@ -148,7 +148,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
 }
 
 /*
-ÆüÉÕ¤ÎÀßÄê
+æ—¥ä»˜ã®è¨­å®š
 */
 h2 span.date {
 	font-size: medium;
@@ -160,14 +160,14 @@ h2 span.nyear {
 }
 
 /*
-¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h2 span.title {
 	font-size: large;
 }
 
 /*
-¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ¤ÎÀßÄê
+ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ã®è¨­å®š
 */
 div.body {
 	padding: 0.2em;
@@ -178,13 +178,13 @@ div.body {
 }
 
 /*
-¥µ¥Ö¥¿¥¤¥È¥ë¤ò´Ş¤à¥»¥¯¥·¥ç¥ó¤ÎÀßÄê
+ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã‚’å«ã‚€ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã®è¨­å®š
 */
 div.section {
 }
 
 /*
-¥µ¥Ö¥¿¥¤¥È¥ë¤ÎÀßÄê
+ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
 */
 h3 {
 	font-weight: bold;
@@ -195,7 +195,7 @@ h3 {
 }
 
 /*
-¤½¤ÎÂ¾¤Î¸«½Ğ¤·(É¬Í×¤Ê¤é)
+ãã®ä»–ã®è¦‹å‡ºã—(å¿…è¦ãªã‚‰)
 */
 h4 {
 	font-weight: bold;
@@ -203,7 +203,7 @@ h4 {
 }
 
 /*
-¥¤¥á¡¼¥¸¥¢¥ó¥«¡¼¤ÎÀßÄê
+ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚¢ãƒ³ã‚«ãƒ¼ã®è¨­å®š
 */
 div.day span.sanchor {
 	background-image: url(momonga_icon_s.png);
@@ -226,7 +226,7 @@ div.day span.canchor {
 }
 
 /*
-Æüµ­¤ÎËÜÊ¸(ÃÊÍî)¤ÎÀßÄê
+æ—¥è¨˜ã®æœ¬æ–‡(æ®µè½)ã®è¨­å®š
 */
 div.section p {
 	line-height: 1.5;
@@ -235,13 +235,13 @@ div.section p {
 }
 
 /*
-¥Ä¥Ã¥³¥ß/¥Õ¥©¡¼¥à/¥ê¥ó¥¯¸µ¤Î¥­¥ã¥×¥·¥ç¥óÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸ/ãƒ•ã‚©ãƒ¼ãƒ /ãƒªãƒ³ã‚¯å…ƒã®ã‚­ãƒ£ãƒ—ã‚·ãƒ§ãƒ³è¨­å®š
 */
 div.caption {
 }
 
 /*
-¥Ä¥Ã¥³¥ßÍóÁ´ÂÎ¤ÎÀßÄê
+ãƒ„ãƒƒã‚³ãƒŸæ¬„å…¨ä½“ã®è¨­å®š
 */
 div.comment {
 	background-color: #D2C1B8;
@@ -252,7 +252,7 @@ div.comment {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
 	font-size: 90%;
@@ -270,7 +270,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
 	font-size: 90%;
@@ -279,14 +279,14 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
 	line-height: 1.5em;
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
 	margin: 0.5em;
@@ -295,7 +295,7 @@ div.commentbody p {
 
 
 /*
-¥Õ¥©¡¼¥àÁ´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
 */
 
 div.form {
@@ -306,7 +306,7 @@ div.form {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
 	margin: 0em 0em 0em 2em;
@@ -350,7 +350,7 @@ div.button {
 }
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Month/Latest¥â¡¼¥É)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(Month/Latestãƒ¢ãƒ¼ãƒ‰)ã®è¨­å®š
 */
 div.referer {
 	font-size: small;
@@ -358,7 +358,7 @@ div.referer {
 }
 
 /*
-¥ê¥ó¥¯¸µ¥ê¥¹¥È(Day¥â¡¼¥É)¤ÎÀßÄê
+ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(Dayãƒ¢ãƒ¼ãƒ‰)ã®è¨­å®š
 */
 div.refererlist {
 	padding: 2px;
@@ -370,20 +370,20 @@ div.refererlist {
 }
 
 /*
-·ÓÀş¤ÎÀßÄê
+ç½«ç·šã®è¨­å®š
 */
 hr {
 }
 
 /*
-Æü¡¹¤ÎÆüµ­¤Î¥»¥Ñ¥ì¡¼¥¿¤Ë»È¤ï¤ì¤ë·ÓÀş¤ÎÀßÄê
+æ—¥ã€…ã®æ—¥è¨˜ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã«ä½¿ã‚ã‚Œã‚‹ç½«ç·šã®è¨­å®š
 */
 hr.sep {
 	display: none;
 }
 
 /*
-¥Õ¥Ã¥¿¤ÎÀßÄê
+ãƒ•ãƒƒã‚¿ã®è¨­å®š
 */
 div.footer {
 	clear: both;
@@ -408,7 +408,7 @@ div.footer a:hover, div.footer a:focus, div.footer a:active {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
 	padding-top: 0.5em;
@@ -452,14 +452,14 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
 	margin-top: 0em;
 }
 
 /*
-¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸É½¼¨¤ÎÀßÄê
+ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®è¨­å®š
 */
 p.message {
 	text-align: center;
@@ -472,8 +472,8 @@ p.message {
 }
 
 /*
-À°·ÁºÑ¤ß¥Æ¥­¥¹¥È(pre¥¿¥°)¤ÎÀßÄê
-°úÍÑ(blockquote¥¿¥°)¤ÎÀßÄê
+æ•´å½¢æ¸ˆã¿ãƒ†ã‚­ã‚¹ãƒˆ(preã‚¿ã‚°)ã®è¨­å®š
+å¼•ç”¨(blockquoteã‚¿ã‚°)ã®è¨­å®š
 */
 div.section pre, div.section blockquote {
 	background-color: #D2C1B8;
@@ -486,7 +486,7 @@ div.section blockquote p {
 }
 
 /*
-²Õ¾ò½ñ¤­¤ÎÀßÄê
+ç®‡æ¡æ›¸ãã®è¨­å®š
 */
 div.section ul, div.section ol {
 	line-height: 1.3;
@@ -500,7 +500,7 @@ div.section ul ul, div.section ol ol {
 }
 
 /*
-¹àÌÜ¥ê¥¹¥È¤ÎÀßÄê
+é …ç›®ãƒªã‚¹ãƒˆã®è¨­å®š
 */
 div.section dl {
 	line-height: 1.3;
@@ -519,7 +519,7 @@ div.section dd {
 }
 
 /*
-¥Æ¡¼¥Ö¥ë¤ÎÀßÄê
+ãƒ†ãƒ¼ãƒ–ãƒ«ã®è¨­å®š
 */
 div.section table {
 	margin: 0.5em 1em 0.5em 5em;
@@ -536,7 +536,7 @@ div.section th, div.section td {
 }
 
 /*
- ¤¤¤¯¤Ä¤«¤Î¥á¥¸¥ã¡¼¤Ê¥×¥é¥°¥¤¥óÂĞ±ş
+ ã„ãã¤ã‹ã®ãƒ¡ã‚¸ãƒ£ãƒ¼ãªãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
  */
 
 /* calendar2 */
@@ -616,7 +616,7 @@ div.section, div.comment {
 }
 
 /*
-¥µ¥¤¥É¥Ğ¡¼´ØÏ¢
+ã‚µã‚¤ãƒ‰ãƒãƒ¼é–¢é€£
 */
 div.main {
 	width: 78%;
@@ -634,7 +634,7 @@ div.sidebar p {
 }
 
 /*
-¤½¤Î¤Û¤«
+ãã®ã»ã‹
 */
 address {
 	font-style: italic;

@@ -1,15 +1,15 @@
-@charset 'euc-jp';
+@charset 'utf-8';
 
 /*========================================================================================
 @themeinfo {
 	#author {
-		¥Æ¡¼¥ŞÌ¾: Delta;
-		ºîÀ®¼Ô: id: kamioka(http: //d.hatena.ne.jp/kamioka/);
-		ºÇ½ª¹¹¿·Æü»ş:  2005-07-13(WED);
+		ãƒ†ãƒ¼ãƒå: Delta;
+		ä½œæˆè€…: id: kamioka(http: //d.hatena.ne.jp/kamioka/);
+		æœ€çµ‚æ›´æ–°æ—¥æ™‚:  2005-07-13(WED);
 	}
 	#note {
-		Ãí°Õ»ö¹à: "¤Û¤Ü¡¢¤Ï¤Æ¤Ê¥À¥¤¥¢¥ê¡¼ÀìÍÑ¤È¤Ê¤Ã¤Æ¤¤¤Ş¤¹¡£";
-		¿ä¾©¥Ø¥Ã¥À¿§¡Ê¤Ï¤Æ¤Ê¥À¥¤¥¢¥ê¡¼¡Ë: "Çò";
+		æ³¨æ„äº‹é …: "ã»ã¼ã€ã¯ã¦ãªãƒ€ã‚¤ã‚¢ãƒªãƒ¼å°‚ç”¨ã¨ãªã£ã¦ã„ã¾ã™ã€‚";
+		æ¨å¥¨ãƒ˜ãƒƒãƒ€è‰²ï¼ˆã¯ã¦ãªãƒ€ã‚¤ã‚¢ãƒªãƒ¼ï¼‰: "ç™½";
 	}
 }
 ==========================================================================================*/
@@ -741,7 +741,7 @@ option {
 }
 
 textarea, input {
-	font-family : "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", "Osaka", sans-serif;
+	font-family : "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3", "Osaka", sans-serif;
 }
 
 /* MacIE5 \*/
@@ -750,7 +750,7 @@ input {
 }
 
 textarea {
-	font-family: "£Í£Ó ¥´¥·¥Ã¥¯", monospace;
+	font-family: "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", monospace;
 }
 /*  */
 
@@ -764,7 +764,7 @@ del {
 }
 
 div.section del:after {
-	content: "(ºï½üÆü»ş¡§" attr(datetime) ")";
+	content: "(å‰Šé™¤æ—¥æ™‚ï¼š" attr(datetime) ")";
 }
 
 ins {
@@ -773,13 +773,13 @@ ins {
 }
 
 div.section ins:before {
-	content: "ÄÉµ­¡§";
+	content: "è¿½è¨˜ï¼š";
 	color: #000000;
 	font-weight: bold;
 }
 
 div.section ins:after {
-	content: "(ÄÉµ­Æü»ş¡§" attr(datetime) ")";
+	content: "(è¿½è¨˜æ—¥æ™‚ï¼š" attr(datetime) ")";
 	color: #999999;
 }
 
@@ -1443,7 +1443,7 @@ form h2 input {
 
 h3.subtitle:before {
 
-	content: "¢£ ";
+	content: "â–  ";
 	color: #cccccc;
 	font-weight: normal;
 }
@@ -1517,31 +1517,31 @@ textarea.style {
 /*Hatena::Group::BBS*/
 
 
-/*¥¿¥¤¥È¥ë¾åÉô¤Î¥Ñ¥ó¤¯¤º¥ê¥¹¥È*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä¸Šéƒ¨ã®ãƒ‘ãƒ³ããšãƒªã‚¹ãƒˆ*/
 div#breadcrumbs {}
 
 div#breadcrumbs a:link,
 div#breadcrumbs a:visited {}
 
-/*BBS¥Ø¥Ã¥À*/
+/*BBSãƒ˜ãƒƒãƒ€*/
 body div#bbsheader {}
 
-/* ¥ê¥¹¥ÈÉ½¼¨ | ¥Ä¥ê¡¼É½¼¨ */
+/* ãƒªã‚¹ãƒˆè¡¨ç¤º | ãƒ„ãƒªãƒ¼è¡¨ç¤º */
 div div.bbsmode {}
 
-/*BBS¤Î¥¢¥É¥»¥ó¥¹*/
+/*BBSã®ã‚¢ãƒ‰ã‚»ãƒ³ã‚¹*/
 div#bbsheader div.bbsad {}
 
 div#bbsheader div.bbsad iframe {}
 
 
-/*BBSËÜÂÎ*/
+/*BBSæœ¬ä½“*/
 div#bbs {}
 
-/*¥¹¥ì¥Ã¥É°ìÍ÷*/
+/*ã‚¹ãƒ¬ãƒƒãƒ‰ä¸€è¦§*/
 div#bbs h2#bbsthread {}
 
-/*µ­»ö*/
+/*è¨˜äº‹*/
 div#bbs div.day {}
 
 div#bbs div.day h2 {}
@@ -1552,7 +1552,7 @@ div#bbs div.day h2 .title {}
 
 div#bbs div.day h2 .title a {}
 
-/*ºï½ü¥¢¥¤¥³¥ó*/
+/*å‰Šé™¤ã‚¢ã‚¤ã‚³ãƒ³*/
 div#bbs h2 form input {}
 
 
@@ -1564,7 +1564,7 @@ div#bbs div.body div.bbsfooter2 {}
 
 div#bbs .resicon {}
 
-/*Á°¤Î1·ï¡õ¼¡¤Î1·ï*/
+/*å‰ã®1ä»¶ï¼†æ¬¡ã®1ä»¶*/
 body div.bbspager {}
 
 body div.bbspager:after {}
@@ -1576,7 +1576,7 @@ body div.bbspager {}
 div.bbsentryback {}
 div.bbsentrynext {}
 
-/*¥Ä¥ê¡¼É½¼¨*/
+/*ãƒ„ãƒªãƒ¼è¡¨ç¤º*/
 div.body div.articlelist {}
 
 div.body div.articlelist ul {}
@@ -1586,7 +1586,7 @@ div.body div.articlelist ul ul {}
 div.articlelist span.date {}
 
 /*==========================================================*/
-/*Åê¹Æ¥Õ¥©¡¼¥à*/
+/*æŠ•ç¨¿ãƒ•ã‚©ãƒ¼ãƒ */
 
 div.day form div.body {}
 
@@ -1595,7 +1595,7 @@ div.day form h2 {}
 div.day form {}
 
 
-/*BBSµ­»ö¤Îºï½ü*/
+/*BBSè¨˜äº‹ã®å‰Šé™¤*/
 div.body form {}
 
 /*========================================================================================*/

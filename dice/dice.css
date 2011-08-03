@@ -1,13 +1,13 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: DICE
 Revision: $Revision: 1.7 $
 Author: zoe
 Access: zoe@kasumi.sakura.ne.jp
 License: GPL
-Comment: ¥µ¥¤¥³¥í¥¢¥ó¥«¡¼
-	 ¥Ê¥ó¥Ğ¥ê¥ó¥°¥¢¥ó¥«¡¼¥×¥é¥°¥¤¥óÂĞ±ş¤È¤¤¤¦¤«¡¢
-	 »È¤ï¤Ê¤¤¤È¤Ê¤ó¤ÎÊÑÅ¯¤â¤Ê¤·
+Comment: ã‚µã‚¤ã‚³ãƒ­ã‚¢ãƒ³ã‚«ãƒ¼
+	 ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚¢ãƒ³ã‚«ãƒ¼ãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œã¨ã„ã†ã‹ã€
+	 ä½¿ã‚ãªã„ã¨ãªã‚“ã®å¤‰å“²ã‚‚ãªã—
 
 Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
 validated by W3C.
@@ -125,7 +125,7 @@ div.day span.sanchor {
 	background-color: transparent;
 	font-size: 1px;
 }
-/* ¥Ê¥ó¥Ğ¥ê¥ó¥°¥¢¥ó¥«¡¼ ¥µ¥Ö¥¿¥¤¥È¥ë */
+/* ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚¢ãƒ³ã‚«ãƒ¼ ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ« */
 div.day a.p01 span.sanchor {
 	background-image: url(dice_p01.png);
 }
@@ -164,7 +164,7 @@ div.day span.canchor {
 	font-size: 1px;
 }
 
-/* ¥Ê¥ó¥Ğ¥ê¥ó¥°¥¢¥ó¥«¡¼ ¥Ä¥Ã¥³¥ß */
+/* ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚¢ãƒ³ã‚«ãƒ¼ ãƒ„ãƒƒã‚³ãƒŸ */
 div.day a.c01 span.canchor {
 	background-image: url(dice_c01.png);
 }
@@ -293,7 +293,7 @@ em {
 	font-style: normal;
 }
 
-/* ²èÁüplugin */
+/* ç”»åƒplugin */
 div.img {
 	font-size: small;
 	float: left;
@@ -400,7 +400,7 @@ table.calendar {
 	margin: 2px auto;
 }
 
-/* calendar2ÍÑ²èÁü */
+/* calendar2ç”¨ç”»åƒ */
 /*
 table.calendar td.image {
 	background-position: center top;
@@ -419,7 +419,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 	text-align: center;
 }
 
-/* ¥«¥¦¥ó¥¿¡¼¥×¥é¥°¥¤¥ó */
+/* ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ */
 
 span.counter {
 	font-size: 150%;
@@ -438,7 +438,7 @@ span.counter-0 {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         font-size: 90%;
@@ -456,7 +456,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         font-size: 90%;
@@ -465,7 +465,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         border-style: solid;
@@ -475,7 +475,7 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em;
@@ -483,7 +483,7 @@ div.commentbody p {
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form {
 	text-align: left;
@@ -536,7 +536,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -579,7 +579,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

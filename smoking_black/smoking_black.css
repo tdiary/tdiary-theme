@@ -1,17 +1,17 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*
 Title: smoking_black
-Author: 186¡Ê°ìÉşÃæ¡Ë
+Author: 186ï¼ˆä¸€æœä¸­ï¼‰
 Access: http://d.hatena.ne.jp/smoking186/
 	  http://smoking186.rocket3.net/
 License: GPL
-Comment: span.aa¤¬²¿¸Î¤«¤¢¤ë¡£
-	²¿¸Î¤«°õºşÍÑ¤Îcss¤â¤¢¤ë¡£
-	NN4.x¤Ç¤âÂçÂÎ¸«¤é¤ì¤ë¤é¤·¤¤¡£
+Comment: span.aaãŒä½•æ•…ã‹ã‚ã‚‹ã€‚
+	ä½•æ•…ã‹å°åˆ·ç”¨ã®cssã‚‚ã‚ã‚‹ã€‚
+	NN4.xã§ã‚‚å¤§ä½“è¦‹ã‚‰ã‚Œã‚‹ã‚‰ã—ã„ã€‚
 */
 
-/* ¤è¤¯»È¤¦¤â¤Î */
+/* ã‚ˆãä½¿ã†ã‚‚ã® */
 
 body {
  background-color:#000000;
@@ -61,7 +61,7 @@ p {
 }
 
 
-/* ¥ê¥ó¥¯ */
+/* ãƒªãƒ³ã‚¯ */
 a {
  color:#b5b5b5;
  background-color:transparent;
@@ -89,7 +89,7 @@ a:hover {
 }
 
 
-/* ¥Æ¡¼¥Ö¥ë°ìÈÌ */
+/* ãƒ†ãƒ¼ãƒ–ãƒ«ä¸€èˆ¬ */
 table {
  background-color:#000000;
 }
@@ -105,7 +105,7 @@ tbody {
 }
 
 
-/* ÆÃ¼ì¥Æ¡¼¥Ö¥ë */
+/* ç‰¹æ®Šãƒ†ãƒ¼ãƒ–ãƒ« */
 table.calendar {
  text-align:right;
  font-size:small;
@@ -135,7 +135,7 @@ td.calendar-day a img {
  width:1em; height:1em;
 }
 
-/* ¤½¤ÎÂ¾ */
+/* ãã®ä»– */
 address {
  font-weight:normal;
  font-style:normal;
@@ -239,7 +239,7 @@ textarea {
 }
 
 
-/* ¥ì¥¤¥¢¥¦¥È */
+/* ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ */
 div.calendar {
  text-align:right;
  font-size:small;
@@ -318,7 +318,7 @@ div.footer {
  color:#b5b5b5;
 }
 
-/* ÆÈ¼«¥â¥¸¥å¡¼¥ë¤é¤·¤­¤â¤Î */
+/* ç‹¬è‡ªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚‰ã—ãã‚‚ã® */
 p.recentitem {
  text-indent:0;
 }
@@ -332,7 +332,7 @@ p.recentitem {
  }
 }
 
-/* °õºşÍÑ */
+/* å°åˆ·ç”¨ */
 @media print {
  body * {
   color:#000000;

@@ -1,10 +1,10 @@
-@charset "euc-jp";
+@charset "utf-8";
 body {
 	background: #4b8bc1 url(aquaDesktop.jpg) no-repeat center fixed;
 	color: #333;
 	margin: 0;
 	padding: 0;
-	/*font-family: ¥Ò¥é¥®¥Î³Ñ¥´ Pro W6,£Í£Ó £Ğ¥´¥·¥Ã¥¯,Osaka;*/
+	/*font-family: ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W6,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,Osaka;*/
 }
 a { text-decoration: none; }
 a:link { color: #339; }
@@ -15,7 +15,7 @@ a:hover {
 }
 del { text-decoration: underline; color: #666; font-size: 90%; }
 ins { text-decoration: none; color: #666; font-size: 90%; }
-/*¥Ø¥Ã¥À*/
+/*ãƒ˜ãƒƒãƒ€*/
 center table tbody tr td,div.adminmenu {
 	background: #fff url(aquaBar.png) repeat-x;
 	height: 23px;
@@ -114,7 +114,7 @@ img.photo {
 div.refererlist ul { list-style-image: url(aquaFolder2.gif); }
 div.refererlist ul li, div.refererlist ul a { color:#fff; }
 div.refererlist ul a:hover { background: transparent; }
-/*¥ê¥¹¥È*/
+/*ãƒªã‚¹ãƒˆ*/
 ul { list-style-image: url(aquaFolder.gif); }
 ul li {
 	margin: 1ex 0.25em;
@@ -189,7 +189,7 @@ table.calendar img { height: 1em; width: 1em; }
 ul.hatena-photo,ul.hatena-photo li { list-style-type: none; list-style-image: none; }
 img.hatena-photo { border: none; }
 
-/*¤Ï¤Æ¤Ê¥¢¥ó¥Æ¥ÊÍÑ*/
+/*ã¯ã¦ãªã‚¢ãƒ³ãƒ†ãƒŠç”¨*/
 div.antenna {
 	color: #fff;
 }

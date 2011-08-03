@@ -1,12 +1,12 @@
 Title: Blue-border
 Author: Nana
-Comment: ¥¹¥«¥Ã¤Ã¤ÈÀÄ¶õ¤Ê¥Æ¡¼¥Ş
+Comment: ã‚¹ã‚«ãƒƒã£ã¨é’ç©ºãªãƒ†ãƒ¼ãƒ
 License: GPL
 
 blue-border.css: Blue-border Style Sheet of tDiary
 Copyright by (C) Nana <clorets@estyle.ne.jp>
 validated by W3C.
-calendar2, footnote ¥×¥é¥°¥¤¥óÂĞ±ş
+calendar2, footnote ãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
 
 Change-Log
 2003-03-01 Nana <clorets@estyle.ne.jp>
@@ -31,5 +31,5 @@ Change-Log
 
 Comment 
 2003-03-01 Nana <clorets@estyle.ne.jp>
-	* bodyÆâ¤ËÊ¸¾Ï¤òÆş¤ì¤Æ¤¤¤ëÊı¤¬Â¿¤¯
-	  ²èÁü¤ËÊ¸»ú¤¬Èï¤ë¤Î¤Çbody¤Ë¥Ş¡¼¥¸¥ó¤ò¼è¤ë¤è¤¦¤ËÊÑ¹¹¤·¤Ş¤·¤¿¡£
+	* bodyå†…ã«æ–‡ç« ã‚’å…¥ã‚Œã¦ã„ã‚‹æ–¹ãŒå¤šã
+	  ç”»åƒã«æ–‡å­—ãŒè¢«ã‚‹ã®ã§bodyã«ãƒãƒ¼ã‚¸ãƒ³ã‚’å–ã‚‹ã‚ˆã†ã«å¤‰æ›´ã—ã¾ã—ãŸã€‚

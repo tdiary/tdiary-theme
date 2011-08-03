@@ -1,11 +1,11 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*
-Title: ¤Ï¤Æ¤Ê¥À¥¤¥¢¥ê¡¼
+Title: ã¯ã¦ãªãƒ€ã‚¤ã‚¢ãƒªãƒ¼
 Author: hatena-sepia
 Access: info@hatena.ne.jp
 License: GPL
-Comment: ¤Ï¤Æ¤Ê¥À¥¤¥¢¥ê¡¼¤Î¥Æ¡¼¥Ş
+Comment: ã¯ã¦ãªãƒ€ã‚¤ã‚¢ãƒªãƒ¼ã®ãƒ†ãƒ¼ãƒ
 */
 /*
 	Copyright (c) 2002 Junya Kondo, Hatena Co.,Ltd.
@@ -17,7 +17,7 @@ a:visited{color:#DFB86F;}
 
 
 /*
-¤Ï¤Æ¤ÊÆÈ¼«³ÈÄ¥¥¯¥é¥¹
+ã¯ã¦ãªç‹¬è‡ªæ‹¡å¼µã‚¯ãƒ©ã‚¹
 */
 a.keyword {
 	color: black;
@@ -173,7 +173,7 @@ div.hatena-clock {
 	text-align: center;
 }
 /*
-ÆÈ¼«³ÈÄ¥¤ª¤ï¤ê
+ç‹¬è‡ªæ‹¡å¼µãŠã‚ã‚Š
 */
 
 
@@ -379,7 +379,7 @@ td.calendar-day img {
 	border: 0;
 }
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
 	margin-bottom: 10px;
@@ -394,7 +394,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
 	margin: 0.5em;
@@ -402,7 +402,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
 	line-height: 1.5em;
@@ -410,14 +410,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
 	margin: 0.5em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
 	margin: 0em;
@@ -444,7 +444,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
 	padding-top: 0.5em;
@@ -723,7 +723,7 @@ div.section p.sectionfooter {
 }
 
 /*
-¥Æ¡¼¥Ö¥ëµ­Ë¡
+ãƒ†ãƒ¼ãƒ–ãƒ«è¨˜æ³•
 */
 div.day table{
 margin:10px;

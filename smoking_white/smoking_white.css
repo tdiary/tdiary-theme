@@ -1,13 +1,13 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: smoking_white
-Author: 186¡Ê°ìÉşÃæ¡Ë
+Author: 186ï¼ˆä¸€æœä¸­ï¼‰
 Access: http://d.hatena.ne.jp/smoking186/
 	  http://smoking186.rocket3.net/
 License: GPL
-Comment: span.aa¤¬²¿¸Î¤«¤¢¤ë¡£
-	²¿¸Î¤«°õºşÍÑ¤Îcss¤â¤¢¤ë¡£
-	NN4.x¤Ç¤âÂçÂÎ¸«¤é¤ì¤ë¤é¤·¤¤¡£
+Comment: span.aaãŒä½•æ•…ã‹ã‚ã‚‹ã€‚
+	ä½•æ•…ã‹å°åˆ·ç”¨ã®cssã‚‚ã‚ã‚‹ã€‚
+	NN4.xã§ã‚‚å¤§ä½“è¦‹ã‚‰ã‚Œã‚‹ã‚‰ã—ã„ã€‚
 */
 
 body {
@@ -20,7 +20,7 @@ body {
 
 body * {
  font-size:100%;
- /* IE5.5°Ê¹ß */
+ /* IE5.5ä»¥é™ */
  word-wrap:break-word;
 }
 
@@ -122,7 +122,7 @@ img.photo {
 span.aa,div.comment p {
 }
 
-/* ³Æµ­»ö */
+/* å„è¨˜äº‹ */
 div.day {
  margin-top:3em;
 }
@@ -156,7 +156,7 @@ div.section h3 {
  margin-left:-20%;
 }
 
-/* table¼ş¤ê */
+/* tableå‘¨ã‚Š */
 td font {font-size:80%;}
 
 /* calendar */
@@ -233,7 +233,7 @@ div.sidebar {
  }
 }
 
-/* °õºşÍÑ */
+/* å°åˆ·ç”¨ */
 @media print {
  body * {
    color:#000000;

@@ -1,4 +1,4 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /*
 Title: book3-sky
@@ -6,11 +6,11 @@ Revision: 1.5
 Author: Nishioka Yuji
 Access: http://d.hatena.ne.jp/n-yuji/
 License: GPL
-Comment: б╓bookб╫д╧бв─╣╩╕д╬▓─╞╔└ндЄ╣═╬╕д╖д┐бв╜ё└╥д╒джд╬е╟е╢едеєбгд│дьдЄ╕╡д╦д╖д╞бв╠└дыдд╢їд╬едесб╝е╕д╦─┤└░бг├╦д╬╗╥╕■д▒длд╩дббг
-д╧д╞д╩д╬╛ь╣чбве╪е├е└б╝╔Ї╩мд╧бв<div class="footer">б─б─</div>д╟░╧дрд╚╬╔ддд╟д╣бг
+Comment: уАМbookуАНуБпуАБщХ╖цЦЗуБохПпшкнцАзуВТшАГцЕоуБЧуБЯуАБцЫ╕ч▒НуБ╡уБЖуБоуГЗуВ╢уВдуГ│уАВуБУуВМуВТхЕГуБлуБЧуБжуАБцШОуВЛуБДчй║уБоуВдуГбуГ╝уВ╕уБлшк┐цХ┤уАВчФ╖уБохнРхРСуБСуБЛуБкуББуАВ
+уБпуБжуБкуБоха┤хРИуАБуГШуГГуГАуГ╝щГихИЖуБпуАБ<div class="footer">тАжтАж</div>уБзхЫ▓уВАуБишЙпуБДуБзуБЩуАВ
 */
 
-/* е┌б╝е╕┴┤┬╬д╬┤Ё╦▄┼кд╩└▀─ъбг╟╪╖╩┐здф╩╕╗·┐зд╩д╔ */
+/* уГЪуГ╝уВ╕хЕиф╜УуБохЯ║цЬмчЪДуБкшинхоЪуАВшГМцЩпшЙ▓уВДцЦЗхнЧшЙ▓уБкуБй */
 
 body {
 	background-color: #ffffff;
@@ -22,7 +22,7 @@ body {
 
 }
 
-/* еъеєеп╩╕╗·╬єд╦┤╪д╣ды└▀─ъ */
+/* уГкуГ│уВпцЦЗхнЧхИЧуБлщЦвуБЩуВЛшинхоЪ */
 
 a:link {
 	text-decoration: none;
@@ -39,7 +39,7 @@ a:hover {
 	color: #75728c;
 }
 
-/* д╧д╞д╩енб╝еяб╝е╔еъеєепд╦┤╪д╣ды└▀─ъ */
+/* уБпуБжуБкуВнуГ╝уГпуГ╝уГЙуГкуГ│уВпуБлщЦвуБЩуВЛшинхоЪ */
 
 a.keyword {
 	text-decoration: none;
@@ -60,7 +60,7 @@ a.keyword:hover {
 	background-color: #ffffff;
 }
 
-/* ╞№╡не┐еде╚еыд╬└▀─ъ */
+/* цЧешиШуВ┐уВдуГИуГлуБошинхоЪ */
 
 h1 {
 	text-align: left;
@@ -78,7 +78,7 @@ h1 {
 	padding: 4px 0px 0px 8px;
 }
 
-/* елеьеєе└б╝д╬└▀─ъ */
+/* уВлуГмуГ│уГАуГ╝уБошинхоЪ */
 
 div.calendar {
 	text-align: right;
@@ -94,7 +94,7 @@ div.calendar {
 div.calendar div.year {
 }
 
-/* 1╞№д╬╞№╡н┴┤┬╬дЄ░╧др╧╚д╬└▀─ъ */
+/* 1цЧеуБоцЧешиШхЕиф╜УуВТхЫ▓уВАцЮауБошинхоЪ */
 
 div.day {
 	background-color: #e5e8f7;
@@ -108,7 +108,7 @@ div.day {
 	margin-bottom: 1.5em;
 }
 
-/* е┐еде╚еы╣╘┴┤┬╬д╬└▀─ъ */
+/* уВ┐уВдуГИуГлшбМхЕиф╜УуБошинхоЪ */
 
 h2 {
 	font-size: 100%;
@@ -116,7 +116,7 @@ h2 {
 	margin: 8px 0px 0px 0px;
 }
 
-/* ╞№╔╒д╬└▀─ъ */
+/* цЧеф╗ШуБошинхоЪ */
 
 h2 span.date {
 	font-size: 120%;
@@ -126,7 +126,7 @@ h2 span.date {
 	border-width: 0px 1px 0px 4px;
 }
 
-/* е┐еде╚еыд╬└▀─ъ */
+/* уВ┐уВдуГИуГлуБошинхоЪ */
 
 h2 span.title {
 	font-size: 120%;
@@ -137,7 +137,7 @@ h2 span.title {
 	border-width: 0px 0px 0px 0px;
 }
 
-/* е┐еде╚еыдЄ╜№ддд┐1╞№д╬╞№╡н╦▄╩╕┴┤┬╬д╬└▀─ъ */
+/* уВ┐уВдуГИуГлуВТщЩдуБДуБЯ1цЧеуБоцЧешиШцЬмцЦЗхЕиф╜УуБошинхоЪ */
 
 div.body {
 	background-color: #e5e8f7;
@@ -146,7 +146,7 @@ div.body {
 }
 
 /*
-е╡е╓е┐еде╚еыдЄ┤▐дре╗епе╖ечеєд╬└▀─ъ
+уВ╡уГЦуВ┐уВдуГИуГлуВТхРлуВАуВ╗уВпуВ╖уГзуГ│уБошинхоЪ
 */
 div.section {
 	margin-top: 0.75em;
@@ -154,7 +154,7 @@ div.section {
 	margin-bottom: 0em;
 }
 
-/* е╡е╓е┐еде╚еыд╬└▀─ъ */
+/* уВ╡уГЦуВ┐уВдуГИуГлуБошинхоЪ */
 
 h3 {
 	font-size: 80%;
@@ -162,7 +162,7 @@ h3 {
 	margin-bottom: 0.5em;
 }
 
-/* д╜д╬┬╛д╬╕л╜╨д╖(╔м═╫д╩дщ) */
+/* уБЭуБоф╗ЦуБошжЛхЗ║уБЧ(х┐ЕшжБуБкуВЙ) */
 
 h4 {
 	margin: 2em;
@@ -170,7 +170,7 @@ h4 {
 	margin-bottom: 0em;
 }
 
-/* ╞№╡нд╬╦▄╩╕(├╩═ю)д╬└▀─ъ */
+/* цЧешиШуБоцЬмцЦЗ(цо╡шР╜)уБошинхоЪ */
 
 div.section p {
 	font-size: 90%;
@@ -178,7 +178,7 @@ div.section p {
 	margin: 0em 0em 0em 0em;
 }
 
-/* е│есеєе╚/е╒ейб╝ер/еъеєеп╕╡д╬енеуе╫е╖ечеє└▀─ъ */
+/* уВ│уГбуГ│уГИ/уГХуВйуГ╝уГа/уГкуГ│уВпхЕГуБоуВнуГгуГЧуВ╖уГзуГ│шинхоЪ */
 
 div.caption {
 	font-size: 80%;
@@ -188,7 +188,7 @@ div.caption {
 	border-width: 1px 0px 0px 0px;
 }
 
-/* е│есеєе╚═є┴┤┬╬д╬└▀─ъ */
+/* уВ│уГбуГ│уГИцмДхЕиф╜УуБошинхоЪ */
 
 div.comment {
 	background-color: #e5e8f7;
@@ -200,7 +200,7 @@ div.comment {
 	margin-right: 1em;
 }
 
-/* е│есеєе╚═є╦▄╩╕ */
+/* уВ│уГбуГ│уГИцмДцЬмцЦЗ */
 
 div.commentshort {
 	font-size: 80%;
@@ -216,7 +216,7 @@ div.commentshort p {
 	line-height: 140%;
 }
 
-/* е╒ейб╝ер┴┤┬╬дЄ░╧др╧╚д╬└▀─ъ */
+/* уГХуВйуГ╝уГахЕиф╜УуВТхЫ▓уВАцЮауБошинхоЪ */
 
 div.form {
 	background-color: #e5e8f7;
@@ -228,7 +228,7 @@ div.form {
 	margin: 0.5em 1em 0.5em 2em;
 }
 
-/* еъеєеп╕╡еъе╣е╚д╬└▀─ъ */
+/* уГкуГ│уВпхЕГуГкуВ╣уГИуБошинхоЪ */
 
 div.refererlist {
 	background-color: #e5e8f7;
@@ -240,7 +240,7 @@ div.refererlist {
 	margin-right: 1em;
 }
 
-/* еъеєеп╕╡еъе╣е╚░ь═ўд╬└▀─ъ */
+/* уГкуГ│уВпхЕГуГкуВ╣уГИф╕АшжзуБошинхоЪ */
 
 div.refererlist ul {
 	font-size: 90%;
@@ -248,7 +248,7 @@ div.refererlist ul {
 	line-height: 120%;
 }
 
-/* ╖╙└■д╬└▀─ъ */
+/* ч╜лч╖ЪуБошинхоЪ */
 
 hr {
 	border-style: dashed;
@@ -256,14 +256,14 @@ hr {
 	border-color: #ffffff;
 }
 
-/* ╞№б╣д╬╞№╡нд╬е╗е╤еьб╝е┐д╦╗╚дядьды╖╙└■д╬└▀─ъ */
+/* цЧеуАЕуБоцЧешиШуБоуВ╗уГСуГмуГ╝уВ┐уБлф╜┐уВПуВМуВЛч╜лч╖ЪуБошинхоЪ */
 
 hr.sep {
 	display: none;
 }
 
 /*
-е╪е├е└бже╒е├е┐д╬└▀─ъ
+уГШуГГуГАуГ╗уГХуГГуВ┐уБошинхоЪ
 */
 div.footer {
 	text-align: left;
@@ -275,7 +275,7 @@ div.footer {
 }
 
 
-/* еиещб╝есе├е╗б╝е╕╔╜╝ид╬└▀─ъ */
+/* уВиуГйуГ╝уГбуГГуВ╗уГ╝уВ╕шбичд║уБошинхоЪ */
 
 p.message {
 	text-align: center;
@@ -285,7 +285,7 @@ p.message {
 	padding: 8px;
 }
 
-/* └░╖┴║╤д▀е╞ене╣е╚(preе┐е░)д╬└▀─ъ */
+/* цХ┤х╜вц╕ИуБ┐уГЖуВнуВ╣уГИ(preуВ┐уВ░)уБошинхоЪ */
 
 div.section pre {
 	background-color: #ffffff;
@@ -297,7 +297,7 @@ div.section pre {
 	padding: 0.25em 1em 0.25em 1em;
 }
 
-/* ░·═╤(blockquoteе┐е░)д╬└▀─ъ */
+/* х╝ХчФи(blockquoteуВ┐уВ░)уБошинхоЪ */
 
 div.section blockquote {
 	font-style: italic;
@@ -316,7 +316,7 @@ div.section blockquote p {
 }
 
 /*
-▓╒╛Є╜ёднд╬└▀─ъ
+чоЗцЭбцЫ╕уБНуБошинхоЪ
 */
 div.section ul, div.section ol {
 	margin-top: 0.5em;
@@ -335,7 +335,7 @@ div.section ul ul, div.section ol ol {
 	margin-bottom: 0.5em;
 }
 
-/* ╣р╠▄еъе╣е╚д╬└▀─ъ */
+/* щаЕчЫоуГкуВ╣уГИуБошинхоЪ */
 
 div.section dl {
 	margin-top: 0.5em;
@@ -372,7 +372,7 @@ table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month,
 	text-align: center;
 }
 
-/* ете╕ехб╝еыд╬└▀─ъ */
+/* уГвуВ╕уГеуГ╝уГлуБошинхоЪ */
 
 p.recentitem {
 	font-size: 70%;
@@ -386,7 +386,7 @@ div.recentsubtitles {
 	margin: 2px 4px 0px 4px;
 }
 
-/* ╡╙├эд╬└▀─ъ */
+/* шДЪц│иуБошинхоЪ */
 
 div.body span.footnote {
 	vertical-align: super;
@@ -407,7 +407,7 @@ p.footnote {
 	padding: 0em;
 }
 
-/* amazonд╬╜ё▒╞еъеєепд╬└▀─ъ */
+/* amazonуБоцЫ╕х╜▒уГкуГ│уВпуБошинхоЪ */
 
 img.asin {
 	float: left;
@@ -417,7 +417,7 @@ img.asin {
 	border: 0;
 }
 
-/* photoд╬└▀─ъ */
+/* photoуБошинхоЪ */
 
 img.photo {
 	float: left;
@@ -427,14 +427,14 @@ img.photo {
 	border: 0;
 }
 
-/* ╕б║ў╗■д╬е╧едещеде╚д╬└▀─ъ */
+/* цдЬч┤вцЩВуБоуГПуВдуГйуВдуГИуБошинхоЪ */
 
 span.highlight {
 	color: #000000;
 	background-color: #ffffff;
 }
 
-/* е╡еде╔е╨б╝┤╪╧вд╬└▀─ъ */
+/* уВ╡уВдуГЙуГРуГ╝щЦвщАгуБошинхоЪ */
 
 div.main {
 	margin-right: 175px;

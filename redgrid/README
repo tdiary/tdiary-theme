@@ -1,5 +1,5 @@
 Title: redgrid
-Author: �ʥ�����
+Author: ナカガキ
 Access: http://d.hatena.ne.jp/calmzone/ http://park18.wakwak.com/~calmzone/
 License: GPL
-Comment: �ȼ����饹��SPAN.spoiler���Ѱդ��ޤ�����<SPAN CLASS="spoiler"></SPAN>��ʸ����Ϥ�ȡ�ʸ�����طʤ�Ʊ���ˤʤꡢ�ͥ��Ф��ɻ����˻Ȥ��ޤ���
+Comment: 独自クラスのSPAN.spoilerを用意しました。<SPAN CLASS="spoiler"></SPAN>で文字を囲むと、文字と背景が同色になり、ネタばれ防止等に使えます。

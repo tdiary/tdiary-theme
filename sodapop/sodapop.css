@@ -1,16 +1,16 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: Sodapop
 Revision: $Revision: 1.12 $
 Author: kadu
 Access: http://www.bb.wakwak.com/~akk/kadu/
-Comment: blockquote,footnote,recent_list pluginÂĞ±ş
+Comment: blockquote,footnote,recent_list pluginå¯¾å¿œ
 License: GPL
 
    Copyright kadu <http://www.bb.wakwak.com/~akk/kadu/>
 
-   sodapop_back.jpg¤ÏÃøºî¸¢¤Î´Ø·¸¤Ç´Ş¤Ş¤ì¤Æ¤¤¤Ş¤»¤ó¡£
-   ¤ª¹¥¤­¤ÊÇØ·Ê¥¤¥á¡¼¥¸¤òÍÑ°Õ¤·¤Æ¤¯¤À¤µ¤¤¡£
+   sodapop_back.jpgã¯è‘—ä½œæ¨©ã®é–¢ä¿‚ã§å«ã¾ã‚Œã¦ã„ã¾ã›ã‚“ã€‚
+   ãŠå¥½ããªèƒŒæ™¯ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚’ç”¨æ„ã—ã¦ãã ã•ã„ã€‚
 */
 /* ChengeLog
 2002-09-30 Nana
@@ -25,7 +25,7 @@ License: GPL
 */
 
 /*
-  ¥Ú¡¼¥¸Á´ÂÎ¤Î´ğËÜÅª¤ÊÀßÄê¡£ÇØ·Ê¿§¤äÊ¸»ú¿§¤Ê¤É
+  ãƒšãƒ¼ã‚¸å…¨ä½“ã®åŸºæœ¬çš„ãªè¨­å®šã€‚èƒŒæ™¯è‰²ã‚„æ–‡å­—è‰²ãªã©
 */
 body {
 	background-color: white;
@@ -38,14 +38,14 @@ body {
 }
 
 /*
- ¥ê¥ó¥¯¤ÎÀßÄê
+ ãƒªãƒ³ã‚¯ã®è¨­å®š
  */
 a:link, a:visited {
 	text-decoration: none;
 }
 
 /*
-  ¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¤ÎÊÂ¤Ö¹Ô¤ÎÀßÄê
+  ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³ã®ä¸¦ã¶è¡Œã®è¨­å®š
 */
 div.adminmenu {
 	text-align: right;
@@ -53,26 +53,26 @@ div.adminmenu {
 }
 
 /*
-  ¥Ú¡¼¥¸¥È¥Ã¥×¤Ë¤¢¤ëÁàºî¥Ü¥¿¥ó¼«ÂÎ¤ÎÀßÄê
+  ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ã«ã‚ã‚‹æ“ä½œãƒœã‚¿ãƒ³è‡ªä½“ã®è¨­å®š
   */
 span.adminmenu {
 }
 
 /*
-  Æüµ­¥¿¥¤¥È¥ë¤ÎÀßÄê
+  æ—¥è¨˜ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
   */
 h1 {
 	text-align: left;
 }
 
 /*
-  ¥«¥ì¥ó¥À¡¼¤ÎÀßÄê
+  ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã®è¨­å®š
   */
 div.calendar {
 }
 
 /*
-  1Æü¤ÎÆüµ­Á´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+  1æ—¥ã®æ—¥è¨˜å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
   */
 div.day {
 	border: 1px solid #999;
@@ -82,7 +82,7 @@ div.day {
 }
 
 /*
-  ¥¿¥¤¥È¥ë¹ÔÁ´ÂÎ¤ÎÀßÄê
+  ã‚¿ã‚¤ãƒˆãƒ«è¡Œå…¨ä½“ã®è¨­å®š
   */
 h2 {
 	background-color: #9cc;
@@ -92,7 +92,7 @@ h2 {
 	border-bottom: 1px solid #999;
 }
 
-/* ÆüÉÕ¤ÎÀßÄê */
+/* æ—¥ä»˜ã®è¨­å®š */
 h2 span.date {
 }
 h2 span.date a {
@@ -100,13 +100,13 @@ h2 span.date a {
 	color: #fff;
 }
 
-/* ¥¿¥¤¥È¥ë¤ÎÀßÄê */
+/* ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š */
 h2 span.title {
 	color: #fff;
 }
 
 /*
-  ¥¿¥¤¥È¥ë¤ò½ü¤¤¤¿1Æü¤ÎÆüµ­ËÜÊ¸Á´ÂÎ¤ÎÀßÄê
+  ã‚¿ã‚¤ãƒˆãƒ«ã‚’é™¤ã„ãŸ1æ—¥ã®æ—¥è¨˜æœ¬æ–‡å…¨ä½“ã®è¨­å®š
   */
 div.body {
 	padding: 0em;
@@ -114,7 +114,7 @@ div.body {
 }
 
 /*
-  ¥µ¥Ö¥¿¥¤¥È¥ë¤ÎÀßÄê
+  ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
   */
 h3 {
 	font-size: 100%;
@@ -130,7 +130,7 @@ div.section p {
 }
 
 /*
-  ¥Ä¥Ã¥³¥ßÍóÁ´ÂÎ¤ÎÀßÄê
+  ãƒ„ãƒƒã‚³ãƒŸæ¬„å…¨ä½“ã®è¨­å®š
   */
 div.comment {
   /*text-align: right;*/
@@ -143,7 +143,7 @@ div.comment {
 }
 
 /*
-  ¥Ä¥Ã¥³¥ßÍó¥¿¥¤¥È¥ë¹Ô¤ÎÀßÄê
+  ãƒ„ãƒƒã‚³ãƒŸæ¬„ã‚¿ã‚¤ãƒˆãƒ«è¡Œã®è¨­å®š
   */
 div.comment div.caption {
 	text-align: right;
@@ -153,11 +153,11 @@ div.comment div.caption {
 }
 
 /*
-  ¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤ÎÌ¾Á°¤ÎÀßÄê
+  ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®åå‰ã®è¨­å®š
   */
 
 /*
-  ¥ê¥ó¥¯¸µ¥ê¥¹¥È(Ã»¤¤Êı)¤ÎÀßÄê
+  ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(çŸ­ã„æ–¹)ã®è¨­å®š
   */
 div.referer {
 	text-align: right;
@@ -169,7 +169,7 @@ div.referer {
 }
 
 /*
-  ¥ê¥ó¥¯¸µ¥ê¥¹¥È(Á´ÂÎ°ìÍ÷)¤ÎÀßÄê
+  ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆ(å…¨ä½“ä¸€è¦§)ã®è¨­å®š
   */
 div.refererlist {
 	font-size: small;
@@ -182,7 +182,7 @@ div.refererlist {
 }
 
 /*
-  ¥ê¥ó¥¯¸µ¥ê¥¹¥È¥¿¥¤¥È¥ë¤ÎÀßÄê
+  ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆã‚¿ã‚¤ãƒˆãƒ«ã®è¨­å®š
   */
 div.refererlist div.caption {
 	border-style: solid;
@@ -191,14 +191,14 @@ div.refererlist div.caption {
 }
 
 /*
-  ¥ê¥ó¥¯¸µ¥ê¥¹¥È°ìÍ÷¤ÎÀßÄê
+  ãƒªãƒ³ã‚¯å…ƒãƒªã‚¹ãƒˆä¸€è¦§ã®è¨­å®š
   */
 div.refererlist ul {
 	margin-top: 0em;
 }
 
 /*
-  ·ÓÀş¤ÎÀßÄê
+  ç½«ç·šã®è¨­å®š
   */
 hr {
 	border-style: solid;
@@ -207,14 +207,14 @@ hr {
 }
 
 /*
-  Æü¡¹¤ÎÆüµ­¤Î¥»¥Ñ¥ì¡¼¥¿¤Ë»È¤ï¤ì¤ë·ÓÀş¤ÎÀßÄê
+  æ—¥ã€…ã®æ—¥è¨˜ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã«ä½¿ã‚ã‚Œã‚‹ç½«ç·šã®è¨­å®š
   */
 hr.sep {
 	display: none;
 }
 
 /*
-  ¥Õ¥Ã¥¿¤ÎÀßÄê
+  ãƒ•ãƒƒã‚¿ã®è¨­å®š
   */
 div.footer {
 	font-size: small;
@@ -223,7 +223,7 @@ div.footer {
 }
 
 /*
-  ¥Õ¥©¡¼¥àÁ´ÂÎ¤ò°Ï¤àÏÈ¤ÎÀßÄê
+  ãƒ•ã‚©ãƒ¼ãƒ å…¨ä½“ã‚’å›²ã‚€æ ã®è¨­å®š
   */
 div.form {
 	padding: 0.5em 1em 0.5em 1em;
@@ -232,14 +232,14 @@ div.form {
 }
 
 /*
-  ÆşÎÏ¥Õ¥£¡¼¥ë¥É¤ÎÀßÄê
+  å…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®è¨­å®š
   */
 input.field {
 	background-color: white;
 }
 
 /*
-  Ê£¿ô¹ÔÆşÎÏ¥Õ¥£¡¼¥ë¥É¤ÎÀßÄê
+  è¤‡æ•°è¡Œå…¥åŠ›ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®è¨­å®š
   */
 textarea {
 	background-color: white;
@@ -247,7 +247,7 @@ textarea {
 }
 
 /*
-  ¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸É½¼¨¤ÎÀßÄê
+  ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®è¨­å®š
   */
 p.message {
 	text-align: center;
@@ -258,7 +258,7 @@ p.message {
 }
 
 /*
-  À°·ÁºÑ¤ß¥Æ¥­¥¹¥È(pre¥¿¥°)¤ÎÀßÄê
+  æ•´å½¢æ¸ˆã¿ãƒ†ã‚­ã‚¹ãƒˆ(preã‚¿ã‚°)ã®è¨­å®š
   */
 pre {
 	margin-left: 2em;
@@ -290,7 +290,7 @@ td.calendar-current-month, table.calendar td.calendar-next-month {
 }
 
 /*
-°úÍÑ¡¢°úÍÑ¥½¡¼¥¹¤ÎÉ½¼¨
+å¼•ç”¨ã€å¼•ç”¨ã‚½ãƒ¼ã‚¹ã®è¡¨ç¤º
 */
 div.body blockquote {
         border: 2px inset black;
@@ -333,7 +333,7 @@ div.footnote {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾ÊÎ¬ÈÇËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸçœç•¥ç‰ˆæœ¬æ–‡
 */
 div.commentshort {
         margin-left: 0.5em;
@@ -349,7 +349,7 @@ div.commentshort p {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÂÎ
+ãƒ„ãƒƒã‚³ãƒŸæœ¬ä½“
 */
 div.commentbody {
         margin: 0.5em;
@@ -357,7 +357,7 @@ div.commentbody {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¤·¤¿¿Í¤Î¾ğÊó
+ãƒ„ãƒƒã‚³ãƒŸã—ãŸäººã®æƒ…å ±
 */
 div.commentator {
         border-style: solid;
@@ -368,14 +368,14 @@ div.commentator {
 }
 
 /*
-¥Ä¥Ã¥³¥ßËÜÊ¸
+ãƒ„ãƒƒã‚³ãƒŸæœ¬æ–‡
 */
 div.commentbody p {
         margin: 0.5em 0em;
 }
 
 /*
-¥Õ¥©¡¼¥à¤ÎÀßÄê
+ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­å®š
 */
 div.form form {
         margin: 0em 0em 0em 2em;
@@ -420,7 +420,7 @@ div.button {
 }
 
 /*
-¹¹¿·¥Õ¥©¡¼¥à
+æ›´æ–°ãƒ•ã‚©ãƒ¼ãƒ 
 */
 form.update {
         padding-top: 0.5em;
@@ -463,7 +463,7 @@ form.update span.checkbox.hidediary {
 }
 
 /*
-¥Ä¥Ã¥³¥ß¾õÂÖÊÑ¹¹¥Õ¥©¡¼¥à
+ãƒ„ãƒƒã‚³ãƒŸçŠ¶æ…‹å¤‰æ›´ãƒ•ã‚©ãƒ¼ãƒ 
 */
 div.comment form {
         margin-top: 0em;

@@ -2,26 +2,26 @@ Title: plum
 Author: epi
 Access: <http://330mg.bufferin.jp/diary/>
 License: GPL
-Comment: ¹ç³Êµ§´ê
+Comment: åˆæ ¼ç¥ˆé¡˜
 
 Copyright by epi All Rights Reserved.
 validated by W3C
 
-¥µ¥¤¥É¥Ğ¡¼ÂĞ±ş
-calendar2, recent_list, footnote ¥×¥é¥°¥¤¥óÂĞ±ş
+ã‚µã‚¤ãƒ‰ãƒãƒ¼å¯¾å¿œ
+calendar2, recent_list, footnote ãƒ—ãƒ©ã‚°ã‚¤ãƒ³å¯¾å¿œ
 
 --Change Log---
 2003-09-13 NT <nt@be.to>
 	* font-size: em -> %.
 
 2003-03-14 epi
-	* ¥Õ¥©¥ó¥È¥µ¥¤¥º¤ò¤¹¤Ù¤ÆÁêÂĞ»ØÄê¤ËÊÑ¹¹
+	* ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’ã™ã¹ã¦ç›¸å¯¾æŒ‡å®šã«å¤‰æ›´
 	
 2003-03-10 TADA Tadashi <sho@spc.gr.jp>
 	* font-size: em -> %.
 
 2003-02-25 epi
-	* Æü¤´¤È¤Î¥¿¥¤¥È¥ëÉ½¼¨¤Ş¤ï¤ê¤ò½¤Àµ
+	* æ—¥ã”ã¨ã®ã‚¿ã‚¤ãƒˆãƒ«è¡¨ç¤ºã¾ã‚ã‚Šã‚’ä¿®æ­£
 
 2003-02-24 epi
 	* add plum theme

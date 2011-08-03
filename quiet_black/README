@@ -2,11 +2,11 @@ Title: Quiet_black
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
-Comment: ¹õ¥Ğ¥Ã¥¯ÆÈÆÃ¤Î·ùÌ£¤ò¾Ã¤¹¤è¤¦¤ËÇÛÎ¸¤·¤¿¥Æ¡¼¥Ş
+Comment: é»’ãƒãƒƒã‚¯ç‹¬ç‰¹ã®å«Œå‘³ã‚’æ¶ˆã™ã‚ˆã†ã«é…æ…®ã—ãŸãƒ†ãƒ¼ãƒ
 
 	quiet_black.css: Style Sheet of tDiary $Revision: 1.3 $
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
-	¤³¤Îtheme¤Ï¡¢ÃÊÍî¤ÎÀèÆ¬¤¬1Ê¸»úÊ¬¥¤¥ó¥Ç¥ó¥È¤µ¤ì¤ë»ÅÍÍ¤Ç¤¹
+	ã“ã®themeã¯ã€æ®µè½ã®å…ˆé ­ãŒ1æ–‡å­—åˆ†ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã•ã‚Œã‚‹ä»•æ§˜ã§ã™
 
 ChangeLog
 2004-05-04 TADA Tadashi <sho@spc.gr.jp>

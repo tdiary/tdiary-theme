@@ -1,20 +1,20 @@
-@charset "euc-jp";
+@charset "utf-8";
 /*
 Title: purple sun
-Author: ¤¯¤ï
+Author: ãã‚
 Access: http://www.spc.gr.jp/kuwa/
 License: GPL
-Comment: »ç¿§¤ÎÂÀÍÛ¤¬¸«¤¨±£¤ì¤·¤Ş¤¹¡£
+Comment: ç´«è‰²ã®å¤ªé™½ãŒè¦‹ãˆéš ã‚Œã—ã¾ã™ã€‚
 
-1.4·Ï¡¢1.5·ÏÎ¾ÂĞ±ş¡Ê¤Î¥Ï¥º¡Ë¡£
-sidebarÂĞ±ş¡£
-calendar2¡¢recent_list¡¢footnote¥×¥é¥°¥¤¥ó¤ËÂĞ±ş¡£
+1.4ç³»ã€1.5ç³»ä¸¡å¯¾å¿œï¼ˆã®ãƒã‚ºï¼‰ã€‚
+sidebarå¯¾å¿œã€‚
+calendar2ã€recent_listã€footnoteãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã«å¯¾å¿œã€‚
 
-Copyright 2003 (C) by ¤¯¤ï <kuwa@s26.xrea.com>
+Copyright 2003 (C) by ãã‚ <kuwa@s26.xrea.com>
 validated by W3C.
 */
 
-/* ¥¹¥¯¥í¡¼¥ë¥Ğ¡¼¡¡W3C¤Î¥Á¥§¥Ã¥¯¤ÏÄÌ¤é¤Ê¤¤¤Î¤Ç¥³¥á¥ó¥È
+/* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ãƒãƒ¼ã€€W3Cã®ãƒã‚§ãƒƒã‚¯ã¯é€šã‚‰ãªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆ
 html,body{
 scrollbar-3d-light-color: #fdd;
 scrollbar-highlight-color: #fdd;
@@ -95,7 +95,7 @@ h3{
 h3.subtitle{
 }
 
-/* ÆâÍÆ */
+/* å†…å®¹ */
 h2{
 	margin-bottom:0px;
 	font-size:110%;

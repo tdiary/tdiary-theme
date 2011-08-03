@@ -1,6 +1,6 @@
 Title: Green-border
 Author: Nana <clorets@estyle.ne.jp>
-Comment: �����뤯��ʥơ���
+Comment: カエルくんなテーマ
 License: GPL
 
 Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
@@ -35,5 +35,5 @@ Change-Log
 
 Comment 
 2003-03-01 Nana <clorets@estyle.ne.jp>
-	* body���ʸ�Ϥ�����Ƥ�������¿��
-	  ������ʸ�������Τ�body�˥ޡ��������褦���ѹ����ޤ�����
+	* body内に文章を入れている方が多く
+	  画像に文字が被るのでbodyにマージンを取るように変更しました。

@@ -1,0 +1,567 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja-JP">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="tDiary 3.1.0.20110809">
+	<meta http-equiv="Last-Modified" content="Tue, 09 Aug 2011 10:28:09 GMT">
+	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript"><!--
+		var theme = 'default';
+		if(location.search.match(/theme=(.*)/)){ theme = RegExp.$1; }
+		$('head').append('<link rel="stylesheet" href="theme/' + theme + '/' + theme + '.css" title="' + theme + '" type="text/css" media="all">');
+		$(function(){
+			$('#theme-list option[value=' + theme + ']').attr('selected', 'true');
+			$('#theme-list').change(function(){
+				location.href = location.href.split('?')[0] + '?theme=' + $('option:selected', this).attr('value');
+			});
+		});
+	//--></script>
+	<meta http-equiv="content-style-type" content="text/css">
+	<link rel="stylesheet" href="theme/base.css" type="text/css" media="all">
+	<title>tDiary theme benchmark</title>
+</head>
+<body>
+<div class="whole-content">
+
+
+<div class="adminmenu">
+<span class="adminmenu"><a href="/">トップ</a></span>
+<span class="adminmenu"><a href="update.cgi" rel="nofollow">追記</a></span>
+&nbsp;|&nbsp;Current Theme: <select id="theme-list">
+	<option value="default">default</option>
+	<option value="tdiary1">tdiary1</option>
+	<option value="tdiary2">tdiary2</option>
+	<option value="3minutes">3minutes</option>
+	<option value="3pink">3pink</option>
+	<option value="90">90</option>
+	<option value="alfa">alfa</option>
+	<option value="another_blue">another_blue</option>
+	<option value="aoikuruma">aoikuruma</option>
+	<option value="aqua">aqua</option>
+	<option value="arrow">arrow</option>
+	<option value="artnouveau-blue">artnouveau-blue</option>
+	<option value="artnouveau-green">artnouveau-green</option>
+	<option value="artnouveau-red">artnouveau-red</option>
+	<option value="asterisk-blue">asterisk-blue</option>
+	<option value="asterisk-lightgray">asterisk-lightgray</option>
+	<option value="asterisk-maroon">asterisk-maroon</option>
+	<option value="asterisk-orange">asterisk-orange</option>
+	<option value="asterisk-pink">asterisk-pink</option>
+	<option value="at">at</option>
+	<option value="autumn">autumn</option>
+	<option value="babypink">babypink</option>
+	<option value="be_r5">be_r5</option>
+	<option value="bill">bill</option>
+	<option value="bistro_menu">bistro_menu</option>
+	<option value="black-blue">black-blue</option>
+	<option value="black-green">black-green</option>
+	<option value="black-lingerie">black-lingerie</option>
+	<option value="black-red">black-red</option>
+	<option value="black_mamba">black_mamba</option>
+	<option value="blackboard">blackboard</option>
+	<option value="blackbox">blackbox</option>
+	<option value="blue-border">blue-border</option>
+	<option value="blue-dash">blue-dash</option>
+	<option value="blue-feather">blue-feather</option>
+	<option value="bluegrad">bluegrad</option>
+	<option value="bluely">bluely</option>
+	<option value="book">book</option>
+	<option value="book2-feminine">book2-feminine</option>
+	<option value="book3-sky">book3-sky</option>
+	<option value="bright-green">bright-green</option>
+	<option value="britannian">britannian</option>
+	<option value="brown">brown</option>
+	<option value="bubble">bubble</option>
+	<option value="candy">candy</option>
+	<option value="cards">cards</option>
+	<option value="cat">cat</option>
+	<option value="check">check</option>
+	<option value="cherry">cherry</option>
+	<option value="cherry_blossom">cherry_blossom</option>
+	<option value="cherry_blossom_r">cherry_blossom_r</option>
+	<option value="chiffon_leafgreen">chiffon_leafgreen</option>
+	<option value="chiffon_pink">chiffon_pink</option>
+	<option value="chiffon_skyblue">chiffon_skyblue</option>
+	<option value="christmas">christmas</option>
+	<option value="citrus">citrus</option>
+	<option value="city">city</option>
+	<option value="clover">clover</option>
+	<option value="colorlabel">colorlabel</option>
+	<option value="cool_ice">cool_ice</option>
+	<option value="cosmos">cosmos</option>
+	<option value="cross">cross</option>
+	<option value="curtain">curtain</option>
+	<option value="darkness-pop">darkness-pop</option>
+	<option value="darkwhite">darkwhite</option>
+	<option value="date">date</option>
+	<option value="deepblue">deepblue</option>
+	<option value="delta">delta</option>
+	<option value="desert">desert</option>
+	<option value="diamond_dust">diamond_dust</option>
+	<option value="dice">dice</option>
+	<option value="digital_gadgets">digital_gadgets</option>
+	<option value="dog">dog</option>
+	<option value="dot">dot</option>
+	<option value="dot-lime">dot-lime</option>
+	<option value="dot-orange">dot-orange</option>
+	<option value="dot-pink">dot-pink</option>
+	<option value="dot-sky">dot-sky</option>
+	<option value="dotted_line-blue">dotted_line-blue</option>
+	<option value="dotted_line-green">dotted_line-green</option>
+	<option value="dotted_line-red">dotted_line-red</option>
+	<option value="double">double</option>
+	<option value="earth-brown">earth-brown</option>
+	<option value="easy">easy</option>
+	<option value="emboss">emboss</option>
+	<option value="fine">fine</option>
+	<option value="flower">flower</option>
+	<option value="fluxbox">fluxbox</option>
+	<option value="fluxbox2">fluxbox2</option>
+	<option value="fluxbox3">fluxbox3</option>
+	<option value="fri">fri</option>
+	<option value="futaba">futaba</option>
+	<option value="garden">garden</option>
+	<option value="gardenia">gardenia</option>
+	<option value="gear">gear</option>
+	<option value="germany">germany</option>
+	<option value="gingham-blue">gingham-blue</option>
+	<option value="gingham-gray">gingham-gray</option>
+	<option value="gingham-green">gingham-green</option>
+	<option value="gingham-purple">gingham-purple</option>
+	<option value="gingham-yellow">gingham-yellow</option>
+	<option value="ginkgo">ginkgo</option>
+	<option value="giza">giza</option>
+	<option value="glass">glass</option>
+	<option value="glass_blue">glass_blue</option>
+	<option value="glass_emerald">glass_emerald</option>
+	<option value="glass_green">glass_green</option>
+	<option value="glass_light_blue">glass_light_blue</option>
+	<option value="glass_orange">glass_orange</option>
+	<option value="glass_pink">glass_pink</option>
+	<option value="glass_purple">glass_purple</option>
+	<option value="glass_red">glass_red</option>
+	<option value="glass_yellow">glass_yellow</option>
+	<option value="gold">gold</option>
+	<option value="gray">gray</option>
+	<option value="gray-note">gray-note</option>
+	<option value="gray2">gray2</option>
+	<option value="green-border">green-border</option>
+	<option value="green-tea">green-tea</option>
+	<option value="green_leaves">green_leaves</option>
+	<option value="greentea3">greentea3</option>
+	<option value="gustav">gustav</option>
+	<option value="halloween">halloween</option>
+	<option value="happa">happa</option>
+	<option value="haru">haru</option>
+	<option value="hatena">hatena</option>
+	<option value="hatena-black">hatena-black</option>
+	<option value="hatena-brown">hatena-brown</option>
+	<option value="hatena-darkgray">hatena-darkgray</option>
+	<option value="hatena-green">hatena-green</option>
+	<option value="hatena-lightblue">hatena-lightblue</option>
+	<option value="hatena-lightgray">hatena-lightgray</option>
+	<option value="hatena-lime">hatena-lime</option>
+	<option value="hatena-orange">hatena-orange</option>
+	<option value="hatena-pink">hatena-pink</option>
+	<option value="hatena-purple">hatena-purple</option>
+	<option value="hatena-red">hatena-red</option>
+	<option value="hatena-sepia">hatena-sepia</option>
+	<option value="hatena-tea">hatena-tea</option>
+	<option value="hatena-white">hatena-white</option>
+	<option value="hatena_cinnamon">hatena_cinnamon</option>
+	<option value="hatena_japanese">hatena_japanese</option>
+	<option value="hatena_leaf">hatena_leaf</option>
+	<option value="hatena_rainyseason">hatena_rainyseason</option>
+	<option value="hatena_savanna-blue">hatena_savanna-blue</option>
+	<option value="hatena_savanna-green">hatena_savanna-green</option>
+	<option value="hatena_savanna-red">hatena_savanna-red</option>
+	<option value="hatena_savanna-white">hatena_savanna-white</option>
+	<option value="hatena_water">hatena_water</option>
+	<option value="hazakura">hazakura</option>
+	<option value="hellali">hellali</option>
+	<option value="himawari">himawari</option>
+	<option value="hsbt">hsbt</option>
+	<option value="husen">husen</option>
+	<option value="hydrangea">hydrangea</option>
+	<option value="iris">iris</option>
+	<option value="jungler">jungler</option>
+	<option value="kaeru">kaeru</option>
+	<option value="kaizou">kaizou</option>
+	<option value="kaki">kaki</option>
+	<option value="kanban">kanban</option>
+	<option value="kanshin">kanshin</option>
+	<option value="kasumi">kasumi</option>
+	<option value="kitchen-classic">kitchen-classic</option>
+	<option value="kitchen-french">kitchen-french</option>
+	<option value="kitchen-natural">kitchen-natural</option>
+	<option value="kotatsu">kotatsu</option>
+	<option value="kurenai">kurenai</option>
+	<option value="lcars">lcars</option>
+	<option value="lcd">lcd</option>
+	<option value="leafgreen">leafgreen</option>
+	<option value="light-blue">light-blue</option>
+	<option value="lightning">lightning</option>
+	<option value="lime">lime</option>
+	<option value="line">line</option>
+	<option value="loose-leaf">loose-leaf</option>
+	<option value="lovely">lovely</option>
+	<option value="lovely_pink">lovely_pink</option>
+	<option value="lr">lr</option>
+	<option value="madrascheck">madrascheck</option>
+	<option value="magic">magic</option>
+	<option value="manuscript-brown">manuscript-brown</option>
+	<option value="manuscript-green">manuscript-green</option>
+	<option value="marguerite">marguerite</option>
+	<option value="maroon">maroon</option>
+	<option value="matcha">matcha</option>
+	<option value="memo">memo</option>
+	<option value="memo2">memo2</option>
+	<option value="memo3">memo3</option>
+	<option value="metal">metal</option>
+	<option value="midnight">midnight</option>
+	<option value="mini-g">mini-g</option>
+	<option value="mini-p">mini-p</option>
+	<option value="mintblue">mintblue</option>
+	<option value="mirage">mirage</option>
+	<option value="mixi">mixi</option>
+	<option value="mixi-blue">mixi-blue</option>
+	<option value="mixi-green">mixi-green</option>
+	<option value="mixi-pink">mixi-pink</option>
+	<option value="mizu">mizu</option>
+	<option value="momiji">momiji</option>
+	<option value="momonga">momonga</option>
+	<option value="mono">mono</option>
+	<option value="monochrome">monochrome</option>
+	<option value="monotone">monotone</option>
+	<option value="moo">moo</option>
+	<option value="mt_fuji">mt_fuji</option>
+	<option value="nachtmusik">nachtmusik</option>
+	<option value="nahanaha">nahanaha</option>
+	<option value="nande-ya-nen">nande-ya-nen</option>
+	<option value="narrow">narrow</option>
+	<option value="natrium">natrium</option>
+	<option value="natural_gray">natural_gray</option>
+	<option value="navy">navy</option>
+	<option value="nebula">nebula</option>
+	<option value="necktie">necktie</option>
+	<option value="nenga">nenga</option>
+	<option value="nippon">nippon</option>
+	<option value="noel">noel</option>
+	<option value="note">note</option>
+	<option value="noto">noto</option>
+	<option value="nut-brown">nut-brown</option>
+	<option value="ocha">ocha</option>
+	<option value="old-pavement">old-pavement</option>
+	<option value="orange">orange</option>
+	<option value="orange-blue">orange-blue</option>
+	<option value="orange-border">orange-border</option>
+	<option value="orange_flower">orange_flower</option>
+	<option value="orangegrad">orangegrad</option>
+	<option value="orkut">orkut</option>
+	<option value="pain">pain</option>
+	<option value="pale">pale</option>
+	<option value="paper">paper</option>
+	<option value="parabola">parabola</option>
+	<option value="pastelpink">pastelpink</option>
+	<option value="pearl">pearl</option>
+	<option value="petith">petith</option>
+	<option value="petith-b">petith-b</option>
+	<option value="pettan">pettan</option>
+	<option value="pict">pict</option>
+	<option value="pink-border">pink-border</option>
+	<option value="pinkgrad">pinkgrad</option>
+	<option value="piyo-family">piyo-family</option>
+	<option value="plum">plum</option>
+	<option value="pokke-blue">pokke-blue</option>
+	<option value="pokke-orange">pokke-orange</option>
+	<option value="pool_side">pool_side</option>
+	<option value="pudding">pudding</option>
+	<option value="puppy">puppy</option>
+	<option value="purple_sun">purple_sun</option>
+	<option value="query000">query000</option>
+	<option value="query011">query011</option>
+	<option value="query101">query101</option>
+	<option value="query110">query110</option>
+	<option value="query111or">query111or</option>
+	<option value="quiet_black">quiet_black</option>
+	<option value="quirky">quirky</option>
+	<option value="quirky2">quirky2</option>
+	<option value="rain">rain</option>
+	<option value="rainy-season">rainy-season</option>
+	<option value="rectangle">rectangle</option>
+	<option value="redgrid">redgrid</option>
+	<option value="repro">repro</option>
+	<option value="right">right</option>
+	<option value="rim-daidaiiro">rim-daidaiiro</option>
+	<option value="rim-fujiiro">rim-fujiiro</option>
+	<option value="rim-mizuiro">rim-mizuiro</option>
+	<option value="rim-sakurairo">rim-sakurairo</option>
+	<option value="rim-tanpopoiro">rim-tanpopoiro</option>
+	<option value="rim-wakabairo">rim-wakabairo</option>
+	<option value="russet">russet</option>
+	<option value="s-blue">s-blue</option>
+	<option value="s-pink">s-pink</option>
+	<option value="sagegreen">sagegreen</option>
+	<option value="sakana">sakana</option>
+	<option value="sakura">sakura</option>
+	<option value="savanna">savanna</option>
+	<option value="scarlet">scarlet</option>
+	<option value="seam-line">seam-line</option>
+	<option value="sepia">sepia</option>
+	<option value="shirakaba">shirakaba</option>
+	<option value="sidelight">sidelight</option>
+	<option value="silver">silver</option>
+	<option value="silver2">silver2</option>
+	<option value="simple">simple</option>
+	<option value="simpleblack">simpleblack</option>
+	<option value="sky">sky</option>
+	<option value="sleepy_kitten">sleepy_kitten</option>
+	<option value="smoking_black">smoking_black</option>
+	<option value="smoking_gray">smoking_gray</option>
+	<option value="smoking_white">smoking_white</option>
+	<option value="snake">snake</option>
+	<option value="snow_man">snow_man</option>
+	<option value="snowy">snowy</option>
+	<option value="soda">soda</option>
+	<option value="sodapop">sodapop</option>
+	<option value="soft-gold">soft-gold</option>
+	<option value="spring">spring</option>
+	<option value="starlight">starlight</option>
+	<option value="stripe">stripe</option>
+	<option value="subdued">subdued</option>
+	<option value="summer_wave">summer_wave</option>
+	<option value="sunset">sunset</option>
+	<option value="tag">tag</option>
+	<option value="tdiarynet">tdiarynet</option>
+	<option value="te">te</option>
+	<option value="teacup">teacup</option>
+	<option value="thin">thin</option>
+	<option value="tile">tile</option>
+	<option value="tinybox">tinybox</option>
+	<option value="tinybox_green">tinybox_green</option>
+	<option value="tour-de-hokkaido">tour-de-hokkaido</option>
+	<option value="town">town</option>
+	<option value="treetop">treetop</option>
+	<option value="triple_gray">triple_gray</option>
+	<option value="tuki">tuki</option>
+	<option value="utsusemi">utsusemi</option>
+	<option value="vi">vi</option>
+	<option value="w2k_button">w2k_button</option>
+	<option value="wall1">wall1</option>
+	<option value="wall2">wall2</option>
+	<option value="wall3">wall3</option>
+	<option value="wall4">wall4</option>
+	<option value="wall5_tatami">wall5_tatami</option>
+	<option value="web20">web20</option>
+	<option value="white">white</option>
+	<option value="white-lingerie">white-lingerie</option>
+	<option value="white_flower">white_flower</option>
+	<option value="whiteout">whiteout</option>
+	<option value="widthfix">widthfix</option>
+	<option value="will">will</option>
+	<option value="windowz">windowz</option>
+	<option value="wine">wine</option>
+	<option value="winter">winter</option>
+	<option value="wood">wood</option>
+	<option value="xmastree">xmastree</option>
+	<option value="xxx">xxx</option>
+	<option value="ymck">ymck</option>
+	<option value="yukon">yukon</option>
+	<option value="zef">zef</option>
+</select>
+</div>
+<div class="content">
+<h1>tDiary theme benchmark</h1>
+<div class="main">
+
+<hr class="sep">
+
+
+	
+<div class="day autopagerize_page_element">
+<h2><span class="date">
+<a href="./?date=20110809">2011年08月09日</a>
+</span> 
+<span class="title">この日のタイトルが入ります</span></h2>
+
+<div class="body">
+
+<div class="section">
+
+<h3><a href="./?date=20110809#p01" title="[tag1][tag2] 記事のタイトル(その1)"><span class="sanchor">.</span></a> [<a href="./?year=2011;month=3Q;category=tag1">tag1</a>][<a href="./?year=2011;month=3Q;category=tag2">tag2</a>] 記事のタイトル(その1)</h3>
+<p>本文本文本文本文本文本文本文本文本文本文本文本文。本文本文本文本文本文本文本文本文本文本文本文本文。本文本文本文本文本文本文本文本文本文本文本文本文。本文本文本文本文本文本文本文本文本文本文本文本文。</p>
+<pre>書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま                                              
+書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま                                              
+書いたまま書いたまま書いたまま書いたまま書いたまま
+書いたまま書いたまま書いたまま書いたまま書いたまま書いたまま</pre>
+<p>本文本文本文本文本文本文本文本文本文本文本文本文。<strong>強調強調</strong>。</p>
+<ul>
+<li>リスト1</li>
+<li>リスト2<ul>
+<li>リストリスト21</li>
+<li>リストリスト22</li>
+</ul></li>
+<li>リスト3<ol>
+<li>リストリスト31</li>
+<li>リストリスト32</li>
+</ol></li>
+</ul>
+<blockquote><p>引用引用引用引用引用引用引用引用引用引用引用引用引用引用</p>
+<p>引用引用引用引用引用引用引用引用引用引用引用引用</p>
+</blockquote>
+<p>本文本文本文本文本文本文本文本文本文本文本文本文<span class="footnote"><a name="fm20110809-01-01" href="#f20110809-01-01" title="脚注を指定">*1</a></span>。</p>
+<p>amazonプラグイン(isbn_detail)の表示↓</p>
+<p>	<a class="amazon-detail" href="http://www.amazon.co.jp/Ruby%E3%82%92256%E5%80%8D%E4%BD%BF%E3%81%86%E3%81%9F%E3%82%81%E3%81%AE%E6%9C%AC-%E7%B6%B2%E9%81%93%E7%B7%A8-%E3%81%9F%E3%81%A0-%E3%81%9F%E3%81%A0%E3%81%97/dp/4756138233%3FSubscriptionId%3DAKIAJMISDK2FBSFI3HAQ%26tag%3Dcshs-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4756138233"><span class="amazon-detail">
+		<img class="amazon-detail left" src="http://ecx.images-amazon.com/images/I/51AABD11MSL._SL75_.jpg"
+		height="75" width="53"
+		alt="">
+		<span class="amazon-detail-desc">
+			<span class="amazon-title">Rubyを256倍使うための本 網道編</span><br>
+			<span class="amazon-author">ただ ただし/arton</span><br>
+			<span class="amazon-label">アスキー</span><br>
+			<span class="amazon-price">￥ 1,260</span>
+		</span><br style="clear: left">
+	</span></a>
+</p>
+<div class="footnote">
+	<p class="footnote"><a name="f20110809-01-01" href="#fm20110809-01-01">*1</a>&nbsp;脚注を指定</p>
+</div>
+<div class="socialbuttons"></div>
+</div>
+
+
+</div>
+
+<div class="comment">
+
+		<div class="caption">本日のツッコミ(全1件) [<a href="./?date=20110809#c">ツッコミを入れる</a>]</div>
+		<div class="commentshort">
+				<p><a href="./?date=20110809#c01"><span class="canchor">.</span></a>
+				<span class="commentator">ほげほげ</span>&nbsp;[ここはツッコミです。 ここはツッコミです。 ]</p>
+		</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="referer">
+		
+		</div>
+</div>
+
+	<hr class="sep">
+
+</div>
+<div class="sidebar">
+<div class="sidebar-item">
+<div style="text-align: center">
+	<table class="calendar" summary="calendar">
+<tr>
+ <td class="image" colspan="7"></td>
+</tr>
+<tr>
+ <td class="calendar-prev-month" colspan="2"><a href="./?date=201106">前</a></td>
+ <td class="calendar-current-month" colspan="3"><a href="./?date=201108">2011年<br>8月</a></td>
+ <td class="calendar-next-month" colspan="2">次</td>
+</tr>
+<tr> <td class="calendar-sunday">日</td>
+ <td class="calendar-weekday">月</td>
+ <td class="calendar-weekday">火</td>
+ <td class="calendar-weekday">水</td>
+ <td class="calendar-weekday">木</td>
+ <td class="calendar-weekday">金</td>
+ <td class="calendar-saturday">土</td>
+</tr>
+<tr>
+ <td class="calendar-day"></td>
+ <td class="calendar-day">1</td>
+ <td class="calendar-day">2</td>
+ <td class="calendar-day">3</td>
+ <td class="calendar-day">4</td>
+ <td class="calendar-day">5</td>
+ <td class="calendar-day">6</td>
+</tr>
+<tr>
+ <td class="calendar-day">7</td>
+ <td class="calendar-day">8</td>
+ <td class="calendar-day"><a href="./?date=20110809" title="01. [tag1][tag2] 記事のタイトル(その1)">9</a></td>
+ <td class="calendar-day">10</td>
+ <td class="calendar-day">11</td>
+ <td class="calendar-day">12</td>
+ <td class="calendar-day">13</td>
+</tr>
+<tr>
+ <td class="calendar-day">14</td>
+ <td class="calendar-day">15</td>
+ <td class="calendar-day">16</td>
+ <td class="calendar-day">17</td>
+ <td class="calendar-day">18</td>
+ <td class="calendar-day">19</td>
+ <td class="calendar-day">20</td>
+</tr>
+<tr>
+ <td class="calendar-day">21</td>
+ <td class="calendar-day">22</td>
+ <td class="calendar-day">23</td>
+ <td class="calendar-day">24</td>
+ <td class="calendar-day">25</td>
+ <td class="calendar-day">26</td>
+ <td class="calendar-day">27</td>
+</tr>
+<tr>
+ <td class="calendar-day">28</td>
+ <td class="calendar-day">29</td>
+ <td class="calendar-day">30</td>
+ <td class="calendar-day">31</td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+ <td class="calendar-day"></td>
+</tr>
+</table>
+
+	<form method="get" action="./">
+<div class="calendar">
+<select name="date">
+<option value="201108">2011-08</option>
+<option value="201106">2011-06</option>
+<option value="201105">2011-05</option>
+</select>
+<input type="submit" value="Go">
+</div>
+</form>
+</div>
+</div>
+
+<div class="sidebar-item">
+<h3>最近のツッコミ</h3>
+<ol class="recent-comment">
+<li><a href="./?date=20110809#c01" title="ここはツッコミです。 ここはツッコミです。 ">ほげほげ (08-09)</a></li>
+<li><a href="./?date=20110516#c01" title="test">hoge (05-26)</a></li>
+</ol>
+
+</div>
+
+</div>
+</div>
+<div class="adminmenu">
+<span class="adminmenu"><a href="/">トップ</a></span>
+<span class="adminmenu"><a href="update.cgi" rel="nofollow">追記</a></span>
+</div>
+
+
+
+
+<div class="footer">
+Generated by <a href="http://www.tdiary.org/">tDiary</a> version 3.1.0.20110809<br>
+Powered by <a href="http://www.ruby-lang.org/">Ruby</a> version 1.9.2-p180
+</div>
+</div>
+</body>
+</html>

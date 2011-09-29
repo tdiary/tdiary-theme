@@ -567,3 +567,7 @@ div.profile span {
 	font-size: 0.9em;
 	display: block;
 }
+
+div.socialbuttons {
+	text-align: right;
+}

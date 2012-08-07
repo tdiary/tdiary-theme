@@ -28,7 +28,7 @@ Copyright 2012 (C) Kado Masanori
 */
 
 @import url("css/bootstrap.min.css");
-@import url("css/bootstrap-responsive.mini.css");
+@import url("css/bootstrap-responsive.min.css");
 
 form.update {
     margin-left: 80px;

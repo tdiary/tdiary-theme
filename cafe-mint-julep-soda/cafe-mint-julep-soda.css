@@ -1,0 +1,695 @@
+@charset "utf-8";
+/*
+Title: Cafe mint julep soda
+Revision: $Revision: 0.1 $
+Author: Kuniaki IGARASHI
+Access: http://igarashikuniaki.net/diary/
+License: GPL
+Comment: Cafe theme. This use the Gustav theme as a reference.
+
+Copyright 2012 (C) Kuniaki IGARASHI
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+リンク文字列に関する設定
+*/
+a:link {
+	background-color: transparent;
+	color: #3b7960;
+	text-decoration: none;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #3b7960;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+  color: #222;
+	background-image: url(cafe-mint-julep-soda-back.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+div.whole-content {
+	text-align: left;
+	margin: 0px auto;
+	max-width: 882px;
+}
+
+div.adminmenu {
+	text-align: right;
+	color: balck;
+	background-color: #d3cbc6;
+	filter: alpha(opacity=60);
+	opacity:0.60;
+	padding: 4px;
+	clear: both;
+}
+
+/*
+ for insert dropdown calendar into adminmenu
+ */
+div.adminmenu div,
+div.adminmenu form,
+div.adminmenu select {
+	display: inline;
+}
+
+span.adminmenu,
+div.adminmenu form {
+	font-size: 80%;
+	background-color: #d3cbc6;
+	color: black;
+	filter: alpha(opacity=100);
+	opacity:1.00;
+	padding-left: 0.5em;
+}
+
+span.adminmenu a,
+span.adminmenu a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*
+日記タイトルの設定
+*/
+h1 {
+	padding-top: 188px;
+	padding-bottom: 40px;
+	padding-left: 12px;
+	color: #fff;
+	background-color: transparent;
+	text-align: left;
+}
+
+h1 a, h1 a:visited, h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.main {
+	float: left;
+	max-width: 680px;
+}
+
+div.day {
+	line-height: 150%;
+	border-radius: 8px;
+	color: #000;
+	background-color: #fbfaf5; /* 本文の背景 */
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+}
+
+div.day h2 {
+	text-align: left;
+	font-size: small;
+	background-color: #c1d8ac; /* タイトルの背景*/
+	border-radius: 8px 8px 0px 0px;
+	padding: 8px;
+	padding-left: 10px;
+}
+div.day h2 a,
+div.day h2 a:visited,
+div.day h2 a:hover {
+	text-decoration :none;
+}
+
+div.body,
+div.comment,
+div.day div.form,
+div.referer,
+div.refererlist {
+	margin: 16px;
+}
+
+div.section {
+	margin-top: 30px;
+}
+
+div.section h3 {
+	margin-bottom: 1em;
+	margin-left: 16px;
+	text-indent: -16px;
+}
+
+div.section h3 a,
+div.section h3 a:visited,
+div.section h3 a:hover {
+	text-decoration :none;
+}
+
+.sanchor {
+	color: #ede4cd;
+	background-color: #ede4cd;
+	padding-right: 0.5em;
+	height: 1px;
+	width: 1px;
+}
+
+div.section h4 {
+	margin-top: 2em;
+	margin-left: 10px;
+	margin-bottom: 1em;
+	clear: both;
+}
+
+div.section p {
+	margin: 1em 0px 1em 10px;
+}
+
+div.section pre {
+	margin: 1em 10px 1em 30px;
+	padding: 8px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+div.section blockquote {
+	margin: 1em 10px 1em 30px;
+	padding: 2px 10px;
+	background-color: #fff;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #555;
+}
+
+div.section ul,
+div.section ol {
+	margin-left: 50px;
+}
+
+div.section dl {
+	margin: 1em 0px 1em 30px;
+}
+
+div.section dt {
+	float: left;
+	clear: left;
+	font-weight: bold;
+	width: 5em;
+}
+
+div.section dd {
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+div.section table {
+	margin: 1em 0px 1em 30px;
+	width: 90%;
+	border-top: 1px solid #444;
+	border-left: 1px solid #444;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: #fff;
+	empty-cells: show;
+}
+
+div.section th {
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	color: #fff;
+	background-color: #555;
+	padding: 0.3em 0.5em;
+	text-align: left;
+}
+
+div.section td {
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	padding: 0.3em 1em;
+}
+
+div.section img {
+	border-style: solid;
+	border-color: #c1d8ac;
+	border-width: 1px;
+}
+
+div.section img.right, img.amazon {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+div.section img.left {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.section img.photo {
+	display: block;
+	float: none;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+div.section div.footnote {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+div.section hr {
+	border-style: outset;
+	width: 80%;
+	color: #555;
+	margin: 3em auto 3em 10%;
+}
+
+a.amazon-detail,
+a.amazon-detail:visited,
+a.amazon-detail:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+span.amazon-detail {
+	display: block;
+	margin: 1em 10px 1em 30px;
+	border-radius: 8px;
+	background-color: #fff;
+	padding: 8px;
+}
+
+img.amazon-detail {
+	float: left !important;
+	margin-right: 10px !important;
+	border: none !important;
+}
+
+span.amazon-detail-desc {
+	display: block;
+	overflow: auto;
+}
+
+div.sequel {
+	font-size: small;
+	text-align: right;
+}
+
+div.profile {
+	text-align: center;
+	border: none;
+	width: 70%;
+	margin: 0px auto;
+}
+
+div.profile a {
+	color: #000;
+}
+
+div.profile img {
+	border: none;
+}
+
+div.profile span {
+	display: block;
+}
+
+div.profile span.profile-name {
+	font-weight: bold;
+}
+
+div.profile span.profile-description {
+	text-align: left;
+}
+
+div.section div.everytrail {
+	text-align: center;
+}
+
+div.section object.youtube {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+div.section object.ustream {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+form.search div {
+	width: 100%;
+}
+
+form.search input.text {
+	font-size: medium;
+	width: 160px;
+	max-width: 80%;
+}
+
+form.search input.button {
+	width: 32px;
+}
+
+div.commentbody .commentator {
+	margin-top: 10px;
+}
+
+div.comment .caption,
+div.refererlist .caption,
+div.day div.form .caption {
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+div.comment .caption a {
+	font-weight: normal;
+}
+
+div.comment a,
+div.comment a:visited,
+div.comment a:hover {
+	text-decoration :none;
+}
+
+.canchor {
+	color: #c1d8ac;
+	background-color: #c1d8ac;
+	padding-right: 0.5em;
+	height: 1px;
+	width: 1px;
+}
+
+div.commentbody p {
+	margin-left: 10px;
+}
+
+div.day div.form div.title input {
+	display: block;
+}
+
+div.day div.form div {
+	margin-bottom: 10px;
+}
+
+div.day div.form div.name {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+div.day div.form div.name input {
+	width: 100%;
+}
+
+div.day div.form div.mail {
+	overflow: auto;
+}
+div.day div.form div.mail input {
+	width: 98%;
+}
+
+div.day div.form div.textarea {
+	width: 100%;
+	clear: left;
+}
+div.day div.form div.textarea textarea {
+	width: 100%;
+}
+
+div.day div.form input,
+div.day div.form textarea {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 8px;
+}
+
+div.day div.form .button input {
+	display: inline;
+	padding: 8px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+div.day div.form .button {
+	text-align: right;
+}
+
+div.refererlist ul,
+div.refererlist li {
+	margin-left: 20px;
+}
+
+div.sidebar {
+	overflow: auto;
+	zoom: 1;
+}
+
+div.sidebar-item {
+	border-radius: 8px;
+	color: #000;
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 90%;
+}
+
+div.sidebar-item h3 {
+	font-size: small;
+	background-color: #aaa;
+	border-radius: 8px 8px 0px 0px;
+	padding: 10px;
+	padding-bottom: 8px;
+	margin: -10px -10px 10px -10px;
+}
+
+div.sidebar-item ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+div.sidebar-item a,
+div.sidebar-item a:visited,
+div.sidebar-item a:hover {
+	text-decoration: none;
+}
+
+div.sidebar-item img.amazon {
+	display: none;
+}
+
+div.footer {
+	margin-top: 10px;
+	clear: both;
+	color: #AAA;
+	font-size: small;
+	text-align: right;
+}
+div.footer a,
+div.footer a:visited,
+div.footer a:hover {
+	color: #338A39;
+}
+
+body.update {
+	background-image: none;
+	background-color: #FFF;
+}
+
+body.update h1 {
+	display: table-cell;
+	vertical-align: middle;
+	height: 80px;
+	padding: 0px;
+	padding-left: 280px;
+	color: #3b7960;
+	background-image: url(cafe-mint-julep-soda-update.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	text-align: left;
+}
+
+body.update div.autopagerize_page_element {
+	max-width: 900px;
+	margin: 10px auto 10px auto;
+	text-align: left;
+}
+
+div.update {
+	text-align: left;
+	margin: 10px auto 0px auto;
+	max-width: 900px;
+}
+
+div.update div.caption {
+	font-size: large;
+	padding-top: 10px;
+}
+
+div.update h3.subtitle {
+	font-size: medium;
+}
+
+span.year input,
+span.month input,
+span.day input {
+	text-align: center;
+}
+
+form.update div.title {
+	margin-top: 10px;
+}
+form.update div.title input {
+	padding-left: 10px;
+	width: 100%;
+}
+
+div.update div.form .button input {
+	padding: 2px;
+}
+
+p.message {
+	color: #fff;
+	background-color: #800;
+	width: 100%;
+	margin: 0px auto;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+dl.search-result dt {
+	margin-top: 1em;
+}
+
+dl.search-result dd {
+	margin-left: 2em;
+}
+
+div.search-navi {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+div.category {
+	text-align: left;
+	margin: 0px auto;
+	width: 900px;
+}
+
+div.category ul {
+	list-style-type: none;
+}
+
+/*
+カレンダーの設定
+*/
+/* rainy-season
+div.calendar {
+	text-align: right;
+	letter-spacing: 0.08em;
+	background-color: #fff;
+	color: #222;
+	padding: 2px;
+	margin-top: -1em;
+	margin-bottom: 0.5em;
+	line-height: 110%;
+	font-size: 90%;
+}
+
+div.calendar div.year {
+}
+*/
+
+
+/*
+ design for iPhone and other smart phones
+ */
+@media screen and (max-device-width: 480px) {
+	body {
+		background-image: url(cafe-mint-julep-soda-back-iphone.jpg);
+		background-position: left top;
+	}
+
+	div.adminmenu {
+		font-size: x-small;
+		margin: 0px;
+		width: 100%;
+	}
+
+	h1 {
+		padding-top: 80px;
+		height: 50px;
+	}
+
+	div.whole-content {
+		width: 100%;
+	}
+
+	div.main {
+		width: 100%;
+	}
+
+	div.day {
+		margin-right: 0px;
+		width: 100%;
+	}
+	div.day h2 {
+		background-color: transparent;
+	}
+
+	div.section h3 {
+		margin-left: 0px;
+		text-indent: 0px;
+	}
+
+	div.section img.left,
+	div.section img.right,
+	div.section img.photo {
+		display: block;
+		float: none;
+		margin: 10px auto;
+		max-width: 300px !important;
+	}
+
+	div.section img.amazon {
+		max-width: 150px !important;
+	}
+
+	body.update h1 {
+		background-image: none;
+		height: auto;
+		display: block;
+		padding: 0px;
+	}
+
+	body.update div.autopagerize_page_element {
+		width: 100%;
+	}
+
+	div.update {
+		width: 100%;
+	}
+
+	textarea {
+		font-size: 110%;
+	}
+}
+

@@ -1,0 +1,254 @@
+@charset "utf-8";
+/*
+conf.css: style sheet of tDiary preferences page. $Revision: 1.11 $
+Copyright (C) 2005 TADA Tadashi <sho@spc.gr.jp>
+You can redistribute it and/or modify it under GPL2.
+*/
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	background-color: #fff;
+	color: #000;
+	margin: 2px 0px 2px 16px;
+}
+
+a:link {
+	background-color: transparent;
+	color: #92B392;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #A8B392;
+}
+
+div.alert-warn {
+	background-color: #faa;
+	border-style: solid;
+	border-color: #f88;
+	border-width: 1px;
+	border-radius: 8px;
+	padding: 4px 8px;
+	margin: 1em auto;
+	width: 80%;
+	zoom: 100%;
+}
+
+.action-button {
+	float: right;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 1px;
+	border-radius: 8px;
+	padding: 0px 4px;
+	color: #000;
+}
+.action-button:hover {
+	background-color: #f88;
+	border-style: solid;
+	border-color: #f55;
+	border-width: 1px;
+	border-radius: 8px;
+	padding: 0px 4px;
+}
+.action-button:link,
+.action-button:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+div.alert-warn:after {
+	content: "";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+div.adminmenu {
+	font-size: 80%;
+	margin: 3px 0px 3px 0px;
+	text-align: right;
+	font-weight: bold;
+}
+
+div.adminmenu a {
+	text-decoration: none;
+}
+
+span.adminmenu {
+	background-color: #fff;
+	color: #000;
+	padding: 2px;
+}
+
+div.body {
+	margin: 0px;
+}
+
+form.conf {
+	background-color: transparent;
+	color: #000;
+	margin: 0em 2em 2em 250px;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+h3 {
+	margin: 0em;
+	font-size: medium;
+	font-weight: bold;
+}
+
+h4 {
+	margin: 1em;
+	font-size: medium;
+	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+h5 {
+	margin: 2em;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+div.day span.sanchor {
+	font-size: 70%;
+	margin-right: 0.5em;
+	text-decoration: none;
+}
+
+form.conf p {
+	line-height: 150%;
+	margin: 0px 1em 0.7em 1em;
+}
+
+form.conf pre {
+	line-height: 150%;
+	margin: 0px 1em 0.7em 3em;
+}
+
+form.conf ul {
+}
+
+form.conf li {
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+
+form.conf dl {
+	margin-left: 2em;
+}
+
+form.conf dd {
+	margin-bottom: 1em;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	background-color: #d00;
+	color: #fff;
+	padding: 8px;
+}
+
+div.section {
+	clear: none;
+}
+
+div.saveconf {
+	text-align: right;
+	margin-right: 2em;
+}
+
+input.saveconf {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+div.footer {
+	display: none;
+}
+
+div.sidebar {
+	font-size: 90%;
+	background-color: transparent;
+	color: #000;
+	float: left;
+	width: 250px;
+	padding: 0px;
+}
+
+div.sidebar div.block {
+	background-color: #d0ffd0;
+	border-radius: 8px;
+	margin: 0px 1em 1em 16px;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+div.sidebar h3 {
+	background-color: transparent;
+	color: #32c832;
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
+
+div.sidebar a:link,
+div.sidebar a:visited,
+div.sidebar a:hover,
+div.footer a:link,
+div.footer a:visited,
+div.footer a:hover 
+{
+	background-color: transparent;
+	color: #000;
+	text-decoration: none;
+}
+
+div.sidebar ul {
+	background-color: #d0ffd0;
+	color: #000;
+	list-style-type: none;
+}
+
+div.sidebar li {
+	padding: 2px 4px;
+	margin-bottom: 0.2em;
+}
+
+div.sidebar li.selected {
+	background-color: #32c832;
+	border-radius: 4px;
+}
+
+div.sidebar li.other {
+	background-color: transparent;
+}
+
+img#theme_thumbnail {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+span.help-icon {
+	margin-left: 0.5em;
+}
+
+span.help-icon img {
+	border-width: 0px;
+}

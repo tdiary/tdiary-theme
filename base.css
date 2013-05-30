@@ -1,0 +1,268 @@
+/*
+shared style sheet for tDiary.
+
+Copyright (C) 2001-2005, TADA Tadashi <sho@spc.gr.jp>
+You can redistribute it and/or modify it under GPL2.
+*/
+
+/*
+for error / warning messages
+*/
+p.message, span.message {
+	background-color: #d00;
+	color: #fff;
+	padding: 8px;
+	font-size: large;
+}
+p.message {
+	text-align: center;
+}
+
+/*
+nyear
+*/
+h2 span.nyear {
+	font-size: small;
+}
+
+/* 
+calendar2 plugin
+*/
+table.calendar {
+	font-size: 90%;
+	line-height: 1.1em;
+}
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+}
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/*
+footnote plugin
+*/
+div.body span.footnote {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+div.day div.footnote {
+	font-size: small;
+	clear: both;
+}
+
+p.footnote {
+	margin: 0.5em;
+	padding: 0em;
+}
+
+/*
+quoted source
+*/
+p.source{
+	margin-right: 1.5em;
+	text-align: right;
+	font-size:90%;
+	font-style: italic;
+}
+
+div.section,
+div.comment,
+div.day div.tags,
+div.day div.sequel {
+	clear: both;
+}
+
+/*
+amazon plugin
+*/
+a.amazon-detail,
+a.amazon-detail:visited,
+a.amazon-detail:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+span.amazon-detail {
+	display: block;
+	margin: 0px;
+	padding: 4px;
+	background-color: #fff;
+	border: solid 1px #ddd;
+}
+
+img.amazon-detail {
+	margin-top: 0px;
+}
+
+span.amazon-detail-desc {
+	display: block;
+	overflow: auto;
+	zoom: 1;
+}
+
+span.amazon-title {
+	font-weight: bold;
+}
+
+span.amazon-author {
+	font-size: 90%;
+}
+
+span.amazon-label, span.amazon-price {
+	font-size: 80%;
+}
+
+/*
+image plugin
+*/
+img.left {
+	float: left;
+	margin: 0.5em;
+	margin-top: 0px;
+}
+
+img.right, img.amazon {
+	float: right;
+	margin: 0.5em;
+	margin-top: 0px;
+}
+
+img.photo {
+	float: right;
+	margin: 0.5em;
+}
+
+/*
+calendar3 plugin
+*/
+.calendar-popup {
+	display: none;
+	text-align: left;
+	position: absolute;
+	padding: 0 1ex 0 1ex;
+	background-color: #fff;
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.calendar-sunday {
+	color: #f00;
+}
+
+.calendar-saturday {
+	color: #00f;
+}
+
+.calendar-weekday {
+	color: #000;
+}
+
+.calendar-normal {
+}
+
+.calendar-day {
+}
+
+.calendar-todo {
+	border-style: solid;
+	border-color: #f00;
+	border-width: 1px;
+}
+
+/*
+highlight plugin
+*/
+.highlight {
+	color: #000;
+	background: #ffff66;
+}
+
+/*
+calendar2 plugin
+*/
+td.calendar-day img {
+	width: 25px;
+	height: 25px;
+	border: 0;
+}
+
+/*
+sidebar lists
+*/
+div.sidebar h3 {
+	font-size: medium;
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+}
+
+div.sidebar ul {
+	margin-top: 0.1em;
+	margin-bottom: 0.5em;
+	margin-left: 1.5em;
+	padding-left: 0em;
+}
+div.sidebar ol {
+	margin-top: 0.1em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+	padding-left: 0em;
+}
+div.sidebar ul ul, div.sidebar ol ul {
+	margin-left: 1em;
+}
+
+ul.recent-list-item {
+	list-style-type: none;
+}
+
+/*
+category_to_tag plugin
+*/
+div.day div.tags {
+	font-size: 80%;
+	text-align: right;
+}
+
+/*
+recent_list plugin (obsolute)
+*/
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/*
+edit-today plugin
+*/
+h2 span.edit-today {
+	font-size: small;
+}
+
+/*
+profile plugin
+*/
+div.profile {
+	margin: 1em;
+	text-align: center;
+	border: solid 1px #999;
+}
+div.profile img {
+	border: none;
+}
+div.profile span {
+	font-size: 0.9em;
+	display: block;
+}

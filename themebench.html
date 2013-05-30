@@ -9,7 +9,7 @@
 	<script type="text/javascript"><!--
 		var theme = 'default';
 		if(location.search.match(/theme=(.*)/)){ theme = RegExp.$1; }
-		$('head').append('<link rel="stylesheet" href="theme/' + theme + '/' + theme + '.css" title="' + theme + '" type="text/css" media="all">');
+		$('head').append('<link rel="stylesheet" href="/' + theme + '/' + theme + '.css" title="' + theme + '" type="text/css" media="all">');
 		$(function(){
 			$('#theme-list option[value=' + theme + ']').attr('selected', 'true');
 			$('#theme-list').change(function(){
@@ -18,7 +18,7 @@
 		});
 	//--></script>
 	<meta http-equiv="content-style-type" content="text/css">
-	<link rel="stylesheet" href="theme/base.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/base.css" type="text/css" media="all">
 	<title>tDiary theme benchmark</title>
 </head>
 <body>

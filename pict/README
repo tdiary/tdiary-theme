@@ -1,9 +1,9 @@
 Title: Pict!!
 Author: 186
-Access: http://d.hatena.ne.jp/smoking186/
-	  http://186.bz/
+Access: http://d.hatena.ne.jp/smoking186/ http://186.bz/
 License: GPL
 Comment: Pict!!
+
 	IEは互換モード用です。Gecko,Opera等は標準モード用になっています。
 	IEに標準モードで読み込ませる場合は、挙動を確認しながら * htmlで始まる指定を削って下さい。
 

@@ -17,4 +17,4 @@ Dir.glob('*/README') do |readme|
 	end
 	themes[theme] = attrs
 end
-print({}.tap{|h| h['themes'] = themes}.to_json)
+print(JSON.pretty_generate({}.tap{|h| h['themes'] = themes}))

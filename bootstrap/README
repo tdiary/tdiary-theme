@@ -1,0 +1,27 @@
+Title: twitter-bootstrap theme
+Author: Kado Masanori
+License: GPL v3
+Comment: setting example:
+
+	HEADER:
+	<%= bootstrap_navi %> <!-- use bootstrap-navi.rb plugin -->
+	<div class="container-fluid"> <!-- or "container" for fixed layout -->
+	
+	  <div class="hero-unit">
+	    <h1>ほげほげ日記</h1>
+	  </div>
+	
+	  <div class="row-fluid"> <!-- or "row" for fixed layout-->
+	    <div class="span8">
+	
+	FOOTER:
+	    </div><!-- /.span8 -->
+	    <div class="span4">
+	    ....
+	    </div><!--/.span4 -->
+	  </div><!--/.row-fluid -->
+	  ...
+	</div><!--/container-fluid -->
+
+Copyright 2012 (C) Kado Masanori
+

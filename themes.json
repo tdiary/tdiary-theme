@@ -1,1 +1,2419 @@
-{"themes":{"windowz":{"title":"Windowz","author":"NT","access":"nt@24i.net","license":"GPL","comment":"某 OS 風のテーマ"},"midnight":{"title":"真夜中","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL"},"digital_gadgets":{"title":"Digital Gadgets","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"Panasonic CF-R3F, iPod shuffle, PalmOne Tungsten|E, au W31SA, CONTAX SL300R T*"},"kotatsu":{"title":"こたつ","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"こたつの中で本を読む感じ(←読むな)"},"utsusemi":{"title":"utsusemi","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"halloween":{"title":"Halloween","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"ハロウィン"},"simpleblack":{"title":"SimpleBlack","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"思いっきりシンプル"},"hatena-lime":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"nande-ya-nen":{"title":"なんでやねん","author":"Junichiro KITA","access":"kita@kitaj.no-ip.com","license":"GPL","comment":"「今日のなんでやねん」のテーマ"},"marguerite":{"title":"marguerite","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"treetop":{"title":"Treetop","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL"},"zef":{"title":"zef","author":"id:clock9","access":"http://d.hatena.ne.jp/clock9/","license":"GPL","comment":""},"rim-tanpopoiro":{"title":"rim-tanpopoiro","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"green-border":{"title":"Green-border","author":"Nana <clorets@estyle.ne.jp>","comment":"カエルくんなテーマ","license":"GPL"},"pinkgrad":{"title":"Pinkgrad","revision":"","author":"Nana","access":"http://mikan.sakura.ne.jp/~mpc","license":"GPL","comment":"ピンクなグラデーション"},"ginkgo":{"title":"銀杏","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","comment":"黄葉したイチョウの葉","license":"GPL"},"city":{"title":"city","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"madrascheck":{"title":"Madras check","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"Madras check"},"lr":{"title":"LR","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"desert":{"title":"砂漠","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL"},"check":{"title":"Check","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL"},"fine":{"title":"Fine","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"triple_gray":{"title":"トリプルグレー","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"グレーのストライプ、いたってシンプルなテーマ"},"aqua":{"title":"aqua","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":""},"gingham-yellow":{"title":"gingham-yellow","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"hatena-sepia":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"pudding":{"title":"pudding","author":"oyuu","access":"oyuu@mocha.freemail.ne.jp","license":"GPL","comment":"プリン色のテーマ"},"90":{"title":"90","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"gingham-purple":{"title":"gingham-purple","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"tile":{"title":"tile","author":"kosaka","access":"http://tnat.net/diary/","license":"GPL"},"jungler":{"title":"jungler","author":"id:clock9","access":"http://cque.mine.nu/","license":"GPL","comment":""},"leafgreen":{"title":"Leaf Green","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"春"},"widthfix":{"title":"Width Fix","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"固定幅中央寄せ"},"christmas":{"title":"christmas","revision":"$Revision: 1.4 $","author":"shimery","access":"shim@s5.xrea.com","license":"GPL","comment":"クリスマス限定。"},"cherry_blossom":{"title":"お花見","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"2005年、等々力緑地の桜"},"moo":{"title":"Moo","author":"Nana","access":"clorets@estyle.ne.jp","comment":"牛柄","license":"GPL"},"rim-fujiiro":{"title":"rim-fujiiro","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"mt_fuji":{"title":"Mt.Fuji","revision":"$Revision: 1.3 $","author":"ただただし","access":"http://sho.tdiary.net/","license":"GPL","comment":"富士山、四季折々。右サイドバーのための習作"},"tinybox":{"title":"tinybox","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"小方体"},"hazakura":{"title":"hazakura","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"hatena-darkgray":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"gardenia":{"title":"Gardenia","author":"oyuu","access":"http://landscape.tdiary.net/","license":"GPL","comment":"クチナシ(Gardenia jasminoides Ellis) アカネ科"},"hatena-red":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"3pink":{"title":"3pink","revision":"$Revision: 1.2 $","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"3minutesのpink。"},"blue-feather":{"title":"bulu-feather","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":""},"hatena-orange":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"mirage":{"title":"mirage","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"right":{"title":"Right","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"全体がやや右寄せ"},"savanna":{"title":"savanna","author":"abbey","access":"inlet@sd6.so-net.ne.jp","license":"GPL","comment":"なんとなくサバンナ(zoeさん命名)"},"mixi":{"title":"mixi","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"mixi"},"nachtmusik":{"title":"Nacht Musik","author":"epi","access":"http://wind.prohosting.com/~episodee/","license":"GPL","comment":"夜のお共に"},"rim-sakurairo":{"title":"rim-sakurairo","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"nenga":{"title":"nenga","author":"peco","access":"<http://pe.cot.jp/tdiary/>","license":"GPL","comment":"年賀ハガキアンカー"},"sky":{"title":"Sky","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"おお青い空白い雲"},"rim-wakabairo":{"title":"rim-wakabairo","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"town":{"title":"town","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"asterisk-blue":{"title":"asterisk-blue","revision":"1.3","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"見出しにアステリスク（＊）が入るテーマ。色はブルー。"},"britannian":{"title":"Britannian","revision":"$Revision: 1.1 $","author":"みーしぇる（ Meeshel ）","access":"blackhat_darklight@hotmail.com","license":"GPL"},"bluegrad":{"title":"Bluegrad","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"青グラデーションの背景"},"chiffon_pink":{"title":"chiffon_pink","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"loose-leaf":{"title":"loose-leaf","revision":"$Revision: 1.2 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"ルーズリーフとエンピツ(ナンバリングアンカー対応)"},"brown":{"title":"Brown","author":"oyuu","access":"<http://landscape.tdiary.net/>","license":"GPL","comment":"秋冬向け"},"rainy-season":{"title":"rainy-season","revision":"$Revision: 1.2 $","author":"naoko","access":"naoko@undefine.to","license":"GPL","comment":"梅雨の季節をイメージしました。"},"orangegrad":{"title":"Orangegrad","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"オレンジなグラデーション"},"winter":{"title":"Winter","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"冬の風景写真を使ったテーマ"},"matcha":{"title":"Matcha","revision":"$Revision: 1.3 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"抹茶いろ"},"hatena-black":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"arrow":{"title":"arrow","author":"epi","access":"<http://330mg.bufferin.jp/diary/>","license":"GPL","comment":"キャッチーなテーマ"},"sodapop":{"title":"Sodapop","author":"kadu","access":"http://www.bb.wakwak.com/~akk/kadu/","comment":"blockquote,footnote,recent_list plugin対応","license":"GPL"},"paper":{"title":"張り紙","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"ただの張り紙。ナンバリングアンカープラグイン対応"},"xmastree":{"title":"Xmastree","author":"ati","access":"http://member.nifty.ne.jp/ati","license":"GPL","comment":"Xmasな季節に"},"cool_ice":{"title":"クールアイス","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"夏向きのシンプルで涼しげなテーマ"},"autumn":{"title":"Autumn","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"秋色をイメージして見たのだけれども、あんまりそれっぽくなし。色彩感覚が鈍いんだろなあ、きっと。"},"diamond_dust":{"title":"Diamond_dust","revision":"$Revision: 1.6 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"冬っぽく"},"bluely":{"title":"bluely","revision":"$Revision: 1.1 $","author":"epi","access":"http://330mg.bufferin.jp/diary/","license":"GPL","comment":"青いみたい．"},"emboss":{"title":"emboss","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"soft-gold":{"title":"Soft Gold","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"やわい金色"},"tour-de-hokkaido":{"title":"tour-de-hokkaido","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"bistro_menu":{"title":"bistro_menu","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"レストランのメニューのようなテーマ"},"glass_pink":{"title":"Glass Pink","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"line":{"title":"Line","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"hatena-brown":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"3minutes":{"title":"3minutes","revision":"$Revision: 1.2 $","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"３分で作ったテーマ。"},"easy":{"title":"Easy","author":"abbey","access":"http://cello.no-ip.org/","license":"GPL","comment":"お気楽に作成したテーマ"},"fri":{"title":"Friday","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"curtain":{"title":"カーテン","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL"},"monotone":{"title":"monotone","author":"epi","access":"episode@104.net","license":"GPL","comment":"モノトーンっていうのかこういうのを"},"black-blue":{"title":"Black-Blue","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"黒バック青文字"},"manuscript-green":{"title":"manuscript","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"原稿用紙風のスタイル。半角英数が入ると位置が合わなくなるのは仕様です。"},"s-pink":{"title":"S-PINK","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"淡いピンクベースのシンプル系"},"cherry_blossom_r":{"title":"お花見(右サイドバー版)","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"2005年、等々力緑地の桜。cherry_blossomを右サイドバーにしたもの"},"maroon":{"title":"マルーン","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"秋の枯れ葉のテーマ"},"mixi-green":{"title":"mixi-green","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"緑のmixi"},"narrow":{"title":"Narrow","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"lime":{"title":"Lime","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"ocha":{"title":"Ocha","author":"Nana","access":"<http://moo.boo.jp>","license":"GPL","comment":"なんとなくお茶色なテーマ"},"glass_orange":{"title":"Glass Orange","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"silver2":{"title":"Silver2","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"銀色っぽいテーマ。"},"green-tea":{"title":"green-tea","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"hatena-white":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"russet":{"title":"russet","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"note":{"title":"Note","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"罫線有り"},"smoking_gray":{"title":"smoking_gray","author":"186","access":"http://d.hatena.ne.jp/smoking186/ http://186.bz/","license":"GPL","comment":"色の交錯を楽しむcss"},"giza":{"title":"ギザギザ","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"fluxbox2":{"title":"fluxbox2","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"mizu":{"title":"水","revision":"$Revision: 1.2 $","author":"NOB ","access":"nob@ivyvalley.net","license":"GPL","comment":"水の涼しいイメージで作りました。"},"white-lingerie":{"title":"White Lingerie","author":"Sarsya","access":"none","license":"GPL","comment":"白いランジェリーのテーマ"},"nahanaha":{"title":"Nahanaha","author":"furu","access":"http://nahanaha.zive.net/","license":"GPL"},"yukon":{"title":"Yukon","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"想い出のユーコン"},"wall2":{"title":"wall2","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"whiteout":{"title":"Whiteout","author":"NT","access":"nt@24i.net","license":"GPL","comment":"タイトルしか見えないテーマ"},"mini-p":{"title":"mini-p","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"tdiarynet":{"title":"tDiary.Net 2nd edition","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL"},"garden":{"title":"Garden","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"support calender2,recent_list"},"colorlabel":{"title":"colorlabel","revision":"1.1","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"サイドバーを付箋（ラベル）に見立てたテーマ。はてなモジュールごとに色を割り当てました。"},"rectangle":{"title":"Rectangle","revision":"$Revision: 1.3 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"なんとなく■責め"},"momonga":{"title":"momonga","author":"ずんだあん かずひこ","access":"zunda@momonga-linux.org kazuhiko@fdiary.net","license":"GPL","comment":"mo?"},"mintblue":{"title":"Mintblue","author":"epi","access":"<http://330mg.bufferin.jp/diary/>","license":"GPL","comment":"なんとなく青っぽい感じ。"},"tag":{"title":"Tag","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"付箋紙が貼り付けられたようなテーマ"},"sleepy_kitten":{"title":"Sleepy Kitten","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL"},"query111or":{"title":"query111or","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"ymck":{"title":"ymck","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"asterisk-maroon":{"title":"asterisk-maroon","revision":"1.3","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"見出しにアステリスク（＊）が入るテーマ。色は栗色。"},"gold":{"title":"gold","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"なんとなくゴールドっぽいテーマ "},"cat":{"title":"Cat","revision":"$Revision: 1.7 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"ねこ雲に乗るノーマル版"},"double":{"title":"Double","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"二重枠多用のシンプル系"},"earth-brown":{"title":"Earth-Brown","author":"Nana","license":"GPL","comment":"アースからー茶"},"alfa":{"title":"alfa","author":"abbey","access":"inlet@cello.no-ip.org","license":"GPL","comment":"Theme of the alfista."},"hatena-lightblue":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"pastelpink":{"title":"pastelpink","author":"abbey","access":"inlet@cello.no-ip.org","license":"GPL","comment":"パステルピンク"},"artnouveau-red":{"title":"ArtNouveau","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"},"dot-pink":{"title":"dot","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"角を意識しない水玉パターンです。"},"hatena":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"black_mamba":{"title":"black_mamba","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"query101":{"title":"query101","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"glass_green":{"title":"Glass Green","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"hellali":{"title":"Hellali","author":"NT","access":"nt@24i.net","license":"GPL","comment":"情熱の赤"},"black-green":{"title":"Black-Green","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"黒バック緑文字"},"xxx":{"title":"XXX","author":"Nana","access":"http://orange.sakura.ne.jp/~mpc/d/","license":"GPL","comment":"X'masっぽく"},"fluxbox":{"title":"fluxbox","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"pale":{"title":"Pale","revision":"$Revision: 1.3 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"春向けな淡い色"},"puppy":{"title":"Puppy","revision":"$Revision: 1.2 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"仔犬"},"aoikuruma":{"title":"Aoikuruma","revision":"$Revision: 1.3 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"青い車♪READMEもお読み下さい。"},"gingham-blue":{"title":"gingham-blue","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"lovely_pink":{"title":"lovely_pink.","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"ハートだらけなテーマ"},"bill":{"title":"Bill","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"hatena-pink":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"smoking_white":{"title":"smoking_white","author":"186（一服中）","access":"http://d.hatena.ne.jp/smoking186/ http://smoking186.rocket3.net/","license":"GPL","comment":"span.aaが何故かある。 何故か印刷用のcssもある。 NN4.xでも大体見られるらしい。"},"wine":{"title":"Wine","author":"Nana","access":"http://moo.boo.jp","licence":"GPL","comment":"ワイン色","copyright 2002 (c) by nana":null,"\tvalidated by w3c.":null},"manuscript-brown":{"title":"manuscript","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"原稿用紙風のスタイル。半角英数が入ると位置が合わなくなるのは仕様です。"},"mixi-pink":{"title":"mixi-pink","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"桃mixi"},"cross":{"title":"Cross","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"十字の線を基調としたシンプルなテーマ"},"kaeru":{"title":"Kaeru","revision":"$Revision: 1.3 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"カエラー(梅雨時も楽しく)"},"hatena-tea":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"sakana":{"title":"Sakana","author":"Nana","access":"http://moo.boo.jp","comment":"涼しげな魚のイメージ","license":"GPL"},"flower":{"title":"Flower","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":"青い花の写真をさりげなく。"},"dog":{"title":"dog","author":"peco","access":"<http://pe.cot.jp/tdiary/>","license":"GPL","comment":"犬アンカー"},"green_leaves":{"title":"Green Leaves","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","comment":"アジサイの葉","license":"GPL"},"lcd":{"title":"LCD","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"i-Tunes"},"chiffon_leafgreen":{"title":"chiffon_leafgreen","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"shirakaba":{"title":"白樺","revision":"$Revision: 1.1 $","author":"ただただし","access":"http://sho.tdiary.net/","license":"GPL","comment":"2005年冬、冬季閉鎖直前の麦草峠にて"},"cosmos":{"title":"小宇宙","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"コスモを燃やすべし"},"gear":{"title":"Gear","revision":"$Revision: 1.4 $","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"歯車"},"redgrid":{"title":"redgrid","author":"ナカガキ","access":"http://d.hatena.ne.jp/calmzone/ http://park18.wakwak.com/~calmzone/","license":"GPL","comment":"独自クラスのSPAN.spoilerを用意しました。<SPAN CLASS=\"spoiler\"></SPAN>で文字を囲むと、文字と背景が同色になり、ネタばれ防止等に使えます。"},"wall3":{"title":"wall3","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"petith-b":{"title":"Petith Black","author":"Nana","access":"http://moo.boo.jp","comment":"Petithの黒バック版","license":"GPL"},"soda":{"title":"soda","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"petith":{"title":"Petith","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"小さなハートの枠がかわいいテーマ"},"piyo-family":{"title":"Piyo-family","revision":"$Revision: 1.5 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"散歩を楽しむにわとりの親子たち"},"iris":{"title":"Iris","author":"oyuu","access":"http://landscape.tdiary.net/","license":"GPL","comment":"端午の節句ちなみ"},"will":{"title":"WiLL","author":"ただただし","access":"http://sho.tdiary.net/","licence":"GPL","comment":""},"s-blue":{"title":"S-BLUE","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"淡いブルーベースのシンプル系"},"glass_light_blue":{"title":"Glass Lightblue","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"wall4":{"title":"wall4","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"spring":{"title":"Spring","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"hatena_savanna-blue":{"title":"savanna-blue","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"サバンナをイメージしたテーマ"},"futaba":{"/*":null,"title":"Futaba","revision":"$Revision: 1.2 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"枠丸テーマの春向けバージョン"},"darkwhite":{"title":"DarkWhite","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"シンプルで目にやさしいテーマのつもりです。ヘッダやサイドに多くの情報を表示させる日記には向かないかも。"},"dot-sky":{"title":"dot","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"角を意識しない水玉パターンです。"},"lightning":{"title":"Lightning","author":"Nana","access":"http://mikan.sakura.ne.jp/~mpc","comment":"","license":"GPL"},"gingham-gray":{"title":"gingham-gray","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"smoking_black":{"title":"smoking_black","author":"186（一服中）","access":"http://d.hatena.ne.jp/smoking186/ http://smoking186.rocket3.net/","license":"GPL","comment":"span.aaが何故かある。 何故か印刷用のcssもある。 NN4.xでも大体見られるらしい。"},"book2-feminine":{"title":"book2-feminine","revision":"1.5","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、微妙にフェミニンな装いにしてみました。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"},"pool_side":{"title":"プールサイド","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"涼しげなプールサイトのイメージ"},"sakura":{"title":"sakura.css","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"桜色なテーマ"},"glass":{"title":"Glass","author":"Nana","access":"<http://moo.boo.jp>","license":"GPL","comment":"かき氷なテーマ(おぃ"},"lovely":{"title":"らぶり〜","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL"},"teacup":{"title":"Tea Cup","author":"和馬","access":"ma24ma2002@yahoo.co.jp","license":"GPL","comment":"クローバーをもとに、ティーカップをデザイン"},"black-lingerie":{"title":"Black Lingerie","author":"Sarsya","access":"none","license":"GPL","comment":"黒いランジェリーのテーマ"},"simple":{"title":"Simple","revision":"$Revision: 1.4 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"simple"},"query000":{"title":"query000","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"blue-border":{"title":"Blue-border","author":"Nana","comment":"スカッっと青空なテーマ","license":"GPL"},"glass_emerald":{"title":"Glass Emerald","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"summer_wave":{"title":"Summer Wave","author":"shimery","access":"http://shimery.tdiary.net/","license":"GPL","comment":"夏だ！海が呼んでいるーなテーマ"},"cherry":{"/*":null,"title":"Cherry","revision":"$Revision: 1.4 $","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"さくらんぼイメージ"},"quirky":{"title":"quirky","author":"186","access":"http://d.hatena.ne.jp/smoking186/ http://186.bz/","license":"GPL","comment":"ちょっと奇妙なスタイル。実はhatena-asin-detailが綺麗です。"},"te":{"title":"Te","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"techno.de"},"be_r5":{"title":"be_r5","author":"masuda mitiya","access":"http://www.masuseki.com","license":"GPL","comment":"The theme of the BeOS R5 style"},"orange":{"title":"Orange","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":""},"gingham-green":{"title":"gingham-green","revision":"$Revision: 1.3 $","author":"Nana","access":"moo@xu.boo.jp","license":"GPL","comment":""},"pokke-orange":{"title":"pokke-orange","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"white_flower":{"title":"White Flower","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"マーガレット"},"asterisk-lightgray":{"title":"asterisk-lightgray","revision":"1.3","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"見出しにアステリスク（＊）が入るテーマ。色は薄灰。"},"pokke-blue":{"title":"pokke-blue","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"nebula":{"title":"Nebula","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"ネビュラチェーーーン。はい。"},"plum":{"title":"plum","author":"epi","access":"<http://330mg.bufferin.jp/diary/>","license":"GPL","comment":"合格祈願"},"hatena_rainyseason":{"title":"rainyseason","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"梅雨をイメージしたテーマ"},"kitchen-french":{"title":"kitchen-natural","revision":"1.1","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-french」は、フレンチテイスト（のつもり）。"},"dotted_line-green":{"title":"dotted_line-green","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"mini-g":{"title":"mini-g","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"book":{"title":"book","revision":"1.5","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"長文の可読性を考慮した、書籍ふうのデザイン。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"},"vi":{"title":"vi","author":"id:clock9","access":"http://d.hatena.ne.jp/clock9/","license":"GPL","comment":""},"noto":{"title":"能登の海","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"2006年春、能登。禄剛崎から見た日本海"},"hatena_savanna-red":{"title":"savanna-red","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"サバンナをイメージしたテーマ"},"kaki":{"title":"柿","author":"oyuu","access":"oyuu@mocha.freemail.ne.jp","license":"GPL","comment":"パステル系オレンジ色のテーマ"},"citrus":{"title":"citrus","revision":"$Revision: 1.2 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"さわやか柑橘系"},"kitchen-natural":{"title":"kitchen-natural","revision":"1.0","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-natural」は、スタンダードなナチュラルテイスト。"},"clover":{"title":"クローバー","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"四つ葉のクローバーの葉をあしらった、シンプルでかわいらしいテーマ"},"sidelight":{"title":"Sidelight","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"横から光が当たった感じ‥かな？"},"memo2":{"title":"memo2","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"haru":{"title":"HARU","author":"Nana","comment":"support calendar2","access":"http://moo.boo.jp","license":"GPL"},"kurenai":{"title":"kurenai","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"lcars":{"title":"LCARS","author":"MUNEDA Takahiro","access":"mux03@panda64.net","license":"GPL","comment":"STARTREK LCARS"},"sunset":{"title":"Sunset","author":"epi","access":"<http://wind.prohosting.com/~episodee/>","license":"GPL","comment":"オレンジっぽい感じ。mintblueの赤系"},"hydrangea":{"title":"Hydrangea","author":"oyuu","access":"http://landscape.tdiary.net/","license":"GPL","comment":"紫陽花の季節に向けて"},"memo":{"title":"memo","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"kanshin":{"title":"kanshin","author":"abbey","access":"inlet@cello.no-ip.org","license":"GPL","comment":"某空間なテーマ"},"parabola":{"title":"パラボラアンテナ","revision":"$Revision: 1.3 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL","comment":"写真は臼田64m。"},"navy":{"title":"navy","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"wall1":{"title":"wall1","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":"はてなダイアリー用に作成したグレーの平板なテーマです。tDiaryでサイドバーを利用する際には調整が必要になっています。"},"at":{"title":"at","revision":"$Revision: 1.1 $","author":"sasasin","access":"http://sasasin.sytes.net/","license":"GPL","comment":"寒色なのに暑苦しいテーマ。"},"deepblue":{"title":"Deep Blue","author":"oyuu","access":"oyuu@mocha.freemail.ne.jp","license":"GPL","comment":"海の中"},"candy":{"title":"Candy","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL"},"sagegreen":{"title":"Sagegreen","revision":"$Revision: 1.2 $","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"セージの葉の色"},"greentea3":{"title":"GreenTea3","author":"NT","access":"nt@24i.net","license":"GPL","comment":"春らしい若葉色のテーマ、でも名前は緑茶"},"pink-border":{"title":"Pink-border","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"sidebarには不向きです。"},"stripe":{"title":"Stripe","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":""},"orkut":{"title":"Orkut","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"Orkut"},"date":{"title":"Date","author":"epi","access":"http://330mg.bufferin.jp/diary/","license":"GPL","comment":"設定画面の日付フォーマットは%a %B %d, %Yがナイス"},"wall5_tatami":{"title":"wall5_tatami","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"white":{"title":"White","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"白いテーマ"},"artnouveau-green":{"title":"ArtNouveau","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"},"dotted_line-blue":{"title":"dotted_line-blue","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"pearl":{"title":"pearl","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"germany":{"title":"Germany","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL"},"cards":{"title":"Cards","author":"NT","access":"nt@be.to","license":"GPL","comment":"メッセージカードを並べたようなテーマ "},"hatena_savanna-green":{"title":"savanna-green","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"サバンナをイメージしたテーマ"},"pain":{"title":"pain","author":"epi","access":"<http://330mg.bufferin.jp/diary/>","license":"GPL","comment":"luxurious pain"},"bright-green":{"title":"Bright-green","revision":"$Revision: 1.4 $","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"新緑の季節な感じ"},"snowy":{"title":"Snowy","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"ゆきだるまん"},"orange_flower":{"title":"Orange Flower","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","comment":"うちの君子蘭ですが","license":"GPL"},"query011":{"title":"query011","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"necktie":{"title":"necktie","revision":"$Revision: 1.2 $","author":"sasasin","access":"http://sasasin.sytes.net/","license":"GPL","comment":"こういう色柄のネクタイがあった。"},"repro":{"title":"repro","revision":"$Revision: 1.1 $","author":"某祐","access":"","license":"GPL","comment":"疲れた。"},"dot-lime":{"title":"dot","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"角を意識しない水玉パターンです。"},"mono":{"title":"mono","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"こたつ改"},"thin":{"title":"Thin","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"シンプルなだけ"},"hatena-lightgray":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"kasumi":{"title":"kasumi","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"seam-line":{"title":"Seam-line","author":"Nana","license":"GPL","comment":"縫い目"},"hatena_leaf":{"title":"leaf","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"葉をイメージしたテーマ"},"natural_gray":{"title":"ナチュラルグレイ","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"淡いグレーを織りまぜた白系統のテーマ"},"husen":{"title":"husen","author":"kosaka <kosaka@tnat.net>","access":"http://ko.cot.jp/","license":"GPL","comment":"ノートに付箋 左sidebarに対応"},"magic":{"title":"Magic","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"web20":{"title":"web20","author":"こさか","access":"takosaka at gmail.com","license":"GPL","comment":"Web2.0っぽいテーマ"},"hatena_japanese":{"title":"japanese","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"和をイメージしたテーマ"},"pettan":{"title":"Pettan","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"メモ帳ぺったん風"},"nut-brown":{"title":"Nut Brown","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"栗色"},"asterisk-orange":{"title":"asterisk-orange","revision":"1.3","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"見出しにアステリスク（＊）が入るテーマ。色はオレンジ。"},"glass_red":{"title":"Glass Red","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"happa":{"title":"はっぱ","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"noel":{"title":"noel","author":"oyuu","access":"oyuu@mocha.freemail.ne.jp","license":"GPL","comment":"クリスマス向け"},"quiet_black":{"title":"Quiet_black","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"黒バック独特の嫌味を消すように配慮したテーマ"},"black-red":{"title":"Black-red","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"黒バック赤文字"},"bubble":{"title":"bubble","author":"Nana","access":"<clorets@estyle.ne.jp>","license":"GPL","comment":"泡がいっぱい♪"},"asterisk-pink":{"title":"asterisk-pink","revision":"1.3","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"見出しにアステリスク（＊）が入るテーマ。色はピンク。"},"wood":{"title":"黒板","author":"yosshy","access":"http://yosshy.tdiary.net/","comment":"","license":"GPL"},"gray2":{"title":"gray2","revision":"$Revision: 1.1 $","author":"naoko","access":"naoko@undefine.to","license":"GPL","comment":"グレーな色のテーマ"},"old-pavement":{"title":"Old-pavement","revision":"$Revision: 1.4 $","author":"NOB ","access":"nob@ivyvalley.net","license":"GPL","comment":"色あせた古い舗装の様なテーマ"},"monochrome":{"title":"monochrome","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"白黒タイル"},"dotted_line-red":{"title":"dotted_line-red","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"babypink":{"title":"Babypink","author":"epi","access":"<http://330mg.bufferin.jp/diary/>","license":"GPL","comment":"theme mintblueのpinkバージョン"},"another_blue":{"title":"another_blue","author":"kazuaki","license":"GPL","comment":""},"book3-sky":{"title":"book3-sky","revision":"1.5","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、明るい空のイメージに調整。男の子向けかなぁ。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"},"snow_man":{"title":"雪だるま","author":"しんちゃん","access":"stakei@nga.jp","license":"GPL","comment":"雪だるま"},"glass_purple":{"title":"Glass Purple","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"dice":{"title":"DICE","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"サイコロアンカー。ナンバリングアンカープラグイン対応というか、使わないとなんの変哲もなし"},"rain":{"title":"Rain","revision":"$Revision: 1.2 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"雨つぶ"},"quirky2":{"title":"quirky2","author":"186","access":"http://d.hatena.ne.jp/smoking186/ http://186.bz/","license":"GPL","comment":"ちょっと奇妙なスタイルその2。右側に刺しましょう。h3を余り長くするとちょっと困ったことになります。"},"blue-dash":{"title":"Blue-dash","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"ヨーロッパ装丁"},"hatena-green":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"artnouveau-blue":{"title":"ArtNouveau","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"},"kaizou":{"title":"改造","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"mixi-blue":{"title":"mixi-blue","author":"kosaka","access":"kosaka@tnat.net","license":"GPL","comment":"青いmixi"},"w2k_button":{"title":"W2K Button","author":"jun nogata","access":"http://www.nofuture.tv/diary/","license":"GPL","comment":"Windowsに見立てたテーマ"},"delta":{"title":"delta","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"hatena-purple":{"title":"はてなダイアリー","author":"Junya Kondo","access":"jkondo@hatena.ne.jp","license":"GPL","comment":"はてなダイアリーのテーマ"},"orange-border":{"title":"Orange-border","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"星の王子さま♪"},"starlight":{"title":"Starlight","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":""},"glass_yellow":{"title":"Glass Yellow","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"scarlet":{"title":"Scarlet","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":""},"nippon":{"title":"日本ちゃちゃちゃ","author":"ただただし","access":"sho@spc.gr.jp","license":"GPL","comment":"サッカー日本代表ユニ"},"metal":{"title":"Metal","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"メタリックなテーマ。Safariに一番良く馴染みます。"},"momiji":{"title":"もみじ","revision":"$Revision: 1.2 $","author":"ただただし","access":"http://sho.tdiary.net/","license":"GPL","comment":"紅葉"},"glass_blue":{"title":"Glass Blue","author":"YAMAGUCHI Takayuki","access":"http://i-yt.info/","license":"GPL","comment":"http://www.squaregear.net/gimptips/を参考にして作りました。"},"tinybox_green":{"title":"tinybox緑","author":"zoe","access":"zoe@kasumi.sakura.ne.jp","license":"GPL","comment":"緑小方体"},"fluxbox3":{"title":"fluxbox3","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL"},"gray":{"title":"Gray","revision":"$Revision: 1.2 $","author":"Nana","access":"clorets@estyle.ne.jp","license":"GPL","comment":"日記の枠が○っこいのです。"},"subdued":{"title":"Subdued","revision":"$Revision: 1.4 $","author":"Nana","access":"http://moo.boo.jp","comment":"地味な落ちついたシャツなイメージ","license":"GPL"},"memo3":{"title":"memo3","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"purple_sun":{"title":"purple sun","author":"くわ","access":"http://www.spc.gr.jp/kuwa/","license":"GPL","comment":"紫色の太陽が見え隠れします。"},"hatena_water":{"title":"water","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"水をイメージしたテーマ"},"hatena_cinnamon":{"title":"cinnamon","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"はてなのマスコット犬しなもんのテーマ"},"query110":{"title":"query110","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"dot-orange":{"title":"dot","author":"id:DocSeri","access":"http://d.hatena.ne.jp/DocSeri/","license":"GPL","comment":"角を意識しない水玉パターンです。"},"natrium":{"title":"ナトリウムランプ","revision":"$Revision: 1.1 $","author":"TADA Tadashi","access":"sho@spc.gr.jp","license":"GPL"},"sepia":{"title":"sepia","revision":"$Revision: 1.1 $","author":"naoko","access":"naoko@undefine.to","license":"GPL","comment":"セピア色のシンプルなテーマ"},"darkness-pop":{"title":"Darkness-pop","author":"Nana","comment":"support major plugin.","license":"GPL","access":"<clores@estyle.ne.jp>"},"kitchen-classic":{"title":"kitchen-natural","revision":"1.1","author":"Nishioka Yuji","access":"http://d.hatena.ne.jp/n-yuji/","license":"GPL","comment":"キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-classic」は、クラシックなテイスト。"},"kanban":{"title":"看板","author":"Nana","access":"<clorets@estyle.ne.jp>","comment":"日付が看板に描かれているように見えます","license":"GPL"},"tuki":{"title":"tuki","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"support calendar2"},"rim-mizuiro":{"title":"rim-mizuiro","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"orange-blue":{"title":"Orange-Blue","author":"Nana","access":"http://moo.boo.jp","license":"GPL"},"light-blue":{"title":"light-blue","revision":"$Revision: 1.3 $","author":"naoko","access":"naoko@undefine.to","license":"GPL","comment":"明るい水色のテーマ。"},"himawari":{"title":"himawari","revision":"$Revision: 1.1 $","author":"naoko","access":"naoko@undefine.to","license":"GPL","comment":"ひまわりのテーマ。"},"blackboard":{"title":"blackboard","author":"id:chepooka","access":"http://d.hatena.ne.jp/chepooka/","license":"GPL","comment":""},"chiffon_skyblue":{"title":"chiffon_skyblue","author":"id:kamioka","access":"http://d.hatena.ne.jp/kamioka/","license":"GPL","comment":""},"snake":{"title":"Snake","revision":"$Revision: 1.2 $","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"名前とは裏腹にシンプルで大人しいテーマ"},"pict":{"title":"Pict!!","author":"186","access":"http://d.hatena.ne.jp/smoking186/ http://186.bz/","license":"GPL","comment":"Pict!!"},"rim-daidaiiro":{"title":"rim-daidaiiro","author":"id:hikoichi","access":"http://d.hatena.ne.jp/hikoichi/","license":"GPL","comment":""},"blackbox":{"title":"blackbox","author":"zoe","access":"http://www.kasumi.sakura.ne.jp/~zoe/","license":"GPL","comment":"ブラックボックスなテーマ"},"dot":{"title":"dot","revision":"$Revision: 1.5 $","author":"Nana","license":"GPL"},"gray-note":{"title":"Gray-note","author":"Nana","access":"http://moo.boo.jp","license":"GPL","comment":"ルーズリーフっぽくしてみました"},"hatena_savanna-white":{"title":"savanna-white","author":"hatena","access":"info@hatena.ne.jp","license":"GPL","comment":"サバンナをイメージしたテーマ"},"silver":{"title":"シルバー","author":"s.sawada","access":"moonwave@ba2.so-net.ne.jp","license":"GPL","comment":"グレー基調の落ち着いたテーマ／縦横のストライプがアクセント"}}}
+{
+  "themes": {
+    "windowz": {
+      "title": "Windowz",
+      "author": "NT",
+      "access": "nt@24i.net",
+      "license": "GPL",
+      "comment": "某 OS 風のテーマ"
+    },
+    "midnight": {
+      "title": "真夜中",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "digital_gadgets": {
+      "title": "Digital Gadgets",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "Panasonic CF-R3F, iPod shuffle, PalmOne Tungsten|E, au W31SA, CONTAX SL300R T*"
+    },
+    "kotatsu": {
+      "title": "こたつ",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "こたつの中で本を読む感じ(←読むな)"
+    },
+    "utsusemi": {
+      "title": "utsusemi",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "halloween": {
+      "title": "Halloween",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "ハロウィン"
+    },
+    "simpleblack": {
+      "title": "SimpleBlack",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "思いっきりシンプル"
+    },
+    "hatena-lime": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "nande-ya-nen": {
+      "title": "なんでやねん",
+      "author": "Junichiro KITA",
+      "access": "kita@kitaj.no-ip.com",
+      "license": "GPL",
+      "comment": "「今日のなんでやねん」のテーマ"
+    },
+    "marguerite": {
+      "title": "marguerite",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "treetop": {
+      "title": "Treetop",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "zef": {
+      "title": "zef",
+      "author": "id:clock9",
+      "access": "http://d.hatena.ne.jp/clock9/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "rim-tanpopoiro": {
+      "title": "rim-tanpopoiro",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "cafe-mint-julep-soda": {
+      "title": "Cafe mint julep soda",
+      "revision": "$Revision: 0.1 $",
+      "author": "Kuniaki IGARASHI",
+      "access": "http://igarashikuniaki.net/diary/",
+      "license": "GPL",
+      "comment": "Cafe theme. This use the Gustav theme as a reference."
+    },
+    "green-border": {
+      "title": "Green-border",
+      "author": "Nana <clorets@estyle.ne.jp>",
+      "comment": "カエルくんなテーマ",
+      "license": "GPL"
+    },
+    "pinkgrad": {
+      "title": "Pinkgrad",
+      "revision": "",
+      "author": "Nana",
+      "access": "http://mikan.sakura.ne.jp/~mpc",
+      "license": "GPL",
+      "comment": "ピンクなグラデーション"
+    },
+    "gustav": {
+      "title": "Gustav",
+      "revision": "$Revision: 1.0 $",
+      "author": "TADA Tadashi",
+      "access": "t@tdtds.jp",
+      "license": "GPL",
+      "comment": "Gustav the cat."
+    },
+    "ginkgo": {
+      "title": "銀杏",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "comment": "黄葉したイチョウの葉",
+      "license": "GPL"
+    },
+    "city": {
+      "title": "city",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "madrascheck": {
+      "title": "Madras check",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "Madras check"
+    },
+    "lr": {
+      "title": "LR",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "desert": {
+      "title": "砂漠",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "check": {
+      "title": "Check",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL"
+    },
+    "fine": {
+      "title": "Fine",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "triple_gray": {
+      "title": "トリプルグレー",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "グレーのストライプ、いたってシンプルなテーマ"
+    },
+    "aqua": {
+      "title": "aqua",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "gingham-yellow": {
+      "title": "gingham-yellow",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "hatena-sepia": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "pudding": {
+      "title": "pudding",
+      "author": "oyuu",
+      "access": "oyuu@mocha.freemail.ne.jp",
+      "license": "GPL",
+      "comment": "プリン色のテーマ"
+    },
+    "90": {
+      "title": "90",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "gingham-purple": {
+      "title": "gingham-purple",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "tile": {
+      "title": "tile",
+      "author": "kosaka",
+      "access": "http://tnat.net/diary/",
+      "license": "GPL"
+    },
+    "jungler": {
+      "title": "jungler",
+      "author": "id:clock9",
+      "access": "http://cque.mine.nu/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "leafgreen": {
+      "title": "Leaf Green",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "春"
+    },
+    "widthfix": {
+      "title": "Width Fix",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "固定幅中央寄せ"
+    },
+    "christmas": {
+      "title": "christmas",
+      "revision": "$Revision: 1.4 $",
+      "author": "shimery",
+      "access": "shim@s5.xrea.com",
+      "license": "GPL",
+      "comment": "クリスマス限定。"
+    },
+    "cherry_blossom": {
+      "title": "お花見",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "2005年、等々力緑地の桜"
+    },
+    "moo": {
+      "title": "Moo",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "comment": "牛柄",
+      "license": "GPL"
+    },
+    "rim-fujiiro": {
+      "title": "rim-fujiiro",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "mt_fuji": {
+      "title": "Mt.Fuji",
+      "revision": "$Revision: 1.3 $",
+      "author": "ただただし",
+      "access": "http://sho.tdiary.net/",
+      "license": "GPL",
+      "comment": "富士山、四季折々。右サイドバーのための習作"
+    },
+    "tinybox": {
+      "title": "tinybox",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "小方体"
+    },
+    "hazakura": {
+      "title": "hazakura",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "hatena-darkgray": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "gardenia": {
+      "title": "Gardenia",
+      "author": "oyuu",
+      "access": "http://landscape.tdiary.net/",
+      "license": "GPL",
+      "comment": "クチナシ(Gardenia jasminoides Ellis) アカネ科"
+    },
+    "hatena-red": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "3pink": {
+      "title": "3pink",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "3minutesのpink。"
+    },
+    "blue-feather": {
+      "title": "bulu-feather",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "hatena-orange": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "mirage": {
+      "title": "mirage",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "right": {
+      "title": "Right",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "全体がやや右寄せ"
+    },
+    "savanna": {
+      "title": "savanna",
+      "author": "abbey",
+      "access": "inlet@sd6.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "なんとなくサバンナ(zoeさん命名)"
+    },
+    "mixi": {
+      "title": "mixi",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "mixi"
+    },
+    "nachtmusik": {
+      "title": "Nacht Musik",
+      "author": "epi",
+      "access": "http://wind.prohosting.com/~episodee/",
+      "license": "GPL",
+      "comment": "夜のお共に"
+    },
+    "rim-sakurairo": {
+      "title": "rim-sakurairo",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "nenga": {
+      "title": "nenga",
+      "author": "peco",
+      "access": "<http://pe.cot.jp/tdiary/>",
+      "license": "GPL",
+      "comment": "年賀ハガキアンカー"
+    },
+    "sky": {
+      "title": "Sky",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "おお青い空白い雲"
+    },
+    "rim-wakabairo": {
+      "title": "rim-wakabairo",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "town": {
+      "title": "town",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "asterisk-blue": {
+      "title": "asterisk-blue",
+      "revision": "1.3",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "見出しにアステリスク（＊）が入るテーマ。色はブルー。"
+    },
+    "britannian": {
+      "title": "Britannian",
+      "revision": "$Revision: 1.1 $",
+      "author": "みーしぇる（ Meeshel ）",
+      "access": "blackhat_darklight@hotmail.com",
+      "license": "GPL"
+    },
+    "bluegrad": {
+      "title": "Bluegrad",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "青グラデーションの背景"
+    },
+    "chiffon_pink": {
+      "title": "chiffon_pink",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "loose-leaf": {
+      "title": "loose-leaf",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "ルーズリーフとエンピツ(ナンバリングアンカー対応)"
+    },
+    "brown": {
+      "title": "Brown",
+      "author": "oyuu",
+      "access": "<http://landscape.tdiary.net/>",
+      "license": "GPL",
+      "comment": "秋冬向け"
+    },
+    "rainy-season": {
+      "title": "rainy-season",
+      "revision": "$Revision: 1.2 $",
+      "author": "naoko",
+      "access": "naoko@undefine.to",
+      "license": "GPL",
+      "comment": "梅雨の季節をイメージしました。"
+    },
+    "orangegrad": {
+      "title": "Orangegrad",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "オレンジなグラデーション"
+    },
+    "winter": {
+      "title": "Winter",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "冬の風景写真を使ったテーマ"
+    },
+    "matcha": {
+      "title": "Matcha",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "抹茶いろ"
+    },
+    "hatena-black": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "arrow": {
+      "title": "arrow",
+      "author": "epi",
+      "access": "<http://330mg.bufferin.jp/diary/>",
+      "license": "GPL",
+      "comment": "キャッチーなテーマ"
+    },
+    "sodapop": {
+      "title": "Sodapop",
+      "author": "kadu",
+      "access": "http://www.bb.wakwak.com/~akk/kadu/",
+      "comment": "blockquote,footnote,recent_list plugin対応",
+      "license": "GPL"
+    },
+    "paper": {
+      "title": "張り紙",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "ただの張り紙。ナンバリングアンカープラグイン対応"
+    },
+    "xmastree": {
+      "title": "Xmastree",
+      "author": "ati",
+      "access": "http://member.nifty.ne.jp/ati",
+      "license": "GPL",
+      "comment": "Xmasな季節に"
+    },
+    "cool_ice": {
+      "title": "クールアイス",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "夏向きのシンプルで涼しげなテーマ"
+    },
+    "autumn": {
+      "title": "Autumn",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "秋色をイメージして見たのだけれども、あんまりそれっぽくなし。色彩感覚が鈍いんだろなあ、きっと。"
+    },
+    "diamond_dust": {
+      "title": "Diamond_dust",
+      "revision": "$Revision: 1.6 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "冬っぽく"
+    },
+    "bluely": {
+      "title": "bluely",
+      "revision": "$Revision: 1.1 $",
+      "author": "epi",
+      "access": "http://330mg.bufferin.jp/diary/",
+      "license": "GPL",
+      "comment": "青いみたい．"
+    },
+    "emboss": {
+      "title": "emboss",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "soft-gold": {
+      "title": "Soft Gold",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "やわい金色"
+    },
+    "tour-de-hokkaido": {
+      "title": "tour-de-hokkaido",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "bistro_menu": {
+      "title": "bistro_menu",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "レストランのメニューのようなテーマ"
+    },
+    "glass_pink": {
+      "title": "Glass Pink",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "line": {
+      "title": "Line",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "hatena-brown": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "3minutes": {
+      "title": "3minutes",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "３分で作ったテーマ。"
+    },
+    "easy": {
+      "title": "Easy",
+      "author": "abbey",
+      "access": "http://cello.no-ip.org/",
+      "license": "GPL",
+      "comment": "お気楽に作成したテーマ"
+    },
+    "fri": {
+      "title": "Friday",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "curtain": {
+      "title": "カーテン",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "monotone": {
+      "title": "monotone",
+      "author": "epi",
+      "access": "episode@104.net",
+      "license": "GPL",
+      "comment": "モノトーンっていうのかこういうのを"
+    },
+    "black-blue": {
+      "title": "Black-Blue",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "黒バック青文字"
+    },
+    "manuscript-green": {
+      "title": "manuscript",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "原稿用紙風のスタイル。半角英数が入ると位置が合わなくなるのは仕様です。"
+    },
+    "s-pink": {
+      "title": "S-PINK",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "淡いピンクベースのシンプル系"
+    },
+    "cherry_blossom_r": {
+      "title": "お花見(右サイドバー版)",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "2005年、等々力緑地の桜。cherry_blossomを右サイドバーにしたもの"
+    },
+    "maroon": {
+      "title": "マルーン",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "秋の枯れ葉のテーマ"
+    },
+    "mixi-green": {
+      "title": "mixi-green",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "緑のmixi"
+    },
+    "narrow": {
+      "title": "Narrow",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "lime": {
+      "title": "Lime",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "ocha": {
+      "title": "Ocha",
+      "author": "Nana",
+      "access": "<http://moo.boo.jp>",
+      "license": "GPL",
+      "comment": "なんとなくお茶色なテーマ"
+    },
+    "glass_orange": {
+      "title": "Glass Orange",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "silver2": {
+      "title": "Silver2",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "銀色っぽいテーマ。"
+    },
+    "green-tea": {
+      "title": "green-tea",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "hatena-white": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "russet": {
+      "title": "russet",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "note": {
+      "title": "Note",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "罫線有り"
+    },
+    "smoking_gray": {
+      "title": "smoking_gray",
+      "author": "186",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://186.bz/",
+      "license": "GPL",
+      "comment": "色の交錯を楽しむcss"
+    },
+    "giza": {
+      "title": "ギザギザ",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "fluxbox2": {
+      "title": "fluxbox2",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "mizu": {
+      "title": "水",
+      "revision": "$Revision: 1.2 $",
+      "author": "NOB ",
+      "access": "nob@ivyvalley.net",
+      "license": "GPL",
+      "comment": "水の涼しいイメージで作りました。"
+    },
+    "white-lingerie": {
+      "title": "White Lingerie",
+      "author": "Sarsya",
+      "access": "none",
+      "license": "GPL",
+      "comment": "白いランジェリーのテーマ"
+    },
+    "nahanaha": {
+      "title": "Nahanaha",
+      "author": "furu",
+      "access": "http://nahanaha.zive.net/",
+      "license": "GPL"
+    },
+    "yukon": {
+      "title": "Yukon",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "想い出のユーコン"
+    },
+    "wall2": {
+      "title": "wall2",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "whiteout": {
+      "title": "Whiteout",
+      "author": "NT",
+      "access": "nt@24i.net",
+      "license": "GPL",
+      "comment": "タイトルしか見えないテーマ"
+    },
+    "mini-p": {
+      "title": "mini-p",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "tdiarynet": {
+      "title": "tDiary.Net 2nd edition",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "garden": {
+      "title": "Garden",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "support calender2,recent_list"
+    },
+    "colorlabel": {
+      "title": "colorlabel",
+      "revision": "1.1",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "サイドバーを付箋（ラベル）に見立てたテーマ。はてなモジュールごとに色を割り当てました。"
+    },
+    "rectangle": {
+      "title": "Rectangle",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "なんとなく■責め"
+    },
+    "momonga": {
+      "title": "momonga",
+      "author": "ずんだあん かずひこ",
+      "access": "zunda@momonga-linux.org kazuhiko@fdiary.net",
+      "license": "GPL",
+      "comment": "mo?"
+    },
+    "mintblue": {
+      "title": "Mintblue",
+      "author": "epi",
+      "access": "<http://330mg.bufferin.jp/diary/>",
+      "license": "GPL",
+      "comment": "なんとなく青っぽい感じ。"
+    },
+    "tag": {
+      "title": "Tag",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "付箋紙が貼り付けられたようなテーマ"
+    },
+    "sleepy_kitten": {
+      "title": "Sleepy Kitten",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "query111or": {
+      "title": "query111or",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "ymck": {
+      "title": "ymck",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "asterisk-maroon": {
+      "title": "asterisk-maroon",
+      "revision": "1.3",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "見出しにアステリスク（＊）が入るテーマ。色は栗色。"
+    },
+    "gold": {
+      "title": "gold",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "なんとなくゴールドっぽいテーマ "
+    },
+    "cat": {
+      "title": "Cat",
+      "revision": "$Revision: 1.7 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "ねこ雲に乗るノーマル版"
+    },
+    "double": {
+      "title": "Double",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "二重枠多用のシンプル系"
+    },
+    "earth-brown": {
+      "title": "Earth-Brown",
+      "author": "Nana",
+      "license": "GPL",
+      "comment": "アースからー茶"
+    },
+    "alfa": {
+      "title": "alfa",
+      "author": "abbey",
+      "access": "inlet@cello.no-ip.org",
+      "license": "GPL",
+      "comment": "Theme of the alfista."
+    },
+    "hatena-lightblue": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "pastelpink": {
+      "title": "pastelpink",
+      "author": "abbey",
+      "access": "inlet@cello.no-ip.org",
+      "license": "GPL",
+      "comment": "パステルピンク"
+    },
+    "artnouveau-red": {
+      "title": "ArtNouveau",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"
+    },
+    "dot-pink": {
+      "title": "dot",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "角を意識しない水玉パターンです。"
+    },
+    "hatena": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "black_mamba": {
+      "title": "black_mamba",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "query101": {
+      "title": "query101",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "glass_green": {
+      "title": "Glass Green",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "hellali": {
+      "title": "Hellali",
+      "author": "NT",
+      "access": "nt@24i.net",
+      "license": "GPL",
+      "comment": "情熱の赤"
+    },
+    "black-green": {
+      "title": "Black-Green",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "黒バック緑文字"
+    },
+    "hsbt": {
+      "title": "hsbt.org",
+      "author": "SHIBATA Hiroshi",
+      "access": "shibata.hiroshi@gmail.com",
+      "license": "GPL",
+      "comment": "Pukiwiki based theme."
+    },
+    "xxx": {
+      "title": "XXX",
+      "author": "Nana",
+      "access": "http://orange.sakura.ne.jp/~mpc/d/",
+      "license": "GPL",
+      "comment": "X'masっぽく"
+    },
+    "fluxbox": {
+      "title": "fluxbox",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "pale": {
+      "title": "Pale",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "春向けな淡い色"
+    },
+    "puppy": {
+      "title": "Puppy",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "仔犬"
+    },
+    "aoikuruma": {
+      "title": "Aoikuruma",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "青い車♪READMEもお読み下さい。"
+    },
+    "gingham-blue": {
+      "title": "gingham-blue",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "lovely_pink": {
+      "title": "lovely_pink.",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "ハートだらけなテーマ"
+    },
+    "bill": {
+      "title": "Bill",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "hatena-pink": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "smoking_white": {
+      "title": "smoking_white",
+      "author": "186（一服中）",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://smoking186.rocket3.net/",
+      "license": "GPL",
+      "comment": "span.aaが何故かある。 何故か印刷用のcssもある。 NN4.xでも大体見られるらしい。"
+    },
+    "wine": {
+      "title": "Wine",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "licence": "GPL",
+      "comment": "ワイン色",
+      "copyright 2002 (c) by nana": null,
+      "\tvalidated by w3c.": null
+    },
+    "manuscript-brown": {
+      "title": "manuscript",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "原稿用紙風のスタイル。半角英数が入ると位置が合わなくなるのは仕様です。"
+    },
+    "mixi-pink": {
+      "title": "mixi-pink",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "桃mixi"
+    },
+    "cross": {
+      "title": "Cross",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "十字の線を基調としたシンプルなテーマ"
+    },
+    "kaeru": {
+      "title": "Kaeru",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "カエラー(梅雨時も楽しく)"
+    },
+    "hatena-tea": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "sakana": {
+      "title": "Sakana",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "comment": "涼しげな魚のイメージ",
+      "license": "GPL"
+    },
+    "flower": {
+      "title": "Flower",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": "青い花の写真をさりげなく。"
+    },
+    "dog": {
+      "title": "dog",
+      "author": "peco",
+      "access": "<http://pe.cot.jp/tdiary/>",
+      "license": "GPL",
+      "comment": "犬アンカー"
+    },
+    "green_leaves": {
+      "title": "Green Leaves",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "comment": "アジサイの葉",
+      "license": "GPL"
+    },
+    "lcd": {
+      "title": "LCD",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "i-Tunes"
+    },
+    "chiffon_leafgreen": {
+      "title": "chiffon_leafgreen",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "shirakaba": {
+      "title": "白樺",
+      "revision": "$Revision: 1.1 $",
+      "author": "ただただし",
+      "access": "http://sho.tdiary.net/",
+      "license": "GPL",
+      "comment": "2005年冬、冬季閉鎖直前の麦草峠にて"
+    },
+    "cosmos": {
+      "title": "小宇宙",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "コスモを燃やすべし"
+    },
+    "gear": {
+      "title": "Gear",
+      "revision": "$Revision: 1.4 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "歯車"
+    },
+    "redgrid": {
+      "title": "redgrid",
+      "author": "ナカガキ",
+      "access": "http://d.hatena.ne.jp/calmzone/ http://park18.wakwak.com/~calmzone/",
+      "license": "GPL",
+      "comment": "独自クラスのSPAN.spoilerを用意しました。<SPAN CLASS=\"spoiler\"></SPAN>で文字を囲むと、文字と背景が同色になり、ネタばれ防止等に使えます。"
+    },
+    "wall3": {
+      "title": "wall3",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "petith-b": {
+      "title": "Petith Black",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "comment": "Petithの黒バック版",
+      "license": "GPL"
+    },
+    "soda": {
+      "title": "soda",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "petith": {
+      "title": "Petith",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "小さなハートの枠がかわいいテーマ"
+    },
+    "piyo-family": {
+      "title": "Piyo-family",
+      "revision": "$Revision: 1.5 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "散歩を楽しむにわとりの親子たち"
+    },
+    "iris": {
+      "title": "Iris",
+      "author": "oyuu",
+      "access": "http://landscape.tdiary.net/",
+      "license": "GPL",
+      "comment": "端午の節句ちなみ"
+    },
+    "will": {
+      "title": "WiLL",
+      "author": "ただただし",
+      "access": "http://sho.tdiary.net/",
+      "licence": "GPL",
+      "comment": ""
+    },
+    "s-blue": {
+      "title": "S-BLUE",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "淡いブルーベースのシンプル系"
+    },
+    "glass_light_blue": {
+      "title": "Glass Lightblue",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "wall4": {
+      "title": "wall4",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "spring": {
+      "title": "Spring",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "hatena_savanna-blue": {
+      "title": "savanna-blue",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "サバンナをイメージしたテーマ"
+    },
+    "futaba": {
+      "/*": null,
+      "title": "Futaba",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "枠丸テーマの春向けバージョン"
+    },
+    "darkwhite": {
+      "title": "DarkWhite",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "シンプルで目にやさしいテーマのつもりです。ヘッダやサイドに多くの情報を表示させる日記には向かないかも。"
+    },
+    "dot-sky": {
+      "title": "dot",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "角を意識しない水玉パターンです。"
+    },
+    "lightning": {
+      "title": "Lightning",
+      "author": "Nana",
+      "access": "http://mikan.sakura.ne.jp/~mpc",
+      "comment": "",
+      "license": "GPL"
+    },
+    "gingham-gray": {
+      "title": "gingham-gray",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "smoking_black": {
+      "title": "smoking_black",
+      "author": "186（一服中）",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://smoking186.rocket3.net/",
+      "license": "GPL",
+      "comment": "span.aaが何故かある。 何故か印刷用のcssもある。 NN4.xでも大体見られるらしい。"
+    },
+    "book2-feminine": {
+      "title": "book2-feminine",
+      "revision": "1.5",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、微妙にフェミニンな装いにしてみました。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"
+    },
+    "pool_side": {
+      "title": "プールサイド",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "涼しげなプールサイトのイメージ"
+    },
+    "sakura": {
+      "title": "sakura.css",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "桜色なテーマ"
+    },
+    "glass": {
+      "title": "Glass",
+      "author": "Nana",
+      "access": "<http://moo.boo.jp>",
+      "license": "GPL",
+      "comment": "かき氷なテーマ(おぃ"
+    },
+    "lovely": {
+      "title": "らぶり〜",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "teacup": {
+      "title": "Tea Cup",
+      "author": "和馬",
+      "access": "ma24ma2002@yahoo.co.jp",
+      "license": "GPL",
+      "comment": "クローバーをもとに、ティーカップをデザイン"
+    },
+    "black-lingerie": {
+      "title": "Black Lingerie",
+      "author": "Sarsya",
+      "access": "none",
+      "license": "GPL",
+      "comment": "黒いランジェリーのテーマ"
+    },
+    "simple": {
+      "title": "Simple",
+      "revision": "$Revision: 1.4 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "simple"
+    },
+    "query000": {
+      "title": "query000",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "blue-border": {
+      "title": "Blue-border",
+      "author": "Nana",
+      "comment": "スカッっと青空なテーマ",
+      "license": "GPL"
+    },
+    "glass_emerald": {
+      "title": "Glass Emerald",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "summer_wave": {
+      "title": "Summer Wave",
+      "author": "shimery",
+      "access": "http://shimery.tdiary.net/",
+      "license": "GPL",
+      "comment": "夏だ！海が呼んでいるーなテーマ"
+    },
+    "cherry": {
+      "/*": null,
+      "title": "Cherry",
+      "revision": "$Revision: 1.4 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "さくらんぼイメージ"
+    },
+    "quirky": {
+      "title": "quirky",
+      "author": "186",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://186.bz/",
+      "license": "GPL",
+      "comment": "ちょっと奇妙なスタイル。実はhatena-asin-detailが綺麗です。"
+    },
+    "te": {
+      "title": "Te",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "techno.de"
+    },
+    "be_r5": {
+      "title": "be_r5",
+      "author": "masuda mitiya",
+      "access": "http://www.masuseki.com",
+      "license": "GPL",
+      "comment": "The theme of the BeOS R5 style"
+    },
+    "orange": {
+      "title": "Orange",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "gingham-green": {
+      "title": "gingham-green",
+      "revision": "$Revision: 1.3 $",
+      "author": "Nana",
+      "access": "moo@xu.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "pokke-orange": {
+      "title": "pokke-orange",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "white_flower": {
+      "title": "White Flower",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "マーガレット"
+    },
+    "asterisk-lightgray": {
+      "title": "asterisk-lightgray",
+      "revision": "1.3",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "見出しにアステリスク（＊）が入るテーマ。色は薄灰。"
+    },
+    "pokke-blue": {
+      "title": "pokke-blue",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "nebula": {
+      "title": "Nebula",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "ネビュラチェーーーン。はい。"
+    },
+    "plum": {
+      "title": "plum",
+      "author": "epi",
+      "access": "<http://330mg.bufferin.jp/diary/>",
+      "license": "GPL",
+      "comment": "合格祈願"
+    },
+    "hatena_rainyseason": {
+      "title": "rainyseason",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "梅雨をイメージしたテーマ"
+    },
+    "kitchen-french": {
+      "title": "kitchen-natural",
+      "revision": "1.1",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-french」は、フレンチテイスト（のつもり）。"
+    },
+    "dotted_line-green": {
+      "title": "dotted_line-green",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "mini-g": {
+      "title": "mini-g",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "book": {
+      "title": "book",
+      "revision": "1.5",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "長文の可読性を考慮した、書籍ふうのデザイン。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"
+    },
+    "vi": {
+      "title": "vi",
+      "author": "id:clock9",
+      "access": "http://d.hatena.ne.jp/clock9/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "noto": {
+      "title": "能登の海",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "2006年春、能登。禄剛崎から見た日本海"
+    },
+    "hatena_savanna-red": {
+      "title": "savanna-red",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "サバンナをイメージしたテーマ"
+    },
+    "kaki": {
+      "title": "柿",
+      "author": "oyuu",
+      "access": "oyuu@mocha.freemail.ne.jp",
+      "license": "GPL",
+      "comment": "パステル系オレンジ色のテーマ"
+    },
+    "citrus": {
+      "title": "citrus",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "さわやか柑橘系"
+    },
+    "kitchen-natural": {
+      "title": "kitchen-natural",
+      "revision": "1.0",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-natural」は、スタンダードなナチュラルテイスト。"
+    },
+    "clover": {
+      "title": "クローバー",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "四つ葉のクローバーの葉をあしらった、シンプルでかわいらしいテーマ"
+    },
+    "sidelight": {
+      "title": "Sidelight",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "横から光が当たった感じ‥かな？"
+    },
+    "memo2": {
+      "title": "memo2",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "haru": {
+      "title": "HARU",
+      "author": "Nana",
+      "comment": "support calendar2",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "kurenai": {
+      "title": "kurenai",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "lcars": {
+      "title": "LCARS",
+      "author": "MUNEDA Takahiro",
+      "access": "mux03@panda64.net",
+      "license": "GPL",
+      "comment": "STARTREK LCARS"
+    },
+    "sunset": {
+      "title": "Sunset",
+      "author": "epi",
+      "access": "<http://wind.prohosting.com/~episodee/>",
+      "license": "GPL",
+      "comment": "オレンジっぽい感じ。mintblueの赤系"
+    },
+    "hydrangea": {
+      "title": "Hydrangea",
+      "author": "oyuu",
+      "access": "http://landscape.tdiary.net/",
+      "license": "GPL",
+      "comment": "紫陽花の季節に向けて"
+    },
+    "memo": {
+      "title": "memo",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "kanshin": {
+      "title": "kanshin",
+      "author": "abbey",
+      "access": "inlet@cello.no-ip.org",
+      "license": "GPL",
+      "comment": "某空間なテーマ"
+    },
+    "parabola": {
+      "title": "パラボラアンテナ",
+      "revision": "$Revision: 1.3 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "写真は臼田64m。"
+    },
+    "navy": {
+      "title": "navy",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "wall1": {
+      "title": "wall1",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": "はてなダイアリー用に作成したグレーの平板なテーマです。tDiaryでサイドバーを利用する際には調整が必要になっています。"
+    },
+    "at": {
+      "title": "at",
+      "revision": "$Revision: 1.1 $",
+      "author": "sasasin",
+      "access": "http://sasasin.sytes.net/",
+      "license": "GPL",
+      "comment": "寒色なのに暑苦しいテーマ。"
+    },
+    "deepblue": {
+      "title": "Deep Blue",
+      "author": "oyuu",
+      "access": "oyuu@mocha.freemail.ne.jp",
+      "license": "GPL",
+      "comment": "海の中"
+    },
+    "candy": {
+      "title": "Candy",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "sagegreen": {
+      "title": "Sagegreen",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "セージの葉の色"
+    },
+    "greentea3": {
+      "title": "GreenTea3",
+      "author": "NT",
+      "access": "nt@24i.net",
+      "license": "GPL",
+      "comment": "春らしい若葉色のテーマ、でも名前は緑茶"
+    },
+    "pink-border": {
+      "title": "Pink-border",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "sidebarには不向きです。"
+    },
+    "stripe": {
+      "title": "Stripe",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": ""
+    },
+    "orkut": {
+      "title": "Orkut",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "Orkut"
+    },
+    "date": {
+      "title": "Date",
+      "author": "epi",
+      "access": "http://330mg.bufferin.jp/diary/",
+      "license": "GPL",
+      "comment": "設定画面の日付フォーマットは%a %B %d, %Yがナイス"
+    },
+    "wall5_tatami": {
+      "title": "wall5_tatami",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "white": {
+      "title": "White",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "白いテーマ"
+    },
+    "artnouveau-green": {
+      "title": "ArtNouveau",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"
+    },
+    "dotted_line-blue": {
+      "title": "dotted_line-blue",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "pearl": {
+      "title": "pearl",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "germany": {
+      "title": "Germany",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL"
+    },
+    "cards": {
+      "title": "Cards",
+      "author": "NT",
+      "access": "nt@be.to",
+      "license": "GPL",
+      "comment": "メッセージカードを並べたようなテーマ "
+    },
+    "hatena_savanna-green": {
+      "title": "savanna-green",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "サバンナをイメージしたテーマ"
+    },
+    "pain": {
+      "title": "pain",
+      "author": "epi",
+      "access": "<http://330mg.bufferin.jp/diary/>",
+      "license": "GPL",
+      "comment": "luxurious pain"
+    },
+    "bright-green": {
+      "title": "Bright-green",
+      "revision": "$Revision: 1.4 $",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "新緑の季節な感じ"
+    },
+    "snowy": {
+      "title": "Snowy",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "ゆきだるまん"
+    },
+    "orange_flower": {
+      "title": "Orange Flower",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "comment": "うちの君子蘭ですが",
+      "license": "GPL"
+    },
+    "query011": {
+      "title": "query011",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "necktie": {
+      "title": "necktie",
+      "revision": "$Revision: 1.2 $",
+      "author": "sasasin",
+      "access": "http://sasasin.sytes.net/",
+      "license": "GPL",
+      "comment": "こういう色柄のネクタイがあった。"
+    },
+    "repro": {
+      "title": "repro",
+      "revision": "$Revision: 1.1 $",
+      "author": "某祐",
+      "access": "",
+      "license": "GPL",
+      "comment": "疲れた。"
+    },
+    "dot-lime": {
+      "title": "dot",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "角を意識しない水玉パターンです。"
+    },
+    "mono": {
+      "title": "mono",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "こたつ改"
+    },
+    "thin": {
+      "title": "Thin",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "シンプルなだけ"
+    },
+    "hatena-lightgray": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "kasumi": {
+      "title": "kasumi",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "seam-line": {
+      "title": "Seam-line",
+      "author": "Nana",
+      "license": "GPL",
+      "comment": "縫い目"
+    },
+    "hatena_leaf": {
+      "title": "leaf",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "葉をイメージしたテーマ"
+    },
+    "natural_gray": {
+      "title": "ナチュラルグレイ",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "淡いグレーを織りまぜた白系統のテーマ"
+    },
+    "husen": {
+      "title": "husen",
+      "author": "kosaka <kosaka@tnat.net>",
+      "access": "http://ko.cot.jp/",
+      "license": "GPL",
+      "comment": "ノートに付箋 左sidebarに対応"
+    },
+    "magic": {
+      "title": "Magic",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "web20": {
+      "title": "web20",
+      "author": "こさか",
+      "access": "takosaka at gmail.com",
+      "license": "GPL",
+      "comment": "Web2.0っぽいテーマ"
+    },
+    "hatena_japanese": {
+      "title": "japanese",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "和をイメージしたテーマ"
+    },
+    "pettan": {
+      "title": "Pettan",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "メモ帳ぺったん風"
+    },
+    "nut-brown": {
+      "title": "Nut Brown",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "栗色"
+    },
+    "asterisk-orange": {
+      "title": "asterisk-orange",
+      "revision": "1.3",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "見出しにアステリスク（＊）が入るテーマ。色はオレンジ。"
+    },
+    "glass_red": {
+      "title": "Glass Red",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "happa": {
+      "title": "はっぱ",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "noel": {
+      "title": "noel",
+      "author": "oyuu",
+      "access": "oyuu@mocha.freemail.ne.jp",
+      "license": "GPL",
+      "comment": "クリスマス向け"
+    },
+    "quiet_black": {
+      "title": "Quiet_black",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "黒バック独特の嫌味を消すように配慮したテーマ"
+    },
+    "black-red": {
+      "title": "Black-red",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "黒バック赤文字"
+    },
+    "bubble": {
+      "title": "bubble",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "license": "GPL",
+      "comment": "泡がいっぱい♪"
+    },
+    "asterisk-pink": {
+      "title": "asterisk-pink",
+      "revision": "1.3",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "見出しにアステリスク（＊）が入るテーマ。色はピンク。"
+    },
+    "wood": {
+      "title": "黒板",
+      "author": "yosshy",
+      "access": "http://yosshy.tdiary.net/",
+      "comment": "",
+      "license": "GPL"
+    },
+    "gray2": {
+      "title": "gray2",
+      "revision": "$Revision: 1.1 $",
+      "author": "naoko",
+      "access": "naoko@undefine.to",
+      "license": "GPL",
+      "comment": "グレーな色のテーマ"
+    },
+    "old-pavement": {
+      "title": "Old-pavement",
+      "revision": "$Revision: 1.4 $",
+      "author": "NOB ",
+      "access": "nob@ivyvalley.net",
+      "license": "GPL",
+      "comment": "色あせた古い舗装の様なテーマ"
+    },
+    "monochrome": {
+      "title": "monochrome",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "白黒タイル"
+    },
+    "dotted_line-red": {
+      "title": "dotted_line-red",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "babypink": {
+      "title": "Babypink",
+      "author": "epi",
+      "access": "<http://330mg.bufferin.jp/diary/>",
+      "license": "GPL",
+      "comment": "theme mintblueのpinkバージョン"
+    },
+    "another_blue": {
+      "title": "another_blue",
+      "author": "kazuaki",
+      "license": "GPL",
+      "comment": ""
+    },
+    "book3-sky": {
+      "title": "book3-sky",
+      "revision": "1.5",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "「book」は、長文の可読性を考慮した、書籍ふうのデザイン。これを元にして、明るい空のイメージに調整。男の子向けかなぁ。はてなの場合、ヘッダー部分は、<div class=\"footer\">……</div>で囲むと良いです。"
+    },
+    "snow_man": {
+      "title": "雪だるま",
+      "author": "しんちゃん",
+      "access": "stakei@nga.jp",
+      "license": "GPL",
+      "comment": "雪だるま"
+    },
+    "glass_purple": {
+      "title": "Glass Purple",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "dice": {
+      "title": "DICE",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "サイコロアンカー。ナンバリングアンカープラグイン対応というか、使わないとなんの変哲もなし"
+    },
+    "rain": {
+      "title": "Rain",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "雨つぶ"
+    },
+    "quirky2": {
+      "title": "quirky2",
+      "author": "186",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://186.bz/",
+      "license": "GPL",
+      "comment": "ちょっと奇妙なスタイルその2。右側に刺しましょう。h3を余り長くするとちょっと困ったことになります。"
+    },
+    "blue-dash": {
+      "title": "Blue-dash",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "ヨーロッパ装丁"
+    },
+    "hatena-green": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "artnouveau-blue": {
+      "title": "ArtNouveau",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "アール・ヌーヴォー調のコーナー飾りを配したパステルトーンのテーマです。RGB3色あり、それぞれに共通のカラーをローテーションさせています。"
+    },
+    "kaizou": {
+      "title": "改造",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "mixi-blue": {
+      "title": "mixi-blue",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "青いmixi"
+    },
+    "w2k_button": {
+      "title": "W2K Button",
+      "author": "jun nogata",
+      "access": "http://www.nofuture.tv/diary/",
+      "license": "GPL",
+      "comment": "Windowsに見立てたテーマ"
+    },
+    "delta": {
+      "title": "delta",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "hatena-purple": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "orange-border": {
+      "title": "Orange-border",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "星の王子さま♪"
+    },
+    "starlight": {
+      "title": "Starlight",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "glass_yellow": {
+      "title": "Glass Yellow",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "scarlet": {
+      "title": "Scarlet",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": ""
+    },
+    "nippon": {
+      "title": "日本ちゃちゃちゃ",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "サッカー日本代表ユニ"
+    },
+    "metal": {
+      "title": "Metal",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "メタリックなテーマ。Safariに一番良く馴染みます。"
+    },
+    "momiji": {
+      "title": "もみじ",
+      "revision": "$Revision: 1.2 $",
+      "author": "ただただし",
+      "access": "http://sho.tdiary.net/",
+      "license": "GPL",
+      "comment": "紅葉"
+    },
+    "glass_blue": {
+      "title": "Glass Blue",
+      "author": "YAMAGUCHI Takayuki",
+      "access": "http://i-yt.info/",
+      "license": "GPL",
+      "comment": "http://www.squaregear.net/gimptips/を参考にして作りました。"
+    },
+    "tinybox_green": {
+      "title": "tinybox緑",
+      "author": "zoe",
+      "access": "zoe@kasumi.sakura.ne.jp",
+      "license": "GPL",
+      "comment": "緑小方体"
+    },
+    "bootstrap": {
+      "title": "twitter-bootstrap theme",
+      "author": "Kado Masanori",
+      "license": "GPL v3",
+      "comment": "setting example:"
+    },
+    "fluxbox3": {
+      "title": "fluxbox3",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL"
+    },
+    "gray": {
+      "title": "Gray",
+      "revision": "$Revision: 1.2 $",
+      "author": "Nana",
+      "access": "clorets@estyle.ne.jp",
+      "license": "GPL",
+      "comment": "日記の枠が○っこいのです。"
+    },
+    "subdued": {
+      "title": "Subdued",
+      "revision": "$Revision: 1.4 $",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "comment": "地味な落ちついたシャツなイメージ",
+      "license": "GPL"
+    },
+    "memo3": {
+      "title": "memo3",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "purple_sun": {
+      "title": "purple sun",
+      "author": "くわ",
+      "access": "http://www.spc.gr.jp/kuwa/",
+      "license": "GPL",
+      "comment": "紫色の太陽が見え隠れします。"
+    },
+    "hatena_water": {
+      "title": "water",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "水をイメージしたテーマ"
+    },
+    "hatena_cinnamon": {
+      "title": "cinnamon",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなのマスコット犬しなもんのテーマ"
+    },
+    "query110": {
+      "title": "query110",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "dot-orange": {
+      "title": "dot",
+      "author": "id:DocSeri",
+      "access": "http://d.hatena.ne.jp/DocSeri/",
+      "license": "GPL",
+      "comment": "角を意識しない水玉パターンです。"
+    },
+    "natrium": {
+      "title": "ナトリウムランプ",
+      "revision": "$Revision: 1.1 $",
+      "author": "TADA Tadashi",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL"
+    },
+    "sepia": {
+      "title": "sepia",
+      "revision": "$Revision: 1.1 $",
+      "author": "naoko",
+      "access": "naoko@undefine.to",
+      "license": "GPL",
+      "comment": "セピア色のシンプルなテーマ"
+    },
+    "darkness-pop": {
+      "title": "Darkness-pop",
+      "author": "Nana",
+      "comment": "support major plugin.",
+      "license": "GPL",
+      "access": "<clores@estyle.ne.jp>"
+    },
+    "kitchen-classic": {
+      "title": "kitchen-natural",
+      "revision": "1.1",
+      "author": "Nishioka Yuji",
+      "access": "http://d.hatena.ne.jp/n-yuji/",
+      "license": "GPL",
+      "comment": "キッチンのインテリアふうのテーマシリーズです。お料理日記に最適？　この「kitchen-classic」は、クラシックなテイスト。"
+    },
+    "kanban": {
+      "title": "看板",
+      "author": "Nana",
+      "access": "<clorets@estyle.ne.jp>",
+      "comment": "日付が看板に描かれているように見えます",
+      "license": "GPL"
+    },
+    "tuki": {
+      "title": "tuki",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "support calendar2"
+    },
+    "rim-mizuiro": {
+      "title": "rim-mizuiro",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "orange-blue": {
+      "title": "Orange-Blue",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL"
+    },
+    "light-blue": {
+      "title": "light-blue",
+      "revision": "$Revision: 1.3 $",
+      "author": "naoko",
+      "access": "naoko@undefine.to",
+      "license": "GPL",
+      "comment": "明るい水色のテーマ。"
+    },
+    "himawari": {
+      "title": "himawari",
+      "revision": "$Revision: 1.1 $",
+      "author": "naoko",
+      "access": "naoko@undefine.to",
+      "license": "GPL",
+      "comment": "ひまわりのテーマ。"
+    },
+    "blackboard": {
+      "title": "blackboard",
+      "author": "id:chepooka",
+      "access": "http://d.hatena.ne.jp/chepooka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "chiffon_skyblue": {
+      "title": "chiffon_skyblue",
+      "author": "id:kamioka",
+      "access": "http://d.hatena.ne.jp/kamioka/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "snake": {
+      "title": "Snake",
+      "revision": "$Revision: 1.2 $",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "名前とは裏腹にシンプルで大人しいテーマ"
+    },
+    "pict": {
+      "title": "Pict!!",
+      "author": "186",
+      "access": "http://d.hatena.ne.jp/smoking186/ http://186.bz/",
+      "license": "GPL",
+      "comment": "Pict!!"
+    },
+    "rim-daidaiiro": {
+      "title": "rim-daidaiiro",
+      "author": "id:hikoichi",
+      "access": "http://d.hatena.ne.jp/hikoichi/",
+      "license": "GPL",
+      "comment": ""
+    },
+    "blackbox": {
+      "title": "blackbox",
+      "author": "zoe",
+      "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
+      "license": "GPL",
+      "comment": "ブラックボックスなテーマ"
+    },
+    "dot": {
+      "title": "dot",
+      "revision": "$Revision: 1.5 $",
+      "author": "Nana",
+      "license": "GPL"
+    },
+    "gray-note": {
+      "title": "Gray-note",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "ルーズリーフっぽくしてみました"
+    },
+    "hatena_savanna-white": {
+      "title": "savanna-white",
+      "author": "hatena",
+      "access": "info@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "サバンナをイメージしたテーマ"
+    },
+    "silver": {
+      "title": "シルバー",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "グレー基調の落ち着いたテーマ／縦横のストライプがアクセント"
+    }
+  }
+}

@@ -669,6 +669,16 @@ div.calendar div.year {
 		text-indent: 0px;
 	}
 
+	div.section p {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	div.section ul {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
 	div.section pre {
 		width: 90%;
 	}
@@ -695,11 +705,9 @@ div.calendar div.year {
 	}
 
 	body.update div.autopagerize_page_element {
-		width: 100%;
 	}
 
 	div.update {
-		width: 100%;
 	}
 
 	textarea {

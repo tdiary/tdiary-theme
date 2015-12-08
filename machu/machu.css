@@ -706,11 +706,13 @@ div.gist pre {
 
 	div.section img.left,
 	div.section img.right,
+	div.section img.flickr,
 	div.section img.photo {
 		display: block;
 		float: none;
 		margin: 10px auto;
 		max-width: 300px !important;
+		height: auto;
 	}
 
 	div.section img.amazon {
@@ -736,4 +738,3 @@ div.gist pre {
 		font-size: 110%;
 	}
 }
-

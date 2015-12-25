@@ -581,12 +581,15 @@ div.category ul {
 	body {
 		background-image: url(gustav_back_iphone.jpg);
 		background-position: left top;
+		background-size: contain;
+		box-sizing: border-box;
 	}
 
 	div.adminmenu {
 		font-size: x-small;
 		margin: 0px;
 		width: 100%;
+		padding: 4px 0px;
 	}
 
 	h1 {
@@ -595,7 +598,10 @@ div.category ul {
 	}
 
 	div.whole-content {
-		width: 100%;
+		width: 95%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	div.main {
@@ -646,6 +652,10 @@ div.category ul {
 
 	textarea {
 		font-size: 110%;
+	}
+
+	div.sidebar {
+		display: none;
 	}
 }
 

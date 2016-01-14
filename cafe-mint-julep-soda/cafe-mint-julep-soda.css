@@ -181,10 +181,12 @@ div.section p {
 }
 
 div.section pre {
-	margin: 1em 10px 1em 30px;
+	margin: 1em 10px;
 	padding: 8px;
 	background-color: #fff;
 	border-radius: 8px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 div.section blockquote {
@@ -635,7 +637,7 @@ div.calendar div.year {
 	div.adminmenu {
 		font-size: x-small;
 		margin: 0px;
-		width: 100%;
+		padding: 0px 4px 0px 0px;
 	}
 
 	h1 {
@@ -644,10 +646,12 @@ div.calendar div.year {
 	}
 
 	div.whole-content {
+		padding: 0px;
 		width: 100%;
 	}
 
 	div.main {
+		padding: 0px;
 		width: 100%;
 	}
 
@@ -655,6 +659,7 @@ div.calendar div.year {
 		margin-right: 0px;
 		width: 100%;
 	}
+
 	div.day h2 {
 		background-color: transparent;
 	}
@@ -664,12 +669,27 @@ div.calendar div.year {
 		text-indent: 0px;
 	}
 
+	div.section p {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	div.section ul {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	div.section pre {
+		width: 90%;
+	}
+
 	div.section img.left,
 	div.section img.right,
 	div.section img.photo {
 		display: block;
 		float: none;
 		margin: 10px auto;
+		width: 90%;
 		max-width: 300px !important;
 	}
 
@@ -685,11 +705,9 @@ div.calendar div.year {
 	}
 
 	body.update div.autopagerize_page_element {
-		width: 100%;
 	}
 
 	div.update {
-		width: 100%;
 	}
 
 	textarea {

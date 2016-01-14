@@ -1,14 +1,12 @@
-/*
 Title: Diamond_dust
 Revision: $Revision: 1.6 $
 Author: Nana
-Access: <clorets@estyle.ne.jp>
+Access: clorets@estyle.ne.jp
 License: GPL
 Comment: 冬っぽく
 
 Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
 validated by W3C.
-*/
 
 * ナンバリングアンカーに対応しています。
   number_anchor.rbをpluginディレクトリにUPして設定画面ヘッダに<%= use_number_anchor(10) %>

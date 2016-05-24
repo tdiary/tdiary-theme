@@ -5,3 +5,26 @@ License: GPL
 Comment: Responsive, Mobile friendly, using Sass preprocessor.
 
 Copyright 2016 (C) Sensuke Osawa <senosa@gmail.com>
+
+gulpを使ってscssファイルの変更を監視し自動でコンパイルする手順。
+
+```
+# node.jsインストール
+#   nodebrewを使うなどお好みでどうぞ。
+
+# gulpをグローバルにインストール
+npm install -g gulp
+
+# tdiary/tdiary-themeリポジトリをクローン
+git clone https://github.com/tdiary/tdiary-theme.git
+
+# gulpをローカルにインストール
+cd /path/to/tdiary-theme/snest
+npm install
+npm install gulp
+
+# watchタスクの開始
+gulp scss:watch
+```
+
+以後、scssディレクトリ内を変更すると自動でsnest.cssが更新されます。

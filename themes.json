@@ -2084,6 +2084,13 @@
       "license": "GPL",
       "comment": "名前とは裏腹にシンプルで大人しいテーマ"
     },
+    "snest": {
+      "title": "snest.net",
+      "author": "Sensuke Osawa",
+      "access": "senosa@gmail.com",
+      "license": "GPL",
+      "comment": "Responsive, Mobile friendly, using Sass preprocessor."
+    },
     "snow_man": {
       "title": "雪だるま",
       "author": "しんちゃん",

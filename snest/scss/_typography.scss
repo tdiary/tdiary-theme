@@ -1,0 +1,151 @@
+body {
+  color: $text;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+h1,
+h2,
+h3,
+.update div.caption,
+div.sidebar h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: 500;
+  margin: $pad-large 0 $pad-base;
+}
+
+h1 {
+  font-size: $font-size-diary-title;
+  border-bottom: $border;
+  header & {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .35);
+    border: 0;
+    font-family: $serif;
+    text-align: center;
+    padding: $pad-xsmall $pad-small;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+h2 {
+  font-size: $font-size-date-title;
+}
+
+.update div.caption,
+h3 {
+  color: $primary;
+  font-size: $font-size-section-title;
+  div.sidebar & {
+    font-size: $font-size-diary-title;
+  }
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: $pad-base 0 $pad-xsmall;
+}
+
+h4 {
+  color: $primary;
+  font-size: $font-size-large;
+  border-bottom: 2px solid $primary;
+  margin: $pad-large 0 $pad-base;
+}
+
+h5 {
+  font-size: $font-size-base;
+}
+
+h6 {
+  font-size: $font-size-small;
+}
+
+p {
+  margin-bottom: $pad-base;
+}
+
+p.message,
+span.message {
+  background-color: $red;
+}
+
+a {
+  color: $link-color;
+  &:visited {
+    color: $link-visited-color;
+  }
+  .section & {
+    text-decoration: underline;
+  }
+  .section &.amazon-detail,
+  .section h3 & {
+    text-decoration: none;
+  }
+}
+
+pre {
+  background: $grey;
+  font-family: $monospace;
+  margin-bottom: $pad-base;
+  padding: $pad-small;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: $monospace;
+}
+
+strong {
+  color: $red;
+}
+
+em {
+  font-weight: 600;
+  padding-right: $pad-xsmall;
+}
+
+ul,
+ol {
+  padding-left: $pad-large;
+  margin-bottom: $pad-base;
+  & & {
+    margin-bottom: 0;
+  }
+  .textarea & {
+    padding: 0;
+    margin-bottom: $pad-small;
+  }
+}
+
+dl {
+  margin-bottom: $pad-base;
+}
+
+dd {
+  margin-left: $pad-large;
+}
+
+blockquote {
+  border-left: 2px solid $primary;
+  font-family: $serif;
+  font-style: italic;
+  margin-bottom: $pad-base;
+  padding-left: $pad-base;
+}
+
+p.source {
+  font-size: $font-size-small;
+  margin: -$pad-base 0 0;
+}
+
+div.day div.tags {
+  font-size: $font-size-small;
+}

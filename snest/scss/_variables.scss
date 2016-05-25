@@ -1,0 +1,39 @@
+// Base
+$pad-base: 16px;
+$pad-xsmall: 4px;
+$pad-small: 8px;
+$pad-large: 32px;
+
+// Color
+$primary: #385466;
+$grey: #efefef;
+$white: #fff;
+$red: #a12800;
+$text: rgba(0, 0, 0, .9);
+$secondary: rgba(0, 0, 0, .55);
+$divider: rgba(0, 0, 0, .15);
+$link-color: #116ebd;
+$link-visited-color: #551A8B;
+
+$radius: 4px;
+$border: 1px solid $divider;
+
+// Font
+$font-size-base: 16px;
+$font-size-small: round($font-size-base * 0.85);
+$font-size-xsmall: round($font-size-base * 0.5);
+$font-size-large: round($font-size-base * 1.15);
+$font-size-diary-title: round($font-size-base * 1.5);
+$font-size-date-title: round($font-size-base * 1.15);
+$font-size-section-title: round($font-size-base * 1.85);
+$line-height-base: 1.8;
+
+$sans-serif: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+$serif: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+$monospace: "Ricty", "Consolas", "Courier New", "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+$font-family: $sans-serif;
+
+// Responsive
+$break-small: 568px;
+$break-tablet: 768px;
+$break-large: 848px;

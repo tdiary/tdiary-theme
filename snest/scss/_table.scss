@@ -1,0 +1,20 @@
+table {
+  border-top: $border;
+  margin-bottom: $pad-base;
+}
+
+thead th {
+  border-bottom: 2px solid $divider;
+  text-align: left;
+}
+
+tbody {
+  border-bottom: $border;
+}
+
+th,
+td {
+  border-bottom: $border;
+  padding: $pad-small;
+  vertical-align: inherit;
+}

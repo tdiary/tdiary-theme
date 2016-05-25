@@ -8,7 +8,7 @@
 require 'json'
 
 themes = {}
-Dir.glob('*/README') do |readme|
+Dir.glob('*/README').sort.each do |readme|
 	theme, = readme.split(/\//)
 	attrs = {}
 	open(readme, &:read).split(/\n\n/m)[0].each_line do |l|

@@ -210,6 +210,14 @@
       "license": "GPL",
       "comment": "ブラックボックスなテーマ"
     },
+    "blog": {
+      "title": "tDiary blog style",
+      "revision": "$Revision: 1.4 $",
+      "author": "ただただし",
+      "access": "t@tdtds.jp",
+      "license": "GPL",
+      "comment": "tDiary Blogkitデフォルトテーマ"
+    },
     "blue-border": {
       "title": "Blue-border",
       "author": "Nana",
@@ -522,12 +530,6 @@
       "license": "GPL",
       "comment": "犬アンカー"
     },
-    "dot": {
-      "title": "dot",
-      "revision": "$Revision: 1.5 $",
-      "author": "Nana",
-      "license": "GPL"
-    },
     "dot-lime": {
       "title": "dot",
       "author": "id:DocSeri",
@@ -555,6 +557,12 @@
       "access": "http://d.hatena.ne.jp/DocSeri/",
       "license": "GPL",
       "comment": "角を意識しない水玉パターンです。"
+    },
+    "dot": {
+      "title": "dot",
+      "revision": "$Revision: 1.5 $",
+      "author": "Nana",
+      "license": "GPL"
     },
     "dotted_line-blue": {
       "title": "dotted_line-blue",
@@ -810,6 +818,13 @@
       "license": "GPL",
       "comment": "なんとなくゴールドっぽいテーマ "
     },
+    "gray-note": {
+      "title": "Gray-note",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "ルーズリーフっぽくしてみました"
+    },
     "gray": {
       "title": "Gray",
       "revision": "$Revision: 1.2 $",
@@ -817,13 +832,6 @@
       "access": "clorets@estyle.ne.jp",
       "license": "GPL",
       "comment": "日記の枠が○っこいのです。"
-    },
-    "gray-note": {
-      "title": "Gray-note",
-      "author": "Nana",
-      "access": "http://moo.boo.jp",
-      "license": "GPL",
-      "comment": "ルーズリーフっぽくしてみました"
     },
     "gray2": {
       "title": "gray2",
@@ -888,13 +896,6 @@
       "comment": "support calendar2",
       "access": "http://moo.boo.jp",
       "license": "GPL"
-    },
-    "hatena": {
-      "title": "はてなダイアリー",
-      "author": "Junya Kondo",
-      "access": "jkondo@hatena.ne.jp",
-      "license": "GPL",
-      "comment": "はてなダイアリーのテーマ"
     },
     "hatena-black": {
       "title": "はてなダイアリー",
@@ -988,6 +989,13 @@
       "comment": "はてなダイアリーのテーマ"
     },
     "hatena-white": {
+      "title": "はてなダイアリー",
+      "author": "Junya Kondo",
+      "access": "jkondo@hatena.ne.jp",
+      "license": "GPL",
+      "comment": "はてなダイアリーのテーマ"
+    },
+    "hatena": {
       "title": "はてなダイアリー",
       "author": "Junya Kondo",
       "access": "jkondo@hatena.ne.jp",
@@ -1388,13 +1396,6 @@
       "license": "GPL",
       "comment": ""
     },
-    "mixi": {
-      "title": "mixi",
-      "author": "kosaka",
-      "access": "kosaka@tnat.net",
-      "license": "GPL",
-      "comment": "mixi"
-    },
     "mixi-blue": {
       "title": "mixi-blue",
       "author": "kosaka",
@@ -1415,6 +1416,13 @@
       "access": "kosaka@tnat.net",
       "license": "GPL",
       "comment": "桃mixi"
+    },
+    "mixi": {
+      "title": "mixi",
+      "author": "kosaka",
+      "access": "kosaka@tnat.net",
+      "license": "GPL",
+      "comment": "mixi"
     },
     "mizu": {
       "title": "水",
@@ -1595,13 +1603,6 @@
       "license": "GPL",
       "comment": "色あせた古い舗装の様なテーマ"
     },
-    "orange": {
-      "title": "Orange",
-      "author": "Nana",
-      "access": "http://moo.boo.jp",
-      "license": "GPL",
-      "comment": ""
-    },
     "orange-blue": {
       "title": "Orange-Blue",
       "author": "Nana",
@@ -1614,6 +1615,13 @@
       "access": "clorets@estyle.ne.jp",
       "license": "GPL",
       "comment": "星の王子さま♪"
+    },
+    "orange": {
+      "title": "Orange",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": ""
     },
     "orange_flower": {
       "title": "Orange Flower",
@@ -1681,19 +1689,19 @@
       "license": "GPL",
       "comment": ""
     },
-    "petith": {
-      "title": "Petith",
-      "author": "Nana",
-      "access": "http://moo.boo.jp",
-      "license": "GPL",
-      "comment": "小さなハートの枠がかわいいテーマ"
-    },
     "petith-b": {
       "title": "Petith Black",
       "author": "Nana",
       "access": "http://moo.boo.jp",
       "comment": "Petithの黒バック版",
       "license": "GPL"
+    },
+    "petith": {
+      "title": "Petith",
+      "author": "Nana",
+      "access": "http://moo.boo.jp",
+      "license": "GPL",
+      "comment": "小さなハートの枠がかわいいテーマ"
     },
     "pettan": {
       "title": "Pettan",
@@ -2321,19 +2329,19 @@
       "license": "GPL",
       "comment": "Web2.0っぽいテーマ"
     },
-    "white": {
-      "title": "White",
-      "author": "s.sawada",
-      "access": "moonwave@ba2.so-net.ne.jp",
-      "license": "GPL",
-      "comment": "白いテーマ"
-    },
     "white-lingerie": {
       "title": "White Lingerie",
       "author": "Sarsya",
       "access": "none",
       "license": "GPL",
       "comment": "白いランジェリーのテーマ"
+    },
+    "white": {
+      "title": "White",
+      "author": "s.sawada",
+      "access": "moonwave@ba2.so-net.ne.jp",
+      "license": "GPL",
+      "comment": "白いテーマ"
     },
     "white_flower": {
       "title": "White Flower",

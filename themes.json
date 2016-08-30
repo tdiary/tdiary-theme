@@ -487,6 +487,14 @@
       "license": "GPL",
       "comment": "海の中"
     },
+    "default": {
+      "title": "tDiary3デフォルト",
+      "revision": "$Revision: 1.0 $",
+      "author": "ただただし",
+      "access": "t@tdtds.jp",
+      "license": "GPL",
+      "comment": "tDiary 3.1に付属するデフォルトテーマ"
+    },
     "delta": {
       "title": "delta",
       "author": "id:kamioka",
@@ -1934,6 +1942,13 @@
       "license": "GPL",
       "comment": ""
     },
+    "rubykaigi": {
+      "title": "RubyKaigi",
+      "revision": "$Revision: 1.0 $",
+      "author": "SHIMIZU Norio",
+      "access": "toykyo@toykyo.net",
+      "license": "GPL"
+    },
     "russet": {
       "title": "russet",
       "author": "id:chepooka",
@@ -2182,6 +2197,22 @@
       "access": "http://www.kasumi.sakura.ne.jp/~zoe/",
       "license": "GPL",
       "comment": "付箋紙が貼り付けられたようなテーマ"
+    },
+    "tdiary1": {
+      "title": "tDiary1デフォルト",
+      "revision": "$Revision: 1.2 $",
+      "author": "ただただし",
+      "access": "sho@spc.gr.jp",
+      "license": "GPL",
+      "comment": "tDiary 1.4までのデフォルトテーマ"
+    },
+    "tdiary2": {
+      "title": "tDiary2デフォルト",
+      "revision": "$Revision: 2.0 $",
+      "author": "ただただし",
+      "access": "t@tdtds.jp",
+      "license": "GPL",
+      "comment": "tDiary 2.0に付属するデフォルトテーマ"
     },
     "tdiarynet": {
       "title": "tDiary.Net 2nd edition",

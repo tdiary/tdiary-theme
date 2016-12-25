@@ -1,7 +1,6 @@
 @charset "utf-8";
 /*
 Title: シルバー
-Revision: $Revision: 1.10 $
 Author: s.sawada
 Access: moonwave@ba2.so-net.ne.jp
 License: GPL
@@ -13,7 +12,8 @@ Comment: グレー基調の落ち着いたテーマ／縦横のストライプ�
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
-		 and zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
+		        zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
+		    and Yuh Ohmura <yutopia@y6.dion.ne.jp>
 */
 
 /*
@@ -513,4 +513,22 @@ form.update span.checkbox.hidediary {
 */
 div.comment form {
         margin-top: 0em;
+}
+
+/*
+for sidebar
+*/
+div.main {
+      float: right;
+      margin-right: 220px;
+}
+
+div.sidebar {
+     float: left;
+     position: absolute;
+     top: 200px;
+     right: 20px;
+     left: auto;
+     width: 200px;
+     padding: 4px 0px 100% 0px;
 }

@@ -7,9 +7,14 @@ Comment: グレー基調の落ち着いたテーマ／縦横のストライプ�
 	Copyright (C) 2002 by s.sawada <http://mwave.sppd.ne.jp/diary/>
 	validated by W3C.
 	Modified by TADA TAdashi <http://sho.tdiary.net/>
-		 and zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
+		            zoe <http://www.kasumi.sakura.ne.jp/~zoe/>
+		     and Yuh Ohmura <yutopia@y6.dion.ne.jp>
+		 
 
 ChangeLog
+2016-12-25 Yuh Ohmura <yutopia@y6.dion.ne.jp>
+	*add sidebar extention.
+
 2004-05-04 TADA Tadashi <sho@spc.gr.jp>
 	* a:hover -> a:link:hover.
 

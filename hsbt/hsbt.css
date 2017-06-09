@@ -455,6 +455,14 @@ img.flickr {
 	margin-bottom: 10px;
 }
 
+img.google {
+	border: #BCD 1px dashed;
+	display: block;
+	float: none;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
 div.main {
 	width: 79%;
 	float: left;
@@ -491,7 +499,7 @@ div.sidebar p {
 div.sidebar ul.tagcloud {
 	margin-left: 0;
 	padding-left: 0.5em;
-} 
+}
 
 div.contents {
 	background-color:#F0F8FF;

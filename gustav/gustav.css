@@ -630,6 +630,7 @@ div.category ul {
 		float: none;
 		margin: 10px auto;
 		max-width: 300px !important;
+		height: auto;
 	}
 
 	div.section img.amazon {
@@ -659,4 +660,3 @@ div.category ul {
 		display: none;
 	}
 }
-

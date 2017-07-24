@@ -582,8 +582,8 @@ div.category ul {
 @media screen and (max-device-width: 480px) {
 	body {
 		background-image: url(gustav_back_iphone.jpg);
-		background-position: left top;
-		background-size: contain;
+		background-position: center top;
+		background-size: 95%;
 		box-sizing: border-box;
 	}
 
